@@ -5,6 +5,10 @@ Preppin Data Challenge 2019-25
 Clean and reshape data on Ben Howard and Ed Sheeran concerts from 
 concertarchives.org, in preparation for Tableau Workout Wednesday 2019-31.
 
+While it may have been easier or more efficient to perform some of these 
+operations in-database, I wanted to challenge myself to perform all of 
+the operations in pandas for my own practice.
+
 Author: Kelly Gilbert
 Created: 2019-08-03
 Requirements: datasets Wow _ PD data set.xlsx and LongLats.csv
@@ -72,15 +76,18 @@ df_artist.columns = ['ConcertID', 'Fellow Artists']
 df_artist.head()
 df_artist.count()
 
-# merge the new table with the main table
-df_joined = pd.merge(df_joined, df_artist, on='ConcertID', how='left')
+# remove Ben Howard and Ed Sheeran
+df_artist = df_artist[~df_artist['Fellow Artists'].isin(['Ben Howard', 'Ed Sheeran', ''])]
+df_artist.count()
+df_artist[0:10]
+# merge the new table with the main table into a new table
+# the solution expects at least one row for Ben Howard or Ed Sheeran, plus
+# rows for any Fellow Artists
+df_artist = pd.merge(df_joined, df_artist, on='ConcertID')
 df_joined.count()
 
 
-# remove Ben Howard and Ed Sheeran
-# *** the solution wants to keep these records, just make the Fellow Artists blank
-# df_artist = df_artist[~df_artist['Fellow Artists'].isin(['Ben Howard', 'Ed Sheeran'])]
-# df_artist.count()
+
 
 # if the Fellow Artist is the same as the Artist (Ben or Ed),
 # then set Fellow Artists to an empty string
@@ -104,6 +111,7 @@ df_joined['unique_key'] = df_joined['Artist'].fillna('') + '|' \
                           + df_joined['Concert Date'].dt.strftime('%Y-%m-%d') + '|' \
                           + df_joined['Concert'].fillna('') + '|' \
                           + df_joined['Location'].fillna('') + '|' \
+                          + df_joined['Venue'].fillna('') + '|' \
                           + df_joined['Fellow Artists'].fillna('')
 
 df_joined['unique_key'] = df_joined['unique_key'].str.lower()
