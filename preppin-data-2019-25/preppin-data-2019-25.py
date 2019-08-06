@@ -49,7 +49,7 @@ df_joined = pd.merge(df_concerts, df_lat_lon, on='Location', how='left')
 
 # ideally, the split would occur before joining, but I kept the split here 
 #   to retain the order of steps from the challenge
-df_latlon_split = df_joined.LongLats.str.extract('(?P<Longitude>[\d\.\-]+), (?P<Latitude>.*$)')
+df_latlon_split = df_joined.LongLats.str.extract('(?P<Latitude>[\d\.\-]+), (?P<Longitude>.*$)')
 #df_latlon_split.head()
 
 # add the split columns to the joined table, and drop the old column
