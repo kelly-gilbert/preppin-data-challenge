@@ -1,0 +1,32 @@
+Item,Profit
+1. Bar Soap,21744.0
+     1.1 Opaque,16398.0
+          1.1.1 Lavender,10778.0
+          1.1.2 Honey,-6103.0
+          1.1.3 Orange,5422.0
+          1.1.4 Mint,6301.0
+     1.2 Transparent,5346.0
+          1.2.1 Lavender,10769.0
+          1.2.2 Honey,-270.0
+          1.2.3 Orange,-4981.0
+          1.2.4 Mint,-172.0
+2. Liquid Soap,27219.0
+     2.1 Opaque,28810.0
+          2.1.1 Lavender,-1740.0
+          2.1.2 Honey,14520.0
+          2.1.3 Orange,1551.0
+          2.1.4 Mint,14479.0
+     2.2 Transparent,-1591.0
+          2.2.1 Lavender,-4302.0
+          2.2.2 Honey,-1566.0
+          2.2.3 Orange,1187.0
+          2.2.4 Mint,3090.0
+3. Accessories,-13515.0
+     3.1 Exfoliating Glove,-16288.0
+          3.1.1 Green,-9507.0
+          3.1.2 Yellow,-2863.0
+          3.1.3 Red,-3918.0
+     3.2 Soap Holder,2773.0
+          3.2.1 Stone,-7070.0
+          3.2.2 White,4675.0
+          3.2.3 Black,5168.0
