@@ -3,7 +3,6 @@
 Preppin Data Challenge 2020-06
 https://preppindata.blogspot.com/2020/01/2020-week-6.html
  
-Summarize employee data
 - Input the data set
 - Determine the best and worst GBP to USD exchange rates on a calendar week basis
 - Take the Sales data and determine the UK / US Split
@@ -16,18 +15,20 @@ Summarize employee data
 
 Author: Kelly Gilbert
 Created: 2020-02-16
-Requirements: input dataset
-  - PD 2020 Wk 6 Input.xlsx
+
+Requirements:
+  - input dataset: PD 2020 Wk 6 Input.xlsx
   - package install: xlrd
 """
 
-from pandas import read_excel, merge, DataFrame
-from datetime import datetime
+
+from pandas import read_excel
 
 
 # import the data
-df_rates = read_excel(r'.\inputs\PD 2020 Wk 6 Input.xlsx', sheet_name='GBP to USD conversion rate')
-df_sales = read_excel(r'.\inputs\PD 2020 Wk 6 Input.xlsx', sheet_name='Sales')
+input_file = r'.\inputs\PD 2020 Wk 6 Input.xlsx'
+df_rates = read_excel(input_file, sheet_name='GBP to USD conversion rate')
+df_sales = read_excel(input_file, sheet_name='Sales')
 
 
 # parse the rate and calculate the year/week
@@ -59,16 +60,16 @@ df_all['US Sales Value (GBP)'] = df_all['Sales Value'] - df_all['UK Sales Value 
 df_all['US Sales (USD) Best Case'] =    \
     round(df_all['US Sales Value (GBP)'] * df_all['Rate_Best'], 2)
 
-df_all['US Sales (USD) Wost Case'] =    \
+df_all['US Sales (USD) Worst Case'] =    \
     round(df_all['US Sales Value (GBP)'] * df_all['Rate_Worst'], 2)
 
 df_all['US Sales Potential Variance'] = df_all['US Sales (USD) Best Case']    \
                                         - df_all['US Sales (USD) Worst Case']
 
 
-
 # clean up columns
-df_all.drop(columns=['Year','Sales Value', 'US Sales Value (GBP)', 'US Stock sold (%)', 'Rate_Worst', 'Rate_Best'], inplace=True)
+df_all.drop(columns=['Year','Sales Value', 'US Sales Value (GBP)', 'US Stock sold (%)',
+                     'Rate_Worst', 'Rate_Best'], inplace=True)
 
 
 # output the file, reordering the columns to match the example output
