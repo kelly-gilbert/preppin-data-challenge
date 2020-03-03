@@ -21,7 +21,7 @@ Requirements:
 # update the year/week to add and enter your main directory path
 year = 2020
 week = 5    # week to add
-main_dir = 'C:\\your-main-preppin-data-folder'
+main_dir = 'C:\\projects\\preppin-data-challenge'
 
 
 
