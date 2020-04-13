@@ -17,12 +17,13 @@ Requirements:
 Input data - .\inputs\PD 2020 Wk 2 Input - Time Inputs.csv
 """
 
-
+from os import chdir
 from pandas import read_csv
 from datetime import datetime as dt
 
 
 # read in the file
+chdir('C:\\projects\\preppin-data-challenge\\preppin-data-2020-02')
 df = read_csv('.\\inputs\\PD 2020 Wk 2 Input - Time Inputs.csv')
 
 
@@ -35,7 +36,7 @@ df['Date_out'] = [dt.strftime(dt.strptime(d, '%d/%m/%y'), '%m/%d/%Y') for d in d
 # clean time field:
 
 # keep numeric characters and pad with zero
-df['time_part'] = df['Time'].str.replace('\D','', regex=True).str.zfill(4)
+df['time_part'] = df['Time'].str.replace('\D','', regex=True)
 
 # separate daypart into new column and add M if missing
 df['am_pm'] = df['Time'].str.replace('([^amp]+)', '', regex=True, case=False)
@@ -44,7 +45,7 @@ df['am_pm'] = [t.ljust(2, 'm') if t != '' else '' for t in df['am_pm']]
 # convert time to specified format
 df['Time_out'] = [dt.strftime(
                          dt.strptime(t + p, '%I%M%p') if p!='' 
-                         else datetime.strptime(t, '%H%M'), '%H:%M'
+                         else dt.strptime(t, '%H%M'), '%H:%M'
                      )
                      for (t,p) in zip(df['time_part'],df['am_pm'])]
 
@@ -69,8 +70,8 @@ df_mine = read_csv('.\\outputs\\output-2020-02.csv')
 df_compare = df_solution.merge(df_mine, how='outer', on='Date Time')
 
 
-# in solution, not in mine (should be nothing)
-df_compare[df_compare['Date_x'].isna()]
-
-# in mine, not in solution (should be nothing)
-df_compare[df_compare['Date_y'].isna()]
+# print results
+print(str(len(df_compare[df_compare['Date_x'].isna()])) + ' records in solution, not in mine' \
+      + '\n' \
+      + str(len(df_compare[df_compare['Date_x'].isna()])) + ' records in mine, not in solution'
+     )
