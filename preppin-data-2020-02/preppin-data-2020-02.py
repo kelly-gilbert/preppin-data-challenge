@@ -75,3 +75,6 @@ print(str(len(df_compare[df_compare['Date_x'].isna()])) + ' records in solution,
       + '\n' \
       + str(len(df_compare[df_compare['Date_x'].isna()])) + ' records in mine, not in solution'
      )
+
+print(str(len(df_compare[df_compare['Date_x'] != df_compare['Date_y']])) + ' mismatched Date')
+print(str(len(df_compare[df_compare['Time_x'] != df_compare['Time_y']])) + ' mismatched Time')
