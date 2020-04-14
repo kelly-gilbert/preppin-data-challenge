@@ -10,6 +10,10 @@ Cleaning date/time data
 - Remove unnecessary fields
 - Output the data
 
+*** NOTE: the provided output file had two times (0:01 and 7:19) that did not 
+    have leading zeroes (although other results for those hours did). I chose to 
+    handle all times consistently (with leading zeroes).
+
 Author: Kelly Gilbert
 Created: 2020-02-18
 
