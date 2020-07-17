@@ -1,0 +1,141 @@
+Question Number,Answer,Country,Store,Name,Response,DoB
+1,13/01/2020,England,Clapham,Ross,1,21/08/2002
+1,07/01/2020,Ingland,Clapham,Ross,2,21/08/2002
+1,5th Jan 2020,England,Clapham,Clare,3,23/09/1997
+1,05/01/2020,England,Clapham,Juliana,4,09/10/1995
+1,19/01/2020,Egland,Clapham,Juliana,5,09/10/1995
+1,08/01/2020,3ngland,Clapham,Juliana,6,09/10/1995
+1,04/01/2020,England,Wimbledon,Etienne,7,13/04/1990
+1,Monday - 13th Jan,England,Wimbledon,Etienne,8,13/04/1990
+1,2020/01/19,England,Wimbledon,Bona,9,20/02/2002
+1,15/1/2020,Ingland,Peckham,Bona,10,20/02/2002
+1,7 Dec 2019,Eggland,Peckham,Kamilla,11,09/07/2001
+1,20th Jan 2020,England,Peckham,Gwilym,12,01/01/1970
+1,20/01/2020,Scotland,Scotland,Lady MacBeth,13,05/10/1930
+1,5/20/2019,United State,Lower East Side,James Cagney,14,
+1,26/12/2019,United States,Lower East Side,Joe,15,13/11/1982
+1,05/01/2020,Sc0tland,Scotland,Sylvie,16,16/07/1956
+1,08/01/2016,ENGLAND,Putney,Anya,17,08/04/1955
+1,20/01/2020,England,Putney,Angelos,18,03/11/1957
+1,10/01/2020,ENGLAND,Putney,Alice,19,05/09/1998
+1,05/01/2020,Scottish,Scotland,Sylvie,20,16/07/1956
+1,24/01/2020,Ingland,Putney,Angelos,21,03/11/1957
+1,21/01/2020,Netherlands,Utrecht,Bert,22,03/12/1975
+1,01/01/2020,Netherlands,Amsterdam,Henk,23,01/08/1985
+1,2020-01-12,The Netherlands,Amstelveen,Bas,24,22/09/1988
+1,21/01/2020,Netherlands,Friesland,Andre,25,12/12/2000
+1,21/01/2020,England,Putney,Jon,26,10/10/1992
+1,01/01/2020,Netherlands,Amsterdam,Henk,27,01/08/1985
+1,21/01/2020,England,Putney,Jon,28,10/10/1992
+2,08:21,England,Clapham,Ross,1,21/08/2002
+2,13:19,Ingland,Clapham,Ross,2,21/08/2002
+2,21:31,England,Clapham,Clare,3,23/09/1997
+2,13:03,England,Clapham,Juliana,4,09/10/1995
+2,19:01,Egland,Clapham,Juliana,5,09/10/1995
+2,22:09,3ngland,Clapham,Juliana,6,09/10/1995
+2,09:13,England,Wimbledon,Etienne,7,13/04/1990
+2,15:16,England,Wimbledon,Etienne,8,13/04/1990
+2,3.10 am,England,Wimbledon,Bona,9,20/02/2002
+2,19:27,Ingland,Peckham,Bona,10,20/02/2002
+2,02:22,Eggland,Peckham,Kamilla,11,09/07/2001
+2,1653,England,Peckham,Gwilym,12,01/01/1970
+2,16:56,Scotland,Scotland,Lady MacBeth,13,05/10/1930
+2,23:00,United State,Lower East Side,James Cagney,14,
+2,14:14,United States,Lower East Side,Joe,15,13/11/1982
+2,1.30pm,Sc0tland,Scotland,Sylvie,16,16/07/1956
+2,14:23,ENGLAND,Putney,Anya,17,08/04/1955
+2,2055,England,Putney,Angelos,18,03/11/1957
+2,07:02,ENGLAND,Putney,Alice,19,05/09/1998
+2,09.40am,Scottish,Scotland,Sylvie,20,16/07/1956
+2,1911,Ingland,Putney,Angelos,21,03/11/1957
+2,09:35,Netherlands,Utrecht,Bert,22,03/12/1975
+2,09:35,Netherlands,Amsterdam,Henk,23,01/08/1985
+2,2400,The Netherlands,Amstelveen,Bas,24,22/09/1988
+2,09:35,Netherlands,Friesland,Andre,25,12/12/2000
+2,10:15,England,Putney,Jon,26,10/10/1992
+2,11:01,Netherlands,Amsterdam,Henk,27,01/08/1985
+2,10:25,England,Putney,Jon,28,10/10/1992
+3,0,England,Clapham,Ross,1,21/08/2002
+3,10,Ingland,Clapham,Ross,2,21/08/2002
+3,8,England,Clapham,Clare,3,23/09/1997
+3,7,England,Clapham,Juliana,4,09/10/1995
+3,1,Egland,Clapham,Juliana,5,09/10/1995
+3,9,3ngland,Clapham,Juliana,6,09/10/1995
+3,6,England,Wimbledon,Etienne,7,13/04/1990
+3,9,England,Wimbledon,Etienne,8,13/04/1990
+3,4,England,Wimbledon,Bona,9,20/02/2002
+3,8,Ingland,Peckham,Bona,10,20/02/2002
+3,2,Eggland,Peckham,Kamilla,11,09/07/2001
+3,8,England,Peckham,Gwilym,12,01/01/1970
+3,1,Scotland,Scotland,Lady MacBeth,13,05/10/1930
+3,9,United State,Lower East Side,James Cagney,14,
+3,2,United States,Lower East Side,Joe,15,13/11/1982
+3,9,Sc0tland,Scotland,Sylvie,16,16/07/1956
+3,7,ENGLAND,Putney,Anya,17,08/04/1955
+3,7,England,Putney,Angelos,18,03/11/1957
+3,6,ENGLAND,Putney,Alice,19,05/09/1998
+3,5,Scottish,Scotland,Sylvie,20,16/07/1956
+3,3,Ingland,Putney,Angelos,21,03/11/1957
+3,7,Netherlands,Utrecht,Bert,22,03/12/1975
+3,2,Netherlands,Amsterdam,Henk,23,01/08/1985
+3,9,The Netherlands,Amstelveen,Bas,24,22/09/1988
+3,10,Netherlands,Friesland,Andre,25,12/12/2000
+3,10,England,Putney,Jon,26,10/10/1992
+3,2,Netherlands,Amsterdam,Henk,27,01/08/1985
+3,10,England,Putney,Jon,28,10/10/1992
+3a,,England,Clapham,Ross,1,21/08/2002
+3a,Great service (eventually),Ingland,Clapham,Ross,2,21/08/2002
+3a,Easy to work with,England,Clapham,Clare,3,23/09/1997
+3a,Nice soaps,England,Clapham,Juliana,4,09/10/1995
+3a,,Egland,Clapham,Juliana,5,09/10/1995
+3a,Beautiful fragrance,3ngland,Clapham,Juliana,6,09/10/1995
+3a,It's ok,England,Wimbledon,Etienne,7,13/04/1990
+3a,Lathers really easily,England,Wimbledon,Etienne,8,13/04/1990
+3a,,England,Wimbledon,Bona,9,20/02/2002
+3a,Great management,Ingland,Peckham,Bona,10,20/02/2002
+3a,,Eggland,Peckham,Kamilla,11,09/07/2001
+3a,Their soaps make me feel radiant,England,Peckham,Gwilym,12,01/01/1970
+3a,,Scotland,Scotland,Lady MacBeth,13,05/10/1930
+3a,My dirty stinkin rat is now nice and clean,United State,Lower East Side,James Cagney,14,
+3a,,United States,Lower East Side,Joe,15,13/11/1982
+3a,Wonderfully fragranced soaps. They always delight my guests. Such a pity that you discontinued my favourite smell though!,Sc0tland,Scotland,Sylvie,16,16/07/1956
+3a,I love that you have soaps smelling like ginger beer,ENGLAND,Putney,Anya,17,08/04/1955
+3a,Their products are 100% natural (pure olive oil soap lover),England,Putney,Angelos,18,03/11/1957
+3a,,ENGLAND,Putney,Alice,19,05/09/1998
+3a,,Scottish,Scotland,Sylvie,20,16/07/1956
+3a,I found out the olives we're from Greece,Ingland,Putney,Angelos,21,03/11/1957
+3a,Cleans perfectly and isn't too slippery,Netherlands,Utrecht,Bert,22,03/12/1975
+3a,,Netherlands,Amsterdam,Henk,23,01/08/1985
+3a,they are a smelly bunch,The Netherlands,Amstelveen,Bas,24,22/09/1988
+3a,great for my slip and slide,Netherlands,Friesland,Andre,25,12/12/2000
+3a,delicious,England,Putney,Jon,26,10/10/1992
+3a,,Netherlands,Amsterdam,Henk,27,01/08/1985
+3a,"great, delicious",England,Putney,Jon,28,10/10/1992
+3b,No-one answering my call,England,Clapham,Ross,1,21/08/2002
+3b,,Ingland,Clapham,Ross,2,21/08/2002
+3b,,England,Clapham,Clare,3,23/09/1997
+3b,,England,Clapham,Juliana,4,09/10/1995
+3b,They've all gone moldy,Egland,Clapham,Juliana,5,09/10/1995
+3b,,3ngland,Clapham,Juliana,6,09/10/1995
+3b,,England,Wimbledon,Etienne,7,13/04/1990
+3b,,England,Wimbledon,Etienne,8,13/04/1990
+3b,Lasts one wash for me,England,Wimbledon,Bona,9,20/02/2002
+3b,,Ingland,Peckham,Bona,10,20/02/2002
+3b,Their soaps are too slippery,Eggland,Peckham,Kamilla,11,09/07/2001
+3b,,England,Peckham,Gwilym,12,01/01/1970
+3b,"Out, damned spot! out, I say! Will these hands ne'er be clean? Here's the smell of the blood still: all the perfumes of Chin Beard and Suds Co will not sweeten this little hand.",Scotland,Scotland,Lady MacBeth,13,05/10/1930
+3b,,United State,Lower East Side,James Cagney,14,
+3b,Smells great but I can't get it out of my hair!!!,United States,Lower East Side,Joe,15,13/11/1982
+3b,,Sc0tland,Scotland,Sylvie,16,16/07/1956
+3b,,ENGLAND,Putney,Anya,17,08/04/1955
+3b,,England,Putney,Angelos,18,03/11/1957
+3b,"The customer service is terrible, I licked one soap to see if it was 'banana' as advertised, and I got kicked out",ENGLAND,Putney,Alice,19,05/09/1998
+3b,"Meh, it's ok",Scottish,Scotland,Sylvie,20,16/07/1956
+3b,,Ingland,Putney,Angelos,21,03/11/1957
+3b,,Netherlands,Utrecht,Bert,22,03/12/1975
+3b,my dog ate it,Netherlands,Amsterdam,Henk,23,01/08/1985
+3b,,The Netherlands,Amstelveen,Bas,24,22/09/1988
+3b,,Netherlands,Friesland,Andre,25,12/12/2000
+3b,,England,Putney,Jon,26,10/10/1992
+3b,my dog ate it agin,Netherlands,Amsterdam,Henk,27,01/08/1985
+3b,,England,Putney,Jon,28,10/10/1992

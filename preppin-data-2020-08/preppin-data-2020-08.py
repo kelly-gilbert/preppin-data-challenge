@@ -1,101 +1,103 @@
 # -*- coding: utf-8 -*-
 """
-Preppin Data Challenge 2020-08
-https://preppindata.blogspot.com/2020/01/2020-week-8.html
+Preppin Data Challenge 2020-12
+https://preppindata.blogspot.com/2020/03/2020-week-12.html
  
-Cleaning and joining spreadsheet data
+Cleaning messy data
 
-- Input Data
-- Pull all the Week worksheets together
-- Form weekly sales volume and value figures per product
-- Prepare the data in the Profit table for comparison against the actual volumes 
-  and values
-- Join the tables but only bring back those that have exceeded their Profit Min 
-  points for both Value and Volume
-- Prepare the Budget Volumes and Values for comparison against the actual volumes
-  and values
-- Join the tables but only return those that haven't reached the budget expected
-  for either Value or Volume
-- Prepare the outputs
-- Output Data
+- Input data
+- Our final output requires the Date to be in in the Year Week Number format. 
+- We don't care about any product sizes that make up 0% of sales.
+- In the Lookup Table, it seems the Product ID and Size have been erroneously 
+  concatenated. These need to be separated.  
+- You'll need to do some cleaning of the Scent fields to join together the 
+  Total Sales and the Lookup Table.
+- Calculate the sales per week for each scent and product size.
+- Output the data
+- Output
 
 Author: Kelly Gilbert
-Created: 2020-02-15
-Requirements: input datasets
-  - PD 2020 Wk 7 Current Employees Input.csv
-  - PD 2020 Wk 7 Leavers Input.csv
-  - PD 2020 Wk 7 Reporting Date Input.csv
+Created: 2020-07-18
+Requirements: input dataset
+  - PD week 12 input.xlsx
 """
 
 
-from pandas import ExcelFile, read_excel, concat
+from pandas import ExcelFile, read_csv, read_excel
 
 
 # import and prep the plan data, starting on row 2
 #    remove blank columns
 #    trim column names
 #    clean type
-in_file = ExcelFile(r'.\inputs\PD 2020 Wk 8 Input Not Random.xlsx')
-df_profit = in_file.parse(sheet_name='Budget', skiprows=2)
-df_profit = df_profit[[c for c in df_profit.columns if 'Unnamed' not in c]]
-df_profit.columns = df_profit.columns.str.strip()
-df_profit['Type'] = df_profit['Type'].str.lower()
+in_file = ExcelFile(r'.\inputs\PD week 12 input.xlsx')
 
 
-# find the bottom of the profit data and the top of the budget data
-last_index = df_profit[df_profit['Week'].isna()].index.min() - 1
-budget_start_row = df_profit.loc[df_profit['Week'] == 'Type'].index[0]
-
-df_profit = df_profit[df_profit.index < last_index]
-
-
-# import and prep the budget data
-#    remove blank columns
-#    clean type
-#    transpose weeks into rows
-#    parse week range
-#    pivot Measures into cols
-df_budget = read_excel(in_file, sheet_name = 'Budget', skiprows=2 + budget_start_row + 1, astype=object)
-df_budget = df_budget[[c for c in df_budget.columns if 'Unnamed' not in str(c)]]
-df_budget['Type'] = df_budget['Type'].str.lower().str.replace('[^a-z]', '')
-
-df_budget = df_budget.melt(id_vars=['Type', 'Measure'], var_name = 'week_range', 
-                           value_name = 'budget')
-df_budget['begin_week'] = [int(str(d)[8:10]) for d in df_budget['week_range']]
-df_budget['end_week'] = [int(str(d)[5:7]) for d in df_budget['week_range']]
-df_budget.drop(columns=['week_range'], inplace=True)
-
-new_index = ['Type', 'begin_week', 'end_week', 'Measure']
-df_budget = df_budget.set_index(new_index).unstack('Measure').reset_index()
-df_budget.columns = [b if b else a for a, b in df_budget.columns]
+# read in the Total Sales sheet
+# convert the scent name to all caps, no spaces
+df_tot = read_excel(in_file, sheet_name='Total Sales')
+#df_tot.dtypes    # make sure numbers read in properly
+df_tot.rename(columns={'Scent' : 'Scent_orig'}, inplace=True)
+df_tot['Scent_join'] = df_tot['Scent_orig'].str.replace(' ', '')
 
 
-# import and prep the sales data
-#    read in the 'Week ...' sheets
-#    clean the column names
-#    sum the volume and value by type
-#    add the week number as a column
-#    clean the type name
-df_sales = None
-for s in [s for s in in_file.sheet_names if 'Week' in s]:
-    in_sales = read_excel(in_file, sheet_name = s)
-    in_sales.columns = in_sales.columns.str.replace('Sales ', '')
-    in_sales = in_sales.groupby('Type', as_index=False).agg( 
-                                 { 'Volume' : 'sum' , 
-                                   'Value': 'sum' }
-                                )
-    in_sales['week_nbr'] = s.replace('Week ', '')    
-    df_sales = concat([df_sales, in_sales])
+# read in the Percentage of Sales sheet 
+# get the year/week
+# concatenate the Product ID and Size for joining to the lookup table
+df_pct = read_excel(in_file, sheet_name='Percentage of Sales')
+#df_pctsales.dtypes    # make sure numbers read in properly
+df_pct['Product_join'] = df_pct['Product ID'] + df_pct['Size']
+df_pct['Year Week Number'] = df_pct['Week Commencing'].dt.strftime('%Y%U').astype(int)
+# I'm not sure what week-starting day to use, so I'm guessing Sunday
+        
 
-df_sales['Type'] = df_sales['Type'].str.lower()
+# read in the Lookup Table sheet and convert the scent to all caps, no spaces
+df_lookup = read_excel(in_file, sheet_name='Lookup Table')
+#df_lookup.dtypes    # make sure numbers read in properly
+df_lookup['Scent_join'] = df_lookup['Scent'].str.upper().replace(' ', '')
+
+
+# join the lookup data to the pct sales data
+df = df_pct.merge(df_lookup, how='left', left_on='Product_join', right_on='Product')
+
+# join the total sales data to the pct/lookup data
+df = df.merge(df_tot, how='left', on=['Year Week Number', 'Scent_join'])
+
+
+# check for unjoined data
+# unjoined = df[df['Total Scent Sales'].isna()]
+# unjoined.iloc[0]
+#
+# df_tot[df_tot['Scent_join']=='ORANGE']
+
+
+# clean up the final table
+df['Sales'] = df['Total Scent Sales'] * df['Percentage of Sales']
+df = df[['Year Week Number', 'Scent', 'Size', 'Product Type', 'Sales']][df['Sales'].notna()]
 
 
 
-# Join the tables but only bring back those that have exceeded their Profit Min 
-#  points for both Value and Volume
-# Prepare the Budget Volumes and Values for comparison against the actual volumes
-#  and values
-# Join the tables but only return those that haven't reached the budget expected
-#  for either Value or Volume
-# Prepare the outputs
+df.iloc[0]
 
+df.columns
+
+df_tot.columns
+df_pct.columns
+df_lookup.columns
+
+df.columns
+
+
+# output to csv
+df.to_csv('.\\outputs\\output-2020-12.csv', index=False, 
+          columns=['Year Week Number', 'Scent', 'Size', 'Product Type', 'Sales'])
+
+
+
+
+# check results
+df_sol = read_csv('.\\outputs\\2020W12 Output - Fixed.csv')
+df_sol.rename(columns={'Secnt' : 'Scent'}, inplace=True)
+
+df2 = df_sol.merge(df, how='outer', on=['Year Week Number', 'Scent', 'Size', 'Product Type'])
+df2[df2['Sales'].isna()]

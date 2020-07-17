@@ -20,7 +20,9 @@ Requirements:
 
 # update the year/week to add and enter your main directory path
 year = 2020
-week = 5    # week to add
+week = 12    # week to add
+prev_week = 3
+prev_year = 2020
 main_dir = 'C:\\projects\\preppin-data-challenge'
 
 
@@ -41,13 +43,6 @@ mkdir(new_dir + '\\outputs')
 
 
 # copy the previous week's script into the main folder as a starter
-if week == 1: 
-    prev_year = year-1
-    prev_week = 52
-else:
-    prev_year = year
-    prev_week = week-1
-
 prev_dir = '.\\preppin-data-' + str(prev_year) + '-' + ('0' + str(prev_week))[-2:]
 prev_file = 'preppin-data-' + str(prev_year) + '-' + ('0' + str(prev_week))[-2:] + '.py'
     
