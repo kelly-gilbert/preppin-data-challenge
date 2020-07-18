@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+g# -*- coding: utf-8 -*-
 """
 Preppin Data Challenge 2020-12
 https://preppindata.blogspot.com/2020/03/2020-week-12.html
