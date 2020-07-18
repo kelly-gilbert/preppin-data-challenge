@@ -1,0 +1,308 @@
+Year Week Number,Scent,Size,Product Type,Sales
+202002,Orange,0.5l,Liquid,1167.45
+202002,Orange,100g,Bar,459.9
+202002,Orange,250ml,Liquid,707.55
+202002,Orange,50g,Bar,1202.83
+202003,Orange,0.5l,Liquid,6611.43
+202003,Orange,100g,Bar,330.57
+202003,Orange,50g,Bar,1322.29
+202004,Orange,0.5l,Liquid,5989.01
+202004,Orange,100g,Bar,2994.5
+202004,Orange,250ml,Liquid,598.9
+202004,Orange,50g,Bar,399.27
+202005,Orange,0.5l,Liquid,2263.45
+202005,Orange,100g,Bar,2514.95
+202005,Orange,250ml,Liquid,100.6
+202005,Orange,50g,Bar,150.9
+202006,Orange,0.5l,Liquid,98.35
+202006,Orange,100g,Bar,393.42
+202006,Orange,250ml,Liquid,7376.55
+202006,Orange,50g,Bar,1967.08
+202007,Orange,0.5l,Liquid,110.05
+202007,Orange,100g,Bar,204.37
+202007,Orange,250ml,Liquid,471.62
+202007,Orange,50g,Bar,786.04
+202008,Orange,0.5l,Liquid,1814.71
+202008,Orange,100g,Bar,714.89
+202008,Orange,250ml,Liquid,1099.82
+202008,Orange,50g,Bar,1869.7
+202009,Orange,0.5l,Liquid,3531.28
+202009,Orange,100g,Bar,176.56
+202009,Orange,50g,Bar,706.26
+202010,Orange,0.5l,Liquid,1003.73
+202010,Orange,100g,Bar,501.86
+202010,Orange,250ml,Liquid,100.37
+202010,Orange,50g,Bar,66.92
+202011,Orange,0.5l,Liquid,553.92
+202011,Orange,100g,Bar,615.47
+202011,Orange,250ml,Liquid,24.62
+202011,Orange,50g,Bar,36.93
+202002,Coconut,0.5l,Liquid,0.2
+202002,Coconut,100g,Bar,0.81
+202002,Coconut,250ml,Liquid,15.28
+202002,Coconut,50g,Bar,4.07
+202003,Coconut,0.5l,Liquid,61.08
+202003,Coconut,100g,Bar,113.43
+202003,Coconut,250ml,Liquid,261.76
+202003,Coconut,50g,Bar,436.27
+202004,Coconut,0.5l,Liquid,3065.04
+202004,Coconut,100g,Bar,1207.44
+202004,Coconut,250ml,Liquid,1857.6
+202004,Coconut,50g,Bar,3157.92
+202005,Coconut,0.5l,Liquid,2161.24
+202005,Coconut,100g,Bar,108.06
+202005,Coconut,50g,Bar,432.25
+202006,Coconut,0.5l,Liquid,1027.99
+202006,Coconut,100g,Bar,513.99
+202006,Coconut,250ml,Liquid,102.8
+202006,Coconut,50g,Bar,68.53
+202007,Coconut,0.5l,Liquid,2601.5
+202007,Coconut,100g,Bar,2890.55
+202007,Coconut,250ml,Liquid,115.62
+202007,Coconut,50g,Bar,173.43
+202008,Coconut,0.5l,Liquid,13.27
+202008,Coconut,100g,Bar,53.07
+202008,Coconut,250ml,Liquid,995.0
+202008,Coconut,50g,Bar,265.33
+202009,Coconut,0.5l,Liquid,315.05
+202009,Coconut,100g,Bar,585.09
+202009,Coconut,250ml,Liquid,1350.22
+202009,Coconut,50g,Bar,2250.36
+202010,Coconut,0.5l,Liquid,1135.58
+202010,Coconut,100g,Bar,447.35
+202010,Coconut,250ml,Liquid,688.23
+202010,Coconut,50g,Bar,1169.99
+202011,Coconut,0.5l,Liquid,6360.7
+202011,Coconut,100g,Bar,318.03
+202011,Coconut,50g,Bar,1272.14
+202002,Mint,0.5l,Liquid,3537.32
+202002,Mint,100g,Bar,1768.66
+202002,Mint,250ml,Liquid,353.73
+202002,Mint,50g,Bar,235.82
+202003,Mint,0.5l,Liquid,2033.49
+202003,Mint,100g,Bar,2259.44
+202003,Mint,250ml,Liquid,90.38
+202003,Mint,50g,Bar,135.57
+202004,Mint,0.5l,Liquid,81.05
+202004,Mint,100g,Bar,324.19
+202004,Mint,250ml,Liquid,6078.5
+202004,Mint,50g,Bar,1620.93
+202005,Mint,0.5l,Liquid,227.99
+202005,Mint,100g,Bar,423.41
+202005,Mint,250ml,Liquid,977.1
+202005,Mint,50g,Bar,1628.5
+202006,Mint,0.5l,Liquid,2795.03
+202006,Mint,100g,Bar,1101.07
+202006,Mint,250ml,Liquid,1693.96
+202006,Mint,50g,Bar,2879.73
+202007,Mint,0.5l,Liquid,7533.1
+202007,Mint,100g,Bar,376.65
+202007,Mint,50g,Bar,1506.62
+202008,Mint,0.5l,Liquid,5228.37
+202008,Mint,100g,Bar,2614.19
+202008,Mint,250ml,Liquid,522.84
+202008,Mint,50g,Bar,348.56
+202009,Mint,0.5l,Liquid,344.31
+202009,Mint,100g,Bar,382.57
+202009,Mint,250ml,Liquid,15.3
+202009,Mint,50g,Bar,22.95
+202010,Mint,0.5l,Liquid,1.18
+202010,Mint,100g,Bar,4.72
+202010,Mint,250ml,Liquid,88.54
+202010,Mint,50g,Bar,23.61
+202011,Mint,0.5l,Liquid,555.49
+202011,Mint,100g,Bar,1031.62
+202011,Mint,250ml,Liquid,2380.66
+202011,Mint,50g,Bar,3967.77
+202002,Honey,0.5l,Liquid,1141.49
+202002,Honey,100g,Bar,449.68
+202002,Honey,250ml,Liquid,691.81
+202002,Honey,50g,Bar,1176.08
+202003,Honey,0.5l,Liquid,4179.0
+202003,Honey,100g,Bar,208.95
+202003,Honey,50g,Bar,835.8
+202004,Honey,0.5l,Liquid,3461.02
+202004,Honey,100g,Bar,1730.51
+202004,Honey,250ml,Liquid,346.1
+202004,Honey,50g,Bar,230.73
+202005,Honey,0.5l,Liquid,4079.49
+202005,Honey,100g,Bar,4532.77
+202005,Honey,250ml,Liquid,181.31
+202005,Honey,50g,Bar,271.97
+202006,Honey,0.5l,Liquid,12.41
+202006,Honey,100g,Bar,49.66
+202006,Honey,250ml,Liquid,931.11
+202006,Honey,50g,Bar,248.3
+202007,Honey,0.5l,Liquid,13.09
+202007,Honey,100g,Bar,24.3
+202007,Honey,250ml,Liquid,56.09
+202007,Honey,50g,Bar,93.48
+202008,Honey,0.5l,Liquid,1535.08
+202008,Honey,100g,Bar,604.73
+202008,Honey,250ml,Liquid,930.35
+202008,Honey,50g,Bar,1581.6
+202009,Honey,0.5l,Liquid,6708.37
+202009,Honey,100g,Bar,335.42
+202009,Honey,50g,Bar,1341.67
+202010,Honey,0.5l,Liquid,1212.52
+202010,Honey,100g,Bar,606.26
+202010,Honey,250ml,Liquid,121.25
+202010,Honey,50g,Bar,80.83
+202011,Honey,0.5l,Liquid,966.78
+202011,Honey,100g,Bar,1074.2
+202011,Honey,250ml,Liquid,42.97
+202011,Honey,50g,Bar,64.45
+202002,Lavendar,0.5l,Liquid,18.7
+202002,Lavendar,100g,Bar,74.79
+202002,Lavendar,250ml,Liquid,1402.3
+202002,Lavendar,50g,Bar,373.95
+202003,Lavendar,0.5l,Liquid,420.06
+202003,Lavendar,100g,Bar,780.1
+202003,Lavendar,250ml,Liquid,1800.24
+202003,Lavendar,50g,Bar,3000.4
+202004,Lavendar,0.5l,Liquid,1178.69
+202004,Lavendar,100g,Bar,464.33
+202004,Lavendar,250ml,Liquid,714.36
+202004,Lavendar,50g,Bar,1214.41
+202005,Lavendar,0.5l,Liquid,3497.54
+202005,Lavendar,100g,Bar,174.88
+202005,Lavendar,50g,Bar,699.51
+202006,Lavendar,0.5l,Liquid,654.71
+202006,Lavendar,100g,Bar,327.36
+202006,Lavendar,250ml,Liquid,65.47
+202006,Lavendar,50g,Bar,43.65
+202007,Lavendar,0.5l,Liquid,686.69
+202007,Lavendar,100g,Bar,762.98
+202007,Lavendar,250ml,Liquid,30.52
+202007,Lavendar,50g,Bar,45.78
+202008,Lavendar,0.5l,Liquid,57.27
+202008,Lavendar,100g,Bar,229.09
+202008,Lavendar,250ml,Liquid,4295.52
+202008,Lavendar,50g,Bar,1145.47
+202009,Lavendar,0.5l,Liquid,169.82
+202009,Lavendar,100g,Bar,315.39
+202009,Lavendar,250ml,Liquid,727.82
+202009,Lavendar,50g,Bar,1213.04
+202010,Lavendar,0.5l,Liquid,3017.0
+202010,Lavendar,100g,Bar,1188.52
+202010,Lavendar,250ml,Liquid,1828.49
+202010,Lavendar,50g,Bar,3108.43
+202011,Lavendar,0.5l,Liquid,5516.62
+202011,Lavendar,100g,Bar,275.83
+202011,Lavendar,50g,Bar,1103.32
+202002,Vanilla,0.5l,Liquid,2019.36
+202002,Vanilla,100g,Bar,1009.68
+202002,Vanilla,250ml,Liquid,201.94
+202002,Vanilla,50g,Bar,134.62
+202003,Vanilla,0.5l,Liquid,2041.49
+202003,Vanilla,100g,Bar,2268.32
+202003,Vanilla,250ml,Liquid,90.73
+202003,Vanilla,50g,Bar,136.1
+202004,Vanilla,0.5l,Liquid,22.12
+202004,Vanilla,100g,Bar,88.49
+202004,Vanilla,250ml,Liquid,1659.15
+202004,Vanilla,50g,Bar,442.44
+202005,Vanilla,0.5l,Liquid,208.62
+202005,Vanilla,100g,Bar,387.45
+202005,Vanilla,250ml,Liquid,894.1
+202005,Vanilla,50g,Bar,1490.18
+202006,Vanilla,0.5l,Liquid,1970.39
+202006,Vanilla,100g,Bar,776.21
+202006,Vanilla,250ml,Liquid,1194.17
+202006,Vanilla,50g,Bar,2030.1
+202007,Vanilla,0.5l,Liquid,3259.54
+202007,Vanilla,100g,Bar,162.98
+202007,Vanilla,50g,Bar,651.91
+202008,Vanilla,0.5l,Liquid,1880.04
+202008,Vanilla,100g,Bar,940.02
+202008,Vanilla,250ml,Liquid,188.0
+202008,Vanilla,50g,Bar,125.34
+202009,Vanilla,0.5l,Liquid,3021.42
+202009,Vanilla,100g,Bar,3357.14
+202009,Vanilla,250ml,Liquid,134.29
+202009,Vanilla,50g,Bar,201.43
+202010,Vanilla,0.5l,Liquid,35.18
+202010,Vanilla,100g,Bar,140.73
+202010,Vanilla,250ml,Liquid,2638.73
+202010,Vanilla,50g,Bar,703.66
+202011,Vanilla,0.5l,Liquid,252.97
+202011,Vanilla,100g,Bar,469.8
+202011,Vanilla,250ml,Liquid,1084.16
+202011,Vanilla,50g,Bar,1806.93
+202002,Lemongrass,0.5l,Liquid,2305.99
+202002,Lemongrass,100g,Bar,908.42
+202002,Lemongrass,250ml,Liquid,1397.57
+202002,Lemongrass,50g,Bar,2375.87
+202003,Lemongrass,0.5l,Liquid,411.87
+202003,Lemongrass,100g,Bar,20.59
+202003,Lemongrass,50g,Bar,82.37
+202004,Lemongrass,0.5l,Liquid,5518.16
+202004,Lemongrass,100g,Bar,2759.08
+202004,Lemongrass,250ml,Liquid,551.82
+202004,Lemongrass,50g,Bar,367.88
+202005,Lemongrass,0.5l,Liquid,3239.62
+202005,Lemongrass,100g,Bar,3599.58
+202005,Lemongrass,250ml,Liquid,143.98
+202005,Lemongrass,50g,Bar,215.97
+202006,Lemongrass,0.5l,Liquid,41.08
+202006,Lemongrass,100g,Bar,164.34
+202006,Lemongrass,250ml,Liquid,3081.3
+202006,Lemongrass,50g,Bar,821.68
+202007,Lemongrass,0.5l,Liquid,478.76
+202007,Lemongrass,100g,Bar,889.12
+202007,Lemongrass,250ml,Liquid,2051.81
+202007,Lemongrass,50g,Bar,3419.68
+202008,Lemongrass,0.5l,Liquid,651.43
+202008,Lemongrass,100g,Bar,256.63
+202008,Lemongrass,250ml,Liquid,394.81
+202008,Lemongrass,50g,Bar,671.17
+202009,Lemongrass,0.5l,Liquid,1282.29
+202009,Lemongrass,100g,Bar,64.11
+202009,Lemongrass,50g,Bar,256.46
+202010,Lemongrass,0.5l,Liquid,3072.19
+202010,Lemongrass,100g,Bar,1536.1
+202010,Lemongrass,250ml,Liquid,307.22
+202010,Lemongrass,50g,Bar,204.81
+202011,Lemongrass,0.5l,Liquid,1546.38
+202011,Lemongrass,100g,Bar,1718.2
+202011,Lemongrass,250ml,Liquid,68.73
+202011,Lemongrass,50g,Bar,103.09
+202002,Tea Tree,0.5l,Liquid,76.29
+202002,Tea Tree,100g,Bar,305.18
+202002,Tea Tree,250ml,Liquid,5722.11
+202002,Tea Tree,50g,Bar,1525.9
+202003,Tea Tree,0.5l,Liquid,94.54
+202003,Tea Tree,100g,Bar,175.57
+202003,Tea Tree,250ml,Liquid,405.16
+202003,Tea Tree,50g,Bar,675.28
+202004,Tea Tree,0.5l,Liquid,777.51
+202004,Tea Tree,100g,Bar,306.29
+202004,Tea Tree,250ml,Liquid,471.22
+202004,Tea Tree,50g,Bar,801.07
+202005,Tea Tree,0.5l,Liquid,2288.46
+202005,Tea Tree,100g,Bar,114.42
+202005,Tea Tree,50g,Bar,457.69
+202006,Tea Tree,0.5l,Liquid,4359.94
+202006,Tea Tree,100g,Bar,2179.97
+202006,Tea Tree,250ml,Liquid,435.99
+202006,Tea Tree,50g,Bar,290.66
+202007,Tea Tree,0.5l,Liquid,3752.17
+202007,Tea Tree,100g,Bar,4169.08
+202007,Tea Tree,250ml,Liquid,166.76
+202007,Tea Tree,50g,Bar,250.14
+202008,Tea Tree,0.5l,Liquid,30.54
+202008,Tea Tree,100g,Bar,122.15
+202008,Tea Tree,250ml,Liquid,2290.26
+202008,Tea Tree,50g,Bar,610.74
+202009,Tea Tree,0.5l,Liquid,24.54
+202009,Tea Tree,100g,Bar,45.58
+202009,Tea Tree,250ml,Liquid,105.19
+202009,Tea Tree,50g,Bar,175.31
+202010,Tea Tree,0.5l,Liquid,218.45
+202010,Tea Tree,100g,Bar,2657.78
+202010,Tea Tree,250ml,Liquid,364.08
+202010,Tea Tree,50g,Bar,400.49
+202011,Tea Tree,0.5l,Liquid,1292.24
+202011,Tea Tree,100g,Bar,2385.67
+202011,Tea Tree,250ml,Liquid,5964.17
+202011,Tea Tree,50g,Bar,298.21
