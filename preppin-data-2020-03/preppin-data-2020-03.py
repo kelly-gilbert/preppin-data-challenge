@@ -1,135 +1,40 @@
 # -*- coding: utf-8 -*-
 """
-Preppin Data Challenge 2020-04
-https://preppindata.blogspot.com/2020/01/2020-week-4.html
+Preppin Data Challenge 2020-03
+https://preppindata.blogspot.com/2020/01/2020-week-3.html
  
-De-duplicating survey data
+Summarizing NBA data
 
-- Input the data
-- Change the Question Number for the question asked
-- Clean the Country and Store names
-  We only want English names for places
-- Clean up the dates and times to create a 'Completion Date' as a Date Time field
-- Understand the age of the customer based on their Date of Birth (DoB)
-  Nulls are ok
-  Their age is taken to the date of 22nd January 2020
-- Find the first answer for each customer in each store and country
-- Find the latest answer for each customer in each store and country (if there are multiple responses)
-- Remove any answers that are not a customer's first or latest
-- Classify the 'NPS Recommendation' question based on the standard logic:
-  0-6 makes the customer a 'Detractor'
-  7-8 makes the customer a 'Passive' 
-  9-10 makes the customer a 'Promoter'
-- Output the data
+- For each team we're looking to discover the following information:
+  Rank: Rank for each team within their conference.
+  W: Wins for each team.
+  L: Losses for each team.
+  Pct: Win percentage for each team.
+  Conf: The wins and losses for each team against teams within the same conference only.
+  Home: The wins and losses for home games for each team.
+  Away: The wins and losses for away games for each team.
+  L10: The wins and losses for the last (most recently played) 10 games for each team.
+  Strk: The current winning or losing streak that each team is on.
+  The only column not required for this challenge is the GB (games behind).
+- After producing these pieces of information, split the teams into two separate outputs - 
+  one for each conference
 
 Author: Kelly Gilbert
-Created: 2020-07-05
+Created: 2020-02-15
 Requirements: input dataset
-  - PD 2020 Wk 4 Input.csv
+  - PD - NBA Results.xlsx
 """
 
+
+from datetime import datetime as dt
+from numpy import where, nan
 from os import chdir
-from pandas import read_csv, pivot_table
-
-
-#------------------------------------------------------------------------------
-# import and explore the data
-#------------------------------------------------------------------------------
+from pandas import concat, ExcelFile, ExcelWriter, melt
 
 # import the data
-chdir('C:\\projects\\preppin-data-challenge\\preppin-data-2020-04')
+chdir('C:\\projects\\preppin-data-challenge\\preppin-data-2020-03')
+xl = ExcelFile(r'.\inputs\PD - NBA Results.xlsx')
 
-df = read_csv('.\\inputs\\PD 2020 Wk 4 Input.csv', 
-              parse_dates=['DoB'], infer_datetime_format=True, dayfirst=True)
-
-# read questions into a series
-s_questions = read_csv('.\\inputs\\Store Survey Results - Question Sheet.csv', index_col=['Number'], squeeze=True)
-
-
-# what are the questions?
-s_questions
-
-# explore the answer data -- we have one row per response/question
-df.dtypes
-df.describe(include='all')
-
-# what are the different date formats? (what type of cleaning will we need?)
-df[df['Question Number']=='1'].groupby('Answer')['Question Number'].count()
-
-# what are the different time formats?
-df[df['Question Number']=='2'].groupby('Answer')['Question Number'].count()
-
-
-#------------------------------------------------------------------------------
-# reshape the data with questions in columns
-#-----------------------------------------------------------------------------
-
-df2 = pivot_table(df, values='Answer', index=['Response', 'Country', 'Store', 'Name', 'DoB'],
-                    columns=['Question Number'], aggfunc=min, fill_value=nan)
-
-# rename the columns with the question text
-df2.rename(columns=s_questions.to_dict(), inplace=True)
-
-
-#------------------------------------------------------------------------------
-# clean the date and time columns
-#-----------------------------------------------------------------------------
-
-# dd/mm/yyyy
-# d/m/yyyy
-# yyyy-mm-dd
-# yyyy/mm/dd
-# ddth mmm yyyy
-# d mmm yyyy
-# ddd - dth mmm
-#
-from pandas import to_datetime
-
-df2
-df2['dc'] = to_datetime(df2['What day did you fill the survey in?'], errors='coerce', dayfirst=True)
-df2[['What day did you fill the survey in?','dc']]
-
-df2[df2['dc'].isnull()]
-
-
-
-def clean_datetime(col):
-    # attempt to clean using pandas to_datetime
-    col2 = to_datetime(col, errors='coerce', dayfirst=True)
-    
-    # if any were skipped...
-    if len(col2[col2.isnull()]) > 0:
-        print(col2[col2.isnull()][[0,0]]) 
-        
-        
-    return col2
-
-clean_datetime(df2['What day did you fill the survey in?'])
-
-col = df2['What day did you fill the survey in?']
-type(col)
-
-
-df2.columns
-
-df.head()
-df['Question Number'].unique()
-
-df.groupby(['Question Number', 'Answer']).count()
-
-df[df['Question Number'].unique()
-
-
-df[df['Question Number']=='1']['Answer'].unique()
-
-
-df_questions.head()
-df.columns
-
-
-df[df['Question Number']=='1']['Answer'].unique()
-
-print(dates)
 
 # import the team info and correct spelling of Division
 df_team = xl.parse('Team List')
@@ -246,33 +151,6 @@ for c in df_summary['conference'].unique():
                                                      index = False)
 writer.save()
 
-#--------------------------------------------------------------------------------
+
 # check results
-#--------------------------------------------------------------------------------
-
-# read in the solution file
-xl = ExcelFile(r'.\outputs\ExampleOutputs.xlsx')
-df_solution = xl.parse(parse_dates=False, converters={'Away': str})
-
-# read in my file
-xl = ExcelFile(r'.\outputs\output-2020-03.xlsx')
-df_mine = xl.parse(parse_date=False)
-
-
-# compare
-df_compare = df_solution.merge(df_mine, how='outer', on=None)
-
-if 'Team_x' in df_compare or 'Team_y' in df_compare:
-    print(str(len(df_compare[df_compare['Team_y'].isna()])) + ' records in solution, not in mine' \
-      + '\n' \
-      + str(len(df_compare[df_compare['Team_x'].isna()])) + ' records in mine, not in solution'
-     )
-elif len(df_solution.columns) != len(df_mine.columns) or \
-    df_solution.columns != df_mine.columns:
-    print('Columns do not match')
-    print('Solution columns: ')
-    print(df_solution.columns)
-    print('My columns: ')
-    print(df_mine.columns)
-else:
-    print('All records match')
+#...
