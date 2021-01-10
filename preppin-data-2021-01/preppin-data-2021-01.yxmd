@@ -1,0 +1,1127 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="630" height="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Preppin' Data Challenge - 2021 Week 1
+
+https://preppindata.blogspot.com/2021/01/2021-week-1.html
+
+- Connect and load the csv file
+- Split the 'Store-Bike' field into 'Store' and 'Bike'
+- Clean up the 'Bike' field to leave just three values in the 'Bike' field (Mountain, Gravel, Road)
+- Create two different cuts of the date field: 'quarter' and 'day of month'
+- Remove the first 10 orders as they are test values
+- Output the data as a csv</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="277" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\inputs\PD 2021 Wk 1 Input - Bike Sales.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PD 2021 Wk 1 Input - Bike Sales.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order ID" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Customer Age" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Bike Value" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Existing Customer?" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Store - Bike" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="421" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Original" />
+            <Field name="Corrected" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Graval</c>
+              <c>Gravel</c>
+            </r>
+            <r>
+              <c>Gravle</c>
+              <c>Gravel</c>
+            </r>
+            <r>
+              <c>Mountaen</c>
+              <c>Mountain</c>
+            </r>
+            <r>
+              <c>Rood</c>
+              <c>Road</c>
+            </r>
+            <r>
+              <c>Rowd</c>
+              <c>Road</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Bike name lookup</AnnotationText>
+          <DefaultAnnotationText>Bike name lookup</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="804" y="277" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">.\outputs\output-2021-01.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>output-2021-01.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="156" y="228" width="609" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Prep and clean data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="293" y="277" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Store - Bike</Field>
+              <RegExExpression value="(.*) \- (.*)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseComplex</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Store - Bike</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="Store" type="V_String" size="254" />
+                <Field field="Bike" type="V_String" size="254" />
+              </ParseComplex>
+              <Match>
+                <Field>Order ID_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse Bike and Store</AnnotationText>
+              <DefaultAnnotationText>Parse Bike and Store</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="416" y="277" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Bike</FieldFind>
+              <FieldSearch>Original</FieldSearch>
+              <ReplaceFoundField>Corrected</ReplaceFoundField>
+              <FindMode>FindWhole</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Clean up Bike types</AnnotationText>
+              <DefaultAnnotationText>Clean up Bike types</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="181" y="277" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="datetimeparse( &#xA;  [Date],&#xA;  '%d/%m/%Y' &#xA;)" field="Date_parsed" size="10" type="Date" />
+                <FormulaField expression="floor((datetimemonth([Date_parsed]) - 1)/3)&#xA;+ 1" field="Quarter" size="1" type="Byte" />
+                <FormulaField expression="datetimeday([Date_parsed])" field="Day of Month" size="1" type="Byte" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse date and date parts</AnnotationText>
+              <DefaultAnnotationText>Date_parsed = datetimeparse( 
+  [Date],
+  '%d/%m/%Y' 
+)
+Quarter = floor((datetim...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings>
+            <Position x="528" y="277" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">11+</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Remove first 10</AnnotationText>
+              <DefaultAnnotationText>Remove first 10</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="646" y="277" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Quarter" selected="True" />
+                <SelectField field="Order ID" selected="True" type="Int16" size="2" />
+                <SelectField field="Store" selected="True" />
+                <SelectField field="Bike" selected="True" />
+                <SelectField field="Customer Age" selected="True" type="Byte" size="1" />
+                <SelectField field="Bike Value" selected="True" type="Double" size="8" />
+                <SelectField field="Existing Customer?" selected="True" type="V_WString" size="3" />
+                <SelectField field="Day of Month" selected="True" />
+                <SelectField field="Date" selected="False" />
+                <SelectField field="Store - Bike" selected="False" />
+                <SelectField field="Date_parsed" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Clean up and rearrange fields</AnnotationText>
+              <DefaultAnnotationText>Clean up and rearrange fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="958" y="228" width="1119" height="475" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>BONUS</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="983" y="277.0001" width="590" height="400.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Prep data for chart</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="16">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="1008" y="338" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Bike" action="GroupBy" rename="Bike" />
+                    <SummarizeField field="Quarter" action="GroupBy" rename="Quarter" />
+                    <SummarizeField field="Day of Month" action="GroupBy" rename="Day of Month" />
+                    <SummarizeField field="Bike Value" action="Avg" rename="Avg_Bike Value" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Avg Bike Value by Bike type, Quarter, and Day of Month</AnnotationText>
+                  <DefaultAnnotationText>Avg Bike Value by Bike type, Quarter, and Day of Month</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="21">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="1392" y="458" width="156" height="96" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>I used a crosstab here because Transforms --&gt; Split in the chart tool would not accept custom colors (without creating a custom palette or manually changing the tool XML).</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+            <Node ToolID="22">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+                <Position x="1416" y="326.0001" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <GroupFields>
+                    <Field field="Quarter" />
+                    <Field field="Day of Month" />
+                  </GroupFields>
+                  <HeaderField field="Bike" />
+                  <DataField field="RunTot_Avg_Bike Value" />
+                  <Methods>
+                    <Method method="First" />
+                  </Methods>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Crosstab with qtr and day of month in rows, bike type in cols</AnnotationText>
+                  <DefaultAnnotationText>Crosstab with qtr and day of month in rows, bike type in cols</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Quarter" source="CrossTab:Group:First:" type="Byte" />
+                    <Field name="Day of Month" source="CrossTab:Group:First:" type="Byte" />
+                    <Field name="Gravel" source="RunningTotal: Total of Avg_Bike Value" type="Double" />
+                    <Field name="Mountain" source="RunningTotal: Total of Avg_Bike Value" type="Double" />
+                    <Field name="Road" source="RunningTotal: Total of Avg_Bike Value" type="Double" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="Quarter" order="Asc" />
+                    <Field field="Day of Month" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+            </Node>
+            <Node ToolID="23">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RunningTotal.RunningTotal">
+                <Position x="1332" y="326.0001" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <GroupByFields>
+                    <Field field="Quarter" />
+                    <Field field="Bike" />
+                  </GroupByFields>
+                  <RunningTotalFields>
+                    <Field field="Avg_Bike Value" />
+                  </RunningTotalFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunningTotal" />
+            </Node>
+            <Node ToolID="24">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="1008" y="470" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Quarter" action="GroupBy" rename="Quarter" />
+                    <SummarizeField field="Bike" action="GroupBy" rename="Bike" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>All quarter/bike type combos</AnnotationText>
+                  <DefaultAnnotationText>All quarters</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="25">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+                <Position x="1008" y="578" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name />
+                  <CreateField_Name>Day of Month</CreateField_Name>
+                  <CreateField_Type>Byte</CreateField_Type>
+                  <CreateField_Size>1</CreateField_Size>
+                  <Expression_Init>1</Expression_Init>
+                  <Expression_Cond>[Day of Month] &lt;= 31</Expression_Cond>
+                  <Expression_Loop>[Day of Month] + 1</Expression_Loop>
+                  <RecordCount value="31" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                  <RecordCount value="0" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>All days of month</AnnotationText>
+                  <DefaultAnnotationText>All days of month</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+            </Node>
+            <Node ToolID="26">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+                <Position x="1140" y="542" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <CartesianMode>Allow</CartesianMode>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Output">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>All quarter/bike type/day combinations</AnnotationText>
+                  <DefaultAnnotationText>All quarter/bike type/day combinations</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+            </Node>
+            <Node ToolID="29">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+                <Position x="1236" y="326.0001" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <JoinByRecPos value="False" />
+                  <JoinFields>
+                    <JoinInfo connection="#1">
+                      <Field field="Bike" />
+                      <Field field="Quarter" />
+                      <Field field="Day of Month" />
+                    </JoinInfo>
+                    <JoinInfo connection="#2">
+                      <Field field="Bike" />
+                      <Field field="Quarter" />
+                      <Field field="Day of Month" />
+                    </JoinInfo>
+                  </JoinFields>
+                  <CartesianMode>Error</CartesianMode>
+                  <OutputJoinOnly value="False" />
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Output">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Input_#2_Bike" selected="False" rename="Input_#2_Bike" />
+                        <SelectField field="Input_#2_Quarter" selected="False" rename="Input_#2_Quarter" />
+                        <SelectField field="Input_#2_Day of Month" selected="False" rename="Input_#2_Day of Month" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1619" y="277" width="433" height="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Create chart and assemble report</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="20">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1968" y="326" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\KELLY~1.GIL\AppData\Local\Temp\Engine_27548_464a4bc0ec764173b2e482acf3bb6484_\Engine_6384_65fc05d0b23b4afc9f6be9fbc9758634_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="30">
+              <GuiSettings Plugin="PlotlyCharting">
+                <Position x="1644" y="326" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ChartingFields>
+                    <Traces>
+                      <type>scatter</type>
+                      <mode>lines</mode>
+                      <xsrc>Day of Month</xsrc>
+                      <ysrc>Gravel</ysrc>
+                      <name>Gravel</name>
+                      <line>
+                        <width>3</width>
+                        <color>rgb(204, 178, 43)</color>
+                      </line>
+                    </Traces>
+                    <Traces>
+                      <type>scatter</type>
+                      <mode>lines</mode>
+                      <name>Mountain</name>
+                      <xsrc>Day of Month</xsrc>
+                      <ysrc>Mountain</ysrc>
+                      <line>
+                        <width>3</width>
+                        <color>rgb(159, 143, 18)</color>
+                      </line>
+                    </Traces>
+                    <Traces>
+                      <type>scatter</type>
+                      <mode>lines</mode>
+                      <name>Road</name>
+                      <xsrc>Day of Month</xsrc>
+                      <ysrc>Road</ysrc>
+                      <line>
+                        <width>3</width>
+                        <color>rgb(149, 156, 158)</color>
+                      </line>
+                    </Traces>
+                    <Layout>
+                      <title>
+                        <text>
+                        </text>
+                      </title>
+                      <font>
+                        <family>sans-serif</family>
+                        <size>12</size>
+                      </font>
+                      <autosize>false</autosize>
+                      <width>800</width>
+                      <height>150</height>
+                      <showlegend>true</showlegend>
+                      <hovermode>closest</hovermode>
+                      <xaxis>
+                        <range>1</range>
+                        <range>31</range>
+                        <autorange>true</autorange>
+                        <title>
+                          <text>&lt;br&gt;</text>
+                        </title>
+                        <type>linear</type>
+                        <tickfont>
+                          <size>12</size>
+                        </tickfont>
+                        <nticks>0</nticks>
+                      </xaxis>
+                      <yaxis>
+                        <range>-2406.8330467372134</range>
+                        <range>66389.827888007043</range>
+                        <autorange>true</autorange>
+                        <title>
+                          <text>Running Sum</text>
+                        </title>
+                        <type>linear</type>
+                      </yaxis>
+                      <margin>
+                        <pad>0</pad>
+                        <t>10</t>
+                        <b>20</b>
+                        <l>80</l>
+                        <r>80</r>
+                      </margin>
+                    </Layout>
+                    <Batch>
+                      <ColumnsToBatchBy json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">Quarter</ColumnsToBatchBy>
+                      <TemplateString>
+                      </TemplateString>
+                    </Batch>
+                  </ChartingFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Line chart, grouped by quarter</AnnotationText>
+                  <DefaultAnnotationText>Line chart, grouped by quarter</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+            </Node>
+            <Node ToolID="32">
+              <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+                <Position x="1836" y="326" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Images />
+                  <HeaderMode value="True" />
+                  <HeaderField>Table</HeaderField>
+                  <Position>Above</Position>
+                  <RawMode value="False" />
+                  <ValidatePCXML value="True" />
+                  <Message />
+                  <RichTextMode value="True" />
+                  <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red159\green143\blue18;\red204\green178\blue43;\red149\green156\blue158;}
+\viewkind4\uc1\pard\f0\fs32 Typical Running Monthly Sales in each Quarter\fs48\par
+\fs23 For \cf1 Mountain\cf0 , \cf2 Gravel \cf0 and \cf3 Road \cf0 bikes\f1\fs24\par
+}
+]]></RichTextString>
+                  <Styles>
+                    <Style Name="TextStyle" />
+                  </Styles>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Typical Running Monthly Sales ...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+            </Node>
+            <Node ToolID="33">
+              <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+                <Position x="1740" y="326" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TableMode>Basic</TableMode>
+                  <GroupingFields orderChanged="False" />
+                  <Width>100%</Width>
+                  <ShowHeader value="True" />
+                  <ShowBarGraph value="False" />
+                  <TableFields orderChanged="False">
+                    <Field name="Quarter" selected="True" Alignment="Left" />
+                    <Field name="Chart" selected="True" Alignment="Center" Alias="Day of Month" Borders="Both" Width="" />
+                    <Field name="*Unknown" selected="True" Alignment="Right" />
+                  </TableFields>
+                  <TableStyles>
+                    <Style Name="Data" Font="--Calibri" Size="11" TextColor="#000000" BackColor="#ffffff" AltColor="#ffffff" RowGroup="1" />
+                    <Style Name="Header" Font="--Calibri" Size="11" TextColor="#000000" BackColor="#ffffff" />
+                    <Style Name="Borders" Width="1" DataColor="#bbc3c8" HeaderColor="#bbc3c8" RowBorder="Per Row" BasicColBorder="Default (Use Per Column Setting)" />
+                    <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="false" Width="1" BorderColor="#000000" />
+                  </TableStyles>
+                  <StyleRules />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="719" y="54" width="153.8949" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Check results</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="744" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\outputs\PD 2021 Wk 1 Output.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PD 2021 Wk 1 Output.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Quarter" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Store" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Bike" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Order ID" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Customer Age" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Bike Value" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Existing Customer?" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Day of Month" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="936" y="139" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Quarter" />
+                <Field field="Store" />
+                <Field field="Bike" />
+                <Field field="Order ID" />
+                <Field field="Customer Age" />
+                <Field field="Existing Customer?" />
+                <Field field="Day of Month" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Quarter" />
+                <Field field="Store" />
+                <Field field="Bike" />
+                <Field field="Order ID" />
+                <Field field="Customer Age" />
+                <Field field="Existing Customer?" />
+                <Field field="Day of Month" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Quarter" selected="True" rename="Right_Quarter" input="Right_" />
+                    <SelectField field="Right_Order ID" selected="True" rename="Right_Order ID" input="Right_" />
+                    <SelectField field="Right_Store" selected="True" rename="Right_Store" input="Right_" />
+                    <SelectField field="Right_Bike" selected="True" rename="Right_Bike" input="Right_" />
+                    <SelectField field="Right_Customer Age" selected="True" rename="Right_Customer Age" input="Right_" />
+                    <SelectField field="Right_Bike Value" selected="True" rename="Right_Bike Value" input="Right_" />
+                    <SelectField field="Right_Existing Customer?" selected="True" rename="Right_Existing Customer?" input="Right_" />
+                    <SelectField field="Right_Day of Month" selected="True" rename="Right_Day of Month" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
+            <Position x="1152" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Tests>
+                <Test>
+                  <Name>In solution, not in mine</Name>
+                  <Connection>#1</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>In mine, not in solution</Name>
+                  <Connection>#2</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>Values do not match</Name>
+                  <Connection>#3</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+              </Tests>
+              <DontReportSubsequent value="True" />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>In solution, not in mine
+In mine, not in solution
+Values do not match</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTest" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1032" y="163" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Bike Value] != [Right_Bike Value]</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Bike Values do not match</AnnotationText>
+              <DefaultAnnotationText>[Bike Value] != [Right_Bike Value]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="840" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Quarter" selected="True" />
+                <Field field="Store" selected="True" />
+                <Field field="Bike" selected="True" />
+                <Field field="Order ID" selected="True" />
+                <Field field="Customer Age" selected="True" />
+                <Field field="Bike Value" selected="True" />
+                <Field field="Existing Customer?" selected="True" />
+                <Field field="Day of Month" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Quarter" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
+                <Field name="Store" size="10" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="String" />
+                <Field name="Bike" size="8" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="String" />
+                <Field name="Order ID" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Int16" />
+                <Field name="Customer Age" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
+                <Field name="Bike Value" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Int16" />
+                <Field name="Existing Customer?" size="3" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="String" />
+                <Field name="Day of Month" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="36" Connection="Left" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="36" Connection="Right" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>preppin-data-2021-01</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
