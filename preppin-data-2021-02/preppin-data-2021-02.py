@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Preppin Data Challenge 2021-02
-https://preppindata.blogspot.com/2021/01/2021-week-1.html
+https://preppindata.blogspot.com/2021/01/2021-week-2.html
  
 Aggregation
 
@@ -27,7 +27,9 @@ Author: Kelly Gilbert
 Created: 2021-01-14
 Requirements: 
   - input dataset (PD 2021 Wk 2 Input - Bike Model Sales.csv)
-  - output dataset (for results check, PD 2021 Wk 1 Output.csv)
+  - output datasets (for results check):
+    - PD 2021 Wk 2 Brand Type.csv
+    - PD 2021 Wk 2 Brand Store.csv
   
 """
 
