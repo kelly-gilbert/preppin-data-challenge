@@ -20,9 +20,9 @@ Requirements:
 
 # update the year/week to add and enter your main directory path
 year = 2021
-week = 1    # week to add
-prev_week = 3
-prev_year = 2020
+week = 2    # week to add
+prev_year = 2021
+prev_week = 1
 main_dir = 'C:\\projects\\preppin-data-challenge'
 
 
