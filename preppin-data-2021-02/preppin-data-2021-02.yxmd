@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="54" width="630" height="138" />
+        <Position x="54" y="54.99998" width="696" height="239" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -11,12 +11,20 @@
 
 https://preppindata.blogspot.com/2021/01/2021-week-2.html
 
-- Connect and load the csv file
-- Split the 'Store-Bike' field into 'Store' and 'Bike'
-- Clean up the 'Bike' field to leave just three values in the 'Bike' field (Mountain, Gravel, Road)
-- Create two different cuts of the date field: 'quarter' and 'day of month'
-- Remove the first 10 orders as they are test values
-- Output the data as a csv</Text>
+- Input the data
+- Clean up the Model field to leave only the letters to represent the Brand of the bike
+- Workout the Order Value using Value per Bike and Quantity.
+- Aggregate Value per Bike, Order Value and Quantity by Brand and Bike Type to form:
+  Quantity Sold
+  Order Value
+  Average Value Sold per Brand, Type
+- Calculate Days to ship by measuring the difference between when an order was placed and when it was shipped as 'Days to Ship'
+- Aggregate Order Value, Quantity and Days to Ship by Brand and Store to form:
+  Total Quantity Sold
+  Total Order Value
+  Average Days to Ship
+- Round any averaged values to one decimal place to make the values easier to read
+- Output both data sets</Text>
           <Font name="Arial" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -32,7 +40,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="282" />
+        <Position x="54" y="379" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -56,9 +64,6 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
           <DefaultAnnotationText>PD 2021 Wk 2 Input - Bike Model Sales.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Bike Type" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-02\inputs\PD 2021 Wk 2 Input - Bike Model Sales.csv" type="V_String" />
@@ -75,7 +80,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
     </Node>
     <Node ToolID="50">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="549" y="233" width="363" height="285" />
+        <Position x="549" y="330" width="363" height="285" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -93,7 +98,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
       <ChildNodes>
         <Node ToolID="48">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="574" y="282" />
+            <Position x="574" y="379" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -116,7 +121,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
         </Node>
         <Node ToolID="49">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="574" y="402" />
+            <Position x="574" y="499" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -139,7 +144,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
         </Node>
         <Node ToolID="51">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="788" y="282" />
+            <Position x="788" y="379" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -160,15 +165,12 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
               <DefaultAnnotationText>output-2021-01-brand-type.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
         <Node ToolID="52">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="788" y="402" />
+            <Position x="788" y="499" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -189,15 +191,12 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
               <DefaultAnnotationText>output-2021-01-brand-store.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
         <Node ToolID="58">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="695" y="282" />
+            <Position x="695" y="379" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -216,7 +215,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
         </Node>
         <Node ToolID="59">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="695" y="402" />
+            <Position x="695" y="499" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -238,7 +237,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
     </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="172" y="233" width="342" height="195" />
+        <Position x="172" y="329.9999" width="342" height="195.0001" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -256,7 +255,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
       <ChildNodes>
         <Node ToolID="46">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="197" y="282" />
+            <Position x="197" y="378.9999" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -279,7 +278,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
         </Node>
         <Node ToolID="47">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="298" y="282" />
+            <Position x="298" y="379" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -314,7 +313,7 @@ https://preppindata.blogspot.com/2021/01/2021-week-2.html
         </Node>
         <Node ToolID="11">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="392" y="282" />
+            <Position x="392" y="379" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -338,7 +337,7 @@ Order Value = [Quantity] *...</DefaultAnnotationText>
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1025" y="53.00002" width="517" height="417" />
+        <Position x="1025" y="53.99998" width="517" height="417" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -356,7 +355,7 @@ Order Value = [Quantity] *...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1050" y="114" />
+            <Position x="1050" y="115" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -380,9 +379,6 @@ Order Value = [Quantity] *...</DefaultAnnotationText>
               <DefaultAnnotationText>PD 2021 Wk 2 Brand Type.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Brand" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-02\outputs\PD 2021 Wk 2 Brand Type.csv" type="V_WString" />
@@ -397,7 +393,7 @@ Order Value = [Quantity] *...</DefaultAnnotationText>
         </Node>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1242" y="138" />
+            <Position x="1242" y="139" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -434,7 +430,7 @@ Order Value = [Quantity] *...</DefaultAnnotationText>
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
-            <Position x="1458" y="102" />
+            <Position x="1458" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -472,7 +468,7 @@ Values do not match</DefaultAnnotationText>
         </Node>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1338" y="162" />
+            <Position x="1338" y="163" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -493,7 +489,7 @@ OR [Order Value] != [Right_Order Value]...</DefaultAnnotationText>
         </Node>
         <Node ToolID="39">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="1146" y="114" />
+            <Position x="1146" y="115" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -528,7 +524,7 @@ OR [Order Value] != [Right_Order Value]...</DefaultAnnotationText>
         </Node>
         <Node ToolID="53">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1050" y="306" />
+            <Position x="1050" y="307" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -552,9 +548,6 @@ OR [Order Value] != [Right_Order Value]...</DefaultAnnotationText>
               <DefaultAnnotationText>PD 2021 Wk 2 Brand Store.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Brand" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-02\outputs\PD 2021 Wk 2 Brand Store.csv" type="V_WString" />
@@ -569,7 +562,7 @@ OR [Order Value] != [Right_Order Value]...</DefaultAnnotationText>
         </Node>
         <Node ToolID="57">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-            <Position x="1146" y="306" />
+            <Position x="1146" y="307" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -604,7 +597,7 @@ OR [Order Value] != [Right_Order Value]...</DefaultAnnotationText>
         </Node>
         <Node ToolID="54">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1242" y="330" />
+            <Position x="1242" y="331" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -641,7 +634,7 @@ OR [Order Value] != [Right_Order Value]...</DefaultAnnotationText>
         </Node>
         <Node ToolID="55">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
-            <Position x="1458" y="282" />
+            <Position x="1458" y="283" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -679,7 +672,7 @@ Values do not match</DefaultAnnotationText>
         </Node>
         <Node ToolID="56">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="1338" y="354" />
+            <Position x="1338" y="355" />
           </GuiSettings>
           <Properties>
             <Configuration>
