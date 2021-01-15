@@ -109,7 +109,7 @@ g.map(sns.lineplot, "Day of Month", "Cuml Sales", 'Bike',
 df_solution = read_csv('.\\outputs\\PD 2021 Wk 1 Output.csv')
 
 # read in my file
-df_mine = df_solution = read_csv('.\\outputs\\output-2021-01.csv')
+df_mine = read_csv('.\\outputs\\output-2021-01.csv')
 
 # are the fields the same and in the same order?
 if list(df_solution.columns) != list(df_mine.columns):
