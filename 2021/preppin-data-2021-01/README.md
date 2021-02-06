@@ -1,4 +1,4 @@
-# Preppin'Data 2021 Week 2
+# Preppin' Data 2021 Week 2
 
 ## Python (data prep)
 <a href="preppin-data-2021-01.py">
