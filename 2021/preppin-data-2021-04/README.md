@@ -7,5 +7,5 @@
 
 ## Alteryx
 <a href="/preppin-data-2021-04.yxmd">
-<img src="img-alteryx-2021-04.PNG?raw=true" alt="Alteryx workflow">
+<img src="img-alteryx-2021-04.png?raw=true" alt="Alteryx workflow">
 </a>
