@@ -25,10 +25,10 @@ from shutil import copy2
 
 # update the year/week to add and enter your main directory path
 year = 2021
-week = 2    # week to add
+week = 7    # week to add
 prev_year = 2021
-prev_week = 1
-main_dir = 'enter main path here'
+prev_week = 6
+main_dir = 'C:\\projects\\preppin-data-challenge\\'
 
 chdir(main_dir)
 yr_wk = str(year) + '-' + ('0' + str(week))[-2:]
@@ -63,7 +63,7 @@ md += chr(10)
 
 md += '## Alteryx' + chr(10)
 md += '<a href="/preppin-data-' + yr_wk + '.yxmd">' + chr(10)
-md += '<img src="img-alteryx-' + yr_wk + '.PNG?raw=true" alt="Alteryx workflow">' + chr(10)
+md += '<img src="img-alteryx-' + yr_wk + '.png?raw=true" alt="Alteryx workflow">' + chr(10)
 md += '</a>'
 
 with open(new_dir + "\\README.md", "w") as text_file:
