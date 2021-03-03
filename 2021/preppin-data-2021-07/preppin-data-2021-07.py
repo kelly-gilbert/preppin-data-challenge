@@ -31,6 +31,7 @@ Requirements:
   
 """
 
+
 from pandas import DataFrame, ExcelFile, read_excel
 
 # used for answer check only
@@ -38,10 +39,34 @@ from pandas import read_csv
 
 
 # import the data
-with ExcelFile(r'.\inputs\Shopping List and Ingredients.xlsx') as xl:
+with ExcelFile(r'.\\inputs\\Shopping List and Ingredients.xlsx') as xl:
     dfItems = read_excel(xl, 'Shopping List')
     dfKeywordsIn = read_excel(xl, 'Keywords')
-   
+
+# parse the keywords and numbers, stack the names and numbers, add E to the numbers
+keywordList = ['E' + k if k.isnumeric() else k 
+               for k in dfKeywordsIn.stack().str.split(', ').explode().reset_index(drop=True)]
+
+    
+    
+#--------------------------------------------------------------------------------
+# method 1: list comprehension
+#    The challenge specifically said to append the keywords (i.e. a cartesian
+#    product, method #2 below). In practice, I would accomplish this using a
+#    list comprehension.
+#--------------------------------------------------------------------------------
+
+# parse the keywords and numbers, stack the names and numbers, add E to the numbers
+dfKeywords = ['E' + k if k.isnumeric() else k 
+              for k in dfKeywordsIn.stack().str.split(', ').explode().reset_index(drop=True)]
+    
+dfItems['Contains'] = [', '.join([k.lower() for k in dfKeywords if k in i]) 
+                       for i in dfItems['Ingredients/Allergens']]
+
+    
+#--------------------------------------------------------------------------------
+# method 2: cartesian product (as specified in the challenge)
+#--------------------------------------------------------------------------------
     
 # prepare the keyword data:
 # parse the keywords and numbers, stack the names and numbers, add E to the numbers
@@ -64,59 +89,62 @@ dfAll['Contains'] = [k.lower() if k.lower() in i.lower() else ''
 # concatenate the keywords into a list
 dfAll.drop_duplicates(subset=['Product', 'Description', 'Contains'])
 
-dfOut = dfAll.groupby(['Product','Description'])['Contains'].agg(Contains=list).reset_index()
-dfOut['Contains'] = [', '.join([i for i in c if i != '']) for c in dfOut['Contains']]
+dfItems = dfAll.groupby(['Product','Description'])['Contains'].agg(Contains=list).reset_index()
+dfItems['Contains'] = [', '.join([i for i in c if i != '']) for c in dfItems['Contains']]
 
 
+#--------------------------------------------------------------------------------
 # output the files
-dfOut[dfOut['Contains'] == ''].to_csv('.\\outputs\\output-2021-07-vegan.csv', 
+#--------------------------------------------------------------------------------
+
+dfItems[dfItems['Contains'] == ''].to_csv('.\\\\outputs\\\\output-2021-07-vegan.csv', 
                                        columns=['Product', 'Description'], index=False)
-dfOut[dfOut['Contains'] != ''].to_csv('.\\outputs\\output-2021-07-non-vegan.csv', index=False)
+dfItems[dfItems['Contains'] != ''].to_csv('.\\\\outputs\\\\output-2021-07-non-vegan.csv', 
+                                       columns=['Product', 'Description', 'Contains'], index=False)
 
 
 #--------------------------------------------------------------------------------
 # check results
 #--------------------------------------------------------------------------------
 
-solution_files = ['Vegan List.csv', 'Non Vegan List.csv']
-my_files = ['output-2021-07-vegan.csv', 'output-2021-07-non-vegan.csv']
+solutionFiles = ['Vegan List.csv', 'Non Vegan List.csv']
+myFiles = ['output-2021-07-vegan.csv', 'output-2021-07-non-vegan.csv']
 col_order_matters = False
 
-i=1
-for i in range(len(solution_files)):
-    print('---------- Checking \'' + solution_files[i] + '\' ----------\n')
+for i in range(len(solutionFiles)):
+    print('---------- Checking \'' + solutionFiles[i] + '\' ----------\n')
     
     # read in the files
-    df_solution = read_csv('.\\outputs\\' + solution_files[i])
-    df_mine = read_csv('.\\outputs\\' + my_files[i])
+    dfSolution = read_csv('.\\outputs\\' + solutionFiles[i])
+    dfMine = read_csv('.\\outputs\\' + myFiles[i])
     
     # are the fields the same and in the same order?
-    solution_cols = list(df_solution.columns)
-    my_cols = list(df_mine.columns)
+    solutionCols = list(dfSolution.columns)
+    myCols = list(dfMine.columns)
     if col_order_matters == False:
-         solution_cols.sort()
-         my_cols.sort()
+         solutionCols.sort()
+         myCols.sort()
 
     col_match = False
-    if solution_cols != my_cols:
+    if solutionCols != myCols:
         print('*** Columns do not match ***')
-        print('    Columns in solution: ' + str(list(df_solution.columns)))
-        print('    Columns in mine    : ' + str(list(df_mine.columns)))
+        print('    Columns in solution: ' + str(list(dfSolution.columns)))
+        print('    Columns in mine    : ' + str(list(dfMine.columns)))
     else:
         print('Columns match\n')
         col_match = True
     
     # are the values the same? (only check if the columns matched)
     if col_match == True:
-        df_solution['check'] = 1
-        df_mine['check'] = 1
-        df_compare = df_solution.merge(df_mine, how='outer', on=list(df_solution.columns)[:-1])
+        dfSolution['join'] = 1
+        dfMine['join'] = 1
+        dfCompare = dfSolution.merge(dfMine, how='outer', on=list(dfSolution.columns)[:-1])
+        dfCompare.rename(columns={'join_x':'in_solution', 'join_y':'in_mine'}, inplace=True)    
         
-        if df_compare['check_x'].count() != len(df_compare):
+        if dfCompare['in_solution'].count() != len(dfCompare):
             print('*** Values do not match ***')
-            print(df_compare[df_compare['check_x'] != df_compare['check_x']])
+            print(dfCompare[dfCompare['in_solution'] != dfCompare['in_mine']])
         else:
             print('Values match')
     
     print('\n')
-    
