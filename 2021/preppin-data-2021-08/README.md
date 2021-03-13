@@ -4,7 +4,7 @@
 
 #### Note for all methods: there were two numeric user IDs > 6 digits that were converted to scientific notation in the provided solution file (Karaoke Output.csv). I converted those user IDs so my output would match the solution, but obviously we wouldn't want to do that in practice! In this example, the Customer ID is a 67-digit number, which is larger than Excel's maximum precision of 15 (and Alteryx's 50).
 
-<img src="/images-for-readme/img-readme-000.png?raw=true" alt="Customer ID that has been converted to scientific notation in the solution file">
+<img src="_images-for-readme/img-readme-000.png" alt="Customer ID that has been converted to scientific notation in the solution file">
 
 
 ## Python
@@ -23,17 +23,17 @@
 </a>
 
 #### However, this didn't quite match the solution.
-<img src="/images-for-readme/img-readme-00.png?raw=true" alt="Alteryx results from method 1">
+<img src="_images-for-readme/img-readme-00.png?raw=true" alt="Alteryx results from method 1">
 
 #### Looking at customer 316313 in Python, we can see that the customer arrived at 20:00:00, but the session actually started slightly earlier at 19:59:59.971. Therefore, customer 316313 should not have been assigned to session #73.
 
-<img src="/images-for-readme/img-readme-01.png?raw=true" alt="Python output for customer 316313 and song times on 1/1/2021">
+<img src="_images-for-readme/img-readme-01.png?raw=true" alt="Python output for customer 316313 and song times on 1/1/2021">
 
 #### The standard Alteryx Input tool is sensitive to the cell formatting in Excel. Here I edited the first five Dates in Excel to display fractional seconds. 
-<img src="/images-for-readme/img-readme-02.png?raw=true" alt="Changing the cell format in Excel to include fractional seconds">
+<img src="_images-for-readme/img-readme-02.png?raw=true" alt="Changing the cell format in Excel to include fractional seconds">
 
-#### When the reformatted cells import into Alteryx, they import as numbers (number of days since 12/31/1899), from which the fractional seconds could be extracted. However,if cells are formatted as normal date/time, they are rounded to the nearest second when imported.
-<img src="/images-for-readme/img-readme-03.png?raw=true" alt="Results of importing the reformatted cells in Alteryx">
+#### When the reformatted cells import into Alteryx, they import as numbers (number of days since 12/31/1899), from which the fractional seconds could be extracted. However, if cells are formatted as normal date/time, they are rounded to the nearest second when imported.
+<img src="_images-for-readme/img-readme-03.png?raw=true" alt="Results of importing the reformatted cells in Alteryx">
 
 #### I experimented with checking the First Row Contains Data option to force all fields to be imported as strings, but that didn't seem to have any effect.
 
@@ -44,16 +44,16 @@
 
 #### Remembering that an .xlsx file is essentially a zip file containing XML files, and knowing that Alteryx has built-in tools to handle reading zip files and parsing XML, I explored that option. In the Input tool, I chose File Format = zip, and then selected the XML files to parse. In this case, we need three files: sheet1 (songs), sheet2 (customers), and sharedStrings, which contains any cell values that are strings.
 
-<img src="/images-for-readme/img-readme-04.png?raw=true" alt="Selecting the XML files in the Alteryx Input tool">
+<img src="_images-for-readme/img-readme-04.png?raw=true" alt="Selecting the XML files in the Alteryx Input tool">
 
 
 #### Parsing the worksheet XML yields the cell address (r2 field) and the contents (v field). If the cell value is a string, then [t]='s', and [v] contains the string number. If the cell value is a number, then [v] contains the value.
 
-<img src="/images-for-readme/img-readme-05.png?raw=true" alt="XML parse output">
+<img src="_images-for-readme/img-readme-05.png?raw=true" alt="XML parse output">
 
 #### We can then join the string # to the parsed sharedStrings output to get the values for the string cells and then transpose into a table. Now the date field is a more precise numeric value that we can use for joining customers to sessions.
 
-<img src="/images-for-readme/img-readme-06.png?raw=true" alt="Output after transposing and renaming">
+<img src="_images-for-readme/img-readme-06.png?raw=true" alt="Output after transposing and renaming">
 
 #### Since we can't do a non-equijoin in Alteryx, I found the min timestamp per session (one row per session), and then cross joined that to the customer list. Customers arriving after the session start or more than 10 minutes before the session start were filtered out.
 
