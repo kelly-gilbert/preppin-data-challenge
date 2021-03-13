@@ -1,0 +1,989 @@
+Session #,Customer ID,Song Order,Date,Artist,Song
+1,cd2834,1,22/12/2020 14:00:00,Wham!,Last Christmas
+2,2de3d7,1,22/12/2020 15:00:00,Dolly Parton,9 To 5
+2,2de3d7,2,22/12/2020 15:02:00,Camilla Cabello Ft. Young Thug,Havana
+2,2de3d7,3,22/12/2020 15:04:00,Moana,How Far I’ll Go
+3,6.99E+67,1,22/12/2020 18:00:00,Backstreet Boys,I Want It That Way
+4,316313,1,22/12/2020 19:00:00,Alexandra Burke,Hallelujah
+4,316313,2,22/12/2020 19:03:00,Luis Fonsi & Daddy Yankee,Despacito
+4,316313,3,22/12/2020 19:05:00,The Lion King,Can You Feel The Love Tonight
+4,316313,4,22/12/2020 19:07:00,Billie Eilish,Bad Guy
+5,aa0846,1,22/12/2020 23:00:00,Lil Nas X,Old Town Road
+5,aa0846,2,22/12/2020 23:03:00,ABBA,Dancing Queen
+5,aa0846,3,22/12/2020 23:05:00,Alexandra Burke,Hallelujah
+5,aa0846,4,22/12/2020 23:08:00,Aladdin,A Whole New World
+5,aa0846,5,22/12/2020 23:11:00,Loren Allred,Never Enough (The Greatest Showman)
+5,aa0846,6,22/12/2020 23:13:00,Aqua,Barbie Girl
+5,aa0846,7,22/12/2020 23:15:00,Vanilla Ice,Ice Ice Baby
+5,aa0846,8,22/12/2020 23:18:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+6,7da7c9,1,23/12/2020 07:00:00,Robbie Williams,Angels
+7,15885d,1,23/12/2020 08:00:00,Frank Sinatra,My Way
+7,15885d,2,23/12/2020 08:03:00,Little Mix,Shout Out To My Ex
+7,15885d,3,23/12/2020 08:06:00,Frank Sinatra,New York New York
+7,15885d,4,23/12/2020 08:09:00,Ed Sheeran,Shape Of You
+8,c02782,1,23/12/2020 12:00:00,Wham!,Last Christmas
+8,c02782,2,23/12/2020 12:02:00,Ed Sheeran,Perfect
+8,c02782,3,23/12/2020 12:04:00,Moana,How Far I’ll Go
+8,c02782,4,23/12/2020 12:07:00,Lady Gaga & Bradley Cooper,Shallow
+9,abae4d,1,23/12/2020 16:00:00,Moana,How Far I’ll Go
+10,01fc7c,1,23/12/2020 17:00:00,Ike And Tina Turner,Proud Mary
+10,01fc7c,2,23/12/2020 17:02:00,Whitney Houston,I Wanna Dance With Somebody
+10,01fc7c,3,23/12/2020 17:05:00,The Proclaimers,I’m Gonna Be (500 Miles)
+10,01fc7c,4,23/12/2020 17:08:00,Lady Gaga & Bradley Cooper,Shallow
+10,01fc7c,5,23/12/2020 17:11:00,Pinkfong,Baby Shark
+10,01fc7c,6,23/12/2020 17:14:00,The Lion King,I Just Can’t Wait To Be King
+10,01fc7c,7,23/12/2020 17:16:00,The Proclaimers,I’m Gonna Be (500 Miles)
+11,2e5db7,1,24/12/2020 01:00:00,John Denver,"Take Me Home, Country Roads"
+12,4999af,1,24/12/2020 02:00:00,Loren Allred,Never Enough (The Greatest Showman)
+12,4999af,2,24/12/2020 02:02:00,John Denver,"Take Me Home, Country Roads"
+13,cdda70,1,24/12/2020 04:00:00,Shania Twain,Man! I Feel Like A Woman
+13,cdda70,2,24/12/2020 04:03:00,Mariah Carey,All I Want For Christmas Is You
+13,cdda70,3,24/12/2020 04:05:00,Loren Allred,Never Enough (The Greatest Showman)
+13,cdda70,4,24/12/2020 04:07:00,Bonnie Tyler,Total Eclipse Of The Heart
+14,51a416,1,24/12/2020 08:00:00,Ed Sheeran,Perfect
+14,51a416,2,24/12/2020 08:02:00,Mariah Carey,All I Want For Christmas Is You
+15,896f04,1,24/12/2020 10:00:00,Oasis,Don’t Look Back In Anger
+16,d5fcf7,1,24/12/2020 11:00:00,The Beatles,Hey Jude
+16,d5fcf7,2,24/12/2020 11:03:00,Aladdin,A Whole New World
+16,d5fcf7,3,24/12/2020 11:06:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+16,d5fcf7,4,24/12/2020 11:09:00,High School Musical,Breaking Free
+17,c01ecb,1,24/12/2020 15:00:00,Ariana Grande,7 Rings
+18,6eb0e1,1,24/12/2020 16:00:00,Oasis,Don’t Look Back In Anger
+18,6eb0e1,2,24/12/2020 16:03:00,Shania Twain,Man! I Feel Like A Woman
+18,6eb0e1,3,24/12/2020 16:06:00,Frozen,Let It Go
+18,6eb0e1,4,24/12/2020 16:08:00,Pinkfong,Baby Shark
+18,6eb0e1,5,24/12/2020 16:11:00,High School Musical,Breaking Free
+18,6eb0e1,6,24/12/2020 16:14:00,Bryan Adams,Summer Of ’69
+18,6eb0e1,7,24/12/2020 16:17:00,Ed Sheeran,Shape Of You
+18,6eb0e1,8,24/12/2020 16:20:00,Dirty Dancing,The Time Of My Life
+18,6eb0e1,9,24/12/2020 16:23:00,Ed Sheeran & Justin Bieber,I Don’t Care
+18,6eb0e1,10,24/12/2020 16:26:00,Lewis Capaldi,Someone You Loved
+19,adea16,1,25/12/2020 02:00:00,ABBA,Mamma Mia
+20,bdc39c,1,25/12/2020 03:00:00,Backstreet Boys,Everybody
+20,bdc39c,2,25/12/2020 03:02:00,Dolly Parton,Jolene
+20,bdc39c,3,25/12/2020 03:04:00,Dua Lipa,New Rules
+20,bdc39c,4,25/12/2020 03:07:00,Loren Allred,Never Enough (The Greatest Showman)
+20,bdc39c,5,25/12/2020 03:09:00,John Denver,"Take Me Home, Country Roads"
+20,bdc39c,6,25/12/2020 03:12:00,TLC,No Scrubs
+20,bdc39c,7,25/12/2020 03:15:00,Lil Nas X,Old Town Road
+20,bdc39c,8,25/12/2020 03:18:00,The Lion King,I Just Can’t Wait To Be King
+20,bdc39c,9,25/12/2020 03:20:00,The Little Mermaid,Part Of Your World
+20,bdc39c,10,25/12/2020 03:23:00,The Lion King,I Just Can’t Wait To Be King
+20,bdc39c,11,25/12/2020 03:25:00,A-Ha,Take On Me
+20,bdc39c,12,25/12/2020 03:27:00,Grease,Summer Nights
+21,b5f816,1,25/12/2020 15:00:00,Ed Sheeran,Shape Of You
+22,8bc93d,1,25/12/2020 16:00:00,Dua Lipa,New Rules
+23,793a1c,1,25/12/2020 17:00:00,Eminem,Lose Yourself
+23,793a1c,2,25/12/2020 17:03:00,Elton John & Kiki Dee,Don’t Go Breaking My Heart
+23,793a1c,3,25/12/2020 17:05:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+24,cda151,1,25/12/2020 20:00:00,The Proclaimers,I’m Gonna Be (500 Miles)
+24,cda151,2,25/12/2020 20:03:00,Alexandra Burke,Hallelujah
+25,8bc93d,1,25/12/2020 22:00:00,The Beatles,Hey Jude
+25,8bc93d,2,25/12/2020 22:03:00,Queen,Don’t Stop Me Now
+25,8bc93d,3,25/12/2020 22:06:00,Lady Gaga & Bradley Cooper,Shallow
+25,8bc93d,4,25/12/2020 22:09:00,Camilla Cabello Ft. Young Thug,Havana
+25,8bc93d,5,25/12/2020 22:11:00,Queen,Don’t Stop Me Now
+25,8bc93d,6,25/12/2020 22:14:00,Dirty Dancing,The Time Of My Life
+25,8bc93d,7,25/12/2020 22:17:00,Lil Nas X,Old Town Road
+25,8bc93d,8,25/12/2020 22:20:00,Mariah Carey,All I Want For Christmas Is You
+26,c01ecb,1,26/12/2020 06:00:00,Estelle Ft. Kanye West,American Boy
+26,c01ecb,2,26/12/2020 06:03:00,ABBA,Waterloo
+26,c01ecb,3,26/12/2020 06:06:00,Bonnie Tyler,Total Eclipse Of The Heart
+27,40581f,1,26/12/2020 09:00:00,Lady Gaga & Bradley Cooper,Shallow
+27,40581f,2,26/12/2020 09:03:00,TLC,No Scrubs
+27,40581f,3,26/12/2020 09:06:00,TLC,No Scrubs
+28,2bb0da,1,26/12/2020 12:00:00,Mark Ronson Ft. Amy Winehouse,Valerie
+28,2bb0da,2,26/12/2020 12:03:00,Lil Nas X,Old Town Road
+28,2bb0da,3,26/12/2020 12:06:00,ABBA,Gimme Gimme Gimme
+28,2bb0da,4,26/12/2020 12:08:00,The Lion King,Can You Feel The Love Tonight
+28,2bb0da,5,26/12/2020 12:10:00,Ed Sheeran,Castle On The Hill
+28,2bb0da,6,26/12/2020 12:13:00,The Little Mermaid,Under The Sea
+28,2bb0da,7,26/12/2020 12:15:00,Ed Sheeran,Shape Of You
+29,b919e0,1,26/12/2020 19:00:00,ABBA,Mamma Mia
+30,ccee6c,1,26/12/2020 20:00:00,The Proclaimers,I’m Gonna Be (500 Miles)
+31,4b11b8,1,26/12/2020 21:00:00,Queen,I Want To Break Free
+31,4b11b8,2,26/12/2020 21:03:00,Aqua,Barbie Girl
+31,4b11b8,3,26/12/2020 21:05:00,ABBA,Dancing Queen
+31,4b11b8,4,26/12/2020 21:07:00,Dua Lipa,New Rules
+31,4b11b8,5,26/12/2020 21:10:00,Elton John,Your Song
+31,4b11b8,6,26/12/2020 21:12:00,Frank Sinatra,My Way
+31,4b11b8,7,26/12/2020 21:15:00,Toto,Africa
+31,4b11b8,8,26/12/2020 21:18:00,Ava Max,Sweet But Psycho
+32,cd2834,1,27/12/2020 06:00:00,Ed Sheeran,Perfect
+33,3fdc46,1,27/12/2020 07:00:00,High School Musical,Breaking Free
+33,3fdc46,2,27/12/2020 07:03:00,Dolly Parton,9 To 5
+34,817c35,1,27/12/2020 09:00:00,George Ezra,Shotgun
+34,817c35,2,27/12/2020 09:02:00,Dua Lipa,New Rules
+35,5f56ac,1,27/12/2020 11:00:00,Taylor Swift,Shake It Off
+35,5f56ac,2,27/12/2020 11:02:00,Camilla Cabello Ft. Young Thug,Havana
+36,b0b55f,1,27/12/2020 13:00:00,The Pogues,Fairytale Of New York
+36,b0b55f,2,27/12/2020 13:02:00,Moana,How Far I’ll Go
+36,b0b55f,3,27/12/2020 13:05:00,A-Ha,Take On Me
+37,8dc987,1,27/12/2020 16:00:00,Shawn Mendes & Camila Cabello,Senorita
+37,8dc987,2,27/12/2020 16:03:00,Alexandra Burke,Hallelujah
+38,41c5b3,1,27/12/2020 18:00:00,Kesha,This Is Me (Greatest Showman)
+38,41c5b3,2,27/12/2020 18:03:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+39,19c2ae,1,27/12/2020 20:00:00,Ed Sheeran,Perfect
+39,19c2ae,2,27/12/2020 20:02:00,The Little Mermaid,Part Of Your World
+39,19c2ae,3,27/12/2020 20:05:00,Bonnie Tyler,Total Eclipse Of The Heart
+39,19c2ae,4,27/12/2020 20:08:00,Aladdin,A Whole New World
+39,19c2ae,5,27/12/2020 20:11:00,Luis Fonsi & Daddy Yankee,Despacito
+39,19c2ae,6,27/12/2020 20:13:00,Estelle Ft. Kanye West,American Boy
+39,19c2ae,7,27/12/2020 20:16:00,The Human League,Don’t You Want Me Baby
+40,8d850e,1,28/12/2020 03:00:00,Britney Spears,Toxic
+40,8d850e,2,28/12/2020 03:03:00,Queen,I Want To Break Free
+40,8d850e,3,28/12/2020 03:06:00,Bonnie Tyler,Total Eclipse Of The Heart
+40,8d850e,4,28/12/2020 03:09:00,Backstreet Boys,Everybody
+40,8d850e,5,28/12/2020 03:11:00,The Lion King,Hakuna Matata
+40,8d850e,6,28/12/2020 03:13:00,ABBA,Mamma Mia
+40,8d850e,7,28/12/2020 03:15:00,The Lion King,Can You Feel The Love Tonight
+40,8d850e,8,28/12/2020 03:17:00,John Denver,"Take Me Home, Country Roads"
+40,8d850e,9,28/12/2020 03:20:00,Outkast,Hey Ya
+40,8d850e,10,28/12/2020 03:23:00,Elton John,Your Song
+40,8d850e,11,28/12/2020 03:25:00,The Human League,Don’t You Want Me Baby
+41,f0549d,1,28/12/2020 14:00:00,ABBA,Dancing Queen
+41,f0549d,2,28/12/2020 14:02:00,Grease,You’re The One That I Want
+42,b5f816,1,28/12/2020 16:00:00,Bonnie Tyler,Total Eclipse Of The Heart
+43,90980,1,28/12/2020 17:00:00,Grease,Summer Nights
+43,90980,2,28/12/2020 17:02:00,Mark Ronson Ft. Amy Winehouse,Valerie
+43,90980,3,28/12/2020 17:05:00,Ed Sheeran & Justin Bieber,I Don’t Care
+44,0b032a,1,28/12/2020 20:00:00,The Lion King,I Just Can’t Wait To Be King
+44,0b032a,2,28/12/2020 20:02:00,Grease,Summer Nights
+44,0b032a,3,28/12/2020 20:04:00,Taylor Swift,Shake It Off
+44,0b032a,4,28/12/2020 20:06:00,Luis Fonsi & Daddy Yankee,Despacito
+45,62f99c,1,29/12/2020 00:00:00,George Ezra,Shotgun
+45,62f99c,2,29/12/2020 00:02:00,Britney Spears,Baby One More Time
+45,62f99c,3,29/12/2020 00:04:00,The Greatest Showman,A Million Dreams
+45,62f99c,4,29/12/2020 00:07:00,Anne-Marie,2002
+45,62f99c,5,29/12/2020 00:10:00,Oasis,Wonderwall
+46,74e4cd,1,29/12/2020 05:00:00,Britney Spears,Baby One More Time
+46,74e4cd,2,29/12/2020 05:02:00,Ed Sheeran,Perfect
+46,74e4cd,3,29/12/2020 05:04:00,Cher,Believe
+46,74e4cd,4,29/12/2020 05:07:00,Anne-Marie,2002
+46,74e4cd,5,29/12/2020 05:10:00,Ike And Tina Turner,Proud Mary
+46,74e4cd,6,29/12/2020 05:12:00,Kings Of Leon,Sex Is On Fire
+46,74e4cd,7,29/12/2020 05:14:00,Frank Sinatra,My Way
+46,74e4cd,8,29/12/2020 05:17:00,Elvis Presley,Suspicious Minds
+47,b5f816,1,29/12/2020 13:00:00,Pinkfong,Baby Shark
+47,b5f816,2,29/12/2020 13:03:00,Guns N’ Roses,Sweet Child O’ Mine
+48,b33ec1,1,29/12/2020 15:00:00,The Proclaimers,I’m Gonna Be (500 Miles)
+48,b33ec1,2,29/12/2020 15:03:00,Tones And I,Dance Monkey
+48,b33ec1,3,29/12/2020 15:06:00,The Beatles,Hey Jude
+48,b33ec1,4,29/12/2020 15:09:00,The Proclaimers,I’m Gonna Be (500 Miles)
+48,b33ec1,5,29/12/2020 15:12:00,Dua Lipa,New Rules
+49,b919e0,1,29/12/2020 20:00:00,Ava Max,Sweet But Psycho
+49,b919e0,2,29/12/2020 20:03:00,ABBA,Gimme Gimme Gimme
+50,0cf9e6,1,29/12/2020 22:00:00,Frank Sinatra,New York New York
+50,0cf9e6,2,29/12/2020 22:03:00,ABBA,Waterloo
+50,0cf9e6,3,29/12/2020 22:06:00,Vanilla Ice,Ice Ice Baby
+50,0cf9e6,4,29/12/2020 22:09:00,TLC,No Scrubs
+51,01fc7c,1,30/12/2020 02:00:00,Queen,Don’t Stop Me Now
+51,01fc7c,2,30/12/2020 02:03:00,Outkast,Hey Ya
+51,01fc7c,3,30/12/2020 02:06:00,Billie Eilish,Bad Guy
+51,01fc7c,4,30/12/2020 02:08:00,Lady Gaga & Bradley Cooper,Shallow
+51,01fc7c,5,30/12/2020 02:11:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+51,01fc7c,6,30/12/2020 02:14:00,Ed Sheeran,Perfect
+51,01fc7c,7,30/12/2020 02:16:00,Grease,You’re The One That I Want
+52,de547f,1,30/12/2020 09:00:00,Ed Sheeran,Perfect
+53,2f626e,1,30/12/2020 10:00:00,ABBA,Waterloo
+53,2f626e,2,30/12/2020 10:03:00,Tones And I,Dance Monkey
+54,40b63a,1,30/12/2020 12:00:00,Outkast,Hey Ya
+55,2e5db7,1,30/12/2020 13:00:00,Wham!,Last Christmas
+55,2e5db7,2,30/12/2020 13:02:00,Little Mix,Shout Out To My Ex
+55,2e5db7,3,30/12/2020 13:05:00,Alexandra Burke,Hallelujah
+55,2e5db7,4,30/12/2020 13:08:00,Grease,Summer Nights
+55,2e5db7,5,30/12/2020 13:10:00,ABBA,Gimme Gimme Gimme
+55,2e5db7,6,30/12/2020 13:12:00,Cher,Believe
+56,b0c352,1,30/12/2020 19:00:00,Ed Sheeran,Shape Of You
+56,b0c352,2,30/12/2020 19:03:00,The Human League,Don’t You Want Me Baby
+57,2bb0da,1,30/12/2020 21:00:00,Spice Girls,Wannabe
+57,2bb0da,2,30/12/2020 21:02:00,Bon Jovi,Livin’ On A Prayer
+58,29505,1,30/12/2020 23:00:00,ABBA,Dancing Queen
+58,29505,2,30/12/2020 23:02:00,Dirty Dancing,The Time Of My Life
+59,bdc39c,1,31/12/2020 02:00:00,Ed Sheeran,Shape Of You
+60,817c35,1,31/12/2020 03:00:00,Anne-Marie,2002
+61,3fdc46,1,31/12/2020 04:00:00,Pinkfong,Baby Shark
+61,3fdc46,2,31/12/2020 04:03:00,Frank Sinatra,New York New York
+61,3fdc46,3,31/12/2020 04:06:00,Vanilla Ice,Ice Ice Baby
+61,3fdc46,4,31/12/2020 04:09:00,Loren Allred,Never Enough (The Greatest Showman)
+62,0b032a,1,31/12/2020 08:00:00,Mariah Carey,All I Want For Christmas Is You
+63,ffa716,1,31/12/2020 09:00:00,Elton John,Your Song
+63,ffa716,2,31/12/2020 09:02:00,Little Mix,Shout Out To My Ex
+63,ffa716,3,31/12/2020 09:05:00,The Human League,Don’t You Want Me Baby
+63,ffa716,4,31/12/2020 09:08:00,Bon Jovi,Livin’ On A Prayer
+64,ef2c80,1,31/12/2020 13:00:00,Oasis,Don’t Look Back In Anger
+64,ef2c80,2,31/12/2020 13:03:00,Elton John & Kiki Dee,Don’t Go Breaking My Heart
+64,ef2c80,3,31/12/2020 13:05:00,Bon Jovi,Livin’ On A Prayer
+64,ef2c80,4,31/12/2020 13:07:00,The Lion King,Hakuna Matata
+65,2bb0da,1,31/12/2020 17:00:00,Shania Twain,Man! I Feel Like A Woman
+66,1d80ad,1,31/12/2020 18:00:00,The Proclaimers,I’m Gonna Be (500 Miles)
+66,1d80ad,2,31/12/2020 18:03:00,The Little Mermaid,Part Of Your World
+67,ddd7ca,1,31/12/2020 20:00:00,Guns N’ Roses,Sweet Child O’ Mine
+67,ddd7ca,2,31/12/2020 20:02:00,Taylor Swift,Shake It Off
+67,ddd7ca,3,31/12/2020 20:04:00,Aqua,Barbie Girl
+68,732ed3,1,31/12/2020 23:00:00,Beyonce,Single Ladies (Put A Ring On It)
+68,732ed3,2,31/12/2020 23:03:00,Outkast,Hey Ya
+68,732ed3,3,31/12/2020 23:06:00,Oasis,Don’t Look Back In Anger
+68,732ed3,4,31/12/2020 23:09:00,Robbie Williams,Angels
+68,732ed3,5,31/12/2020 23:12:00,Moana,How Far I’ll Go
+69,793a1c,1,01/01/2021 04:00:00,The Proclaimers,I’m Gonna Be (500 Miles)
+69,793a1c,2,01/01/2021 04:03:00,The Lion King,I Just Can’t Wait To Be King
+70,80244a,1,01/01/2021 06:00:00,Frozen,Let It Go
+70,80244a,2,01/01/2021 06:02:00,Ava Max,Sweet But Psycho
+70,80244a,3,01/01/2021 06:05:00,The Lion King,Can You Feel The Love Tonight
+70,80244a,4,01/01/2021 06:07:00,Loren Allred,Never Enough (The Greatest Showman)
+70,80244a,5,01/01/2021 06:09:00,Outkast,Hey Ya
+70,80244a,6,01/01/2021 06:12:00,Will Smith,The Fresh Prince Of Bel Air
+71,f17170,1,01/01/2021 12:00:00,Lady Gaga & Bradley Cooper,Shallow
+72,e43422,1,01/01/2021 13:00:00,Shawn Mendes & Camila Cabello,Senorita
+72,e43422,2,01/01/2021 13:03:00,Will Smith,The Fresh Prince Of Bel Air
+72,e43422,3,01/01/2021 13:05:00,Ed Sheeran,Perfect
+72,e43422,4,01/01/2021 13:07:00,Wham!,Last Christmas
+72,e43422,5,01/01/2021 13:09:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+72,e43422,6,01/01/2021 13:11:00,Shania Twain,Man! I Feel Like A Woman
+72,e43422,7,01/01/2021 13:14:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+73,,1,01/01/2021 20:00:00,Bonnie Tyler,Total Eclipse Of The Heart
+74,749ebe,1,01/01/2021 21:00:00,The Pogues,Fairytale Of New York
+74,749ebe,2,01/01/2021 21:02:00,George Ezra,Shotgun
+74,749ebe,3,01/01/2021 21:04:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+74,749ebe,4,01/01/2021 21:07:00,Estelle Ft. Kanye West,American Boy
+75,6eb0e1,1,02/01/2021 01:00:00,Oasis,Wonderwall
+76,ccee6c,1,02/01/2021 02:00:00,Ed Sheeran,Shape Of You
+77,a18ee9,1,02/01/2021 03:00:00,A-Ha,Take On Me
+78,140940,1,02/01/2021 04:00:00,Mark Ronson Ft. Amy Winehouse,Valerie
+78,140940,2,02/01/2021 04:03:00,Elton John,Your Song
+79,19c2ae,1,02/01/2021 06:00:00,Estelle Ft. Kanye West,American Boy
+79,19c2ae,2,02/01/2021 06:03:00,Bryan Adams,Summer Of ’69
+79,19c2ae,3,02/01/2021 06:06:00,Dolly Parton & Kenny Rogers,Islands In The Stream
+80,3fdc46,1,02/01/2021 09:00:00,The Greatest Showman,A Million Dreams
+80,3fdc46,2,02/01/2021 09:03:00,Aqua,Barbie Girl
+80,3fdc46,3,02/01/2021 09:05:00,Ed Sheeran,Castle On The Hill
+80,3fdc46,4,02/01/2021 09:08:00,Robbie Williams,Angels
+80,3fdc46,5,02/01/2021 09:11:00,Toto,Africa
+81,a242ac,1,02/01/2021 14:00:00,Guns N’ Roses,Sweet Child O’ Mine
+81,a242ac,2,02/01/2021 14:02:00,Mark Ronson Ft. Amy Winehouse,Valerie
+81,a242ac,3,02/01/2021 14:05:00,Will Smith,The Fresh Prince Of Bel Air
+81,a242ac,4,02/01/2021 14:07:00,Queen,We Will Rock You
+81,a242ac,5,02/01/2021 14:10:00,Ed Sheeran,Shape Of You
+81,a242ac,6,02/01/2021 14:13:00,Spice Girls,Wannabe
+81,a242ac,7,02/01/2021 14:15:00,Eminem,Lose Yourself
+81,a242ac,8,02/01/2021 14:18:00,Lil Nas X,Old Town Road
+82,b919e0,1,02/01/2021 22:00:00,Elton John,Your Song
+83,bf513b,1,02/01/2021 23:00:00,Moana,How Far I’ll Go
+83,bf513b,2,02/01/2021 23:03:00,Loren Allred,Never Enough (The Greatest Showman)
+84,40581f,1,03/01/2021 01:00:00,Neil Diamond,Sweet Caroline
+85,16fc7f,1,03/01/2021 02:00:00,The Lion King,I Just Can’t Wait To Be King
+85,16fc7f,2,03/01/2021 02:02:00,Pinkfong,Baby Shark
+86,a04f42,1,03/01/2021 04:00:00,Oasis,Don’t Look Back In Anger
+86,a04f42,2,03/01/2021 04:03:00,Neil Diamond,Sweet Caroline
+86,a04f42,3,03/01/2021 04:06:00,Grease,Summer Nights
+87,732ed3,1,03/01/2021 07:00:00,Ed Sheeran,Perfect
+88,,1,03/01/2021 08:00:00,Dua Lipa,New Rules
+88,,2,03/01/2021 08:03:00,The Weather Girls,It’s Raining Men
+89,c3e2e0,1,03/01/2021 10:00:00,Pinkfong,Baby Shark
+90,f97dbd,1,03/01/2021 11:00:00,The Lion King,Can You Feel The Love Tonight
+90,f97dbd,2,03/01/2021 11:02:00,Ed Sheeran & Justin Bieber,I Don’t Care
+91,4b11b8,1,03/01/2021 13:00:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+91,4b11b8,2,03/01/2021 13:02:00,Backstreet Boys,Everybody
+91,4b11b8,3,03/01/2021 13:04:00,Oasis,Wonderwall
+91,4b11b8,4,03/01/2021 13:06:00,Loren Allred,Never Enough (The Greatest Showman)
+91,4b11b8,5,03/01/2021 13:08:00,Luis Fonsi & Daddy Yankee,Despacito
+91,4b11b8,6,03/01/2021 13:10:00,Moana,How Far I’ll Go
+91,4b11b8,7,03/01/2021 13:13:00,Oasis,Wonderwall
+91,4b11b8,8,03/01/2021 13:15:00,Mariah Carey,All I Want For Christmas Is You
+91,4b11b8,9,03/01/2021 13:17:00,Robbie Williams,Angels
+91,4b11b8,10,03/01/2021 13:20:00,Britney Spears,Toxic
+91,4b11b8,11,03/01/2021 13:23:00,Cher,Believe
+91,4b11b8,12,03/01/2021 13:26:00,The Lion King,Can You Feel The Love Tonight
+91,4b11b8,13,03/01/2021 13:28:00,John Denver,"Take Me Home, Country Roads"
+91,4b11b8,14,03/01/2021 13:31:00,Britney Spears,Toxic
+91,4b11b8,15,03/01/2021 13:34:00,Loren Allred,Never Enough (The Greatest Showman)
+91,4b11b8,16,03/01/2021 13:36:00,ABBA,Dancing Queen
+91,4b11b8,17,03/01/2021 13:38:00,Spice Girls,Wannabe
+91,4b11b8,18,03/01/2021 13:40:00,ABBA,Waterloo
+92,bdc39c,1,04/01/2021 07:00:00,The Lion King,Hakuna Matata
+93,90980,1,04/01/2021 08:00:00,The Pogues,Fairytale Of New York
+93,90980,2,04/01/2021 08:02:00,Dirty Dancing,The Time Of My Life
+93,90980,3,04/01/2021 08:05:00,The Lion King,I Just Can’t Wait To Be King
+94,873117,1,04/01/2021 11:00:00,George Ezra,Shotgun
+94,873117,2,04/01/2021 11:02:00,Queen,Don’t Stop Me Now
+95,23d93f,1,04/01/2021 13:00:00,Lady Gaga & Bradley Cooper,Shallow
+96,01fc7c,1,04/01/2021 14:00:00,Wham!,Last Christmas
+96,01fc7c,2,04/01/2021 14:02:00,Ariana Grande,7 Rings
+97,9e17fe,1,04/01/2021 16:00:00,The Weather Girls,It’s Raining Men
+98,758060,1,04/01/2021 17:00:00,Frank Sinatra,My Way
+99,ccee6c,1,04/01/2021 18:00:00,John Denver,"Take Me Home, Country Roads"
+99,ccee6c,2,04/01/2021 18:03:00,Dua Lipa,New Rules
+100,ddd7ca,1,04/01/2021 20:00:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+101,a59dd7,1,04/01/2021 21:00:00,John Denver,"Take Me Home, Country Roads"
+102,6b550c,1,04/01/2021 22:00:00,TLC,No Scrubs
+103,a8ed24,1,04/01/2021 23:00:00,Grease,You’re The One That I Want
+103,a8ed24,2,04/01/2021 23:02:00,High School Musical,Breaking Free
+104,758060,1,05/01/2021 01:00:00,Shania Twain,Man! I Feel Like A Woman
+105,ad5f75,1,05/01/2021 02:00:00,Beyonce,Single Ladies (Put A Ring On It)
+106,f17170,1,05/01/2021 03:00:00,Frozen,Let It Go
+106,f17170,2,05/01/2021 03:02:00,Lewis Capaldi,Someone You Loved
+106,f17170,3,05/01/2021 03:05:00,High School Musical,Breaking Free
+106,f17170,4,05/01/2021 03:08:00,Pinkfong,Baby Shark
+106,f17170,5,05/01/2021 03:11:00,Camilla Cabello Ft. Young Thug,Havana
+106,f17170,6,05/01/2021 03:13:00,The Little Mermaid,Part Of Your World
+106,f17170,7,05/01/2021 03:16:00,Frank Sinatra,New York New York
+107,5f56ac,1,05/01/2021 10:00:00,Camilla Cabello Ft. Young Thug,Havana
+107,5f56ac,2,05/01/2021 10:02:00,Destiny’s Child,Say My Name
+107,5f56ac,3,05/01/2021 10:04:00,Cher,Believe
+108,f17170,1,05/01/2021 13:00:00,Queen,Don’t Stop Me Now
+109,732ed3,1,05/01/2021 14:00:00,Mariah Carey,All I Want For Christmas Is You
+109,732ed3,2,05/01/2021 14:02:00,Oasis,Don’t Look Back In Anger
+109,732ed3,3,05/01/2021 14:05:00,Ed Sheeran,Castle On The Hill
+110,8c876d,1,05/01/2021 17:00:00,Elvis Presley,Suspicious Minds
+110,8c876d,2,05/01/2021 17:03:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+110,8c876d,3,05/01/2021 17:06:00,Whitney Houston,I Wanna Dance With Somebody
+110,8c876d,4,05/01/2021 17:09:00,TLC,No Scrubs
+110,8c876d,5,05/01/2021 17:12:00,TLC,No Scrubs
+111,40b63a,1,05/01/2021 22:00:00,ABBA,Gimme Gimme Gimme
+111,40b63a,2,05/01/2021 22:02:00,Aqua,Barbie Girl
+111,40b63a,3,05/01/2021 22:04:00,Camilla Cabello Ft. Young Thug,Havana
+112,140940,1,06/01/2021 01:00:00,Neil Diamond,Sweet Caroline
+112,140940,2,06/01/2021 01:03:00,TLC,No Scrubs
+112,140940,3,06/01/2021 01:06:00,Aladdin,A Whole New World
+113,758060,1,06/01/2021 04:00:00,Bonnie Tyler,Total Eclipse Of The Heart
+113,758060,2,06/01/2021 04:03:00,Oasis,Wonderwall
+113,758060,3,06/01/2021 04:05:00,Will Smith,The Fresh Prince Of Bel Air
+113,758060,4,06/01/2021 04:07:00,Little Mix,Shout Out To My Ex
+113,758060,5,06/01/2021 04:10:00,Little Mix,Shout Out To My Ex
+113,758060,6,06/01/2021 04:13:00,ABBA,Waterloo
+114,4b11b8,1,06/01/2021 10:00:00,Oasis,Wonderwall
+115,98b4b4,1,06/01/2021 11:00:00,Gloria Gaynor,I Will Survive
+115,98b4b4,2,06/01/2021 11:02:00,Billie Eilish,Bad Guy
+115,98b4b4,3,06/01/2021 11:04:00,Elvis Presley,Suspicious Minds
+115,98b4b4,4,06/01/2021 11:07:00,Kesha,This Is Me (Greatest Showman)
+116,e43422,1,06/01/2021 15:00:00,Frank Sinatra,New York New York
+116,e43422,2,06/01/2021 15:03:00,John Denver,"Take Me Home, Country Roads"
+116,e43422,3,06/01/2021 15:06:00,Cher,Believe
+117,301133,1,06/01/2021 18:00:00,Bonnie Tyler,Total Eclipse Of The Heart
+118,cda151,1,06/01/2021 19:00:00,Pinkfong,Baby Shark
+118,cda151,2,06/01/2021 19:03:00,Ed Sheeran,Perfect
+118,cda151,3,06/01/2021 19:05:00,John Denver,"Take Me Home, Country Roads"
+118,cda151,4,06/01/2021 19:08:00,A-Ha,Take On Me
+118,cda151,5,06/01/2021 19:10:00,High School Musical,Breaking Free
+118,cda151,6,06/01/2021 19:13:00,Shawn Mendes & Camila Cabello,Senorita
+118,cda151,7,06/01/2021 19:16:00,Dolly Parton,9 To 5
+118,cda151,8,06/01/2021 19:18:00,The Pogues,Fairytale Of New York
+119,15885d,1,07/01/2021 03:00:00,Elvis Presley,Suspicious Minds
+120,0cf9e6,1,07/01/2021 04:00:00,Britney Spears,Baby One More Time
+120,0cf9e6,2,07/01/2021 04:02:00,Queen,I Want To Break Free
+120,0cf9e6,3,07/01/2021 04:05:00,Robbie Williams,Angels
+121,cc86ee,1,07/01/2021 07:00:00,Eminem,Lose Yourself
+122,580086,1,07/01/2021 08:00:00,Whitney Houston,I Wanna Dance With Somebody
+123,a242ac,1,07/01/2021 09:00:00,Pinkfong,Baby Shark
+123,a242ac,2,07/01/2021 09:03:00,Estelle Ft. Kanye West,American Boy
+123,a242ac,3,07/01/2021 09:06:00,Aqua,Barbie Girl
+123,a242ac,4,07/01/2021 09:08:00,Gloria Gaynor,I Will Survive
+123,a242ac,5,07/01/2021 09:10:00,High School Musical,Breaking Free
+123,a242ac,6,07/01/2021 09:13:00,Wham!,Last Christmas
+123,a242ac,7,07/01/2021 09:15:00,Ed Sheeran,Castle On The Hill
+123,a242ac,8,07/01/2021 09:18:00,Kings Of Leon,Sex Is On Fire
+123,a242ac,9,07/01/2021 09:20:00,Kings Of Leon,Sex Is On Fire
+123,a242ac,10,07/01/2021 09:22:00,Eminem,Lose Yourself
+124,498a45,1,07/01/2021 19:00:00,The Weather Girls,It’s Raining Men
+124,498a45,2,07/01/2021 19:02:00,Kings Of Leon,Sex Is On Fire
+124,498a45,3,07/01/2021 19:04:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+124,498a45,4,07/01/2021 19:07:00,Frank Sinatra,New York New York
+125,d4f798,1,07/01/2021 23:00:00,The Little Mermaid,Under The Sea
+125,d4f798,2,07/01/2021 23:02:00,Lil Nas X,Old Town Road
+125,d4f798,3,07/01/2021 23:05:00,ABBA,Dancing Queen
+126,f0549d,1,08/01/2021 02:00:00,The Lion King,I Just Can’t Wait To Be King
+126,f0549d,2,08/01/2021 02:02:00,Ava Max,Sweet But Psycho
+126,f0549d,3,08/01/2021 02:05:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+126,f0549d,4,08/01/2021 02:08:00,Will Smith,The Fresh Prince Of Bel Air
+126,f0549d,5,08/01/2021 02:10:00,Frank Sinatra,New York New York
+126,f0549d,6,08/01/2021 02:13:00,Aqua,Barbie Girl
+127,98150b,1,08/01/2021 08:00:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+127,98150b,2,08/01/2021 08:02:00,John Denver,"Take Me Home, Country Roads"
+127,98150b,3,08/01/2021 08:05:00,Britney Spears,Baby One More Time
+127,98150b,4,08/01/2021 08:07:00,John Denver,"Take Me Home, Country Roads"
+127,98150b,5,08/01/2021 08:10:00,Dolly Parton & Kenny Rogers,Islands In The Stream
+127,98150b,6,08/01/2021 08:13:00,Alexandra Burke,Hallelujah
+128,b0c352,1,08/01/2021 15:00:00,Ed Sheeran,Perfect
+128,b0c352,2,08/01/2021 15:02:00,Moana,How Far I’ll Go
+128,b0c352,3,08/01/2021 15:05:00,High School Musical,Breaking Free
+129,1d80ad,1,08/01/2021 19:00:00,Frank Sinatra,New York New York
+130,cc86ee,1,08/01/2021 20:00:00,ABBA,Waterloo
+130,cc86ee,2,08/01/2021 20:03:00,Frozen,Let It Go
+130,cc86ee,3,08/01/2021 20:05:00,Will Smith,The Fresh Prince Of Bel Air
+130,cc86ee,4,08/01/2021 20:07:00,Anne-Marie,2002
+131,bf513b,1,09/01/2021 01:00:00,Guns N’ Roses,Sweet Child O’ Mine
+131,bf513b,2,09/01/2021 01:02:00,Cher,Believe
+131,bf513b,3,09/01/2021 01:05:00,The Greatest Showman,A Million Dreams
+131,bf513b,4,09/01/2021 01:08:00,Grease,Summer Nights
+131,bf513b,5,09/01/2021 01:10:00,Bonnie Tyler,Total Eclipse Of The Heart
+132,3fdc46,1,09/01/2021 06:00:00,ABBA,Gimme Gimme Gimme
+133,98b4b4,1,09/01/2021 07:00:00,Shawn Mendes & Camila Cabello,Senorita
+134,896f04,1,09/01/2021 08:00:00,Gloria Gaynor,I Will Survive
+135,b33ec1,1,09/01/2021 09:00:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+135,b33ec1,2,09/01/2021 09:03:00,The Little Mermaid,Part Of Your World
+135,b33ec1,3,09/01/2021 09:06:00,Anne-Marie,2002
+136,8dc987,1,09/01/2021 12:00:00,Wham!,Last Christmas
+136,8dc987,2,09/01/2021 12:02:00,ABBA,Mamma Mia
+136,8dc987,3,09/01/2021 12:04:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+136,8dc987,4,09/01/2021 12:07:00,Wham!,Last Christmas
+136,8dc987,5,09/01/2021 12:09:00,Spice Girls,Wannabe
+137,,1,09/01/2021 17:00:00,Backstreet Boys,I Want It That Way
+137,,2,09/01/2021 17:02:00,Ariana Grande,7 Rings
+138,0cf9e6,1,09/01/2021 19:00:00,The Pogues,Fairytale Of New York
+138,0cf9e6,2,09/01/2021 19:02:00,John Denver,"Take Me Home, Country Roads"
+139,509ec8,1,09/01/2021 21:00:00,The Lion King,Can You Feel The Love Tonight
+139,509ec8,2,09/01/2021 21:02:00,Kesha,This Is Me (Greatest Showman)
+139,509ec8,3,09/01/2021 21:05:00,The Weather Girls,It’s Raining Men
+139,509ec8,4,09/01/2021 21:07:00,Ava Max,Sweet But Psycho
+140,c01ecb,1,10/01/2021 01:00:00,Lady Gaga & Bradley Cooper,Shallow
+141,a5632d,1,10/01/2021 02:00:00,The Little Mermaid,Under The Sea
+141,a5632d,2,10/01/2021 02:02:00,Queen,We Will Rock You
+142,509ec8,1,10/01/2021 04:00:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+142,509ec8,2,10/01/2021 04:03:00,ABBA,Waterloo
+142,509ec8,3,10/01/2021 04:06:00,John Denver,"Take Me Home, Country Roads"
+142,509ec8,4,10/01/2021 04:09:00,Elvis Presley,Suspicious Minds
+143,47a375,1,10/01/2021 08:00:00,Dua Lipa,New Rules
+143,47a375,2,10/01/2021 08:03:00,Dolly Parton & Kenny Rogers,Islands In The Stream
+144,d93ab5,1,10/01/2021 10:00:00,Shania Twain,Man! I Feel Like A Woman
+145,a2b2d8,1,10/01/2021 11:00:00,The Human League,Don’t You Want Me Baby
+145,a2b2d8,2,10/01/2021 11:03:00,Mark Ronson Ft. Amy Winehouse,Valerie
+145,a2b2d8,3,10/01/2021 11:06:00,George Ezra,Shotgun
+146,a9f512,1,10/01/2021 14:00:00,Kings Of Leon,Sex Is On Fire
+147,4eb901,1,10/01/2021 15:00:00,Pinkfong,Baby Shark
+147,4eb901,2,10/01/2021 15:03:00,Wheatus,Teenage Dirtbag
+147,4eb901,3,10/01/2021 15:06:00,The Little Mermaid,Part Of Your World
+148,16fc7f,1,10/01/2021 18:00:00,Estelle Ft. Kanye West,American Boy
+149,74e4cd,1,10/01/2021 19:00:00,The Little Mermaid,Part Of Your World
+149,74e4cd,2,10/01/2021 19:03:00,Eminem,Lose Yourself
+149,74e4cd,3,10/01/2021 19:06:00,Oasis,Wonderwall
+149,74e4cd,4,10/01/2021 19:08:00,Will Smith,The Fresh Prince Of Bel Air
+150,f97dbd,1,10/01/2021 23:00:00,Dirty Dancing,The Time Of My Life
+151,7caaf5,1,11/01/2021 00:00:00,Queen,I Want To Break Free
+151,7caaf5,2,11/01/2021 00:03:00,Whitney Houston,I Wanna Dance With Somebody
+151,7caaf5,3,11/01/2021 00:06:00,The Lion King,I Just Can’t Wait To Be King
+151,7caaf5,4,11/01/2021 00:08:00,Billie Eilish,Bad Guy
+151,7caaf5,5,11/01/2021 00:10:00,Backstreet Boys,Everybody
+152,9d36bb,1,11/01/2021 05:00:00,ABBA,Dancing Queen
+153,058fcc,1,11/01/2021 06:00:00,Elton John,Your Song
+153,058fcc,2,11/01/2021 06:02:00,Aladdin,A Whole New World
+154,a0a25c,1,11/01/2021 08:00:00,Elton John,Your Song
+155,cdda70,1,11/01/2021 09:00:00,Toto,Africa
+156,2e5db7,1,11/01/2021 10:00:00,Ed Sheeran,Perfect
+157,749ebe,1,11/01/2021 11:00:00,Aladdin,A Whole New World
+158,14e19f,1,11/01/2021 12:00:00,Frozen,Let It Go
+159,707b62,1,11/01/2021 13:00:00,The Human League,Don’t You Want Me Baby
+160,56f7a2,1,11/01/2021 14:00:00,Destiny’s Child,Say My Name
+160,56f7a2,2,11/01/2021 14:02:00,Neil Diamond,Sweet Caroline
+160,56f7a2,3,11/01/2021 14:05:00,Mark Ronson Ft. Amy Winehouse,Valerie
+160,56f7a2,4,11/01/2021 14:08:00,Tones And I,Dance Monkey
+160,56f7a2,5,11/01/2021 14:11:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+160,56f7a2,6,11/01/2021 14:13:00,Oasis,Wonderwall
+161,a2b2d8,1,11/01/2021 20:00:00,The Human League,Don’t You Want Me Baby
+162,74015b,1,11/01/2021 21:00:00,Shawn Mendes & Camila Cabello,Senorita
+163,6eb0e1,1,11/01/2021 22:00:00,Britney Spears,Toxic
+164,793a1c,1,11/01/2021 23:00:00,Tones And I,Dance Monkey
+164,793a1c,2,11/01/2021 23:03:00,Dolly Parton & Kenny Rogers,Islands In The Stream
+164,793a1c,3,11/01/2021 23:06:00,Will Smith,The Fresh Prince Of Bel Air
+164,793a1c,4,11/01/2021 23:08:00,ABBA,Gimme Gimme Gimme
+164,793a1c,5,11/01/2021 23:10:00,Dirty Dancing,The Time Of My Life
+164,793a1c,6,11/01/2021 23:13:00,ABBA,Dancing Queen
+164,793a1c,7,11/01/2021 23:15:00,Backstreet Boys,I Want It That Way
+164,793a1c,8,11/01/2021 23:17:00,Neil Diamond,Sweet Caroline
+164,793a1c,9,11/01/2021 23:20:00,Ed Sheeran & Justin Bieber,I Don’t Care
+164,793a1c,10,11/01/2021 23:23:00,Mariah Carey,All I Want For Christmas Is You
+164,793a1c,11,11/01/2021 23:25:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+164,793a1c,12,11/01/2021 23:27:00,Pinkfong,Baby Shark
+165,a5632d,1,12/01/2021 11:00:00,Destiny’s Child,Say My Name
+165,a5632d,2,12/01/2021 11:02:00,Will Smith,The Fresh Prince Of Bel Air
+166,74e4cd,1,12/01/2021 13:00:00,Backstreet Boys,I Want It That Way
+166,74e4cd,2,12/01/2021 13:02:00,High School Musical,Breaking Free
+166,74e4cd,3,12/01/2021 13:05:00,The Human League,Don’t You Want Me Baby
+166,74e4cd,4,12/01/2021 13:08:00,Bon Jovi,Livin’ On A Prayer
+166,74e4cd,5,12/01/2021 13:10:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+166,74e4cd,6,12/01/2021 13:12:00,The Human League,Don’t You Want Me Baby
+167,a2bde8,1,12/01/2021 19:00:00,Bryan Adams,Summer Of ’69
+167,a2bde8,2,12/01/2021 19:03:00,Ava Max,Sweet But Psycho
+167,a2bde8,3,12/01/2021 19:06:00,Queen,We Will Rock You
+168,75594b,1,12/01/2021 22:00:00,Alexandra Burke,Hallelujah
+169,8d850e,1,12/01/2021 23:00:00,ABBA,Gimme Gimme Gimme
+170,74e4cd,1,13/01/2021 00:00:00,Whitney Houston,I Wanna Dance With Somebody
+170,74e4cd,2,13/01/2021 00:03:00,Cher,Believe
+170,74e4cd,3,13/01/2021 00:06:00,Kesha,This Is Me (Greatest Showman)
+170,74e4cd,4,13/01/2021 00:09:00,Elton John & Kiki Dee,Don’t Go Breaking My Heart
+170,74e4cd,5,13/01/2021 00:11:00,George Ezra,Shotgun
+170,74e4cd,6,13/01/2021 00:13:00,Spice Girls,Wannabe
+170,74e4cd,7,13/01/2021 00:15:00,Dirty Dancing,The Time Of My Life
+170,74e4cd,8,13/01/2021 00:18:00,Mariah Carey,All I Want For Christmas Is You
+171,a0a25c,1,13/01/2021 08:00:00,The Lion King,Can You Feel The Love Tonight
+171,a0a25c,2,13/01/2021 08:02:00,Elton John,Your Song
+171,a0a25c,3,13/01/2021 08:04:00,Ike And Tina Turner,Proud Mary
+172,a2b2d8,1,13/01/2021 11:00:00,Ed Sheeran,Castle On The Hill
+172,a2b2d8,2,13/01/2021 11:03:00,Loren Allred,Never Enough (The Greatest Showman)
+172,a2b2d8,3,13/01/2021 11:05:00,The Pogues,Fairytale Of New York
+172,a2b2d8,4,13/01/2021 11:07:00,The Pogues,Fairytale Of New York
+172,a2b2d8,5,13/01/2021 11:09:00,Alexandra Burke,Hallelujah
+172,a2b2d8,6,13/01/2021 11:12:00,Ed Sheeran,Shape Of You
+172,a2b2d8,7,13/01/2021 11:15:00,ABBA,Waterloo
+172,a2b2d8,8,13/01/2021 11:18:00,Ed Sheeran,Shape Of You
+173,abae4d,1,13/01/2021 19:00:00,Dolly Parton,Jolene
+174,a3f849,1,13/01/2021 20:00:00,Aladdin,A Whole New World
+174,a3f849,2,13/01/2021 20:03:00,Robbie Williams,Angels
+174,a3f849,3,13/01/2021 20:06:00,Gloria Gaynor,I Will Survive
+175,1d80ad,1,14/01/2021 00:00:00,Ed Sheeran & Justin Bieber,I Don’t Care
+175,1d80ad,2,14/01/2021 00:03:00,Elvis Presley,Suspicious Minds
+175,1d80ad,3,14/01/2021 00:06:00,Wham!,Last Christmas
+175,1d80ad,4,14/01/2021 00:08:00,Aladdin,A Whole New World
+175,1d80ad,5,14/01/2021 00:11:00,Lady Gaga & Bradley Cooper,Shallow
+176,8bc93d,1,14/01/2021 05:00:00,Dolly Parton,Jolene
+176,8bc93d,2,14/01/2021 05:02:00,Dirty Dancing,The Time Of My Life
+176,8bc93d,3,14/01/2021 05:05:00,Backstreet Boys,Everybody
+177,f97dbd,1,14/01/2021 08:00:00,Elvis Presley,Suspicious Minds
+177,f97dbd,2,14/01/2021 08:03:00,Oasis,Don’t Look Back In Anger
+177,f97dbd,3,14/01/2021 08:06:00,TLC,No Scrubs
+177,f97dbd,4,14/01/2021 08:09:00,Queen,We Will Rock You
+177,f97dbd,5,14/01/2021 08:12:00,Whitney Houston,I Wanna Dance With Somebody
+177,f97dbd,6,14/01/2021 08:15:00,Bryan Adams,Summer Of ’69
+178,,1,14/01/2021 14:00:00,Taylor Swift,Shake It Off
+179,01fc7c,1,14/01/2021 15:00:00,Ed Sheeran & Justin Bieber,I Don’t Care
+180,2f626e,1,14/01/2021 16:00:00,Frank Sinatra,My Way
+180,2f626e,2,14/01/2021 16:03:00,ABBA,Dancing Queen
+181,058fcc,1,14/01/2021 18:00:00,Ike And Tina Turner,Proud Mary
+181,058fcc,2,14/01/2021 18:02:00,Neil Diamond,Sweet Caroline
+182,23d93f,1,14/01/2021 20:00:00,Taylor Swift,Shake It Off
+183,74e4cd,1,14/01/2021 21:00:00,Dirty Dancing,The Time Of My Life
+183,74e4cd,2,14/01/2021 21:03:00,Elton John & Kiki Dee,Don’t Go Breaking My Heart
+184,dfeeea,1,14/01/2021 23:00:00,Robbie Williams,Angels
+184,dfeeea,2,14/01/2021 23:03:00,Dolly Parton,9 To 5
+184,dfeeea,3,14/01/2021 23:05:00,Backstreet Boys,I Want It That Way
+184,dfeeea,4,14/01/2021 23:07:00,A-Ha,Take On Me
+184,dfeeea,5,14/01/2021 23:09:00,Kesha,This Is Me (Greatest Showman)
+184,dfeeea,6,14/01/2021 23:12:00,Lewis Capaldi,Someone You Loved
+184,dfeeea,7,14/01/2021 23:15:00,Will Smith,The Fresh Prince Of Bel Air
+185,a59dd7,1,15/01/2021 07:00:00,Bon Jovi,Livin’ On A Prayer
+185,a59dd7,2,15/01/2021 07:02:00,Shania Twain,Man! I Feel Like A Woman
+185,a59dd7,3,15/01/2021 07:05:00,Ed Sheeran,Perfect
+185,a59dd7,4,15/01/2021 07:07:00,ABBA,Waterloo
+185,a59dd7,5,15/01/2021 07:10:00,TLC,No Scrubs
+186,74e4cd,1,15/01/2021 12:00:00,Journey,Don’t Stop Believin’
+187,0b032a,1,15/01/2021 13:00:00,Dolly Parton,Jolene
+187,0b032a,2,15/01/2021 13:02:00,Luis Fonsi & Daddy Yankee,Despacito
+187,0b032a,3,15/01/2021 13:04:00,Outkast,Hey Ya
+187,0b032a,4,15/01/2021 13:07:00,Frozen,Let It Go
+188,ccee6c,1,15/01/2021 17:00:00,Estelle Ft. Kanye West,American Boy
+188,ccee6c,2,15/01/2021 17:03:00,Frank Sinatra,New York New York
+189,793a1c,1,15/01/2021 19:00:00,Whitney Houston,I Wanna Dance With Somebody
+190,6.99E+67,1,15/01/2021 20:00:00,The Weather Girls,It’s Raining Men
+190,6.99E+67,2,15/01/2021 20:02:00,Guns N’ Roses,Sweet Child O’ Mine
+190,6.99E+67,3,15/01/2021 20:04:00,Loren Allred,Never Enough (The Greatest Showman)
+190,6.99E+67,4,15/01/2021 20:06:00,TLC,No Scrubs
+190,6.99E+67,5,15/01/2021 20:09:00,The Greatest Showman,A Million Dreams
+190,6.99E+67,6,15/01/2021 20:12:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+191,793a1c,1,16/01/2021 02:00:00,The Little Mermaid,Part Of Your World
+191,793a1c,2,16/01/2021 02:03:00,The Proclaimers,I’m Gonna Be (500 Miles)
+191,793a1c,3,16/01/2021 02:06:00,Queen,We Will Rock You
+191,793a1c,4,16/01/2021 02:09:00,Will Smith,The Fresh Prince Of Bel Air
+191,793a1c,5,16/01/2021 02:11:00,Britney Spears,Toxic
+191,793a1c,6,16/01/2021 02:14:00,Aladdin,A Whole New World
+191,793a1c,7,16/01/2021 02:17:00,Robbie Williams,Angels
+192,7da7c9,1,16/01/2021 09:00:00,George Ezra,Shotgun
+192,7da7c9,2,16/01/2021 09:02:00,Backstreet Boys,I Want It That Way
+192,7da7c9,3,16/01/2021 09:04:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+192,7da7c9,4,16/01/2021 09:07:00,Elton John,Your Song
+193,c02782,1,16/01/2021 13:00:00,Frank Sinatra,My Way
+193,c02782,2,16/01/2021 13:03:00,The Pogues,Fairytale Of New York
+193,c02782,3,16/01/2021 13:05:00,Queen,Don’t Stop Me Now
+194,01fc7c,1,16/01/2021 16:00:00,The Lion King,Can You Feel The Love Tonight
+194,01fc7c,2,16/01/2021 16:02:00,Outkast,Hey Ya
+194,01fc7c,3,16/01/2021 16:05:00,Journey,Don’t Stop Believin’
+194,01fc7c,4,16/01/2021 16:08:00,Ed Sheeran,Castle On The Hill
+195,74e4cd,1,16/01/2021 20:00:00,Elton John,Your Song
+196,41c5b3,1,16/01/2021 21:00:00,Ed Sheeran & Justin Bieber,I Don’t Care
+196,41c5b3,2,16/01/2021 21:03:00,Queen,I Want To Break Free
+197,a9f512,1,16/01/2021 23:00:00,Lewis Capaldi,Someone You Loved
+197,a9f512,2,16/01/2021 23:03:00,The Lion King,Can You Feel The Love Tonight
+197,a9f512,3,16/01/2021 23:05:00,Aladdin,A Whole New World
+197,a9f512,4,16/01/2021 23:08:00,Kesha,This Is Me (Greatest Showman)
+197,a9f512,5,16/01/2021 23:11:00,Alexandra Burke,Hallelujah
+198,ffa716,1,17/01/2021 04:00:00,High School Musical,Breaking Free
+198,ffa716,2,17/01/2021 04:03:00,High School Musical,Breaking Free
+198,ffa716,3,17/01/2021 04:06:00,George Ezra,Shotgun
+198,ffa716,4,17/01/2021 04:08:00,Loren Allred,Never Enough (The Greatest Showman)
+198,ffa716,5,17/01/2021 04:10:00,Will Smith,The Fresh Prince Of Bel Air
+198,ffa716,6,17/01/2021 04:12:00,Grease,You’re The One That I Want
+199,b0c352,1,17/01/2021 10:00:00,Tones And I,Dance Monkey
+199,b0c352,2,17/01/2021 10:03:00,Mark Ronson Ft. Amy Winehouse,Valerie
+199,b0c352,3,17/01/2021 10:06:00,John Denver,"Take Me Home, Country Roads"
+199,b0c352,4,17/01/2021 10:09:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+199,b0c352,5,17/01/2021 10:12:00,Loren Allred,Never Enough (The Greatest Showman)
+199,b0c352,6,17/01/2021 10:14:00,High School Musical,Breaking Free
+200,498a45,1,17/01/2021 16:00:00,George Ezra,Shotgun
+201,8c876d,1,17/01/2021 17:00:00,Ariana Grande,7 Rings
+201,8c876d,2,17/01/2021 17:03:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+202,452d87,1,17/01/2021 19:00:00,Luis Fonsi & Daddy Yankee,Despacito
+202,452d87,2,17/01/2021 19:02:00,Wham!,Last Christmas
+203,a5632d,1,17/01/2021 21:00:00,Aqua,Barbie Girl
+203,a5632d,2,17/01/2021 21:02:00,Grease,Summer Nights
+204,90980,1,17/01/2021 23:00:00,Lady Gaga & Bradley Cooper,Shallow
+204,90980,2,17/01/2021 23:03:00,The Human League,Don’t You Want Me Baby
+204,90980,3,17/01/2021 23:06:00,Guns N’ Roses,Sweet Child O’ Mine
+205,6b550c,1,18/01/2021 02:00:00,George Ezra,Shotgun
+205,6b550c,2,18/01/2021 02:02:00,Ed Sheeran,Perfect
+205,6b550c,3,18/01/2021 02:04:00,Grease,You’re The One That I Want
+206,aa0846,1,18/01/2021 05:00:00,The Lion King,I Just Can’t Wait To Be King
+206,aa0846,2,18/01/2021 05:02:00,ABBA,Gimme Gimme Gimme
+206,aa0846,3,18/01/2021 05:04:00,Outkast,Hey Ya
+206,aa0846,4,18/01/2021 05:07:00,Destiny’s Child,Say My Name
+207,c01ecb,1,18/01/2021 09:00:00,Mark Ronson Ft. Amy Winehouse,Valerie
+207,c01ecb,2,18/01/2021 09:03:00,George Ezra,Shotgun
+207,c01ecb,3,18/01/2021 09:05:00,Bonnie Tyler,Total Eclipse Of The Heart
+207,c01ecb,4,18/01/2021 09:08:00,Elton John & Kiki Dee,Don’t Go Breaking My Heart
+208,86b70e,1,18/01/2021 13:00:00,ABBA,Waterloo
+208,86b70e,2,18/01/2021 13:03:00,Queen,Don’t Stop Me Now
+208,86b70e,3,18/01/2021 13:06:00,Cher,Believe
+208,86b70e,4,18/01/2021 13:09:00,The Proclaimers,I’m Gonna Be (500 Miles)
+209,f0549d,1,18/01/2021 17:00:00,Wheatus,Teenage Dirtbag
+209,f0549d,2,18/01/2021 17:03:00,Beyonce,Single Ladies (Put A Ring On It)
+209,f0549d,3,18/01/2021 17:06:00,Frozen,Let It Go
+209,f0549d,4,18/01/2021 17:08:00,Oasis,Wonderwall
+210,ddd7ca,1,18/01/2021 21:00:00,Kesha,This Is Me (Greatest Showman)
+211,8e86fe,1,18/01/2021 22:00:00,Journey,Don’t Stop Believin’
+211,8e86fe,2,18/01/2021 22:03:00,Bon Jovi,Livin’ On A Prayer
+211,8e86fe,3,18/01/2021 22:05:00,The Little Mermaid,Under The Sea
+211,8e86fe,4,18/01/2021 22:07:00,Ed Sheeran,Castle On The Hill
+212,8c876d,1,19/01/2021 02:00:00,Dua Lipa,New Rules
+212,8c876d,2,19/01/2021 02:03:00,Camilla Cabello Ft. Young Thug,Havana
+213,75594b,1,19/01/2021 04:00:00,Anne-Marie,2002
+213,75594b,2,19/01/2021 04:03:00,Cher,Believe
+213,75594b,3,19/01/2021 04:06:00,Kesha,This Is Me (Greatest Showman)
+214,45c142,1,19/01/2021 07:00:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+214,45c142,2,19/01/2021 07:02:00,Tones And I,Dance Monkey
+214,45c142,3,19/01/2021 07:05:00,Britney Spears,Baby One More Time
+214,45c142,4,19/01/2021 07:07:00,High School Musical,Breaking Free
+214,45c142,5,19/01/2021 07:10:00,High School Musical,Breaking Free
+214,45c142,6,19/01/2021 07:13:00,Kings Of Leon,Sex Is On Fire
+214,45c142,7,19/01/2021 07:15:00,Aladdin,A Whole New World
+214,45c142,8,19/01/2021 07:18:00,Spice Girls,Wannabe
+214,45c142,9,19/01/2021 07:20:00,Eminem,Lose Yourself
+214,45c142,10,19/01/2021 07:23:00,Billie Eilish,Bad Guy
+215,ddd7ca,1,19/01/2021 17:00:00,Britney Spears,Toxic
+215,ddd7ca,2,19/01/2021 17:03:00,Britney Spears,Toxic
+216,bdc39c,1,19/01/2021 19:00:00,Eminem,Lose Yourself
+216,bdc39c,2,19/01/2021 19:03:00,ABBA,Mamma Mia
+217,47a375,1,19/01/2021 21:00:00,Vanilla Ice,Ice Ice Baby
+217,47a375,2,19/01/2021 21:03:00,Bryan Adams,Summer Of ’69
+217,47a375,3,19/01/2021 21:06:00,Queen,I Want To Break Free
+218,498a45,1,20/01/2021 00:00:00,The Little Mermaid,Under The Sea
+219,8dc987,1,20/01/2021 01:00:00,Destiny’s Child,Say My Name
+219,8dc987,2,20/01/2021 01:02:00,ABBA,Gimme Gimme Gimme
+219,8dc987,3,20/01/2021 01:04:00,Moana,How Far I’ll Go
+220,45c142,1,20/01/2021 04:00:00,Beyonce,Single Ladies (Put A Ring On It)
+220,45c142,2,20/01/2021 04:03:00,Taylor Swift,Shake It Off
+220,45c142,3,20/01/2021 04:05:00,ABBA,Gimme Gimme Gimme
+220,45c142,4,20/01/2021 04:07:00,The Little Mermaid,Under The Sea
+221,c083ec,1,20/01/2021 09:00:00,ABBA,Waterloo
+221,c083ec,2,20/01/2021 09:03:00,Bon Jovi,Livin’ On A Prayer
+221,c083ec,3,20/01/2021 09:05:00,Journey,Don’t Stop Believin’
+221,c083ec,4,20/01/2021 09:08:00,Neil Diamond,Sweet Caroline
+222,19c2ae,1,20/01/2021 13:00:00,The Lion King,Can You Feel The Love Tonight
+222,19c2ae,2,20/01/2021 13:02:00,Pinkfong,Baby Shark
+222,19c2ae,3,20/01/2021 13:05:00,Lewis Capaldi,Someone You Loved
+223,0becb9,1,20/01/2021 16:00:00,Britney Spears,Baby One More Time
+223,0becb9,2,20/01/2021 16:02:00,Backstreet Boys,I Want It That Way
+223,0becb9,3,20/01/2021 16:04:00,Ava Max,Sweet But Psycho
+224,14e19f,1,20/01/2021 19:00:00,ABBA,Dancing Queen
+224,14e19f,2,20/01/2021 19:02:00,Cher,Believe
+224,14e19f,3,20/01/2021 19:05:00,Lewis Capaldi,Someone You Loved
+224,14e19f,4,20/01/2021 19:08:00,Ed Sheeran,Shape Of You
+224,14e19f,5,20/01/2021 19:11:00,Beyonce,Single Ladies (Put A Ring On It)
+225,498a45,1,21/01/2021 00:00:00,Guns N’ Roses,Sweet Child O’ Mine
+226,0bf30d,1,21/01/2021 01:00:00,ABBA,Dancing Queen
+226,0bf30d,2,21/01/2021 01:02:00,Guns N’ Roses,Sweet Child O’ Mine
+226,0bf30d,3,21/01/2021 01:04:00,ABBA,Dancing Queen
+226,0bf30d,4,21/01/2021 01:06:00,Estelle Ft. Kanye West,American Boy
+226,0bf30d,5,21/01/2021 01:09:00,Dirty Dancing,The Time Of My Life
+227,d5fcf7,1,21/01/2021 06:00:00,Dolly Parton,9 To 5
+227,d5fcf7,2,21/01/2021 06:02:00,The Greatest Showman,A Million Dreams
+227,d5fcf7,3,21/01/2021 06:05:00,Toto,Africa
+227,d5fcf7,4,21/01/2021 06:08:00,Moana,How Far I’ll Go
+227,d5fcf7,5,21/01/2021 06:11:00,Oasis,Don’t Look Back In Anger
+228,15885d,1,21/01/2021 11:00:00,The Lion King,Can You Feel The Love Tonight
+229,80244a,1,21/01/2021 12:00:00,Frank Sinatra,New York New York
+229,80244a,2,21/01/2021 12:03:00,The Lion King,I Just Can’t Wait To Be King
+229,80244a,3,21/01/2021 12:05:00,Gloria Gaynor,I Will Survive
+230,0ec5f7,1,21/01/2021 15:00:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+230,0ec5f7,2,21/01/2021 15:02:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+231,9e17fe,1,21/01/2021 17:00:00,Spice Girls,Wannabe
+231,9e17fe,2,21/01/2021 17:02:00,Alexandra Burke,Hallelujah
+231,9e17fe,3,21/01/2021 17:05:00,Dua Lipa,New Rules
+231,9e17fe,4,21/01/2021 17:08:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+231,9e17fe,5,21/01/2021 17:10:00,ABBA,Mamma Mia
+231,9e17fe,6,21/01/2021 17:12:00,Journey,Don’t Stop Believin’
+231,9e17fe,7,21/01/2021 17:15:00,Oasis,Wonderwall
+231,9e17fe,8,21/01/2021 17:17:00,Frank Sinatra,My Way
+232,ad5f75,1,22/01/2021 01:00:00,Tones And I,Dance Monkey
+233,41c5b3,1,22/01/2021 02:00:00,Grease,Summer Nights
+233,41c5b3,2,22/01/2021 02:02:00,Aladdin,A Whole New World
+233,41c5b3,3,22/01/2021 02:05:00,Dirty Dancing,The Time Of My Life
+234,2bb0da,1,22/01/2021 05:00:00,The Little Mermaid,Part Of Your World
+234,2bb0da,2,22/01/2021 05:03:00,Alexandra Burke,Hallelujah
+234,2bb0da,3,22/01/2021 05:06:00,Bonnie Tyler,Total Eclipse Of The Heart
+234,2bb0da,4,22/01/2021 05:09:00,The Beatles,Hey Jude
+234,2bb0da,5,22/01/2021 05:12:00,Estelle Ft. Kanye West,American Boy
+235,509ec8,1,22/01/2021 10:00:00,Dirty Dancing,The Time Of My Life
+235,509ec8,2,22/01/2021 10:03:00,The Proclaimers,I’m Gonna Be (500 Miles)
+235,509ec8,3,22/01/2021 10:06:00,Spice Girls,Wannabe
+236,98b4b4,1,22/01/2021 13:00:00,Luis Fonsi & Daddy Yankee,Despacito
+237,301133,1,22/01/2021 14:00:00,The Pogues,Fairytale Of New York
+237,301133,2,22/01/2021 14:02:00,Cher,Believe
+237,301133,3,22/01/2021 14:05:00,The Proclaimers,I’m Gonna Be (500 Miles)
+237,301133,4,22/01/2021 14:08:00,Backstreet Boys,I Want It That Way
+238,b5f816,1,22/01/2021 18:00:00,Frozen,Let It Go
+239,b0b55f,1,22/01/2021 19:00:00,Zac Efron & Zendaya,Rewrite The Stars (The Greatest Showman)
+240,01fc7c,1,22/01/2021 20:00:00,The Lion King,Can You Feel The Love Tonight
+240,01fc7c,2,22/01/2021 20:02:00,Dolly Parton,Jolene
+240,01fc7c,3,22/01/2021 20:04:00,Dirty Dancing,The Time Of My Life
+240,01fc7c,4,22/01/2021 20:07:00,Backstreet Boys,Everybody
+240,01fc7c,5,22/01/2021 20:09:00,Outkast,Hey Ya
+240,01fc7c,6,22/01/2021 20:12:00,Little Mix,Shout Out To My Ex
+241,6640b1,1,23/01/2021 02:00:00,Pinkfong,Baby Shark
+241,6640b1,2,23/01/2021 02:03:00,Pinkfong,Baby Shark
+241,6640b1,3,23/01/2021 02:06:00,Anne-Marie,2002
+241,6640b1,4,23/01/2021 02:09:00,Queen,Don’t Stop Me Now
+242,2e5db7,1,23/01/2021 07:00:00,Lil Nas X,Old Town Road
+242,2e5db7,2,23/01/2021 07:03:00,Anne-Marie,2002
+242,2e5db7,3,23/01/2021 07:06:00,ABBA,Gimme Gimme Gimme
+243,40b63a,1,23/01/2021 10:00:00,Bonnie Tyler,Total Eclipse Of The Heart
+243,40b63a,2,23/01/2021 10:03:00,Destiny’s Child,Say My Name
+243,40b63a,3,23/01/2021 10:05:00,Ed Sheeran,Perfect
+244,316313,1,23/01/2021 13:00:00,Wheatus,Teenage Dirtbag
+244,316313,2,23/01/2021 13:03:00,Bonnie Tyler,Total Eclipse Of The Heart
+244,316313,3,23/01/2021 13:06:00,Pinkfong,Baby Shark
+245,749ebe,1,23/01/2021 16:00:00,Oasis,Don’t Look Back In Anger
+246,4ec76d,1,23/01/2021 17:00:00,Mariah Carey,All I Want For Christmas Is You
+247,452d87,1,23/01/2021 18:00:00,Oasis,Don’t Look Back In Anger
+248,a242ac,1,23/01/2021 19:00:00,The Lion King,Hakuna Matata
+249,b0c352,1,23/01/2021 20:00:00,TLC,No Scrubs
+249,b0c352,2,23/01/2021 20:03:00,Mariah Carey,All I Want For Christmas Is You
+249,b0c352,3,23/01/2021 20:05:00,The Beatles,Hey Jude
+249,b0c352,4,23/01/2021 20:08:00,Gloria Gaynor,I Will Survive
+249,b0c352,5,23/01/2021 20:10:00,Oasis,Wonderwall
+249,b0c352,6,23/01/2021 20:12:00,Billie Eilish,Bad Guy
+249,b0c352,7,23/01/2021 20:14:00,Dolly Parton,Jolene
+249,b0c352,8,23/01/2021 20:16:00,Loren Allred,Never Enough (The Greatest Showman)
+250,498a45,1,24/01/2021 04:00:00,Little Mix,Shout Out To My Ex
+251,ccee6c,1,24/01/2021 05:00:00,The Greatest Showman,A Million Dreams
+251,ccee6c,2,24/01/2021 05:03:00,High School Musical,Breaking Free
+251,ccee6c,3,24/01/2021 05:06:00,Alexandra Burke,Hallelujah
+251,ccee6c,4,24/01/2021 05:09:00,Oasis,Wonderwall
+252,d93ab5,1,24/01/2021 09:00:00,Ike And Tina Turner,Proud Mary
+252,d93ab5,2,24/01/2021 09:02:00,A-Ha,Take On Me
+252,d93ab5,3,24/01/2021 09:04:00,Frozen,Let It Go
+252,d93ab5,4,24/01/2021 09:06:00,ABBA,Dancing Queen
+252,d93ab5,5,24/01/2021 09:08:00,Dolly Parton,9 To 5
+252,d93ab5,6,24/01/2021 09:10:00,Outkast,Hey Ya
+252,d93ab5,7,24/01/2021 09:13:00,TLC,No Scrubs
+253,6.99E+67,1,24/01/2021 16:00:00,Bryan Adams,Summer Of ’69
+253,6.99E+67,2,24/01/2021 16:03:00,Outkast,Hey Ya
+253,6.99E+67,3,24/01/2021 16:06:00,Kesha,This Is Me (Greatest Showman)
+253,6.99E+67,4,24/01/2021 16:09:00,Britney Spears,Toxic
+254,a5632d,1,24/01/2021 20:00:00,Alexandra Burke,Hallelujah
+254,a5632d,2,24/01/2021 20:03:00,The Human League,Don’t You Want Me Baby
+254,a5632d,3,24/01/2021 20:06:00,Cher,Believe
+255,,1,24/01/2021 23:00:00,A-Ha,Take On Me
+256,a59dd7,1,25/01/2021 00:00:00,Will Smith,The Fresh Prince Of Bel Air
+256,a59dd7,2,25/01/2021 00:02:00,Estelle Ft. Kanye West,American Boy
+256,a59dd7,3,25/01/2021 00:05:00,Outkast,Hey Ya
+256,a59dd7,4,25/01/2021 00:08:00,Spice Girls,Wannabe
+257,bfe6b6,1,25/01/2021 04:00:00,Ed Sheeran & Justin Bieber,I Don’t Care
+257,bfe6b6,2,25/01/2021 04:03:00,Backstreet Boys,I Want It That Way
+257,bfe6b6,3,25/01/2021 04:05:00,Eminem,Lose Yourself
+257,bfe6b6,4,25/01/2021 04:08:00,Robbie Williams,Angels
+257,bfe6b6,5,25/01/2021 04:11:00,Anne-Marie,2002
+257,bfe6b6,6,25/01/2021 04:14:00,The Little Mermaid,Part Of Your World
+257,bfe6b6,7,25/01/2021 04:17:00,Shawn Mendes & Camila Cabello,Senorita
+258,,1,25/01/2021 11:00:00,Britney Spears,Toxic
+259,08c83a,1,25/01/2021 12:00:00,The Beatles,Hey Jude
+260,2e5db7,1,25/01/2021 13:00:00,Mariah Carey,All I Want For Christmas Is You
+261,56f7a2,1,25/01/2021 14:00:00,Dua Lipa,New Rules
+262,f97dbd,1,25/01/2021 15:00:00,Queen,I Want To Break Free
+262,f97dbd,2,25/01/2021 15:03:00,A-Ha,Take On Me
+263,0becb9,1,25/01/2021 17:00:00,Bon Jovi,Livin’ On A Prayer
+263,0becb9,2,25/01/2021 17:02:00,Frank Sinatra,My Way
+263,0becb9,3,25/01/2021 17:05:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+264,9e17fe,1,25/01/2021 20:00:00,John Denver,"Take Me Home, Country Roads"
+264,9e17fe,2,25/01/2021 20:03:00,Alexandra Burke,Hallelujah
+265,a0a25c,1,25/01/2021 22:00:00,Whitney Houston,I Wanna Dance With Somebody
+265,a0a25c,2,25/01/2021 22:03:00,Mark Ronson Ft. Bruno Mars,Uptown Funk
+265,a0a25c,3,25/01/2021 22:06:00,TLC,No Scrubs
+266,98b4b4,1,26/01/2021 01:00:00,Little Mix,Shout Out To My Ex
+266,98b4b4,2,26/01/2021 01:03:00,A-Ha,Take On Me
+266,98b4b4,3,26/01/2021 01:05:00,Ava Max,Sweet But Psycho
+266,98b4b4,4,26/01/2021 01:08:00,Billie Eilish,Bad Guy
+266,98b4b4,5,26/01/2021 01:10:00,Taylor Swift,Shake It Off
+266,98b4b4,6,26/01/2021 01:12:00,Dolly Parton,9 To 5
+267,ce0bf2,1,26/01/2021 07:00:00,Dolly Parton,9 To 5
+267,ce0bf2,2,26/01/2021 07:02:00,Bon Jovi,Livin’ On A Prayer
+267,ce0bf2,3,26/01/2021 07:04:00,A-Ha,Take On Me
+267,ce0bf2,4,26/01/2021 07:06:00,The Little Mermaid,Under The Sea
+267,ce0bf2,5,26/01/2021 07:08:00,George Ezra,Shotgun
+268,8d850e,1,26/01/2021 12:00:00,Dolly Parton & Kenny Rogers,Islands In The Stream
+268,8d850e,2,26/01/2021 12:03:00,Frozen,Let It Go
+269,9e17fe,1,26/01/2021 14:00:00,Queen,We Will Rock You
+269,9e17fe,2,26/01/2021 14:03:00,Mariah Carey,All I Want For Christmas Is You
+270,bdc39c,1,26/01/2021 16:00:00,Wheatus,Teenage Dirtbag
+271,b5f816,1,26/01/2021 17:00:00,Ava Max,Sweet But Psycho
+271,b5f816,2,26/01/2021 17:03:00,Outkast,Hey Ya
+271,b5f816,3,26/01/2021 17:06:00,Backstreet Boys,Everybody
+271,b5f816,4,26/01/2021 17:08:00,Guns N’ Roses,Sweet Child O’ Mine
+272,a59dd7,1,26/01/2021 21:00:00,Cher,Believe
+272,a59dd7,2,26/01/2021 21:03:00,Aqua,Barbie Girl
+273,2.56E+06,1,26/01/2021 23:00:00,The Human League,Don’t You Want Me Baby
+273,2.56E+06,2,26/01/2021 23:03:00,The Weather Girls,It’s Raining Men
+273,2.56E+06,3,26/01/2021 23:05:00,Ava Max,Sweet But Psycho
+273,2.56E+06,4,26/01/2021 23:08:00,The Pogues,Fairytale Of New York
+274,5ddb51,1,27/01/2021 03:00:00,ABBA,Dancing Queen
+274,5ddb51,2,27/01/2021 03:02:00,The Lion King,I Just Can’t Wait To Be King
+274,5ddb51,3,27/01/2021 03:04:00,Mark Ronson Ft. Amy Winehouse,Valerie
+274,5ddb51,4,27/01/2021 03:07:00,A-Ha,Take On Me
+274,5ddb51,5,27/01/2021 03:09:00,ABBA,Dancing Queen
+274,5ddb51,6,27/01/2021 03:11:00,Wheatus,Teenage Dirtbag
+274,5ddb51,7,27/01/2021 03:14:00,Eminem,Lose Yourself
+274,5ddb51,8,27/01/2021 03:17:00,The Weather Girls,It’s Raining Men
+274,5ddb51,9,27/01/2021 03:19:00,Luis Fonsi & Daddy Yankee,Despacito
+274,5ddb51,10,27/01/2021 03:21:00,Lewis Capaldi,Someone You Loved
+274,5ddb51,11,27/01/2021 03:24:00,The Proclaimers,I’m Gonna Be (500 Miles)
+275,758060,1,27/01/2021 14:00:00,Gloria Gaynor,I Will Survive
+276,62f99c,1,27/01/2021 15:00:00,Outkast,Hey Ya
+276,62f99c,2,27/01/2021 15:03:00,Anne-Marie,2002
+276,62f99c,3,27/01/2021 15:06:00,ABBA,Mamma Mia
+277,316313,1,27/01/2021 19:00:00,Frank Sinatra,New York New York
+277,316313,2,27/01/2021 19:03:00,Shawn Mendes & Camila Cabello,Senorita
+277,316313,3,27/01/2021 19:06:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+277,316313,4,27/01/2021 19:09:00,The Lion King,I Just Can’t Wait To Be King
+277,316313,5,27/01/2021 19:11:00,Elton John & Kiki Dee,Don’t Go Breaking My Heart
+278,08c83a,1,28/01/2021 00:00:00,Journey,Don’t Stop Believin’
+278,08c83a,2,28/01/2021 00:03:00,Moana,How Far I’ll Go
+278,08c83a,3,28/01/2021 00:06:00,Wheatus,Teenage Dirtbag
+278,08c83a,4,28/01/2021 00:09:00,Alexandra Burke,Hallelujah
+278,08c83a,5,28/01/2021 00:12:00,Queen,We Will Rock You
+278,08c83a,6,28/01/2021 00:15:00,Ed Sheeran & Justin Bieber,I Don’t Care
+278,08c83a,7,28/01/2021 00:18:00,Toto,Africa
+278,08c83a,8,28/01/2021 00:21:00,Robbie Williams,Angels
+278,08c83a,9,28/01/2021 00:24:00,George Ezra,Shotgun
+278,08c83a,10,28/01/2021 00:26:00,Beyonce,Single Ladies (Put A Ring On It)
+278,08c83a,11,28/01/2021 00:29:00,The Pogues,Fairytale Of New York
+279,bdc39c,1,28/01/2021 11:00:00,The Lion King,Hakuna Matata
+279,bdc39c,2,28/01/2021 11:02:00,Little Mix,Shout Out To My Ex
+279,bdc39c,3,28/01/2021 11:05:00,Beyonce,Single Ladies (Put A Ring On It)
+280,509ec8,1,28/01/2021 14:00:00,Cher,Believe
+280,509ec8,2,28/01/2021 14:03:00,Frank Sinatra,New York New York
+280,509ec8,3,28/01/2021 14:06:00,Oasis,Don’t Look Back In Anger
+280,509ec8,4,28/01/2021 14:09:00,Kesha,This Is Me (Greatest Showman)
+280,509ec8,5,28/01/2021 14:12:00,Queen,Don’t Stop Me Now
+280,509ec8,6,28/01/2021 14:15:00,Gloria Gaynor,I Will Survive
+280,509ec8,7,28/01/2021 14:17:00,Anne-Marie,2002
+280,509ec8,8,28/01/2021 14:20:00,Robbie Williams,Angels
+280,509ec8,9,28/01/2021 14:23:00,The Proclaimers,I’m Gonna Be (500 Miles)
+280,509ec8,10,28/01/2021 14:26:00,Kings Of Leon,Sex Is On Fire
+280,509ec8,11,28/01/2021 14:28:00,Eminem,Lose Yourself
+280,509ec8,12,28/01/2021 14:31:00,Kesha,This Is Me (Greatest Showman)
+280,509ec8,13,28/01/2021 14:34:00,The Little Mermaid,Under The Sea
+280,509ec8,14,28/01/2021 14:36:00,The Weather Girls,It’s Raining Men
+281,1a641f,1,29/01/2021 04:00:00,Wham!,Last Christmas
+282,a18ee9,1,29/01/2021 05:00:00,Elton John & Kiki Dee,Don’t Go Breaking My Heart
+282,a18ee9,2,29/01/2021 05:02:00,Luis Fonsi & Daddy Yankee,Despacito
+282,a18ee9,3,29/01/2021 05:04:00,Ed Sheeran,Perfect
+282,a18ee9,4,29/01/2021 05:06:00,Shania Twain,Man! I Feel Like A Woman
+282,a18ee9,5,29/01/2021 05:09:00,Journey,Don’t Stop Believin’
+282,a18ee9,6,29/01/2021 05:12:00,Neil Diamond,Sweet Caroline
+282,a18ee9,7,29/01/2021 05:15:00,A-Ha,Take On Me
+282,a18ee9,8,29/01/2021 05:17:00,Bon Jovi,Livin’ On A Prayer
+282,a18ee9,9,29/01/2021 05:19:00,Dolly Parton,Jolene
+283,6eb0e1,1,29/01/2021 14:00:00,Destiny’s Child,Say My Name
+284,31034a,1,29/01/2021 15:00:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+284,31034a,2,29/01/2021 15:03:00,Frozen,Let It Go
+284,31034a,3,29/01/2021 15:05:00,Dolly Parton,Jolene
+284,31034a,4,29/01/2021 15:07:00,Ed Sheeran,Castle On The Hill
+284,31034a,5,29/01/2021 15:10:00,A-Ha,Take On Me
+284,31034a,6,29/01/2021 15:12:00,Backstreet Boys,Everybody
+285,793a1c,1,29/01/2021 21:00:00,Aqua,Barbie Girl
+285,793a1c,2,29/01/2021 21:02:00,Wham!,Last Christmas
+285,793a1c,3,29/01/2021 21:04:00,Dolly Parton & Kenny Rogers,Islands In The Stream
+285,793a1c,4,29/01/2021 21:07:00,Grease,Summer Nights
+285,793a1c,5,29/01/2021 21:09:00,Elvis Presley,Suspicious Minds
+285,793a1c,6,29/01/2021 21:12:00,Robbie Williams,Angels
+286,6.99E+67,1,30/01/2021 03:00:00,Billie Eilish,Bad Guy
+286,6.99E+67,2,30/01/2021 03:02:00,Ed Sheeran,Castle On The Hill
+287,9e17fe,1,30/01/2021 05:00:00,Queen,Don’t Stop Me Now
+287,9e17fe,2,30/01/2021 05:03:00,Queen,We Will Rock You
+287,9e17fe,3,30/01/2021 05:06:00,Beyonce,Single Ladies (Put A Ring On It)
+287,9e17fe,4,30/01/2021 05:09:00,Will Smith,The Fresh Prince Of Bel Air
+287,9e17fe,5,30/01/2021 05:11:00,Wheatus,Teenage Dirtbag
+287,9e17fe,6,30/01/2021 05:14:00,Kesha,This Is Me (Greatest Showman)
+287,9e17fe,7,30/01/2021 05:17:00,The Greatest Showman,A Million Dreams
+287,9e17fe,8,30/01/2021 05:20:00,Little Mix,Shout Out To My Ex
+287,9e17fe,9,30/01/2021 05:23:00,Anne-Marie,2002
+287,9e17fe,10,30/01/2021 05:26:00,Dirty Dancing,The Time Of My Life
+287,9e17fe,11,30/01/2021 05:29:00,The Little Mermaid,Under The Sea
+287,9e17fe,12,30/01/2021 05:31:00,The Pogues,Fairytale Of New York
+287,9e17fe,13,30/01/2021 05:33:00,Britney Spears,Baby One More Time
+287,9e17fe,14,30/01/2021 05:35:00,Destiny’s Child,Say My Name
+288,896f04,1,30/01/2021 20:00:00,Frank Sinatra,My Way
+288,896f04,2,30/01/2021 20:03:00,Estelle Ft. Kanye West,American Boy
+288,896f04,3,30/01/2021 20:06:00,Mariah Carey,All I Want For Christmas Is You
+288,896f04,4,30/01/2021 20:08:00,Estelle Ft. Kanye West,American Boy
+289,80244a,1,31/01/2021 00:00:00,Ike And Tina Turner,Proud Mary
+289,80244a,2,31/01/2021 00:02:00,George Ezra,Shotgun
+289,80244a,3,31/01/2021 00:04:00,Lil Nas X,Old Town Road
+289,80244a,4,31/01/2021 00:07:00,Britney Spears,Toxic
+290,b15e9b,1,31/01/2021 04:00:00,John Denver,"Take Me Home, Country Roads"
+290,b15e9b,2,31/01/2021 04:03:00,TLC,No Scrubs
+290,b15e9b,3,31/01/2021 04:06:00,Journey,Don’t Stop Believin’
+290,b15e9b,4,31/01/2021 04:09:00,Kesha,This Is Me (Greatest Showman)
+290,b15e9b,5,31/01/2021 04:12:00,Toto,Africa
+290,b15e9b,6,31/01/2021 04:15:00,Backstreet Boys,Everybody
+290,b15e9b,7,31/01/2021 04:17:00,Spice Girls,Wannabe
+290,b15e9b,8,31/01/2021 04:19:00,Outkast,Hey Ya
+290,b15e9b,9,31/01/2021 04:22:00,Queen,I Want To Break Free
+290,b15e9b,10,31/01/2021 04:25:00,The Pogues,Fairytale Of New York
+291,8bc93d,1,31/01/2021 14:00:00,Lady Gaga & Bradley Cooper,Shallow
+291,8bc93d,2,31/01/2021 14:03:00,Dua Lipa,New Rules
+291,8bc93d,3,31/01/2021 14:06:00,Frank Sinatra,New York New York
+292,b919e0,1,31/01/2021 17:00:00,Pinkfong,Baby Shark
+292,b919e0,2,31/01/2021 17:03:00,Tones And I,Dance Monkey
+292,b919e0,3,31/01/2021 17:06:00,Pinkfong,Baby Shark
+292,b919e0,4,31/01/2021 17:09:00,Guns N’ Roses,Sweet Child O’ Mine
+292,b919e0,5,31/01/2021 17:11:00,Mark Ronson Ft. Amy Winehouse,Valerie
+292,b919e0,6,31/01/2021 17:14:00,Beyonce,Single Ladies (Put A Ring On It)
+292,b919e0,7,31/01/2021 17:17:00,Mark Ronson Ft. Amy Winehouse,Valerie
+292,b919e0,8,31/01/2021 17:20:00,Dolly Parton,9 To 5
+292,b919e0,9,31/01/2021 17:22:00,The Little Mermaid,Under The Sea
+292,b919e0,10,31/01/2021 17:24:00,Ed Sheeran,Perfect
+292,b919e0,11,31/01/2021 17:26:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+292,b919e0,12,31/01/2021 17:29:00,Grease,You’re The One That I Want
+292,b919e0,13,31/01/2021 17:31:00,Camilla Cabello Ft. Young Thug,Havana
+292,b919e0,14,31/01/2021 17:33:00,Loren Allred,Never Enough (The Greatest Showman)
+293,3fdc46,1,01/02/2021 07:00:00,Little Mix,Shout Out To My Ex
+293,3fdc46,2,01/02/2021 07:03:00,Aladdin,A Whole New World
+293,3fdc46,3,01/02/2021 07:06:00,Ava Max,Sweet But Psycho
+293,3fdc46,4,01/02/2021 07:09:00,The Human League,Don’t You Want Me Baby
+293,3fdc46,5,01/02/2021 07:12:00,Kesha,This Is Me (Greatest Showman)
+293,3fdc46,6,01/02/2021 07:15:00,The Lion King,Can You Feel The Love Tonight
+294,5ddb51,1,01/02/2021 13:00:00,Cher,Believe
+294,5ddb51,2,01/02/2021 13:03:00,ABBA,Mamma Mia
+295,a0a25c,1,01/02/2021 15:00:00,Journey,Don’t Stop Believin’
+295,a0a25c,2,01/02/2021 15:03:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+296,80244a,1,01/02/2021 17:00:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+296,80244a,2,01/02/2021 17:03:00,Bonnie Tyler,Total Eclipse Of The Heart
+296,80244a,3,01/02/2021 17:06:00,Aladdin,A Whole New World
+296,80244a,4,01/02/2021 17:09:00,Queen,I Want To Break Free
+297,707b62,1,01/02/2021 21:00:00,The Lion King,I Just Can’t Wait To Be King
+298,cdda70,1,01/02/2021 22:00:00,Estelle Ft. Kanye West,American Boy
+298,cdda70,2,01/02/2021 22:03:00,Moana,How Far I’ll Go
+298,cdda70,3,01/02/2021 22:06:00,The Proclaimers,I’m Gonna Be (500 Miles)
+298,cdda70,4,01/02/2021 22:09:00,Kings Of Leon,Sex Is On Fire
+298,cdda70,5,01/02/2021 22:11:00,Hugh Jackman & The Greatest Showman Cast,The Greatest Show
+298,cdda70,6,01/02/2021 22:14:00,Lil Nas X,Old Town Road
+298,cdda70,7,01/02/2021 22:17:00,Ike And Tina Turner,Proud Mary
+298,cdda70,8,01/02/2021 22:19:00,Bon Jovi,Livin’ On A Prayer
