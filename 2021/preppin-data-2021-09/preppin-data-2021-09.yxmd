@@ -1,0 +1,1123 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="60" width="852" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>2021: Week 9 - Working with Strings
+https://preppindata.blogspot.com/2021/03/2021-week-9-working-with-strings.html
+
+- Input the Customer Information file, split the values and reshape the data so there is a separate ID on each row.
+- Each ID field contains the following information we need to extract:
+    - The first 6 digits present in each ID is the customers phone number
+    - The first 2 digits after the ‘,’ is the last 2 digits of the area code 
+    - The letter following this is the first letter of the name of the area that they are calling from
+    - The digits after this letter resemble the quantity of products ordered
+    - The letters after the ‘-‘ are the product ID codes 
+    - Rename these fields appropriately, and remove any unwanted columns – leaving only these 5 columns in the workflow. 
+- Input the Area Code Lookup Table – find a way to join it to the Customer information file
+- We don’t actually sell products in Clevedon, Fakenham, or Stornoway. Exclude these from our dataset 
+- In some cases, the ID field does not provide accurate enough conditions to know where the customer is from. Exclude any phone numbers where the join has produced duplicated records.
+- Remove any unwanted fields created from the join. 
+- Join this dataset to our product lookup table. 
+- For each area, and product, find the total sales values, rounded to zero decimal places
+- Rank how well each product sold in each area.
+- For each area, work out the percent of total that each different product contributes to the overall revenue of that Area, rounded to 2 decimal places.
+- Output the data (updated 03/03/21 17:45 GMT)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="176">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="630" y="401" width="155" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Join to area</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="153">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="655" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="area_code_last_2" />
+                <Field field="area_first_letter" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="area_code_last_2" />
+                <Field field="area_first_letter" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_IDs" selected="False" input="Left_" />
+                    <SelectField field="Left_area_code_last_2" selected="False" input="Left_" />
+                    <SelectField field="Left_area_first_letter" selected="False" input="Left_" />
+                    <SelectField field="Right_area_first_letter" selected="False" rename="Right_area_first_letter" input="Right_" />
+                    <SelectField field="Right_area_code_last_2" selected="False" rename="Right_area_code_last_2" input="Right_" />
+                    <SelectField field="Right_Count" selected="False" input="Right_" />
+                    <SelectField field="Right_Code" selected="False" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Join to area code info on first letter and last 2 digits</AnnotationText>
+              <DefaultAnnotationText>Join to area code info on first letter and last 2 digits</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="181">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1733" y="28.99998" width="551" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Check results</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="172">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1974" y="78" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Rank" />
+                <Field field="Area" />
+                <Field field="Product Name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Rank" />
+                <Field field="Area" />
+                <Field field="Product Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Rank" selected="True" rename="Right_Rank" input="Right_" />
+                    <SelectField field="Right_Area" selected="True" rename="Right_Area" input="Right_" />
+                    <SelectField field="Right_Product Name" selected="True" rename="Right_Product Name" input="Right_" />
+                    <SelectField field="Right_Revenue" selected="True" rename="Right_Revenue" input="Right_" />
+                    <SelectField field="Right_% of Total - Product" selected="True" rename="Right_% of Total - Product" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="173">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
+            <Position x="2154" y="78" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Tests>
+                <Test>
+                  <Name>In solution, not in mine</Name>
+                  <Connection>#1</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>In mine, not in solution</Name>
+                  <Connection>#2</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>Values do not match</Name>
+                  <Connection>#3</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+              </Tests>
+              <DontReportSubsequent value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>In solution, not in mine
+In mine, not in solution
+Values do not match</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTest" />
+        </Node>
+        <Node ToolID="174">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1866" y="77.99998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Rank" selected="True" type="Byte" size="1" />
+                <SelectField field="Revenue" selected="True" type="Int32" size="4" />
+                <SelectField field="% of Total - Product" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Clean up fields</AnnotationText>
+              <DefaultAnnotationText>Clean up fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="175">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="2046" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Revenue] != [Right_Revenue]
+or 
+round([% of Total - Product],2) != round([Right_% of Total - Product],2)</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Check values</AnnotationText>
+              <DefaultAnnotationText>[Revenue] != [Right_Revenue]
+or 
+round([% of Total - Product],2) != round([Right...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="149">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="1758" y="78.00003" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Preppin Data 2020W9 Output.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Rank" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="Area" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="Product Name" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="Revenue" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="% of Total - Product" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="178">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1557" y="401" width="249" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Add rank</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="164">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1582" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Area" order="Ascending" />
+                <Field field="Revenue" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Area - Ascending
+Revenue - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="168">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="1702" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>Area</UpdateField_Name>
+              <CreateField_Name>Rank</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>[Row-1:Rank]+1</Expression>
+              <GroupByFields>
+                <Field field="Area" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Product rank within area</AnnotationText>
+              <DefaultAnnotationText>[Row-1:Rank]+1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="165">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="821" y="400.9999" width="701" height="237.0001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Calculate revenue by area/product and by area total</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="161">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="846" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="product_code" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Product ID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Join to product lookup</AnnotationText>
+              <DefaultAnnotationText>Join to product lookup</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="162">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="962" y="449.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Area" action="GroupBy" rename="Area" />
+                <SummarizeField field="Product Name" action="GroupBy" rename="Product Name" />
+                <SummarizeField field="quantity_ordered" action="Sum" rename="Sum_quantity_ordered" />
+                <SummarizeField field="Price" action="Min" rename="Min_Price" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Sum by area and product</AnnotationText>
+              <DefaultAnnotationText>Sum by area and product</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="163">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1082" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="round([Sum_quantity_ordered]*[Min_Price],1)" field="Revenue" size="4" type="Int32" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Calculate revenue and round to zero dec places</AnnotationText>
+              <DefaultAnnotationText><![CDATA[Revenue = round([Sum_quantity_ordered]*[Min_Price],1)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="166">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1213" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Area" action="GroupBy" rename="Area" />
+                <SummarizeField field="Revenue" action="Sum" rename="area_total_revenue" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Total revenue by area</AnnotationText>
+              <DefaultAnnotationText>Total revenue by area</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="167">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1309" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Area" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Area" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Area" selected="False" rename="Right_Area" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="169">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1391" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="round([Revenue] / [area_total_revenue] * 100, 0.01)" field="% of Total - Product" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Product % of area revenue</AnnotationText>
+              <DefaultAnnotationText><![CDATA[% of Total - Product = round([Revenue] / [area_total_revenue] * 100, 0.01)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="158">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="368" y="677" width="598" height="279" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Check for areas with ambiguous join code, filter unnecessary areas</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="154">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="498" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="area_first_letter" action="GroupBy" rename="area_first_letter" />
+                <SummarizeField field="area_code_last_2" action="GroupBy" rename="area_code_last_2" />
+                <SummarizeField field="Code" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Count by first letter/last 2</AnnotationText>
+              <DefaultAnnotationText>Count by first letter/last 2</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="156">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="714" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="area_first_letter" />
+                <Field field="area_code_last_2" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="area_first_letter" />
+                <Field field="area_code_last_2" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_area_first_letter" selected="False" rename="Right_area_first_letter" input="Right_" />
+                    <SelectField field="Right_area_code_last_2" selected="False" rename="Right_area_code_last_2" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Join to keep only letter/number with one match</AnnotationText>
+              <DefaultAnnotationText>Join to get dups</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="157">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="606" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Count</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-03-18 17:48:19</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>1</Operand>
+                  <StartDate>2021-03-18 17:48:19</StartDate>
+                  <EndDate>2021-03-18 17:48:19</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Count] = 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="152">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="393" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="left([Area],1)" field="area_first_letter" size="1" type="V_WString" />
+                <FormulaField expression="right([Code],2)" field="area_code_last_2" size="2" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[area_first_letter = left([Area],1)
+area_code_last_2 = right([Code],2)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="182">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="840" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Area] NOT IN('Clevedon','Fakenham','Stornoway')</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Area] NOT IN('Clevedon','Fakenham','Stornoway')</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="148">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="368" y="401" width="226" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Parse customer info</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="146">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="475" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>IDs</Field>
+              <RegExExpression value="\D*(\d{6}).*?\,(\d{2})(.)(\d+)-(.*)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseComplex</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>IDs</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="phone_number" type="V_String" size="6" />
+                <Field field="area_code_last_2" type="V_String" size="2" />
+                <Field field="area_first_letter" type="V_String" size="1" />
+                <Field field="quantity_ordered" type="Int16" size="2" />
+                <Field field="product_code" type="V_String" size="255" />
+              </ParseComplex>
+              <Match>
+                <Field>IDs_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse customer/order info</AnnotationText>
+              <DefaultAnnotationText>Parse customer/order info</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="147">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="393" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>IDs</Field>
+              <Delimeters value=" " />
+              <NumFields value="1" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Split IDs 
+at spaces</AnnotationText>
+              <DefaultAnnotationText>Split IDs at spaces</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="60" y="401" width="272" height="564" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Import data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="85.00016" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Customer Information.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Customer Information.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="IDs" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Customer Information.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="151">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="85.00005" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Area Code Lookup.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Area Code Lookup.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Code" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Area Code Lookup.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Area" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Area Code Lookup.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="150">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90.00015" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Product Lookup.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Product Lookup.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Product ID" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Product Name" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Price" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="177">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="215" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>Text</FieldType>
+              <Fields orderChanged="False">
+                <Field name="Price" />
+                <Field name="Product ID" selected="False" />
+                <Field name="Product Name" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression>tonumber(replace([_CurrentField_], '£', ''))</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="Double" size="8" scale="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Remove £ from price</AnnotationText>
+              <DefaultAnnotationText>tonumber(replace([_CurrentField_], '£', ''))</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="179">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1842" y="401" width="238" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output to csv</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="170">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1867" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Rank" selected="True" />
+                <SelectField field="Area" selected="True" />
+                <SelectField field="Product Name" selected="True" />
+                <SelectField field="Sum_quantity_ordered" selected="False" />
+                <SelectField field="Min_Price" selected="False" />
+                <SelectField field="Revenue" selected="True" />
+                <SelectField field="area_total_revenue" selected="False" />
+                <SelectField field="% of Total - Product" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Clean up fields</AnnotationText>
+              <DefaultAnnotationText>Clean up fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="180">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1974" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">.\outputs\output-2021-09.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>output-2021-09.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="153" Connection="Join" />
+      <Destination ToolID="161" Connection="Left" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="177" Connection="Output" />
+      <Destination ToolID="161" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="172" Connection="Left" />
+      <Destination ToolID="173" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="172" Connection="Right" />
+      <Destination ToolID="173" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="175" Connection="True" />
+      <Destination ToolID="173" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="172" Connection="Join" />
+      <Destination ToolID="175" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="174" Connection="Output" />
+      <Destination ToolID="172" Connection="Left" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="170" Connection="Output" />
+      <Destination ToolID="172" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Output" />
+      <Destination ToolID="174" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="164" Connection="Output" />
+      <Destination ToolID="168" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="168" Connection="Output" />
+      <Destination ToolID="170" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="161" Connection="Join" />
+      <Destination ToolID="162" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="162" Connection="Output" />
+      <Destination ToolID="163" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="166" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Output" />
+      <Destination ToolID="167" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="166" Connection="Output" />
+      <Destination ToolID="167" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="167" Connection="Join" />
+      <Destination ToolID="169" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="169" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="154" Connection="Output" />
+      <Destination ToolID="157" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="156" Connection="Join" />
+      <Destination ToolID="182" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="157" Connection="True" />
+      <Destination ToolID="156" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="152" Connection="Output" />
+      <Destination ToolID="156" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="152" Connection="Output" />
+      <Destination ToolID="154" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="182" Connection="True" />
+      <Destination ToolID="153" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="146" Connection="Output" />
+      <Destination ToolID="153" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="147" Connection="Output" />
+      <Destination ToolID="146" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="147" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="151" Connection="Output" />
+      <Destination ToolID="152" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="150" Connection="Output" />
+      <Destination ToolID="177" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="170" Connection="Output" />
+      <Destination ToolID="180" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>preppin-data-2021-09</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

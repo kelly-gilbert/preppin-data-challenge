@@ -25,9 +25,9 @@ from shutil import copy2
 
 # update the year/week to add and enter your main directory path
 year = 2021
-week = 7    # week to add
+week = 11    # week to add
 prev_year = 2021
-prev_week = 6
+prev_week = 7
 main_dir = 'C:\\projects\\preppin-data-challenge\\'
 
 chdir(main_dir)
