@@ -8,4 +8,7 @@
 ## Alteryx
 <a href="/preppin-data-2021-10.yxmd">
 <img src="img-alteryx-2021-10.png?raw=true" alt="Alteryx workflow">
-</a>
+>/a>
+
+#### Iterative macro:
+<img src="img-alteryx-2021-10.png-iterative-macro?raw=true" alt="Alteryx workflow">
