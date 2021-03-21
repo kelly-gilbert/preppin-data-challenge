@@ -112,7 +112,7 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Sheet Names" size="10" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\inputs\PD 2021 Wk 4 Input.xlsx|||&lt;List of Sheet Names&gt;" type="V_WString" />
+                <Field name="Sheet Names" size="10" source="File: .\inputs\PD 2021 Wk 4 Input.xlsx|||&lt;List of Sheet Names&gt;" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -207,9 +207,9 @@ Query=`Targets$`</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Quarter" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\inputs\PD 2021 Wk 4 Input.xlsx|||`Targets$`" type="Double" />
-                <Field name="Store" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\inputs\PD 2021 Wk 4 Input.xlsx|||`Targets$`" type="V_String" />
-                <Field name="Target" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\inputs\PD 2021 Wk 4 Input.xlsx|||`Targets$`" type="Double" />
+                <Field name="Quarter" source="File: .\inputs\PD 2021 Wk 4 Input.xlsx|||`Targets$`" type="Double" />
+                <Field name="Store" size="255" source="File: .\inputs\PD 2021 Wk 4 Input.xlsx|||`Targets$`" type="V_String" />
+                <Field name="Target" source="File: .\inputs\PD 2021 Wk 4 Input.xlsx|||`Targets$`" type="Double" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -552,12 +552,12 @@ Variance to Target - Descending</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Quarter" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
-                <Field name="Rank" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
-                <Field name="Store" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
-                <Field name="Products Sold" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
-                <Field name="Target" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
-                <Field name="Variance to Target" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
+                <Field name="Quarter" size="254" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
+                <Field name="Rank" size="254" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
+                <Field name="Store" size="254" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
+                <Field name="Products Sold" size="254" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
+                <Field name="Target" size="254" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
+                <Field name="Variance to Target" size="254" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -688,12 +688,12 @@ OR
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Quarter" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="Byte" />
-                <Field name="Rank" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="Byte" />
-                <Field name="Store" size="10" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="String" />
-                <Field name="Products Sold" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="Int16" />
-                <Field name="Target" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="Int16" />
-                <Field name="Variance to Target" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-04\outputs\PD 2021 Wk 4 Output.csv" type="Int16" />
+                <Field name="Quarter" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="Byte" />
+                <Field name="Rank" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="Byte" />
+                <Field name="Store" size="10" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="String" />
+                <Field name="Products Sold" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="Int16" />
+                <Field name="Target" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="Int16" />
+                <Field name="Variance to Target" source="File: .\outputs\PD 2021 Wk 4 Output.csv" type="Int16" />
               </RecordInfo>
             </MetaInfo>
           </Properties>

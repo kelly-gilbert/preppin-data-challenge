@@ -179,7 +179,7 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Sheet Names" size="10" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\inputs\PD 2021 Wk 3 Input.xlsx|||&lt;List of Sheet Names&gt;" type="V_WString" />
+                <Field name="Sheet Names" size="10" source="File: .\inputs\PD 2021 Wk 3 Input.xlsx|||&lt;List of Sheet Names&gt;" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -396,9 +396,9 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Product" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Product Quarter Output.csv" type="V_WString" />
-                <Field name="Quarter" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Product Quarter Output.csv" type="V_WString" />
-                <Field name="Products Sold" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Product Quarter Output.csv" type="V_WString" />
+                <Field name="Product" size="254" source="File: .\outputs\Product Quarter Output.csv" type="V_WString" />
+                <Field name="Quarter" size="254" source="File: .\outputs\Product Quarter Output.csv" type="V_WString" />
+                <Field name="Products Sold" size="254" source="File: .\outputs\Product Quarter Output.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -515,9 +515,9 @@ Values do not match</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Product" size="9" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Product Quarter Output.csv" type="String" />
-                <Field name="Quarter" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Product Quarter Output.csv" type="Byte" />
-                <Field name="Products Sold" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Product Quarter Output.csv" type="Int16" />
+                <Field name="Product" size="9" source="File: .\outputs\Product Quarter Output.csv" type="String" />
+                <Field name="Quarter" source="File: .\outputs\Product Quarter Output.csv" type="Byte" />
+                <Field name="Products Sold" source="File: .\outputs\Product Quarter Output.csv" type="Int16" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -554,10 +554,10 @@ Values do not match</DefaultAnnotationText>
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Store" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Store Customer Product Output.csv" type="V_WString" />
-                <Field name="Customer Type" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Store Customer Product Output.csv" type="V_WString" />
-                <Field name="Product" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Store Customer Product Output.csv" type="V_WString" />
-                <Field name="Products Sold" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Store Customer Product Output.csv" type="V_WString" />
+                <Field name="Store" size="254" source="File: .\outputs\Store Customer Product Output.csv" type="V_WString" />
+                <Field name="Customer Type" size="254" source="File: .\outputs\Store Customer Product Output.csv" type="V_WString" />
+                <Field name="Product" size="254" source="File: .\outputs\Store Customer Product Output.csv" type="V_WString" />
+                <Field name="Products Sold" size="254" source="File: .\outputs\Store Customer Product Output.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -584,10 +584,10 @@ Values do not match</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Store" size="10" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Store Customer Product Output.csv" type="String" />
-                <Field name="Customer Type" size="8" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Store Customer Product Output.csv" type="String" />
-                <Field name="Product" size="9" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Store Customer Product Output.csv" type="String" />
-                <Field name="Products Sold" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-03\outputs\Store Customer Product Output.csv" type="Int16" />
+                <Field name="Store" size="10" source="File: .\outputs\Store Customer Product Output.csv" type="String" />
+                <Field name="Customer Type" size="8" source="File: .\outputs\Store Customer Product Output.csv" type="String" />
+                <Field name="Product" size="9" source="File: .\outputs\Store Customer Product Output.csv" type="String" />
+                <Field name="Products Sold" source="File: .\outputs\Store Customer Product Output.csv" type="Int16" />
               </RecordInfo>
             </MetaInfo>
           </Properties>

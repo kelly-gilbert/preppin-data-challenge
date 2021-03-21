@@ -377,13 +377,13 @@ https://preppindata.blogspot.com/2021/02/2021-week-7-vegan-shopping-list.html
                 <MetaInfo name="#1">
                   <RecordInfo>
                     <Field name="Animal Ingredients" size="255" source="Formula: LowerCase([Animal Ingredients])" type="V_String" column="1" />
-                    <Field name="E Numbers" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\inputs\Shopping List and Ingredients.xlsx|||`Keywords$`" type="V_String" column="2" />
+                    <Field name="E Numbers" size="255" source="File: .\inputs\Shopping List and Ingredients.xlsx|||`Keywords$`" type="V_String" column="2" />
                   </RecordInfo>
                 </MetaInfo>
                 <MetaInfo name="#2">
                   <RecordInfo>
                     <Field name="E Numbers" size="255" source="Formula: 'E' + [E Numbers]" type="V_String" column="1" />
-                    <Field name="Animal Ingredients" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\inputs\Shopping List and Ingredients.xlsx|||`Keywords$`" type="V_String" column="2" />
+                    <Field name="Animal Ingredients" size="255" source="File: .\inputs\Shopping List and Ingredients.xlsx|||`Keywords$`" type="V_String" column="2" />
                   </RecordInfo>
                 </MetaInfo>
               </MultiMetaInfo>
@@ -483,9 +483,9 @@ Query=`Shopping List$`</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Product" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\inputs\Shopping List and Ingredients.xlsx|||`Shopping List$`" type="V_String" />
-                <Field name="Description" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\inputs\Shopping List and Ingredients.xlsx|||`Shopping List$`" type="V_String" />
-                <Field name="Ingredients/Allergens" size="729" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\inputs\Shopping List and Ingredients.xlsx|||`Shopping List$`" type="V_String" />
+                <Field name="Product" size="255" source="File: .\inputs\Shopping List and Ingredients.xlsx|||`Shopping List$`" type="V_String" />
+                <Field name="Description" size="255" source="File: .\inputs\Shopping List and Ingredients.xlsx|||`Shopping List$`" type="V_String" />
+                <Field name="Ingredients/Allergens" size="729" source="File: .\inputs\Shopping List and Ingredients.xlsx|||`Shopping List$`" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -512,8 +512,8 @@ Query=`Keywords$`</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Animal Ingredients" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\inputs\Shopping List and Ingredients.xlsx|||`Keywords$`" type="V_String" />
-                <Field name="E Numbers" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\inputs\Shopping List and Ingredients.xlsx|||`Keywords$`" type="V_String" />
+                <Field name="Animal Ingredients" size="255" source="File: .\inputs\Shopping List and Ingredients.xlsx|||`Keywords$`" type="V_String" />
+                <Field name="E Numbers" size="255" source="File: .\inputs\Shopping List and Ingredients.xlsx|||`Keywords$`" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -660,8 +660,8 @@ or
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Product" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\outputs\Vegan List.csv" type="V_WString" />
-                <Field name="Description" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\outputs\Vegan List.csv" type="V_WString" />
+                <Field name="Product" size="254" source="File: .\outputs\Vegan List.csv" type="V_WString" />
+                <Field name="Description" size="254" source="File: .\outputs\Vegan List.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -695,9 +695,9 @@ or
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Product" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\outputs\Non Vegan List.csv" type="V_WString" />
-                <Field name="Description" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\outputs\Non Vegan List.csv" type="V_WString" />
-                <Field name="Contains" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-07\outputs\Non Vegan List.csv" type="V_WString" />
+                <Field name="Product" size="254" source="File: .\outputs\Non Vegan List.csv" type="V_WString" />
+                <Field name="Description" size="254" source="File: .\outputs\Non Vegan List.csv" type="V_WString" />
+                <Field name="Contains" size="254" source="File: .\outputs\Non Vegan List.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>

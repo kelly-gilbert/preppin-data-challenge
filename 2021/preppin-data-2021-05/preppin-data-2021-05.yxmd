@@ -72,7 +72,7 @@ https://preppindata.blogspot.com/2021/02/2021-week-5-dealing-with-duplication.ht
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="0">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\output-2021-05.csv</File>
+          <File MaxRecords="" FileFormat="0">.\outputs\output-2021-05.csv</File>
           <Passwords />
           <FormatSpecificOptions>
             <LineEndStyle>CRLF</LineEndStyle>
@@ -203,7 +203,7 @@ https://preppindata.blogspot.com/2021/02/2021-week-5-dealing-with-duplication.ht
           <Properties>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\inputs\Joined Dataset.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\inputs\Joined Dataset.csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -228,13 +228,13 @@ https://preppindata.blogspot.com/2021/02/2021-week-5-dealing-with-duplication.ht
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Training" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\inputs\Joined Dataset.csv" type="V_WString" />
-                <Field name="Contact Email" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\inputs\Joined Dataset.csv" type="V_WString" />
-                <Field name="Contact Name" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\inputs\Joined Dataset.csv" type="V_WString" />
-                <Field name="Client" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\inputs\Joined Dataset.csv" type="V_WString" />
-                <Field name="Client ID" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\inputs\Joined Dataset.csv" type="V_WString" />
-                <Field name="Account Manager" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\inputs\Joined Dataset.csv" type="V_WString" />
-                <Field name="From Date" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\inputs\Joined Dataset.csv" type="V_WString" />
+                <Field name="Training" size="254" source="File: .\inputs\Joined Dataset.csv" type="V_WString" />
+                <Field name="Contact Email" size="254" source="File: .\inputs\Joined Dataset.csv" type="V_WString" />
+                <Field name="Contact Name" size="254" source="File: .\inputs\Joined Dataset.csv" type="V_WString" />
+                <Field name="Client" size="254" source="File: .\inputs\Joined Dataset.csv" type="V_WString" />
+                <Field name="Client ID" size="254" source="File: .\inputs\Joined Dataset.csv" type="V_WString" />
+                <Field name="Account Manager" size="254" source="File: .\inputs\Joined Dataset.csv" type="V_WString" />
+                <Field name="From Date" size="254" source="File: .\inputs\Joined Dataset.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -328,13 +328,13 @@ https://preppindata.blogspot.com/2021/02/2021-week-5-dealing-with-duplication.ht
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Training" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_WString" />
-                <Field name="Contact Email" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_WString" />
-                <Field name="Contact Name" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_WString" />
-                <Field name="Client" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_WString" />
-                <Field name="Client ID" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_WString" />
-                <Field name="Account Manager" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_WString" />
-                <Field name="From Date" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_WString" />
+                <Field name="Training" size="254" source="File: .\outputs\Current AM Dataset.csv" type="V_WString" />
+                <Field name="Contact Email" size="254" source="File: .\outputs\Current AM Dataset.csv" type="V_WString" />
+                <Field name="Contact Name" size="254" source="File: .\outputs\Current AM Dataset.csv" type="V_WString" />
+                <Field name="Client" size="254" source="File: .\outputs\Current AM Dataset.csv" type="V_WString" />
+                <Field name="Client ID" size="254" source="File: .\outputs\Current AM Dataset.csv" type="V_WString" />
+                <Field name="Account Manager" size="254" source="File: .\outputs\Current AM Dataset.csv" type="V_WString" />
+                <Field name="From Date" size="254" source="File: .\outputs\Current AM Dataset.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -468,12 +468,12 @@ or
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Training" size="24" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="String" />
-                <Field name="Contact Email" size="55" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_String" />
-                <Field name="Contact Name" size="25" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_String" />
-                <Field name="Client" size="34" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_String" />
-                <Field name="Client ID" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="Int16" />
-                <Field name="Account Manager" size="17" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-05\outputs\Current AM Dataset.csv" type="V_String" />
+                <Field name="Training" size="24" source="File: .\outputs\Current AM Dataset.csv" type="String" />
+                <Field name="Contact Email" size="55" source="File: .\outputs\Current AM Dataset.csv" type="V_String" />
+                <Field name="Contact Name" size="25" source="File: .\outputs\Current AM Dataset.csv" type="V_String" />
+                <Field name="Client" size="34" source="File: .\outputs\Current AM Dataset.csv" type="V_String" />
+                <Field name="Client ID" source="File: .\outputs\Current AM Dataset.csv" type="Int16" />
+                <Field name="Account Manager" size="17" source="File: .\outputs\Current AM Dataset.csv" type="V_String" />
                 <Field name="From Date" source="Formula: datetimeparse( &#xA;  [_CurrentField_],&#xA;  '%d/%m/%Y'&#xA;)" type="Date" />
               </RecordInfo>
             </MetaInfo>

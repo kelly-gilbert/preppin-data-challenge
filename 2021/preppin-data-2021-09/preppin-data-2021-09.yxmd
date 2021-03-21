@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="60" y="60" width="852" height="288" />
+        <Position x="54" y="85.00002" width="852" height="288" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -42,7 +42,7 @@ https://preppindata.blogspot.com/2021/03/2021-week-9-working-with-strings.html
     </Node>
     <Node ToolID="176">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="630" y="401" width="155" height="180" />
+        <Position x="624" y="426" width="155" height="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -60,7 +60,7 @@ https://preppindata.blogspot.com/2021/03/2021-week-9-working-with-strings.html
       <ChildNodes>
         <Node ToolID="153">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="655" y="450" />
+            <Position x="649" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -102,7 +102,7 @@ https://preppindata.blogspot.com/2021/03/2021-week-9-working-with-strings.html
     </Node>
     <Node ToolID="181">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1733" y="28.99998" width="551" height="225" />
+        <Position x="1727" y="54" width="551" height="225" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -120,7 +120,7 @@ https://preppindata.blogspot.com/2021/03/2021-week-9-working-with-strings.html
       <ChildNodes>
         <Node ToolID="172">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1974" y="78" />
+            <Position x="1968" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -159,7 +159,7 @@ https://preppindata.blogspot.com/2021/03/2021-week-9-working-with-strings.html
         </Node>
         <Node ToolID="173">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
-            <Position x="2154" y="78" />
+            <Position x="2148" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -197,7 +197,7 @@ Values do not match</DefaultAnnotationText>
         </Node>
         <Node ToolID="174">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1866" y="77.99998" />
+            <Position x="1860" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -221,7 +221,7 @@ Values do not match</DefaultAnnotationText>
         </Node>
         <Node ToolID="175">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="2046" y="138" />
+            <Position x="2040" y="163" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -243,12 +243,12 @@ round([% of Total - Product],2) != round([Right...</DefaultAnnotationText>
         </Node>
         <Node ToolID="149">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1758" y="78.00003" />
+            <Position x="1752" y="103" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\outputs\Preppin Data 2020W9 Output.csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -267,16 +267,13 @@ round([% of Total - Product],2) != round([Right...</DefaultAnnotationText>
               <DefaultAnnotationText>Preppin Data 2020W9 Output.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Rank" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
-                <Field name="Area" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
-                <Field name="Product Name" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
-                <Field name="Revenue" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
-                <Field name="% of Total - Product" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="Rank" size="254" source="File: .\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="Area" size="254" source="File: .\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="Product Name" size="254" source="File: .\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="Revenue" size="254" source="File: .\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
+                <Field name="% of Total - Product" size="254" source="File: .\outputs\Preppin Data 2020W9 Output.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -286,7 +283,7 @@ round([% of Total - Product],2) != round([Right...</DefaultAnnotationText>
     </Node>
     <Node ToolID="178">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1557" y="401" width="249" height="180" />
+        <Position x="1551" y="426" width="249" height="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -304,7 +301,7 @@ round([% of Total - Product],2) != round([Right...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="164">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-            <Position x="1582" y="450" />
+            <Position x="1576" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -324,7 +321,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="168">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-            <Position x="1702" y="450" />
+            <Position x="1696" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -353,7 +350,7 @@ Revenue - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="165">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="821" y="400.9999" width="701" height="237.0001" />
+        <Position x="815" y="425.9999" width="701" height="237.0001" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -371,7 +368,7 @@ Revenue - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="161">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="846" y="450" />
+            <Position x="840" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -402,7 +399,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="162">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="962" y="449.9999" />
+            <Position x="956" y="474.9999" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -424,7 +421,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="163">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1082" y="450" />
+            <Position x="1076" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -444,7 +441,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="166">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="1213" y="522" />
+            <Position x="1207" y="547" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -464,7 +461,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="167">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1309" y="450" />
+            <Position x="1303" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -495,7 +492,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="169">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="1391" y="450" />
+            <Position x="1385" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -517,7 +514,7 @@ Revenue - Descending</DefaultAnnotationText>
     </Node>
     <Node ToolID="158">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="368" y="677" width="598" height="279" />
+        <Position x="362" y="702" width="598" height="279" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -535,7 +532,7 @@ Revenue - Descending</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="154">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="498" y="726" />
+            <Position x="492" y="751" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -556,7 +553,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="156">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="714" y="810" />
+            <Position x="708" y="835" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -591,7 +588,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="157">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="606" y="726" />
+            <Position x="600" y="751" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -622,7 +619,7 @@ Revenue - Descending</DefaultAnnotationText>
         </Node>
         <Node ToolID="152">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="393" y="810" />
+            <Position x="387" y="835" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -643,7 +640,7 @@ area_code_last_2 = right([Code],2)
         </Node>
         <Node ToolID="182">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="840" y="810" />
+            <Position x="834" y="835" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -662,7 +659,7 @@ area_code_last_2 = right([Code],2)
     </Node>
     <Node ToolID="148">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="368" y="401" width="226" height="180" />
+        <Position x="362" y="426" width="226" height="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -680,7 +677,7 @@ area_code_last_2 = right([Code],2)
       <ChildNodes>
         <Node ToolID="146">
           <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-            <Position x="475" y="450" />
+            <Position x="469" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -720,7 +717,7 @@ area_code_last_2 = right([Code],2)
         </Node>
         <Node ToolID="147">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-            <Position x="393" y="450" />
+            <Position x="387" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -743,7 +740,7 @@ at spaces</AnnotationText>
     </Node>
     <Node ToolID="66">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="60" y="401" width="272" height="564" />
+        <Position x="54" y="426" width="272" height="564" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -761,12 +758,12 @@ at spaces</AnnotationText>
       <ChildNodes>
         <Node ToolID="118">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="85.00016" y="450" />
+            <Position x="79.00016" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Customer Information.xlsx|||`Sheet1$`</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\inputs\Customer Information.xlsx|||`Sheet1$`</File>
               <FormatSpecificOptions>
                 <FirstRowData>False</FirstRowData>
                 <ImportLine>1</ImportLine>
@@ -778,12 +775,9 @@ at spaces</AnnotationText>
 Query=`Sheet1$`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="IDs" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Customer Information.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="IDs" size="255" source="File: .\inputs\Customer Information.xlsx|||`Sheet1$`" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -791,12 +785,12 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="151">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="85.00005" y="618" />
+            <Position x="79.00005" y="643" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Area Code Lookup.xlsx|||`Sheet1$`</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\inputs\Area Code Lookup.xlsx|||`Sheet1$`</File>
               <FormatSpecificOptions>
                 <FirstRowData>False</FirstRowData>
                 <ImportLine>1</ImportLine>
@@ -808,13 +802,10 @@ Query=`Sheet1$`</DefaultAnnotationText>
 Query=`Sheet1$`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Code" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Area Code Lookup.xlsx|||`Sheet1$`" type="V_String" />
-                <Field name="Area" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Area Code Lookup.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Code" size="255" source="File: .\inputs\Area Code Lookup.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Area" size="255" source="File: .\inputs\Area Code Lookup.xlsx|||`Sheet1$`" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -822,12 +813,12 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="150">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="90.00015" y="834" />
+            <Position x="84.00015" y="859" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Product Lookup.xlsx|||`Sheet1$`</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\inputs\Product Lookup.xlsx|||`Sheet1$`</File>
               <FormatSpecificOptions>
                 <FirstRowData>False</FirstRowData>
                 <ImportLine>1</ImportLine>
@@ -839,14 +830,11 @@ Query=`Sheet1$`</DefaultAnnotationText>
 Query=`Sheet1$`</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Product ID" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
-                <Field name="Product Name" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
-                <Field name="Price" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-09\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Product ID" size="255" source="File: .\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Product Name" size="255" source="File: .\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Price" size="255" source="File: .\inputs\Product Lookup.xlsx|||`Sheet1$`" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -854,7 +842,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="177">
           <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-            <Position x="215" y="834" />
+            <Position x="209" y="859" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -883,7 +871,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="179">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1842" y="401" width="238" height="165" />
+        <Position x="1836" y="426" width="238" height="165" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -901,7 +889,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="170">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1867" y="450" />
+            <Position x="1861" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -930,7 +918,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
         </Node>
         <Node ToolID="180">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1974" y="450" />
+            <Position x="1968" y="475" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -951,9 +939,6 @@ Query=`Sheet1$`</DefaultAnnotationText>
               <DefaultAnnotationText>output-2021-09.csv</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
