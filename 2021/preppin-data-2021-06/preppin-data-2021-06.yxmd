@@ -515,10 +515,10 @@ Query=`OfficialMoney$`</DefaultAnnotationText>
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="PLAYER NAME" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-06\inputs\PGALPGAMoney2019.xlsx|||`OfficialMoney$`" type="V_String" />
-                <Field name="MONEY" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-06\inputs\PGALPGAMoney2019.xlsx|||`OfficialMoney$`" type="Double" />
-                <Field name="EVENTS" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-06\inputs\PGALPGAMoney2019.xlsx|||`OfficialMoney$`" type="Double" />
-                <Field name="TOUR" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-06\inputs\PGALPGAMoney2019.xlsx|||`OfficialMoney$`" type="V_String" />
+                <Field name="PLAYER NAME" size="255" source="File: .\inputs\PGALPGAMoney2019.xlsx|||`OfficialMoney$`" type="V_String" />
+                <Field name="MONEY" source="File: .\inputs\PGALPGAMoney2019.xlsx|||`OfficialMoney$`" type="Double" />
+                <Field name="EVENTS" source="File: .\inputs\PGALPGAMoney2019.xlsx|||`OfficialMoney$`" type="Double" />
+                <Field name="TOUR" size="255" source="File: .\inputs\PGALPGAMoney2019.xlsx|||`OfficialMoney$`" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -575,10 +575,10 @@ Query=`OfficialMoney$`</DefaultAnnotationText>
             </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Measure" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-06\outputs\2021W06 Output.csv" type="V_WString" />
-                <Field name="PGA" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-06\outputs\2021W06 Output.csv" type="V_WString" />
-                <Field name="LPGA" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-06\outputs\2021W06 Output.csv" type="V_WString" />
-                <Field name="Difference between tours" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-06\outputs\2021W06 Output.csv" type="V_WString" />
+                <Field name="Measure" size="254" source="File: .\outputs\2021W06 Output.csv" type="V_WString" />
+                <Field name="PGA" size="254" source="File: .\outputs\2021W06 Output.csv" type="V_WString" />
+                <Field name="LPGA" size="254" source="File: .\outputs\2021W06 Output.csv" type="V_WString" />
+                <Field name="Difference between tours" size="254" source="File: .\outputs\2021W06 Output.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
