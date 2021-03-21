@@ -58,12 +58,12 @@ https://preppindata.blogspot.com/2021/01/2021-week-1.html
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Order ID" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
-            <Field name="Customer Age" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
-            <Field name="Bike Value" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
-            <Field name="Existing Customer?" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
-            <Field name="Date" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
-            <Field name="Store - Bike" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Order ID" size="254" source="File: .\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Customer Age" size="254" source="File: .\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Bike Value" size="254" source="File: .\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Existing Customer?" size="254" source="File: .\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: .\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
+            <Field name="Store - Bike" size="254" source="File: .\inputs\PD 2021 Wk 1 Input - Bike Sales.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -820,14 +820,14 @@ Quarter = floor((datetim...</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Quarter" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
-                <Field name="Store" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
-                <Field name="Bike" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
-                <Field name="Order ID" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
-                <Field name="Customer Age" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
-                <Field name="Bike Value" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
-                <Field name="Existing Customer?" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
-                <Field name="Day of Month" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Quarter" size="254" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Store" size="254" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Bike" size="254" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Order ID" size="254" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Customer Age" size="254" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Bike Value" size="254" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Existing Customer?" size="254" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
+                <Field name="Day of Month" size="254" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="V_WString" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -964,14 +964,14 @@ Values do not match</DefaultAnnotationText>
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Quarter" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
-                <Field name="Store" size="10" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="String" />
-                <Field name="Bike" size="8" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="String" />
-                <Field name="Order ID" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Int16" />
-                <Field name="Customer Age" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
-                <Field name="Bike Value" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Int16" />
-                <Field name="Existing Customer?" size="3" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="String" />
-                <Field name="Day of Month" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\preppin-data-2021-01\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
+                <Field name="Quarter" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
+                <Field name="Store" size="10" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="String" />
+                <Field name="Bike" size="8" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="String" />
+                <Field name="Order ID" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="Int16" />
+                <Field name="Customer Age" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
+                <Field name="Bike Value" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="Int16" />
+                <Field name="Existing Customer?" size="3" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="String" />
+                <Field name="Day of Month" source="File: .\outputs\PD 2021 Wk 1 Output.csv" type="Byte" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
