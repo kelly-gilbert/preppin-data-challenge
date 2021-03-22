@@ -3,27 +3,20 @@
 Preppin' Data 2021: Week 7 - Vegan Shopping List
 https://preppindata.blogspot.com/2021/02/2021-week-7-vegan-shopping-list.html
  
-- Input the data
-- Prepare the keyword data
-    - Add an 'E' in front of every E number.
-    - Stack Animal Ingredients and E Numbers on top of each other.
-    - Get every ingredient and E number onto separate rows.
-- Append the keywords onto the product list.
-- Check whether each product contains any non-vegan ingredients.
-- Prepare a final shopping list of vegan products.
-    - Aggregate the products into vegan and non-vegan.
-    - Filter out the non-vegan products.
-- Prepare a list explaining why the other products aren't vegan.
-    - Keep only non-vegan products.
-    - Duplicate the keyword field.
-    - Rows to columns pivot the keywords using the duplicate as a header.
-    - Write a calculation to concatenate all the keywords into a single comma-separated list for each product, e.g. "whey, milk, egg".
+- Input the dataset 
+- Split out the recipes into the different ingredients and their measurements
+- Calculate the price in pounds, for the required measurement of each ingredient
+- Join the ingredient costs to their relative cocktails
+- Find the total cost of each cocktail 
+- Include a calculated field for the profit margin i.e. the difference between each cocktail's price
+  and its overall cost 
+- Round all numeric fields to 2 decimal places 
 - Output the data
 
 Author: Kelly Gilbert
-Created: 2021-02-17
+Created: 2021-03-21
 Requirements: 
-  - pandas v 0.25.0 or higher (for explode())
+  - pandas version 0.25.0 or higher (for explode)
   - input dataset (Shopping List and Ingredients.xlsx)
   - output dataset (for results check):
     - Vegan List.csv
@@ -32,98 +25,78 @@ Requirements:
 """
 
 
-from pandas import DataFrame, ExcelFile, read_excel
+from pandas import ExcelFile, read_excel
 
 # used for answer check only
 from pandas import read_csv
 
 
-# import the data
-with ExcelFile(r'.\\inputs\\Shopping List and Ingredients.xlsx') as xl:
-    dfItems = read_excel(xl, 'Shopping List')
-    dfKeywordsIn = read_excel(xl, 'Keywords')
+# --------------------------------------------------------------------------------------------------
+# input the data
+# --------------------------------------------------------------------------------------------------
 
-# parse the keywords and numbers, stack the names and numbers, add E to the numbers
-keywordList = ['E' + k if k.isnumeric() else k 
-               for k in dfKeywordsIn.stack().str.split(', ').explode().reset_index(drop=True)]
-
-    
-    
-#--------------------------------------------------------------------------------
-# method 1: list comprehension
-#    The challenge specifically said to append the keywords (i.e. a cartesian
-#    product, method #2 below). In practice, I would accomplish this using a
-#    list comprehension.
-#--------------------------------------------------------------------------------
-
-# parse the keywords and numbers, stack the names and numbers, add E to the numbers
-dfKeywords = ['E' + k if k.isnumeric() else k 
-              for k in dfKeywordsIn.stack().str.split(', ').explode().reset_index(drop=True)]
-    
-dfItems['Contains'] = [', '.join([k.lower() for k in dfKeywords if k in i]) 
-                       for i in dfItems['Ingredients/Allergens']]
-
-    
-#--------------------------------------------------------------------------------
-# method 2: cartesian product (as specified in the challenge)
-#--------------------------------------------------------------------------------
-    
-# prepare the keyword data:
-# parse the keywords and numbers, stack the names and numbers, add E to the numbers
-dfKeywords = DataFrame(dfKeywordsIn.stack().str.split(', ').explode().rename('keyword'))
-dfKeywords.reset_index(drop=True, inplace=True)
-dfKeywords['keyword'] = ['E' + k if k.isnumeric() else k for k in dfKeywords['keyword']]
+with ExcelFile(r'.\\inputs\\Cocktails Dataset.xlsx') as xl:
+    cocktails = read_excel(xl, 'Cocktails', index_col='Cocktail')
+    src = read_excel(xl, 'Sourcing')
+    conv_dict = read_excel(xl, 'Conversion Rates', index_col = 'Currency', squeeze=True).to_dict()
 
 
-# append the keywords onto the product list (i.e. create a cartesian product)
-dfKeywords['join'] = 1
-dfItems['join'] = 1
-dfAll = dfItems.merge(dfKeywords, on='join')
+# --------------------------------------------------------------------------------------------------
+# prep / calculations
+# --------------------------------------------------------------------------------------------------
+
+# parse the recipes
+regex_str = r'(?P<Ingredient>.+)\:(?P<ml>\d+)ml'
+recipes = cocktails['Recipe (ml)'].str.split('; ').explode().str.extract(regex_str, expand=True)
+
+# convert ingredient prices to pounds
+src['price_pounds'] = [p / conv_dict[c] for c,p in zip(src['Currency'], src['Price'])] 
+
+# calculate the cocktail cost in pounds
+cols = ['Ingredient','ml per Bottle', 'price_pounds']
+recipes = recipes.reset_index().merge(src[cols], on='Ingredient', how='left')
+
+recipes['Cost'] = recipes.apply(lambda r: round(float(r['ml']) * r['price_pounds'] 
+                                                      / r['ml per Bottle'], 2), axis=1) 
+
+# total cost by cocktail
+costs = recipes.groupby('Cocktail')[['Cost']].sum()
+
+# calculate profit 
+final = cocktails.merge(costs, on='Cocktail', how='left').rename(columns = {'Price (£)':'Price'})
+final['Margin'] = round(final['Price'] - final['Cost'], 2)
 
 
-# check for keyword in ingredient list
-dfAll['Contains'] = [k.lower() if k.lower() in i.lower() else ''
-                     for i,k in zip(dfAll['Ingredients/Allergens'], dfAll['keyword'])]
+# --------------------------------------------------------------------------------------------------
+# output the data
+# --------------------------------------------------------------------------------------------------
+
+final.reset_index().to_csv(r'.\outputs\output-2021-11.csv', index=False, 
+                           columns=['Margin','Cost','Cocktail','Price'])
 
 
-# concatenate the keywords into a list
-dfAll.drop_duplicates(subset=['Product', 'Description', 'Contains'])
-
-dfItems = dfAll.groupby(['Product','Description'])['Contains'].agg(Contains=list).reset_index()
-dfItems['Contains'] = [', '.join([i for i in c if i != '']) for c in dfItems['Contains']]
-
-
-#--------------------------------------------------------------------------------
-# output the files
-#--------------------------------------------------------------------------------
-
-dfItems[dfItems['Contains'] == ''].to_csv('.\\\\outputs\\\\output-2021-07-vegan.csv', 
-                                       columns=['Product', 'Description'], index=False)
-dfItems[dfItems['Contains'] != ''].to_csv('.\\\\outputs\\\\output-2021-07-non-vegan.csv', 
-                                       columns=['Product', 'Description', 'Contains'], index=False)
-
-
-#--------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
 # check results
-#--------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
 
-solutionFiles = ['Vegan List.csv', 'Non Vegan List.csv']
-myFiles = ['output-2021-07-vegan.csv', 'output-2021-07-non-vegan.csv']
+solutionFiles = ['PD 2021 Wk 11 Output.csv']
+myFiles = ['output-2021-11.csv']
 col_order_matters = False
 
+
 for i in range(len(solutionFiles)):
-    print('---------- Checking \'' + solutionFiles[i] + '\' ----------\n')
-    
+    print('\n---------- Checking \'' + myFiles[i] + '\' ----------\n')
+
     # read in the files
     dfSolution = read_csv('.\\outputs\\' + solutionFiles[i])
     dfMine = read_csv('.\\outputs\\' + myFiles[i])
-    
+
     # are the fields the same and in the same order?
     solutionCols = list(dfSolution.columns)
     myCols = list(dfMine.columns)
-    if col_order_matters == False:
-         solutionCols.sort()
-         myCols.sort()
+    if not col_order_matters:
+        solutionCols.sort()
+        myCols.sort()
 
     col_match = False
     if solutionCols != myCols:
@@ -133,18 +106,18 @@ for i in range(len(solutionFiles)):
     else:
         print('Columns match\n')
         col_match = True
-    
+
     # are the values the same? (only check if the columns matched)
-    if col_match == True:
+    if col_match:
         dfSolution['join'] = 1
         dfMine['join'] = 1
         dfCompare = dfSolution.merge(dfMine, how='outer', on=list(dfSolution.columns)[:-1])
-        dfCompare.rename(columns={'join_x':'in_solution', 'join_y':'in_mine'}, inplace=True)    
-        
-        if dfCompare['in_solution'].count() != len(dfCompare):
+        dfCompare.rename(columns={'join_x':'in_solution', 'join_y':'in_mine'}, inplace=True)
+
+        if len(dfCompare[dfCompare['in_solution'].isna() | dfCompare['in_mine'].isna()]) > 0:
             print('*** Values do not match ***')
             print(dfCompare[dfCompare['in_solution'] != dfCompare['in_mine']])
         else:
             print('Values match')
-    
+
     print('\n')
