@@ -25,7 +25,7 @@ These chart outputs aren't pixel-perfect, but I wanted to try some new things wi
 </a>
 
 ### Alteryx - chart workflow
-The Interactive Chart tool has many useful features like batching (outputing multiple charts, grouped by a field) and transforming (splitting one input stream into multiple series on the chart). However, I've found this tool to be a bit buggy since I upgraded to 2020.3. I intended to batch (create separate charts) by Breakdown and transform (break into series/layers) by year, so I could format the years independently. That should work in theory, but in practice, my changes wouldn't stay when I entered them in the By Type tab (or the Individually tab) of the Layer configuration. 😞
+Normally, I find charts in Alteryx to be MUCH easier to configure vs. Python, but this week was the opposite. The Alteryx Interactive Chart tool has many useful features like batching (outputing multiple charts, grouped by a field) and transforming (splitting one input stream into multiple series on the chart). However, I've found this tool to be a bit buggy since I upgraded to 2020.3. I intended to batch (create separate charts) by Breakdown and transform (break into series/layers) by year, so I could format the years independently. That should work in theory, but in practice, my changes wouldn't stay when I entered them in the By Type tab (or the Individually tab) of the Layer configuration. 😞
 
 Without the transform option, I could have crosstabbed the years into columns, and then manually added a layer for each year, so I could change the settings individually. In the end, I accomplished what I wanted by manually editing the colors and line widths in the tool XML.
 
