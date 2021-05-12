@@ -1,5 +1,13 @@
 # Preppin' Data 2021 Week 12
 
+### Summary: 
+This week was fairly straightforward data reshaping, but the charts were an exercise in frustration in both tools - I definitely should have chosen a simpler chart type for this practice exercise.
+
+### What I learned/practiced this week:
+* Reshaping data
+* Text parsing with regex
+* Small multiple charts and looping through the original axes to make adjustments to the charts
+
 ## Python - data prep
 <a href="preppin-data-2021-12.py">
 <img src="img-python-code-2021-12.png?raw=true" alt="Python code">
