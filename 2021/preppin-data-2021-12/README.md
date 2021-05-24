@@ -14,7 +14,7 @@ This week was fairly straightforward data reshaping, but the charts were an exer
 </a>
 
 ## Alteryx - data prep
-<a href="/preppin-data-2021-12.yxmd">
+<a href="preppin-data-2021-12.yxzp">
 <img src="img-alteryx-2021-12.png?raw=true" alt="Alteryx workflow">
 </a>
 
@@ -37,7 +37,7 @@ Normally, I find charts in Alteryx to be MUCH easier to configure vs. Python, bu
 
 Without the transform option, I could have crosstabbed the years into columns, and then manually added a layer for each year, so I could change the settings individually. In the end, I accomplished what I wanted by manually editing the colors and line widths in the tool XML.
 
-<a href="preppin-data-2021-12.yxmd">
+<a href="preppin-data-2021-12.yxzp">
 <img src="img-alteryx-chart-2021-12.png?raw=true" alt="Alteryx workflow to generate charts">
 </a>
 
@@ -45,6 +45,6 @@ Without the transform option, I could have crosstabbed the years into columns, a
 
 I did use an overlay tool to add the legend in the lower right corner, but for some reason it did not render in the png output.
 
-<a href="preppin-data-2021-12.yxmd">
+<a href="preppin-data-2021-12.yxzp">
 <img src="img-alteryx-chart-output-2021-12.png?raw=true" alt="Chart output from Alteryx">
 </a>
