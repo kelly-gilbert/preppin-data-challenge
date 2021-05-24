@@ -1,5 +1,10 @@
 # Preppin' Data 2021 Week 10
 
+### What I learned/practiced this week:
+* Practiced: recursive functions
+* Practiced: string slicing
+* Practiced: joining/merging
+
 ## Python
 <a href="preppin-data-2021-10.py">
 <img src="img-python-code-2021-10.png?raw=true" alt="Python code">
