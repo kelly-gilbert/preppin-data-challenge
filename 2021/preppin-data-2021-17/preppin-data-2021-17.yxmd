@@ -1,0 +1,904 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="54" width="636" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Preppin' Data 2021: Week 17 - Timesheet Checks
+https://preppindata.blogspot.com/2021/04/week-17-timesheet-checks.html
+
+- Input the data
+- Remove the ‘Totals’ Rows
+- Pivot Dates to rows and rename fields 'Date' and 'Hours'
+- Split the ‘Name, Age, Area of Work’ field into 3 Fields and Rename
+- Remove unnecessary fields
+- Remove the row where Dan was on Annual Leave and check the data type of the Hours Field.
+- Total up the number of hours spent on each area of work for each date by each employee.
+
+- First we are going to work out the avg number of hours per day worked by each employee
+  - Calculate the total number of hours worked and days worked per person
+  - Calculate the avg hours and remove unnecessary fields.
+
+- Now we are going to work out what % of their day (not including Chats) was spend on Client work.
+  - Filter out Work related to Chats.
+  - Calculate total number of hours spent working on each area for each employee
+  - Calculate total number of hours spent working on both areas together for each employee
+  - Join these totals together
+  - Calculate the % of total and remove unnecessary fields
+  - Filter the data to just show Client work
+  - Join to the table with Avg hours to create your final output</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="379">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="917" y="401" width="269" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Avg hours/day</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="376">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="942" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Name" action="GroupBy" rename="Name" />
+                <SummarizeField field="Date" action="CountDistinct" rename="CountDistinct_Date" />
+                <SummarizeField field="Hours" action="Sum" rename="Sum_Hours" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Total days and hours by name</AnnotationText>
+              <DefaultAnnotationText>Total days and hours by name</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="378">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1055" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Sum_Hours] / [CountDistinct_Date]" field="Avg Number of Hours worked per day" size="4" type="Float" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Avg Number of Hours worked per day = [Sum_Hours] / [CountDistinct_Date]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="393">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="917" y="665" width="279" height="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Calculate % of time by area of work</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="383">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="942" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>!=</Operator>
+                <Field>Area of Work</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-05-23 22:05:48</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-05-23 22:05:48</StartDate>
+                  <EndDate>2021-05-23 22:05:48</EndDate>
+                  <Operand>Chats</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Area of Work] != "Chats"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="387">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1071" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Name" action="GroupBy" rename="Name" />
+                <SummarizeField field="Hours" action="Sum" rename="non_chat_hours" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Non-chat hours by name</AnnotationText>
+              <DefaultAnnotationText>Non-chat hours by name</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="388">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1071" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Name" action="GroupBy" rename="Name" />
+                <SummarizeField field="Area of Work" action="GroupBy" rename="Area of Work" />
+                <SummarizeField field="Hours" action="Sum" rename="area_of_work_hours" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Hours by name and area of work</AnnotationText>
+              <DefaultAnnotationText>Hours by name and area of work</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="396">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1241" y="665" width="601" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Assemble final output</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="389">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+            <Position x="1266" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <JoinByRecPos value="False" />
+              <JoinFields>
+                <JoinInfo connection="#1">
+                  <Field field="Name" />
+                </JoinInfo>
+                <JoinInfo connection="#2">
+                  <Field field="Name" />
+                </JoinInfo>
+                <JoinInfo connection="#3">
+                  <Field field="Name" />
+                </JoinInfo>
+              </JoinFields>
+              <CartesianMode>Error</CartesianMode>
+              <OutputJoinOnly value="False" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Input_#2_Name" selected="False" rename="Input_#2_Name" />
+                    <SelectField field="Input_#3_Name" selected="False" rename="Input_#3_Name" />
+                    <SelectField field="Input_#3_CountDistinct_Date" selected="False" />
+                    <SelectField field="Input_#3_Sum_Hours" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Join on name</AnnotationText>
+              <DefaultAnnotationText>Join on name</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+        </Node>
+        <Node ToolID="390">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1372" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="tostring( &#xA;  round([area_of_work_hours] / [non_chat_hours] * 100, 1)&#xA;) + '%'" field="% of Total" size="10" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>% of Total = tostring( 
+  round([area_of_work_hours] / [non_chat_hours] * 100, 1...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="391">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1498" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Area of Work</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-05-23 22:12:32</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-05-23 22:12:32</StartDate>
+                  <EndDate>2021-05-23 22:12:32</EndDate>
+                  <Operand>Client</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Area of Work] = "Client"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="392">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1623" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Name" selected="True" />
+                <SelectField field="Area of Work" selected="True" />
+                <SelectField field="area_of_work_hours" selected="False" />
+                <SelectField field="non_chat_hours" selected="False" />
+                <SelectField field="% of Total" selected="True" />
+                <SelectField field="Avg Number of Hours worked per day" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Clean up fields</AnnotationText>
+              <DefaultAnnotationText>Clean up fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="394">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1736" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">.\outputs\output-2021-17.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>output-2021-17.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="377">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="240" y="401" width="608" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Clean up data</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="372">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="265" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Name, Age, Area of Work</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-05-23 17:33:16</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2021-05-23 17:33:16</StartDate>
+                  <EndDate>2021-05-23 17:33:16</EndDate>
+                  <Operand>
+                  </Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Remove total rows</AnnotationText>
+              <DefaultAnnotationText>!IsNull([Name, Age, Area of Work])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="374">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="366" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Name, Age, Area of Work</Field>
+              <RegExExpression value="(.*), (\d+): (.*)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseComplex</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Name, Age, Area of Work</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="Name" type="V_String" size="255" />
+                <Field field="Age" type="Byte" size="1" />
+                <Field field="Area of Work" type="V_String" size="255" />
+              </ParseComplex>
+              <Match>
+                <Field>Name, Age, Area of Work_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse name/age/area of work</AnnotationText>
+              <DefaultAnnotationText>Parse name/age/area of work</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="375">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="734" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Age" selected="False" />
+                <SelectField field="Name2" selected="True" rename="Date" />
+                <SelectField field="Value" selected="True" rename="Hours" type="Float" size="4" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Clean up fields</AnnotationText>
+              <DefaultAnnotationText>Clean up fields</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="381">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="498" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Name" />
+                <Field field="Age" />
+                <Field field="Area of Work" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Name, Age, Area of Work" selected="False" />
+                <Field field="Project" selected="False" />
+                <Field field="2021-02-01" selected="True" />
+                <Field field="2021-02-02" selected="True" />
+                <Field field="2021-02-03" selected="True" />
+                <Field field="2021-02-04" selected="True" />
+                <Field field="2021-02-05" selected="True" />
+                <Field field="2021-02-08" selected="True" />
+                <Field field="2021-02-09" selected="True" />
+                <Field field="2021-02-10" selected="True" />
+                <Field field="2021-02-11" selected="True" />
+                <Field field="2021-02-12" selected="True" />
+                <Field field="F13" selected="False" />
+                <Field field="F14" selected="False" />
+                <Field field="Name" selected="False" />
+                <Field field="Age" selected="False" />
+                <Field field="Area of Work" selected="False" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Transpose dates into rows</AnnotationText>
+              <DefaultAnnotationText>Transpose dates into rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="382">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="618" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([Value])
+and [Value] != 'Annual Leave'</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Value])
+and [Value] != 'Annual Leave'</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="347">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="738" y="53" width="153.8949" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Check results</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="345">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="763" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\outputs\PD 2021 Wk 17 Output.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PD 2021 Wk 17 Output.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\outputs\PD 2021 Wk 17 Output.csv" type="V_WString" />
+                <Field name="Area of Work" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\outputs\PD 2021 Wk 17 Output.csv" type="V_WString" />
+                <Field name="% of Total" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\outputs\PD 2021 Wk 17 Output.csv" type="V_WString" />
+                <Field name="Avg Number of Hours worked per day" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\outputs\PD 2021 Wk 17 Output.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="348">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="907" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Name" />
+                <Field field="Area of Work" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Name" />
+                <Field field="Area of Work" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Avg Number of Hours worked per day" selected="True" input="Left_" type="Float" size="4" />
+                    <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                    <SelectField field="Right_Area of Work" selected="True" rename="Right_Area of Work" input="Right_" />
+                    <SelectField field="Right_% of Total" selected="True" rename="Right_% of Total" input="Right_" />
+                    <SelectField field="Right_Avg Number of Hours worked per day" selected="True" rename="Right_Avg Number of Hours worked per day" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="349">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1003" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[% of Total] != [Right_% of Total]
+OR 
+round([Avg Number of Hours worked per day], 0.0000001) != round([Right_Avg Number of Hours worked per day], 0.0000001)</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Values don't match</AnnotationText>
+              <DefaultAnnotationText>[% of Total] != [Right_% of Total]
+OR 
+round([Avg Number of Hours worked per day...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="350">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
+            <Position x="1099" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Tests>
+                <Test>
+                  <Name>In solution, not in mine</Name>
+                  <Connection>#1</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>In mine, not in solution</Name>
+                  <Connection>#2</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>Values don't match</Name>
+                  <Connection>#3</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+              </Tests>
+              <DontReportSubsequent value="False" />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>In solution, not in mine
+In mine, not in solution
+Values don't match</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTest" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="400.9999" width="151" height="180.0001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Import data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="301">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="449.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Preppin Data Challenge.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name, Age, Area of Work" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Project" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="2021-02-01" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-02" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-03" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-04" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-05" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-08" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-09" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-10" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-11" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="2021-02-12" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F13" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="F14" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-17\inputs\Preppin Data Challenge.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="376" Connection="Output" />
+      <Destination ToolID="378" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="378" Connection="Output" />
+      <Destination ToolID="389" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="387" Connection="Output" />
+      <Destination ToolID="389" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="388" Connection="Output" />
+      <Destination ToolID="389" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="383" Connection="True" />
+      <Destination ToolID="387" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="383" Connection="True" />
+      <Destination ToolID="388" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="389" Connection="Output" />
+      <Destination ToolID="390" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="390" Connection="Output" />
+      <Destination ToolID="391" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="391" Connection="True" />
+      <Destination ToolID="392" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="392" Connection="Output" />
+      <Destination ToolID="394" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="392" Connection="Output" />
+      <Destination ToolID="348" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="345" Connection="Output" />
+      <Destination ToolID="348" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="372" Connection="True" />
+      <Destination ToolID="374" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="374" Connection="Output" />
+      <Destination ToolID="381" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="375" Connection="Output" />
+      <Destination ToolID="376" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="375" Connection="Output" />
+      <Destination ToolID="383" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="381" Connection="Output" />
+      <Destination ToolID="382" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="382" Connection="True" />
+      <Destination ToolID="375" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="348" Connection="Join" />
+      <Destination ToolID="349" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="348" Connection="Left" />
+      <Destination ToolID="350" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="348" Connection="Right" />
+      <Destination ToolID="350" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="349" Connection="True" />
+      <Destination ToolID="350" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="301" Connection="Output" />
+      <Destination ToolID="372" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>big_6</Name>
+        <Value>|Arsenal|Chelsea|Liverpool|Man Utd|Man City|Spurs|</Value>
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>preppin-data-2021-17</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
