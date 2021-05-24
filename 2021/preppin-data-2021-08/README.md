@@ -18,7 +18,7 @@ This was one of the (extremely rare) challenges that I found to be easier in Pyt
 
 Upon initial investigation, it appeared that all of the customer and song times were rounded to the minute. In the first attempt, I handled the non-equijoin by creating a list of all minutes within each session (including the 10 min prior to each session), and then joined that to the customer's entry minute to find the customer's session.
 
-<a href="preppin-data-2021-08.yxmd">
+<a href="preppin-data-2021-08-method1.yxzp">
 <img src="img-alteryx-2021-08-method1.png?raw=true" alt="Alteryx workflow, method 1">
 </a>
 
@@ -59,6 +59,6 @@ We can then join the string # to the parsed sharedStrings output to get the valu
 
 Since we can't do a non-equijoin in Alteryx, I found the min timestamp per session (one row per session), and then cross joined that to the customer list. Customers arriving after the session start or more than 10 minutes before the session start were filtered out.
 
-<a href="/preppin-data-2021-08.yxmd">
+<a href="preppin-data-2021-08-method2.yxzp">
 <img src="img-alteryx-2021-08-method2.png?raw=true" alt="Alteryx workflow">
 </a>
