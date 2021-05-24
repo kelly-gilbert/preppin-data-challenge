@@ -1,4 +1,9 @@
-# Preppin' Data 2021 Week 2
+# Preppin' Data 2021 Week 1
+
+### What I learned/practiced this week:
+* Practiced: text parsing (split)
+* Practiced: using a dictionary to map different spellings
+* Practiced: pandas dt functions to extract dateparts (dt.quarter, dt.day)
 
 ## Python (data prep)
 <a href="preppin-data-2021-01.py">
