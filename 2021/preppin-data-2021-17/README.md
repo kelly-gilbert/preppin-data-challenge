@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 17
 
+[Challenge description](https://preppindata.blogspot.com/2021/04/week-17-timesheet-checks.html)
+
 ### What I learned/practiced this week:
 * Practiced: reshaping data (melt)
 * Practiced: parsing strings (extract)
