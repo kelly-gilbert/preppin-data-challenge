@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 6
 
+[Challenge description](https://preppindata.blogspot.com/2021/02/2021-week-6-comparing-prize-money-for.html)
+
 ## Python
 <a href="preppin-data-2021-06.py">
 <img src="img-python-code-2021-06.png?raw=true" alt="Python code">
