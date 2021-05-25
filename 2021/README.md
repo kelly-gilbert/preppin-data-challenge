@@ -1,15 +1,15 @@
-# preppin-data-challenge
+# preppin-data-challenge - 2021
 
-[Preppin' Data Challenge](https://preppindata.blogspot.com/) is a weekly challenge for learning to prepare (reshape, parse, aggregate, etc.) data. This repo contains solutions using Python and Alteryx.
-.
+[Preppin' Data Challenge](https://preppindata.blogspot.com/) is a weekly challenge for learning to prepare data for analysis (reshape, parse, aggregate, etc.) This repo contains solutions using Python and Alteryx.
+
 * [Alteryx Tool Index](#alteryx-tool-index)
 * [Python Skill Index](#python-index)
 
-## Challenge list
+## 2021 Challenge List
 
 |[]()|[]()|[]()|[]()|[]()|[]()|[]()|[]()|
 |:---|:---|:---|:---|:---|:---|:---|:---|
-|[Week 1](2021/preppin-data-2021-01)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|[Week 8](2021/preppin-data-2021-08)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|[Week 15](2021/preppin-data-2021-15)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|[Week 1](preppin-data-2021-01)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|[Week 8](preppin-data-2021-08)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|[Week 15](preppin-data-2021-15)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |[Week 2](2021/preppin-data-2021-02)|[Week 9](2021/preppin-data-2021-09)|[Week 16](2021/preppin-data-2021-16)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| | | | | |
 |[Week 3](2021/preppin-data-2021-03)|[Week 10](2021/preppin-data-2021-10)|[Week 17](2021/preppin-data-2021-17)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| | | | | |
 |[Week 4](2021/preppin-data-2021-04)|[Week 11](2021/preppin-data-2021-11)| | | | | | |
