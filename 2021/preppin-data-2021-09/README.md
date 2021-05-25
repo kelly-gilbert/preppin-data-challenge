@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 9
 
+[Challenge description](https://preppindata.blogspot.com/2021/03/2021-week-9-working-with-strings.html)
+
 ### What I learned/practiced this week:
 * Practiced: non-standard (half-up) rounding in Python
 * Practiced: splitting strings (extract)
