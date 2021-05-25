@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 1
 
+[Challenge description](https://preppindata.blogspot.com/2021/01/2021-week-1.html)
+
 ### What I learned/practiced this week:
 * Practiced: text parsing (split)
 * Practiced: using a dictionary to map different spellings
