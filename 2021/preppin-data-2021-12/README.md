@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 12
 
+[Challenge description](https://preppindata.blogspot.com/2021/03/2021-week-12-maldives-tourism.html)
+
 ### Summary: 
 This week was fairly straightforward data reshaping, but the charts were an exercise in frustration in both tools - I definitely should have chosen a simpler chart type for this practice exercise.
 
