@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 8
 
+[Challenge description](https://preppindata.blogspot.com/2021/02/2021-week-8-karaoke-data.html)
+
 This week, the big challenges were working with fractional seconds and non-equijoins. See the long explanation below, where I fell down a rabbit hole of parsing the Excel file's underlying XML!
 
 Note for all methods: there were two numeric user IDs > 6 digits that were converted to scientific notation in the provided solution file (Karaoke Output.csv). I converted those user IDs so my output would match the solution, but obviously we wouldn't want to do that in practice! In this example, the Customer ID is a 67-digit number, which is larger than Excel's maximum precision of 15 (and Alteryx's 50).
