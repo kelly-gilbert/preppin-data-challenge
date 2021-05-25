@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 13
 
+[Challenge description](https://preppindata.blogspot.com/2021/03/2021-week-13.html)
+
 ### What I learned/practiced this week:
 * Aggregation
 * Handling nulls in calculations
