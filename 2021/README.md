@@ -70,7 +70,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
 ## <a id="python-index"></a>Python Skill Index
 Use this list to identify challenges to practice specific functions/methods. Note that these are the tools *I* used, but there may be other ways to solve it!
 
-|Category|Tool|Challenges|
+|Category|Function/Method/Concept|Challenges|
 |:---|:---|:---|
 |Pandas - Aggregation|Named Aggregation|[Week 2](preppin-data-2021-02)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 6](preppin-data-2021-06)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 ||Ranking|[Week 4](preppin-data-2021-04)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 6](preppin-data-2021-06)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 8](preppin-data-2021-08)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Week 9](preppin-data-2021-09)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
