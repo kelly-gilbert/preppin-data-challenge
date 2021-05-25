@@ -3,7 +3,7 @@
 [Preppin' Data Challenge](https://preppindata.blogspot.com/) is a weekly challenge for learning to prepare data for analysis (reshape, parse, aggregate, etc.) This repo contains solutions using Python and Alteryx.
 
 * [Alteryx Tool Index](#alteryx-index)
-* [Python Skill Index](#python-index)
+* [Python Function/Method Index](#python-index)
 
 ## 2021 Challenge List
 
