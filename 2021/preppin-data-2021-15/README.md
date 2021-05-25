@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 15
 
+[Challenge description](https://preppindata.blogspot.com/2021/04/2021-week-15-restaurant-menu-orders.html)
+
 ### What I learned/practiced this week
 * Reshaping data (melting/pivoting, splitting/exploding)
 * [Pandas Series.dt.day_name](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.dt.day_name.html)
