@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 10
 
+[Challenge description](https://preppindata.blogspot.com/2021/02/2021-week-10-pokemon-hierarchies.html)
+
 ### What I learned/practiced this week:
 * Practiced: recursive functions
 * Practiced: string slicing
