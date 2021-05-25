@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 11
 
+[Challenge description](https://preppindata.blogspot.com/2021/03/2021-week-11-cocktail-profit-margins.html)
+
 ### What I learned/practiced this week:
 * Practiced: splitting strings
 * Practiced: reshaping data (explode)
