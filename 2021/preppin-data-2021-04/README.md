@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 4
 
+[Challenge description](https://preppindata.blogspot.com/2021/01/2021-week-4.html)
+
 ## Python
 <a href="preppin-data-2021-04.py">
 <img src="img-python-code-2021-04.png?raw=true" alt="Python code">
