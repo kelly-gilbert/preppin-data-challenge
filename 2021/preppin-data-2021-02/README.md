@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 2
 
+[Challenge description](https://preppindata.blogspot.com/2021/01/2021-week-2.html)
+
 ## What I learned/practiced this week
 * Practiced: aggregation and named aggregations
 * Practiced: date calculation
