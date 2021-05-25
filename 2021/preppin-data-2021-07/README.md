@@ -1,5 +1,7 @@
 # Preppin' Data 2021 Week 7
 
+[Challenge description](https://preppindata.blogspot.com/2021/02/2021-week-7-vegan-shopping-list.html)
+
 ## Python
 
 #### The challenge specifically said to append the ingredient list to the item list (i.e. a cartesian product). In practice, I would use a list comprehension to generate the list of non-vegan ingredients, so I completed the challenge using both methods.
