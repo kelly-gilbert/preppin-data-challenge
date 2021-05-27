@@ -1,0 +1,19 @@
+﻿Completed Weekday,Task,Scope to Build Time,Build to Delivery Time,Days Difference to Schedule,Project,Sub-project,Owner,Scheduled Date,Completed Date
+Monday,Scope,4,12,0,New Loyalty Scheme,Marketing,Tom,19/04/2021,19/04/2021
+Friday,Build,4,12,2,New Loyalty Scheme,Marketing,Tom,21/04/2021,23/04/2021
+Wednesday,Deliver,4,12,5,New Loyalty Scheme,Marketing,Tom,30/04/2021,05/05/2021
+Thursday,Scope,11,6,0,New Loyalty Scheme,Operations,Jenny,15/04/2021,15/04/2021
+Monday,Build,11,6,3,New Loyalty Scheme,Operations,Jenny,23/04/2021,26/04/2021
+Sunday,Deliver,11,6,4,New Loyalty Scheme,Operations,Jenny,28/04/2021,02/05/2021
+Thursday,Scope,13,2,0,Spring Sale,Marketing,Carl,22/04/2021,22/04/2021
+Wednesday,Build,13,2,6,Spring Sale,Marketing,Carl,29/04/2021,05/05/2021
+Friday,Deliver,13,2,3,Spring Sale,Marketing,Carl,04/05/2021,07/05/2021
+Sunday,Scope,5,6,0,Spring Sale,Operations,Jonathan,25/04/2021,25/04/2021
+Friday,Build,5,6,2,Spring Sale,Operations,Jonathan,28/04/2021,30/04/2021
+Thursday,Deliver,5,6,4,Spring Sale,Operations,Jonathan,02/05/2021,06/05/2021
+Sunday,Scope,5,10,0,New Trolley Inventory,Marketing,Tom,02/05/2021,02/05/2021
+Friday,Build,5,10,3,New Trolley Inventory,Marketing,Tom,04/05/2021,07/05/2021
+Monday,Deliver,5,10,5,New Trolley Inventory,Marketing,Tom,12/05/2021,17/05/2021
+Friday,Scope,7,10,0,New Trolley Inventory,Operations,Jenny,30/04/2021,30/04/2021
+Friday,Build,7,10,2,New Trolley Inventory,Operations,Jenny,05/05/2021,07/05/2021
+Monday,Deliver,7,10,6,New Trolley Inventory,Operations,Jenny,11/05/2021,17/05/2021
