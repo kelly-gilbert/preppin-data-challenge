@@ -13,6 +13,6 @@
 </a>
 
 ## Alteryx
-<a href="/preppin-data-2021-18.yxzp">
+<a href="preppin-data-2021-18.yxzp">
 <img src="img-alteryx-2021-18.png?raw=true" alt="Alteryx workflow">
 </a>
