@@ -4,6 +4,7 @@
 
 What learned/practiced this week:
 * Practiced: regex (including lookarounds)
+* Practiced: string functions
 * Practiced: reshaping (explode and extract)
 * Practiced: joining (merge)
 
