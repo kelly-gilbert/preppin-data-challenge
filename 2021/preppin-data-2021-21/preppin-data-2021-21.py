@@ -93,6 +93,17 @@ df[df['Variance Rank by Destination'] <= 5].to_csv(r'.\outputs\output-2021-21.cs
 
 
 #---------------------------------------------------------------------------------------------------
+# question
+#---------------------------------------------------------------------------------------------------
+# We want to know which two products appeared more than once in the rankings and whether they were 
+# sold before or after the project delivery. Tweet us your answer!
+
+top5 = df.loc[df['Variance Rank by Destination'] <= 5].copy()
+top5['count'] = top5.groupby(['Product'])['Date'].transform('count')
+top5[top5['count'] > 1][['Product', 'New Trolley Inventory?', 'Variance', 'Destination']]
+
+
+#---------------------------------------------------------------------------------------------------
 # check results
 #---------------------------------------------------------------------------------------------------
 
