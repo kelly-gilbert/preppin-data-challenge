@@ -202,7 +202,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
   <tr>
     <td></td>
     <td>GenerateRows</td>
-    <td><a href="preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td></td>
