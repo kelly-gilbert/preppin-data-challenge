@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Preppin' Data 2021: Week 22 - Answer Smash
-https://preppindata.blogspot.com/2021/06/2021-week-22-answer-smash.html
+Preppin' Data 2021: Week 24 - C&BS Co Absence Monitoring
+https://preppindata.blogspot.com/2021/06/2021-week-24-c-co-absence-monitoring.html
 
 - Input data
 - Build a data set that has each date listed out between 1st April to 31st May 2021
