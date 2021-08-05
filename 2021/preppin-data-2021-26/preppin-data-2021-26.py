@@ -23,7 +23,7 @@ Requirements:
 """
 
 
-from pandas import concat, merge, read_csv, Timedelta
+from pandas import concat, DataFrame, merge, read_csv, Timedelta
 
 
 #---------------------------------------------------------------------------------------------------
@@ -32,55 +32,41 @@ from pandas import concat, merge, read_csv, Timedelta
 
 df = read_csv(r'.\inputs\PD 2021 Wk 26 Input - Sheet1.csv', parse_dates=['Date'], dayfirst=True)\
              .sort_values(by='Date')
-       
+
 
 #---------------------------------------------------------------------------------------------------
 # process the data
 #---------------------------------------------------------------------------------------------------
 
-df['begin_date'] = df['Date'] - Timedelta('3 day')
-df['end_date'] = df['Date'] + Timedelta('3 day')
+# create 7 rows per original date
+df_dates = DataFrame( {'Date' : df['Date'].unique()} )
+df_dates['join_date'] = [[d + Timedelta(str(n-3) + ' day') for n in range(7)] 
+                         for d in df_dates['Date']]
+df_dates = df_dates.explode('join_date')
 
 
-# Create a data set that gives 7 rows per date (unless those dates aren't included in the data set). 
-# Remove any additional fields you don't need 
-# Create the Rolling Week Total and Rolling Week Average per destination
+# join back to the original data on the join date
+df_join = df.merge(df_dates, on='Date', how='inner')\
+            .merge(df, left_on=['Destination', 'join_date'], right_on=['Destination', 'Date'],
+                   how='inner', suffixes=['', '_r'])
 
 
-# method 1: cross join using merge
-# this will join every date to every date for each destination
-# faster, but more memory
-df1 = df.merge(df, on='Destination', suffixes=['', '_r'], how='inner')
-df1 = df1.loc[(df1['Date_r'] >= df1['begin_date']) & (df1['Date_r'] <= df1['end_date'])]
-         
-df_total1 = df1.groupby(['Destination', 'Date']).agg(Rolling_Week_Avg=('Revenue_r', 'mean'),
-                                                     Rolling_Week_Total=('Revenue_r', 'sum'))\
-               .reset_index()
+# summarize by destination and date         
+df_date_agg = df_join.groupby(['Destination', 'Date']).agg(Rolling_Week_Avg=('Revenue_r', 'mean'),
+                                                           Rolling_Week_Total=('Revenue_r', 'sum'))\
+                     .reset_index()
 
 
-# method 2: groupby (less memory, but slower)
-# good if you have a small # of destinations and a large # of dates
-# this performs the join one destination at a time
-# source: https://stackoverflow.com/questions/23508351/how-to-do-workaround-a-conditional-join-in-python-pandas
+# summarize by date (all destinations)
+# NOTE: to match the solution, this is an average of weekly Destination averages
+df_total_agg = df_date_agg.groupby('Date').agg(Rolling_Week_Avg=('Rolling_Week_Avg', 'mean'),
+                                               Rolling_Week_Total=('Rolling_Week_Total', 'sum'))\
+                          .reset_index()
+df_total_agg['Destination'] = 'All'
 
-def cond_merge(g): 
-    g = g.merge(g, on='Destination', how='inner', suffixes=['', '_r'])
-    g = g.loc[(g['Date_r'] >= g['begin_date']) & (g['Date_r'] <= g['end_date'])]
-    return g.groupby(['Destination', 'Date']).agg(Rolling_Week_Avg=('Revenue_r', 'mean'),
-                                                  Rolling_Week_Total=('Revenue_r', 'sum'))\
-            .reset_index()
 
-df_total2 = df.groupby('Destination').apply(cond_merge).reset_index(drop=True)
- 
-
-# create the Rolling Week Total and Rolling Week Average for the whole data set
-# NOTE: to match the solution, this is an average of Destination averages
-df_all = df_total2.groupby('Date').agg(Rolling_Week_Avg=('Rolling_Week_Avg', 'mean'),
-                                       Rolling_Week_Total=('Rolling_Week_Total', 'sum'))\
-                  .reset_index()
-df_all['Destination'] = 'All'
-
-df_all = concat([df_total2, df_all])
+# union the destination and overall values
+df_all = concat([df_date_agg, df_total_agg])
 df_all.columns = df_all.columns = [c.replace('_', ' ') for c in df_all.columns]
 
 
