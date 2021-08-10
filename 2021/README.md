@@ -52,7 +52,7 @@
     <td><a href="preppin-data-2021-05/README.md">Week 5</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><a href="preppin-data-2021-12/README.md">Week 12</a></td>
     <td><a href="preppin-data-2021-19/README.md">Week 19</a></td>
-    <td></td>
+    <td><a href="preppin-data-2021-26/README.md">Week 26</a></td>
     <td></td>
     <td></td>
     <td></td>
@@ -62,7 +62,7 @@
     <td><a href="preppin-data-2021-06/README.md">Week 6</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><a href="preppin-data-2021-13/README.md">Week 13</a></td>
     <td><a href="preppin-data-2021-20/README.md">Week 20</a></td>
-    <td></td>
+    <td><a href="preppin-data-2021-27/README.md">Week 27</a></td>
     <td></td>
     <td></td>
     <td></td>
@@ -112,25 +112,38 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Test</td>
     <td><a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
+  
   <tr>
     <td>In/Out</td>
     <td>TextInput</td>
-    <td><a href="preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-26/README.md">W26</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
+  
   <tr>
     <td>Interface</td>
+    <td>Action</td>
+    <td><a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td></td>
     <td>MacroInput</td>
-    <td><a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td></td>
     <td>MacroOutput</td>
-    <td><a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
+  <tr>
+    <td></td>
+    <td>Numeric Up Down</td>
+    <td><a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  
   <tr>
     <td>Join</td>
     <td>AppendFields</td>
-    <td><a href="preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td></td>
@@ -141,7 +154,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>Join</td>
     <td><a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-05/README.md">W05</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
-      <a href="preppin-data-2021-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;    </td>
+      <a href="preppin-data-2021-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-26/README.md">W26</a>&nbsp;&nbsp;&nbsp;&nbsp;    </td>
   </tr>
   <tr>
     <td></td>
@@ -151,8 +164,10 @@ Use this list to identify challenges to practice a specific tool. Note that thes
   <tr>
     <td></td>
     <td>Union</td>
-    <td><a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;    </td>
+    <td><a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-26/README.md">W26</a>&nbsp;&nbsp;&nbsp;&nbsp;    </td>
   </tr>
+  
+  
   <tr>
     <td>Macro</td>
     <td>Batch Macro</td>
@@ -161,8 +176,10 @@ Use this list to identify challenges to practice a specific tool. Note that thes
   <tr>
     <td></td>
     <td>Iterative Macro</td>
-    <td><a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
+  
+  
   <tr>
     <td>Parse</td>
     <td>RegEx</td>
@@ -187,14 +204,14 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>Filter</td>
     <td><a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
-      <a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td></td>
     <td>Formula</td>
     <td><a href="preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-03/README.md">W03</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
       <a href="preppin-data-2021-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
-    <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-26/README.md">W26</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td></td>
@@ -204,7 +221,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
   <tr>
     <td></td>
     <td>GenerateRows</td>
-    <td><a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-26/README.md">W26</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td></td>
@@ -215,7 +232,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
   <tr>
     <td></td>
     <td>MultiRowFormula</td>
-    <td><a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td></td>
@@ -231,7 +248,9 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>Select</td>
     <td><a href="preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-03/README.md">W03</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-05/README.md">W05</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
-      <a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      <a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
   </tr>
   <tr>
     <td></td>
@@ -242,7 +261,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>Sort</td>
     <td><a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-05/README.md">W05</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
-    <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td></td>
@@ -294,13 +313,13 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Summarize</td>
     <td><a href="preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-03/README.md">W03</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
       <a href="preppin-data-2021-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
-      <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-26/README.md">W26</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td></td>
     <td>Transpose</td>
-    <td><a href="preppin-data-2021-03/README.md">W03</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2021-03/README.md">W03</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
 </table>
 
