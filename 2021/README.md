@@ -424,8 +424,8 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>Read Excel files</td>
     <td><a href="preppin-data-2021-03/README.md">W03</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
       <a href="preppin-data-2021-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
-    </td>
       <a href="preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </td>
   </tr>
   <tr>
     <td></td>
