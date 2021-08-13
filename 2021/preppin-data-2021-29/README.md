@@ -4,7 +4,7 @@
 
 What I learned/practiced this week:
 * Practiced: date parsing
-* Practiced: reshaping (melt, split)
+* Practiced: reshaping (explode, extract, split)
 * Practiced: string functions (lower, title, contains)
 * Practiced: replacing text using a dictionary
 
