@@ -1,0 +1,72 @@
+Date,Store,Item,Status,Number of Items
+05/07/2021,Bristol,Saddles,Sold,3
+05/07/2021,York,Saddles,Sold,3
+05/07/2021,Wimbledon,Saddles,Sold,1
+05/07/2021,Wimbledon,Saddles,Return to Manufacturer,1
+05/07/2021,Stratford,Saddles,Sold,2
+05/07/2021,Bristol,Tyres,Sold,3
+05/07/2021,York,Tyres,Sold,2
+05/07/2021,Wimbledon,Tyres,Sold,1
+05/07/2021,Stratford,Tyres,Sold,2
+05/07/2021,Bristol,Wheels,Sold,2
+05/07/2021,York,Wheels,Sold,2
+05/07/2021,Wimbledon,Wheels,Sold,2
+05/07/2021,Stratford,Wheels,Sold,2
+05/07/2021,Bristol,Brakes,Sold,2
+05/07/2021,York,Brakes,Sold,2
+05/07/2021,Wimbledon,Brakes,Sold,2
+05/07/2021,Stratford,Brakes,Sold,3
+12/07/2021,Bristol,Saddles,Sold,1
+12/07/2021,Bristol,Saddles,Return to Manufacturer,2
+12/07/2021,York,Saddles,Sold,3
+12/07/2021,Wimbledon,Saddles,Sold,1
+12/07/2021,Stratford,Saddles,Sold,1
+12/07/2021,Bristol,Tyres,Sold,2
+12/07/2021,York,Tyres,Sold,1
+12/07/2021,Wimbledon,Tyres,Sold,2
+12/07/2021,Stratford,Tyres,Sold,1
+13/07/2021,Stratford,Tyres,Return to Manufacturer,1
+12/07/2021,Bristol,Wheels,Sold,2
+12/07/2021,York,Wheels,Sold,1
+12/07/2021,Wimbledon,Wheels,Sold,1
+12/07/2021,Stratford,Wheels,Sold,1
+12/07/2021,Bristol,Brakes,Sold,1
+12/07/2021,York,Brakes,Sold,1
+12/07/2021,Wimbledon,Brakes,Sold,3
+12/07/2021,Stratford,Brakes,Sold,2
+19/07/2021,Bristol,Saddles,Sold,1
+19/07/2021,York,Saddles,Sold,2
+19/07/2021,Wimbledon,Saddles,Sold,1
+20/07/2021,Wimbledon,Saddles,Return to Manufacturer,2
+19/07/2021,Stratford,Saddles,Sold,3
+19/07/2021,Bristol,Tyres,Sold,1
+19/07/2021,York,Tyres,Sold,2
+19/07/2021,Wimbledon,Tyres,Sold,2
+19/07/2021,Stratford,Tyres,Sold,1
+20/07/2021,Stratford,Tyres,Return to Manufacturer,1
+19/07/2021,Bristol,Wheels,Sold,2
+19/07/2021,York,Wheels,Sold,3
+19/07/2021,Wimbledon,Wheels,Sold,3
+19/07/2021,Stratford,Wheels,Sold,1
+19/07/2021,Bristol,Brakes,Sold,1
+19/07/2021,York,Brakes,Sold,2
+19/07/2021,Wimbledon,Brakes,Sold,2
+19/07/2021,Stratford,Brakes,Sold,3
+26/07/2021,Bristol,Saddles,Sold,1
+26/07/2021,York,Saddles,Sold,1
+26/07/2021,York,Saddles,Return to Manufacturer,1
+26/07/2021,Wimbledon,Saddles,Sold,2
+26/07/2021,Stratford,Saddles,Sold,2
+26/07/2021,Bristol,Tyres,Sold,3
+26/07/2021,York,Tyres,Sold,1
+26/07/2021,Wimbledon,Tyres,Sold,3
+26/07/2021,Stratford,Tyres,Sold,2
+26/07/2021,Bristol,Wheels,Sold,2
+26/07/2021,York,Wheels,Sold,1
+26/07/2021,Wimbledon,Wheels,Sold,1
+26/07/2021,Wimbledon,Wheels,Return to Manufacturer,4
+26/07/2021,Stratford,Wheels,Sold,1
+26/07/2021,Bristol,Brakes,Sold,3
+26/07/2021,York,Brakes,Sold,1
+26/07/2021,Wimbledon,Brakes,Sold,3
+26/07/2021,Stratford,Brakes,Sold,2
