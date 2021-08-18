@@ -1,0 +1,36 @@
+﻿Order Status,Orders,Sale Date,Reporting Date
+Unfulfilled Order,D,04/01/2021,22/01/2021
+Unfulfilled Order,D,04/01/2021,15/01/2021
+New Order,D,04/01/2021,08/01/2021
+Unfulfilled Order,B,31/12/2020,29/01/2021
+Unfulfilled Order,B,31/12/2020,22/01/2021
+Unfulfilled Order,B,31/12/2020,15/01/2021
+Unfulfilled Order,B,31/12/2020,08/01/2021
+New Order,B,31/12/2020,01/01/2021
+Unfulfilled Order,G,12/01/2021,22/01/2021
+New Order,G,12/01/2021,15/01/2021
+New Order,A,29/12/2020,01/01/2021
+Unfulfilled Order,K,19/01/2021,29/01/2021
+New Order,K,19/01/2021,22/01/2021
+New Order,N,28/01/2021,29/01/2021
+New Order,I,15/01/2021,15/01/2021
+New Order,E,07/01/2021,08/01/2021
+Unfulfilled Order,J,15/01/2021,22/01/2021
+New Order,J,15/01/2021,15/01/2021
+Unfulfilled Order,F,08/01/2021,15/01/2021
+New Order,F,08/01/2021,08/01/2021
+Unfulfilled Order,C,01/01/2021,08/01/2021
+New Order,C,01/01/2021,01/01/2021
+New Order,M,23/01/2021,29/01/2021
+Unfulfilled Order,L,20/01/2021,29/01/2021
+New Order,L,20/01/2021,22/01/2021
+New Order,H,14/01/2021,15/01/2021
+Fulfilled,D,04/01/2021,29/01/2021
+Fulfilled,G,12/01/2021,29/01/2021
+Fulfilled,A,29/12/2020,08/01/2021
+Fulfilled,I,15/01/2021,22/01/2021
+Fulfilled,E,07/01/2021,15/01/2021
+Fulfilled,J,15/01/2021,29/01/2021
+Fulfilled,F,08/01/2021,22/01/2021
+Fulfilled,C,01/01/2021,15/01/2021
+Fulfilled,H,14/01/2021,22/01/2021
