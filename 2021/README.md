@@ -789,6 +789,12 @@ Use this list to identify challenges to practice specific functions/methods. Not
   </tr>
   <tr>
     <td></td>
+    <td>DateOffset</td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
     <td>date_range</td>
     <td>
       <a href="preppin-data-2021-24/README.md">W24</a>&nbsp;&nbsp;&nbsp;
