@@ -83,7 +83,7 @@
 
 ##### .
 
-## <a id="alteryx-index"></a>-->Alteryx Tool Index
+## <a id="alteryx-index"></a>Alteryx Tool Index
 Use this list to identify challenges to practice a specific tool. Note that these are the tools *I* used, but there may be other ways to solve it!
 
 <table>
@@ -426,7 +426,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
 
 
 
-## <a id="python-index"></a>-->Python Function/Method Index
+## <a id="python-index"></a>Python Function/Method Index
 Use this list to identify challenges to practice specific functions/methods. Note that these are the tools *I* used, but there may be other ways to solve it!
 
 <table>
