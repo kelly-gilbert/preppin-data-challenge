@@ -1,3 +1,5 @@
+<h6><a href="..\preppin-data-2021-16\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2021-18\README.md">Next Week  ▶</a></h6>
+
 # Preppin' Data 2021 Week 17
 
 [Challenge description](https://preppindata.blogspot.com/2021/04/week-17-timesheet-checks.html)
