@@ -1,3 +1,5 @@
+<h6><a href="..\preppin-data-2021-32\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2021-34\README.md">Next Week  ▶</a></h6>
+
 # Preppin' Data 2021 Week 33
 
 [Challenge description](https://preppindata.blogspot.com/2021/08/2021-week-33-excelling-at-adding-one.html)
