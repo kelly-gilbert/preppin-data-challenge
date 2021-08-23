@@ -1,3 +1,5 @@
+<h6><a href="..\2020\README.md">Next Year  ▶</a></h6>
+
 # preppin-data-challenge - 2019
 
 [Preppin' Data Challenge](https://preppindata.blogspot.com/) is a weekly challenge for learning to prepare data for analysis (reshape, parse, aggregate, etc.) This repo contains solutions using Python and Alteryx.
