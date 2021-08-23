@@ -1,5 +1,7 @@
-# Preppin' Data 2021 Week 27
+<a href="..\preppin-data-2021-26\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2021-28\README.md">Next Week  ▶</a>
 
+# Preppin' Data 2021 Week 27
+  
 [Challenge description](https://preppindata.blogspot.com/2021/07/2021-week-27-nba-draft-lottery.html)
 
 What I learned/practiced this week:
