@@ -1,3 +1,5 @@
+<h6><a href="..\preppin-data-2021-22\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2021-24\README.md">Next Week  ▶</a></h6>
+
 # Preppin' Data 2021 Week 23
 
 [Challenge description](https://preppindata.blogspot.com/2021/06/2021-week-23-nps-for-airlines.html)
