@@ -1,3 +1,5 @@
+<h6><a href="..\preppin-data-2021-21\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2021-23\README.md">Next Week  ▶</a></h6>
+
 # Preppin' Data 2021 Week 22
 
 [Challenge description](https://preppindata.blogspot.com/2021/06/2021-week-22-answer-smash.html)
