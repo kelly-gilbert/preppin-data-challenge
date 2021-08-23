@@ -1,4 +1,6 @@
-# preppin-data-challenge - 2020
+<h6><a href="..\2019\README.md">◀  Prev Year</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\2021\README.md">Next Year  ▶</a></h6>
+
+preppin-data-challenge - 2020
 
 [Preppin' Data Challenge](https://preppindata.blogspot.com/) is a weekly challenge for learning to prepare data for analysis (reshape, parse, aggregate, etc.) This repo contains solutions using Python and Alteryx.
 
@@ -83,7 +85,7 @@
 
 ##### .
 
-## <a id="alteryx-index"></a>-->Alteryx Tool Index
+## <a id="alteryx-index"></a>Alteryx Tool Index
 Use this list to identify challenges to practice a specific tool. Note that these are the tools *I* used, but there may be other ways to solve it!
 
 <table>
@@ -419,7 +421,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
 
 
 
-## <a id="python-index"></a>-->Python Function/Method Index
+## <a id="python-index"></a>Python Function/Method Index
 Use this list to identify challenges to practice specific functions/methods. Note that these are the tools *I* used, but there may be other ways to solve it!
 
 <table>
