@@ -1,3 +1,5 @@
+<h6><a href="..\preppin-data-2021-28\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2021-30\README.md">Next Week  ▶</a></h6>
+
 # Preppin' Data 2021 Week 29
 
 [Challenge description](https://preppindata.blogspot.com/2021/07/2021-week-29-pd-x-wow-tokyo-2020.html)
