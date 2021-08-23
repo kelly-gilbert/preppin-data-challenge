@@ -1,3 +1,5 @@
+<h6><a href="..\preppin-data-2021-11\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2021-13\README.md">Next Week  ▶</a></h6>
+
 # Preppin' Data 2021 Week 12
 
 [Challenge description](https://preppindata.blogspot.com/2021/03/2021-week-12-maldives-tourism.html)
