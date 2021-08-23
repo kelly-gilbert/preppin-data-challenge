@@ -1,3 +1,5 @@
+<h6><a href="..\preppin-data-2021-29\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2021-31\README.md">Next Week  ▶</a></h6>
+
 # Preppin' Data 2021 Week 30
 
 [Challenge description](https://preppindata.blogspot.com/2021/07/2021-week-30-lift-your-spirits.html)
