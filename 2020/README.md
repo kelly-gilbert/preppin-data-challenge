@@ -1,6 +1,6 @@
 <h6><a href="..\2019\README.md">◀  Prev Year</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\2021\README.md">Next Year  ▶</a></h6>
 
-# Preppin' Data Challenge - 2020
+# preppin-data-challenge - 2020
 
 [Preppin' Data Challenge](https://preppindata.blogspot.com/) is a weekly challenge for learning to prepare data for analysis (reshape, parse, aggregate, etc.) This repo contains solutions using Python and Alteryx.
 
