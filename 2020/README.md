@@ -11,7 +11,7 @@ preppin-data-challenge - 2020
 
 <table>
   <tr>
-    <td><!--<a href="preppin-data-2020-01/README.md">Week 1</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2020-01/README.md">Week 1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-08/README.md">Week 8</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-15/README.md">Week 15</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-22/README.md">Week 22</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -21,7 +21,7 @@ preppin-data-challenge - 2020
     <td><!--<a href="preppin-data-2020-50/README.md">Week 50</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td><!--<a href="preppin-data-2020-02/README.md">Week 2</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2020-02/README.md">Week 2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-09/README.md">Week 9</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-16/README.md">Week 16</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-23/README.md">Week 23</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -31,7 +31,7 @@ preppin-data-challenge - 2020
     <td><!--<a href="preppin-data-2020-51/README.md">Week 51</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td><!--<a href="preppin-data-2020-03/README.md">Week 3</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2020-03/README.md">Week 3</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-10/README.md">Week 10</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-17/README.md">Week 17</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-24/README.md">Week 24</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -51,7 +51,7 @@ preppin-data-challenge - 2020
     <td><!--<a href="preppin-data-2020-53/README.md">Week 53</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td><!--<a href="preppin-data-2020-05/README.md">Week 5</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2020-05/README.md">Week 5</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-12/README.md">Week 12</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-19/README.md">Week 19</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-26/README.md">Week 26</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -61,7 +61,7 @@ preppin-data-challenge - 2020
     <td></td>
   </tr>
   <tr>
-    <td><!--<a href="preppin-data-2020-06/README.md">Week 6</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2020-06/README.md">Week 6</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-13/README.md">Week 13</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-20/README.md">Week 20</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-27/README.md">Week 27</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
