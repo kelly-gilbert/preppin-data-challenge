@@ -71,7 +71,7 @@ preppin-data-challenge - 2020
     <td></td>
   </tr>
   <tr>
-    <td><!--<a href="preppin-data-2020-07/README.md">Week 7</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2020-07/README.md">Week 7</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-14/README.md">Week 14</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-21/README.md">Week 21</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-28/README.md">Week 28</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
