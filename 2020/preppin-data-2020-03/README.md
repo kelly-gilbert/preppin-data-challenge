@@ -1,4 +1,4 @@
-<h6><a href="..\preppin-data-2020-02\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2020-04\README.md">Next Week  ▶</a></h6>
+<h6><a href="..\preppin-data-2020-02\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2020-04\README.md">Next Week  ▶</a></h6>
 
 # Preppin' Data 2020 Week 3
 
