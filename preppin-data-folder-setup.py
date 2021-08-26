@@ -36,9 +36,9 @@ from shutil import copy2
 # UPDATE VARIABLES HERE:
 
 # main directory path
-main_dir = r'C:\myfilepath\Preppin Data Challenge'
-new_yr_wk = '2021-20'         # week to add
-prev_yr_wk = '2021-21'    # week to copy
+main_dir = r'C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge'
+new_yr_wk = '2021-34'         # week to add
+prev_yr_wk = '2021-32'    # week to copy
 
 
 # filenames and paths
@@ -58,8 +58,21 @@ mkdir(path.join(main_dir, new_dir, 'outputs'))
 copy2(path.join(prev_dir, prev_file), path.join(new_dir, new_file))
 
 
+# copy the Alteryx workflow template into the main folder as a starter file
+copy2(path.join(main_dir, 'alteryx_template.yxmd'), path.join(new_dir, f'preppin-data-{new_yr_wk}.yxmd'))
+
+
 # generate the markdown file starter
-md = '# Preppin\' Data ' + new_yr_wk[:4] + ' Week ' + str(int(new_yr_wk[-2:])) + chr(10)
+new_wk_nbr = int(new_yr_wk[-2:])
+week_ago_wk_nbr = new_wk_nbr-1 if new_wk_nbr > 1 else 52
+week_ago_yr_wk = f'{(int(new_yr_wk[0:4]) - (0 if new_wk_nbr > 1 else 1))}-{("0"+str(week_ago_wk_nbr))[-2:]}'
+next_wk_nbr = new_wk_nbr+1 if new_wk_nbr < 52 else 1
+next_yr_wk = f'{(int(new_yr_wk[0:4]) + (0 if new_wk_nbr < 52 else 1))}-{("0" + str(next_wk_nbr))[-2:]}'
+
+md = f'<h6><a href="..\preppin-data-{week_ago_yr_wk}\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;'\
+    + f'|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-{next_yr_wk}\README.md">Next Week  ▶</a></h6>'
+md += chr(10)
+md += '# Preppin\' Data ' + new_yr_wk[:4] + ' Week ' + str(int(new_yr_wk[-2:])) + chr(10)
 md += chr(10)
 
 md += '[Challenge description](https://preppindata.blogspot.com/2021/)' + chr(10) + chr(10)
@@ -81,6 +94,6 @@ md += '<a href="preppin-data-' + new_yr_wk + '.yxzp">' + chr(10)
 md += '<img src="img-alteryx-' + new_yr_wk + '.png?raw=true" alt="Alteryx workflow">' + chr(10)
 md += '</a>'
 
-with open(path.join(new_dir, 'README.md'), 'w') as text_file:
+with open(path.join(new_dir, 'README.md'), 'w', encoding='utf-8') as text_file:
     text_file.write(md)
     
