@@ -72,6 +72,7 @@ next_yr_wk = f'{(int(new_yr_wk[0:4]) + (0 if new_wk_nbr < 52 else 1))}-{("0" + s
 md = f'<h6><a href="..\preppin-data-{week_ago_yr_wk}\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;'\
     + f'|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-{next_yr_wk}\README.md">Next Week  ▶</a></h6>'
 md += chr(10)
+md += chr(10)
 md += '# Preppin\' Data ' + new_yr_wk[:4] + ' Week ' + str(int(new_yr_wk[-2:])) + chr(10)
 md += chr(10)
 
