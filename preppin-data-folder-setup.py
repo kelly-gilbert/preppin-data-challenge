@@ -15,9 +15,11 @@ Author: Kelly Gilbert
 Created: 2020-02-18
 
 Requirements:
-  - update the main dir below
-  - update the new week and week to copy below
-  - previous week's .py and folders exist
+  - update the variables for main_dir, new_yr_wk (week to be created), and prev_yr_wk (week to copy)
+  - Previous Week / Next Weeek navigation in the README does not account for week 53, so you may
+    need to manually update the readme at EOY/BOY if there is a week 53
+  - main folder and .py file exists for the specified previous week
+  - Alteryx shell file exists in main preppin-data-challenge folder
   
   This will output a shell for the README, but you will need to manually update:
   - The URL for the challenge description
@@ -26,19 +28,25 @@ Requirements:
 Revisions:
   - Updated README shell to include link to challenge description and practiced/learned bullets
   - Updated README shell to link to .yxzp instead of .yxmd Alteryx files
+  - Added Alteryx file shell
 """
 
 
+# --------------------------------------------------------------------------------------------------
+# UPDATE VARIABLES HERE:
+# --------------------------------------------------------------------------------------------------
+
+main_dir = r'C:\projects\preppin-data-challenge'    # main directory path
+new_yr_wk = '2021-34'     # new week to add
+prev_yr_wk = '2021-32'    # week to copy
+
+
+# --------------------------------------------------------------------------------------------------
+# folder setup script
+# --------------------------------------------------------------------------------------------------
+
 from os import mkdir, path
 from shutil import copy2
-
-
-# UPDATE VARIABLES HERE:
-
-# main directory path
-main_dir = r'C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge'
-new_yr_wk = '2021-34'         # week to add
-prev_yr_wk = '2021-32'    # week to copy
 
 
 # filenames and paths
@@ -54,11 +62,11 @@ mkdir(path.join(main_dir, new_dir, 'inputs'))
 mkdir(path.join(main_dir, new_dir, 'outputs'))
 
 
-# copy the previous week's script into the main folder as a starter file
+# copy the previous week's .py file into the new week's folder as a starter file
 copy2(path.join(prev_dir, prev_file), path.join(new_dir, new_file))
 
 
-# copy the Alteryx workflow template into the main folder as a starter file
+# copy the Alteryx workflow template into the new week's folder as a starter file
 copy2(path.join(main_dir, 'alteryx_template.yxmd'), path.join(new_dir, f'preppin-data-{new_yr_wk}.yxmd'))
 
 
