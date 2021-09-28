@@ -7,7 +7,7 @@ Created on Mon Sep 27 13:57:48 2021
 
 
 from numpy import nan, where
-from pandas import concat, DataFrame, set_option
+from pandas import concat, DataFrame
 import requests
 
 
@@ -25,7 +25,7 @@ def create_chart(df, colname, highlight_col=None, highlight_val=None):
    
     # bar plot
     ax = df.plot.barh(x='week', y=colname, figsize=(6,10), color=list(df['highlight_colors']),
-                 title=f'{colname.replace("_", " ").title()} by Week\n', 
+                 title=f'Preppin\' Data {colname.replace("_", " ").title()} by Week\n', 
                  legend=False, label=colname, width=0.7)
     
     # add the labels
