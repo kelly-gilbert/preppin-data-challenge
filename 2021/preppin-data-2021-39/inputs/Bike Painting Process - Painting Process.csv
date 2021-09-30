@@ -1,0 +1,178 @@
+Batch No.,Data Type,Data Parameter,Data Value,Time,Date
+7000,Result Data,Bike Type,Mountain,8:05:55,23/09/2021
+7000,Result Data,Batch Status,1,8:07:57,23/09/2021
+7000,Process Data,Name of Process Stage,Warming Up,8:10:30,23/09/2021
+7000,Process Data,Target Temperature,91,8:11:23,23/09/2021
+7000,Process Data,Actual Temperature,59.2,8:18:11,23/09/2021
+7000,Process Data,Actual Temperature,72.9,8:28:08,23/09/2021
+7000,Process Data,Actual Temperature,104,8:32:25,23/09/2021
+7000,Process Data,Actual Temperature,137.55,8:49:45,23/09/2021
+7000,Process Data,Actual Temperature,113,8:51:37,23/09/2021
+7000,Process Data,Name of Process Stage,Shutter Open,8:55:25,23/09/2021
+7000,Process Data,Target Current,7.104,8:57:00,23/09/2021
+7000,Process Data,Actual Current,6.396,9:06:48,23/09/2021
+7000,Process Data,Actual Current,9.875,9:15:29,23/09/2021
+7000,Process Data,Actual Current,7.44,9:15:58,23/09/2021
+7000,Process Data,Actual Current,10.296,9:18:39,23/09/2021
+7000,Process Data,Target Voltage,318,9:23:24,23/09/2021
+7000,Process Data,Actual Voltage,91,9:40:33,23/09/2021
+7000,Process Data,Actual Voltage,183,9:41:59,23/09/2021
+7000,Process Data,Actual Voltage,317.5,9:49:44,23/09/2021
+7000,Process Data,Actual Voltage,405,10:10:17,23/09/2021
+7000,Process Data,Actual Voltage,283.8,10:17:21,23/09/2021
+7000,Process Data,Actual Voltage,333,10:50:04,23/09/2021
+7000,Process Data,Target Voltage,368,10:50:33,23/09/2021
+7000,Process Data,Actual Voltage,536,10:59:32,23/09/2021
+7000,Process Data,Name of Process Stage,Painting 1,11:03:28,23/09/2021
+7000,Process Data,Target Gas Flow,5400,11:10:25,23/09/2021
+7000,Process Data,Actual Gas Flow,3320,11:17:32,23/09/2021
+7000,Process Data,Actual Gas Flow,3157,11:18:19,23/09/2021
+7000,Process Data,Actual Gas Flow,4368,11:24:48,23/09/2021
+7000,Process Data,Target Pressure,450,11:35:48,23/09/2021
+7000,Process Data,Actual Pressure,768,11:42:04,23/09/2021
+7000,Process Data,Actual Pressure,465,11:43:37,23/09/2021
+7000,Process Data,Name of Process Stage,Painting 2,12:15:37,23/09/2021
+7000,Process Data,Target Gas Flow,4260,12:15:54,23/09/2021
+7000,Process Data,Actual Gas Flow,5400,12:18:56,23/09/2021
+7000,Process Data,Actual Gas Flow,5074,12:52:11,23/09/2021
+7000,Process Data,Actual Gas Flow,6324,12:54:48,23/09/2021
+7000,Process Data,Target Pressure,620,12:56:01,23/09/2021
+7000,Process Data,Actual Pressure,504,13:00:41,23/09/2021
+7000,Process Data,Actual Pressure,405,13:02:14,23/09/2021
+7000,Process Data,Name of Process Stage,Gloss Finish,13:15:50,23/09/2021
+7000,Process Data,Target Temperature,200.2,13:27:59,23/09/2021
+7000,Process Data,Target Gas Flow,11700,13:39:42,23/09/2021
+7000,Process Data,Target Voltage,180,13:40:37,23/09/2021
+7000,Process Data,Actual Voltage,266,13:48:16,23/09/2021
+7000,Process Data,Actual Gas Flow,1269,14:03:29,23/09/2021
+7000,Process Data,Actual Gas Flow,1230,14:12:34,23/09/2021
+7000,Process Data,Actual Gas Flow,3000,14:18:01,23/09/2021
+7000,Process Data,Actual Temperature,101.4,14:35:54,23/09/2021
+7000,Process Data,Actual Temperature,196,14:39:42,23/09/2021
+7000,Process Data,Actual Temperature,151.5,14:40:14,23/09/2021
+7000,Process Data,Name of Process Stage,Shutter Closing,14:40:36,23/09/2021
+7000,Process Data,Target Voltage,135,14:43:14,23/09/2021
+7000,Process Data,Actual Voltage,123.5,14:44:22,23/09/2021
+7000,Process Data,Actual Voltage,122,14:57:22,23/09/2021
+7000,Process Data,Target Current,6.325,14:58:55,23/09/2021
+7000,Process Data,Actual Current,6.36,14:59:13,23/09/2021
+7000,Process Data,Actual Current,3.99,15:06:35,23/09/2021
+7000,Process Data,Actual Current,3.996,15:08:53,23/09/2021
+7001,Result Data,Bike Type,Road,9:37:27,24/09/2021
+7001,Result Data,Batch Status,1,9:39:42,24/09/2021
+7001,Process Data,Name of Process Stage,Warming Up,9:41:53,24/09/2021
+7001,Process Data,Target Temperature,136,9:46:27,24/09/2021
+7001,Process Data,Actual Temperature,85.6,9:48:22,24/09/2021
+7001,Process Data,Actual Temperature,71.1,9:53:47,24/09/2021
+7001,Process Data,Actual Temperature,88,9:56:30,24/09/2021
+7001,Process Data,Actual Temperature,153.3,9:59:22,24/09/2021
+7001,Process Data,Actual Temperature,75,9:59:37,24/09/2021
+7001,Process Data,Name of Process Stage,Shutter Open,10:01:31,24/09/2021
+7001,Process Data,Target Current,5.624,10:04:33,24/09/2021
+7001,Process Data,Actual Current,6.942,10:04:44,24/09/2021
+7001,Process Data,Actual Current,11.06,10:09:50,24/09/2021
+7001,Process Data,Actual Current,9.52,10:11:35,24/09/2021
+7001,Process Data,Actual Current,11.466,10:13:42,24/09/2021
+7001,Process Data,Target Voltage,219,10:15:23,24/09/2021
+7001,Process Data,Actual Voltage,93,10:18:27,24/09/2021
+7001,Process Data,Actual Voltage,217.5,10:21:28,24/09/2021
+7001,Process Data,Actual Voltage,295,10:22:25,24/09/2021
+7001,Process Data,Actual Voltage,438,10:23:06,24/09/2021
+7001,Process Data,Actual Voltage,356.4,10:25:48,24/09/2021
+7001,Process Data,Actual Voltage,306,10:28:46,24/09/2021
+7001,Process Data,Target Voltage,392,10:34:54,24/09/2021
+7001,Process Data,Actual Voltage,364,10:38:17,24/09/2021
+7001,Process Data,Name of Process Stage,Painting 1,10:39:39,24/09/2021
+7001,Process Data,Target Gas Flow,4200,10:39:42,24/09/2021
+7001,Process Data,Actual Gas Flow,5240,10:40:19,24/09/2021
+7001,Process Data,Actual Gas Flow,2993,10:45:00,24/09/2021
+7001,Process Data,Actual Gas Flow,3705,10:55:00,24/09/2021
+7001,Process Data,Target Pressure,660,10:58:39,24/09/2021
+7001,Process Data,Actual Pressure,618,10:59:27,24/09/2021
+7001,Process Data,Actual Pressure,545,11:01:06,24/09/2021
+7001,Process Data,Name of Process Stage,Painting 2,11:02:16,24/09/2021
+7001,Process Data,Target Gas Flow,8100,11:03:58,24/09/2021
+7001,Process Data,Actual Gas Flow,6000,11:04:23,24/09/2021
+7001,Process Data,Actual Gas Flow,5664,11:04:48,24/09/2021
+7001,Process Data,Actual Gas Flow,8184,11:08:21,24/09/2021
+7001,Process Data,Target Pressure,400,11:16:35,24/09/2021
+7001,Process Data,Actual Pressure,702,11:17:17,24/09/2021
+7001,Process Data,Actual Pressure,595,11:19:55,24/09/2021
+7001,Process Data,Name of Process Stage,Gloss Finish,11:25:58,24/09/2021
+7001,Process Data,Target Temperature,105,11:27:40,24/09/2021
+7001,Process Data,Target Gas Flow,10700,11:27:40,24/09/2021
+7001,Process Data,Target Voltage,362.5,11:28:49,24/09/2021
+7001,Process Data,Actual Voltage,146,11:32:17,24/09/2021
+7001,Process Data,Actual Gas Flow,1179,11:35:32,24/09/2021
+7001,Process Data,Actual Gas Flow,1360,11:42:00,24/09/2021
+7001,Process Data,Actual Gas Flow,1840,11:44:52,24/09/2021
+7001,Process Data,Actual Temperature,119.6,11:50:36,24/09/2021
+7001,Process Data,Actual Temperature,103.6,11:53:27,24/09/2021
+7001,Process Data,Actual Temperature,115.5,11:55:01,24/09/2021
+7001,Process Data,Name of Process Stage,Shutter Closing,11:58:38,24/09/2021
+7001,Process Data,Target Voltage,83,12:05:35,24/09/2021
+7001,Process Data,Actual Voltage,109.25,12:08:54,24/09/2021
+7001,Process Data,Actual Voltage,96,12:11:01,24/09/2021
+7001,Process Data,Target Current,8.25,12:16:05,24/09/2021
+7001,Process Data,Actual Current,5.16,12:27:38,24/09/2021
+7001,Process Data,Actual Current,4.446,12:31:20,24/09/2021
+7001,Process Data,Actual Current,6.642,12:32:05,24/09/2021
+7002,Result Data,Bike Type,Hybrid,0:04:41,25/09/2021
+7002,Result Data,Batch Status,0,0:48:47,25/09/2021
+7002,Process Data,Name of Process Stage,Warming Up,0:51:53,25/09/2021
+7002,Process Data,Target Temperature,107,0:55:07,25/09/2021
+7002,Process Data,Actual Temperature,116,0:59:34,25/09/2021
+7002,Process Data,Actual Temperature,120.6,1:49:28,25/09/2021
+7002,Process Data,Actual Temperature,139,2:08:23,25/09/2021
+7002,Process Data,Actual Temperature,93.45,2:10:17,25/09/2021
+7002,Process Data,Actual Temperature,71,2:35:53,25/09/2021
+7002,Process Data,Name of Process Stage,Shutter Open,3:06:42,25/09/2021
+7002,Process Data,Target Current,10.656,3:36:53,25/09/2021
+7002,Process Data,Actual Current,10.608,3:57:38,25/09/2021
+7002,Process Data,Actual Current,6.004,4:58:35,25/09/2021
+7002,Process Data,Actual Current,7.36,5:09:44,25/09/2021
+7002,Process Data,Actual Current,8.814,5:22:08,25/09/2021
+7002,Process Data,Target Voltage,435,5:40:27,25/09/2021
+7002,Process Data,Actual Voltage,147,5:44:20,25/09/2021
+7002,Process Data,Actual Voltage,166.5,6:39:49,25/09/2021
+7002,Process Data,Actual Voltage,190,7:14:16,25/09/2021
+7002,Process Data,Actual Voltage,450,7:19:41,25/09/2021
+7002,Process Data,Actual Voltage,458.7,7:53:36,25/09/2021
+7002,Process Data,Actual Voltage,450,8:48:00,25/09/2021
+7002,Process Data,Target Voltage,516,8:58:09,25/09/2021
+7002,Process Data,Actual Voltage,400,9:21:14,25/09/2021
+7002,Process Data,Name of Process Stage,Painting 1,9:22:26,25/09/2021
+7002,Process Data,Target Gas Flow,5720,9:54:56,25/09/2021
+7002,Process Data,Actual Gas Flow,5360,10:07:30,25/09/2021
+7002,Process Data,Actual Gas Flow,4305,10:55:18,25/09/2021
+7002,Process Data,Actual Gas Flow,4368,11:07:13,25/09/2021
+7002,Process Data,Target Pressure,505,11:36:34,25/09/2021
+7002,Process Data,Actual Pressure,570,11:45:45,25/09/2021
+7002,Process Data,Actual Pressure,625,12:05:54,25/09/2021
+7002,Process Data,Name of Process Stage,Painting 2,12:41:59,25/09/2021
+7002,Process Data,Target Gas Flow,7920,12:56:19,25/09/2021
+7002,Process Data,Actual Gas Flow,4850,13:23:57,25/09/2021
+7002,Process Data,Actual Gas Flow,5074,13:27:03,25/09/2021
+7002,Process Data,Actual Gas Flow,4402,13:38:43,25/09/2021
+7002,Process Data,Target Pressure,410,13:55:36,25/09/2021
+7002,Process Data,Actual Pressure,516,13:58:47,25/09/2021
+7002,Process Data,Actual Pressure,540,14:34:49,25/09/2021
+7002,Process Data,Name of Process Stage,Gloss Finish,15:22:45,25/09/2021
+7002,Process Data,Target Temperature,151.2,15:46:10,25/09/2021
+7002,Process Data,Target Gas Flow,10200,15:49:31,25/09/2021
+7002,Process Data,Target Voltage,257.5,15:49:34,25/09/2021
+7002,Process Data,Actual Voltage,252,15:52:33,25/09/2021
+7002,Process Data,Actual Gas Flow,1278,17:11:18,25/09/2021
+7002,Process Data,Actual Gas Flow,930,17:19:59,25/09/2021
+7002,Process Data,Actual Gas Flow,1520,17:45:35,25/09/2021
+7002,Process Data,Actual Temperature,153.4,17:48:18,25/09/2021
+7002,Process Data,Actual Temperature,105,18:04:46,25/09/2021
+7002,Process Data,Actual Temperature,139.5,18:25:52,25/09/2021
+7002,Process Data,Name of Process Stage,Shutter Closing,19:29:37,25/09/2021
+7002,Process Data,Target Voltage,149,20:31:00,25/09/2021
+7002,Process Data,Actual Voltage,105.45,20:49:51,25/09/2021
+7002,Process Data,Actual Voltage,89,21:09:09,25/09/2021
+7002,Process Data,Target Current,7.04,23:34:08,25/09/2021
+7002,Process Data,Actual Current,8.4,23:45:14,25/09/2021
+7002,Process Data,Actual Current,4.047,23:53:08,25/09/2021
+7002,Process Data,Actual Current,4.752,23:56:27,25/09/2021

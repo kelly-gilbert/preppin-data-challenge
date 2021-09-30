@@ -1,0 +1,154 @@
+﻿Batch No.,Name of Process Step,Bike Type,Batch Status,Datetime,Data Parameter,Target,Actual
+7001,Warming Up,Road,1,24/09/2021 09:56:30,Temperature,,88
+7002,Shutter Open,Hybrid,0,25/09/2021 05:09:44,Current,,7.36
+7002,Painting 1,Hybrid,0,25/09/2021 09:54:56,Gas Flow,5720,
+7002,Shutter Open,Hybrid,0,25/09/2021 09:21:14,Voltage,,400
+7001,Painting 2,Road,1,24/09/2021 11:19:55,Pressure,,595
+7002,Painting 2,Hybrid,0,25/09/2021 13:38:43,Gas Flow,,4402
+7002,Gloss Finish,Hybrid,0,25/09/2021 15:49:34,Voltage,257.5,
+7002,Shutter Open,Hybrid,0,25/09/2021 05:44:20,Voltage,,147
+7001,Shutter Open,Road,1,24/09/2021 10:18:27,Voltage,,93
+7000,Shutter Closing,Mountain,1,23/09/2021 14:44:22,Voltage,,123.5
+7001,Shutter Open,Road,1,24/09/2021 10:04:33,Current,5.624,
+7002,Gloss Finish,Hybrid,0,25/09/2021 17:11:18,Gas Flow,,1278
+7000,Shutter Closing,Mountain,1,23/09/2021 14:59:13,Current,,6.36
+7001,Shutter Open,Road,1,24/09/2021 10:38:17,Voltage,,364
+7002,Shutter Open,Hybrid,0,25/09/2021 05:22:08,Current,,8.814
+7002,Painting 2,Hybrid,0,25/09/2021 13:23:57,Gas Flow,,4850
+7002,Shutter Open,Hybrid,0,25/09/2021 07:53:36,Voltage,,458.7
+7001,Shutter Open,Road,1,24/09/2021 10:23:06,Voltage,,438
+7001,Gloss Finish,Road,1,24/09/2021 11:27:40,Temperature,105,
+7001,Painting 2,Road,1,24/09/2021 11:08:21,Gas Flow,,8184
+7002,Shutter Open,Hybrid,0,25/09/2021 03:57:38,Current,,10.608
+7000,Gloss Finish,Mountain,1,23/09/2021 13:27:59,Temperature,200.2,
+7000,Gloss Finish,Mountain,1,23/09/2021 14:03:29,Gas Flow,,1269
+7000,Warming Up,Mountain,1,23/09/2021 08:51:37,Temperature,,113
+7001,Shutter Open,Road,1,24/09/2021 10:28:46,Voltage,,306
+7002,Gloss Finish,Hybrid,0,25/09/2021 18:04:46,Temperature,,105
+7001,Warming Up,Road,1,24/09/2021 09:48:22,Temperature,,85.6
+7001,Shutter Closing,Road,1,24/09/2021 12:16:05,Current,8.25,
+7001,Shutter Closing,Road,1,24/09/2021 12:32:05,Current,,6.642
+7002,Shutter Open,Hybrid,0,25/09/2021 07:19:41,Voltage,,450
+7000,Shutter Open,Mountain,1,23/09/2021 10:50:04,Voltage,,333
+7000,Shutter Open,Mountain,1,23/09/2021 09:40:33,Voltage,,91
+7001,Shutter Closing,Road,1,24/09/2021 12:08:54,Voltage,,109.25
+7002,Shutter Closing,Hybrid,0,25/09/2021 23:56:27,Current,,4.752
+7002,Warming Up,Hybrid,0,25/09/2021 01:49:28,Temperature,,120.6
+7000,Shutter Open,Mountain,1,23/09/2021 09:49:44,Voltage,,317.5
+7001,Shutter Closing,Road,1,24/09/2021 12:11:01,Voltage,,96
+7001,Shutter Closing,Road,1,24/09/2021 12:05:35,Voltage,83,
+7000,Shutter Open,Mountain,1,23/09/2021 09:15:29,Current,,9.875
+7001,Shutter Open,Road,1,24/09/2021 10:22:25,Voltage,,295
+7002,Shutter Open,Hybrid,0,25/09/2021 05:40:27,Voltage,435,
+7002,Gloss Finish,Hybrid,0,25/09/2021 15:49:31,Gas Flow,10200,
+7002,Shutter Open,Hybrid,0,25/09/2021 08:58:09,Voltage,516,
+7002,Gloss Finish,Hybrid,0,25/09/2021 17:19:59,Gas Flow,,930
+7000,Shutter Closing,Mountain,1,23/09/2021 14:43:14,Voltage,135,
+7002,Warming Up,Hybrid,0,25/09/2021 02:10:17,Temperature,,93.45
+7001,Shutter Open,Road,1,24/09/2021 10:21:28,Voltage,,217.5
+7000,Shutter Open,Mountain,1,23/09/2021 08:57:00,Current,7.104,
+7001,Painting 2,Road,1,24/09/2021 11:03:58,Gas Flow,8100,
+7000,Painting 2,Mountain,1,23/09/2021 13:02:14,Pressure,,405
+7000,Shutter Closing,Mountain,1,23/09/2021 14:57:22,Voltage,,122
+7000,Shutter Open,Mountain,1,23/09/2021 09:23:24,Voltage,318,
+7000,Painting 1,Mountain,1,23/09/2021 11:10:25,Gas Flow,5400,
+7002,Gloss Finish,Hybrid,0,25/09/2021 15:46:10,Temperature,151.2,
+7000,Gloss Finish,Mountain,1,23/09/2021 14:40:14,Temperature,,151.5
+7000,Shutter Closing,Mountain,1,23/09/2021 15:08:53,Current,,3.996
+7000,Painting 1,Mountain,1,23/09/2021 11:24:48,Gas Flow,,4368
+7001,Warming Up,Road,1,24/09/2021 09:59:22,Temperature,,153.3
+7002,Painting 2,Hybrid,0,25/09/2021 13:27:03,Gas Flow,,5074
+7000,Warming Up,Mountain,1,23/09/2021 08:11:23,Temperature,91,
+7000,Shutter Open,Mountain,1,23/09/2021 09:18:39,Current,,10.296
+7002,Shutter Open,Hybrid,0,25/09/2021 07:14:16,Voltage,,190
+7002,Painting 2,Hybrid,0,25/09/2021 13:58:47,Pressure,,516
+7002,Gloss Finish,Hybrid,0,25/09/2021 17:48:18,Temperature,,153.4
+7001,Shutter Open,Road,1,24/09/2021 10:09:50,Current,,11.06
+7000,Painting 1,Mountain,1,23/09/2021 11:42:04,Pressure,,768
+7001,Painting 1,Road,1,24/09/2021 10:55:00,Gas Flow,,3705
+7001,Shutter Open,Road,1,24/09/2021 10:15:23,Voltage,219,
+7001,Warming Up,Road,1,24/09/2021 09:46:27,Temperature,136,
+7002,Warming Up,Hybrid,0,25/09/2021 02:35:53,Temperature,,71
+7000,Warming Up,Mountain,1,23/09/2021 08:32:25,Temperature,,104
+7002,Shutter Open,Hybrid,0,25/09/2021 06:39:49,Voltage,,166.5
+7000,Warming Up,Mountain,1,23/09/2021 08:49:45,Temperature,,137.55
+7000,Shutter Closing,Mountain,1,23/09/2021 14:58:55,Current,6.325,
+7001,Painting 2,Road,1,24/09/2021 11:04:48,Gas Flow,,5664
+7002,Warming Up,Hybrid,0,25/09/2021 00:55:07,Temperature,107,
+7000,Gloss Finish,Mountain,1,23/09/2021 14:39:42,Temperature,,196
+7002,Gloss Finish,Hybrid,0,25/09/2021 18:25:52,Temperature,,139.5
+7002,Shutter Closing,Hybrid,0,25/09/2021 23:53:08,Current,,4.047
+7000,Gloss Finish,Mountain,1,23/09/2021 13:39:42,Gas Flow,11700,
+7000,Shutter Open,Mountain,1,23/09/2021 10:59:32,Voltage,,536
+7001,Shutter Open,Road,1,24/09/2021 10:34:54,Voltage,392,
+7001,Painting 1,Road,1,24/09/2021 11:01:06,Pressure,,545
+7001,Painting 2,Road,1,24/09/2021 11:04:23,Gas Flow,,6000
+7001,Warming Up,Road,1,24/09/2021 09:53:47,Temperature,,71.1
+7002,Painting 1,Hybrid,0,25/09/2021 10:55:18,Gas Flow,,4305
+7002,Shutter Open,Hybrid,0,25/09/2021 03:36:53,Current,10.656,
+7000,Gloss Finish,Mountain,1,23/09/2021 14:35:54,Temperature,,101.4
+7001,Painting 1,Road,1,24/09/2021 10:45:00,Gas Flow,,2993
+7001,Shutter Open,Road,1,24/09/2021 10:13:42,Current,,11.466
+7001,Shutter Open,Road,1,24/09/2021 10:04:44,Current,,6.942
+7001,Gloss Finish,Road,1,24/09/2021 11:55:01,Temperature,,115.5
+7000,Shutter Open,Mountain,1,23/09/2021 09:41:59,Voltage,,183
+7002,Shutter Closing,Hybrid,0,25/09/2021 21:09:09,Voltage,,89
+7000,Painting 1,Mountain,1,23/09/2021 11:18:19,Gas Flow,,3157
+7000,Painting 1,Mountain,1,23/09/2021 11:35:48,Pressure,450,
+7000,Painting 1,Mountain,1,23/09/2021 11:43:37,Pressure,,465
+7001,Painting 2,Road,1,24/09/2021 11:17:17,Pressure,,702
+7002,Shutter Closing,Hybrid,0,25/09/2021 20:31:00,Voltage,149,
+7001,Shutter Open,Road,1,24/09/2021 10:11:35,Current,,9.52
+7000,Painting 1,Mountain,1,23/09/2021 11:17:32,Gas Flow,,3320
+7002,Painting 2,Hybrid,0,25/09/2021 13:55:36,Pressure,410,
+7002,Painting 1,Hybrid,0,25/09/2021 11:36:34,Pressure,505,
+7002,Shutter Closing,Hybrid,0,25/09/2021 23:45:14,Current,,8.4
+7002,Gloss Finish,Hybrid,0,25/09/2021 15:52:33,Voltage,,252
+7001,Gloss Finish,Road,1,24/09/2021 11:50:36,Temperature,,119.6
+7000,Warming Up,Mountain,1,23/09/2021 08:28:08,Temperature,,72.9
+7000,Shutter Open,Mountain,1,23/09/2021 10:50:33,Voltage,368,
+7001,Shutter Closing,Road,1,24/09/2021 12:27:38,Current,,5.16
+7001,Gloss Finish,Road,1,24/09/2021 11:28:49,Voltage,362.5,
+7001,Gloss Finish,Road,1,24/09/2021 11:44:52,Gas Flow,,1840
+7002,Warming Up,Hybrid,0,25/09/2021 00:59:34,Temperature,,116
+7001,Painting 1,Road,1,24/09/2021 10:58:39,Pressure,660,
+7000,Shutter Closing,Mountain,1,23/09/2021 15:06:35,Current,,3.99
+7000,Painting 2,Mountain,1,23/09/2021 12:18:56,Gas Flow,,5400
+7002,Shutter Closing,Hybrid,0,25/09/2021 20:49:51,Voltage,,105.45
+7000,Gloss Finish,Mountain,1,23/09/2021 13:48:16,Voltage,,266
+7002,Shutter Open,Hybrid,0,25/09/2021 04:58:35,Current,,6.004
+7001,Gloss Finish,Road,1,24/09/2021 11:53:27,Temperature,,103.6
+7001,Painting 1,Road,1,24/09/2021 10:39:42,Gas Flow,4200,
+7000,Gloss Finish,Mountain,1,23/09/2021 14:18:01,Gas Flow,,3000
+7000,Painting 2,Mountain,1,23/09/2021 13:00:41,Pressure,,504
+7000,Warming Up,Mountain,1,23/09/2021 08:18:11,Temperature,,59.2
+7000,Shutter Open,Mountain,1,23/09/2021 10:10:17,Voltage,,405
+7001,Shutter Closing,Road,1,24/09/2021 12:31:20,Current,,4.446
+7000,Gloss Finish,Mountain,1,23/09/2021 13:40:37,Voltage,180,
+7001,Gloss Finish,Road,1,24/09/2021 11:32:17,Voltage,,146
+7000,Shutter Open,Mountain,1,23/09/2021 09:15:58,Current,,7.44
+7002,Painting 1,Hybrid,0,25/09/2021 11:07:13,Gas Flow,,4368
+7002,Warming Up,Hybrid,0,25/09/2021 02:08:23,Temperature,,139
+7001,Painting 1,Road,1,24/09/2021 10:59:27,Pressure,,618
+7002,Shutter Open,Hybrid,0,25/09/2021 08:48:00,Voltage,,450
+7000,Painting 2,Mountain,1,23/09/2021 12:54:48,Gas Flow,,6324
+7002,Gloss Finish,Hybrid,0,25/09/2021 17:45:35,Gas Flow,,1520
+7001,Gloss Finish,Road,1,24/09/2021 11:27:40,Gas Flow,10700,
+7000,Shutter Open,Mountain,1,23/09/2021 10:17:21,Voltage,,283.8
+7000,Shutter Open,Mountain,1,23/09/2021 09:06:48,Current,,6.396
+7001,Painting 2,Road,1,24/09/2021 11:16:35,Pressure,400,
+7001,Warming Up,Road,1,24/09/2021 09:59:37,Temperature,,75
+7002,Painting 2,Hybrid,0,25/09/2021 12:56:19,Gas Flow,7920,
+7000,Painting 2,Mountain,1,23/09/2021 12:15:54,Gas Flow,4260,
+7002,Painting 1,Hybrid,0,25/09/2021 10:07:30,Gas Flow,,5360
+7000,Painting 2,Mountain,1,23/09/2021 12:56:01,Pressure,620,
+7002,Painting 1,Hybrid,0,25/09/2021 11:45:45,Pressure,,570
+7002,Painting 1,Hybrid,0,25/09/2021 12:05:54,Pressure,,625
+7000,Painting 2,Mountain,1,23/09/2021 12:52:11,Gas Flow,,5074
+7001,Gloss Finish,Road,1,24/09/2021 11:35:32,Gas Flow,,1179
+7001,Gloss Finish,Road,1,24/09/2021 11:42:00,Gas Flow,,1360
+7001,Shutter Open,Road,1,24/09/2021 10:25:48,Voltage,,356.4
+7002,Shutter Closing,Hybrid,0,25/09/2021 23:34:08,Current,7.04,
+7000,Gloss Finish,Mountain,1,23/09/2021 14:12:34,Gas Flow,,1230
+7001,Painting 1,Road,1,24/09/2021 10:40:19,Gas Flow,,5240
+7002,Painting 2,Hybrid,0,25/09/2021 14:34:49,Pressure,,540
