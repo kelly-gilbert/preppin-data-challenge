@@ -22,12 +22,16 @@ What I learned/practiced this week:
 ## Experimenting with column sizes
 
 Because this dataset was a bit larger than we normally use for these challenges, I experimented with different column types for the Outcome Group:
+<br>
+<br>
 <a href="preppin-data-2021-40.py">
 <img src="img-column-size-comparison-code-2021-40.png?raw=true" alt="Python code">
 </a>
-
+<br>
+<br>
 Using an integer or category type (instead of a string) saves 0.35-0.82 MB, but adds a little complexity in getting the names back into the output. In this particular case, the memory savings isn't material, so I used the string type.
-
+<br>
+<br>
 <a href="preppin-data-2021-40.py">
 <img src="img-column-size-comparison-2021-40.png?raw=true" alt="Python code">
 </a>
