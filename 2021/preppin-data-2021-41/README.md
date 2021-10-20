@@ -8,7 +8,7 @@ What I learned/practiced this week:
 * Practiced: reading a csv file with spaces as delimeters
 * Practiced: conditional formula (where)
 * Practiced: regex extract
-* Learned: creating a list of non-continuous ranges
+* Learned: using sequence unpacking (* operator) to create a list of non-continuous ranges
 * Learned: to_csv with a specified number format
 
 ## Python
