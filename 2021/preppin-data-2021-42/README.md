@@ -6,7 +6,7 @@
 
 What I learned/practiced this week:
 * Practiced: generating a range of dates with date_range
-* Pracitced: joining (merge)
+* Practiced: joining (merge)
 * Practiced: filling nans with fillna
 * Practiced: aggregation (transform)
 
