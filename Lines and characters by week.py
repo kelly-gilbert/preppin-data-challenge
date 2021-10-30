@@ -6,9 +6,10 @@ Created on Mon Sep 27 13:57:48 2021
 """
 
 
-from numpy import nan, where
-from pandas import concat, DataFrame
+import numpy as np, polyfit
+from pandas import concat, DataFrame, merge, read_csv
 import requests
+from sklearn.linear_model import LinearRegression
 
 
 def create_chart(df, colname, highlight_col=None, highlight_val=None):
@@ -21,7 +22,7 @@ def create_chart(df, colname, highlight_col=None, highlight_val=None):
     df[colname]=df[colname].round(0)
     
     if highlight_col != None:
-        df['highlight_colors'] = where(df[highlight_col]==highlight_val, 'darkorange', 'silver')
+        df['highlight_colors'] = np.where(df[highlight_col]==highlight_val, 'darkorange', 'silver')
    
     # bar plot
     ax = df.plot.barh(x='week', y=colname, figsize=(6,10), color=list(df['highlight_colors']),
@@ -70,9 +71,9 @@ df_e['lines'] = df_e['lines'].str.strip()
 
 
 # identify the line types and lengths
-df_e['comment'] = where(df_e['lines'].str[0] == '#', df_e['lines'].str.len(), nan)
-df_e['blank'] = where(df_e['lines'] == '', df_e['lines'].str.len(), nan)
-df_e['code'] = where(df_e['comment'].isna() & df_e['blank'].isna(), df_e['lines'].str.len(), nan)
+df_e['comment'] = np.where(df_e['lines'].str[0] == '#', df_e['lines'].str.len(), np.nan)
+df_e['blank'] = np.where(df_e['lines'] == '', df_e['lines'].str.len(), np.nan)
+df_e['code'] = np.where(df_e['comment'].isna() & df_e['blank'].isna(), df_e['lines'].str.len(), np.nan)
 df_e['line_length'] = df_e['lines'].str.len()
 
 
@@ -97,3 +98,30 @@ create_chart(df_agg, 'total_chars', highlight_col='week', highlight_val=37)
 create_chart(df_agg, 'code_chars', highlight_col='week', highlight_val=37)
 create_chart(df_agg, 'total_lines', highlight_col='week', highlight_val=37)
 create_chart(df_agg, 'code_lines', highlight_col='week', highlight_val=37)
+
+
+# --------------------------------------------------------------------------------------------------
+# compare to difficulty
+# --------------------------------------------------------------------------------------------------
+
+diff = read_csv('C:\Projects\preppin-data-challenge\difficulty_ratings.csv')
+diff.columns = ['year', 'week', 'rating']
+diff = diff.loc[diff['year']==2021]
+
+df_agg = df_agg.merge(diff, on='week', how='left')
+
+
+# plot
+m, b = polyfit(df_agg['code_chars'], df_agg['rating'], 1)
+
+ax = df_agg.plot.scatter(x='code_chars', y='rating', figsize=(8,8),
+             title='Preppin\' Data Difficulty vs. Number of Lines')
+ax.plot(df_agg['code_chars'], m*df_agg['code_chars'] + b, color='darkgray')
+
+
+# model
+x = np.array(df_agg['code_chars']).reshape((-1,1))
+y = df_agg['rating']
+
+model = LinearRegression().fit(x, y)
+print(f'rsq = {model.score(x, y)}')
