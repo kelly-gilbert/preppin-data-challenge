@@ -1,0 +1,16 @@
+Rating,Status,Cases
+High,Completed,1
+High,Deferred,1
+High,New cases,1
+High,Opening cases,6
+High,Continuing,5
+Low,Completed,4
+Low,Deferred,0
+Low,New cases,3
+Low,Opening cases,9
+Low,Continuing,8
+Medium,Completed,8
+Medium,Deferred,2
+Medium,New cases,7
+Medium,Opening cases,8
+Medium,Continuing,5
