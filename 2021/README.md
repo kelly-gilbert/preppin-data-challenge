@@ -37,7 +37,7 @@
     <td><a href="preppin-data-2021-24/README.md">Week 24</a></td>
     <td><a href="preppin-data-2021-31/README.md">Week 31</a></td>
     <td><a href="preppin-data-2021-38/README.md">Week 38</a></td>
-    <td></td>
+    <td><a href="preppin-data-2021-38/README.md">Week 45</a></td>
     <td></td>
   </tr>
   <tr>
@@ -110,6 +110,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
       <a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-33/README.md">W33</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -261,6 +262,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
       <a href="preppin-data-2021-39/README.md">W39</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -290,6 +292,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
       <br>
       <a href="preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -329,6 +332,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
       <a href="preppin-data-2021-38/README.md">W38</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-39/README.md">W39</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-41/README.md">W41</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -390,6 +394,8 @@ Use this list to identify challenges to practice a specific tool. Note that thes
       <a href="preppin-data-2021-41/README.md">W41</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-44/README.md">W44</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
+      <br>
     </td>
   </tr>
   <tr>
@@ -438,6 +444,8 @@ Use this list to identify challenges to practice a specific tool. Note that thes
       <a href="preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-44/README.md">W44</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
+      <br>
     </td>
   </tr>
   <tr>
@@ -537,6 +545,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
       <a href="preppin-data-2021-35/README.md">W35</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-36/README.md">W36</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-40/README.md">W40</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -579,6 +588,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
       <a href="preppin-data-2021-41/README.md">W41</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -977,6 +987,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-30/README.md">W30</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-33/README.md">W33</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -1022,6 +1033,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-38/README.md">W38</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-44/README.md">W44</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1031,6 +1043,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-33/README.md">W33</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1064,7 +1077,8 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-33/README.md">W33</a>&nbsp;&nbsp;&nbsp;
       <br>
-      <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;      
+      <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1103,6 +1117,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-38/README.md">W38</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-39/README.md">W39</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1136,6 +1151,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <br>
       <a href="preppin-data-2021-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-37/README.md">W37</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1212,6 +1228,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;
       <br>
       <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1224,6 +1241,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-25/README.md">W25</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-35/README.md">W35</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1273,6 +1291,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <br>
       <a href="preppin-data-2021-39/README.md">W39</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-40/README.md">W40</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -1286,6 +1305,13 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>assign</td>
+    <td>
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1314,6 +1340,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-32/README.md">W32</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-35/README.md">W35</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-44/README.md">W44</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>  
   <tr>
@@ -1368,6 +1395,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-38/README.md">W38</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-39/README.md">W39</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-41/README.md">W41</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -1463,6 +1491,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -1557,6 +1586,8 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-38/README.md">W38</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-41/README.md">W41</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;
+      <br>
     </td>
   </tr>
   
