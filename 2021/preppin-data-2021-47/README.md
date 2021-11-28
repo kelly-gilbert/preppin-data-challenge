@@ -10,6 +10,8 @@ What I learned/practiced this week:
 * Practiced: reshaping (melt)
 * Practiced: [bonus section] small multiple charts (matpotlib)
 
+This week's challenge was a collaboration with #GamesNightViz, a data visualization challenge around the topic of games. Learn more [here](https://github.com/wjsutton/games_night_viz/blob/main/1_player_select.md).
+
 My solution did not match the provided solution for the percent_won metric, because I show that Lika Gerasimova had one win (on Aug 18, 2012), while the solution has null win percentage for Lika (and ranked her last).
 
 ## Data prep: Python
