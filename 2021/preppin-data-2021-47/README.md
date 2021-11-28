@@ -18,6 +18,9 @@ My solution did not match the provided solution for the percent_won metric, beca
 </a>
 
 ## Data prep: Alteryx
+I only did the data prep part in Alteryx (I did not use Alteryx to recreate the chart). I would have used the Python tool within Alteryx to generate the chart, so I would have used the same code below.
+<br>
+<br>
 <a href="preppin-data-2021-47.yxzp">
 <img src="img-alteryx-2021-47.png?raw=true" alt="Alteryx workflow">
 </a>
