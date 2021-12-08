@@ -1,0 +1,725 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="60" width="636" height="217" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Preppin' Data 2021: Week 49 Departmental December Human Resources
+https://preppindata.blogspot.com/2021/12/2021-week-49-departmental-december.html
+
+- Input data
+- Create the Employment Range field which captures the employees full tenure at the company in the 
+  MMM yyyy to MMM yyyy format. 
+- Work out for each year employed per person:
+    - Number of months they worked
+    - Their salary they will have received 
+    - Their sales total for the year
+- For each Reporting Year (the individual year someone worked for us), calculate their cumulative months (called Tenure)
+- Determine the bonus payments the person will have received each year
+    - It's 5% of their sales total
+- Round Salary Paid and Yearly Bonus to two decimal places 
+- Add Salary Paid and Yearly Bonus together to form Total Paid
+- Output the data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="485">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\inputs\PD 2021 Wk 49 Input - Input.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PD 2021 Wk 49 Input - Input.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\inputs\PD 2021 Wk 49 Input - Input.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\inputs\PD 2021 Wk 49 Input - Input.csv" type="V_String" />
+            <Field name="Annual Salary" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\inputs\PD 2021 Wk 49 Input - Input.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\inputs\PD 2021 Wk 49 Input - Input.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="495">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="504" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Name" action="GroupBy" rename="Name" />
+            <SummarizeField field="Reporting Year" action="GroupBy" rename="Reporting Year" />
+            <SummarizeField field="Date" action="Count" rename="Month_Count" />
+            <SummarizeField field="Annual Salary" action="Avg" rename="Avg_Annual Salary" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Summarize by person and year</AnnotationText>
+          <DefaultAnnotationText>Summarize by person and year</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="496">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Annual Salary" selected="True" type="Double" size="8" />
+            <SelectField field="Sales" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Fix data types</AnnotationText>
+          <DefaultAnnotationText>Fix data types</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="497">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="294" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Date" />
+            <Field name="Name" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>datetimeparse(
+  [_CurrentField_],
+  '%d/%m/%Y')</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Date" size="10" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Parse Date</AnnotationText>
+          <DefaultAnnotationText>datetimeparse(
+  [_CurrentField_],
+  '%d/%m/%Y')</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="498">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="384" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="datetimeyear([Date])" field="Reporting Year" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Parse year</AnnotationText>
+          <DefaultAnnotationText><![CDATA[Reporting Year = datetimeyear([Date])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="499">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="504" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Name" action="GroupBy" rename="Name" />
+            <SummarizeField field="Date" action="Min" rename="Min_Date" />
+            <SummarizeField field="Date" action="Max" rename="Max_Date" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Overall tenure min/max dates</AnnotationText>
+          <DefaultAnnotationText>Overall tenure min/max dates</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="500">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="642" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Name" selected="False" rename="Right_Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join on name</AnnotationText>
+          <DefaultAnnotationText>Join on name</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="501">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="964" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="round([Avg_Annual Salary] / 12 * [Month_Count], 0.01)" field="Salary Paid" size="8" type="Double" />
+            <FormulaField expression="round([Sum_Sales] * [User.bonus_rate], 0.01)" field="Yearly Bonus" size="8" type="Double" />
+            <FormulaField expression="round([Salary Paid] + [Yearly Bonus], 1)" field="Total Paid" size="8" type="Double" />
+            <FormulaField expression="datetimeformat([Min_Date], '%b %Y')&#xA;+ ' to '&#xA;+ datetimeformat([Max_Date], '%b %Y')" field="Employment Range" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Calculate Salary Paid, Bonus, Total, tenure range</AnnotationText>
+          <DefaultAnnotationText>Salary Paid = round([Avg_Annual Salary] / 12 * [Month_Count], 0.01)
+Yearly Bonus...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="503">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="748" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Name" order="Ascending" />
+            <Field field="Reporting Year" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name - Ascending
+Reporting Year - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="505">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RunningTotal.RunningTotal">
+        <Position x="870" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupByFields>
+            <Field field="Name" />
+          </GroupByFields>
+          <RunningTotalFields>
+            <Field field="Month_Count" />
+          </RunningTotalFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Cumulative tenure</AnnotationText>
+          <DefaultAnnotationText>Cumulative tenure</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunningTotal" />
+    </Node>
+    <Node ToolID="506">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1084" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Employment Range" selected="True" />
+            <SelectField field="Reporting Year" selected="True" />
+            <SelectField field="RunTot_Month_Count" selected="True" rename="Tenure by End of Reporting Year" />
+            <SelectField field="Month_Count" selected="False" />
+            <SelectField field="Avg_Annual Salary" selected="False" />
+            <SelectField field="Sum_Sales" selected="False" />
+            <SelectField field="Min_Date" selected="False" />
+            <SelectField field="Max_Date" selected="False" />
+            <SelectField field="Salary Paid" selected="True" />
+            <SelectField field="Yearly Bonus" selected="True" />
+            <SelectField field="Total Paid" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Clean up fields</AnnotationText>
+          <DefaultAnnotationText>Clean up fields</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="511">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1216" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">.\outputs\output-2021-49.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>65001</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>output-2021-49.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="367">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="725" y="59.99998" width="153.8949" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Check results</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="484">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
+            <Position x="1218" y="140.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Tests>
+                <Test>
+                  <Name>In solution, not in mine</Name>
+                  <Connection>#1</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>In mine, not in solution</Name>
+                  <Connection>#2</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>Values don't match</Name>
+                  <Connection>#3</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+              </Tests>
+              <DontReportSubsequent value="True" />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>In solution, not in mine
+In mine, not in solution
+Values don't match</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTest" />
+        </Node>
+        <Node ToolID="494">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1146" y="193" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Value] != [Right_Value]</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Value] != [Right_Value]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="502">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="750" y="109" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\outputs\PD 2021 Wk 49 Output.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PD 2021 Wk 49 Output.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\outputs\PD 2021 Wk 49 Output.csv" type="V_WString" />
+                <Field name="Employment Range" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\outputs\PD 2021 Wk 49 Output.csv" type="V_WString" />
+                <Field name="Reporting Year" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\outputs\PD 2021 Wk 49 Output.csv" type="V_WString" />
+                <Field name="Tenure by End of Reporting Year" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\outputs\PD 2021 Wk 49 Output.csv" type="V_WString" />
+                <Field name="Salary Paid" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\outputs\PD 2021 Wk 49 Output.csv" type="V_WString" />
+                <Field name="Yearly Bonus" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\outputs\PD 2021 Wk 49 Output.csv" type="V_WString" />
+                <Field name="Total Paid" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2021\preppin-data-2021-49\outputs\PD 2021 Wk 49 Output.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="507">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="942" y="109" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Name" />
+                <Field field="Reporting Year" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Name" selected="False" />
+                <Field field="Employment Range" selected="True" />
+                <Field field="Reporting Year" selected="False" />
+                <Field field="Tenure by End of Reporting Year" selected="True" />
+                <Field field="Salary Paid" selected="True" />
+                <Field field="Yearly Bonus" selected="True" />
+                <Field field="Total Paid" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="508">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="942" y="193.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Name" />
+                <Field field="Reporting Year" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Name" selected="False" />
+                <Field field="Employment Range" selected="True" />
+                <Field field="Reporting Year" selected="False" />
+                <Field field="Tenure by End of Reporting Year" selected="True" />
+                <Field field="Salary Paid" selected="True" />
+                <Field field="Yearly Bonus" selected="True" />
+                <Field field="Total Paid" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="509">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1050" y="145.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Name" />
+                <Field field="Reporting Year" />
+                <Field field="Name2" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Name" />
+                <Field field="Reporting Year" />
+                <Field field="Name2" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Name" selected="False" rename="Right_Name" input="Right_" />
+                    <SelectField field="Right_Reporting Year" selected="False" rename="Right_Reporting Year" input="Right_" />
+                    <SelectField field="Right_Name2" selected="True" rename="Right_Name2" input="Right_" />
+                    <SelectField field="Right_Value" selected="True" rename="Right_Value" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="510">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="858" y="109" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Reporting Year" selected="True" type="Int16" size="2" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="485" Connection="Output" />
+      <Destination ToolID="496" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="495" Connection="Output" />
+      <Destination ToolID="500" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="499" Connection="Output" />
+      <Destination ToolID="500" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="496" Connection="Output" />
+      <Destination ToolID="497" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="497" Connection="Output" />
+      <Destination ToolID="498" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="498" Connection="Output" />
+      <Destination ToolID="495" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="498" Connection="Output" />
+      <Destination ToolID="499" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="500" Connection="Join" />
+      <Destination ToolID="503" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="501" Connection="Output" />
+      <Destination ToolID="506" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="503" Connection="Output" />
+      <Destination ToolID="505" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="505" Connection="Output" />
+      <Destination ToolID="501" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="506" Connection="Output" />
+      <Destination ToolID="508" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="506" Connection="Output" />
+      <Destination ToolID="511" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="494" Connection="True" />
+      <Destination ToolID="484" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="509" Connection="Left" />
+      <Destination ToolID="484" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="509" Connection="Right" />
+      <Destination ToolID="484" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="502" Connection="Output" />
+      <Destination ToolID="510" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="507" Connection="Output" />
+      <Destination ToolID="509" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="508" Connection="Output" />
+      <Destination ToolID="509" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="509" Connection="Join" />
+      <Destination ToolID="494" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="510" Connection="Output" />
+      <Destination ToolID="507" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>bonus_rate</Name>
+        <Value>0.05</Value>
+        <IsNumeric value="True" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>preppin-data-2021-49</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
