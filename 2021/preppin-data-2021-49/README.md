@@ -2,7 +2,7 @@
 
 # Preppin' Data 2021 Week 49
 
-[Challenge description](https://preppindata.blogspot.com/2021/)
+[Challenge description](https://preppindata.blogspot.com/2021/12/2021-week-49-departmental-december.html)
 
 What I learned/practiced this week:
 * Practiced: aggregation (agg, transform, cumsum)
