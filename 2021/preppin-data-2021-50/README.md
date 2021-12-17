@@ -24,6 +24,10 @@ This week's Alteryx solution required a batch macro to import the sheets (Dynami
 
 <a href="preppin-data-2021-50.yxzp">
 <img src="img-alteryx-2021-50.png?raw=true" alt="Alteryx workflow">
+</a>
 
+#### Batch macro:
+<br>
+<a href="preppin-data-2021-50.yxzp">
 <img src="img-alteryx-2021-50-batch-macro.png?raw=true" alt="Alteryx batch macro">
 </a>
