@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Preppin' Data 2021: Week XX - XXXX
-https://preppindata.blogspot.com/2021/XXXX
+Preppin' Data YYYY: Week WW - challenge title goes here
+https://preppindata.blogspot.com/ - challeng url goes here
 
 - Input data
 - ...
@@ -39,7 +39,7 @@ df = read_csv(r'', parse_dates=[], dayfirst=True)
 # output the file
 #---------------------------------------------------------------------------------------------------
 
-df.to_csv(r'.\outputs\output-2021-XX.csv', index=False)
+df.to_csv(r'.\outputs\output-YYYY-WW.csv', index=False)
 
 
 #---------------------------------------------------------------------------------------------------
@@ -47,7 +47,7 @@ df.to_csv(r'.\outputs\output-2021-XX.csv', index=False)
 #---------------------------------------------------------------------------------------------------
 
 solution_files = ['']
-my_files = ['output-2021-XX.csv']
+my_files = ['output-YYYY-WW.csv']
 col_order_matters = True
 
 for i, solution_file in enumerate(solution_files):
