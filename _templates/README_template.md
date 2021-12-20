@@ -1,4 +1,4 @@
-<h6><a href="..\preppin-data-LYLY-LW\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-YYYY-WW\README.md">Next Week  ▶</a></h6>
+<h6><a href="..\preppin-data-LYLY-LW\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-NYNY-NW\README.md">Next Week  ▶</a></h6>
 
 # Preppin' Data YYYY Week WW
 
