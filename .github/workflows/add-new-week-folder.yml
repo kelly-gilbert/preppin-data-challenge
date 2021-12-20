@@ -1,0 +1,42 @@
+name: Add new week folder
+description: Adds a directory for a specified week, including inputs/outputs subfolders and templates for Python, Alteryx, and README files.
+on:
+  workflow_dispatch:
+    inputs:
+      new_week:
+        description: 'Week to create (YYYY-WW format, e.g. 2022-01)'
+        required: true
+        default: 'YYYY-WW'
+
+jobs:
+  create_folder:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Create folders and templates
+      run: |
+          # set variables
+          $new_week = '${{ github.event.inputs.new_week }}'
+          $new_dir = $new_week.Substring(0,4) + "\" + $new_week
+                   
+          # create new directories for input and output files
+          mkdir $new_dir\inputs
+          mkdir $new_dir\outputs
+          
+          # github doesn't allow blank folders, so create blank text files in the new folders
+          New-Item $new_dir\inputs\blank.txt
+          New-Item $new_dir\outputs\blank.txt
+          
+          # copy the templates into the new directory
+          Copy-Item '_templates\python_template.py' -Destination $new_dir\preppin-data-$new_week.py
+          Copy-Item '_templates\alteryx_template.yxmd' -Destination $new_dir\preppin-data-$new_week.yxmd
+          Copy-Item '_templates\README_template.md' -Destination $new_dir\README.md
+
+    - name: Commit and push
+      run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "Action"
+          git add *$new_dir*
+          git commit -m "Added starter files for week ${{ github.event.inputs.new_week }}"
+          git push
