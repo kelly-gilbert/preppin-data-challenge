@@ -51,20 +51,20 @@ jobs:
       run: >
           # replace the year/week values in the files
           foreach ($t in $templates) {
-			        # get the template text
-			        $file_text = Get-Content -Path "{0}\{1}\{2}" -f $new_week.Substring(0,4), $new_week, $t
+              # get the template text
+              $file_text = Get-Content -Path "{0}\{1}\{2}" -f $new_week.Substring(0,4), $new_week, $t
 
-			        # replace placeholders
-			        $file_text = $file_text -replace "YYYY", $new_week.Substring(0,4)
-			        $file_text = $file_text -replace "LYLY", $last_week.Substring(0,4)
-			        $file_text = $file_text -replace "NYNY", $next_week.Substring(0,4)
-			        $file_text = $file_text -replace "WW", $new_week.Substring(5,2)
-			        $file_text = $file_text -replace "LW", $last_week.Substring(5,2)
-			        $file_text = $file_text -replace "NW", $next_week.Substring(5,2)
+              # replace placeholders
+              $file_text = $file_text -replace "YYYY", $new_week.Substring(0,4)
+              $file_text = $file_text -replace "LYLY", $last_week.Substring(0,4)
+              $file_text = $file_text -replace "NYNY", $next_week.Substring(0,4)
+              $file_text = $file_text -replace "WW", $new_week.Substring(5,2)
+              $file_text = $file_text -replace "LW", $last_week.Substring(5,2)
+              $file_text = $file_text -replace "NW", $next_week.Substring(5,2)
 
-			        # update the file
-			        Set-Content -Path "{0}\{1}\{2}" -f $new_week.Substring(0,4), $new_week, $t -Value $file_text 	  
-		    }
+              # update the file
+              Set-Content -Path "{0}\{1}\{2}" -f $new_week.Substring(0,4), $new_week, $t -Value $file_text 	  
+          }
 
 
     - name: Commit and push
