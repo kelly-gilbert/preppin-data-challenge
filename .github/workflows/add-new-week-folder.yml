@@ -53,7 +53,7 @@ jobs:
         # replace the year/week values in the files
         foreach ($t in $templates) { 
           # get the template text
-          $file_text = Get-Content -Path ("{0}\{1}\{2}" -f $new_week.Substring(0,4), $new_week, $t)
+          $file_text = Get-Content -Path ("{0}\{1}" -f $new_dir, $t)
 
           # replace placeholders
           $file_text = $file_text -replace "YYYY", $new_week.Substring(0,4)
@@ -64,7 +64,7 @@ jobs:
           $file_text = $file_text -replace "NW", $next_week.Substring(5,2)
 
           # update the file
-          Set-Content -Path ("{0}\{1}\{2}" -f $new_week.Substring(0,4), $new_week, $t) -Value $file_text
+          Set-Content -Path ("{0}\{1}" -f $new_dir, $t) -Value $file_text
         }
 
 
