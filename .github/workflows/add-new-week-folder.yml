@@ -1,5 +1,4 @@
 name: Add new week folder
-description: Adds a directory for a specified week, including inputs/outputs subfolders and templates for Python, Alteryx, and README files.
 on:
   workflow_dispatch:
     inputs:
