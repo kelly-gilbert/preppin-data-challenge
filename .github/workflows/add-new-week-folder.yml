@@ -20,7 +20,7 @@ jobs:
         # ---------- Set variables ----------
         # new week (week to be added)
         $new_week = '${{ github.event.inputs.new_week }}'
-        $new_dir = $new_week.Substring(0,4) + "\" + $new_week
+        $new_dir = "preppin-data-" + $new_week.Substring(0,4) + "\" + $new_week
 
         # find the last week - if the current week is week 1, then make the prior week 52 of the previous year
         $last_week = if ($new_week.Substring(5,2) -eq '01') { [string]([int]$new_week.Substring(0,4) - 1) + '-' + '52' } else { $new_week.Substring(0,4) + '-' + ([string]([int]$new_week.Substring(5,2) - 1)).PadLeft(2,'0') }
