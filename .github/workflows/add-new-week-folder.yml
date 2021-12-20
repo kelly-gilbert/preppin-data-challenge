@@ -13,8 +13,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-	  
-	  
+
+
     - name: Set variables
       run: |
           # new week (week to be added)
@@ -26,7 +26,7 @@ jobs:
 
           # find the next week - if the current week is week 52, then make the next week 1 of the next year
           $next_week = if ($new_week.Substring(5,2) -eq '52') { [string]([int]$new_week.Substring(0,4) + 1) + '-' + '01' } else { $new_week.Substring(0,4) + '-' + ([string]([int]$new_week.Substring(5,2) + 1)).PadLeft(2,'0') }
-		  
+  
 
     - name: Create folders and templates
       run: |                   
@@ -45,7 +45,8 @@ jobs:
           
           # list of template files to update
           $templates = @('README.md', ('preppin-data-{0}.py' -f $new_week), ('preppin-data-{0}.yxmd' -f $new_week))
-		  
+
+
     - name: Replace placeholders in templates
       run: >
           # replace the year/week values in the files
