@@ -1,28 +1,28 @@
 Country,Store,Name,Completion Date,Result,Would you recommend C&BSco to your friends and family? (Score 0-10),Promoter,Detractor,Passive,Age of Customer,"If you wouldn't, why?","If you would, why?"
-England,Clapham,Clare,05/01/2020 21:31:00,First,8,,,1.0,22,,Easy to work with
-England,Clapham,Juliana,05/01/2020 13:03:00,First,7,,,1.0,24,,Nice soaps
-England,Clapham,Juliana,19/01/2020 19:01:00,Latest,1,,1.0,,24,They've all gone moldy,
-England,Clapham,Juliana,08/01/2020 22:09:00,nan,9,1.0,,,24,,Beautiful fragrance
-England,Clapham,Ross,13/01/2020 08:21:00,Latest,0,,1.0,,17,No-one answering my call,
-England,Clapham,Ross,07/01/2020 13:19:00,First,10,1.0,,,17,,Great service (eventually)
-England,Peckham,Bona,15/01/2020 19:27:00,First,8,,,1.0,17,,Great management
-England,Peckham,Gwilym,20/01/2020 16:53:00,First,8,,,1.0,50,,Their soaps make me feel radiant
-England,Peckham,Kamilla,07/12/2019 02:22:00,First,2,,1.0,,18,Their soaps are too slippery,
-England,Putney,Alice,10/01/2020 07:02:00,First,6,,1.0,,21,"The customer service is terrible, I licked one soap to see if it was 'banana' as advertised, and I got kicked out",
-England,Putney,Angelos,20/01/2020 20:55:00,First,7,,,1.0,62,,Their products are 100% natural (pure olive oil soap lover)
-England,Putney,Angelos,24/01/2020 19:11:00,Latest,3,,1.0,,62,,I found out the olives we're from Greece
-England,Putney,Anya,08/01/2016 14:23:00,First,7,,,1.0,64,,I love that you have soaps smelling like ginger beer
-England,Putney,Jon,21/01/2020 10:15:00,First,10,1.0,,,27,,delicious
-England,Putney,Jon,21/01/2020 10:25:00,Latest,10,1.0,,,27,,"great, delicious"
-England,Wimbledon,Bona,19/01/2020 03:10:00,First,4,,1.0,,17,Lasts one wash for me,
-England,Wimbledon,Etienne,04/01/2020 09:13:00,First,6,,1.0,,29,,It's ok
-England,Wimbledon,Etienne,13/01/2020 15:16:00,Latest,9,1.0,,,29,,Lathers really easily
-Netherlands,Amsterdam,Bas,12/01/2020 00:00:00,First,9,1.0,,,31,,they are a smelly bunch
-Netherlands,Amsterdam,Henk,01/01/2020 09:35:00,First,2,,1.0,,34,my dog ate it,
-Netherlands,Amsterdam,Henk,01/01/2020 11:01:00,Latest,2,,1.0,,34,my dog ate it agin,
-Netherlands,Friesland,Andre,21/01/2020 09:35:00,First,10,1.0,,,19,,great for my slip and slide
-Netherlands,Utrecht,Bert,21/01/2020 09:35:00,First,7,,,1.0,44,,Cleans perfectly and isn't too slippery
-Scotland,Scotland,Lady MacBeth,20/01/2020 16:56:00,First,1,,1.0,,89,"Out, damned spot! out, I say! Will these hands ne'er be clean? Here's the smell of the blood still: all the perfumes of Chin Beard and Suds Co will not sweeten this little hand.",
-Scotland,Scotland,Sylvie,05/01/2020 13:30:00,Latest,9,1.0,,,63,,Wonderfully fragranced soaps. They always delight my guests. Such a pity that you discontinued my favourite smell though!
-Scotland,Scotland,Sylvie,05/01/2020 09:40:00,First,5,,1.0,,63,"Meh, it's ok",
-United States,Lower East Side,Joe,26/12/2019 14:14:00,First,2,,1.0,,37,Smells great but I can't get it out of my hair!!!,
+England,Clapham,Ross,13/01/2020 08:21:00,Latest,0,,1.0,,18.0,No-one answering my call,
+England,Clapham,Ross,07/01/2020 13:19:00,First,10,1.0,,,18.0,,Great service (eventually)
+England,Clapham,Clare,05/01/2020 21:31:00,First,8,,,1.0,23.0,,Easy to work with
+England,Clapham,Juliana,05/01/2020 13:03:00,First,7,,,1.0,25.0,,Nice soaps
+England,Clapham,Juliana,19/01/2020 19:01:00,Latest,1,,1.0,,25.0,They've all gone moldy,
+England,Wimbledon,Etienne,04/01/2020 09:13:00,First,6,,1.0,,30.0,,It's ok
+England,Wimbledon,Etienne,13/01/2020 15:16:00,Latest,9,1.0,,,30.0,,Lathers really easily
+England,Wimbledon,Bona,19/01/2020 03:10:00,First,4,,1.0,,18.0,Lasts one wash for me,
+England,Peckham,Bona,15/01/2020 19:27:00,First,8,,,1.0,18.0,,Great management
+England,Peckham,Kamilla,07/12/2019 02:22:00,First,2,,1.0,,19.0,Their soaps are too slippery,
+England,Peckham,Gwilym,20/01/2020 16:53:00,First,8,,,1.0,50.0,,Their soaps make me feel radiant
+Scotland,Scotland,Lady MacBeth,20/01/2020 16:56:00,First,1,,1.0,,90.0,"Out, damned spot! out, I say! Will these hands ne'er be clean? Here's the smell of the blood still: all the perfumes of Chin Beard and Suds Co will not sweeten this little hand.",
+United States,Lower East Side,James Cagney,20/05/2019 23:00:00,First,9,1.0,,,,,My dirty stinkin rat is now nice and clean
+United States,Lower East Side,Joe,26/12/2019 14:14:00,First,2,,1.0,,38.0,Smells great but I can't get it out of my hair!!!,
+Scotland,Scotland,Sylvie,05/01/2020 13:30:00,Latest,9,1.0,,,64.0,,Wonderfully fragranced soaps. They always delight my guests. Such a pity that you discontinued my favourite smell though!
+England,Putney,Anya,08/01/2016 14:23:00,First,7,,,1.0,65.0,,I love that you have soaps smelling like ginger beer
+England,Putney,Angelos,20/01/2020 20:55:00,First,7,,,1.0,63.0,,Their products are 100% natural (pure olive oil soap lover)
+England,Putney,Alice,10/01/2020 07:02:00,First,6,,1.0,,22.0,"The customer service is terrible, I licked one soap to see if it was 'banana' as advertised, and I got kicked out",
+Scotland,Scotland,Sylvie,05/01/2020 09:40:00,First,5,,1.0,,64.0,"Meh, it's ok",
+England,Putney,Angelos,24/01/2020 19:11:00,Latest,3,,1.0,,63.0,,I found out the olives we're from Greece
+Netherlands,Utrecht,Bert,21/01/2020 09:35:00,First,7,,,1.0,45.0,,Cleans perfectly and isn't too slippery
+Netherlands,Amsterdam,Henk,01/01/2020 09:35:00,First,2,,1.0,,35.0,my dog ate it,
+Netherlands,Amsterdam,Bas,13/01/2020 00:00:00,First,9,1.0,,,32.0,,they are a smelly bunch
+Netherlands,Friesland,Andre,21/01/2020 09:35:00,First,10,1.0,,,20.0,,great for my slip and slide
+England,Putney,Jon,21/01/2020 10:15:00,First,10,1.0,,,28.0,,delicious
+Netherlands,Amsterdam,Henk,01/01/2020 11:01:00,Latest,2,,1.0,,35.0,my dog ate it agin,
+England,Putney,Jon,21/01/2020 10:25:00,Latest,10,1.0,,,28.0,,"great, delicious"
