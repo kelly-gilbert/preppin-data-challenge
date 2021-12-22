@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Preppin' Data YYYY: Week WW - challenge title goes here
-https://preppindata.blogspot.com/ - challeng url goes here
+https://preppindata.blogspot.com/ - challenge url goes here
 
 - Input data
 - ...

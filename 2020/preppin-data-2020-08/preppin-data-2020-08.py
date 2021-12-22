@@ -1,103 +1,211 @@
 # -*- coding: utf-8 -*-
 """
-Preppin Data Challenge 2020-12
-https://preppindata.blogspot.com/2020/03/2020-week-12.html
+Preppin Data Challenge 2020-08
+https://preppindata.blogspot.com/2020/02/2020-week-8.html
  
 Cleaning messy data
 
-- Input data
-- Our final output requires the Date to be in in the Year Week Number format. 
-- We don't care about any product sizes that make up 0% of sales.
-- In the Lookup Table, it seems the Product ID and Size have been erroneously 
-  concatenated. These need to be separated.  
-- You'll need to do some cleaning of the Scent fields to join together the 
-  Total Sales and the Lookup Table.
-- Calculate the sales per week for each scent and product size.
-- Output the data
-- Output
+- Input Data (*** Updated on 20th Feb 9pm GMT ***)
+- Pull all the Week worksheets together
+- Form weekly sales volume and value figures per product
+- Prepare the data in the Profit table for comparison against the actual 
+  volumes and values
+- Join the tables but only bring back those that have exceeded their Profit Min
+  points for both Value and Volume
+- Prepare the Budget Volumes and Values for comparison against the actual
+  volumes and values
+- Join the tables but only return those that haven't reached the budget 
+  for either Value or Volume
+- Prepare the outputs
+- Output Data
 
 Author: Kelly Gilbert
 Created: 2020-07-18
-Requirements: input dataset
-  - PD week 12 input.xlsx
+Requirements: 
+  - input dataset
+      - PD week 12 input.xlsx
+  - output dataset (for results check only):
+      - PD 2020 Wk 4 Output
 """
 
 
-from pandas import ExcelFile, read_csv, read_excel
+import datetime as dt
+from numpy import nan, where
+from pandas import pivot_table, read_csv, to_timedelta, to_datetime
 
 
-# import and prep the plan data, starting on row 2
-#    remove blank columns
-#    trim column names
-#    clean type
-in_file = ExcelFile(r'.\inputs\PD week 12 input.xlsx')
+def age(begin, end):
+    """
+    calculates the number of full years between begin and end
+    """
+    return end.year - begin.year # - ((end.month, end.day) < (begin.month, begin.day))
 
 
-# read in the Total Sales sheet
-# convert the scent name to all caps, no spaces
-df_tot = read_excel(in_file, sheet_name='Total Sales')
-#df_tot.dtypes    # make sure numbers read in properly
-df_tot.rename(columns={'Scent' : 'Scent_orig'}, inplace=True)
-df_tot['Scent_join'] = df_tot['Scent_orig'].str.replace(' ', '')
+def split_dict(in_dict):
+    """
+    add the list of misspelled names as keys, with the correct spelling as the value
+    """
+    
+    new_dict = { i:k for k, v in in_dict.items() for i in v}    
+    new_dict.update({ k.lower() : k.title() for k in in_dict.keys() })
+    return new_dict
 
 
-# read in the Percentage of Sales sheet 
-# get the year/week
-# concatenate the Product ID and Size for joining to the lookup table
-df_pct = read_excel(in_file, sheet_name='Percentage of Sales')
-#df_pctsales.dtypes    # make sure numbers read in properly
-df_pct['Product_join'] = df_pct['Product ID'] + df_pct['Size']
-df_pct['Year Week Number'] = df_pct['Week Commencing'].dt.strftime('%Y%U').astype(int)
-# I'm not sure what week-starting day to use, so I'm guessing Sunday
-        
-
-# read in the Lookup Table sheet and convert the scent to all caps, no spaces
-df_lookup = read_excel(in_file, sheet_name='Lookup Table')
-#df_lookup.dtypes    # make sure numbers read in properly
-df_lookup['Scent_join'] = df_lookup['Scent'].str.upper().replace(' ', '')
+CURRENT_DATE = dt.datetime(2020, 1, 22)
 
 
-# join the lookup data to the pct sales data
-df = df_pct.merge(df_lookup, how='left', left_on='Product_join', right_on='Product')
+#---------------------------------------------------------------------------------------------------
+# input the data
+#---------------------------------------------------------------------------------------------------
 
-# join the total sales data to the pct/lookup data
-df = df.merge(df_tot, how='left', on=['Year Week Number', 'Scent_join'])
-
-
-# check for unjoined data
-# unjoined = df[df['Total Scent Sales'].isna()]
-# unjoined.iloc[0]
-#
-# df_tot[df_tot['Scent_join']=='ORANGE']
+df = read_csv(r'.\inputs\PD 2020 Wk 4 Input.csv', parse_dates=['DoB'], dayfirst=True)
+df_q = read_csv(r'.\inputs\Store Survey Results - Question Sheet.csv')
 
 
-# clean up the final table
-df['Sales'] = df['Total Scent Sales'] * df['Percentage of Sales']
-df = df[['Year Week Number', 'Scent', 'Size', 'Product Type', 'Sales']][df['Sales'].notna()]
+#---------------------------------------------------------------------------------------------------
+# process the data
+#---------------------------------------------------------------------------------------------------
+
+# clean the Country and Store names
+#df['Country'].unique()
+#df['Store'].unique()
+
+country_dict = { 'England' : ['3ngland', 'egland', 'eggland', 'ingland'],
+                 'Scotland' : ['sc0tland', 'scottish'],
+                 'United States' : ['united state'],
+                 'Netherlands' : ['the netherlands'] }
+
+store_dict = { 'Amsterdam' : ['amstelveen']}
+
+df['Country'] = df['Country'].str.lower().replace(split_dict(country_dict)).str.title()
+df['Store'] = df['Store'].str.lower().replace(split_dict(store_dict)).str.title()
 
 
-
-df.iloc[0]
-
-df.columns
-
-df_tot.columns
-df_pct.columns
-df_lookup.columns
-
-df.columns
+# summarize response attributes by Response #
+# pivot_table excludes records if any of these cols are null, such as the DoB
+df_r = df.drop_duplicates(subset='Response')[[c for c in df.columns if c not in ['Question Number', 'Answer']]]
 
 
-# output to csv
-df.to_csv('.\\outputs\\output-2020-12.csv', index=False, 
-          columns=['Year Week Number', 'Scent', 'Size', 'Product Type', 'Sales'])
+# pivot questions by Response # and merge back to the attributes
+df_p = df.pivot_table(index=['Response'], values='Answer', columns='Question Number', aggfunc='first')\
+         .reset_index()\
+       .merge(df_r, how='inner', on='Response')
 
 
+# rename the columns
+#     I chose to pivot using the numeric column names vs. merging the question list, because it would 
+#     save memory for a large dataset vs. repeating the question for every row.
+question_dict = {n : q for n, q in zip(df_q['Number'], df_q['Question'])}
+df_p.columns = [question_dict.get(c, c) for c in df_p.columns]
 
 
+# clean date and time, create Completion Date column
+df_p['Date'] = to_datetime(df_p['What day did you fill the survey in?'],
+                           dayfirst=True, errors='coerce')
+
+df_p['Date'] = where(df_p['Date'].isna(), 
+                     to_datetime(df_p['What day did you fill the survey in?']
+                               .str.replace('.* - (.*)', '\\1 ' + str(CURRENT_DATE.year), regex=True)),
+                     df_p['Date'])
+    
+df_p[['Hour', 'Minute', 'AMPM']] = df_p['What time did you fill the survey in?']\
+                                       .str.replace('.', ':', regex=False)\
+                                       .str.extract('(\d{1,2}):?(\d{2})\s?(.*)')
+    
+df_p['Hour'] = df_p['Hour'].astype(int) + where(df_p['AMPM'].str.lower().str.contains('pm'), 12, 0)
+df_p['Minute'] = df_p['Minute'].astype(int)
+
+df_p['Completion Date'] = df_p['Date']\
+                          + to_timedelta(df_p['Hour'], unit='h')\
+                          + to_timedelta(df_p['Minute'], unit='m')
+
+
+# understand the age of the customer based on their Date of Birth (DoB)
+df_p['Age of Customer'] = df_p['DoB'].apply(lambda x: age(x, CURRENT_DATE))
+
+
+# remove any answers that are not a customer's first or latest
+group_cols = ['Name', 'Store', 'Country']
+df_p['Result'] = where(df_p['Completion Date'] == df_p.groupby(group_cols)['Completion Date'].transform('min'),
+                       'First',
+                       where(df_p['Completion Date'] == df_p.groupby(group_cols)['Completion Date'].transform('max'),
+                             'Latest', 'Other'))
+df_p = df_p.loc[df_p['Result'] != 'Other']
+
+
+# classify NPS recommendation
+score_field = 'Would you recommend C&BSco to your friends and family? (Score 0-10)'
+df_p['Detractor'] = where(df_p[score_field].astype(int) <= 6, 1, nan)
+df_p['Passive'] = where((df_p[score_field].astype(int) >= 7) 
+                        & (df_p[score_field].astype(int) <= 8), 1, nan)
+df_p['Promoter'] = where(df_p[score_field].astype(int) > 8, 1, nan)
+
+
+#---------------------------------------------------------------------------------------------------
+# output the file
+#---------------------------------------------------------------------------------------------------
+
+cols = ['Country', 'Store', 'Name', 'Completion Date', 'Result',
+       'Would you recommend C&BSco to your friends and family? (Score 0-10)',
+       'Promoter', 'Detractor', 'Passive', 'Age of Customer',
+       'If you wouldn\'t, why?', 'If you would, why?']
+df_p.to_csv(r'.\outputs\output-2020-04.csv', columns=cols, index=False, date_format='%d/%m/%Y %H:%M:%S')
+
+
+#---------------------------------------------------------------------------------------------------
 # check results
-df_sol = read_csv('.\\outputs\\2020W12 Output - Fixed.csv')
-df_sol.rename(columns={'Secnt' : 'Scent'}, inplace=True)
+#---------------------------------------------------------------------------------------------------
 
-df2 = df_sol.merge(df, how='outer', on=['Year Week Number', 'Scent', 'Size', 'Product Type'])
-df2[df2['Sales'].isna()]
+solution_files = ['PD 2020 Wk 4 Output.csv']
+my_files = ['output-2020-04.csv']
+col_order_matters = True
+
+for i, solution_file in enumerate(solution_files):
+    print('---------- Checking \'' + solution_file + '\' ----------\n')
+
+    # read in the files
+    df_solution = read_csv('.\\outputs\\' + solution_file)
+    df_mine = read_csv('.\\outputs\\' + my_files[i])
+
+    # are the fields the same and in the same order?
+    solution_cols = list(df_solution.columns)
+    myCols = list(df_mine.columns)
+    if not col_order_matters:
+         solution_cols.sort()
+         myCols.sort()
+
+    col_match = False
+    if solution_cols != myCols:
+        print('*** Columns do not match ***')
+        print('    Columns in solution: ' + str(list(df_solution.columns)))
+        print('    Columns in mine    : ' + str(list(df_mine.columns)))
+    else:
+        print('Columns match\n')
+        col_match = True
+
+    # are the values the same? (only check if the columns matched)
+    if col_match:
+        # round float values
+        s = df_solution.dtypes.astype(str)
+        for c in s[s.str.contains('float')].index:
+            df_solution[c] = df_solution[c].round(8)
+            df_mine[c] = df_mine[c].round(8)
+
+        # join the dataframes on all columns except the in flags
+        df_solution_compare = df_solution.merge(df_mine, how='outer',
+                                                on=list(df_solution.columns),
+                                                suffixes=['_solution', '_mine'], indicator=True)
+
+        if len(df_solution_compare[df_solution_compare['_merge'] != 'both']) > 0:
+            print('*** Values do not match ***\n')
+            print('In solution, not in mine:\n')
+            print(df_solution_compare[df_solution_compare['_merge'] == 'left_only']) 
+            print('\n\n')
+            print('In mine, not in solution:\n')
+            print(df_solution_compare[df_solution_compare['_merge'] == 'right_only']) 
+            
+        else:
+            print('Values match')
+
+    print('\n')
+ 

@@ -1,0 +1,2232 @@
+﻿OrderID,Customer,Order Date,Return State,Category,Sub-Category,Product Name,Unit Price,Quantity
+Edinburgh-1347,Mr Schneider,24/01/2021,,Furniture,Bookcases,Bookcase,£60.07,7
+Newcastle-1924,Mrs Balk,15/01/2021,,Furniture,Bookcases,Bookcase,£60.07,7
+London-2097,Mrs Foster,07/01/2021,,Furniture,Bookcases,Bookcase,£60.07,10
+London-1704,Mr Badders,14/01/2021,,Furniture,Chairs,Armless Task Chair,£37.75,11
+Bristol-1911,Mr Norvell,23/01/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,4
+Edinburgh-1965,Mr Farhat,16/01/2021,,Furniture,Chairs,Armless Task Chair,£37.75,3
+London-1259,Mr Bensley,20/01/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,5
+York-1105,Mr Sunley,23/01/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,7
+London-1141,Mr Crebassa,30/01/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,7
+Edinburgh-1984,Mrs Etezadi,13/01/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,3
+London-1985,Mr Creighton,13/01/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,11
+York-1194,Mr Peterman,14/01/2021,,Furniture,Chairs,Operator's Chair,£20.87,10
+York-1139,Mr Bzostek,30/01/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,9
+Newcastle-1193,Mrs Nunn,14/01/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,3
+Bristol-1431,Mr Baird,26/01/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,7
+Edinburgh-1411,Mr Akin,21/01/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,3
+York-1432,Mrs Wener,26/01/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,7
+Edinburgh-1914,Mr McGuire,23/01/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,5
+Edinburgh-1221,Mr Norvell,02/01/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,5
+London-1275,Mr Brumley,12/01/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,3
+Edinburgh-1586,Mr Cartwright,30/01/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,11
+London-2016,Mr Rosenberg,28/01/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,4
+Newcastle-1705,Mr Bremer,14/01/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,11
+Newcastle-1703,Mrs McFarland,14/01/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,8
+Edinburgh-1912,Mr Morse,23/01/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,5
+York-1132,Mr Gardner,21/01/2021,,Furniture,Tables,Round Conference Table,£562.90,10
+Manchester-1964,Mr Jackson,16/01/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,4
+London-1985,Mr Creighton,13/01/2021,,Furniture,Tables,Round Conference Table,£562.90,10
+Newcastle-1986,Mrs Braun,13/01/2021,,Furniture,Tables,Round Conference Table,£562.90,11
+Newcastle-2096,Mrs McVee,07/01/2021,,Furniture,Tables,Round Conference Table,£562.90,7
+York-1132,Mr Gardner,21/01/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,11
+Birmingham-1188,Mr Yedwab,21/01/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Edinburgh-1411,Mr Akin,21/01/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,10
+Bristol-1911,Mr Norvell,23/01/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,8
+Edinburgh-1984,Mrs Etezadi,13/01/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,9
+York-1133,Mrs Latchford,21/01/2021,,Furniture,Tables,Desk,£125.33,9
+London-1313,Mr Jacobs,27/01/2021,Return Processed,Furniture,Tables,Desk,£125.33,11
+Bristol-1911,Mr Norvell,23/01/2021,Return Processed,Furniture,Tables,Desk,£125.33,6
+Edinburgh-1095,Mr Hightower,20/01/2021,,Office Supplies,Appliances,Vaccuum,£605.39,7
+Manchester-1922,Mr Armstrong,15/01/2021,,Office Supplies,Appliances,Vaccuum,£605.39,8
+Manchester-1923,Mrs Swindell,15/01/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,8
+Birmingham-1140,Mrs Fein,30/01/2021,,Office Supplies,Appliances,Refrigerator,£897.65,5
+Manchester-1178,Mr Davis,07/01/2021,,Office Supplies,Appliances,Refrigerator,£897.65,10
+London-1138,Mr Französisch,30/01/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,3
+York-1194,Mr Peterman,14/01/2021,,Office Supplies,Appliances,Microwave,£104.58,3
+London-2016,Mr Rosenberg,28/01/2021,,Office Supplies,Appliances,Microwave,£104.58,6
+Newcastle-2096,Mrs McVee,07/01/2021,,Office Supplies,Appliances,Microwave,£104.58,6
+London-2076,Mrs Brennan,27/01/2021,,Office Supplies,Art,Pens,£5.69,10
+London-1232,Mrs Wener,28/01/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,11
+Manchester-1851,Mrs Roberts,12/01/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,2
+Birmingham-2002,Mr Wiediger,01/01/2021,,Office Supplies,Art,Post-its,£3.33,4
+London-2076,Mrs Brennan,27/01/2021,,Office Supplies,Art,Post-its,£3.33,9
+London-2097,Mrs Foster,07/01/2021,,Office Supplies,Art,Post-its,£3.33,8
+York-1432,Mrs Wener,26/01/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,6
+York-1139,Mr Bzostek,30/01/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,8
+Manchester-1137,Mr Weien,30/01/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,10
+Edinburgh-1702,Mr Gute,14/01/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,5
+York-1778,Mr Zeldin,20/01/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,3
+London-2076,Mrs Brennan,27/01/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,11
+Birmingham-2095,Mrs Calhoun,07/01/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,3
+Bristol-1223,Mrs Glotzbach,02/01/2021,,Office Supplies,Fasteners,Push Pins,£2.69,8
+London-1704,Mr Badders,14/01/2021,,Office Supplies,Fasteners,Push Pins,£2.69,10
+Manchester-1964,Mr Jackson,16/01/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,11
+London-2016,Mr Rosenberg,28/01/2021,,Office Supplies,Fasteners,Push Pins,£2.69,1
+London-2097,Mrs Foster,07/01/2021,,Office Supplies,Fasteners,Push Pins,£2.69,8
+Newcastle-1193,Mrs Nunn,14/01/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,10
+Edinburgh-1221,Mr Norvell,02/01/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,6
+London-1313,Mr Jacobs,27/01/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,2
+Bristol-1142,Mr Collins,30/01/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,1
+Birmingham-1188,Mr Yedwab,21/01/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,9
+York-1432,Mrs Wener,26/01/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,4
+Manchester-1747,Mrs Ferguson,03/01/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,8
+Manchester-1791,Mr Cunningham,26/01/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,8
+York-1194,Mr Peterman,14/01/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,8
+Birmingham-1589,Mr Collister,14/01/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,1
+Edinburgh-1686,Mrs Hughes,28/01/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,4
+Birmingham-1706,Mr Hwang,14/01/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,11
+Newcastle-1986,Mrs Braun,13/01/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,4
+Edinburgh-1221,Mr Norvell,02/01/2021,,Office Supplies,Paper,Parchment Paper,£2.65,1
+Birmingham-1408,Mr Weirich,21/01/2021,,Office Supplies,Paper,Parchment Paper,£2.65,3
+Newcastle-1721,Mr Mitchum,29/01/2021,,Office Supplies,Paper,Xerox 1897,£2.55,7
+Edinburgh-2160,Mr Garza,26/01/2021,,Office Supplies,Paper,Xerox 1897,£2.55,9
+Birmingham-1231,Mrs Dilbeck,28/01/2021,,Office Supplies,Paper,Xerox 1901,£2.65,10
+Birmingham-1408,Mr Weirich,21/01/2021,,Office Supplies,Paper,Xerox 1901,£2.65,3
+Newcastle-1193,Mrs Nunn,14/01/2021,,Office Supplies,Paper,Xerox 1925,£2.80,3
+Birmingham-1187,Mr Tran,21/01/2021,,Office Supplies,Paper,Xerox 1933,£3.97,5
+London-1985,Mr Creighton,13/01/2021,,Office Supplies,Paper,Xerox 1933,£3.97,2
+London-1259,Mr Bensley,20/01/2021,,Office Supplies,Paper,Xerox 1936,£4.87,7
+London-1407,Mrs Gerbode,21/01/2021,,Office Supplies,Paper,Xerox 1936,£4.87,9
+Edinburgh-1584,Mr Nguyen,30/01/2021,,Office Supplies,Paper,Xerox 1936,£4.87,9
+Manchester-1748,Mr Schnelling,16/01/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,4
+London-1275,Mr Brumley,12/01/2021,,Office Supplies,Paper,Xerox 1951,£5.67,7
+Birmingham-1706,Mr Hwang,14/01/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,1
+Edinburgh-1913,Mr Coram,23/01/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,10
+Manchester-1923,Mrs Swindell,15/01/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,4
+London-2076,Mrs Brennan,27/01/2021,,Office Supplies,Paper,Xerox 1951,£5.67,5
+London-1138,Mr Französisch,30/01/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,6
+London-1259,Mr Bensley,20/01/2021,,Office Supplies,Paper,Xerox 1974,£5.99,2
+Manchester-1329,Mr MacKendrick,08/01/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,10
+London-1407,Mrs Gerbode,21/01/2021,,Office Supplies,Paper,Xerox 1974,£5.99,1
+Manchester-1748,Mr Schnelling,16/01/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,1
+London-1104,Mr Davis,22/01/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,4
+York-1105,Mr Sunley,23/01/2021,,Office Supplies,Paper,Xerox 1979,£6.45,5
+Newcastle-1155,Mrs Philippe,01/01/2021,,Office Supplies,Paper,Xerox 1979,£6.45,5
+Birmingham-1408,Mr Weirich,21/01/2021,,Office Supplies,Paper,Xerox 1979,£6.45,7
+York-1432,Mrs Wener,26/01/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,5
+Newcastle-1705,Mr Bremer,14/01/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,9
+Edinburgh-1786,Mrs Sheldon,30/01/2021,,Office Supplies,Paper,Xerox 1979,£6.45,2
+Birmingham-1589,Mr Collister,14/01/2021,,Office Supplies,Paper,Xerox 200,£6.52,2
+Newcastle-1703,Mrs McFarland,14/01/2021,,Office Supplies,Paper,Xerox 200,£6.52,1
+Manchester-1283,Mrs Sperren,19/01/2021,,Office Supplies,Paper,Xerox 2000,£6.89,11
+Manchester-1312,Mr Zeldin,27/01/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,7
+London-1407,Mrs Gerbode,21/01/2021,,Office Supplies,Paper,Xerox 2000,£6.89,10
+Edinburgh-1584,Mr Nguyen,30/01/2021,,Office Supplies,Paper,Xerox 2000,£6.89,6
+Manchester-1137,Mr Weien,30/01/2021,,Office Supplies,Paper,Xerox 208,£7.14,2
+London-1314,Mrs Hane,27/01/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,7
+Manchester-1851,Mrs Roberts,12/01/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,8
+Birmingham-2002,Mr Wiediger,01/01/2021,,Office Supplies,Paper,Xerox 208,£7.14,6
+London-1407,Mrs Gerbode,21/01/2021,,Office Supplies,Paper,Xerox 219,£7.50,7
+Newcastle-1705,Mr Bremer,14/01/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,1
+Bristol-1911,Mr Norvell,23/01/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,7
+Bristol-1102,Mr Hirsh,22/01/2021,Return Processed,Office Supplies,Paper,Xerox 221,£7.80,4
+London-1445,Mrs Abelman,30/01/2021,Return Processed,Office Supplies,Paper,Xerox 221,£7.80,11
+Newcastle-1101,Mrs Karlsson,22/01/2021,,Office Supplies,Paper,Xerox 232,£7.99,10
+Edinburgh-1686,Mrs Hughes,28/01/2021,,Office Supplies,Paper,Xerox 232,£7.99,11
+York-1778,Mr Zeldin,20/01/2021,,Office Supplies,Paper,Xerox 232,£7.99,4
+Bristol-1911,Mr Norvell,23/01/2021,Return Processed,Office Supplies,Paper,Xerox 232,£7.99,11
+Manchester-1131,Mr Flanagan,21/01/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,3
+Birmingham-1187,Mr Tran,21/01/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,10
+Manchester-1570,Mr Barnes,01/01/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,7
+Edinburgh-1912,Mr Morse,23/01/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,7
+Edinburgh-1965,Mr Farhat,16/01/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,9
+Edinburgh-2160,Mr Garza,26/01/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,9
+Birmingham-1188,Mr Yedwab,21/01/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,10
+Birmingham-1589,Mr Collister,14/01/2021,,Office Supplies,Storage,Lockers,£89.97,3
+Birmingham-1706,Mr Hwang,14/01/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,3
+Edinburgh-1347,Mr Schneider,24/01/2021,,Technology,Accessories,USB Wired Mouse,£5.99,2
+Newcastle-2075,Mrs Martinez,09/01/2021,,Technology,Accessories,USB Wired Mouse,£5.99,3
+Newcastle-1705,Mr Bremer,14/01/2021,Return Processed,Technology,Accessories,Keyboard,£19.94,10
+Manchester-1922,Mr Armstrong,15/01/2021,,Technology,Accessories,Keyboard,£19.94,8
+Edinburgh-1095,Mr Hightower,20/01/2021,,Technology,Accessories,PC Headset,£45.89,6
+Newcastle-1193,Mrs Nunn,14/01/2021,,Technology,Accessories,PC Headset,£45.89,10
+Bristol-1222,Mr Campbell,02/01/2021,,Technology,Accessories,PC Headset,£45.89,2
+York-1410,Mrs Daniels,21/01/2021,,Technology,Accessories,PC Headset,£45.89,5
+Bristol-2098,Mrs Monton,07/01/2021,,Technology,Accessories,PC Headset,£45.89,1
+Birmingham-1408,Mr Weirich,21/01/2021,,Technology,Machines,Videoconferencing Unit,£168.76,5
+Birmingham-1565,Mr Payne,15/01/2021,,Technology,Machines,Videoconferencing Unit,£168.76,6
+Edinburgh-1347,Mr Schneider,24/01/2021,,Technology,Machines,Shredder,£65.49,6
+Edinburgh-1913,Mr Coram,23/01/2021,Return Processed,Technology,Machines,Shredder,£65.49,8
+London-2016,Mr Rosenberg,28/01/2021,,Technology,Machines,Shredder,£65.49,11
+Edinburgh-2160,Mr Garza,26/01/2021,,Technology,Machines,Shredder,£65.49,9
+Bristol-1142,Mr Collins,30/01/2021,,Technology,Machines,Printer,£129.99,4
+Edinburgh-1584,Mr Nguyen,30/01/2021,,Technology,Machines,Printer,£129.99,2
+Newcastle-1585,Mrs Kamberova,30/01/2021,Return Processed,Technology,Machines,Printer,£129.99,10
+Newcastle-1103,Mr Schnelling,22/01/2021,,Technology,Phones,Speakerphone,£79.46,7
+Edinburgh-1584,Mr Nguyen,30/01/2021,,Technology,Phones,Speakerphone,£79.46,9
+York-1105,Mr Sunley,23/01/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,3
+Birmingham-1134,Mr Chapman,21/01/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,6
+Edinburgh-1221,Mr Norvell,02/01/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,1
+London-1445,Mrs Abelman,30/01/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,3
+Birmingham-1554,Mr Crestani,29/01/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,1
+Manchester-1708,Mr Dortch,06/01/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,6
+Edinburgh-1913,Mr Coram,23/01/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,2
+London-2048,Mr Barreto,29/01/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,7
+Birmingham-1188,Mr Yedwab,21/01/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,1
+Manchester-1749,Mrs Kelty,16/01/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,3
+Edinburgh-1914,Mr McGuire,23/01/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,8
+London-2097,Mrs Foster,07/01/2021,,Technology,Phones,Bluetooth Headset,£86.99,7
+Edinburgh-1584,Mr Nguyen,30/01/2021,,Technology,Phones,Motorola L703CM,£356.99,10
+Bristol-1911,Mr Norvell,23/01/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,5
+London-2097,Mrs Foster,07/01/2021,,Technology,Phones,Motorola L703CM,£356.99,1
+Birmingham-1188,Mr Yedwab,21/01/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,1
+Birmingham-1408,Mr Weirich,21/01/2021,,Technology,Phones,Motorola L804,£459.67,10
+Edinburgh-1426,Mrs Moffitt,15/01/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,4
+London-1445,Mrs Abelman,30/01/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,8
+Bristol-1722,Mr Reed,29/01/2021,,Technology,Phones,Motorola L804,£459.67,3
+Edinburgh-1984,Mrs Etezadi,13/01/2021,,Technology,Phones,Motorola L804,£459.67,3
+London-2048,Mr Barreto,29/01/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,6
+London-2048,Mr Barreto,29/01/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,4
+Bristol-1142,Mr Collins,30/01/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,1
+York-1194,Mr Peterman,14/01/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,4
+Manchester-1748,Mr Schnelling,16/01/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,8
+Birmingham-1987,Mr Luxemburg,13/01/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,4
+Edinburgh-1426,Mrs Moffitt,15/01/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,8
+Manchester-1747,Mrs Ferguson,03/01/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,9
+Manchester-1749,Mrs Kelty,16/01/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,7
+London-2102,Mrs Hendricks,20/01/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,4
+Edinburgh-1586,Mr Cartwright,30/01/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,8
+Bristol-2098,Mrs Monton,07/01/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,10
+London-2102,Mrs Hendricks,20/01/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,6
+London-1275,Mr Brumley,12/01/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,2
+Birmingham-1554,Mr Crestani,29/01/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,6
+Bristol-1590,Mr Nguyen,14/01/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,3
+Edinburgh-1913,Mr Coram,23/01/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,2
+Newcastle-1272,Mrs Kunitz,19/02/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,8
+Newcastle-1295,Mr Thurman,24/02/2021,,Furniture,Bookcases,Bookcase,£60.07,3
+Manchester-1867,Mrs Harrigan,06/02/2021,,Furniture,Bookcases,Bookcase,£60.07,9
+York-1874,Mrs Bierner,23/02/2021,,Furniture,Bookcases,Bookcase,£60.07,6
+Birmingham-2023,Mrs Prescott,05/02/2021,,Furniture,Bookcases,Bookcase,£60.07,2
+Manchester-2077,Mr Workman,24/02/2021,,Furniture,Bookcases,Bookcase,£60.07,9
+London-1247,Mrs Stobb,11/02/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,8
+Edinburgh-1418,Mrs Grace,13/02/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,4
+London-1683,Mr Hood,03/02/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,2
+Manchester-1731,Mr Minnotte,02/02/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,6
+London-1683,Mr Hood,03/02/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,7
+Manchester-1909,Mr Gjertsen,16/02/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,8
+Edinburgh-1498,Mrs Zewe,20/02/2021,,Furniture,Chairs,Operator's Chair,£20.87,2
+Manchester-1731,Mr Minnotte,02/02/2021,,Furniture,Chairs,Operator's Chair,£20.87,1
+Bristol-1732,Mrs McMath,02/02/2021,,Furniture,Chairs,Operator's Chair,£20.87,4
+York-1874,Mrs Bierner,23/02/2021,,Furniture,Chairs,Operator's Chair,£20.87,4
+London-2078,Mr Harms,24/02/2021,,Furniture,Chairs,Operator's Chair,£20.87,9
+Manchester-1068,Mr Bensley,02/02/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,1
+Birmingham-1212,Mrs Goldwyn,03/02/2021,,Furniture,Chairs,Folding Chairs,£15.69,3
+Birmingham-1866,Mrs Jones,09/02/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,8
+Manchester-1909,Mr Gjertsen,16/02/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,9
+Newcastle-1971,Mr Norvell,05/02/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,1
+Manchester-2077,Mr Workman,24/02/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,10
+Bristol-2111,Mr Jacobs,03/02/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,6
+Edinburgh-1145,Mr Saunders,20/02/2021,,Furniture,Furnishings,Stackable Tray,£2.60,11
+Manchester-1484,Mr DeVincentis,11/02/2021,,Furniture,Furnishings,Stackable Tray,£2.60,1
+London-1815,Mr Glassco,13/02/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,4
+Manchester-1444,Mr Flathmann,19/02/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,5
+Birmingham-1641,Mr Crier,20/02/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,11
+York-1730,Mr Ratner,02/02/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,4
+London-2129,Mr Ludtke,25/02/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,10
+Birmingham-1641,Mr Crier,20/02/2021,,Furniture,Furnishings,Desk Lamp,£19.99,7
+Newcastle-1295,Mr Thurman,24/02/2021,,Furniture,Tables,Round Conference Table,£562.90,7
+York-1992,Mrs Hagelstein,20/02/2021,,Furniture,Tables,Round Conference Table,£562.90,1
+York-2052,Mr Gastineau,04/02/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,10
+Birmingham-1641,Mr Crier,20/02/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,10
+Edinburgh-1661,Mrs VanderZanden,17/02/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,11
+York-2052,Mr Gastineau,04/02/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,9
+London-1995,Mr Bergmann,20/02/2021,,Furniture,Tables,Desk,£125.33,9
+London-2078,Mr Harms,24/02/2021,,Furniture,Tables,Desk,£125.33,4
+Edinburgh-1326,Mrs Brumfield,06/02/2021,,Office Supplies,Appliances,Refrigerator,£897.65,11
+Manchester-1909,Mr Gjertsen,16/02/2021,Return Processed,Office Supplies,Appliances,Refrigerator,£897.65,8
+London-2078,Mr Harms,24/02/2021,,Office Supplies,Appliances,Microwave,£104.58,4
+Edinburgh-1069,Mr Shillingsburg,02/02/2021,,Office Supplies,Art,Pens,£5.69,5
+Manchester-1484,Mr DeVincentis,11/02/2021,,Office Supplies,Art,Pens,£5.69,8
+Newcastle-1682,Mr Pistek,03/02/2021,,Office Supplies,Art,Pens,£5.69,7
+London-1815,Mr Glassco,13/02/2021,Return Processed,Office Supplies,Art,Pens,£5.69,5
+Bristol-1199,Mr Preis,26/02/2021,,Office Supplies,Art,Post-its,£3.33,10
+York-1874,Mrs Bierner,23/02/2021,,Office Supplies,Art,Post-its,£3.33,5
+Edinburgh-1551,Mrs Hoffman,17/02/2021,,Office Supplies,Art,Highlighters,£2.69,9
+Bristol-1144,Mr Ellison,20/02/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,11
+Birmingham-1302,Mr Ober,23/02/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,9
+Edinburgh-1541,Mr Packer,25/02/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,9
+York-2130,Mrs Ordway,25/02/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,7
+York-1991,Mr MacKendrick,20/02/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,10
+York-1994,Mrs Conant,20/02/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,5
+Bristol-1910,Mr Kirkland,16/02/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,1
+London-1247,Mrs Stobb,11/02/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,3
+Newcastle-1272,Mrs Kunitz,19/02/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,2
+Newcastle-1971,Mr Norvell,05/02/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,2
+Edinburgh-2086,Mrs Harrigan,09/02/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,4
+Manchester-1909,Mr Gjertsen,16/02/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,2
+Bristol-1996,Mrs Daniels,20/02/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,3
+Newcastle-2109,Mrs Schoenberger,03/02/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,2
+Edinburgh-1418,Mrs Grace,13/02/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,3
+Birmingham-1993,Mr Mitchell,20/02/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,10
+Newcastle-2046,Mrs Nunn,06/02/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,10
+Manchester-2077,Mr Workman,24/02/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,3
+Bristol-2111,Mr Jacobs,03/02/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,5
+York-2130,Mrs Ordway,25/02/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,7
+Newcastle-1475,Mr Chand,09/02/2021,,Office Supplies,Paper,Parchment Paper,£2.65,1
+Manchester-1867,Mrs Harrigan,06/02/2021,,Office Supplies,Paper,Parchment Paper,£2.65,9
+London-2078,Mr Harms,24/02/2021,,Office Supplies,Paper,Parchment Paper,£2.65,7
+Manchester-1068,Mr Bensley,02/02/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,10
+Newcastle-1971,Mr Norvell,05/02/2021,,Office Supplies,Paper,Xerox 1897,£2.55,3
+Edinburgh-1485,Mrs Holloman,11/02/2021,,Office Supplies,Paper,Xerox 1901,£2.65,10
+Birmingham-1641,Mr Crier,20/02/2021,,Office Supplies,Paper,Xerox 1901,£2.65,9
+Bristol-1910,Mr Kirkland,16/02/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,5
+Newcastle-2024,Mr Bickford,05/02/2021,,Office Supplies,Paper,Xerox 1925,£2.80,4
+York-2047,Mr Williamson,06/02/2021,,Office Supplies,Paper,Xerox 1925,£2.80,5
+Edinburgh-1541,Mr Packer,25/02/2021,,Office Supplies,Paper,Xerox 1933,£3.97,11
+Edinburgh-1542,Mrs Chong,16/02/2021,,Office Supplies,Paper,Xerox 1933,£3.97,6
+Bristol-1816,Mrs Messe,13/02/2021,,Office Supplies,Paper,Xerox 1933,£3.97,2
+Newcastle-2109,Mrs Schoenberger,03/02/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,9
+York-1345,Mrs Derr,10/02/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,11
+Newcastle-1971,Mr Norvell,05/02/2021,,Office Supplies,Paper,Xerox 194,£5.17,8
+Edinburgh-1145,Mr Saunders,20/02/2021,,Office Supplies,Paper,Xerox 1974,£5.99,11
+Manchester-1484,Mr DeVincentis,11/02/2021,,Office Supplies,Paper,Xerox 1974,£5.99,2
+Edinburgh-1498,Mrs Zewe,20/02/2021,,Office Supplies,Paper,Xerox 1974,£5.99,7
+York-2047,Mr Williamson,06/02/2021,,Office Supplies,Paper,Xerox 1974,£5.99,11
+York-2130,Mrs Ordway,25/02/2021,,Office Supplies,Paper,Xerox 1974,£5.99,7
+Newcastle-1272,Mrs Kunitz,19/02/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,5
+Newcastle-1662,Mr Elias,17/02/2021,,Office Supplies,Paper,Xerox 1979,£6.45,9
+Birmingham-1419,Mrs Kaydos,13/02/2021,,Office Supplies,Paper,Xerox 200,£6.52,8
+Bristol-1996,Mrs Daniels,20/02/2021,,Office Supplies,Paper,Xerox 200,£6.52,11
+Bristol-1199,Mr Preis,26/02/2021,,Office Supplies,Paper,Xerox 2000,£6.89,10
+Newcastle-1295,Mr Thurman,24/02/2021,,Office Supplies,Paper,Xerox 2000,£6.89,10
+Edinburgh-1326,Mrs Brumfield,06/02/2021,,Office Supplies,Paper,Xerox 2000,£6.89,8
+London-1420,Mr Steele,13/02/2021,,Office Supplies,Paper,Xerox 2000,£6.89,4
+Edinburgh-1551,Mrs Hoffman,17/02/2021,,Office Supplies,Paper,Xerox 2000,£6.89,9
+Birmingham-1195,Mrs Shonely,26/02/2021,,Office Supplies,Paper,Xerox 208,£7.14,11
+Bristol-1873,Mr Carroll,23/02/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,9
+Birmingham-1993,Mr Mitchell,20/02/2021,,Office Supplies,Paper,Xerox 208,£7.14,5
+Birmingham-1302,Mr Ober,23/02/2021,,Office Supplies,Paper,Xerox 219,£7.50,6
+Edinburgh-1498,Mrs Zewe,20/02/2021,,Office Supplies,Paper,Xerox 219,£7.50,11
+Newcastle-1682,Mr Pistek,03/02/2021,,Office Supplies,Paper,Xerox 219,£7.50,7
+London-1815,Mr Glassco,13/02/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,11
+Bristol-1873,Mr Carroll,23/02/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,4
+Birmingham-1195,Mrs Shonely,26/02/2021,,Office Supplies,Paper,Xerox 221,£7.80,7
+Newcastle-1474,Mr Barnett,09/02/2021,Return Processed,Office Supplies,Paper,Xerox 221,£7.80,9
+Birmingham-1198,Mrs Harton,26/02/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,5
+Birmingham-1641,Mr Crier,20/02/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,1
+London-1067,Mr McCrary,02/02/2021,,Office Supplies,Storage,Lockers,£89.97,4
+Bristol-1197,Mrs Bowman,26/02/2021,,Office Supplies,Storage,Lockers,£89.97,5
+London-1775,Mr Seite,18/02/2021,,Office Supplies,Storage,Lockers,£89.97,5
+Newcastle-2046,Mrs Nunn,06/02/2021,,Office Supplies,Storage,Lockers,£89.97,9
+Edinburgh-1551,Mrs Hoffman,17/02/2021,,Technology,Accessories,USB Wired Mouse,£5.99,9
+London-1620,Mr Paige,17/02/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,8
+London-1775,Mr Seite,18/02/2021,,Technology,Accessories,USB Wired Mouse,£5.99,1
+Edinburgh-1777,Mrs Budd,18/02/2021,,Technology,Accessories,USB Wired Mouse,£5.99,10
+Manchester-2077,Mr Workman,24/02/2021,,Technology,Accessories,USB Wired Mouse,£5.99,2
+Edinburgh-2086,Mrs Harrigan,09/02/2021,,Technology,Accessories,USB Wired Mouse,£5.99,3
+Manchester-1484,Mr DeVincentis,11/02/2021,,Technology,Accessories,Keyboard,£19.94,7
+Manchester-1867,Mrs Harrigan,06/02/2021,,Technology,Accessories,Keyboard,£19.94,1
+London-1213,Mr Glassco,03/02/2021,,Technology,Accessories,PC Headset,£45.89,10
+Edinburgh-1326,Mrs Brumfield,06/02/2021,,Technology,Accessories,PC Headset,£45.89,9
+Edinburgh-1498,Mrs Zewe,20/02/2021,,Technology,Accessories,PC Headset,£45.89,4
+Edinburgh-1551,Mrs Hoffman,17/02/2021,,Technology,Accessories,PC Headset,£45.89,3
+Birmingham-1302,Mr Ober,23/02/2021,,Technology,Machines,Videoconferencing Unit,£168.76,10
+York-1730,Mr Ratner,02/02/2021,Return Processed,Technology,Machines,Videoconferencing Unit,£168.76,2
+London-1420,Mr Steele,13/02/2021,,Technology,Machines,Shredder,£65.49,3
+Newcastle-1196,Mr Peterman,26/02/2021,,Technology,Machines,Printer,£129.99,2
+Birmingham-1419,Mrs Kaydos,13/02/2021,,Technology,Phones,Speakerphone,£79.46,6
+London-1420,Mr Steele,13/02/2021,,Technology,Phones,Speakerphone,£79.46,4
+Edinburgh-1777,Mrs Budd,18/02/2021,,Technology,Phones,Speakerphone,£79.46,11
+Manchester-1867,Mrs Harrigan,06/02/2021,,Technology,Phones,Speakerphone,£79.46,7
+Edinburgh-1541,Mr Packer,25/02/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,2
+Newcastle-2024,Mr Bickford,05/02/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,1
+London-2059,Mr Gainer,13/02/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,5
+Newcastle-2108,Mrs Manning,03/02/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,9
+London-2129,Mr Ludtke,25/02/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,4
+Bristol-1144,Mr Ellison,20/02/2021,,Technology,Phones,Bluetooth Headset,£86.99,10
+York-1992,Mrs Hagelstein,20/02/2021,,Technology,Phones,Bluetooth Headset,£86.99,9
+London-1067,Mr McCrary,02/02/2021,,Technology,Phones,Motorola L703CM,£356.99,9
+Bristol-1816,Mrs Messe,13/02/2021,,Technology,Phones,Motorola L703CM,£356.99,4
+Edinburgh-2086,Mrs Harrigan,09/02/2021,,Technology,Phones,Motorola L703CM,£356.99,7
+Bristol-1816,Mrs Messe,13/02/2021,,Technology,Phones,Motorola L804,£459.67,1
+London-1067,Mr McCrary,02/02/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,8
+Birmingham-1472,Mrs Van Hugh,09/02/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,2
+Newcastle-1475,Mr Chand,09/02/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,6
+Birmingham-1641,Mr Crier,20/02/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,1
+Bristol-1567,Mr Gastineau,19/02/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,11
+York-1992,Mrs Hagelstein,20/02/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,7
+Newcastle-2024,Mr Bickford,05/02/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,8
+Newcastle-1473,Mr Magee,09/02/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,2
+Edinburgh-1498,Mrs Zewe,20/02/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,6
+London-1420,Mr Steele,13/02/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,8
+York-1497,Mrs Folk,20/02/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,4
+Bristol-1910,Mr Kirkland,16/02/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,5
+London-1306,Mrs Huffman,24/03/2021,,Furniture,Bookcases,Bookcase,£60.07,6
+Bristol-1351,Mr Hallsten,25/03/2021,,Furniture,Bookcases,Bookcase,£60.07,9
+Bristol-1357,Mrs Hendricks,23/03/2021,,Furniture,Bookcases,Bookcase,£60.07,5
+Edinburgh-1755,Mr Dona,04/03/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,4
+London-1814,Mr Bergmann,13/03/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,5
+Manchester-2079,Mr Shillingsburg,13/03/2021,,Furniture,Bookcases,Bookcase,£60.07,8
+Edinburgh-2081,Mrs McFarland,13/03/2021,,Furniture,Bookcases,Bookcase,£60.07,8
+Newcastle-1310,Mrs Kendrick,31/03/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,6
+Edinburgh-1614,Mrs McVee,19/03/2021,,Furniture,Chairs,Armless Task Chair,£37.75,7
+Newcastle-1667,Mrs Kunitz,27/03/2021,,Furniture,Chairs,Armless Task Chair,£37.75,7
+Newcastle-1760,Mrs Sink,21/03/2021,,Furniture,Chairs,Armless Task Chair,£37.75,5
+Birmingham-1836,Mr Jacobs,28/03/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,9
+Edinburgh-1960,Mr Barton,06/03/2021,,Furniture,Chairs,Armless Task Chair,£37.75,7
+Bristol-2003,Mrs Hart,10/03/2021,,Furniture,Chairs,Armless Task Chair,£37.75,5
+Edinburgh-1270,Mrs Lichtenstein,02/03/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,2
+Manchester-1381,Mr Französisch,02/03/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,11
+Birmingham-1382,Mrs Halladay,02/03/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,4
+Edinburgh-1617,Mr Baird,19/03/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,11
+Bristol-1653,Mr Crowe,12/03/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,1
+Newcastle-1716,Mr Frazer,23/03/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,2
+Birmingham-1821,Mr DeMoss,26/03/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,11
+York-2070,Mr Shagiari,26/03/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,1
+Newcastle-1125,Mr Fortune,18/03/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,7
+York-1533,Mrs Folk,18/03/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,3
+Newcastle-1709,Mrs Tron,10/03/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,2
+York-1342,Mrs Philippe,21/03/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,3
+Manchester-1635,Mr Howell,13/03/2021,,Furniture,Chairs,Operator's Chair,£20.87,5
+Edinburgh-1755,Mr Dona,04/03/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,3
+Manchester-1807,Mr Tran,31/03/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,8
+Manchester-1837,Mrs Sundaresam,28/03/2021,,Furniture,Chairs,Operator's Chair,£20.87,7
+Manchester-1839,Mrs Reese,28/03/2021,,Furniture,Chairs,Operator's Chair,£20.87,10
+Bristol-1744,Mr Lloyd,19/03/2021,,Furniture,Chairs,Folding Chairs,£15.69,8
+Bristol-1936,Mrs Latchford,04/03/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,3
+Birmingham-2062,Mrs Kaydos,11/03/2021,,Furniture,Chairs,Folding Chairs,£15.69,5
+Manchester-1094,Mr Maddox,04/03/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,5
+Birmingham-1271,Mr Lloyd,02/03/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,2
+London-1306,Mrs Huffman,24/03/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,8
+Edinburgh-1433,Mrs Goranitis,23/03/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,7
+London-1468,Mr Campbell,13/03/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,4
+Manchester-1494,Mr Venier,31/03/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,11
+Edinburgh-1614,Mrs McVee,19/03/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,2
+Manchester-1810,Mr Roelle,13/03/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,3
+Birmingham-2121,Mr Thornton,30/03/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,6
+London-1093,Mrs Poddar,04/03/2021,,Furniture,Furnishings,Stackable Tray,£2.60,10
+Edinburgh-1243,Mrs Sheldon,19/03/2021,,Furniture,Furnishings,Stackable Tray,£2.60,2
+Bristol-1278,Mrs Hart,26/03/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,1
+Manchester-1282,Mr Crestani,28/03/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,7
+Manchester-1305,Mrs Dilbeck,24/03/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,8
+York-1678,Mr Workman,05/03/2021,,Furniture,Furnishings,Stackable Tray,£2.60,3
+Bristol-1710,Mr Hughsby,10/03/2021,,Furniture,Furnishings,Stackable Tray,£2.60,4
+Manchester-2120,Mr Cox,30/03/2021,,Furniture,Furnishings,Stackable Tray,£2.60,8
+Manchester-1097,Mr Fuller,31/03/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,5
+York-1279,Mr Leslie,26/03/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,6
+Manchester-1494,Mr Venier,31/03/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,9
+Edinburgh-1668,Mr MacIntyre,30/03/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,3
+Bristol-1746,Mr Norris,19/03/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,1
+York-1203,Mr Yotov,10/03/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,3
+Manchester-1292,Mr Hightower,16/03/2021,,Furniture,Furnishings,Desk Lamp,£19.99,9
+Bristol-1349,Mrs Kaydos,25/03/2021,,Furniture,Furnishings,Desk Lamp,£19.99,5
+Bristol-1370,Mrs MacAllister,17/03/2021,,Furniture,Furnishings,Desk Lamp,£19.99,10
+Edinburgh-1668,Mr MacIntyre,30/03/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,8
+York-1204,Mrs Overfelt,10/03/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,4
+London-1363,Mr Elijah,17/03/2021,Return Processed,Furniture,Tables,Solid Wood Round Tables,£264.46,7
+Bristol-1744,Mr Lloyd,19/03/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,9
+Edinburgh-1762,Mr Hudgings,21/03/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,2
+Bristol-1813,Mr Sunley,13/03/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,5
+Birmingham-1836,Mr Jacobs,28/03/2021,Return Processed,Furniture,Tables,Solid Wood Round Tables,£264.46,5
+Manchester-1087,Mrs Kotsonis,08/03/2021,,Furniture,Tables,Round Conference Table,£562.90,8
+Manchester-1367,Mr Collister,17/03/2021,,Furniture,Tables,Round Conference Table,£562.90,11
+London-1538,Mr Gockenbach,06/03/2021,,Furniture,Tables,Round Conference Table,£562.90,3
+London-1808,Mrs Tron,13/03/2021,,Furniture,Tables,Round Conference Table,£562.90,1
+Bristol-1936,Mrs Latchford,04/03/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,3
+Birmingham-1348,Mrs Ocampo,25/03/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Manchester-1367,Mr Collister,17/03/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,11
+York-1650,Mr Workman,30/03/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Newcastle-1667,Mrs Kunitz,27/03/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Bristol-1744,Mr Lloyd,19/03/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,6
+Manchester-1837,Mrs Sundaresam,28/03/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Newcastle-1961,Mr Butterfield,06/03/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,9
+York-2131,Mr Duston,31/03/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,2
+Manchester-1381,Mr Französisch,02/03/2021,Return Processed,Furniture,Tables,Desk,£125.33,10
+Edinburgh-1466,Mr Koutras,13/03/2021,,Furniture,Tables,Desk,£125.33,11
+Manchester-1494,Mr Venier,31/03/2021,,Furniture,Tables,Desk,£125.33,3
+London-1814,Mr Bergmann,13/03/2021,Return Processed,Furniture,Tables,Desk,£125.33,4
+Manchester-1863,Mr MacIntyre,05/03/2021,,Furniture,Tables,Desk,£125.33,9
+Bristol-1936,Mrs Latchford,04/03/2021,Return Processed,Furniture,Tables,Desk,£125.33,3
+Manchester-1938,Mr Hildebrand,04/03/2021,,Furniture,Tables,Desk,£125.33,7
+Newcastle-1201,Mrs Roberts,10/03/2021,,Office Supplies,Appliances,Vaccuum,£605.39,5
+York-1342,Mrs Philippe,21/03/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,5
+Birmingham-1539,Mr Castell,06/03/2021,,Office Supplies,Appliances,Vaccuum,£605.39,1
+Edinburgh-1617,Mr Baird,19/03/2021,,Office Supplies,Appliances,Vaccuum,£605.39,6
+Newcastle-1667,Mrs Kunitz,27/03/2021,,Office Supplies,Appliances,Vaccuum,£605.39,7
+Edinburgh-2138,Mr Hirsh,02/03/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,6
+Edinburgh-1229,Mrs Kamberova,07/03/2021,Return Processed,Office Supplies,Appliances,Refrigerator,£897.65,11
+Newcastle-1465,Mr Prichep,13/03/2021,,Office Supplies,Appliances,Refrigerator,£897.65,3
+London-1591,Mr Gordon,06/03/2021,,Office Supplies,Appliances,Refrigerator,£897.65,4
+Birmingham-1959,Mr Gordon,06/03/2021,Return Processed,Office Supplies,Appliances,Refrigerator,£897.65,3
+Manchester-2120,Mr Cox,30/03/2021,,Office Supplies,Appliances,Refrigerator,£897.65,11
+Manchester-1292,Mr Hightower,16/03/2021,,Office Supplies,Appliances,Microwave,£104.58,11
+London-1311,Mr Crestani,13/03/2021,,Office Supplies,Appliances,Microwave,£104.58,7
+York-1342,Mrs Philippe,21/03/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,4
+Bristol-1448,Mrs Latchford,25/03/2021,,Office Supplies,Appliances,Microwave,£104.58,4
+Newcastle-1499,Mrs Sperren,17/03/2021,,Office Supplies,Appliances,Microwave,£104.58,1
+Bristol-1500,Mrs Shonely,17/03/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,1
+Birmingham-1539,Mr Castell,06/03/2021,,Office Supplies,Appliances,Microwave,£104.58,5
+Manchester-1544,Mrs Blanton,05/03/2021,,Office Supplies,Appliances,Microwave,£104.58,11
+Bristol-1700,Mr Hildebrand,07/03/2021,,Office Supplies,Appliances,Microwave,£104.58,7
+Bristol-1813,Mr Sunley,13/03/2021,,Office Supplies,Appliances,Microwave,£104.58,10
+Newcastle-1972,Mr Dawkins,03/03/2021,,Office Supplies,Appliances,Microwave,£104.58,2
+Manchester-2120,Mr Cox,30/03/2021,,Office Supplies,Appliances,Microwave,£104.58,3
+Newcastle-1362,Mr Cortes,17/03/2021,,Office Supplies,Art,Pens,£5.69,4
+Bristol-1513,Mr Barton,03/03/2021,Return Processed,Office Supplies,Art,Pens,£5.69,5
+Newcastle-1709,Mrs Tron,10/03/2021,,Office Supplies,Art,Pens,£5.69,11
+Newcastle-1716,Mr Frazer,23/03/2021,,Office Supplies,Art,Pens,£5.69,1
+Edinburgh-1745,Mr Knutson,19/03/2021,,Office Supplies,Art,Pens,£5.69,2
+Manchester-1807,Mr Tran,31/03/2021,Return Processed,Office Supplies,Art,Pens,£5.69,2
+York-2080,Mr House,13/03/2021,Return Processed,Office Supplies,Art,Pens,£5.69,6
+Bristol-2170,Mr Smith,13/03/2021,,Office Supplies,Art,Pens,£5.69,6
+Manchester-1097,Mr Fuller,31/03/2021,,Office Supplies,Art,Highlighters,£2.69,2
+Birmingham-1271,Mr Lloyd,02/03/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,9
+Bristol-1513,Mr Barton,03/03/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,7
+Manchester-1635,Mr Howell,13/03/2021,,Office Supplies,Art,Highlighters,£2.69,9
+Newcastle-1709,Mrs Tron,10/03/2021,,Office Supplies,Art,Highlighters,£2.69,3
+Newcastle-1716,Mr Frazer,23/03/2021,,Office Supplies,Art,Highlighters,£2.69,1
+Bristol-1744,Mr Lloyd,19/03/2021,,Office Supplies,Art,Highlighters,£2.69,6
+London-1848,Mrs Galang,30/03/2021,,Office Supplies,Art,Highlighters,£2.69,4
+York-2069,Mrs Avila,26/03/2021,,Office Supplies,Art,Highlighters,£2.69,2
+Edinburgh-1123,Mr Campbell,18/03/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,2
+Birmingham-1271,Mr Lloyd,02/03/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,10
+York-1512,Mr Moss,03/03/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,11
+Bristol-2060,Mr Pölking,11/03/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,6
+Bristol-2140,Mrs Moren,02/03/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,6
+Manchester-1097,Mr Fuller,31/03/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,8
+Manchester-1544,Mrs Blanton,05/03/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,1
+Edinburgh-1762,Mr Hudgings,21/03/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,6
+London-1814,Mr Bergmann,13/03/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,5
+Manchester-1839,Mrs Reese,28/03/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,5
+Newcastle-1961,Mr Butterfield,06/03/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,5
+Manchester-2120,Mr Cox,30/03/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,5
+Edinburgh-1243,Mrs Sheldon,19/03/2021,,Office Supplies,Fasteners,Push Pins,£2.69,10
+Bristol-1813,Mr Sunley,13/03/2021,,Office Supplies,Fasteners,Push Pins,£2.69,5
+London-2061,Mr Lloyd,11/03/2021,,Office Supplies,Fasteners,Push Pins,£2.69,9
+Manchester-2156,Mrs Moren,24/03/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,8
+Birmingham-1214,Mr Carreira,03/03/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,8
+Manchester-1343,Mr Engle,21/03/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,11
+Newcastle-1465,Mr Prichep,13/03/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,9
+Edinburgh-1476,Mr DeCherney,31/03/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,6
+Birmingham-1611,Mrs Harrigan,10/03/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,9
+London-1701,Mrs Roper,07/03/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,8
+Newcastle-1709,Mrs Tron,10/03/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,6
+Birmingham-1862,Mr Grayson,05/03/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,1
+York-1937,Mrs Kriz,04/03/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,5
+Bristol-1370,Mrs MacAllister,17/03/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,3
+York-1512,Mr Moss,03/03/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,2
+York-1650,Mr Workman,30/03/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,9
+Newcastle-1774,Mr West,12/03/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,1
+Edinburgh-1805,Mr Childs,31/03/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,10
+York-1937,Mrs Kriz,04/03/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,9
+Bristol-2060,Mr Pölking,11/03/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,6
+Edinburgh-2154,Mr Ellison,24/03/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,6
+Manchester-1094,Mr Maddox,04/03/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,9
+London-1096,Mr Takahito,20/03/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+Birmingham-1382,Mrs Halladay,02/03/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,10
+York-1838,Mr Kennedy,28/03/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,8
+York-1886,Mr Yedwab,26/03/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,2
+Manchester-1938,Mr Hildebrand,04/03/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,10
+Edinburgh-1088,Mrs Zewe,08/03/2021,,Office Supplies,Paper,Parchment Paper,£2.65,11
+Manchester-1097,Mr Fuller,31/03/2021,,Office Supplies,Paper,Parchment Paper,£2.65,3
+Bristol-1448,Mrs Latchford,25/03/2021,,Office Supplies,Paper,Parchment Paper,£2.65,5
+York-1449,Mr Hirasaki,25/03/2021,,Office Supplies,Paper,Parchment Paper,£2.65,10
+York-1450,Mrs Sink,25/03/2021,,Office Supplies,Paper,Parchment Paper,£2.65,2
+Manchester-1807,Mr Tran,31/03/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,4
+London-1364,Mrs Brumfield,17/03/2021,,Office Supplies,Paper,Xerox 1897,£2.55,11
+Edinburgh-1617,Mr Baird,19/03/2021,,Office Supplies,Paper,Xerox 1897,£2.55,7
+London-1701,Mrs Roper,07/03/2021,,Office Supplies,Paper,Xerox 1897,£2.55,5
+Manchester-1885,Mr Rosenberg,26/03/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,1
+Edinburgh-2139,Mr Frazer,02/03/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,5
+York-1143,Mr Blacks,17/03/2021,,Office Supplies,Paper,Xerox 1901,£2.65,5
+York-1203,Mr Yotov,10/03/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,8
+Birmingham-1611,Mrs Harrigan,10/03/2021,,Office Supplies,Paper,Xerox 1901,£2.65,9
+Manchester-1635,Mr Howell,13/03/2021,,Office Supplies,Paper,Xerox 1901,£2.65,8
+Newcastle-1761,Mr Anderson,21/03/2021,,Office Supplies,Paper,Xerox 1901,£2.65,1
+Birmingham-1836,Mr Jacobs,28/03/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,7
+Bristol-1840,Mr Raglin,28/03/2021,,Office Supplies,Paper,Xerox 1901,£2.65,6
+Manchester-1885,Mr Rosenberg,26/03/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,2
+York-1126,Mrs Trevino,18/03/2021,,Office Supplies,Paper,Xerox 1925,£2.80,9
+London-1218,Mrs Kimmel,31/03/2021,,Office Supplies,Paper,Xerox 1925,£2.80,7
+Birmingham-1348,Mrs Ocampo,25/03/2021,Return Processed,Office Supplies,Paper,Xerox 1925,£2.80,3
+Bristol-1455,Mr Ferrer,11/03/2021,,Office Supplies,Paper,Xerox 1925,£2.80,3
+Newcastle-1465,Mr Prichep,13/03/2021,,Office Supplies,Paper,Xerox 1925,£2.80,4
+Bristol-1744,Mr Lloyd,19/03/2021,,Office Supplies,Paper,Xerox 1925,£2.80,5
+Manchester-2068,Mr Cox,26/03/2021,,Office Supplies,Paper,Xerox 1925,£2.80,9
+Edinburgh-2081,Mrs McFarland,13/03/2021,,Office Supplies,Paper,Xerox 1925,£2.80,2
+Manchester-2162,Mrs Marie,02/03/2021,,Office Supplies,Paper,Xerox 1925,£2.80,8
+London-1093,Mrs Poddar,04/03/2021,,Office Supplies,Paper,Xerox 1933,£3.97,4
+Bristol-1710,Mr Hughsby,10/03/2021,,Office Supplies,Paper,Xerox 1933,£3.97,5
+York-1817,Mrs Pelletier,25/03/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,6
+Edinburgh-2063,Mrs Van Hugh,11/03/2021,,Office Supplies,Paper,Xerox 1933,£3.97,9
+London-1364,Mrs Brumfield,17/03/2021,,Office Supplies,Paper,Xerox 1936,£4.87,3
+York-1607,Mrs Philippe,26/03/2021,,Office Supplies,Paper,Xerox 1936,£4.87,10
+Newcastle-1774,Mr West,12/03/2021,,Office Supplies,Paper,Xerox 1936,£4.87,2
+London-2061,Mr Lloyd,11/03/2021,,Office Supplies,Paper,Xerox 1936,£4.87,7
+London-2155,Mr Chapman,24/03/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,11
+Bristol-2170,Mr Smith,13/03/2021,,Office Supplies,Paper,Xerox 1936,£4.87,4
+Birmingham-1539,Mr Castell,06/03/2021,,Office Supplies,Paper,Xerox 194,£5.17,8
+Edinburgh-1755,Mr Dona,04/03/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,10
+London-1834,Mr Blacks,28/03/2021,,Office Supplies,Paper,Xerox 194,£5.17,8
+York-2070,Mr Shagiari,26/03/2021,,Office Supplies,Paper,Xerox 194,£5.17,2
+Manchester-2162,Mrs Marie,02/03/2021,,Office Supplies,Paper,Xerox 194,£5.17,5
+Edinburgh-1123,Mr Campbell,18/03/2021,,Office Supplies,Paper,Xerox 1951,£5.67,7
+London-1363,Mr Elijah,17/03/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,1
+Manchester-1381,Mr Französisch,02/03/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,5
+Manchester-1615,Mrs Catlett,19/03/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,1
+London-1679,Mr Wilson,05/03/2021,,Office Supplies,Paper,Xerox 1951,£5.67,7
+Manchester-2156,Mrs Moren,24/03/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,1
+Birmingham-1271,Mr Lloyd,02/03/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,10
+Newcastle-1362,Mr Cortes,17/03/2021,,Office Supplies,Paper,Xerox 1974,£5.99,10
+York-1501,Mr Ulpright,25/03/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,4
+Bristol-1513,Mr Barton,03/03/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,2
+Bristol-1680,Mr Swint,05/03/2021,,Office Supplies,Paper,Xerox 1974,£5.99,11
+Manchester-1806,Mr Noonan,31/03/2021,,Office Supplies,Paper,Xerox 1974,£5.99,11
+Manchester-1839,Mrs Reese,28/03/2021,,Office Supplies,Paper,Xerox 1974,£5.99,4
+Manchester-1097,Mr Fuller,31/03/2021,,Office Supplies,Paper,Xerox 1979,£6.45,10
+Bristol-1278,Mrs Hart,26/03/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,2
+London-1311,Mr Crestani,13/03/2021,,Office Supplies,Paper,Xerox 1979,£6.45,8
+Bristol-1351,Mr Hallsten,25/03/2021,,Office Supplies,Paper,Xerox 1979,£6.45,6
+Bristol-1455,Mr Ferrer,11/03/2021,,Office Supplies,Paper,Xerox 1979,£6.45,8
+York-1838,Mr Kennedy,28/03/2021,,Office Supplies,Paper,Xerox 1979,£6.45,8
+York-1886,Mr Yedwab,26/03/2021,,Office Supplies,Paper,Xerox 1979,£6.45,2
+Manchester-1097,Mr Fuller,31/03/2021,,Office Supplies,Paper,Xerox 200,£6.52,9
+York-1203,Mr Yotov,10/03/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,11
+Newcastle-1761,Mr Anderson,21/03/2021,,Office Supplies,Paper,Xerox 200,£6.52,1
+Newcastle-1961,Mr Butterfield,06/03/2021,,Office Supplies,Paper,Xerox 200,£6.52,10
+Birmingham-2092,Mr Carroll,16/03/2021,,Office Supplies,Paper,Xerox 200,£6.52,3
+Bristol-2140,Mrs Moren,02/03/2021,,Office Supplies,Paper,Xerox 200,£6.52,4
+Newcastle-1201,Mrs Roberts,10/03/2021,,Office Supplies,Paper,Xerox 2000,£6.89,8
+York-1469,Mr Magee,13/03/2021,,Office Supplies,Paper,Xerox 2000,£6.89,6
+Manchester-1544,Mrs Blanton,05/03/2021,,Office Supplies,Paper,Xerox 2000,£6.89,9
+Manchester-1615,Mrs Catlett,19/03/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,6
+Manchester-1699,Mr Gainer,08/03/2021,,Office Supplies,Paper,Xerox 2000,£6.89,6
+Manchester-1863,Mr MacIntyre,05/03/2021,,Office Supplies,Paper,Xerox 2000,£6.89,5
+London-2061,Mr Lloyd,11/03/2021,,Office Supplies,Paper,Xerox 2000,£6.89,4
+Newcastle-1124,Mr Dominguez,18/03/2021,,Office Supplies,Paper,Xerox 208,£7.14,4
+York-1203,Mr Yotov,10/03/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,8
+Manchester-1282,Mr Crestani,28/03/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,8
+Newcastle-1487,Mrs Pelletier,12/03/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,7
+York-1835,Mrs Dodson,28/03/2021,,Office Supplies,Paper,Xerox 208,£7.14,7
+Manchester-1863,Mr MacIntyre,05/03/2021,,Office Supplies,Paper,Xerox 208,£7.14,6
+London-1306,Mrs Huffman,24/03/2021,,Office Supplies,Paper,Xerox 219,£7.50,4
+Newcastle-1362,Mr Cortes,17/03/2021,,Office Supplies,Paper,Xerox 219,£7.50,4
+Newcastle-1487,Mrs Pelletier,12/03/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,10
+Bristol-1680,Mr Swint,05/03/2021,,Office Supplies,Paper,Xerox 219,£7.50,6
+Newcastle-1124,Mr Dominguez,18/03/2021,,Office Supplies,Paper,Xerox 221,£7.80,11
+Newcastle-1202,Mrs Myrick,10/03/2021,Return Processed,Office Supplies,Paper,Xerox 221,£7.80,2
+Birmingham-1214,Mr Carreira,03/03/2021,,Office Supplies,Paper,Xerox 221,£7.80,1
+Newcastle-1760,Mrs Sink,21/03/2021,,Office Supplies,Paper,Xerox 221,£7.80,6
+Manchester-1806,Mr Noonan,31/03/2021,,Office Supplies,Paper,Xerox 221,£7.80,10
+London-1364,Mrs Brumfield,17/03/2021,,Office Supplies,Paper,Xerox 232,£7.99,6
+Manchester-1367,Mr Collister,17/03/2021,,Office Supplies,Paper,Xerox 232,£7.99,9
+Bristol-1653,Mr Crowe,12/03/2021,,Office Supplies,Paper,Xerox 232,£7.99,7
+Newcastle-1716,Mr Frazer,23/03/2021,,Office Supplies,Paper,Xerox 232,£7.99,8
+Manchester-1806,Mr Noonan,31/03/2021,,Office Supplies,Paper,Xerox 232,£7.99,6
+Manchester-1807,Mr Tran,31/03/2021,Return Processed,Office Supplies,Paper,Xerox 232,£7.99,11
+Newcastle-1961,Mr Butterfield,06/03/2021,,Office Supplies,Paper,Xerox 232,£7.99,10
+Newcastle-1201,Mrs Roberts,10/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,11
+York-1204,Mrs Overfelt,10/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,11
+London-1311,Mr Crestani,13/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,5
+Manchester-1352,Mrs Rupert,25/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,8
+Bristol-1357,Mrs Hendricks,23/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,6
+York-1469,Mr Magee,13/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,1
+York-1512,Mr Moss,03/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,6
+Manchester-2120,Mr Cox,30/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,2
+York-2131,Mr Duston,31/03/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,5
+Edinburgh-1088,Mrs Zewe,08/03/2021,,Office Supplies,Storage,Lockers,£89.97,2
+York-1365,Mr Lanier,17/03/2021,,Office Supplies,Storage,Lockers,£89.97,5
+Bristol-1370,Mrs MacAllister,17/03/2021,,Office Supplies,Storage,Lockers,£89.97,6
+Edinburgh-1762,Mr Hudgings,21/03/2021,,Office Supplies,Storage,Lockers,£89.97,9
+Newcastle-1774,Mr West,12/03/2021,,Office Supplies,Storage,Lockers,£89.97,6
+London-1973,Mr Bergman,03/03/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,1
+York-1279,Mr Leslie,26/03/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,9
+Manchester-1292,Mr Hightower,16/03/2021,,Technology,Accessories,USB Wired Mouse,£5.99,3
+Manchester-1615,Mrs Catlett,19/03/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,2
+Manchester-1806,Mr Noonan,31/03/2021,,Technology,Accessories,USB Wired Mouse,£5.99,9
+Manchester-1885,Mr Rosenberg,26/03/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,8
+Newcastle-1125,Mr Fortune,18/03/2021,,Technology,Accessories,Keyboard,£19.94,7
+Newcastle-1487,Mrs Pelletier,12/03/2021,Return Processed,Technology,Accessories,Keyboard,£19.94,9
+Manchester-1494,Mr Venier,31/03/2021,,Technology,Accessories,Keyboard,£19.94,11
+Bristol-1680,Mr Swint,05/03/2021,,Technology,Accessories,Keyboard,£19.94,6
+Bristol-1744,Mr Lloyd,19/03/2021,,Technology,Accessories,Keyboard,£19.94,11
+York-1838,Mr Kennedy,28/03/2021,,Technology,Accessories,Keyboard,£19.94,11
+York-1937,Mrs Kriz,04/03/2021,,Technology,Accessories,Keyboard,£19.94,3
+Bristol-2067,Mr Coakley,26/03/2021,,Technology,Accessories,Keyboard,£19.94,5
+Newcastle-1202,Mrs Myrick,10/03/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,11
+York-1365,Mr Lanier,17/03/2021,,Technology,Accessories,PC Headset,£45.89,10
+Manchester-1635,Mr Howell,13/03/2021,,Technology,Accessories,PC Headset,£45.89,1
+Newcastle-1961,Mr Butterfield,06/03/2021,,Technology,Accessories,PC Headset,£45.89,7
+Manchester-1282,Mr Crestani,28/03/2021,Return Processed,Technology,Machines,Videoconferencing Unit,£168.76,8
+Manchester-1292,Mr Hightower,16/03/2021,,Technology,Machines,Videoconferencing Unit,£168.76,3
+London-1306,Mrs Huffman,24/03/2021,,Technology,Machines,Videoconferencing Unit,£168.76,10
+Edinburgh-1617,Mr Baird,19/03/2021,,Technology,Machines,Videoconferencing Unit,£168.76,6
+Edinburgh-1745,Mr Knutson,19/03/2021,,Technology,Machines,Videoconferencing Unit,£168.76,3
+Bristol-1969,Mr liebe,31/03/2021,,Technology,Machines,Videoconferencing Unit,£168.76,10
+London-2061,Mr Lloyd,11/03/2021,,Technology,Machines,Videoconferencing Unit,£168.76,1
+Newcastle-1125,Mr Fortune,18/03/2021,,Technology,Machines,Shredder,£65.49,8
+Edinburgh-1476,Mr DeCherney,31/03/2021,,Technology,Machines,Shredder,£65.49,1
+Newcastle-1487,Mrs Pelletier,12/03/2021,Return Processed,Technology,Machines,Shredder,£65.49,4
+York-1812,Mr Bolton,13/03/2021,,Technology,Machines,Shredder,£65.49,10
+York-1823,Mrs Soltero,23/03/2021,Return Processed,Technology,Machines,Shredder,£65.49,1
+Newcastle-1961,Mr Butterfield,06/03/2021,,Technology,Machines,Shredder,£65.49,9
+Edinburgh-2141,Mr Brooks,02/03/2021,,Technology,Machines,Shredder,£65.49,10
+Birmingham-1214,Mr Carreira,03/03/2021,,Technology,Machines,Printer,£129.99,3
+Edinburgh-1270,Mrs Lichtenstein,02/03/2021,Return Processed,Technology,Machines,Printer,£129.99,11
+Manchester-1282,Mr Crestani,28/03/2021,Return Processed,Technology,Machines,Printer,£129.99,10
+Bristol-1351,Mr Hallsten,25/03/2021,,Technology,Machines,Printer,£129.99,11
+York-1369,Mr Sweed,17/03/2021,,Technology,Machines,Printer,£129.99,10
+Edinburgh-1476,Mr DeCherney,31/03/2021,,Technology,Machines,Printer,£129.99,6
+Manchester-1743,Mrs Blanton,19/03/2021,,Technology,Machines,Printer,£129.99,3
+Manchester-1810,Mr Roelle,13/03/2021,,Technology,Machines,Printer,£129.99,4
+Manchester-1839,Mrs Reese,28/03/2021,,Technology,Machines,Printer,£129.99,11
+Birmingham-2062,Mrs Kaydos,11/03/2021,,Technology,Machines,Printer,£129.99,4
+Newcastle-1310,Mrs Kendrick,31/03/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,9
+York-1369,Mr Sweed,17/03/2021,,Technology,Phones,Speakerphone,£79.46,3
+York-1449,Mr Hirasaki,25/03/2021,,Technology,Phones,Speakerphone,£79.46,7
+York-1607,Mrs Philippe,26/03/2021,,Technology,Phones,Speakerphone,£79.46,6
+York-1698,Mr McGuire,08/03/2021,,Technology,Phones,Speakerphone,£79.46,2
+Birmingham-2066,Mrs Folk,26/03/2021,,Technology,Phones,Speakerphone,£79.46,7
+Manchester-1292,Mr Hightower,16/03/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,7
+Newcastle-1310,Mrs Kendrick,31/03/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,4
+Birmingham-1382,Mrs Halladay,02/03/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,10
+Newcastle-1467,Mrs Odegard,13/03/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,1
+London-1468,Mr Campbell,13/03/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,6
+Newcastle-1760,Mrs Sink,21/03/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,3
+London-1834,Mr Blacks,28/03/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,5
+Manchester-1839,Mrs Reese,28/03/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,6
+Edinburgh-1123,Mr Campbell,18/03/2021,,Technology,Phones,Bluetooth Headset,£86.99,5
+York-1126,Mrs Trevino,18/03/2021,,Technology,Phones,Bluetooth Headset,£86.99,2
+Edinburgh-1270,Mrs Lichtenstein,02/03/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,1
+London-1538,Mr Gockenbach,06/03/2021,,Technology,Phones,Bluetooth Headset,£86.99,11
+Edinburgh-1614,Mrs McVee,19/03/2021,,Technology,Phones,Bluetooth Headset,£86.99,8
+London-1973,Mr Bergman,03/03/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,8
+London-1363,Mr Elijah,17/03/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,4
+Birmingham-1611,Mrs Harrigan,10/03/2021,,Technology,Phones,Motorola L703CM,£356.99,10
+London-1814,Mr Bergmann,13/03/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,9
+York-1838,Mr Kennedy,28/03/2021,,Technology,Phones,Motorola L703CM,£356.99,6
+Birmingham-1959,Mr Gordon,06/03/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,10
+York-1203,Mr Yotov,10/03/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,7
+York-1204,Mrs Overfelt,10/03/2021,,Technology,Phones,Motorola L804,£459.67,10
+London-1701,Mrs Roper,07/03/2021,,Technology,Phones,Motorola L804,£459.67,8
+York-1817,Mrs Pelletier,25/03/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,4
+Manchester-1938,Mr Hildebrand,04/03/2021,,Technology,Phones,Motorola L804,£459.67,6
+York-1501,Mr Ulpright,25/03/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,11
+Edinburgh-1668,Mr MacIntyre,30/03/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,3
+York-1812,Mr Bolton,13/03/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,6
+Manchester-2068,Mr Cox,26/03/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,7
+Manchester-1087,Mrs Kotsonis,08/03/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,1
+London-1218,Mrs Kimmel,31/03/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,11
+Birmingham-1219,Mr Norris,31/03/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,11
+Edinburgh-1229,Mrs Kamberova,07/03/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,11
+Edinburgh-1270,Mrs Lichtenstein,02/03/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,10
+London-1468,Mr Campbell,13/03/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,7
+London-1538,Mr Gockenbach,06/03/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,2
+York-1607,Mrs Philippe,26/03/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,2
+Birmingham-1836,Mr Jacobs,28/03/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,2
+Edinburgh-2141,Mr Brooks,02/03/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,6
+London-2155,Mr Chapman,24/03/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,4
+York-1279,Mr Leslie,26/03/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,10
+York-1290,Mr Ryan,16/03/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,1
+Edinburgh-1433,Mrs Goranitis,23/03/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,5
+Newcastle-1760,Mrs Sink,21/03/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,8
+Manchester-1806,Mr Noonan,31/03/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,2
+Manchester-1885,Mr Rosenberg,26/03/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,2
+Edinburgh-1960,Mr Barton,06/03/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,3
+London-1973,Mr Bergman,03/03/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,1
+London-1096,Mr Takahito,20/03/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,6
+Manchester-1343,Mr Engle,21/03/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,3
+York-1449,Mr Hirasaki,25/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,8
+Newcastle-1467,Mrs Odegard,13/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,4
+Bristol-1513,Mr Barton,03/03/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,10
+York-1533,Mrs Folk,18/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,11
+Birmingham-1539,Mr Castell,06/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,11
+Bristol-1680,Mr Swint,05/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,2
+London-1701,Mrs Roper,07/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,11
+London-1808,Mrs Tron,13/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,2
+York-1809,Mrs Manning,13/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,10
+Birmingham-1821,Mr DeMoss,26/03/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,1
+Birmingham-1836,Mr Jacobs,28/03/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,11
+Manchester-1097,Mr Fuller,31/03/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,3
+London-1311,Mr Crestani,13/03/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,4
+Edinburgh-1433,Mrs Goranitis,23/03/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,11
+Manchester-1807,Mr Tran,31/03/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,7
+York-1838,Mr Kennedy,28/03/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,11
+Edinburgh-1864,Mrs Ordway,05/03/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,7
+Bristol-1082,Mr Häberlin,15/04/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,3
+Bristol-1175,Mr Hightower,09/04/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,3
+Birmingham-1454,Mr Zypern,26/04/2021,,Furniture,Bookcases,Bookcase,£60.07,10
+Manchester-1871,Mrs Eno,01/04/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,9
+York-2027,Mrs Prescott,17/04/2021,,Furniture,Bookcases,Bookcase,£60.07,2
+Manchester-1480,Mr Zypern,14/04/2021,,Furniture,Chairs,Armless Task Chair,£37.75,10
+York-1789,Mr Stewart,01/04/2021,,Furniture,Chairs,Armless Task Chair,£37.75,11
+York-1189,Mr Cox,21/04/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,2
+York-1264,Mr McGrath,24/04/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,6
+Newcastle-1353,Mr Matthias,01/04/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,1
+York-1595,Mr Baird,01/04/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,10
+Newcastle-1800,Mr Black,30/04/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,4
+York-2107,Mr Ballard,10/04/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,11
+Bristol-1076,Mr Zydlo,07/04/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,4
+Manchester-1172,Mrs Monton,09/04/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,6
+London-1479,Mr Becker,27/04/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,6
+Bristol-1596,Mr Ballard,01/04/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,10
+Edinburgh-1613,Mr Ryan,01/04/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,1
+Newcastle-1896,Mrs Nunn,20/04/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,5
+York-2065,Mr Prichep,25/04/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,8
+York-2107,Mr Ballard,10/04/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,5
+Edinburgh-2133,Mr Lucas,21/04/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,4
+Birmingham-1308,Mrs Eno,13/04/2021,,Furniture,Chairs,Operator's Chair,£20.87,11
+Newcastle-1354,Mrs Nockton,01/04/2021,,Furniture,Chairs,Operator's Chair,£20.87,5
+London-1651,Mr Chapman,30/04/2021,,Furniture,Chairs,Operator's Chair,£20.87,9
+London-1759,Mr Crowe,30/04/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,2
+York-1894,Mr Swint,20/04/2021,,Furniture,Chairs,Operator's Chair,£20.87,10
+Bristol-1157,Mrs Sayre,10/04/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,1
+Manchester-1174,Mrs Eplett,09/04/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,5
+Manchester-1266,Mr Cooley,29/04/2021,,Furniture,Chairs,Folding Chairs,£15.69,10
+London-1385,Mrs Harrigan,16/04/2021,,Furniture,Chairs,Folding Chairs,£15.69,3
+Newcastle-1457,Mr Takahito,17/04/2021,,Furniture,Chairs,Folding Chairs,£15.69,11
+Manchester-1461,Mr Hughsby,22/04/2021,,Furniture,Chairs,Folding Chairs,£15.69,6
+York-1537,Mrs Patel,03/04/2021,,Furniture,Chairs,Folding Chairs,£15.69,3
+Birmingham-2074,Mrs Abelman,21/04/2021,,Furniture,Chairs,Folding Chairs,£15.69,8
+York-2094,Mr Jackson,15/04/2021,,Furniture,Chairs,Folding Chairs,£15.69,11
+Birmingham-2150,Mr Elijah,16/04/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,2
+York-1288,Mr Dawkins,30/04/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,9
+Manchester-1528,Mr Holt,24/04/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,4
+Birmingham-1728,Mrs Gerbode,25/04/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,10
+Birmingham-1077,Mr Gardner,07/04/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,6
+Bristol-1398,Mr Spruell,01/04/2021,,Furniture,Furnishings,Stackable Tray,£2.60,4
+Newcastle-1458,Mr Seite,17/04/2021,,Furniture,Furnishings,Stackable Tray,£2.60,11
+Edinburgh-1897,Mr Rosenberg,04/04/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,11
+London-2015,Mr Bensley,20/04/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,7
+York-2065,Mr Prichep,25/04/2021,,Furniture,Furnishings,Stackable Tray,£2.60,1
+York-1260,Mr DeMoss,30/04/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,10
+Birmingham-1406,Mr Koutras,14/04/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,8
+London-1422,Mr liebe,16/04/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,10
+Manchester-1461,Mr Hughsby,22/04/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,6
+Manchester-1528,Mr Holt,24/04/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,7
+Manchester-1684,Mr Klamczynski,30/04/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,9
+Bristol-1865,Mr Willingham,15/04/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,4
+Birmingham-2032,Mrs Andreadi,25/04/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,4
+London-1176,Mrs Odegard,09/04/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,6
+Bristol-1596,Mr Ballard,01/04/2021,,Furniture,Furnishings,Desk Lamp,£19.99,11
+Newcastle-1458,Mr Seite,17/04/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,10
+York-1537,Mrs Patel,03/04/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,4
+Manchester-1782,Mr Glantz,28/04/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,5
+Edinburgh-2014,Mr Boyes,20/04/2021,Return Processed,Furniture,Tables,Solid Wood Round Tables,£264.46,1
+York-2065,Mr Prichep,25/04/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,4
+Birmingham-2150,Mr Elijah,16/04/2021,Return Processed,Furniture,Tables,Solid Wood Round Tables,£264.46,7
+London-1075,Mr Webber,07/04/2021,,Furniture,Tables,Round Conference Table,£562.90,7
+Bristol-1157,Mrs Sayre,10/04/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,8
+London-1208,Mrs Chong,09/04/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,2
+Birmingham-1495,Mr Koutras,17/04/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,9
+Edinburgh-2026,Mr DeCherney,17/04/2021,,Furniture,Tables,Round Conference Table,£562.90,3
+Manchester-2084,Mrs Hane,23/04/2021,,Furniture,Tables,Round Conference Table,£562.90,10
+Bristol-1076,Mr Zydlo,07/04/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,3
+Manchester-1872,Mrs Blanton,24/04/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,1
+York-2094,Mr Jackson,15/04/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,7
+York-2132,Mr Cortes,21/04/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,11
+Birmingham-1308,Mrs Eno,13/04/2021,,Furniture,Tables,Desk,£125.33,11
+Edinburgh-1535,Mr Swint,21/04/2021,,Furniture,Tables,Desk,£125.33,11
+London-1738,Mr Reiter,15/04/2021,,Furniture,Tables,Desk,£125.33,6
+Newcastle-2082,Mr Flanagan,23/04/2021,,Furniture,Tables,Desk,£125.33,4
+London-1075,Mr Webber,07/04/2021,,Office Supplies,Appliances,Vaccuum,£605.39,7
+Edinburgh-1146,Mrs Goranitis,22/04/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,10
+London-1156,Mr Rawles,10/04/2021,,Office Supplies,Appliances,Vaccuum,£605.39,3
+London-1265,Mrs Nockton,24/04/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,10
+London-1738,Mr Reiter,15/04/2021,,Office Supplies,Appliances,Vaccuum,£605.39,9
+Bristol-1769,Mr Webber,08/04/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,3
+Manchester-1172,Mrs Monton,09/04/2021,,Office Supplies,Appliances,Refrigerator,£897.65,2
+Newcastle-1460,Mr Wendt,17/04/2021,,Office Supplies,Appliances,Refrigerator,£897.65,7
+Birmingham-1478,Mrs Hazard,27/04/2021,,Office Supplies,Appliances,Refrigerator,£897.65,10
+Birmingham-1787,Mr Tillman,01/04/2021,,Office Supplies,Appliances,Refrigerator,£897.65,8
+Newcastle-1079,Mr Olsen,07/04/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,6
+Manchester-1164,Mrs Baptist,14/04/2021,,Office Supplies,Appliances,Microwave,£104.58,8
+Birmingham-1308,Mrs Eno,13/04/2021,,Office Supplies,Appliances,Microwave,£104.58,11
+Newcastle-1354,Mrs Nockton,01/04/2021,,Office Supplies,Appliances,Microwave,£104.58,7
+Birmingham-1397,Mrs Grace,01/04/2021,,Office Supplies,Appliances,Microwave,£104.58,9
+Bristol-1398,Mr Spruell,01/04/2021,,Office Supplies,Appliances,Microwave,£104.58,4
+Newcastle-1458,Mr Seite,17/04/2021,,Office Supplies,Appliances,Microwave,£104.58,1
+Manchester-2030,Mrs Goldwyn,17/04/2021,,Office Supplies,Appliances,Microwave,£104.58,7
+London-1227,Mr Hwang,26/04/2021,,Office Supplies,Art,Pens,£5.69,6
+Newcastle-1459,Mr Staavos,17/04/2021,,Office Supplies,Art,Pens,£5.69,4
+Newcastle-1876,Mr Gute,23/04/2021,,Office Supplies,Art,Pens,£5.69,2
+York-2038,Mr Hallsten,04/04/2021,,Office Supplies,Art,Pens,£5.69,8
+Birmingham-2074,Mrs Abelman,21/04/2021,,Office Supplies,Art,Pens,£5.69,3
+Manchester-1172,Mrs Monton,09/04/2021,,Office Supplies,Art,Post-its,£3.33,3
+Manchester-1174,Mrs Eplett,09/04/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,3
+Birmingham-1308,Mrs Eno,13/04/2021,,Office Supplies,Art,Post-its,£3.33,1
+Newcastle-1353,Mr Matthias,01/04/2021,,Office Supplies,Art,Post-its,£3.33,10
+Birmingham-1453,Mrs Andreadi,26/04/2021,,Office Supplies,Art,Post-its,£3.33,3
+Manchester-1463,Mrs Meador,02/04/2021,,Office Supplies,Art,Post-its,£3.33,11
+Manchester-1871,Mrs Eno,01/04/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,11
+Newcastle-1895,Mr Barnes,20/04/2021,,Office Supplies,Art,Post-its,£3.33,9
+Edinburgh-1897,Mr Rosenberg,04/04/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,11
+Manchester-2084,Mrs Hane,23/04/2021,,Office Supplies,Art,Post-its,£3.33,11
+Birmingham-1261,Mr Hawley,30/04/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,6
+Bristol-1301,Mr Shagiari,11/04/2021,,Office Supplies,Art,Highlighters,£2.69,10
+London-1422,Mr liebe,16/04/2021,,Office Supplies,Art,Highlighters,£2.69,5
+Birmingham-1428,Mr Häberlin,30/04/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,7
+London-1553,Mrs Karlsson,23/04/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,5
+York-2013,Mrs Patel,20/04/2021,,Office Supplies,Art,Highlighters,£2.69,2
+Manchester-1165,Mr Stewart,14/04/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,4
+London-1227,Mr Hwang,26/04/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,5
+Birmingham-1308,Mrs Eno,13/04/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,11
+Bristol-1628,Mr Edelman,09/04/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,5
+Birmingham-1758,Mr MacKendrick,30/04/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,10
+Bristol-1865,Mr Willingham,15/04/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,6
+Newcastle-1895,Mr Barnes,20/04/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,8
+Bristol-1917,Mr Badders,04/04/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,7
+Bristol-1082,Mr Häberlin,15/04/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,4
+Edinburgh-1146,Mrs Goranitis,22/04/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,8
+London-1176,Mrs Odegard,09/04/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,2
+Manchester-1207,Mr Thornton,09/04/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,11
+Newcastle-1299,Mr Goldenen,11/04/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,8
+Manchester-1344,Mr Venier,16/04/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,3
+Bristol-1628,Mr Edelman,09/04/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,1
+Bristol-1660,Mrs Perrino,08/04/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,1
+London-1870,Mrs Pawlan,24/04/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,6
+Bristol-2135,Mr Gastineau,20/04/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,11
+Bristol-1301,Mr Shagiari,11/04/2021,,Office Supplies,Fasteners,Push Pins,£2.69,1
+Birmingham-1307,Mr Sunley,13/04/2021,,Office Supplies,Fasteners,Push Pins,£2.69,9
+Manchester-1461,Mr Hughsby,22/04/2021,,Office Supplies,Fasteners,Push Pins,£2.69,4
+Birmingham-1478,Mrs Hazard,27/04/2021,,Office Supplies,Fasteners,Push Pins,£2.69,4
+Bristol-1628,Mr Edelman,09/04/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,7
+Newcastle-1079,Mr Olsen,07/04/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,7
+Manchester-1164,Mrs Baptist,14/04/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,8
+Birmingham-1406,Mr Koutras,14/04/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,2
+London-1553,Mrs Karlsson,23/04/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,11
+Edinburgh-1613,Mr Ryan,01/04/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,7
+London-1779,Mr Delaney,25/04/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,9
+Newcastle-1895,Mr Barnes,20/04/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,2
+Edinburgh-1920,Mr Gordon,10/04/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,5
+York-2027,Mrs Prescott,17/04/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,11
+Manchester-2084,Mrs Hane,23/04/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,8
+Manchester-1344,Mr Venier,16/04/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,1
+London-1422,Mr liebe,16/04/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,1
+Newcastle-1515,Mr Minnotte,10/04/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,7
+Newcastle-1768,Mrs Kunitz,08/04/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,5
+Bristol-1917,Mr Badders,04/04/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,1
+Manchester-2030,Mrs Goldwyn,17/04/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,8
+Birmingham-2032,Mrs Andreadi,25/04/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,2
+York-2094,Mr Jackson,15/04/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,9
+Bristol-2135,Mr Gastineau,20/04/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,10
+York-1173,Mrs Poddar,09/04/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+Birmingham-1261,Mr Hawley,30/04/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+Manchester-1344,Mr Venier,16/04/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+London-1534,Mrs Conant,21/04/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,10
+York-1789,Mr Stewart,01/04/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,5
+Newcastle-1896,Mrs Nunn,20/04/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,10
+Edinburgh-2026,Mr DeCherney,17/04/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,8
+Manchester-2084,Mrs Hane,23/04/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,3
+Manchester-1174,Mrs Eplett,09/04/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,3
+Bristol-1175,Mr Hightower,09/04/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,4
+London-1227,Mr Hwang,26/04/2021,,Office Supplies,Paper,Parchment Paper,£2.65,6
+Edinburgh-1286,Mr Armstrong,30/04/2021,,Office Supplies,Paper,Parchment Paper,£2.65,7
+York-1569,Mr Medina,08/04/2021,,Office Supplies,Paper,Parchment Paper,£2.65,5
+Newcastle-1842,Mr Ballentine,10/04/2021,,Office Supplies,Paper,Parchment Paper,£2.65,11
+Newcastle-1459,Mr Staavos,17/04/2021,,Office Supplies,Paper,Xerox 1897,£2.55,10
+Birmingham-1492,Mr Sievert,16/04/2021,,Office Supplies,Paper,Xerox 1897,£2.55,11
+Bristol-1421,Mr Coram,16/04/2021,,Office Supplies,Paper,Xerox 1901,£2.65,8
+Newcastle-1458,Mr Seite,17/04/2021,,Office Supplies,Paper,Xerox 1901,£2.65,7
+Manchester-1684,Mr Klamczynski,30/04/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,5
+London-1156,Mr Rawles,10/04/2021,,Office Supplies,Paper,Xerox 1925,£2.80,5
+Manchester-1172,Mrs Monton,09/04/2021,,Office Supplies,Paper,Xerox 1925,£2.80,1
+Bristol-1398,Mr Spruell,01/04/2021,,Office Supplies,Paper,Xerox 1925,£2.80,3
+Newcastle-2082,Mr Flanagan,23/04/2021,,Office Supplies,Paper,Xerox 1925,£2.80,3
+Manchester-1174,Mrs Eplett,09/04/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,1
+London-1176,Mrs Odegard,09/04/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,2
+Birmingham-1787,Mr Tillman,01/04/2021,,Office Supplies,Paper,Xerox 1933,£3.97,8
+Bristol-1235,Mr Dartt,12/04/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,9
+Birmingham-1453,Mrs Andreadi,26/04/2021,,Office Supplies,Paper,Xerox 1936,£4.87,9
+York-2027,Mrs Prescott,17/04/2021,,Office Supplies,Paper,Xerox 1936,£4.87,6
+Bristol-2064,Mrs Roberts,29/04/2021,,Office Supplies,Paper,Xerox 1936,£4.87,2
+Birmingham-2150,Mr Elijah,16/04/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,1
+Birmingham-1217,Mr Hudgings,02/04/2021,,Office Supplies,Paper,Xerox 194,£5.17,8
+Newcastle-1353,Mr Matthias,01/04/2021,,Office Supplies,Paper,Xerox 194,£5.17,11
+London-1779,Mr Delaney,25/04/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,2
+London-1870,Mrs Pawlan,24/04/2021,,Office Supplies,Paper,Xerox 194,£5.17,6
+Newcastle-1876,Mr Gute,23/04/2021,,Office Supplies,Paper,Xerox 194,£5.17,1
+Newcastle-1896,Mrs Nunn,20/04/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,3
+York-1189,Mr Cox,21/04/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,4
+Birmingham-1261,Mr Hawley,30/04/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,5
+York-1436,Mr Zettner,08/04/2021,,Office Supplies,Paper,Xerox 1951,£5.67,11
+Newcastle-1460,Mr Wendt,17/04/2021,,Office Supplies,Paper,Xerox 1951,£5.67,8
+Manchester-1528,Mr Holt,24/04/2021,,Office Supplies,Paper,Xerox 1951,£5.67,5
+York-1537,Mrs Patel,03/04/2021,,Office Supplies,Paper,Xerox 1951,£5.67,6
+Newcastle-1619,Mrs Wener,11/04/2021,,Office Supplies,Paper,Xerox 1951,£5.67,8
+Birmingham-1787,Mr Tillman,01/04/2021,,Office Supplies,Paper,Xerox 1951,£5.67,7
+Birmingham-1397,Mrs Grace,01/04/2021,,Office Supplies,Paper,Xerox 1974,£5.99,2
+London-1491,Mr Bell,16/04/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,6
+Bristol-1824,Mr DeCherney,14/04/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,5
+Bristol-1917,Mr Badders,04/04/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,4
+York-2027,Mrs Prescott,17/04/2021,,Office Supplies,Paper,Xerox 1974,£5.99,2
+Manchester-1165,Mr Stewart,14/04/2021,,Office Supplies,Paper,Xerox 1979,£6.45,1
+London-1493,Mr Blumstein,16/04/2021,,Office Supplies,Paper,Xerox 1979,£6.45,11
+Newcastle-1515,Mr Minnotte,10/04/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,3
+York-1595,Mr Baird,01/04/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,3
+York-1189,Mr Cox,21/04/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,4
+Bristol-1301,Mr Shagiari,11/04/2021,,Office Supplies,Paper,Xerox 200,£6.52,10
+Bristol-1660,Mrs Perrino,08/04/2021,,Office Supplies,Paper,Xerox 200,£6.52,4
+Newcastle-1800,Mr Black,30/04/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,5
+York-2065,Mr Prichep,25/04/2021,,Office Supplies,Paper,Xerox 200,£6.52,10
+Newcastle-1287,Mr Fortune,30/04/2021,,Office Supplies,Paper,Xerox 2000,£6.89,3
+Newcastle-1353,Mr Matthias,01/04/2021,,Office Supplies,Paper,Xerox 2000,£6.89,8
+London-1385,Mrs Harrigan,16/04/2021,,Office Supplies,Paper,Xerox 2000,£6.89,2
+York-1436,Mr Zettner,08/04/2021,,Office Supplies,Paper,Xerox 2000,£6.89,3
+London-1651,Mr Chapman,30/04/2021,,Office Supplies,Paper,Xerox 2000,£6.89,9
+Manchester-2084,Mrs Hane,23/04/2021,,Office Supplies,Paper,Xerox 2000,£6.89,7
+Newcastle-1619,Mrs Wener,11/04/2021,,Office Supplies,Paper,Xerox 208,£7.14,1
+Bristol-1628,Mr Edelman,09/04/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,8
+Newcastle-1895,Mr Barnes,20/04/2021,,Office Supplies,Paper,Xerox 208,£7.14,1
+London-1075,Mr Webber,07/04/2021,,Office Supplies,Paper,Xerox 219,£7.50,6
+Newcastle-1190,Mrs Kelty,21/04/2021,,Office Supplies,Paper,Xerox 219,£7.50,4
+London-1395,Mr Edelman,23/04/2021,,Office Supplies,Paper,Xerox 219,£7.50,2
+London-1396,Mr Arnett,23/04/2021,,Office Supplies,Paper,Xerox 219,£7.50,5
+Newcastle-1896,Mrs Nunn,20/04/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,10
+Newcastle-2106,Mrs Trafton,10/04/2021,,Office Supplies,Paper,Xerox 219,£7.50,8
+Bristol-1157,Mrs Sayre,10/04/2021,Return Processed,Office Supplies,Paper,Xerox 221,£7.80,1
+Newcastle-1460,Mr Wendt,17/04/2021,,Office Supplies,Paper,Xerox 221,£7.80,11
+Bristol-1660,Mrs Perrino,08/04/2021,,Office Supplies,Paper,Xerox 221,£7.80,7
+Newcastle-1800,Mr Black,30/04/2021,Return Processed,Office Supplies,Paper,Xerox 221,£7.80,5
+Edinburgh-1801,Mr Blumstein,24/04/2021,,Office Supplies,Paper,Xerox 221,£7.80,7
+York-2038,Mr Hallsten,04/04/2021,,Office Supplies,Paper,Xerox 221,£7.80,1
+Manchester-1171,Mr Hood,09/04/2021,Return Processed,Office Supplies,Paper,Xerox 232,£7.99,7
+Birmingham-1758,Mr MacKendrick,30/04/2021,,Office Supplies,Paper,Xerox 232,£7.99,3
+London-1779,Mr Delaney,25/04/2021,Return Processed,Office Supplies,Paper,Xerox 232,£7.99,8
+Birmingham-1077,Mr Gardner,07/04/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,2
+Manchester-1209,Mr Mitchum,09/04/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,4
+Newcastle-1460,Mr Wendt,17/04/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,5
+Newcastle-2029,Mrs Hughes,17/04/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,7
+York-1189,Mr Cox,21/04/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,9
+York-1260,Mr DeMoss,30/04/2021,,Office Supplies,Storage,Lockers,£89.97,6
+York-1288,Mr Dawkins,30/04/2021,,Office Supplies,Storage,Lockers,£89.97,10
+Bristol-1301,Mr Shagiari,11/04/2021,,Office Supplies,Storage,Lockers,£89.97,10
+Manchester-1384,Mr Pistek,16/04/2021,,Office Supplies,Storage,Lockers,£89.97,6
+Newcastle-1460,Mr Wendt,17/04/2021,,Office Supplies,Storage,Lockers,£89.97,2
+Newcastle-1654,Mr Olsen,27/04/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,7
+London-1759,Mr Crowe,30/04/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,5
+Bristol-1788,Mr Jarboe,01/04/2021,,Office Supplies,Storage,Lockers,£89.97,2
+Newcastle-1190,Mrs Kelty,21/04/2021,,Technology,Accessories,USB Wired Mouse,£5.99,11
+London-1227,Mr Hwang,26/04/2021,,Technology,Accessories,USB Wired Mouse,£5.99,11
+Bristol-1235,Mr Dartt,12/04/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,10
+Bristol-1301,Mr Shagiari,11/04/2021,,Technology,Accessories,USB Wired Mouse,£5.99,2
+London-1759,Mr Crowe,30/04/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,11
+Newcastle-1768,Mrs Kunitz,08/04/2021,,Technology,Accessories,USB Wired Mouse,£5.99,4
+Bristol-2064,Mrs Roberts,29/04/2021,,Technology,Accessories,USB Wired Mouse,£5.99,5
+Newcastle-1078,Mrs Stobb,07/04/2021,Return Processed,Technology,Accessories,Keyboard,£19.94,5
+London-1300,Mr Ferrer,11/04/2021,,Technology,Accessories,Keyboard,£19.94,7
+Birmingham-1308,Mrs Eno,13/04/2021,,Technology,Accessories,Keyboard,£19.94,6
+London-1323,Mr Wasserman,20/04/2021,,Technology,Accessories,Keyboard,£19.94,4
+Manchester-1344,Mr Venier,16/04/2021,,Technology,Accessories,Keyboard,£19.94,1
+Manchester-1480,Mr Zypern,14/04/2021,,Technology,Accessories,Keyboard,£19.94,5
+Bristol-1655,Mrs Rupert,27/04/2021,,Technology,Accessories,Keyboard,£19.94,6
+Edinburgh-1790,Mr Hildebrand,01/04/2021,,Technology,Accessories,Keyboard,£19.94,11
+Birmingham-2028,Mrs Bowman,17/04/2021,,Technology,Accessories,Keyboard,£19.94,8
+Bristol-1076,Mr Zydlo,07/04/2021,,Technology,Accessories,PC Headset,£45.89,10
+Edinburgh-1801,Mr Blumstein,24/04/2021,,Technology,Accessories,PC Headset,£45.89,9
+York-2038,Mr Hallsten,04/04/2021,,Technology,Accessories,PC Headset,£45.89,7
+London-1070,Mr Pistek,21/04/2021,,Technology,Machines,Videoconferencing Unit,£168.76,6
+Manchester-1463,Mrs Meador,02/04/2021,,Technology,Machines,Videoconferencing Unit,£168.76,2
+Bristol-1655,Mrs Rupert,27/04/2021,,Technology,Machines,Videoconferencing Unit,£168.76,5
+Bristol-1788,Mr Jarboe,01/04/2021,,Technology,Machines,Videoconferencing Unit,£168.76,1
+Edinburgh-1801,Mr Blumstein,24/04/2021,,Technology,Machines,Videoconferencing Unit,£168.76,9
+London-1070,Mr Pistek,21/04/2021,,Technology,Machines,Shredder,£65.49,4
+Birmingham-1453,Mrs Andreadi,26/04/2021,,Technology,Machines,Shredder,£65.49,6
+York-1789,Mr Stewart,01/04/2021,,Technology,Machines,Shredder,£65.49,5
+Newcastle-2029,Mrs Hughes,17/04/2021,,Technology,Machines,Shredder,£65.49,4
+Birmingham-1263,Mr Creighton,24/04/2021,,Technology,Machines,Printer,£129.99,2
+Bristol-1398,Mr Spruell,01/04/2021,,Technology,Machines,Printer,£129.99,8
+Manchester-1435,Mr Bzostek,08/04/2021,,Technology,Machines,Printer,£129.99,1
+York-1982,Mrs Messe,23/04/2021,,Technology,Machines,Printer,£129.99,1
+Birmingham-1248,Mrs Ludwig,16/04/2021,,Technology,Phones,Speakerphone,£79.46,5
+Birmingham-1261,Mr Hawley,30/04/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,9
+London-1422,Mr liebe,16/04/2021,,Technology,Phones,Speakerphone,£79.46,4
+Birmingham-1428,Mr Häberlin,30/04/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,4
+Birmingham-1453,Mrs Andreadi,26/04/2021,,Technology,Phones,Speakerphone,£79.46,10
+Edinburgh-1916,Mrs Pippenger,04/04/2021,,Technology,Phones,Speakerphone,£79.46,1
+Bristol-1157,Mrs Sayre,10/04/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,3
+London-1300,Mr Ferrer,11/04/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,3
+Birmingham-1428,Mr Häberlin,30/04/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,9
+London-1491,Mr Bell,16/04/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,8
+Bristol-1082,Mr Häberlin,15/04/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,5
+York-1288,Mr Dawkins,30/04/2021,,Technology,Phones,Bluetooth Headset,£86.99,1
+Newcastle-1354,Mrs Nockton,01/04/2021,,Technology,Phones,Bluetooth Headset,£86.99,3
+London-2015,Mr Bensley,20/04/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,8
+York-2038,Mr Hallsten,04/04/2021,,Technology,Phones,Bluetooth Headset,£86.99,6
+London-1396,Mr Arnett,23/04/2021,,Technology,Phones,Motorola L703CM,£356.99,10
+York-1436,Mr Zettner,08/04/2021,,Technology,Phones,Motorola L703CM,£356.99,3
+Birmingham-1454,Mr Zypern,26/04/2021,,Technology,Phones,Motorola L703CM,£356.99,8
+Newcastle-1458,Mr Seite,17/04/2021,,Technology,Phones,Motorola L703CM,£356.99,1
+York-1595,Mr Baird,01/04/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,3
+York-1894,Mr Swint,20/04/2021,,Technology,Phones,Motorola L703CM,£356.99,3
+Bristol-1236,Mrs Pelletier,12/04/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,5
+Manchester-1461,Mr Hughsby,22/04/2021,,Technology,Phones,Motorola L804,£459.67,1
+York-1507,Mr Sorensen,30/04/2021,,Technology,Phones,Motorola L804,£459.67,8
+Newcastle-1515,Mr Minnotte,10/04/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,5
+Birmingham-1728,Mrs Gerbode,25/04/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,2
+Bristol-1157,Mrs Sayre,10/04/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,4
+London-1167,Mrs Dilbeck,03/04/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,3
+Birmingham-1758,Mr MacKendrick,30/04/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,3
+Newcastle-1919,Mr Bolton,10/04/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,8
+Edinburgh-1920,Mr Gordon,10/04/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,4
+Manchester-1174,Mrs Eplett,09/04/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,3
+Manchester-1435,Mr Bzostek,08/04/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,5
+Newcastle-1895,Mr Barnes,20/04/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,2
+Newcastle-1896,Mrs Nunn,20/04/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,11
+Edinburgh-1916,Mrs Pippenger,04/04/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,6
+York-1982,Mrs Messe,23/04/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,9
+Birmingham-2073,Mr Currie,30/04/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,2
+York-1260,Mr DeMoss,30/04/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,5
+Bristol-1301,Mr Shagiari,11/04/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,2
+Birmingham-1397,Mrs Grace,01/04/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,4
+Manchester-1463,Mrs Meador,02/04/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,8
+Bristol-1481,Mr Klamczynski,14/04/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,4
+York-1507,Mr Sorensen,30/04/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,2
+Bristol-1660,Mrs Perrino,08/04/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,9
+Bristol-1769,Mr Webber,08/04/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,2
+Manchester-2084,Mrs Hane,23/04/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,9
+Manchester-1656,Mr Sewall,27/04/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,9
+Birmingham-1781,Mr Packer,28/04/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,9
+Edinburgh-2014,Mr Boyes,20/04/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,5
+Edinburgh-1063,Mrs Braun,15/04/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,11
+London-1491,Mr Bell,16/04/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,6
+London-1394,Mrs Holloman,13/05/2021,,Furniture,Bookcases,Bookcase,£60.07,1
+London-1523,Mr Häberlin,19/05/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,10
+Newcastle-1526,Mr Thurman,03/05/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,6
+Newcastle-1588,Mr McGarr,14/05/2021,,Furniture,Bookcases,Bookcase,£60.07,11
+London-1696,Mrs Perrino,23/05/2021,,Furniture,Bookcases,Bookcase,£60.07,9
+Newcastle-1918,Mr Bergmann,19/05/2021,,Furniture,Bookcases,Bookcase,£60.07,11
+Edinburgh-1226,Mrs Nockton,04/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,11
+Manchester-1358,Mr Voltz,13/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,3
+York-1371,Mr Fisher,04/05/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,8
+London-1391,Mrs Overfelt,13/05/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,1
+Birmingham-1575,Mr Wooten,16/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,6
+York-1632,Mrs Hagelstein,18/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,2
+Manchester-1859,Mr Harms,19/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,5
+Birmingham-1903,Mrs Holloman,29/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,4
+Newcastle-1928,Mrs Tron,14/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,1
+York-2071,Mr Lanier,04/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,7
+Edinburgh-2104,Mr Hwang,30/05/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,2
+Birmingham-2136,Mr Coakley,03/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,7
+Newcastle-2174,Mr Chance,25/05/2021,,Furniture,Chairs,Armless Task Chair,£37.75,8
+Bristol-1496,Mr Delaney,08/05/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,10
+London-1547,Mr Thurman,07/05/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,11
+London-1770,Mrs Jordon,27/05/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,3
+London-1804,Mrs Halladay,22/05/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,7
+Edinburgh-1997,Mr Tillman,12/05/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,9
+Bristol-2105,Mr Prichep,30/05/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,5
+Bristol-1148,Mr Bickford,14/05/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,2
+York-1200,Mr Turnell,14/05/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,11
+Newcastle-1622,Mr Hwang,20/05/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,7
+Edinburgh-1942,Mr Braxton,14/05/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,6
+Edinburgh-1945,Mr Grady,14/05/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,6
+Edinburgh-2104,Mr Hwang,30/05/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,5
+York-1170,Mr Phonely,15/05/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,9
+Birmingham-1225,Mr Zydlo,04/05/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,11
+Manchester-1393,Mrs Ward,13/05/2021,,Furniture,Chairs,Operator's Chair,£20.87,10
+Birmingham-1575,Mr Wooten,16/05/2021,,Furniture,Chairs,Operator's Chair,£20.87,6
+Newcastle-1622,Mr Hwang,20/05/2021,,Furniture,Chairs,Operator's Chair,£20.87,5
+Bristol-1802,Mr Brown,22/05/2021,,Furniture,Chairs,Operator's Chair,£20.87,2
+London-1804,Mrs Halladay,22/05/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,7
+London-1843,Mr Allen,12/05/2021,,Furniture,Chairs,Operator's Chair,£20.87,5
+Birmingham-1929,Mrs Jumper,14/05/2021,,Furniture,Chairs,Operator's Chair,£20.87,3
+Edinburgh-1383,Mr Ludtke,02/05/2021,,Furniture,Chairs,Folding Chairs,£15.69,11
+Newcastle-1546,Mr Bremer,07/05/2021,,Furniture,Chairs,Folding Chairs,£15.69,5
+Birmingham-1575,Mr Wooten,16/05/2021,,Furniture,Chairs,Folding Chairs,£15.69,8
+Edinburgh-1630,Mr Dona,18/05/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,11
+Newcastle-1737,Mrs Benoit,05/05/2021,,Furniture,Chairs,Folding Chairs,£15.69,3
+London-1926,Mrs Lichtenstein,30/05/2021,,Furniture,Chairs,Folding Chairs,£15.69,11
+Edinburgh-2044,Mrs Jones,26/05/2021,,Furniture,Chairs,Folding Chairs,£15.69,11
+York-2045,Mr Donatelli,26/05/2021,,Furniture,Chairs,Folding Chairs,£15.69,7
+Birmingham-1252,Mr liebe,08/05/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,10
+Manchester-1592,Mr Tillman,18/05/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,8
+London-1594,Mr Braden,18/05/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,3
+Newcastle-1622,Mr Hwang,20/05/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,2
+London-1623,Mr Christensen,20/05/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,11
+Newcastle-1724,Mrs Eplett,19/05/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,3
+Birmingham-1878,Mrs Dilbeck,19/05/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,3
+Manchester-2101,Mrs Kelty,02/05/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,1
+Manchester-1168,Mr Raglin,15/05/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,5
+York-1169,Mr Brooks,15/05/2021,,Furniture,Furnishings,Stackable Tray,£2.60,9
+York-1371,Mr Fisher,04/05/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,7
+Birmingham-1470,Mr Grady,27/05/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,1
+Bristol-1899,Mr Rawles,28/05/2021,,Furniture,Furnishings,Stackable Tray,£2.60,4
+London-1926,Mrs Lichtenstein,30/05/2021,,Furniture,Furnishings,Stackable Tray,£2.60,11
+London-1931,Mr Arnett,14/05/2021,,Furniture,Furnishings,Stackable Tray,£2.60,9
+Bristol-1968,Mrs Fjeld,14/05/2021,,Furniture,Furnishings,Stackable Tray,£2.60,8
+Newcastle-1548,Mr Weien,07/05/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,10
+Newcastle-1672,Mr Baird,11/05/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,11
+Edinburgh-1277,Mr Knutson,12/05/2021,,Furniture,Furnishings,Desk Lamp,£19.99,6
+Newcastle-1439,Mr Kennedy,19/05/2021,,Furniture,Furnishings,Desk Lamp,£19.99,4
+Bristol-1593,Mr Maddox,18/05/2021,,Furniture,Furnishings,Desk Lamp,£19.99,10
+Birmingham-1879,Mr Brown,20/05/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,8
+London-1931,Mr Arnett,14/05/2021,,Furniture,Furnishings,Desk Lamp,£19.99,4
+London-1430,Mr Schnelling,06/05/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,10
+Birmingham-1441,Mr Bixby,19/05/2021,Return Processed,Furniture,Tables,Solid Wood Round Tables,£264.46,11
+Edinburgh-1711,Mr Raglin,07/05/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,3
+London-1908,Mrs Philippe,05/05/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,5
+Newcastle-1548,Mr Weien,07/05/2021,,Furniture,Tables,Round Conference Table,£562.90,1
+York-1632,Mrs Hagelstein,18/05/2021,,Furniture,Tables,Round Conference Table,£562.90,8
+Newcastle-1672,Mr Baird,11/05/2021,,Furniture,Tables,Round Conference Table,£562.90,1
+Birmingham-1695,Mrs Benoit,23/05/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,6
+London-1803,Mr Seite,22/05/2021,,Furniture,Tables,Round Conference Table,£562.90,11
+London-1905,Mr Delaney,05/05/2021,,Furniture,Tables,Round Conference Table,£562.90,5
+Birmingham-1933,Mrs Kendrick,27/05/2021,,Furniture,Tables,Round Conference Table,£562.90,10
+Bristol-1934,Mrs Ludwig,27/05/2021,,Furniture,Tables,Round Conference Table,£562.90,7
+Manchester-2103,Mrs Hoffman,30/05/2021,,Furniture,Tables,Round Conference Table,£562.90,10
+York-1374,Mrs Hughes,04/05/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,3
+Newcastle-1527,Mrs Mills,03/05/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Bristol-1593,Mr Maddox,18/05/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Birmingham-1621,Mr Duston,20/05/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,2
+York-1639,Mr Sissman,23/05/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,3
+Manchester-1751,Mr Hallsten,05/05/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,1
+Manchester-2001,Mrs Calhoun,25/05/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,11
+Bristol-2091,Mr DeVincentis,11/05/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,8
+Birmingham-1587,Mr Wiener,14/05/2021,,Furniture,Tables,Desk,£125.33,11
+Birmingham-1695,Mrs Benoit,23/05/2021,Return Processed,Furniture,Tables,Desk,£125.33,1
+Newcastle-1724,Mrs Eplett,19/05/2021,,Furniture,Tables,Desk,£125.33,10
+Newcastle-1918,Mr Bergmann,19/05/2021,,Furniture,Tables,Desk,£125.33,6
+Bristol-1934,Mrs Ludwig,27/05/2021,,Furniture,Tables,Desk,£125.33,6
+Bristol-2100,Mr Campbell,02/05/2021,,Furniture,Tables,Desk,£125.33,10
+Manchester-1358,Mr Voltz,13/05/2021,,Office Supplies,Appliances,Vaccuum,£605.39,4
+York-1373,Mr Spruell,04/05/2021,,Office Supplies,Appliances,Vaccuum,£605.39,11
+Birmingham-1401,Mrs Trafton,15/05/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,11
+Edinburgh-2144,Mr Ludtke,06/05/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,7
+Manchester-1089,Mr Cooley,29/05/2021,Return Processed,Office Supplies,Appliances,Refrigerator,£897.65,10
+York-1374,Mrs Hughes,04/05/2021,,Office Supplies,Appliances,Refrigerator,£897.65,2
+London-1440,Mr Brandow,19/05/2021,Return Processed,Office Supplies,Appliances,Refrigerator,£897.65,4
+Newcastle-1925,Mr Pistek,30/05/2021,,Office Supplies,Appliances,Refrigerator,£897.65,3
+Bristol-1968,Mrs Fjeld,14/05/2021,,Office Supplies,Appliances,Refrigerator,£897.65,8
+Bristol-2085,Mr Bergman,22/05/2021,,Office Supplies,Appliances,Refrigerator,£897.65,6
+York-1179,Mr Childs,21/05/2021,,Office Supplies,Appliances,Microwave,£104.58,5
+York-1633,Mr Schneider,18/05/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,6
+Bristol-1968,Mrs Fjeld,14/05/2021,,Office Supplies,Appliances,Microwave,£104.58,7
+York-2071,Mr Lanier,04/05/2021,,Office Supplies,Appliances,Microwave,£104.58,5
+Edinburgh-1180,Mr Zettner,21/05/2021,,Office Supplies,Art,Pens,£5.69,6
+Bristol-1496,Mr Delaney,08/05/2021,,Office Supplies,Art,Pens,£5.69,5
+Manchester-1506,Mr Barnett,29/05/2021,,Office Supplies,Art,Pens,£5.69,10
+London-1524,Mr Gainer,19/05/2021,,Office Supplies,Art,Pens,£5.69,8
+Edinburgh-1624,Mr Haines,20/05/2021,,Office Supplies,Art,Pens,£5.69,7
+Newcastle-1935,Mr Currie,27/05/2021,,Office Supplies,Art,Pens,£5.69,8
+Manchester-1358,Mr Voltz,13/05/2021,,Office Supplies,Art,Post-its,£3.33,8
+London-1931,Mr Arnett,14/05/2021,,Office Supplies,Art,Post-its,£3.33,4
+London-1944,Mr DeVincentis,14/05/2021,,Office Supplies,Art,Post-its,£3.33,7
+Bristol-2100,Mr Campbell,02/05/2021,,Office Supplies,Art,Post-its,£3.33,2
+London-1452,Mr Allen,04/05/2021,,Office Supplies,Art,Highlighters,£2.69,10
+London-1523,Mr Häberlin,19/05/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,9
+London-1696,Mrs Perrino,23/05/2021,,Office Supplies,Art,Highlighters,£2.69,9
+London-2034,Mr Catini,20/05/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,9
+Bristol-2100,Mr Campbell,02/05/2021,,Office Supplies,Art,Highlighters,£2.69,1
+Bristol-2137,Mr Schneider,03/05/2021,,Office Supplies,Art,Highlighters,£2.69,8
+London-1438,Mr Crier,19/05/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,6
+Birmingham-1470,Mr Grady,27/05/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,8
+York-1633,Mr Schneider,18/05/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,2
+Edinburgh-1711,Mr Raglin,07/05/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,7
+Bristol-1780,Mr Tyler,19/05/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,6
+London-1803,Mr Seite,22/05/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,8
+Newcastle-1902,Mr Willman,29/05/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,8
+London-1905,Mr Delaney,05/05/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,7
+Birmingham-2000,Mr Davis,12/05/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,8
+Edinburgh-2044,Mrs Jones,26/05/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,11
+Edinburgh-2104,Mr Hwang,30/05/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,7
+London-1224,Mrs McAfee,04/05/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,1
+Newcastle-1548,Mr Weien,07/05/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,9
+Bristol-1562,Mrs Martinez,18/05/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,2
+York-1629,Mr liebe,18/05/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,7
+Bristol-1771,Mrs McAfee,27/05/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,1
+York-1400,Mr Crebassa,15/05/2021,,Office Supplies,Fasteners,Push Pins,£2.69,2
+Bristol-1593,Mr Maddox,18/05/2021,,Office Supplies,Fasteners,Push Pins,£2.69,7
+Manchester-1636,Mr Triggs,08/05/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,11
+Bristol-1712,Mr Thornton,11/05/2021,,Office Supplies,Fasteners,Push Pins,£2.69,6
+York-1750,Mr Ritter,05/05/2021,,Office Supplies,Fasteners,Push Pins,£2.69,2
+Birmingham-1752,Mr Stivers,05/05/2021,,Office Supplies,Fasteners,Push Pins,£2.69,10
+Edinburgh-2044,Mrs Jones,26/05/2021,,Office Supplies,Fasteners,Push Pins,£2.69,6
+York-1629,Mr liebe,18/05/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,4
+London-1694,Mr Hirasaki,23/05/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,10
+York-1750,Mr Ritter,05/05/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,9
+Bristol-1900,Mr Carreira,29/05/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,10
+London-1931,Mr Arnett,14/05/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,8
+Bristol-1496,Mr Delaney,08/05/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,6
+Manchester-1555,Mrs Baptist,01/05/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,8
+Newcastle-1798,Mrs Marie,15/05/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,5
+London-1905,Mr Delaney,05/05/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,3
+York-2045,Mr Donatelli,26/05/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,6
+Newcastle-2174,Mr Chance,25/05/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,4
+York-1374,Mrs Hughes,04/05/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,9
+London-1391,Mrs Overfelt,13/05/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,1
+Birmingham-1470,Mr Grady,27/05/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+Newcastle-1588,Mr McGarr,14/05/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+London-1908,Mrs Philippe,05/05/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,9
+Newcastle-1918,Mr Bergmann,19/05/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+Birmingham-1929,Mrs Jumper,14/05/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,2
+York-1170,Mr Phonely,15/05/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,3
+Birmingham-1252,Mr liebe,08/05/2021,,Office Supplies,Paper,Parchment Paper,£2.65,8
+Birmingham-1359,Mr Akin,28/05/2021,,Office Supplies,Paper,Parchment Paper,£2.65,11
+Edinburgh-1540,Mr Collins,12/05/2021,,Office Supplies,Paper,Parchment Paper,£2.65,8
+Manchester-1583,Mr Minnotte,06/05/2021,,Office Supplies,Paper,Parchment Paper,£2.65,11
+Newcastle-1622,Mr Hwang,20/05/2021,,Office Supplies,Paper,Parchment Paper,£2.65,1
+Bristol-1802,Mr Brown,22/05/2021,,Office Supplies,Paper,Parchment Paper,£2.65,3
+Bristol-1846,Mrs Kotsonis,12/05/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,2
+Birmingham-1906,Mr Payne,12/05/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,4
+Manchester-1555,Mrs Baptist,01/05/2021,,Office Supplies,Paper,Xerox 1897,£2.55,7
+York-1633,Mr Schneider,18/05/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,7
+Newcastle-1737,Mrs Benoit,05/05/2021,,Office Supplies,Paper,Xerox 1897,£2.55,5
+Bristol-1771,Mrs McAfee,27/05/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,4
+York-1947,Mr Cazamias,22/05/2021,,Office Supplies,Paper,Xerox 1897,£2.55,11
+Edinburgh-2104,Mr Hwang,30/05/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,11
+London-1523,Mr Häberlin,19/05/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,3
+Manchester-1636,Mr Triggs,08/05/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,1
+Bristol-1666,Mrs Rupert,06/05/2021,,Office Supplies,Paper,Xerox 1901,£2.65,1
+London-1671,Mr Dortch,11/05/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,1
+York-1799,Mr Bertelson,15/05/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,4
+London-1803,Mr Seite,22/05/2021,,Office Supplies,Paper,Xerox 1901,£2.65,4
+Bristol-1844,Mrs Huthwaite,12/05/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,10
+Birmingham-1878,Mrs Dilbeck,19/05/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,6
+Newcastle-1941,Mr Hudgings,14/05/2021,,Office Supplies,Paper,Xerox 1901,£2.65,1
+Manchester-2103,Mrs Hoffman,30/05/2021,,Office Supplies,Paper,Xerox 1901,£2.65,4
+York-1170,Mr Phonely,15/05/2021,Return Processed,Office Supplies,Paper,Xerox 1925,£2.80,2
+Birmingham-1359,Mr Akin,28/05/2021,,Office Supplies,Paper,Xerox 1925,£2.80,7
+Newcastle-1928,Mrs Tron,14/05/2021,,Office Supplies,Paper,Xerox 1925,£2.80,6
+York-1947,Mr Cazamias,22/05/2021,,Office Supplies,Paper,Xerox 1925,£2.80,11
+Newcastle-1439,Mr Kennedy,19/05/2021,,Office Supplies,Paper,Xerox 1933,£3.97,11
+Newcastle-1622,Mr Hwang,20/05/2021,,Office Supplies,Paper,Xerox 1933,£3.97,7
+London-1694,Mr Hirasaki,23/05/2021,,Office Supplies,Paper,Xerox 1933,£3.97,11
+Bristol-1860,Mr Coram,19/05/2021,,Office Supplies,Paper,Xerox 1933,£3.97,6
+Bristol-1880,Mr Cortes,20/05/2021,,Office Supplies,Paper,Xerox 1933,£3.97,3
+Edinburgh-1942,Mr Braxton,14/05/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,4
+Manchester-1358,Mr Voltz,13/05/2021,,Office Supplies,Paper,Xerox 1936,£4.87,6
+Birmingham-1401,Mrs Trafton,15/05/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,9
+York-1632,Mrs Hagelstein,18/05/2021,,Office Supplies,Paper,Xerox 1936,£4.87,11
+Newcastle-1798,Mrs Marie,15/05/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,7
+Birmingham-1932,Mrs Kriz,14/05/2021,,Office Supplies,Paper,Xerox 1936,£4.87,2
+Newcastle-1935,Mr Currie,27/05/2021,,Office Supplies,Paper,Xerox 1936,£4.87,10
+Edinburgh-1372,Mr Van Huff,04/05/2021,,Office Supplies,Paper,Xerox 194,£5.17,10
+London-1804,Mrs Halladay,22/05/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,6
+Birmingham-1879,Mr Brown,20/05/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,10
+Bristol-1900,Mr Carreira,29/05/2021,,Office Supplies,Paper,Xerox 194,£5.17,2
+Birmingham-1932,Mrs Kriz,14/05/2021,,Office Supplies,Paper,Xerox 194,£5.17,3
+Newcastle-1546,Mr Bremer,07/05/2021,,Office Supplies,Paper,Xerox 1951,£5.67,2
+London-1594,Mr Braden,18/05/2021,,Office Supplies,Paper,Xerox 1951,£5.67,11
+Manchester-1859,Mr Harms,19/05/2021,,Office Supplies,Paper,Xerox 1951,£5.67,6
+Bristol-1860,Mr Coram,19/05/2021,,Office Supplies,Paper,Xerox 1951,£5.67,1
+Bristol-2137,Mr Schneider,03/05/2021,,Office Supplies,Paper,Xerox 1951,£5.67,2
+Birmingham-1252,Mr liebe,08/05/2021,,Office Supplies,Paper,Xerox 1974,£5.99,6
+Birmingham-1401,Mrs Trafton,15/05/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,8
+London-1438,Mr Crier,19/05/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,5
+Edinburgh-1624,Mr Haines,20/05/2021,,Office Supplies,Paper,Xerox 1974,£5.99,2
+York-1639,Mr Sissman,23/05/2021,,Office Supplies,Paper,Xerox 1974,£5.99,5
+Bristol-1771,Mrs McAfee,27/05/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,8
+York-1943,Mr Black,14/05/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,9
+Edinburgh-2144,Mr Ludtke,06/05/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,6
+Manchester-1564,Mr Barnett,27/05/2021,,Office Supplies,Paper,Xerox 1979,£6.45,4
+Bristol-1860,Mr Coram,19/05/2021,,Office Supplies,Paper,Xerox 1979,£6.45,3
+Birmingham-1929,Mrs Jumper,14/05/2021,,Office Supplies,Paper,Xerox 1979,£6.45,11
+York-1998,Mr Howell,12/05/2021,,Office Supplies,Paper,Xerox 1979,£6.45,3
+Birmingham-1621,Mr Duston,20/05/2021,,Office Supplies,Paper,Xerox 200,£6.52,1
+York-1633,Mr Schneider,18/05/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,6
+Manchester-1168,Mr Raglin,15/05/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,5
+York-1632,Mrs Hagelstein,18/05/2021,,Office Supplies,Paper,Xerox 2000,£6.89,3
+Edinburgh-1942,Mr Braxton,14/05/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,4
+Manchester-1399,Mr Smayling,15/05/2021,,Office Supplies,Paper,Xerox 208,£7.14,2
+London-1803,Mr Seite,22/05/2021,,Office Supplies,Paper,Xerox 208,£7.14,7
+Birmingham-2000,Mr Davis,12/05/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,2
+York-1170,Mr Phonely,15/05/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,1
+Edinburgh-1390,Mrs Grace,13/05/2021,,Office Supplies,Paper,Xerox 219,£7.50,1
+London-1452,Mr Allen,04/05/2021,,Office Supplies,Paper,Xerox 219,£7.50,6
+Manchester-1564,Mr Barnett,27/05/2021,,Office Supplies,Paper,Xerox 219,£7.50,3
+Bristol-1580,Mr Wasserman,11/05/2021,,Office Supplies,Paper,Xerox 219,£7.50,2
+York-1633,Mr Schneider,18/05/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,7
+Newcastle-1927,Mr Mathis,30/05/2021,,Office Supplies,Paper,Xerox 219,£7.50,10
+Manchester-1930,Mr Blume,14/05/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,9
+London-1664,Mrs Gerbode,06/05/2021,,Office Supplies,Paper,Xerox 221,£7.80,8
+Bristol-1900,Mr Carreira,29/05/2021,,Office Supplies,Paper,Xerox 221,£7.80,8
+London-1990,Mr Schneider,06/05/2021,,Office Supplies,Paper,Xerox 221,£7.80,2
+Birmingham-1252,Mr liebe,08/05/2021,,Office Supplies,Paper,Xerox 232,£7.99,8
+Bristol-1496,Mr Delaney,08/05/2021,,Office Supplies,Paper,Xerox 232,£7.99,2
+London-1536,Mr Norris,29/05/2021,,Office Supplies,Paper,Xerox 232,£7.99,9
+Bristol-1802,Mr Brown,22/05/2021,,Office Supplies,Paper,Xerox 232,£7.99,3
+Manchester-1168,Mr Raglin,15/05/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,6
+London-1440,Mr Brandow,19/05/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,7
+Bristol-1593,Mr Maddox,18/05/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,10
+London-1926,Mrs Lichtenstein,30/05/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,1
+London-1128,Mr Schnelling,19/05/2021,,Office Supplies,Storage,Lockers,£89.97,6
+Birmingham-1225,Mr Zydlo,04/05/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,8
+York-1525,Mr Bertelson,19/05/2021,,Office Supplies,Storage,Lockers,£89.97,8
+Newcastle-1588,Mr McGarr,14/05/2021,,Office Supplies,Storage,Lockers,£89.97,10
+Birmingham-1879,Mr Brown,20/05/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,4
+London-1931,Mr Arnett,14/05/2021,,Office Supplies,Storage,Lockers,£89.97,9
+Birmingham-1989,Mr Jacobs,06/05/2021,,Office Supplies,Storage,Lockers,£89.97,5
+London-2034,Mr Catini,20/05/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,11
+Bristol-2085,Mr Bergman,22/05/2021,,Office Supplies,Storage,Lockers,£89.97,2
+Manchester-1393,Mrs Ward,13/05/2021,,Technology,Accessories,USB Wired Mouse,£5.99,3
+Bristol-1545,Mr Cooley,07/05/2021,,Technology,Accessories,USB Wired Mouse,£5.99,6
+Birmingham-1575,Mr Wooten,16/05/2021,,Technology,Accessories,USB Wired Mouse,£5.99,9
+London-1594,Mr Braden,18/05/2021,,Technology,Accessories,USB Wired Mouse,£5.99,6
+Newcastle-1622,Mr Hwang,20/05/2021,,Technology,Accessories,USB Wired Mouse,£5.99,7
+York-1629,Mr liebe,18/05/2021,,Technology,Accessories,USB Wired Mouse,£5.99,7
+Bristol-1712,Mr Thornton,11/05/2021,,Technology,Accessories,USB Wired Mouse,£5.99,3
+York-1799,Mr Bertelson,15/05/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,6
+Edinburgh-1942,Mr Braxton,14/05/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,9
+London-2099,Mr Chand,02/05/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,11
+Newcastle-1434,Mrs Schoenberger,18/05/2021,,Technology,Accessories,Keyboard,£19.94,6
+Newcastle-1546,Mr Bremer,07/05/2021,,Technology,Accessories,Keyboard,£19.94,7
+Birmingham-1621,Mr Duston,20/05/2021,,Technology,Accessories,Keyboard,£19.94,8
+London-1843,Mr Allen,12/05/2021,,Technology,Accessories,Keyboard,£19.94,4
+London-1931,Mr Arnett,14/05/2021,,Technology,Accessories,Keyboard,£19.94,4
+Edinburgh-1999,Mrs Huffman,12/05/2021,,Technology,Accessories,Keyboard,£19.94,10
+York-2036,Mr Bell,02/05/2021,,Technology,Accessories,Keyboard,£19.94,5
+York-2071,Mr Lanier,04/05/2021,,Technology,Accessories,Keyboard,£19.94,5
+Bristol-2105,Mr Prichep,30/05/2021,,Technology,Accessories,Keyboard,£19.94,11
+London-1430,Mr Schnelling,06/05/2021,,Technology,Accessories,PC Headset,£45.89,9
+York-1633,Mr Schneider,18/05/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,5
+Manchester-1657,Mrs Bierner,14/05/2021,,Technology,Accessories,PC Headset,£45.89,7
+Bristol-1847,Mrs Nunn,12/05/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,8
+London-1877,Mrs Sperren,19/05/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,2
+Newcastle-1902,Mr Willman,29/05/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,8
+Birmingham-2000,Mr Davis,12/05/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,4
+Manchester-1358,Mr Voltz,13/05/2021,,Technology,Machines,Videoconferencing Unit,£168.76,6
+London-1430,Mr Schnelling,06/05/2021,,Technology,Machines,Videoconferencing Unit,£168.76,8
+Bristol-1496,Mr Delaney,08/05/2021,,Technology,Machines,Videoconferencing Unit,£168.76,1
+Manchester-1631,Mr Bzostek,18/05/2021,,Technology,Machines,Videoconferencing Unit,£168.76,3
+London-1804,Mrs Halladay,22/05/2021,Return Processed,Technology,Machines,Videoconferencing Unit,£168.76,3
+Bristol-1846,Mrs Kotsonis,12/05/2021,Return Processed,Technology,Machines,Videoconferencing Unit,£168.76,11
+Bristol-1860,Mr Coram,19/05/2021,,Technology,Machines,Videoconferencing Unit,£168.76,10
+York-1065,Mr Grayson,28/05/2021,,Technology,Machines,Shredder,£65.49,11
+Birmingham-1252,Mr liebe,08/05/2021,,Technology,Machines,Shredder,£65.49,9
+Edinburgh-1383,Mr Ludtke,02/05/2021,,Technology,Machines,Shredder,£65.49,10
+London-1391,Mrs Overfelt,13/05/2021,Return Processed,Technology,Machines,Shredder,£65.49,8
+Newcastle-1546,Mr Bremer,07/05/2021,,Technology,Machines,Shredder,£65.49,7
+London-1665,Mrs Jordon,06/05/2021,Return Processed,Technology,Machines,Shredder,£65.49,3
+Bristol-1740,Mr Leslie,18/05/2021,,Technology,Machines,Shredder,£65.49,6
+London-1843,Mr Allen,12/05/2021,,Technology,Machines,Shredder,£65.49,11
+Birmingham-1879,Mr Brown,20/05/2021,Return Processed,Technology,Machines,Shredder,£65.49,8
+Birmingham-1988,Mr Medina,06/05/2021,,Technology,Machines,Shredder,£65.49,10
+Manchester-2103,Mrs Hoffman,30/05/2021,,Technology,Machines,Shredder,£65.49,10
+Newcastle-1127,Mr Matthias,19/05/2021,Return Processed,Technology,Machines,Printer,£129.99,10
+Bristol-1147,Mrs Caffey,14/05/2021,,Technology,Machines,Printer,£129.99,1
+Newcastle-1546,Mr Bremer,07/05/2021,,Technology,Machines,Printer,£129.99,5
+Edinburgh-1845,Mr Fisher,12/05/2021,,Technology,Machines,Printer,£129.99,8
+Edinburgh-1945,Mr Grady,14/05/2021,,Technology,Machines,Printer,£129.99,6
+York-1998,Mr Howell,12/05/2021,,Technology,Machines,Printer,£129.99,10
+York-1170,Mr Phonely,15/05/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,5
+York-1371,Mr Fisher,04/05/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,7
+Newcastle-1724,Mrs Eplett,19/05/2021,,Technology,Phones,Speakerphone,£79.46,5
+Newcastle-1902,Mr Willman,29/05/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,6
+Manchester-1393,Mrs Ward,13/05/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,2
+Bristol-1846,Mrs Kotsonis,12/05/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,2
+Newcastle-1127,Mr Matthias,19/05/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,4
+Birmingham-1225,Mr Zydlo,04/05/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,2
+York-1374,Mrs Hughes,04/05/2021,,Technology,Phones,Bluetooth Headset,£86.99,8
+Edinburgh-1383,Mr Ludtke,02/05/2021,,Technology,Phones,Bluetooth Headset,£86.99,5
+York-1400,Mr Crebassa,15/05/2021,,Technology,Phones,Bluetooth Headset,£86.99,9
+Newcastle-1439,Mr Kennedy,19/05/2021,,Technology,Phones,Bluetooth Headset,£86.99,3
+Bristol-1496,Mr Delaney,08/05/2021,,Technology,Phones,Bluetooth Headset,£86.99,11
+London-1804,Mrs Halladay,22/05/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,7
+York-1943,Mr Black,14/05/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,8
+Edinburgh-1945,Mr Grady,14/05/2021,,Technology,Phones,Bluetooth Headset,£86.99,1
+London-1224,Mrs McAfee,04/05/2021,,Technology,Phones,Motorola L703CM,£356.99,5
+Birmingham-1470,Mr Grady,27/05/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,1
+York-1170,Mr Phonely,15/05/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,5
+York-1200,Mr Turnell,14/05/2021,,Technology,Phones,Motorola L804,£459.67,5
+Manchester-1358,Mr Voltz,13/05/2021,,Technology,Phones,Motorola L804,£459.67,10
+Newcastle-1548,Mr Weien,07/05/2021,,Technology,Phones,Motorola L804,£459.67,4
+Edinburgh-1881,Mr Boyes,20/05/2021,,Technology,Phones,Motorola L804,£459.67,3
+Newcastle-1925,Mr Pistek,30/05/2021,,Technology,Phones,Motorola L804,£459.67,2
+Newcastle-1928,Mrs Tron,14/05/2021,,Technology,Phones,Motorola L804,£459.67,3
+Bristol-1968,Mrs Fjeld,14/05/2021,,Technology,Phones,Motorola L804,£459.67,5
+Bristol-1148,Mr Bickford,14/05/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,6
+Manchester-1393,Mrs Ward,13/05/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,10
+York-1525,Mr Bertelson,19/05/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,11
+London-1696,Mrs Perrino,23/05/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,2
+York-1799,Mr Bertelson,15/05/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,1
+Birmingham-1988,Mr Medina,06/05/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,1
+York-1065,Mr Grayson,28/05/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,10
+Newcastle-1526,Mr Thurman,03/05/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,2
+Bristol-1847,Mrs Nunn,12/05/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,10
+London-1926,Mrs Lichtenstein,30/05/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,5
+Newcastle-1927,Mr Mathis,30/05/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,5
+Newcastle-1928,Mrs Tron,14/05/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,5
+Newcastle-1941,Mr Hudgings,14/05/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,1
+Bristol-2085,Mr Bergman,22/05/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,9
+Bristol-2100,Mr Campbell,02/05/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,11
+London-1224,Mrs McAfee,04/05/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,6
+Birmingham-1579,Mr Moss,11/05/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,9
+Manchester-1592,Mr Tillman,18/05/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,11
+Birmingham-1621,Mr Duston,20/05/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,2
+Bristol-1666,Mrs Rupert,06/05/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,9
+London-2072,Mrs McVee,04/05/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,10
+Bristol-2105,Mr Prichep,30/05/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,4
+London-1430,Mr Schnelling,06/05/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,9
+Bristol-1593,Mr Maddox,18/05/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,10
+London-1594,Mr Braden,18/05/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,10
+Birmingham-1929,Mrs Jumper,14/05/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,3
+Birmingham-1225,Mr Zydlo,04/05/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,8
+Manchester-1393,Mrs Ward,13/05/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,1
+Edinburgh-2044,Mrs Jones,26/05/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,8
+London-2072,Mrs McVee,04/05/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,4
+Newcastle-1073,Mrs Hagelstein,24/06/2021,,Furniture,Bookcases,Bookcase,£60.07,7
+Birmingham-1098,Mrs Greene,10/06/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,11
+Manchester-1116,Mr Ballentine,08/06/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,9
+London-1601,Mr Ulpright,11/06/2021,,Furniture,Bookcases,Bookcase,£60.07,1
+Bristol-2143,Mr Castell,01/06/2021,,Furniture,Bookcases,Bookcase,£60.07,5
+Bristol-1502,Mrs Van Hugh,10/06/2021,,Furniture,Chairs,Armless Task Chair,£37.75,9
+Manchester-1577,Mr Cohen,19/06/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,7
+Edinburgh-1608,Mr Kelly,25/06/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,7
+Newcastle-1638,Mr Selesnick,18/06/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,1
+Manchester-1676,Mrs Reese,29/06/2021,,Furniture,Chairs,Armless Task Chair,£37.75,5
+Edinburgh-1882,Mrs Harton,03/06/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,5
+Edinburgh-2011,Mrs Etezadi,16/06/2021,,Furniture,Chairs,Armless Task Chair,£37.75,4
+Manchester-2089,Mr Christensen,22/06/2021,,Furniture,Chairs,Armless Task Chair,£37.75,4
+Manchester-1520,Mr Boland,29/06/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,4
+Manchester-1792,Mr Frazer,12/06/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,6
+Manchester-2090,Mrs Vittorini,10/06/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,11
+Birmingham-1098,Mrs Greene,10/06/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,11
+York-1120,Mr Catini,09/06/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,4
+York-1378,Mrs Moffitt,17/06/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,10
+Manchester-1691,Mrs Calhoun,01/06/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,5
+London-1820,Mrs Kunitz,26/06/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,3
+Bristol-1957,Mrs Soltero,03/06/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,8
+Manchester-2159,Mr Bergman,08/06/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,2
+Birmingham-2166,Mrs Hendricks,21/06/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,5
+London-1117,Mrs Overfelt,08/06/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,8
+Birmingham-1257,Mr Gockenbach,21/06/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,11
+Edinburgh-1850,Mrs Sheldon,04/06/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,2
+York-2056,Mr Venier,19/06/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,10
+Bristol-1159,Mr Haines,20/06/2021,,Furniture,Chairs,Folding Chairs,£15.69,8
+Newcastle-1415,Mr Blacks,16/06/2021,,Furniture,Chairs,Folding Chairs,£15.69,6
+Bristol-1425,Mrs Jones,22/06/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,3
+Manchester-1577,Mr Cohen,19/06/2021,Return Processed,Furniture,Chairs,Folding Chairs,£15.69,10
+York-1578,Mr Boland,19/06/2021,,Furniture,Chairs,Folding Chairs,£15.69,11
+Edinburgh-1649,Mr Foulston,16/06/2021,,Furniture,Chairs,Folding Chairs,£15.69,10
+Manchester-2089,Mr Christensen,22/06/2021,,Furniture,Chairs,Folding Chairs,£15.69,9
+Newcastle-2158,Mrs Braun,08/06/2021,,Furniture,Chairs,Folding Chairs,£15.69,1
+Manchester-1112,Mr Ballentine,10/06/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,8
+Manchester-1150,Mr Grayson,20/06/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,6
+Newcastle-1151,Mr Adams,16/06/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,5
+York-1163,Mrs Meador,26/06/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,2
+Newcastle-1237,Mr Badders,13/06/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,1
+Bristol-1425,Mrs Jones,22/06/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,2
+Bristol-1443,Mrs Rosenblatt,15/06/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,2
+Birmingham-1673,Mrs Satty,29/06/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,9
+York-1785,Mrs Satty,15/06/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,11
+London-1820,Mrs Kunitz,26/06/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,7
+York-1949,Mrs Schild,03/06/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,1
+Bristol-1957,Mrs Soltero,03/06/2021,Return Processed,Furniture,Furnishings,Round Wall Clock,£8.80,9
+York-1120,Mr Catini,09/06/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,2
+York-1192,Mr Armold,29/06/2021,,Furniture,Furnishings,Stackable Tray,£2.60,3
+York-1412,Mr Zeldin,29/06/2021,,Furniture,Furnishings,Stackable Tray,£2.60,11
+London-1640,Mr Haines,10/06/2021,,Furniture,Furnishings,Stackable Tray,£2.60,5
+Birmingham-2010,Mrs Galang,16/06/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,10
+Birmingham-2087,Mr Stewart,10/06/2021,,Furniture,Furnishings,Stackable Tray,£2.60,9
+Manchester-2089,Mr Christensen,22/06/2021,,Furniture,Furnishings,Stackable Tray,£2.60,5
+London-1074,Mr Mitchell,03/06/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,9
+London-1191,Mr Coakley,29/06/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,6
+Bristol-1511,Mrs Wallace,11/06/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,11
+Manchester-1577,Mr Cohen,19/06/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,10
+Birmingham-2040,Mrs Grace,26/06/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,8
+Edinburgh-1118,Mrs Folk,08/06/2021,,Furniture,Furnishings,Desk Lamp,£19.99,6
+Edinburgh-1416,Mrs Wener,16/06/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,11
+London-1597,Mrs Balk,11/06/2021,,Furniture,Furnishings,Desk Lamp,£19.99,10
+Newcastle-1674,Mr Ritter,29/06/2021,,Furniture,Furnishings,Desk Lamp,£19.99,2
+Birmingham-1736,Mrs Krohn,30/06/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,7
+Birmingham-1152,Mr Pisteka,16/06/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,9
+Bristol-1298,Mr Knutson,25/06/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,10
+Birmingham-1754,Mr Zeldin,20/06/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,1
+Edinburgh-1832,Mr Saunders,29/06/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,4
+Edinburgh-1884,Mrs Glotzbach,03/06/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,4
+Bristol-2157,Mr Reed,01/06/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,7
+Edinburgh-2165,Mr Wiener,21/06/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,10
+London-1074,Mr Mitchell,03/06/2021,,Furniture,Tables,Round Conference Table,£562.90,2
+Birmingham-1321,Mr Noonan,26/06/2021,,Furniture,Tables,Round Conference Table,£562.90,3
+London-1601,Mr Ulpright,11/06/2021,,Furniture,Tables,Round Conference Table,£562.90,8
+Newcastle-1849,Mr Gardner,04/06/2021,,Furniture,Tables,Round Conference Table,£562.90,11
+Newcastle-1327,Mr Preis,01/06/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,3
+Edinburgh-1416,Mrs Wener,16/06/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,2
+Edinburgh-1832,Mr Saunders,29/06/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,7
+Manchester-2089,Mr Christensen,22/06/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,2
+Bristol-2157,Mr Reed,01/06/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,10
+Edinburgh-1377,Mr Ryan,22/06/2021,,Furniture,Tables,Desk,£125.33,11
+Manchester-1599,Mr Barreto,11/06/2021,Return Processed,Furniture,Tables,Desk,£125.33,10
+York-1685,Mr Hawley,02/06/2021,Return Processed,Furniture,Tables,Desk,£125.33,1
+Manchester-1693,Mrs Hendricks,26/06/2021,,Furniture,Tables,Desk,£125.33,1
+London-1160,Mr Beeghly,20/06/2021,,Office Supplies,Appliances,Vaccuum,£605.39,10
+Edinburgh-1442,Mrs Sheldon,12/06/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,9
+Edinburgh-1783,Mrs Hane,15/06/2021,,Office Supplies,Appliances,Vaccuum,£605.39,3
+Bristol-1958,Mr Collister,03/06/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,5
+Birmingham-1152,Mr Pisteka,16/06/2021,,Office Supplies,Appliances,Refrigerator,£897.65,1
+York-1405,Mr Willman,12/06/2021,,Office Supplies,Appliances,Refrigerator,£897.65,5
+Birmingham-1754,Mr Zeldin,20/06/2021,,Office Supplies,Appliances,Refrigerator,£897.65,10
+Bristol-1773,Mr Tillman,26/06/2021,,Office Supplies,Appliances,Refrigerator,£897.65,7
+Birmingham-2152,Mr Medina,02/06/2021,Return Processed,Office Supplies,Appliances,Refrigerator,£897.65,6
+Edinburgh-2165,Mr Wiener,21/06/2021,,Office Supplies,Appliances,Refrigerator,£897.65,1
+Birmingham-1296,Mr Engle,25/06/2021,,Office Supplies,Appliances,Microwave,£104.58,9
+Newcastle-1331,Mr Gilpin,11/06/2021,,Office Supplies,Appliances,Microwave,£104.58,8
+Edinburgh-1783,Mrs Hane,15/06/2021,,Office Supplies,Appliances,Microwave,£104.58,7
+Birmingham-1819,Mrs McNair,26/06/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,6
+Manchester-2159,Mr Bergman,08/06/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,9
+London-2169,Mr LaWare,17/06/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,11
+London-1160,Mr Beeghly,20/06/2021,,Office Supplies,Art,Pens,£5.69,9
+York-1380,Mrs McNair,17/06/2021,Return Processed,Office Supplies,Art,Pens,£5.69,2
+Edinburgh-1532,Mrs Etezadi,02/06/2021,Return Processed,Office Supplies,Art,Pens,£5.69,5
+Edinburgh-1833,Mrs Harton,29/06/2021,Return Processed,Office Supplies,Art,Pens,£5.69,5
+Birmingham-2152,Mr Medina,02/06/2021,Return Processed,Office Supplies,Art,Pens,£5.69,9
+Manchester-1116,Mr Ballentine,08/06/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,8
+Newcastle-1149,Mr Tyler,20/06/2021,,Office Supplies,Art,Post-its,£3.33,3
+Edinburgh-1153,Mr Donatelli,16/06/2021,,Office Supplies,Art,Post-its,£3.33,6
+Edinburgh-1240,Mr Stivers,12/06/2021,,Office Supplies,Art,Post-its,£3.33,11
+London-1675,Mr Weirich,29/06/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,11
+Birmingham-2010,Mrs Galang,16/06/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,3
+Manchester-2159,Mr Bergman,08/06/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,4
+Edinburgh-1091,Mr Reiter,30/06/2021,,Office Supplies,Art,Highlighters,£2.69,3
+York-1403,Mrs VanderZanden,12/06/2021,,Office Supplies,Art,Highlighters,£2.69,2
+Birmingham-1819,Mrs McNair,26/06/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,11
+York-1907,Mrs Van,18/06/2021,,Office Supplies,Art,Highlighters,£2.69,4
+London-1328,Mr Brandow,10/06/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,1
+York-1378,Mrs Moffitt,17/06/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,11
+Manchester-1577,Mr Cohen,19/06/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,5
+Manchester-1734,Mrs Taslimi,30/06/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,6
+York-1907,Mrs Van,18/06/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,2
+Newcastle-1080,Mr Dominguez,08/06/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,2
+York-1380,Mrs McNair,17/06/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,4
+York-1447,Mr Bremer,04/06/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,10
+York-1578,Mr Boland,19/06/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,3
+Birmingham-1690,Mr Maddox,01/06/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,8
+Edinburgh-1818,Mr Olsen,30/06/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,7
+Newcastle-1849,Mr Gardner,04/06/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,10
+Edinburgh-1884,Mrs Glotzbach,03/06/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,6
+Bristol-2143,Mr Castell,01/06/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,6
+Newcastle-2158,Mrs Braun,08/06/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,4
+Birmingham-1154,Mr Katz,16/06/2021,,Office Supplies,Fasteners,Push Pins,£2.69,1
+Bristol-1234,Mr Seite,20/06/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,10
+Birmingham-1296,Mr Engle,25/06/2021,,Office Supplies,Fasteners,Push Pins,£2.69,3
+Edinburgh-1574,Mr Carreira,24/06/2021,,Office Supplies,Fasteners,Push Pins,£2.69,1
+Manchester-1599,Mr Barreto,11/06/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,4
+York-1954,Mrs Kotsonis,03/06/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,4
+Birmingham-1099,Mr Hirsh,10/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,5
+Edinburgh-1118,Mrs Folk,08/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,7
+Birmingham-1241,Mrs MacAllister,12/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,10
+Newcastle-1251,Mrs Soltero,11/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,2
+York-1405,Mr Willman,12/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,5
+Bristol-1425,Mrs Jones,22/06/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,7
+Manchester-1676,Mrs Reese,29/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,11
+Newcastle-1764,Mr Sorensen,09/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,5
+Bristol-1784,Mr Roelle,15/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,7
+London-1820,Mrs Kunitz,26/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,9
+London-1831,Mr Saunders,29/06/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,11
+York-1907,Mrs Van,18/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,10
+Manchester-2088,Mr Eichhorn,13/06/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,4
+Manchester-2090,Mrs Vittorini,10/06/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,6
+London-2169,Mr LaWare,17/06/2021,Return Processed,Office Supplies,Fasteners,Rubber Bands,£4.87,10
+Edinburgh-1118,Mrs Folk,08/06/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,2
+Newcastle-1151,Mr Adams,16/06/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,3
+York-1405,Mr Willman,12/06/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,7
+Manchester-1573,Mrs McVee,24/06/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,5
+Newcastle-1638,Mr Selesnick,18/06/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,11
+Birmingham-1754,Mr Zeldin,20/06/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,1
+Manchester-1852,Mr Braxton,03/06/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,11
+York-1907,Mrs Van,18/06/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,6
+York-2056,Mr Venier,19/06/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,2
+Manchester-1066,Mr Chapman,17/06/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,4
+Newcastle-1122,Mr MacIntyre,15/06/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,5
+Birmingham-1152,Mr Pisteka,16/06/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,5
+Birmingham-1186,Mr Crestani,04/06/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,1
+Edinburgh-1245,Mr Dartt,24/06/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,10
+Newcastle-1297,Mr Ratner,25/06/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+Birmingham-1766,Mr Nelson,10/06/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,5
+London-1158,Mrs Sayre,26/06/2021,,Office Supplies,Paper,Parchment Paper,£2.65,3
+Birmingham-1186,Mr Crestani,04/06/2021,,Office Supplies,Paper,Parchment Paper,£2.65,7
+Newcastle-1324,Mr Staavos,16/06/2021,,Office Supplies,Paper,Parchment Paper,£2.65,6
+York-1403,Mrs VanderZanden,12/06/2021,,Office Supplies,Paper,Parchment Paper,£2.65,2
+York-1685,Mr Hawley,02/06/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,5
+Birmingham-1690,Mr Maddox,01/06/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,10
+Manchester-2042,Mr Allen,26/06/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,4
+Newcastle-1333,Mrs Pippenger,11/06/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,9
+Edinburgh-1376,Mrs Shonely,19/06/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,10
+Bristol-1443,Mrs Rosenblatt,15/06/2021,,Office Supplies,Paper,Xerox 1897,£2.55,11
+Bristol-1502,Mrs Van Hugh,10/06/2021,,Office Supplies,Paper,Xerox 1897,£2.55,10
+London-1601,Mr Ulpright,11/06/2021,,Office Supplies,Paper,Xerox 1897,£2.55,4
+Newcastle-1849,Mr Gardner,04/06/2021,,Office Supplies,Paper,Xerox 1897,£2.55,1
+York-1403,Mrs VanderZanden,12/06/2021,,Office Supplies,Paper,Xerox 1901,£2.65,7
+Manchester-1424,Mr Sewall,22/06/2021,,Office Supplies,Paper,Xerox 1901,£2.65,1
+London-1675,Mr Weirich,29/06/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,11
+Manchester-1693,Mrs Hendricks,26/06/2021,,Office Supplies,Paper,Xerox 1901,£2.65,1
+Manchester-1951,Mr Wilson,03/06/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,2
+York-1378,Mrs Moffitt,17/06/2021,Return Processed,Office Supplies,Paper,Xerox 1925,£2.80,4
+Bristol-1511,Mrs Wallace,11/06/2021,,Office Supplies,Paper,Xerox 1925,£2.80,8
+Newcastle-1549,Mrs Baptist,06/06/2021,,Office Supplies,Paper,Xerox 1925,£2.80,7
+Edinburgh-1608,Mr Kelly,25/06/2021,Return Processed,Office Supplies,Paper,Xerox 1925,£2.80,9
+Newcastle-1106,Mr Sorensen,29/06/2021,,Office Supplies,Paper,Xerox 1933,£3.97,6
+London-1328,Mr Brandow,10/06/2021,,Office Supplies,Paper,Xerox 1933,£3.97,8
+York-1414,Mrs Derr,16/06/2021,,Office Supplies,Paper,Xerox 1933,£3.97,8
+Edinburgh-1608,Mr Kelly,25/06/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,1
+London-1689,Mrs Conant,08/06/2021,,Office Supplies,Paper,Xerox 1933,£3.97,9
+Birmingham-1819,Mrs McNair,26/06/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,4
+York-1954,Mrs Kotsonis,03/06/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,1
+Edinburgh-2011,Mrs Etezadi,16/06/2021,,Office Supplies,Paper,Xerox 1933,£3.97,4
+Bristol-2143,Mr Castell,01/06/2021,,Office Supplies,Paper,Xerox 1933,£3.97,4
+Manchester-2159,Mr Bergman,08/06/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,1
+Birmingham-1099,Mr Hirsh,10/06/2021,,Office Supplies,Paper,Xerox 1936,£4.87,8
+Edinburgh-1216,Mr Blumstein,02/06/2021,,Office Supplies,Paper,Xerox 1936,£4.87,9
+Newcastle-1331,Mr Gilpin,11/06/2021,,Office Supplies,Paper,Xerox 1936,£4.87,10
+Bristol-1402,Mr Spruell,12/06/2021,,Office Supplies,Paper,Xerox 1936,£4.87,8
+Edinburgh-1416,Mrs Wener,16/06/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,6
+Manchester-1520,Mr Boland,29/06/2021,,Office Supplies,Paper,Xerox 1936,£4.87,9
+Edinburgh-1692,Mr Beeghly,01/06/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,1
+Edinburgh-1783,Mrs Hane,15/06/2021,,Office Supplies,Paper,Xerox 1936,£4.87,7
+York-1949,Mrs Schild,03/06/2021,,Office Supplies,Paper,Xerox 1936,£4.87,3
+Birmingham-2039,Mr Brown,26/06/2021,,Office Supplies,Paper,Xerox 1936,£4.87,5
+Birmingham-2152,Mr Medina,02/06/2021,Return Processed,Office Supplies,Paper,Xerox 1936,£4.87,3
+Birmingham-1186,Mr Crestani,04/06/2021,,Office Supplies,Paper,Xerox 194,£5.17,2
+Edinburgh-1416,Mrs Wener,16/06/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,4
+Manchester-1424,Mr Sewall,22/06/2021,,Office Supplies,Paper,Xerox 194,£5.17,6
+York-1598,Mr Häberlin,11/06/2021,,Office Supplies,Paper,Xerox 194,£5.17,6
+Edinburgh-1884,Mrs Glotzbach,03/06/2021,,Office Supplies,Paper,Xerox 194,£5.17,7
+York-1907,Mrs Van,18/06/2021,,Office Supplies,Paper,Xerox 194,£5.17,2
+Newcastle-1122,Mr MacIntyre,15/06/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,8
+York-1405,Mr Willman,12/06/2021,,Office Supplies,Paper,Xerox 1951,£5.67,3
+York-1447,Mr Bremer,04/06/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,7
+Edinburgh-1649,Mr Foulston,16/06/2021,,Office Supplies,Paper,Xerox 1951,£5.67,11
+Birmingham-2039,Mr Brown,26/06/2021,,Office Supplies,Paper,Xerox 1951,£5.67,6
+Newcastle-2158,Mrs Braun,08/06/2021,,Office Supplies,Paper,Xerox 1951,£5.67,4
+Bristol-1246,Mr Smith,24/06/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,10
+London-1328,Mr Brandow,10/06/2021,,Office Supplies,Paper,Xerox 1974,£5.99,1
+York-1403,Mrs VanderZanden,12/06/2021,,Office Supplies,Paper,Xerox 1974,£5.99,2
+Newcastle-1521,Mr Bavinger,26/06/2021,,Office Supplies,Paper,Xerox 1974,£5.99,1
+Edinburgh-1550,Mr Klamczynski,06/06/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,5
+Manchester-1691,Mrs Calhoun,01/06/2021,,Office Supplies,Paper,Xerox 1974,£5.99,10
+Birmingham-1766,Mr Nelson,10/06/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,2
+Edinburgh-1818,Mr Olsen,30/06/2021,,Office Supplies,Paper,Xerox 1974,£5.99,11
+Birmingham-2087,Mr Stewart,10/06/2021,,Office Supplies,Paper,Xerox 1974,£5.99,3
+Edinburgh-1550,Mr Klamczynski,06/06/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,2
+Manchester-1691,Mrs Calhoun,01/06/2021,,Office Supplies,Paper,Xerox 1979,£6.45,3
+Birmingham-1754,Mr Zeldin,20/06/2021,,Office Supplies,Paper,Xerox 1979,£6.45,8
+London-1158,Mrs Sayre,26/06/2021,,Office Supplies,Paper,Xerox 200,£6.52,8
+Newcastle-1162,Mr Coram,26/06/2021,,Office Supplies,Paper,Xerox 200,£6.52,7
+Birmingham-1296,Mr Engle,25/06/2021,,Office Supplies,Paper,Xerox 200,£6.52,8
+York-1403,Mrs VanderZanden,12/06/2021,,Office Supplies,Paper,Xerox 200,£6.52,3
+Manchester-1424,Mr Sewall,22/06/2021,,Office Supplies,Paper,Xerox 200,£6.52,4
+Birmingham-1765,Mr Cohen,10/06/2021,,Office Supplies,Paper,Xerox 200,£6.52,3
+London-1831,Mr Saunders,29/06/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,3
+Edinburgh-2151,Mr Crebassa,13/06/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,10
+York-1161,Mr Eichhorn,26/06/2021,,Office Supplies,Paper,Xerox 2000,£6.89,1
+Edinburgh-1416,Mrs Wener,16/06/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,9
+Manchester-1792,Mr Frazer,12/06/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,1
+Birmingham-1819,Mrs McNair,26/06/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,7
+York-1185,Mrs Brumfield,04/06/2021,,Office Supplies,Paper,Xerox 208,£7.14,8
+Birmingham-1296,Mr Engle,25/06/2021,,Office Supplies,Paper,Xerox 208,£7.14,3
+Newcastle-1327,Mr Preis,01/06/2021,,Office Supplies,Paper,Xerox 208,£7.14,9
+Newcastle-1333,Mrs Pippenger,11/06/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,7
+Bristol-1402,Mr Spruell,12/06/2021,,Office Supplies,Paper,Xerox 208,£7.14,1
+Birmingham-1819,Mrs McNair,26/06/2021,Return Processed,Office Supplies,Paper,Xerox 208,£7.14,10
+Manchester-2167,Mr Noonan,21/06/2021,,Office Supplies,Paper,Xerox 208,£7.14,5
+Manchester-1150,Mr Grayson,20/06/2021,,Office Supplies,Paper,Xerox 219,£7.50,6
+Edinburgh-1153,Mr Donatelli,16/06/2021,,Office Supplies,Paper,Xerox 219,£7.50,4
+Newcastle-1162,Mr Coram,26/06/2021,,Office Supplies,Paper,Xerox 219,£7.50,1
+York-1414,Mrs Derr,16/06/2021,,Office Supplies,Paper,Xerox 219,£7.50,5
+York-1578,Mr Boland,19/06/2021,,Office Supplies,Paper,Xerox 219,£7.50,6
+Edinburgh-1649,Mr Foulston,16/06/2021,,Office Supplies,Paper,Xerox 219,£7.50,3
+Bristol-1784,Mr Roelle,15/06/2021,,Office Supplies,Paper,Xerox 219,£7.50,7
+Edinburgh-1891,Mr Creighton,27/06/2021,,Office Supplies,Paper,Xerox 219,£7.50,11
+Manchester-2159,Mr Bergman,08/06/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,4
+Edinburgh-1118,Mrs Folk,08/06/2021,,Office Supplies,Paper,Xerox 221,£7.80,7
+Edinburgh-1121,Mrs Reese,09/06/2021,,Office Supplies,Paper,Xerox 221,£7.80,9
+Newcastle-1181,Mrs Marie,17/06/2021,,Office Supplies,Paper,Xerox 221,£7.80,9
+York-1192,Mr Armold,29/06/2021,,Office Supplies,Paper,Xerox 221,£7.80,10
+Edinburgh-1376,Mrs Shonely,19/06/2021,Return Processed,Office Supplies,Paper,Xerox 221,£7.80,7
+Edinburgh-1532,Mrs Etezadi,02/06/2021,Return Processed,Office Supplies,Paper,Xerox 221,£7.80,1
+York-1578,Mr Boland,19/06/2021,,Office Supplies,Paper,Xerox 221,£7.80,6
+York-1637,Mrs Jumper,18/06/2021,,Office Supplies,Paper,Xerox 221,£7.80,10
+Manchester-2167,Mr Noonan,21/06/2021,,Office Supplies,Paper,Xerox 221,£7.80,8
+Manchester-1676,Mrs Reese,29/06/2021,,Office Supplies,Paper,Xerox 232,£7.99,11
+Manchester-1792,Mr Frazer,12/06/2021,Return Processed,Office Supplies,Paper,Xerox 232,£7.99,8
+Manchester-2088,Mr Eichhorn,13/06/2021,Return Processed,Office Supplies,Paper,Xerox 232,£7.99,1
+Newcastle-1327,Mr Preis,01/06/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,4
+Newcastle-1333,Mrs Pippenger,11/06/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,1
+York-1403,Mrs VanderZanden,12/06/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,6
+Newcastle-1600,Mr Phonely,11/06/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,6
+York-2056,Mr Venier,19/06/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,3
+Birmingham-2166,Mrs Hendricks,21/06/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,1
+Edinburgh-1121,Mrs Reese,09/06/2021,,Office Supplies,Storage,Lockers,£89.97,9
+York-1389,Mr Smith,30/06/2021,,Office Supplies,Storage,Lockers,£89.97,4
+Edinburgh-1442,Mrs Sheldon,12/06/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,5
+Newcastle-1600,Mr Phonely,11/06/2021,,Office Supplies,Storage,Lockers,£89.97,10
+Birmingham-1736,Mrs Krohn,30/06/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,4
+Bristol-1773,Mr Tillman,26/06/2021,,Office Supplies,Storage,Lockers,£89.97,8
+Birmingham-2087,Mr Stewart,10/06/2021,,Office Supplies,Storage,Lockers,£89.97,7
+Edinburgh-1153,Mr Donatelli,16/06/2021,,Technology,Accessories,USB Wired Mouse,£5.99,5
+London-1158,Mrs Sayre,26/06/2021,,Technology,Accessories,USB Wired Mouse,£5.99,6
+Edinburgh-1240,Mr Stivers,12/06/2021,,Technology,Accessories,USB Wired Mouse,£5.99,4
+Bristol-1246,Mr Smith,24/06/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,8
+Birmingham-1690,Mr Maddox,01/06/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,8
+Bristol-2122,Mr Crouse,08/06/2021,Return Processed,Technology,Accessories,USB Wired Mouse,£5.99,9
+Manchester-1116,Mr Ballentine,08/06/2021,Return Processed,Technology,Accessories,Keyboard,£19.94,2
+Birmingham-1152,Mr Pisteka,16/06/2021,,Technology,Accessories,Keyboard,£19.94,2
+Birmingham-1321,Mr Noonan,26/06/2021,,Technology,Accessories,Keyboard,£19.94,6
+Bristol-1332,Mr Ludtke,11/06/2021,Return Processed,Technology,Accessories,Keyboard,£19.94,7
+London-1601,Mr Ulpright,11/06/2021,,Technology,Accessories,Keyboard,£19.94,7
+Edinburgh-1692,Mr Beeghly,01/06/2021,Return Processed,Technology,Accessories,Keyboard,£19.94,5
+Bristol-2122,Mr Crouse,08/06/2021,Return Processed,Technology,Accessories,Keyboard,£19.94,7
+Newcastle-1162,Mr Coram,26/06/2021,,Technology,Accessories,PC Headset,£45.89,3
+London-1182,Mr Savely,17/06/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,10
+Newcastle-1297,Mr Ratner,25/06/2021,,Technology,Accessories,PC Headset,£45.89,4
+Birmingham-1334,Mr Gilpin,11/06/2021,,Technology,Accessories,PC Headset,£45.89,2
+York-1598,Mr Häberlin,11/06/2021,,Technology,Accessories,PC Headset,£45.89,10
+London-1640,Mr Haines,10/06/2021,,Technology,Accessories,PC Headset,£45.89,2
+Manchester-1663,Mrs Trafton,24/06/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,7
+Birmingham-1690,Mr Maddox,01/06/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,3
+Manchester-1734,Mrs Taslimi,30/06/2021,,Technology,Accessories,PC Headset,£45.89,5
+London-1831,Mr Saunders,29/06/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,7
+Newcastle-1849,Mr Gardner,04/06/2021,,Technology,Accessories,PC Headset,£45.89,8
+Birmingham-2010,Mrs Galang,16/06/2021,Return Processed,Technology,Accessories,PC Headset,£45.89,4
+Newcastle-2057,Mr Hopkins,19/06/2021,,Technology,Accessories,PC Headset,£45.89,5
+Edinburgh-1442,Mrs Sheldon,12/06/2021,Return Processed,Technology,Machines,Videoconferencing Unit,£168.76,6
+Newcastle-1451,Mr Haberlin,27/06/2021,,Technology,Machines,Videoconferencing Unit,£168.76,11
+Manchester-1599,Mr Barreto,11/06/2021,Return Processed,Technology,Machines,Videoconferencing Unit,£168.76,9
+Bristol-1773,Mr Tillman,26/06/2021,,Technology,Machines,Videoconferencing Unit,£168.76,10
+Bristol-1983,Mr Voltz,17/06/2021,,Technology,Machines,Videoconferencing Unit,£168.76,3
+Birmingham-2168,Mr Castell,17/06/2021,,Technology,Machines,Videoconferencing Unit,£168.76,10
+Birmingham-1115,Mr Craven,19/06/2021,Return Processed,Technology,Machines,Shredder,£65.49,1
+Newcastle-1237,Mr Badders,13/06/2021,,Technology,Machines,Shredder,£65.49,1
+Bristol-1425,Mrs Jones,22/06/2021,Return Processed,Technology,Machines,Shredder,£65.49,6
+Edinburgh-1649,Mr Foulston,16/06/2021,,Technology,Machines,Shredder,£65.49,10
+Newcastle-1674,Mr Ritter,29/06/2021,,Technology,Machines,Shredder,£65.49,7
+Birmingham-1739,Mrs Chong,10/06/2021,,Technology,Machines,Shredder,£65.49,1
+Edinburgh-1818,Mr Olsen,30/06/2021,,Technology,Machines,Shredder,£65.49,2
+Manchester-2042,Mr Allen,26/06/2021,Return Processed,Technology,Machines,Shredder,£65.49,6
+Birmingham-2166,Mrs Hendricks,21/06/2021,,Technology,Machines,Shredder,£65.49,1
+London-1191,Mr Coakley,29/06/2021,,Technology,Machines,Printer,£129.99,2
+Newcastle-1206,Mr Craven,04/06/2021,,Technology,Machines,Printer,£129.99,4
+Bristol-1511,Mrs Wallace,11/06/2021,,Technology,Machines,Printer,£129.99,3
+Edinburgh-1550,Mr Klamczynski,06/06/2021,Return Processed,Technology,Machines,Printer,£129.99,9
+York-1637,Mrs Jumper,18/06/2021,,Technology,Machines,Printer,£129.99,2
+Manchester-1577,Mr Cohen,19/06/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,2
+Manchester-1599,Mr Barreto,11/06/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,9
+Newcastle-1849,Mr Gardner,04/06/2021,,Technology,Phones,Speakerphone,£79.46,4
+York-1954,Mrs Kotsonis,03/06/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,4
+Bristol-2157,Mr Reed,01/06/2021,,Technology,Phones,Speakerphone,£79.46,10
+Birmingham-2166,Mrs Hendricks,21/06/2021,,Technology,Phones,Speakerphone,£79.46,11
+Manchester-1119,Mr House,09/06/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,3
+Newcastle-1239,Mr Childs,13/06/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,4
+Manchester-1520,Mr Boland,29/06/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,8
+Newcastle-1638,Mr Selesnick,18/06/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,2
+Edinburgh-1948,Mr Katz,03/06/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,2
+Edinburgh-2055,Mrs Martinez,15/06/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,11
+Manchester-1066,Mr Chapman,17/06/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,1
+Birmingham-1152,Mr Pisteka,16/06/2021,,Technology,Phones,Bluetooth Headset,£86.99,1
+Edinburgh-1376,Mrs Shonely,19/06/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,3
+Birmingham-1736,Mrs Krohn,30/06/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,6
+Birmingham-1754,Mr Zeldin,20/06/2021,,Technology,Phones,Bluetooth Headset,£86.99,1
+Edinburgh-1850,Mrs Sheldon,04/06/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,3
+York-1192,Mr Armold,29/06/2021,,Technology,Phones,Motorola L703CM,£356.99,11
+Bristol-1425,Mrs Jones,22/06/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,3
+Birmingham-1673,Mrs Satty,29/06/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,10
+Manchester-1735,Mr Brittain,30/06/2021,,Technology,Phones,Motorola L703CM,£356.99,6
+Edinburgh-2151,Mr Crebassa,13/06/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,9
+Birmingham-2166,Mrs Hendricks,21/06/2021,,Technology,Phones,Motorola L703CM,£356.99,8
+York-1185,Mrs Brumfield,04/06/2021,,Technology,Phones,Motorola L804,£459.67,4
+York-1414,Mrs Derr,16/06/2021,,Technology,Phones,Motorola L804,£459.67,9
+Edinburgh-1532,Mrs Etezadi,02/06/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,4
+York-1907,Mrs Van,18/06/2021,,Technology,Phones,Motorola L804,£459.67,6
+Manchester-2041,Mr Dawkins,26/06/2021,,Technology,Phones,Motorola L804,£459.67,11
+York-1120,Mr Catini,09/06/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,8
+Birmingham-1233,Mr Foulston,20/06/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,4
+Newcastle-1251,Mrs Soltero,11/06/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,4
+Birmingham-1388,Mr Olsen,30/06/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,2
+Birmingham-1754,Mr Zeldin,20/06/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,10
+Manchester-1852,Mr Braxton,03/06/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,10
+London-1955,Mr Fortune,03/06/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,8
+York-2056,Mr Venier,19/06/2021,Return Processed,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,4
+York-1215,Mrs Marie,02/06/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,2
+London-1831,Mr Saunders,29/06/2021,Return Processed,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,10
+Birmingham-1152,Mr Pisteka,16/06/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,8
+York-1163,Mrs Meador,26/06/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,1
+Birmingham-1257,Mr Gockenbach,21/06/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,9
+Birmingham-1296,Mr Engle,25/06/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,11
+Bristol-1332,Mr Ludtke,11/06/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,10
+Edinburgh-1818,Mr Olsen,30/06/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,3
+Edinburgh-1884,Mrs Glotzbach,03/06/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,9
+Edinburgh-1153,Mr Donatelli,16/06/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,4
+Newcastle-1379,Mr Howell,17/06/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,3
+York-1447,Mr Bremer,04/06/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,2
+London-1488,Mr Braden,04/06/2021,Return Processed,Technology,Phones,Panasonic Kx-TS550,£657.55,9
+Manchester-1693,Mrs Hendricks,26/06/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,4
+Bristol-1773,Mr Tillman,26/06/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,10
+Newcastle-1092,Mr Raglin,24/06/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,3
+Edinburgh-1572,Mr Yotov,24/06/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,1
+Bristol-1576,Mr Ober,19/06/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,4
+Newcastle-1638,Mr Selesnick,18/06/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,10
+London-1675,Mr Weirich,29/06/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,5
+Manchester-2088,Mr Eichhorn,13/06/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,9
+Manchester-1284,Mr Morse,03/07/2021,,Furniture,Bookcases,Bookcase,£60.07,7
+York-1285,Mr Yedwab,03/07/2021,,Furniture,Bookcases,Bookcase,£60.07,3
+Bristol-1316,Mrs Moren,28/07/2021,,Furniture,Bookcases,Bookcase,£60.07,11
+Manchester-1336,Mr Brittain,20/07/2021,,Furniture,Bookcases,Bookcase,£60.07,5
+Manchester-1386,Mrs Budd,16/07/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,4
+York-1626,Mr Chance,23/07/2021,,Furniture,Bookcases,Bookcase,£60.07,5
+Birmingham-1756,Mr Sievert,27/07/2021,,Furniture,Bookcases,Bookcase,£60.07,5
+York-1795,Mr Barnes,15/07/2021,Return Processed,Furniture,Bookcases,Bookcase,£60.07,10
+Edinburgh-2053,Mr Medina,21/07/2021,,Furniture,Bookcases,Bookcase,£60.07,9
+York-1084,Mr Sissman,08/07/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,4
+Edinburgh-1826,Mr Haberlin,17/07/2021,,Furniture,Chairs,Armless Task Chair,£37.75,9
+Bristol-1829,Mr Flathmann,31/07/2021,Return Processed,Furniture,Chairs,Armless Task Chair,£37.75,7
+Birmingham-1975,Mr Becker,21/07/2021,,Furniture,Chairs,Armless Task Chair,£37.75,1
+Birmingham-1977,Mr Jarboe,21/07/2021,,Furniture,Chairs,Armless Task Chair,£37.75,8
+London-2115,Mr Cunningham,14/07/2021,,Furniture,Chairs,Armless Task Chair,£37.75,1
+Manchester-1113,Mr Mitchell,21/07/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,2
+Manchester-1284,Mr Morse,03/07/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,8
+Newcastle-1560,Mr Nguyen,18/07/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,8
+Birmingham-1561,Mrs Bowman,18/07/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,6
+Manchester-1713,Mr Phelps,21/07/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,7
+London-1715,Mr Ulpright,21/07/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,10
+Birmingham-1756,Mr Sievert,27/07/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,1
+Edinburgh-1826,Mr Haberlin,17/07/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,7
+London-1978,Mrs Schild,21/07/2021,,Furniture,Chairs,Leather Highback Executive Chair,£96.82,7
+Newcastle-2005,Mrs Fjeld,31/07/2021,Return Processed,Furniture,Chairs,Leather Highback Executive Chair,£96.82,5
+Manchester-1262,Mr Eichhorn,03/07/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,9
+Bristol-1829,Mr Flathmann,31/07/2021,Return Processed,Furniture,Chairs,Task/Swivel Chairs,£43.29,4
+Manchester-1853,Mr Matthias,07/07/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,8
+Edinburgh-2033,Mrs Ward,24/07/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,11
+London-2171,Mr Hopkins,25/07/2021,,Furniture,Chairs,Task/Swivel Chairs,£43.29,2
+Newcastle-1446,Mr Armstrong,10/07/2021,Return Processed,Furniture,Chairs,Operator's Chair,£20.87,10
+Birmingham-1483,Mr Willingham,10/07/2021,,Furniture,Chairs,Operator's Chair,£20.87,6
+Bristol-1828,Mr West,17/07/2021,,Furniture,Chairs,Operator's Chair,£20.87,1
+London-2171,Mr Hopkins,25/07/2021,,Furniture,Chairs,Operator's Chair,£20.87,3
+Newcastle-1387,Mrs Odegard,09/07/2021,,Furniture,Chairs,Folding Chairs,£15.69,10
+Newcastle-1892,Mrs Odegard,03/07/2021,,Furniture,Chairs,Folding Chairs,£15.69,8
+Edinburgh-2053,Mr Medina,21/07/2021,,Furniture,Chairs,Folding Chairs,£15.69,7
+Birmingham-1110,Mr Barnes,30/07/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,10
+Birmingham-1483,Mr Willingham,10/07/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,2
+London-1715,Mr Ulpright,21/07/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,5
+Birmingham-1756,Mr Sievert,27/07/2021,,Furniture,Furnishings,Round Wall Clock,£8.80,9
+York-1064,Mrs Balk,16/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,8
+Manchester-1071,Mrs Swindell,06/07/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,6
+Bristol-1210,Mr Fisher,03/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,3
+Birmingham-1322,Mrs Meador,09/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,6
+York-1437,Mrs Daniels,25/07/2021,Return Processed,Furniture,Furnishings,Stackable Tray,£2.60,2
+Birmingham-1483,Mr Willingham,10/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,8
+Bristol-1603,Mr Willman,05/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,1
+Birmingham-1627,Mrs Satty,23/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,4
+York-1757,Mr Bertelson,27/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,1
+Newcastle-1892,Mrs Odegard,03/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,8
+Bristol-2017,Mr Catini,25/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,6
+Birmingham-2050,Mr Brooks,18/07/2021,,Furniture,Furnishings,Stackable Tray,£2.60,8
+London-1338,Mr Wendt,20/07/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,10
+Manchester-1386,Mrs Budd,16/07/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,4
+York-1642,Mrs Manning,17/07/2021,Return Processed,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,6
+London-1720,Mrs Ferguson,29/07/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,8
+Newcastle-1827,Mr Craven,17/07/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,5
+Manchester-1853,Mr Matthias,07/07/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,5
+York-2007,Mrs Hart,21/07/2021,,Furniture,Furnishings,Desk Lamp Bulbs,£10.00,7
+Bristol-1136,Mrs Blanton,23/07/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,10
+London-1509,Mr Roelle,03/07/2021,,Furniture,Furnishings,Desk Lamp,£19.99,5
+Newcastle-1855,Mr LaWare,07/07/2021,,Furniture,Furnishings,Desk Lamp,£19.99,6
+York-1980,Mrs Galang,21/07/2021,Return Processed,Furniture,Furnishings,Desk Lamp,£19.99,6
+York-2126,Mr Hansen,14/07/2021,,Furniture,Furnishings,Desk Lamp,£19.99,1
+Newcastle-1255,Mr Staavos,08/07/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,3
+Newcastle-1387,Mrs Odegard,09/07/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,1
+Newcastle-1827,Mr Craven,17/07/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,8
+Birmingham-1975,Mr Becker,21/07/2021,,Furniture,Tables,Solid Wood Round Tables,£264.46,10
+Bristol-2114,Mrs Budd,14/07/2021,Return Processed,Furniture,Tables,Solid Wood Round Tables,£264.46,9
+Edinburgh-1184,Mr Packer,09/07/2021,,Furniture,Tables,Round Conference Table,£562.90,5
+Newcastle-1318,Mr Willingham,31/07/2021,,Furniture,Tables,Round Conference Table,£562.90,8
+Edinburgh-1340,Mrs Taslimi,20/07/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,9
+York-1437,Mrs Daniels,25/07/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,1
+Bristol-1489,Mr Ballentine,22/07/2021,,Furniture,Tables,Round Conference Table,£562.90,8
+Newcastle-1825,Mr Fuller,17/07/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,8
+Bristol-1887,Mr Engle,09/07/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,5
+York-2018,Mrs Hagelstein,25/07/2021,Return Processed,Furniture,Tables,Round Conference Table,£562.90,3
+Birmingham-2117,Mr Phan,14/07/2021,,Furniture,Tables,Round Conference Table,£562.90,11
+York-2163,Mr Butterfield,03/07/2021,,Furniture,Tables,Round Conference Table,£562.90,3
+Bristol-1136,Mrs Blanton,23/07/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,10
+Birmingham-1337,Mrs Schoenberger,20/07/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,11
+Manchester-1339,Mr Bertelson,20/07/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,10
+York-2018,Mrs Hagelstein,25/07/2021,Return Processed,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Bristol-2153,Mr Drucker,30/07/2021,,Furniture,Tables,Laminate Occasional Tables,£464.29,4
+Bristol-1136,Mrs Blanton,23/07/2021,Return Processed,Furniture,Tables,Desk,£125.33,9
+London-1509,Mr Roelle,03/07/2021,,Furniture,Tables,Desk,£125.33,9
+Bristol-1717,Mrs Krohn,29/07/2021,Return Processed,Furniture,Tables,Desk,£125.33,5
+London-1604,Mr Boyes,05/07/2021,,Office Supplies,Appliances,Vaccuum,£605.39,9
+Manchester-1605,Mr West,05/07/2021,,Office Supplies,Appliances,Vaccuum,£605.39,4
+Bristol-1796,Mrs Pawlan,15/07/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,6
+Manchester-1889,Mrs Greene,09/07/2021,Return Processed,Office Supplies,Appliances,Vaccuum,£605.39,3
+Newcastle-1892,Mrs Odegard,03/07/2021,,Office Supplies,Appliances,Vaccuum,£605.39,9
+Birmingham-2116,Mr Phonely,14/07/2021,,Office Supplies,Appliances,Vaccuum,£605.39,1
+Newcastle-1086,Mr Braxton,08/07/2021,,Office Supplies,Appliances,Refrigerator,£897.65,4
+Newcastle-1318,Mr Willingham,31/07/2021,,Office Supplies,Appliances,Refrigerator,£897.65,1
+York-1517,Mr Grady,03/07/2021,,Office Supplies,Appliances,Refrigerator,£897.65,7
+Manchester-1713,Mr Phelps,21/07/2021,,Office Supplies,Appliances,Refrigerator,£897.65,11
+Newcastle-2005,Mrs Fjeld,31/07/2021,Return Processed,Office Supplies,Appliances,Refrigerator,£897.65,8
+Newcastle-2006,Mr Cunningham,21/07/2021,,Office Supplies,Appliances,Refrigerator,£897.65,5
+Edinburgh-2053,Mr Medina,21/07/2021,,Office Supplies,Appliances,Refrigerator,£897.65,10
+London-2147,Mr Kennedy,15/07/2021,Return Processed,Office Supplies,Appliances,Refrigerator,£897.65,5
+York-2163,Mr Butterfield,03/07/2021,,Office Supplies,Appliances,Refrigerator,£897.65,2
+Newcastle-1446,Mr Armstrong,10/07/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,3
+Birmingham-1490,Mrs Budd,08/07/2021,,Office Supplies,Appliances,Microwave,£104.58,6
+York-1757,Mr Bertelson,27/07/2021,,Office Supplies,Appliances,Microwave,£104.58,7
+Newcastle-1855,Mr LaWare,07/07/2021,,Office Supplies,Appliances,Microwave,£104.58,8
+Bristol-1887,Mr Engle,09/07/2021,Return Processed,Office Supplies,Appliances,Microwave,£104.58,9
+York-1888,Mr Crouse,09/07/2021,,Office Supplies,Appliances,Microwave,£104.58,9
+Birmingham-1085,Mr Farhat,08/07/2021,,Office Supplies,Art,Pens,£5.69,1
+Birmingham-1107,Mr Catini,20/07/2021,Return Processed,Office Supplies,Art,Pens,£5.69,2
+London-1254,Mrs Kimmel,08/07/2021,,Office Supplies,Art,Pens,£5.69,4
+Bristol-1267,Mr Luxemburg,29/07/2021,Return Processed,Office Supplies,Art,Pens,£5.69,11
+Manchester-1304,Mrs Kimmel,15/07/2021,,Office Supplies,Art,Pens,£5.69,4
+Manchester-1558,Mr Black,18/07/2021,,Office Supplies,Art,Pens,£5.69,1
+Newcastle-1714,Mr McMahon,21/07/2021,,Office Supplies,Art,Pens,£5.69,8
+Bristol-1887,Mr Engle,09/07/2021,Return Processed,Office Supplies,Art,Pens,£5.69,1
+Edinburgh-2113,Mr Garza,14/07/2021,Return Processed,Office Supplies,Art,Pens,£5.69,1
+Birmingham-2125,Mrs Dodson,14/07/2021,Return Processed,Office Supplies,Art,Pens,£5.69,11
+Manchester-2148,Mrs Fein,02/07/2021,,Office Supplies,Art,Pens,£5.69,8
+Newcastle-1869,Mr Phelps,13/07/2021,,Office Supplies,Art,Post-its,£3.33,2
+Bristol-1979,Mr McGrath,21/07/2021,,Office Supplies,Art,Post-its,£3.33,6
+Bristol-2127,Mrs Abelman,14/07/2021,Return Processed,Office Supplies,Art,Post-its,£3.33,2
+Edinburgh-1184,Mr Packer,09/07/2021,,Office Supplies,Art,Highlighters,£2.69,8
+Bristol-1269,Mr Poirier,29/07/2021,,Office Supplies,Art,Highlighters,£2.69,5
+York-1508,Mr Van Huff,03/07/2021,,Office Supplies,Art,Highlighters,£2.69,1
+Bristol-1530,Mrs Baptist,03/07/2021,,Office Supplies,Art,Highlighters,£2.69,1
+Newcastle-1825,Mr Fuller,17/07/2021,Return Processed,Office Supplies,Art,Highlighters,£2.69,6
+Birmingham-1337,Mrs Schoenberger,20/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,3
+Birmingham-1529,Mr Phan,03/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,9
+Edinburgh-1609,Mr Ober,21/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,4
+Manchester-1645,Mr Packer,08/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,11
+Birmingham-1756,Mr Sievert,27/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,2
+York-1757,Mr Bertelson,27/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,9
+Newcastle-1827,Mr Craven,17/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,8
+Birmingham-2051,Mr Williamson,18/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,7
+Birmingham-2125,Mrs Dodson,14/07/2021,Return Processed,Office Supplies,Envelopes,White Envelopes,£4.50,7
+Newcastle-2128,Mr Sweed,14/07/2021,,Office Supplies,Envelopes,White Envelopes,£4.50,5
+Birmingham-1793,Mrs Jumper,15/07/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,5
+London-1940,Mr Brumley,31/07/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,8
+Bristol-1979,Mr McGrath,21/07/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,8
+York-2018,Mrs Hagelstein,25/07/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,6
+Birmingham-2116,Mr Phonely,14/07/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,2
+Birmingham-2125,Mrs Dodson,14/07/2021,Return Processed,Office Supplies,Envelopes,Coloured Envelopes,£5.50,11
+Bristol-2149,Mrs Harton,02/07/2021,,Office Supplies,Envelopes,Coloured Envelopes,£5.50,8
+Newcastle-1303,Mr Hopkins,15/07/2021,,Office Supplies,Fasteners,Push Pins,£2.69,3
+Newcastle-1560,Mr Nguyen,18/07/2021,,Office Supplies,Fasteners,Push Pins,£2.69,4
+Birmingham-1561,Mrs Bowman,18/07/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,5
+Bristol-1644,Mr Sewall,17/07/2021,,Office Supplies,Fasteners,Push Pins,£2.69,9
+York-1795,Mr Barnes,15/07/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,9
+Manchester-1854,Mr Brittain,07/07/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,1
+Bristol-1857,Mr Bavinger,07/07/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,5
+York-2049,Mr Reiter,18/07/2021,Return Processed,Office Supplies,Fasteners,Push Pins,£2.69,9
+Bristol-2149,Mrs Harton,02/07/2021,,Office Supplies,Fasteners,Push Pins,£2.69,5
+Manchester-1336,Mr Brittain,20/07/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,10
+Bristol-1530,Mrs Baptist,03/07/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,6
+Bristol-1652,Mrs Gerbode,17/07/2021,,Office Supplies,Fasteners,Rubber Bands,£4.87,7
+London-1315,Mr Ellison,28/07/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,5
+London-1720,Mrs Ferguson,29/07/2021,,Office Supplies,Labels,Colour-Coded Labels,£9.99,9
+Bristol-1796,Mrs Pawlan,15/07/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,7
+London-1797,Mr Akin,15/07/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,7
+Bristol-2114,Mrs Budd,14/07/2021,Return Processed,Office Supplies,Labels,Colour-Coded Labels,£9.99,3
+York-1072,Mr Barreto,06/07/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,9
+Manchester-1317,Mr Nguyen,28/07/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,1
+Bristol-1603,Mr Willman,05/07/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,4
+York-1980,Mrs Galang,21/07/2021,Return Processed,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,3
+York-2007,Mrs Hart,21/07/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,6
+Birmingham-2117,Mr Phan,14/07/2021,,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,£7.80,11
+Birmingham-1322,Mrs Meador,09/07/2021,,Office Supplies,Paper,Parchment Paper,£2.65,10
+Newcastle-1446,Mr Armstrong,10/07/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,7
+Newcastle-1827,Mr Craven,17/07/2021,,Office Supplies,Paper,Parchment Paper,£2.65,7
+Newcastle-1855,Mr LaWare,07/07/2021,,Office Supplies,Paper,Parchment Paper,£2.65,6
+York-2007,Mrs Hart,21/07/2021,,Office Supplies,Paper,Parchment Paper,£2.65,7
+London-2115,Mr Cunningham,14/07/2021,,Office Supplies,Paper,Parchment Paper,£2.65,7
+York-2119,Mr Poirier,14/07/2021,Return Processed,Office Supplies,Paper,Parchment Paper,£2.65,9
+York-1320,Mr McCrary,29/07/2021,,Office Supplies,Paper,Xerox 1897,£2.55,3
+London-1360,Mr Staavos,03/07/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,4
+Bristol-1530,Mrs Baptist,03/07/2021,,Office Supplies,Paper,Xerox 1897,£2.55,9
+Manchester-1582,Mr Heidel,27/07/2021,,Office Supplies,Paper,Xerox 1897,£2.55,10
+Bristol-1796,Mrs Pawlan,15/07/2021,Return Processed,Office Supplies,Paper,Xerox 1897,£2.55,11
+Bristol-1828,Mr West,17/07/2021,,Office Supplies,Paper,Xerox 1897,£2.55,9
+Bristol-2035,Mr West,29/07/2021,,Office Supplies,Paper,Xerox 1897,£2.55,5
+Edinburgh-2123,Mr Pölking,14/07/2021,,Office Supplies,Paper,Xerox 1897,£2.55,6
+York-1072,Mr Barreto,06/07/2021,,Office Supplies,Paper,Xerox 1901,£2.65,1
+Edinburgh-1184,Mr Packer,09/07/2021,,Office Supplies,Paper,Xerox 1901,£2.65,11
+London-1315,Mr Ellison,28/07/2021,,Office Supplies,Paper,Xerox 1901,£2.65,1
+Newcastle-1346,Mrs Caffey,07/07/2021,,Office Supplies,Paper,Xerox 1901,£2.65,1
+Birmingham-1483,Mr Willingham,10/07/2021,,Office Supplies,Paper,Xerox 1901,£2.65,9
+York-1729,Mr Chand,25/07/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,10
+Newcastle-1825,Mr Fuller,17/07/2021,Return Processed,Office Supplies,Paper,Xerox 1901,£2.65,6
+Edinburgh-2053,Mr Medina,21/07/2021,,Office Supplies,Paper,Xerox 1901,£2.65,4
+Newcastle-2128,Mr Sweed,14/07/2021,,Office Supplies,Paper,Xerox 1901,£2.65,4
+Manchester-1336,Mr Brittain,20/07/2021,,Office Supplies,Paper,Xerox 1925,£2.80,2
+Bristol-1644,Mr Sewall,17/07/2021,,Office Supplies,Paper,Xerox 1925,£2.80,4
+Birmingham-1898,Mrs Stugart,11/07/2021,,Office Supplies,Paper,Xerox 1925,£2.80,1
+London-1940,Mr Brumley,31/07/2021,,Office Supplies,Paper,Xerox 1925,£2.80,6
+London-1978,Mrs Schild,21/07/2021,,Office Supplies,Paper,Xerox 1925,£2.80,7
+Bristol-1979,Mr McGrath,21/07/2021,,Office Supplies,Paper,Xerox 1925,£2.80,7
+London-2161,Mrs Hane,21/07/2021,Return Processed,Office Supplies,Paper,Xerox 1925,£2.80,10
+Bristol-1829,Mr Flathmann,31/07/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,8
+Manchester-1856,Mr Tyler,07/07/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,9
+Edinburgh-2019,Mr Van Huff,25/07/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,3
+York-2119,Mr Poirier,14/07/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,10
+London-2161,Mrs Hane,21/07/2021,Return Processed,Office Supplies,Paper,Xerox 1933,£3.97,5
+Edinburgh-1504,Mr Webber,01/07/2021,,Office Supplies,Paper,Xerox 1936,£4.87,7
+York-1517,Mr Grady,03/07/2021,,Office Supplies,Paper,Xerox 1936,£4.87,7
+Bristol-1828,Mr West,17/07/2021,,Office Supplies,Paper,Xerox 1936,£4.87,10
+Manchester-1868,Mr Cohen,13/07/2021,,Office Supplies,Paper,Xerox 1936,£4.87,10
+Newcastle-1086,Mr Braxton,08/07/2021,,Office Supplies,Paper,Xerox 194,£5.17,8
+Manchester-1211,Mrs Moren,03/07/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,5
+Bristol-1269,Mr Poirier,29/07/2021,,Office Supplies,Paper,Xerox 194,£5.17,4
+Newcastle-1714,Mr McMahon,21/07/2021,,Office Supplies,Paper,Xerox 194,£5.17,1
+Bristol-1829,Mr Flathmann,31/07/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,6
+Manchester-1939,Mr Howell,31/07/2021,Return Processed,Office Supplies,Paper,Xerox 194,£5.17,5
+York-1974,Mr Goldenen,21/07/2021,,Office Supplies,Paper,Xerox 194,£5.17,3
+Birmingham-2117,Mr Phan,14/07/2021,,Office Supplies,Paper,Xerox 194,£5.17,1
+Birmingham-2118,Mrs Greene,14/07/2021,,Office Supplies,Paper,Xerox 194,£5.17,7
+Bristol-1136,Mrs Blanton,23/07/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,8
+Newcastle-1335,Mr Flanagan,20/07/2021,,Office Supplies,Paper,Xerox 1951,£5.67,8
+Edinburgh-1340,Mrs Taslimi,20/07/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,5
+Bristol-1857,Mr Bavinger,07/07/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,9
+Edinburgh-2019,Mr Van Huff,25/07/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,6
+Edinburgh-2113,Mr Garza,14/07/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,4
+York-2119,Mr Poirier,14/07/2021,Return Processed,Office Supplies,Paper,Xerox 1951,£5.67,9
+Bristol-1489,Mr Ballentine,22/07/2021,,Office Supplies,Paper,Xerox 1974,£5.99,3
+Manchester-1503,Mrs Conant,01/07/2021,,Office Supplies,Paper,Xerox 1974,£5.99,4
+Edinburgh-1510,Mr McGuire,03/07/2021,,Office Supplies,Paper,Xerox 1974,£5.99,2
+Bristol-1612,Mrs Huffman,03/07/2021,,Office Supplies,Paper,Xerox 1974,£5.99,10
+York-1626,Mr Chance,23/07/2021,,Office Supplies,Paper,Xerox 1974,£5.99,10
+Birmingham-1688,Mr Mautz,13/07/2021,,Office Supplies,Paper,Xerox 1974,£5.99,1
+York-1795,Mr Barnes,15/07/2021,Return Processed,Office Supplies,Paper,Xerox 1974,£5.99,2
+Birmingham-2051,Mr Williamson,18/07/2021,,Office Supplies,Paper,Xerox 1974,£5.99,5
+York-1084,Mr Sissman,08/07/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,6
+London-1315,Mr Ellison,28/07/2021,,Office Supplies,Paper,Xerox 1979,£6.45,3
+Manchester-1339,Mr Bertelson,20/07/2021,,Office Supplies,Paper,Xerox 1979,£6.45,4
+Bristol-1603,Mr Willman,05/07/2021,,Office Supplies,Paper,Xerox 1979,£6.45,9
+Newcastle-1825,Mr Fuller,17/07/2021,Return Processed,Office Supplies,Paper,Xerox 1979,£6.45,5
+Bristol-2149,Mrs Harton,02/07/2021,,Office Supplies,Paper,Xerox 1979,£6.45,5
+Edinburgh-1108,Mrs Foster,20/07/2021,,Office Supplies,Paper,Xerox 200,£6.52,11
+Manchester-1113,Mr Mitchell,21/07/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,8
+Manchester-1304,Mrs Kimmel,15/07/2021,,Office Supplies,Paper,Xerox 200,£6.52,10
+Birmingham-1561,Mrs Bowman,18/07/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,1
+Birmingham-2116,Mr Phonely,14/07/2021,,Office Supplies,Paper,Xerox 200,£6.52,10
+Bristol-2127,Mrs Abelman,14/07/2021,Return Processed,Office Supplies,Paper,Xerox 200,£6.52,11
+Manchester-1183,Mrs Gnade,09/07/2021,,Office Supplies,Paper,Xerox 2000,£6.89,5
+Bristol-1210,Mr Fisher,03/07/2021,,Office Supplies,Paper,Xerox 2000,£6.89,10
+London-1315,Mr Ellison,28/07/2021,,Office Supplies,Paper,Xerox 2000,£6.89,2
+London-1319,Mr Crowe,29/07/2021,,Office Supplies,Paper,Xerox 2000,£6.89,3
+York-1642,Mrs Manning,17/07/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,9
+Manchester-1856,Mr Tyler,07/07/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,4
+Newcastle-2006,Mr Cunningham,21/07/2021,,Office Supplies,Paper,Xerox 2000,£6.89,4
+Newcastle-2021,Mr Grayson,25/07/2021,Return Processed,Office Supplies,Paper,Xerox 2000,£6.89,6
+Bristol-2149,Mrs Harton,02/07/2021,,Office Supplies,Paper,Xerox 2000,£6.89,1
+York-1320,Mr McCrary,29/07/2021,,Office Supplies,Paper,Xerox 208,£7.14,7
+Newcastle-1346,Mrs Caffey,07/07/2021,,Office Supplies,Paper,Xerox 208,£7.14,4
+Bristol-1519,Mrs Sayre,03/07/2021,,Office Supplies,Paper,Xerox 208,£7.14,10
+Birmingham-1793,Mrs Jumper,15/07/2021,,Office Supplies,Paper,Xerox 208,£7.14,11
+London-2171,Mr Hopkins,25/07/2021,,Office Supplies,Paper,Xerox 208,£7.14,3
+Manchester-1262,Mr Eichhorn,03/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,8
+Bristol-1267,Mr Luxemburg,29/07/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,2
+London-1518,Mr Anderson,03/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,5
+Manchester-1558,Mr Black,18/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,1
+Bristol-1603,Mr Willman,05/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,7
+Newcastle-1714,Mr McMahon,21/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,9
+Bristol-1796,Mrs Pawlan,15/07/2021,Return Processed,Office Supplies,Paper,Xerox 219,£7.50,8
+Birmingham-1858,Mr Kelly,07/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,10
+Birmingham-2050,Mr Brooks,18/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,8
+Newcastle-2128,Mr Sweed,14/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,8
+Manchester-2148,Mrs Fein,02/07/2021,,Office Supplies,Paper,Xerox 219,£7.50,10
+York-1890,Mrs Avila,09/07/2021,,Office Supplies,Paper,Xerox 221,£7.80,3
+Bristol-2017,Mr Catini,25/07/2021,,Office Supplies,Paper,Xerox 221,£7.80,3
+Birmingham-1256,Mr Elias,08/07/2021,Return Processed,Office Supplies,Paper,Xerox 232,£7.99,6
+Manchester-1284,Mr Morse,03/07/2021,,Office Supplies,Paper,Xerox 232,£7.99,2
+London-1319,Mr Crowe,29/07/2021,,Office Supplies,Paper,Xerox 232,£7.99,9
+Birmingham-1337,Mrs Schoenberger,20/07/2021,,Office Supplies,Paper,Xerox 232,£7.99,3
+Bristol-1559,Mrs Bierner,18/07/2021,,Office Supplies,Paper,Xerox 232,£7.99,2
+York-1974,Mr Goldenen,21/07/2021,,Office Supplies,Paper,Xerox 232,£7.99,8
+Newcastle-2006,Mr Cunningham,21/07/2021,,Office Supplies,Paper,Xerox 232,£7.99,6
+London-2124,Mr Frazer,14/07/2021,Return Processed,Office Supplies,Paper,Xerox 232,£7.99,7
+Manchester-1071,Mrs Swindell,06/07/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,7
+Birmingham-1110,Mr Barnes,30/07/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,10
+London-1315,Mr Ellison,28/07/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,7
+Newcastle-1904,Mr Hughsby,23/07/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,8
+York-2119,Mr Poirier,14/07/2021,Return Processed,Office Supplies,Storage,Stacking Storage Drawers,£43.26,3
+Manchester-2142,Mr Dominguez,30/07/2021,,Office Supplies,Storage,Stacking Storage Drawers,£43.26,1
+London-1177,Mr Triggs,09/07/2021,,Office Supplies,Storage,Lockers,£89.97,5
+Bristol-1829,Mr Flathmann,31/07/2021,Return Processed,Office Supplies,Storage,Lockers,£89.97,11
+London-1978,Mrs Schild,21/07/2021,,Office Supplies,Storage,Lockers,£89.97,10
+Manchester-2020,Mrs Daniels,25/07/2021,,Office Supplies,Storage,Lockers,£89.97,3
+Manchester-1317,Mr Nguyen,28/07/2021,,Technology,Accessories,USB Wired Mouse,£5.99,8
+Newcastle-1387,Mrs Odegard,09/07/2021,,Technology,Accessories,USB Wired Mouse,£5.99,11
+York-1648,Mrs Sperren,08/07/2021,,Technology,Accessories,USB Wired Mouse,£5.99,10
+Bristol-2146,Mrs Monton,15/07/2021,,Technology,Accessories,USB Wired Mouse,£5.99,3
+Manchester-1284,Mr Morse,03/07/2021,,Technology,Accessories,Keyboard,£19.94,6
+Edinburgh-1340,Mrs Taslimi,20/07/2021,Return Processed,Technology,Accessories,Keyboard,£19.94,7
+York-1517,Mr Grady,03/07/2021,,Technology,Accessories,Keyboard,£19.94,2
+Newcastle-1714,Mr McMahon,21/07/2021,,Technology,Accessories,Keyboard,£19.94,5
+Bristol-1828,Mr West,17/07/2021,,Technology,Accessories,Keyboard,£19.94,10
+Bristol-1979,Mr McGrath,21/07/2021,,Technology,Accessories,Keyboard,£19.94,3
+Newcastle-2008,Mr Prichep,21/07/2021,,Technology,Accessories,Keyboard,£19.94,1
+Bristol-1210,Mr Fisher,03/07/2021,,Technology,Accessories,PC Headset,£45.89,4
+Edinburgh-1510,Mr McGuire,03/07/2021,,Technology,Accessories,PC Headset,£45.89,2
+Newcastle-1892,Mrs Odegard,03/07/2021,,Technology,Accessories,PC Headset,£45.89,10
+Manchester-2020,Mrs Daniels,25/07/2021,,Technology,Accessories,PC Headset,£45.89,3
+London-1315,Mr Ellison,28/07/2021,,Technology,Machines,Videoconferencing Unit,£168.76,10
+London-1518,Mr Anderson,03/07/2021,,Technology,Machines,Videoconferencing Unit,£168.76,3
+Edinburgh-1557,Mr McGarr,18/07/2021,,Technology,Machines,Videoconferencing Unit,£168.76,4
+London-1797,Mr Akin,15/07/2021,Return Processed,Technology,Machines,Videoconferencing Unit,£168.76,6
+Newcastle-1827,Mr Craven,17/07/2021,,Technology,Machines,Videoconferencing Unit,£168.76,7
+Bristol-1828,Mr West,17/07/2021,,Technology,Machines,Videoconferencing Unit,£168.76,1
+Bristol-1829,Mr Flathmann,31/07/2021,Return Processed,Technology,Machines,Videoconferencing Unit,£168.76,11
+London-2054,Mr Norris,21/07/2021,,Technology,Machines,Videoconferencing Unit,£168.76,7
+Birmingham-1085,Mr Farhat,08/07/2021,,Technology,Machines,Shredder,£65.49,4
+Birmingham-1256,Mr Elias,08/07/2021,Return Processed,Technology,Machines,Shredder,£65.49,2
+Newcastle-1446,Mr Armstrong,10/07/2021,Return Processed,Technology,Machines,Shredder,£65.49,3
+London-1518,Mr Anderson,03/07/2021,,Technology,Machines,Shredder,£65.49,5
+Bristol-1717,Mrs Krohn,29/07/2021,Return Processed,Technology,Machines,Shredder,£65.49,4
+London-1720,Mrs Ferguson,29/07/2021,,Technology,Machines,Shredder,£65.49,10
+London-1940,Mr Brumley,31/07/2021,,Technology,Machines,Shredder,£65.49,3
+London-2054,Mr Norris,21/07/2021,,Technology,Machines,Shredder,£65.49,9
+Manchester-1304,Mrs Kimmel,15/07/2021,,Technology,Machines,Printer,£129.99,1
+Bristol-1316,Mrs Moren,28/07/2021,,Technology,Machines,Printer,£129.99,5
+Edinburgh-1510,Mr McGuire,03/07/2021,,Technology,Machines,Printer,£129.99,6
+London-1518,Mr Anderson,03/07/2021,,Technology,Machines,Printer,£129.99,8
+Manchester-1645,Mr Packer,08/07/2021,,Technology,Machines,Printer,£129.99,5
+London-1794,Mr Gute,15/07/2021,Return Processed,Technology,Machines,Printer,£129.99,10
+London-1797,Mr Akin,15/07/2021,Return Processed,Technology,Machines,Printer,£129.99,8
+Birmingham-2118,Mrs Greene,14/07/2021,,Technology,Machines,Printer,£129.99,8
+London-1254,Mrs Kimmel,08/07/2021,,Technology,Phones,Speakerphone,£79.46,10
+Manchester-1854,Mr Brittain,07/07/2021,Return Processed,Technology,Phones,Speakerphone,£79.46,3
+London-1940,Mr Brumley,31/07/2021,,Technology,Phones,Speakerphone,£79.46,2
+Bristol-1979,Mr McGrath,21/07/2021,,Technology,Phones,Speakerphone,£79.46,8
+Newcastle-2008,Mr Prichep,21/07/2021,,Technology,Phones,Speakerphone,£79.46,7
+Birmingham-2051,Mr Williamson,18/07/2021,,Technology,Phones,Speakerphone,£79.46,10
+Bristol-1316,Mrs Moren,28/07/2021,,Technology,Phones,Fast-charging Portable Charger,£15.64,8
+Manchester-1386,Mrs Budd,16/07/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,6
+Bristol-1417,Mr Hansen,29/07/2021,Return Processed,Technology,Phones,Fast-charging Portable Charger,£15.64,3
+Newcastle-1086,Mr Braxton,08/07/2021,,Technology,Phones,Bluetooth Headset,£86.99,2
+Newcastle-1446,Mr Armstrong,10/07/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,4
+Bristol-1519,Mrs Sayre,03/07/2021,,Technology,Phones,Bluetooth Headset,£86.99,2
+Newcastle-1855,Mr LaWare,07/07/2021,,Technology,Phones,Bluetooth Headset,£86.99,2
+London-1875,Mr Cazamias,06/07/2021,,Technology,Phones,Bluetooth Headset,£86.99,8
+Edinburgh-2019,Mr Van Huff,25/07/2021,Return Processed,Technology,Phones,Bluetooth Headset,£86.99,8
+Bristol-1269,Mr Poirier,29/07/2021,,Technology,Phones,Motorola L703CM,£356.99,6
+Bristol-1530,Mrs Baptist,03/07/2021,,Technology,Phones,Motorola L703CM,£356.99,2
+Manchester-1605,Mr West,05/07/2021,,Technology,Phones,Motorola L703CM,£356.99,11
+London-1794,Mr Gute,15/07/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,4
+Newcastle-2005,Mrs Fjeld,31/07/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,7
+Edinburgh-2113,Mr Garza,14/07/2021,Return Processed,Technology,Phones,Motorola L703CM,£356.99,4
+Newcastle-1242,Mr Norvell,11/07/2021,,Technology,Phones,Motorola L804,£459.67,10
+London-1543,Mr Allen,31/07/2021,,Technology,Phones,Motorola L804,£459.67,3
+Bristol-1687,Mr Ryan,13/07/2021,,Technology,Phones,Motorola L804,£459.67,1
+Bristol-1829,Mr Flathmann,31/07/2021,Return Processed,Technology,Phones,Motorola L804,£459.67,5
+London-2054,Mr Norris,21/07/2021,,Technology,Phones,Motorola L804,£459.67,6
+Manchester-1205,Mr Duston,07/07/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,10
+York-1517,Mr Grady,03/07/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,2
+London-1518,Mr Anderson,03/07/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,7
+York-1888,Mr Crouse,09/07/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,10
+Birmingham-1977,Mr Jarboe,21/07/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,10
+Bristol-2146,Mrs Monton,15/07/2021,,Technology,Phones,Panasonic KX T7731-B Digital phone,£451.27,7
+London-1315,Mr Ellison,28/07/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,4
+Birmingham-1627,Mrs Satty,23/07/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,11
+Birmingham-1858,Mr Kelly,07/07/2021,,Technology,Phones,Panasonic KX TS3282W Corded phone,£297.50,3
+York-1320,Mr McCrary,29/07/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,8
+Newcastle-1335,Mr Flanagan,20/07/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,7
+Manchester-1386,Mrs Budd,16/07/2021,Return Processed,Technology,Phones,Panasonic KX-TG9471B,£397.54,5
+Bristol-1413,Mrs Moffitt,11/07/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,7
+Edinburgh-1510,Mr McGuire,03/07/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,4
+Newcastle-1606,Mr Zettner,05/07/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,7
+Bristol-1687,Mr Ryan,13/07/2021,,Technology,Phones,Panasonic KX-TG9471B,£397.54,9
+London-1319,Mr Crowe,29/07/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,3
+Newcastle-1714,Mr McMahon,21/07/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,2
+Bristol-1828,Mr West,17/07/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,6
+Newcastle-1892,Mrs Odegard,03/07/2021,,Technology,Phones,Panasonic Kx-TS550,£657.55,9
+Manchester-1183,Mrs Gnade,09/07/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,5
+London-1319,Mr Crowe,29/07/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,9
+York-1437,Mrs Daniels,25/07/2021,Return Processed,Technology,Phones,Samsung Galaxy Note 2,£809.56,9
+London-1486,Mrs Sundaresam,20/07/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,2
+Newcastle-1560,Mr Nguyen,18/07/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,2
+Manchester-1582,Mr Heidel,27/07/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,10
+Birmingham-1756,Mr Sievert,27/07/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,3
+Bristol-2146,Mrs Monton,15/07/2021,,Technology,Phones,Samsung Galaxy Note 2,£809.56,5
