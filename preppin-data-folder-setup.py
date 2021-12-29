@@ -15,11 +15,10 @@ Author: Kelly Gilbert
 Created: 2020-02-18
 
 Requirements:
-  - update the variables for main_dir, new_yr_wk (week to be created), and prev_yr_wk (week to copy)
+  - update the variables for MAIN_DIR, NEW_YR_WK (week to be created)
   - Previous Week / Next Weeek navigation in the README does not account for week 53, so you may
     need to manually update the readme at EOY/BOY if there is a week 53
   - templates exist in the _templates folder (.py, .yxmd, and README)
-  - Alteryx shell file exists in main preppin-data-challenge folder
   
   This will output a shell for the README, but you will need to manually update:
   - The URL for the challenge description
@@ -27,79 +26,54 @@ Requirements:
 """
 
 
+from os import mkdir, path
+from shutil import copy2
+
+
 # --------------------------------------------------------------------------------------------------
-# UPDATE VARIABLES HERE:
+# update variables here
 # --------------------------------------------------------------------------------------------------
 
-main_dir = r'C:\projects\preppin-data-challenge'    # main directory path
-new_yr_wk = '2021-34'     # new week to add
+MAIN_DIR = r'C:\users\gilbe\projects\preppin-data-challenge'    # main directory path
+NEW_YR_WK = '2021-52'     # new week to add
+
+
+# --------------------------------------------------------------------------------------------------
+# calculate previous/future years and weeks
+# --------------------------------------------------------------------------------------------------
+
+new_yr = int(NEW_YR_WK[0:4])
+new_wk = int(NEW_YR_WK[5:])
+
+last_yr_wk = f'{new_yr if new_wk > 1 else new_yr - 1}-{str(new_wk - 1 if new_wk > 1 else 52).zfill(2)}'
+next_yr_wk = f'{new_yr if new_wk < 52 else new_yr + 1}-{str(new_wk - 1 if new_wk < 52 else 1).zfill(2)}'
 
 
 # --------------------------------------------------------------------------------------------------
 # folder setup script
 # --------------------------------------------------------------------------------------------------
 
-from os import mkdir, path
-from shutil import copy2
+# add the directory structure
+new_dir = path.join(MAIN_DIR, f'{NEW_YR_WK[:4]}\\preppin-data-{NEW_YR_WK}')
+
+mkdir(path.join(MAIN_DIR, new_dir))
+mkdir(path.join(MAIN_DIR, new_dir, 'inputs'))
+mkdir(path.join(MAIN_DIR, new_dir, 'outputs'))
 
 
-# filenames and paths
-new_dir = path.join(main_dir, f'{new_yr_wk[:4]}\\preppin-data-{new_yr_wk}')
-new_file = f'preppin-data-{new_yr_wk}.py'
+# copy the templates into the new directory
+for t in ['alteryx_template.yxmd', 'python_template.py', 'README_template.md']:
+    new_file = t if t == 'README.md' else f"preppin-data-{NEW_YR_WK}{t[t.find('.'):]}"
+    copy2(path.join(MAIN_DIR, f'_templates\{t}'), path.join(new_dir, new_file))
 
 
-# make the main weekly folder and inputs/outputs folders
-new_yr = int(new_yr_wk[0:4])
-new_wk = int(new_yr_wk[5:])
-prev_yr_wk = (new_yr if new_wk > 1 else new_yr - 1)
-
-
-mkdir(path.join(main_dir, new_dir))
-mkdir(path.join(main_dir, new_dir, 'inputs'))
-mkdir(path.join(main_dir, new_dir, 'outputs'))
-
-
-# copy the previous week's .py file into the new week's folder as a starter file
-copy2(path.join(prev_dir, prev_file), path.join(new_dir, new_file))
-
-
-# copy the Alteryx workflow template into the new week's folder as a starter file
-copy2(path.join(main_dir, 'alteryx_template.yxmd'), path.join(new_dir, f'preppin-data-{new_yr_wk}.yxmd'))
-
-
-# generate the markdown file starter
-new_wk_nbr = int(new_yr_wk[-2:])
-week_ago_wk_nbr = new_wk_nbr-1 if new_wk_nbr > 1 else 52
-week_ago_yr_wk = f'{(int(new_yr_wk[0:4]) - (0 if new_wk_nbr > 1 else 1))}-{("0"+str(week_ago_wk_nbr))[-2:]}'
-next_wk_nbr = new_wk_nbr+1 if new_wk_nbr < 52 else 1
-next_yr_wk = f'{(int(new_yr_wk[0:4]) + (0 if new_wk_nbr < 52 else 1))}-{("0" + str(next_wk_nbr))[-2:]}'
-
-md = f'<h6><a href="..\preppin-data-{week_ago_yr_wk}\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;'\
-    + f'|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-{next_yr_wk}\README.md">Next Week  ▶</a></h6>'
-md += chr(10)
-md += chr(10)
-md += '# Preppin\' Data ' + new_yr_wk[:4] + ' Week ' + str(int(new_yr_wk[-2:])) + chr(10)
-md += chr(10)
-
-md += '[Challenge description](https://preppindata.blogspot.com/2021/)' + chr(10) + chr(10)
-
-md += 'What I learned/practiced this week:' + chr(10)
-md += '*' + chr(10)
-md += '*' + chr(10)
-md += '*' + chr(10)
-md += chr(10)
-
-md += '## Python' + chr(10)
-md += f'<a href="preppin-data-' + new_yr_wk + '.py">' + chr(10)
-md += '<img src="img-python-code-' + new_yr_wk + '.png?raw=true" alt="Python code">' + chr(10)
-md += '</a>' + chr(10)
-md += chr(10)
-
-md += '## Alteryx' + chr(10)
-md += '<a href="preppin-data-' + new_yr_wk + '.yxzp">' + chr(10)
-md += '<img src="img-alteryx-' + new_yr_wk + '.png?raw=true" alt="Alteryx workflow">' + chr(10)
-md += '</a>'
-
-with open(path.join(new_dir, 'README.md'), 'w', encoding='utf-8') as text_file:
-    text_file.write(md)
-    
+    # replace the placeholders in the templates
+    with open(path.join(new_dir, new_file), 'r') as f:
+        f_text = f.read()
+        
+    f_text = f_text.replace('YYYY', NEW_YR_WK[0:4]).replace('WW', NEW_YR_WK[5:])\
+                   .replace('LYLY', last_yr_wk[0:4]).replace('LW', last_yr_wk[5:])\
+                   .replace('NYNY', next_yr_wk[0:4]).replace('NW', next_yr_wk[5:])   
+                   
+    with open(path.join(new_dir, new_file), 'w') as f:
+        f.write(f_text)
