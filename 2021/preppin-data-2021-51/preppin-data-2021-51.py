@@ -29,6 +29,7 @@ Requirements:
 """
 
 
+from numpy import where
 from pandas import read_csv
 
 
@@ -62,6 +63,9 @@ df = read_csv(r'.\inputs\2021W51 Input.csv', parse_dates=['Order Date'], dayfirs
 # split out the store name from the OrderID
 df[['Store', 'OrderID']] = df['OrderID_in'].str.extract('(\D+)-(\d+)', expand=True)
 
+print_errors(df[(df['Store'].isna()) | (df['OrderID'].isna())][['OrderID']], 
+             'The following OrderIDs could not be parsed:')
+
     
 # turn the Return State field into a binary Returned field
 df['Returned'] = where(df['Return State'].notna(), 1, 0)
@@ -71,33 +75,41 @@ df['Returned'] = where(df['Return State'].notna(), 1, 0)
 df['Unit Price'] = df['Unit Price_in'].str.replace('[^\d\.\-]', '', regex=True).astype(float) 
 df['Sales'] = df['Unit Price'] * df['Quantity']
 
-
-# add IDs
-for c in ['Store', 'Customer', 'Product Name']:
-    df.sort_values(by=['Order Date', c], key=sort_ignorecase, inplace=True)
-    df[f"{c.replace(' Name', '')}ID"] = df[c].factorize()[0] + 1
+print_errors(df[df['Sales'].isna()][['OrderID', 'Product Name', 'Unit Price', 'Quantity']], 
+                'Sales could not be calculated:')
 
 
 # create the Store dimension table
-df_store = df.groupby(['StoreID', 'Store'])['Order Date'].min().reset_index()\
+df_store = df.groupby('Store')['Order Date'].min().reset_index()\
+             .sort_values(by=['Order Date', 'Store'], key=sort_ignorecase)\
              .rename(columns={'Order Date' : 'First Order'})
-             
+df_store['StoreID'] = range(1, len(df_store) + 1)
+
 
 # create the Customer dimension table
-df_cust = df.groupby(['CustomerID', 'Customer'])\
-            .agg(Returned=('Returned', 'sum'),
-                 Order_Lines=('OrderID', 'count'),
-                 Number_of_Orders=('OrderID', 'nunique'),
-                 First_Order=('Order Date', 'min')).reset_index()
+df_cust = df.groupby('Customer').agg(Returned=('Returned', 'sum'),
+                                     Order_Lines=('OrderID', 'count'),
+                                     Number_of_Orders=('OrderID', 'nunique'),
+                                     First_Order=('Order Date', 'min')).reset_index()\
+            .sort_values(by=['First_Order', 'Customer'], key=sort_ignorecase)
 df_cust.columns = [c.replace('_', ' ') for c in df_cust.columns]
 df_cust['Return %'] = (df_cust['Returned'] / df_cust['Order Lines']).round(2)
+df_cust['CustomerID'] = range(1, len(df_cust) + 1)
 
 
 # create the Product dimension table
-df_prod = df.groupby(['ProductID', 'Category', 'Sub-Category', 'Product Name'])\
+df_prod = df.groupby(['Category', 'Sub-Category', 'Product Name'])\
             .agg(Unit_Price=('Unit Price', 'mean'),
-                 First_Sold=('Order Date', 'min')).reset_index()
+                 First_Sold=('Order Date', 'min')).reset_index()\
+            .sort_values(by=['First_Sold', 'Product Name'], key=sort_ignorecase)
 df_prod.columns = [c.replace('_', ' ') for c in df_prod.columns]
+df_prod['ProductID'] = range(1, len(df_prod) + 1)
+
+
+# replace the dimensions with their IDs in the original dataset to create the fact table
+df = df.merge(df_store[['StoreID', 'Store']], on='Store', how='left')\
+       .merge(df_cust[['CustomerID', 'Customer']], on='Customer', how='left')\
+       .merge(df_prod[['ProductID', 'Product Name']], on='Product Name', how='left')
 
 
 #---------------------------------------------------------------------------------------------------

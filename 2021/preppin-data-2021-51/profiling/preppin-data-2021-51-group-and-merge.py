@@ -43,7 +43,7 @@ def sort_ignorecase(x):
 # input the data
 #---------------------------------------------------------------------------------------------------
 
-df = read_csv(r'.\inputs\2021W51 Input.csv', parse_dates=['Order Date'], dayfirst=True)\
+df = read_csv(r'..\inputs\2021W51 Input.csv', parse_dates=['Order Date'], dayfirst=True)\
          .rename(columns={'OrderID' : 'OrderID_in', 'Unit Price' : 'Unit Price_in'})
 
 
