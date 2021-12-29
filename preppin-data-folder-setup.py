@@ -18,17 +18,12 @@ Requirements:
   - update the variables for main_dir, new_yr_wk (week to be created), and prev_yr_wk (week to copy)
   - Previous Week / Next Weeek navigation in the README does not account for week 53, so you may
     need to manually update the readme at EOY/BOY if there is a week 53
-  - main folder and .py file exists for the specified previous week
+  - templates exist in the _templates folder (.py, .yxmd, and README)
   - Alteryx shell file exists in main preppin-data-challenge folder
   
   This will output a shell for the README, but you will need to manually update:
   - The URL for the challenge description
   - Learned/practiced bullets
-  
-Revisions:
-  - Updated README shell to include link to challenge description and practiced/learned bullets
-  - Updated README shell to link to .yxzp instead of .yxmd Alteryx files
-  - Added Alteryx file shell
 """
 
 
@@ -38,7 +33,6 @@ Revisions:
 
 main_dir = r'C:\projects\preppin-data-challenge'    # main directory path
 new_yr_wk = '2021-34'     # new week to add
-prev_yr_wk = '2021-32'    # week to copy
 
 
 # --------------------------------------------------------------------------------------------------
@@ -52,11 +46,14 @@ from shutil import copy2
 # filenames and paths
 new_dir = path.join(main_dir, f'{new_yr_wk[:4]}\\preppin-data-{new_yr_wk}')
 new_file = f'preppin-data-{new_yr_wk}.py'
-prev_dir = path.join(main_dir, f'{prev_yr_wk[:4]}\\preppin-data-{prev_yr_wk}')
-prev_file = f'preppin-data-{prev_yr_wk}.py'
 
 
 # make the main weekly folder and inputs/outputs folders
+new_yr = int(new_yr_wk[0:4])
+new_wk = int(new_yr_wk[5:])
+prev_yr_wk = (new_yr if new_wk > 1 else new_yr - 1)
+
+
 mkdir(path.join(main_dir, new_dir))
 mkdir(path.join(main_dir, new_dir, 'inputs'))
 mkdir(path.join(main_dir, new_dir, 'outputs'))
