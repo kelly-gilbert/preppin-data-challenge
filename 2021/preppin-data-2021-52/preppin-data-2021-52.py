@@ -1,23 +1,28 @@
 # -*- coding: utf-8 -*-
 """
-Preppin' Data 2021: Week 52 - challenge title goes here
-https://preppindata.blogspot.com/ - challenge url goes here
+Preppin' Data 2021: Week 52 - Departmental December Operations
+https://preppindata.blogspot.com/2021/12/2021-week-52-departmental-december.html?m=1
 
 - Input data
-- ...
+- Count the number of complaints per customer
+- Join the 'Department Responsible' data set to allocate the complaints to the correct department
+- Create a comma-separated field for all the keywords found in the complaint for each department
+- For any complaint that isn't classified, class the department as 'unknown' and the complaint 
+  cause as 'other'
 - Output the data
 
 Author: Kelly Gilbert
-Created: 2021-MM-DD
+Created: 2021-12-29
 Requirements:
   - input dataset:
-      - 
+      - PD 2021 Wk 52 Input.xlsx
   - output dataset (for results check only):
-      - 
+      - PD 2021 Wk 52 Output.csv
 """
 
 
-from pandas import read_csv
+from pandas import ExcelFile, read_excel
+
 
 # for results check only
 from pandas import read_csv
@@ -27,28 +32,55 @@ from pandas import read_csv
 # input the data
 #---------------------------------------------------------------------------------------------------
 
-df = read_csv(r'', parse_dates=[], dayfirst=True)
+with ExcelFile(r'.\inputs\PD 2021 Wk 52 Input.xlsx') as xl:
+    df_comp = read_excel(xl, 'Complaints')
+    df_dept = read_excel(xl, 'Department Responsbile')
 
 
 #---------------------------------------------------------------------------------------------------
 # process the data
 #---------------------------------------------------------------------------------------------------
 
+# count the number of complaints by customer
+df_comp['Complaints per Person'] = df_comp.groupby('Name')['Complaint'].transform('size')
+
+
+# preprocess the Complaint text
+df_comp['Complaint'] = df_comp['Complaint'].str.strip().str.lower()
+
+
+# find keyword matches and split them into rows; merge to get the department name for each keyword
+keywords = '|'.join(df_dept['Keyword'].str.lower())
+df_out = df_comp.assign(Keyword=df_comp['Complaint'].str.findall(keywords))\
+                .explode('Keyword')\
+                .merge(df_dept.assign(Keyword=df_dept['Keyword'].str.lower()), on='Keyword', how='left')
+
+
+# for any complaint that isn't classified, class the department as 'unknown' and 'other' cause
+df_out['Complaint causes'] = df_out['Keyword'].fillna('other')
+df_out['Department'] = df_out['Department'].fillna('Unknown')
+
+
+# create a comma-separated list of keywords grouped by department
+df_out = df_out.groupby(['Name', 'Complaint', 'Department', 'Complaints per Person'])['Complaint causes']\
+               .agg(lambda x: ', '.join(x))\
+               .reset_index()
+
 
 #---------------------------------------------------------------------------------------------------
 # output the file
 #---------------------------------------------------------------------------------------------------
 
-df.to_csv(r'.\outputs\output-2021-52.csv', index=False)
+df_out.to_csv(r'.\outputs\output-2021-52.csv', index=False)
 
 
 #---------------------------------------------------------------------------------------------------
 # check results
 #---------------------------------------------------------------------------------------------------
 
-solution_files = ['']
+solution_files = ['PD 2021 Wk 52 Output.csv']
 my_files = ['output-2021-52.csv']
-col_order_matters = True
+col_order_matters = False
 
 for i, solution_file in enumerate(solution_files):
     print('---------- Checking \'' + solution_file + '\' ----------\n')

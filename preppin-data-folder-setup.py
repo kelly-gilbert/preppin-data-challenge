@@ -26,7 +26,7 @@ Requirements:
 """
 
 
-from os import mkdir, path
+from os import chdir, mkdir, path
 from shutil import copy2
 
 
@@ -34,7 +34,7 @@ from shutil import copy2
 # update variables here
 # --------------------------------------------------------------------------------------------------
 
-MAIN_DIR = r'C:\users\gilbe\projects\preppin-data-challenge'    # main directory path
+MAIN_DIR = r'C:\your-directory'    # main directory path
 NEW_YR_WK = '2021-52'     # new week to add
 
 
@@ -77,3 +77,7 @@ for t in ['alteryx_template.yxmd', 'python_template.py', 'README_template.md']:
                    
     with open(path.join(new_dir, new_file), 'w') as f:
         f.write(f_text)
+
+# set the working directory
+chdir(new_dir)
+
