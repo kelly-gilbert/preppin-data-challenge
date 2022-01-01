@@ -63,7 +63,11 @@ mkdir(path.join(MAIN_DIR, new_dir, 'outputs'))
 
 # copy the templates into the new directory
 for t in ['alteryx_template.yxmd', 'python_template.py', 'README_template.md']:
-    new_file = t if t == 'README.md' else f"preppin-data-{NEW_YR_WK}{t[t.find('.'):]}"
+    if t == 'README_template.md':
+        new_file = 'README.md'
+    else:
+        new_file = f"preppin-data-{NEW_YR_WK}{t[t.find('.'):]}"
+         
     copy2(path.join(MAIN_DIR, f'_templates\{t}'), path.join(new_dir, new_file))
 
 
