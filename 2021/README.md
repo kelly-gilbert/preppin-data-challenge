@@ -1064,8 +1064,8 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2021-32/README.md">W32</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-39/README.md">W39</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;
-      <a href="preppin-data-2021-49/README.md">W49</a>&nbsp;&nbsp;&nbsp;
       <br>
+      <a href="preppin-data-2021-49/README.md">W49</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2021-51/README.md">W51</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
