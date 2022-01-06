@@ -10,13 +10,13 @@ https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html
   Parent First Name.Parent Last Name@Employer.com
 - Create the academic year the pupils are in
 - Each academic year starts on 1st September.
-- Year 1 is anyone born after 1st Sept 2014 
-- Year 2 is anyone born between 1st Sept 2013 and 31st Aug 2014 etc
+    - Year 1 is anyone born after 1st Sept 2014 
+    - Year 2 is anyone born between 1st Sept 2013 and 31st Aug 2014 etc
 - Remove any unnecessary columns of data
 - Output the data
 
 Author: Kelly Gilbert
-Created: 2022-MM-DD
+Created: 2022-01-05
 Requirements:
   - input dataset:
       - PD 2022 Wk 1 Input - Input.csv
