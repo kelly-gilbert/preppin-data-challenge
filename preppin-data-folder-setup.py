@@ -26,7 +26,7 @@ Requirements:
 """
 
 
-from os import chdir, mkdir, path
+from os import chdir, makedirs, path
 from shutil import copy2
 
 
@@ -34,8 +34,8 @@ from shutil import copy2
 # update variables here
 # --------------------------------------------------------------------------------------------------
 
-MAIN_DIR = r'C:\your-directory'    # main directory path
-NEW_YR_WK = '2021-52'     # new week to add
+MAIN_DIR = r'C:\users\gilbe\projects\preppin-data-challenge'    # main directory path
+NEW_YR_WK = '2022-01'    # new week to add
 
 
 # --------------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ new_yr = int(NEW_YR_WK[0:4])
 new_wk = int(NEW_YR_WK[5:])
 
 last_yr_wk = f'{new_yr if new_wk > 1 else new_yr - 1}-{str(new_wk - 1 if new_wk > 1 else 52).zfill(2)}'
-next_yr_wk = f'{new_yr if new_wk < 52 else new_yr + 1}-{str(new_wk - 1 if new_wk < 52 else 1).zfill(2)}'
+next_yr_wk = f'{new_yr if new_wk < 52 else new_yr + 1}-{str(new_wk + 1 if new_wk < 52 else 1).zfill(2)}'
 
 
 # --------------------------------------------------------------------------------------------------
@@ -56,9 +56,9 @@ next_yr_wk = f'{new_yr if new_wk < 52 else new_yr + 1}-{str(new_wk - 1 if new_wk
 # add the directory structure
 new_dir = path.join(MAIN_DIR, f'{NEW_YR_WK[:4]}\\preppin-data-{NEW_YR_WK}')
 
-mkdir(path.join(MAIN_DIR, new_dir))
-mkdir(path.join(MAIN_DIR, new_dir, 'inputs'))
-mkdir(path.join(MAIN_DIR, new_dir, 'outputs'))
+makedirs(path.join(MAIN_DIR, new_dir))
+makedirs(path.join(MAIN_DIR, new_dir, 'inputs'))
+makedirs(path.join(MAIN_DIR, new_dir, 'outputs'))
 
 
 # copy the templates into the new directory
