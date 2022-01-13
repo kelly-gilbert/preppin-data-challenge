@@ -21,7 +21,7 @@
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--<a href="preppin-data-2022-50/README.md">Week 50</a>&nbsp;&nbsp;&nbsp;&nbsp;--></td>
   </tr>
   <tr>
-    <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--<a href="preppin-data-2022-02/README.md">Week 2</a>&nbsp;&nbsp;&nbsp;&nbsp;--></td>
+    <td><a href="preppin-data-2022-02/README.md">Week 2</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2022-09/README.md">Week 9</a>--></td>
     <td><!--<a href="preppin-data-2022-16/README.md">Week 16</a>--></td>
     <td><!--<a href="preppin-data-2022-23/README.md">Week 23</a>--></td>
@@ -177,6 +177,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>Join</td>
     <td>
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -243,6 +244,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Formula</td>
     <td>
       <a href="preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -261,6 +263,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>MultiFieldFormula</td>
     <td>
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -286,6 +289,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Select</td>
     <td>
       <a href="preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -366,6 +370,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>Summarize</td>
     <td>
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -450,6 +455,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td></td>
     <td>transform</td>
     <td>
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -459,6 +465,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>Date Calculations</td>
     <td>
       <a href="preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -466,6 +473,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>Dateparts (dt.month, dt.quarter, etc.)</td>
     <td>
       <a href="preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -491,6 +499,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>read_csv with parse_dates</td>
     <td>
       <a href="preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -632,6 +641,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>Pandas - Other</td>
     <td>apply / map</td>
     <td>
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -794,11 +804,12 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td></td>
     <td>mapping values with dictionary</td>
     <td>
+      <a href="preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td></td>
-    <td></td>
+    <td><a href="https://docs.python.org/3/tutorial/controlflow.html#tut-unpacking-arguments">unpacking</a> a sequence</td>
     <td>
     </td>
   </tr>
