@@ -12,7 +12,7 @@
 <table>
   <tr>
     <td><a href="preppin-data-2020-01/README.md">Week 1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-    <td><!--<a href="preppin-data-2020-08/README.md">Week 8</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><a href="preppin-data-2020-08/README.md">Week 8</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-15/README.md">Week 15</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-22/README.md">Week 22</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td><!--<a href="preppin-data-2020-29/README.md">Week 29</a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -113,6 +113,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>DynamicRename</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -142,7 +143,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Interface</td>
     <td>Action</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -156,7 +157,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>MacroOutput</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -186,6 +187,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Join</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -199,7 +201,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>Union</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -208,7 +210,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Macro</td>
     <td>Batch Macro</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -254,6 +256,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Filter</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -261,6 +264,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Formula</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -274,7 +278,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>GenerateRows</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -288,7 +292,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>MultiRowFormula</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -309,7 +313,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td></td>
     <td>Select</td>
     <td>
-      <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -389,6 +393,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>CrossTab</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -403,13 +408,14 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Summarize</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td></td>
     <td>Transpose</td>
     <td>
-	  <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
 </table>
@@ -443,6 +449,20 @@ Use this list to identify challenges to practice specific functions/methods. Not
   <!-- numpy -->
   <tr>
     <td>numpy</td>
+    <td>ceil/floor</td>
+    <td>
+      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>  	
+  <tr>
+    <td></td>
+    <td>aggregate functions (e.g. sum)</td>
+    <td>
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>  
+  <tr>
+    <td></td>
     <td>where</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
@@ -549,14 +569,14 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td></td>
     <td>Read Excel files (dynamic sheets)</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td></td>
     <td>Write multiple tabs to Excel file</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -565,7 +585,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>Pandas - Joining</td>
     <td>concat</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -573,6 +593,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>merge</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -588,7 +609,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>Pandas - Reshaping</td>
     <td>explode</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -596,13 +617,14 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>extract</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
     <td></td>
     <td>melt</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -610,6 +632,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>pivot/pivot_table</td>
     <td>
 	<a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+	    <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -639,7 +662,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td></td>
     <td>dropna</td>
     <td>
-	  <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+	<a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
 	</td>
   </tr>
   <tr>
@@ -654,6 +677,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>slicing a DataFrame</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+	    <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -670,6 +694,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>astype</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+	    <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>  
   <tr>
@@ -722,6 +747,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>Changing case</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+	    <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -743,6 +769,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>replace</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+	    <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
@@ -763,7 +790,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td></td>
     <td>string slicing</td>
     <td>
-      <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   
@@ -779,7 +806,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td></td>
     <td>f strings / format</td>
     <td>
-	  <!--<!--<a href="preppin-data-2020-01/README.md">W01</a>-->&nbsp;&nbsp;&nbsp;
+	<a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
 	</td>
   </tr>
   <tr>
@@ -801,6 +828,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>list/dict comprehension</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+	    <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
     <tr>
@@ -822,6 +850,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
     <td>mapping values with dictionary</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+	    <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
