@@ -8,7 +8,6 @@ What I learned/practiced this week:
 * Practiced: input from multiple Excel sheets
 * Practiced: reshaping(melt, pivot_table, explode)
 * Practiced: joining (merge)
-*
 
 ## Python
 <a href="preppin-data-2020-08.py">
@@ -18,8 +17,12 @@ What I learned/practiced this week:
 ## Alteryx
 <a href="preppin-data-2020-08.yxzp">
 <img src="img-alteryx-2020-08.png?raw=true" alt="Alteryx workflow">
+</a> 
 <br>
 <br>
-#### Macro:
+<b>Macro:</b>
+<br>
+<br>
+<a href="preppin-data-2020-08.yxzp">
 <img src="img-alteryx-2020-08-macro.png?raw=true" alt="Alteryx macro">
 </a>
