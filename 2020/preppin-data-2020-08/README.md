@@ -1,6 +1,6 @@
 <h6><a href="..\preppin-data-2020-07\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2020-07\README.md">Next Week  ▶</a></h6>
 
-# Preppin' Data 2020 Week 08
+# Preppin' Data 2020 Week 8
 
 [Challenge description](https://preppindata.blogspot.com/2020/02/2020-week-8.html)
 
