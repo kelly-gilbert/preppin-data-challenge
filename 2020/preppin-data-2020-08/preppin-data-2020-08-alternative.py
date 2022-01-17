@@ -16,7 +16,7 @@ https://preppindata.blogspot.com/2020/02/2020-week-8.html
 - Output the data
 
 Author: Kelly Gilbert
-Created: 2021-01-15
+Created: 2020-MM-DD
 Requirements:
   - pandas version 1.3.0+ (previous versions dropped the headerless columns on the budget sheet)
   - input dataset:
@@ -68,6 +68,7 @@ df_profit = df_budget_in.iloc[0:header_row]\
                                 Week=lambda df_x: df_x['Week'].str.extract('.*\_(\d+)').astype(int),
                                 Type=lambda df_x: df_x['Type'].str.lower())
 
+
 # extract the budget table and reshape it with Measures in columns and week ranges in rows
 df_budget = df_budget_in.iloc[header_row + 1:]\
                         .set_axis([c.strftime('%d-%m') if isinstance(c, datetime) else c 
@@ -80,6 +81,7 @@ df_budget = df_budget_in.iloc[header_row + 1:]\
                         .pivot_table(index=['Type', 'Start_Week', 'End_Week', 'Week'], values='value', 
                                      columns=['Measure'], aggfunc=sum)\
                         .reset_index()
+
                         
 # create a row for each week in the budget table                        
 df_budget = df_budget.assign(Week=[list(range(i, j+1)) 
