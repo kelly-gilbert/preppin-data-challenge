@@ -272,6 +272,7 @@ Use this list to identify challenges to practice a specific tool. Note that thes
     <td>Formula with Regex</td>
     <td>
       <a href="preppin-data-2020-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2020-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
