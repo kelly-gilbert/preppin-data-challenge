@@ -1,4 +1,4 @@
-<h6><a href="..\preppin-data-2021-52\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2022-02\README.md">Next Week  ▶</a></h6>
+<h6><a href="..\..\2021\preppin-data-2021-52\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2022-02\README.md">Next Week  ▶</a></h6>
 
 # Preppin' Data 2022 Week 01
 
