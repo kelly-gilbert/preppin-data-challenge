@@ -49,7 +49,6 @@ unique_cols = ['Month']
 col_order_matters = True
 round_dec = 8
 
-
 for i, solution_file in enumerate(solution_files):
     print('---------- Checking \'' + solution_file + '\' ----------\n')
 
@@ -77,21 +76,21 @@ for i, solution_file in enumerate(solution_files):
 
     # are the values the same? (only check if the columns matched)
     if col_match:
-        df_compare = df_sol.merge(df_mine, how='outer', on=unique_cols,
+        errors = 0
+        df_compare = df_sol.merge(df_mine, how='outer', on=unique_cols[i],
                                   suffixes=['_sol', '_mine'], indicator=True)
         
         # extra/missing records
         if len(df_compare[df_compare['_merge'] != 'both']) > 0:
             print('*** Missing or extra records ***\n')
             print('In solution, not in mine:\n')
-            print(df_compare[df_compare['_merge'] == 'left_only'][unique_cols])
+            print(df_compare[df_compare['_merge'] == 'left_only'][unique_cols[i]])
             print('\n\nIn mine, not in solution:\n')
-            print(df_compare[df_compare['_merge'] == 'right_only'][unique_cols]) 
-
+            print(df_compare[df_compare['_merge'] == 'right_only'][unique_cols[i]]) 
+            errors += 1
 
         # for the records that matched, check for mismatched values
-        unmatched_cols = 0
-        for c in [c for c in df_sol.columns if c not in unique_cols]:
+        for c in [c for c in df_sol.columns if c not in unique_cols[i]]:
             if 'float' in df_compare[f'{c}_sol'].dtype.name:
                 df_compare[f'{c}_sol'] = df_compare[f'{c}_sol'].round(round_dec)
                 df_compare[f'{c}_mine'] = df_compare[f'{c}_mine'].round(round_dec)
@@ -102,11 +101,11 @@ for i, solution_file in enumerate(solution_files):
                 print(f'*** Values do not match: {c} ***\n')
                 print(df_compare[(df_compare['_merge']=='both')
                                  & (df_compare[f'{c}_sol'] != df_compare[f'{c}_mine'])]\
-                                [unique_cols + [f'{c}_sol', f'{c}_mine']])
+                                [unique_cols[i] + [f'{c}_sol', f'{c}_mine']])
                 print('\n')
-                unmatched_cols += 1
+                errors += 1
         
-        if unmatched_cols == 0:
+        if errors == 0:
             print('Values match')
 
     print('\n')  

@@ -32,7 +32,7 @@ import pandas as pd
 
 def get_box_sizes(order_sizes, size_list):
     """
-    Returns columns containing the number of boxes needed for each box size
+    Returns a dataframe with one column per box size, containing the number of boxes of that size
     
     order_sizes: a series containing the order sizes
     size_list: a list of box sizes
@@ -74,30 +74,29 @@ df_boxes = pd.concat([df_orders,
 
 # create one row per box
 df_soaps = df_boxes.melt(id_vars=['Order Number', 'Order Size'], var_name='Box_Size', 
-                         value_name='Size Count')\
+                         value_name='Last Box Per Box Size')\
                    .assign(Box_Size=lambda df_x: df_x['Box_Size'].str.replace('Boxes of ', '').astype(int),
-                           Box_Number=lambda df_x: [range(1, c+1) for c in df_x['Size Count']])\
+                           Box_Number=lambda df_x: [range(1, c+1) for c in df_x['Last Box Per Box Size']])\
                    .explode('Box_Number')\
                    .dropna(subset=['Box_Number'])\
                    .rename(columns=lambda c: c.replace('_', ' '))
-                   
-df_soaps['Box Number'] = df_soaps.groupby('Order Number')['Box Number'].transform('cumcount') + 1
 
-df_soaps['Last Box Per Box Size'] = df_soaps.groupby(['Order Number', 'Box Size'])['Box Number'].transform('max')
-
+# add the number of soaps per box
 df_soaps['Soaps in Box'] = np.where((df_soaps['Box Size']==df_sizes['Box Size'].min()) 
                                      & (df_soaps['Box Number']==df_soaps['Last Box Per Box Size']),
-                                    df_soaps['Order Size'] % df_sizes['Box Size'].min(),
+                                    (df_soaps['Order Size'] - 1) % df_sizes['Box Size'].min() + 1,
                                     df_soaps['Box Size'])
+
+# renumber the boxes 1 to total number of boxes
+df_soaps['Box Number'] = df_soaps.groupby('Order Number')['Box Number'].transform('cumcount') + 1
 
 
 #---------------------------------------------------------------------------------------------------
-# output the file
+# output the files
 #---------------------------------------------------------------------------------------------------
 
 df_boxes.to_csv(r'.\outputs\output-2020-11-boxes-per-order.csv', index=False)
-df_soaps.drop(columns=['Size Count'])\
-        .to_csv(r'.\outputs\output-2020-11-soaps-per-box.csv', index=False)
+df_soaps.to_csv(r'.\outputs\output-2020-11-soaps-per-box.csv', index=False)
 
 
 #---------------------------------------------------------------------------------------------------
@@ -173,8 +172,3 @@ for i, solution_file in enumerate(solution_files):
             print('Values match')
 
     print('\n')  
-
-
-df_sol[df_sol['Order Number']==5][['Box Size', 'Box Number']]
-df_mine[df_sol['Order Number']==5][['Box Size', 'Box Number']]
-df_soaps[df_soaps['Order Number']==5]
