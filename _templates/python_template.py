@@ -17,17 +17,14 @@ Requirements:
 """
 
 
-from pandas import read_csv
-
-# for results check only
-from pandas import read_csv
+import pandas as pd
 
 
 #---------------------------------------------------------------------------------------------------
 # input the data
 #---------------------------------------------------------------------------------------------------
 
-df = read_csv(r'', parse_dates=[], dayfirst=True)
+df = pd.read_csv(r'.\inputs\', parse_dates=[], dayfirst=True)
 
 
 #---------------------------------------------------------------------------------------------------
@@ -57,8 +54,8 @@ for i, solution_file in enumerate(solution_files):
     print('---------- Checking \'' + solution_file + '\' ----------\n')
 
     # read in the files
-    df_sol = read_csv('.\\outputs\\' + solution_file)
-    df_mine = read_csv('.\\outputs\\' + my_files[i])
+    df_sol = pd.read_csv('.\\outputs\\' + solution_file)
+    df_mine = pd.read_csv('.\\outputs\\' + my_files[i])
 
     # are the columns the same?
     solution_cols = list(df_sol.columns)
