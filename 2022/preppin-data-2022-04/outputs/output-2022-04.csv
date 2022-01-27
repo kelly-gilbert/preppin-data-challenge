@@ -1,0 +1,40 @@
+﻿Sustainable?,Method of Travel,Weekday,Number of Trips,Trips per day,% of trips per day
+Non-Sustainable,Aeroplane,F,9,1000,0.01
+Non-Sustainable,Car,F,254,1000,0.25
+Non-Sustainable,Van,F,46,1000,0.05
+Sustainable,Bicycle,F,173,1000,0.17
+Sustainable,"Mum's Shoulders",F,24,1000,0.02
+Sustainable,Scooter,F,168,1000,0.17
+Sustainable,Walk,F,326,1000,0.33
+Non-Sustainable,Aeroplane,M,9,1000,0.01
+Non-Sustainable,Car,M,422,1000,0.42
+Non-Sustainable,Helicopter,M,72,1000,0.07
+Non-Sustainable,Van,M,37,1000,0.04
+Sustainable,Bicycle,M,210,1000,0.21
+Sustainable,Hopped,M,3,1000,0
+Sustainable,"Mum's Shoulders",M,9,1000,0.01
+Sustainable,Scooter,M,84,1000,0.08
+Sustainable,Walk,M,154,1000,0.15
+Non-Sustainable,Aeroplane,Th,9,1000,0.01
+Non-Sustainable,Car,Th,302,1000,0.3
+Non-Sustainable,Helicopter,Th,24,1000,0.02
+Sustainable,Bicycle,Th,62,1000,0.06
+Sustainable,"Dad's Shoulders",Th,9,1000,0.01
+Sustainable,Scooter,Th,84,1000,0.08
+Sustainable,Walk,Th,510,1000,0.51
+Non-Sustainable,Aeroplane,Tu,9,1000,0.01
+Non-Sustainable,Car,Tu,364,1000,0.36
+Non-Sustainable,Van,Tu,46,1000,0.05
+Sustainable,Bicycle,Tu,220,1000,0.22
+Sustainable,"Dad's Shoulders",Tu,15,1000,0.02
+Sustainable,Scooter,Tu,84,1000,0.08
+Sustainable,Skipped,Tu,3,1000,0
+Sustainable,Walk,Tu,259,1000,0.26
+Non-Sustainable,Aeroplane,W,9,1000,0.01
+Non-Sustainable,Car,W,413,1000,0.41
+Non-Sustainable,Van,W,33,1000,0.03
+Sustainable,Bicycle,W,207,1000,0.21
+Sustainable,Jumped,W,3,1000,0
+Sustainable,"Mum's Shoulders",W,13,1000,0.01
+Sustainable,Scooter,W,168,1000,0.17
+Sustainable,Walk,W,154,1000,0.15
