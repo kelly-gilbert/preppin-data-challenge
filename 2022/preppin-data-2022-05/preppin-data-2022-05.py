@@ -80,7 +80,7 @@ df = df.loc[(df['Total Points per Student'] >= avg_with_a) & (df['Grade'] != 'A'
 # How many students scored more than the average if you ignore their As?
 df['Points per Student without As'] = df.groupby('Student ID')['Points'].transform('sum')
 
-df[df['Points per Student without As'] > avg_with_a]
+print(f"Students > A avg: {df[df['Points per Student without As'] > avg_with_a]['Student ID'].nunique()}")
 
 
 #---------------------------------------------------------------------------------------------------
