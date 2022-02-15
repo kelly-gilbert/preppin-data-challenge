@@ -10,12 +10,10 @@ What I learned/practiced this week:
 * Practiced: resnaping (explode)
 * Practiced: aggregation
 <br>
+<b>Note:</b> the likelihood ranks in my solution do not match the provided solution. Some words that theoretically have the same % Chance were ranked differently in the solution due to floating point math. I used fixed decimals in both Python and Alteryx to get around this issue.
 <br>
 <br>
-Note: the likelihood ranks in my solution do not match the provided solution. Some words that theoretically have the same % Chance were ranked differently in the solution due to floating point math. I used fixed decimals in both Python and Alteryx to get around this issue.
-<br>
-<br>
-<br>
+
 ## Python
 <a href="preppin-data-2022-06.py">
 <img src="img-python-code-2022-06.png?raw=true" alt="Python code">
