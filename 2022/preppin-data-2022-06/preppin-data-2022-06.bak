@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="54" width="528" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Preppin' Data 2022: Week 6 - 7 letter Scrabble Words
+https://preppindata.blogspot.com/2022/02/2022-week-6-7-letter-scrabble-words.html
+
+- Input the data
+- Parse out the information in the Scrabble Scores Input so that there are 3 fields:
+    - Tile
+    - Frequency
+    - Points
+- Calculate the % Chance of drawing a particular tile and round to 2 decimal places
+- Frequency / Total number of tiles
+- Split each of the 7 letter words into individual letters and count the number of occurrences of 
+  each letter
+- Join each letter to its scrabble tile 
+- Update the % chance of drawing a tile based on the number of occurrences in that word
+    - If the word contains more occurrences of that letter than the frequency of the tile, set the 
+      probability to 0 - it is impossible to make this word in Scrabble
+    - Remember for independent events, you multiple together probabilities i.e. if a letter appears 
+      more than once in a word, you will need to multiple the % chance by itself that many times
+- Calculate the total points each word would score
+- Calculate the total % chance of drawing all the tiles necessary to create each word
+- Filter out words with a 0% chance
+- Rank the words by their % chance (dense rank)
+- Rank the words by their total points (dense rank)
+- Output the data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="519">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="953" y="425" width="644" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Calculate total score and % chance</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="510">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="978" y="474.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Letter" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Tile" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Tile" selected="False" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Join on tile/letter</AnnotationText>
+              <DefaultAnnotationText>Join on tile/letter</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="511">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="1232" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>% Chance</UpdateField_Name>
+              <CreateField_Name>% Chance</CreateField_Name>
+              <CreateField_Type>FixedDecimal</CreateField_Type>
+              <CreateField_Size>16.14</CreateField_Size>
+              <OtherRows>NULL</OtherRows>
+              <NumRows value="1" />
+              <Expression>if isnull([Total Points])
+then null()
+else 
+  iif(isnull([Row-1:% Chance]), 1, [Row-1:% Chance])
+  *
+  pow([Tile % Chance], [Count])
+endif</Expression>
+              <GroupByFields>
+                <Field field="7 letter word" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Calculate word % chance</AnnotationText>
+              <DefaultAnnotationText>if isnull([Total Points])
+then null()
+else 
+  iif(isnull([Row...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="512">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1106" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="if [Count] &lt;= [Tile Frequency]&#xA;then [Tile Points] * [Count]&#xA;else 0&#xA;endif " field="Total Points" size="2" type="Int16" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Total Points = if [Count] &lt;= [Tile Frequency]
+then [Tile Points] * [Count]
+else ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="516">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1359" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="7 letter word" action="GroupBy" rename="7 letter word" />
+                <SummarizeField field="Total Points" action="Sum" rename="Total Points" />
+                <SummarizeField field="Total Points" action="Min" rename="Min_Total Points" />
+                <SummarizeField field="% Chance" action="Min" rename="% Chance" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Summarize by word</AnnotationText>
+              <DefaultAnnotationText>Summarize by word</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="517">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1469" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;</Operator>
+                <Field>Min_Total Points</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-02-14 21:05:16</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>0</Operand>
+                  <StartDate>2022-02-14 21:05:16</StartDate>
+                  <EndDate>2022-02-14 21:05:16</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filter out impossible words</AnnotationText>
+              <DefaultAnnotationText>[Min_Total Points] &gt; 0</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="525">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2262" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">.\outputs\output-2022-06.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>65001</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>output-2022-06.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="526">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2166" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Points Rank" selected="True" />
+            <SelectField field="Likelihood Rank" selected="True" />
+            <SelectField field="7 letter word" selected="True" />
+            <SelectField field="Total Points" selected="True" />
+            <SelectField field="Min_Total Points" selected="False" />
+            <SelectField field="% Chance" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="521">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1637" y="425" width="227" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Total Points Rank</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="518">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1662" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Total Points" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Total Points - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="520">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="1766" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>7 letter word</UpdateField_Name>
+              <CreateField_Name>Points Rank</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>if [Row-1:Total Points] = [Total Points]
+then [Row-1:Points Rank]
+else [Row-1:Points Rank] + 1
+endif</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Points Rank</AnnotationText>
+              <DefaultAnnotationText>if [Row-1:Total Points] = [Total Points]
+then [Row-1:Points R...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="508">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="64.99976" y="664.9999" width="876.0002" height="209.0001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Prep tile info</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="495">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="89.99977" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\inputs\7 letter words.xlsx|||`Scrabble Scores$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>7 letter words.xlsx
+Query=`Scrabble Scores$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Scrabble" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\inputs\7 letter words.xlsx|||`Scrabble Scores$`" type="V_String" />
+                <Field name="F2" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\inputs\7 letter words.xlsx|||`Scrabble Scores$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="497">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="318" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Scrabble</Field>
+              <RegExExpression value="(\d+) points?:\s+(.*)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseComplex</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Scrabble</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="Tile Points" type="Byte" size="1" />
+                <Field field="Tiles" type="V_WString" size="100" />
+              </ParseComplex>
+              <Match>
+                <Field>Scrabble_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Split points and tile list</AnnotationText>
+              <DefaultAnnotationText>Split points and tile list</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="498">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="438" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Tiles</Field>
+              <RegExExpression value="(?:\s|^)(.*?)(?:,|$)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseSimple</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="True" />
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="RegExOut1" type="V_WString" size="100" />
+              </ParseComplex>
+              <Match>
+                <Field>Scrabble_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Split tiles</AnnotationText>
+              <DefaultAnnotationText>Split tiles</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="499">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="221.9999" y="713.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Scrabble</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-02-12 09:02:44</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2022-02-12 09:02:44</StartDate>
+                  <EndDate>2022-02-12 09:02:44</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Scrabble])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="501">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="522" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Tiles</Field>
+              <RegExExpression value="(.*?)\s+×(\d+)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseComplex</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Tiles</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="Tile" type="V_WString" size="10" />
+                <Field field="Tile Frequency" type="Byte" size="1" />
+              </ParseComplex>
+              <Match>
+                <Field>Scrabble_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Split tile and frequency</AnnotationText>
+              <DefaultAnnotationText>Split tile and frequency</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="513">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="630" y="774" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Tile Frequency" action="Sum" rename="Total Tiles" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Total tiles</AnnotationText>
+              <DefaultAnnotationText>Total tiles</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="514">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="714" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_Scrabble" selected="False" input="Target_" />
+                    <SelectField field="Target_F2" selected="False" input="Target_" />
+                    <SelectField field="Target_Tile" selected="True" input="Target_" />
+                    <SelectField field="Target_Tile Points" selected="True" input="Target_" />
+                    <SelectField field="Target_Tiles" selected="False" input="Target_" />
+                    <SelectField field="Target_Frequency" selected="True" input="Target_" />
+                    <SelectField field="Source_Total Tiles" selected="True" input="Source_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="515">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="810" y="714" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="round([Tile Frequency] / [Total Tiles], 0.01)" field="Tile % Chance" size="4.2" type="FixedDecimal" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Tile % Chance = round([Tile Frequency] / [Total Tiles], 0.01)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="509">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="60" y="413" width="493" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Prep words</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="496">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="85.00005" y="462.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\inputs\7 letter words.xlsx|||`7 letter words$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>7 letter words.xlsx
+Query=`7 letter words$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="7 letter word" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\inputs\7 letter words.xlsx|||`7 letter words$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="503">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="313" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Letter</Field>
+              <RegExExpression value="(.)" />
+              <CaseInsensitve value="True" />
+              <Method>ParseSimple</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="True" />
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="RegExOut1" type="V_String" size="255" />
+              </ParseComplex>
+              <Match>
+                <Field>7 letter word_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse word into letters</AnnotationText>
+              <DefaultAnnotationText>Parse word into letters</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="504">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="205" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="uppercase([7 letter word])" field="Letter" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Duplicate word</AnnotationText>
+              <DefaultAnnotationText><![CDATA[Letter = uppercase([7 letter word])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="505">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="438" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="7 letter word" action="GroupBy" rename="7 letter word" />
+                <SummarizeField field="Letter" action="GroupBy" rename="Letter" />
+                <SummarizeField field="Letter" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Count by letter and word</AnnotationText>
+              <DefaultAnnotationText>Count by letter and word</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="367">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="743" y="54" width="153.8949" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Check results</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="483">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="876" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="7 letter word" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="7 letter word" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Points Rank" selected="True" input="Left_" type="Int16" size="2" />
+                    <SelectField field="Left_Likelihood Rank" selected="True" input="Left_" type="Int16" size="2" />
+                    <SelectField field="Left_% Chance" selected="True" input="Left_" type="Double" size="8" />
+                    <SelectField field="Left_Total Points" selected="True" input="Left_" type="Byte" size="1" />
+                    <SelectField field="Right_7 letter word" selected="True" rename="Right_7 letter word" input="Right_" />
+                    <SelectField field="Right_Total Points" selected="True" rename="Right_Total Points" input="Right_" />
+                    <SelectField field="Right_% Chance" selected="True" rename="Right_% Chance" input="Right_" />
+                    <SelectField field="Right_Points Rank" selected="True" rename="Right_Points Rank" input="Right_" />
+                    <SelectField field="Right_Likelihood Rank" selected="True" rename="Right_Likelihood Rank" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="484">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
+            <Position x="1032" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Tests>
+                <Test>
+                  <Name>In solution, not in mine</Name>
+                  <Connection>#1</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>In mine, not in solution</Name>
+                  <Connection>#2</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>Values don't match</Name>
+                  <Connection>#3</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+              </Tests>
+              <DontReportSubsequent value="True" />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>In solution, not in mine
+In mine, not in solution
+Values don't match</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTest" />
+        </Node>
+        <Node ToolID="491">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="768" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\outputs\7 letter output.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>7 letter output.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Points Rank" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\outputs\7 letter output.csv" type="V_WString" />
+                <Field name="Likelihood Rank" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\outputs\7 letter output.csv" type="V_WString" />
+                <Field name="7 letter word" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\outputs\7 letter output.csv" type="V_WString" />
+                <Field name="% Chance" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\outputs\7 letter output.csv" type="V_WString" />
+                <Field name="Total Points" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-06\outputs\7 letter output.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="494">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="954" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Points Rank] != [Right_Points Rank]
+OR [Likelihood Rank] != [Right_Likelihood Rank]
+OR [Total Points] != [Right_Total Points]
+OR [% Chance] != [Right_% Chance]</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>[Points Rank] != [Right_Points Rank]
+OR [Likelihood Rank] != [Right_Likelihood R...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="524">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1901" y="425" width="231" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Total Likelihood Rank</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="522">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1926" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="% Chance" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>% Chance - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="523">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="2034" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>7 letter word</UpdateField_Name>
+              <CreateField_Name>Likelihood Rank</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>if [Row-1:% Chance] = [% Chance]
+then [Row-1:Likelihood Rank]
+else [Row-1:Likelihood Rank] + 1
+endif</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Points Rank</AnnotationText>
+              <DefaultAnnotationText>if [Row-1:% Chance] = [% Chance]
+then [Row-1:Likelihood Rank]...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="510" Connection="Join" />
+      <Destination ToolID="512" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="511" Connection="Output" />
+      <Destination ToolID="516" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="512" Connection="Output" />
+      <Destination ToolID="511" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="516" Connection="Output" />
+      <Destination ToolID="517" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="517" Connection="True" />
+      <Destination ToolID="518" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="526" Connection="Output" />
+      <Destination ToolID="483" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="491" Connection="Output" />
+      <Destination ToolID="483" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="526" Connection="Output" />
+      <Destination ToolID="525" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="518" Connection="Output" />
+      <Destination ToolID="520" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="520" Connection="Output" />
+      <Destination ToolID="522" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="495" Connection="Output" />
+      <Destination ToolID="499" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="497" Connection="Output" />
+      <Destination ToolID="498" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="498" Connection="Output" />
+      <Destination ToolID="501" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="499" Connection="True" />
+      <Destination ToolID="497" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="501" Connection="Output" />
+      <Destination ToolID="513" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="501" Connection="Output" />
+      <Destination ToolID="514" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="513" Connection="Output" />
+      <Destination ToolID="514" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="514" Connection="Output" />
+      <Destination ToolID="515" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="515" Connection="Output" />
+      <Destination ToolID="510" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="505" Connection="Output" />
+      <Destination ToolID="510" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="496" Connection="Output" />
+      <Destination ToolID="504" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="503" Connection="Output" />
+      <Destination ToolID="505" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="504" Connection="Output" />
+      <Destination ToolID="503" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="483" Connection="Left" />
+      <Destination ToolID="484" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="483" Connection="Right" />
+      <Destination ToolID="484" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="494" Connection="True" />
+      <Destination ToolID="484" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="483" Connection="Join" />
+      <Destination ToolID="494" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="522" Connection="Output" />
+      <Destination ToolID="523" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="523" Connection="Output" />
+      <Destination ToolID="526" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>start_date</Name>
+        <Value>2021-04-01</Value>
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>end_date</Name>
+        <Value>2021-05-31</Value>
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>preppin-data-2022-06</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
