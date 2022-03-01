@@ -124,6 +124,7 @@ for i, c in enumerate(candidates):
 # create a drop-down menu
 menu = Select(options=candidates, value=candidates[0], title='Select an item:')
 
+
 # link the plot and the button using a callback function
 
 # cb_obj = the model that triggered the callback (e.g. button model, dropdown model)
@@ -147,12 +148,10 @@ for (let i in lines) {
 
 menu.js_on_change('value', callback)    
 
+
 # display the layout
 chart_layout = row(p, menu)
 show(chart_layout)
-
-
-
 
 
 #---------------------------------------------------------------------------------------------------
