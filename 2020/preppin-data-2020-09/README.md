@@ -2,7 +2,7 @@
 
 # Preppin' Data 2020 Week 09
 
-[Challenge description](https://preppindata.blogspot.com/)
+[Challenge description](https://preppindata.blogspot.com/2020/02/2020-week-9.html)
 
 What I learned/practiced this week:
 * Learned: interactive plots (bokeh)
