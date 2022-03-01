@@ -20,12 +20,16 @@ What I learned/practiced this week:
 <img src="img-alteryx-2020-09.png?raw=true" alt="Alteryx workflow">
 </a>
 
-## Optional chart
+# Optional chart
 
 ## Python (bokeh)
+
+#### Chart:
 <a href="preppin-data-2020-09.py">
 <img src="img-python-code-2020-09-chart-output.gif?raw=true" alt="Python code">
 <br>
+ 
+#### Code:
 <img src="img-python-code-2020-09-chart.png?raw=true" alt="Python code for chart">
 </a>
 
