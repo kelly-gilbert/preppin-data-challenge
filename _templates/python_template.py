@@ -96,7 +96,10 @@ for i, solution_file in enumerate(solution_files):
                 df_compare[f'{c}_mine'] = df_compare[f'{c}_mine'].round(round_dec)
                 
             unmatched = df_compare[(df_compare['_merge']=='both')
-                                   & (df_compare[f'{c}_sol'] != df_compare[f'{c}_mine'])]
+                                   & (df_compare[f'{c}_sol'] != df_compare[f'{c}_mine'])
+                                   & ((df_compare[f'{c}_sol'].notna()) 
+                                      | (df_compare[f'{c}_mine'].notna()))]
+
             if len(unmatched) > 0:
                 print(f'*** Values do not match: {c} ***\n')
                 print(df_compare[(df_compare['_merge']=='both')
