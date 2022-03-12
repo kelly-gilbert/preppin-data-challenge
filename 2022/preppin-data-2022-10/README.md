@@ -2,7 +2,7 @@
 
 # Preppin' Data 2022 Week 10
 
-[Challenge description](https://preppindata.blogspot.com/)
+[Challenge description](https://preppindata.blogspot.com/2022/03/2022-week-10-bechdel-test.html)
 
 What I learned/practiced this week:
 * Practiced: string parsing with regex (extract)
