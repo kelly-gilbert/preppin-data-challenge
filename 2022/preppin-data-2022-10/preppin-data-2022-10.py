@@ -66,14 +66,14 @@ df[['Pass/Fail', 'Categorisation', 'Movie']] = \
 
 
 # replace html codes 
-df_html = pd.concat([df_html.assign(Code=df_html['Numeric'])[['Code', 'Char']],
-                     df_html.assign(Code=df_html['Named'].str.lower(),
-                                    Char=df_html['Char'].str.lower())[['Code', 'Char']],
-                     df_html.assign(Code=df_html['Named'].str.title(),
-                                    Char=df_html['Char'].str.title())[['Code', 'Char']]])\
-            .dropna()
+df_html_m = df_html.melt(id_vars='Char', value_vars=['Numeric', 'Named']).dropna()
+df_html_m = pd.concat([df_html_m.loc[df_html_m['variable']=='Numeric'],
+                       df_html_m.loc[df_html_m['variable']=='Named'].apply(lambda x: x.str.lower()),
+                       df_html_m.loc[df_html_m['variable']=='Named'].apply(lambda x: x.str.title())])\
+              .drop_duplicates()
             
-char_dict = dict(zip(df_html['Code'], df_html['Char']))
+char_dict = dict(zip(df_html_m['value'], df_html_m['Char']))
+
 df['Movie'] = df['Movie'].replace(char_dict, regex=True)\
                          .replace(char_dict, regex=True)    # replace twice due to &amp;amp;
             
