@@ -712,6 +712,7 @@ Use this list to identify challenges to practice specific functions/methods. Not
       <a href="preppin-data-2022-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2022-05/README.md">W05</a>&nbsp;&nbsp;&nbsp;
       <a href="preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;
+      <a href="preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;
     </td>
   </tr>
   <tr>
