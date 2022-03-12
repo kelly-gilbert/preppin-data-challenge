@@ -82,8 +82,8 @@ for i, solution_file in enumerate(solution_files):
         
         # extra/missing records
         if len(df_compare[df_compare['_merge'] != 'both']) > 0:
-            print('*** Missing or extra records ***\n')
-            print('In solution, not in mine:\n')
+            print('\n\n*** Missing or extra records ***')
+            print('\n\nIn solution, not in mine:\n')
             print(df_compare[df_compare['_merge'] == 'left_only'][unique_cols[i]])
             print('\n\nIn mine, not in solution:\n')
             print(df_compare[df_compare['_merge'] == 'right_only'][unique_cols[i]]) 
@@ -101,7 +101,7 @@ for i, solution_file in enumerate(solution_files):
                                       | (df_compare[f'{c}_mine'].notna()))]
 
             if len(unmatched) > 0:
-                print(f'*** Values do not match: {c} ***\n')
+                print(f'\n\n*** Values do not match: {c} ***\n')
                 print(df_compare[(df_compare['_merge']=='both')
                                  & (df_compare[f'{c}_sol'] != df_compare[f'{c}_mine'])]\
                                 [unique_cols[i] + [f'{c}_sol', f'{c}_mine']])
