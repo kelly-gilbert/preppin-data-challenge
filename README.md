@@ -10,6 +10,7 @@
 [2019](https://github.com/kelly-gilbert/preppin-data-challenge/tree/master/2019#readme)
 <br>
 <br>
+
 ## Others in the Preppin' Data with Python community:
 <table valign="center" border="0">
   <tr>
