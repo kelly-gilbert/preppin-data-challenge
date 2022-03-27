@@ -66,7 +66,7 @@ df_pd = df_pd.loc[df_pd['challenge_url'].notna()].drop(columns='text')
 
 
 # write out to csv
-df_pd.to_csv(r'C:\users\gilbe\projects\preppin-data-challenge\challenge_list.csv')
+df_pd.to_csv(r'C:\users\gilbe\projects\preppin-data-challenge\_misc scripts\challenge_list.csv')
 
 
 # matches expected count?
