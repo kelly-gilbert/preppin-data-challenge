@@ -22,7 +22,10 @@ What I learned/practiced this week:
 
 ## Performance profiling
 
-I tried several methods for identifying the most recent EmployerName for each EmployerID:
+I tried several methods for identifying the most recent EmployerName for each EmployerID. 
+<br>
+<br>Each method was timed using the original dataset (41K records), the original dataset concatenated 15x (620K records), and the original dataset concatenated 30x (1.2M records). I did not test any changes in cardinality.
+<br>
 <br>
 <img src="img-performance-profiling.png?raw=true" alt="Python code for performance profiling">
 <br>
@@ -31,6 +34,7 @@ I tried several methods for identifying the most recent EmployerName for each Em
 <img src="img-runtime-1.png?raw=true" alt="Chart of run times for all methods">
 <br>
 <br>
-Removing method 2, which is clearly the slowest option:<br>
+#### Removing method 2, which is clearly the slowest option:
 <br>
-<img src="img-runtime-1.png?raw=true" alt="Chart of run times without method 2">
+<br>
+<img src="img-runtime-2.png?raw=true" alt="Chart of run times without method 2">
