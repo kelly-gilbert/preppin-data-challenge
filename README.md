@@ -28,6 +28,7 @@
 |9|Customer Classifications|[📋](https://preppindata.blogspot.com/2022/03/2022-week-9-customer-classifications.html)|[✅](2022/preppin-data-2022-09/README.md)|
 |10|The Bechdel test|[📋](https://preppindata.blogspot.com/2022/03/2022-week-10-bechdel-test.html)|[✅](2022/preppin-data-2022-10/README.md)|
 |11|The Prep School - Filling in the Blanks|[📋](https://preppindata.blogspot.com/2022/03/2022-week-11-prep-school-filling-blanks.html)|[✅](2022/preppin-data-2022-11/README.md)|
+|12|Gender Pay Gap|[📋](https://preppindata.blogspot.com/2022/03/2022-week-12-gender-pay-gap.html)|[✅](2022/preppin-data-2022-12/README.md)|
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
@@ -240,6 +241,8 @@
       <span title="Excelling at adding one more row"><a href="2021/preppin-data-2021-33/README.md">W33</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Spread the Knowledge for TC!"><a href="2021/preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Bookshop Data Modelling"><a href="2021/preppin-data-2021-46/README.md">W46</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -532,6 +535,7 @@
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -823,6 +827,7 @@
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -905,6 +910,7 @@
       <span title="The Prep School - Birthday Cakes"><a href="2022/preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -984,6 +990,7 @@
       <span title="Spread the Knowledge for TC!"><a href="2021/preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="The Prep School - Setting Grades"><a href="2022/preppin-data-2022-05/README.md">W05</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1052,6 +1059,7 @@
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1103,6 +1111,7 @@
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1556,6 +1565,8 @@ list/dict comprehension
       <span title="Departmental December - Finance"><a href="2021/preppin-data-2021-48/README.md">W48</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - Sales"><a href="2021/preppin-data-2021-50/README.md">W50</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - IT"><a href="2021/preppin-data-2021-51/README.md">W51</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1950,6 +1961,7 @@ Dateparts (```dt.month```, ```dt.quarter```, etc.)
       <span title="Spread the Knowledge for TC!"><a href="2021/preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2101,6 +2113,7 @@ Write multiple tabs to Excel file
       <b>2022:</b>&nbsp;
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2218,7 +2231,8 @@ Write multiple tabs to Excel file
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
-      <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="The Prep School - Filling in the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2265,6 +2279,7 @@ Write multiple tabs to Excel file
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2317,7 +2332,8 @@ Write multiple tabs to Excel file
       <span title="Departmental December - Sales"><a href="2021/preppin-data-2021-50/README.md">W50</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - Operations"><a href="2021/preppin-data-2021-52/README.md">W52</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
-      <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="The Prep School - Filling in the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2347,6 +2363,7 @@ Write multiple tabs to Excel file
       <span title="Departmental December - Sales"><a href="2021/preppin-data-2021-50/README.md">W50</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2382,6 +2399,7 @@ Write multiple tabs to Excel file
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2739,6 +2757,7 @@ Basic
       <span title="The Prep School - Travel Plans"><a href="2022/preppin-data-2022-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2898,6 +2917,7 @@ Count matches
       <b>2022:</b>&nbsp;
       <span title="The Prep School - Travel Plans"><a href="2022/preppin-data-2022-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3037,6 +3057,7 @@ aggregate functions (e.g. ```sum```, ```max```)
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
 </table>
