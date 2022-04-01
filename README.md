@@ -3071,6 +3071,11 @@ aggregate functions (e.g. ```sum```, ```max```)
 ## <a id="community"></a>Others in the Preppin' Data with Python community:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
 <table valign="center" border="0">
   <tr>
+    <td>Ahmad Syed</td>
+    <td><a href="https://github.com/AhmadSyed96/Preppin-Data-Challenges"><img src="https://img.shields.io/badge/-AhmadSyed96-444444?style=flat-square&logo=github"></a></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Arsene Xie</td>
     <td><a href="https://github.com/ArseneXie/Preppindata"><img src="https://img.shields.io/badge/-ArseneXie-444444?style=flat-square&logo=github"></a></td>
     <td><a href="https://twitter.com/ArseneXie"><img src="https://img.shields.io/badge/-@ArseneXie-444444?style=flat-square&logo=twitter"</a></td>
@@ -3106,6 +3111,11 @@ aggregate functions (e.g. ```sum```, ```max```)
     <td><a href="https://twitter.com/michaelharty3"><img src="https://img.shields.io/badge/-@michaelharty3-444444?style=flat-square&logo=twitter"</a></td>
   </tr>  
   <tr>
+    <td>SmirkyGraphs (Alex)</td>
+    <td><a href="https://github.com/SmirkyGraphs/preppin-data-challenge/"><img src="https://img.shields.io/badge/-SmirkyGraphs-444444?style=flat-square&logo=github"></a></td>
+    <td><a href="https://twitter.com/Smirkygraphs"><img src="https://img.shields.io/badge/-@Smirkygraphs-444444?style=flat-square&logo=twitter"</a></td>
+  </tr>  
+  <tr>
     <td>Tettey Yamak</td>
     <td><a href="https://github.com/PTettey/Data-Prepping"><img src="https://img.shields.io/badge/-PTettey-444444?style=flat-square&logo=github"></a></td>
     <td><a href="https://twitter.com/TetteyYamak"><img src="https://img.shields.io/badge/-@TetteyYamak-444444?style=flat-square&logo=twitter"</a></td>
@@ -3120,4 +3130,9 @@ aggregate functions (e.g. ```sum```, ```max```)
     <td><a href="https://github.com/yashsakhuja/2022-Preppin-Data-Challenge"><img src="https://img.shields.io/badge/-yashsakhuja-444444?style=flat-square&logo=github"></a></td>
     <td><a href="https://twitter.com/sakhuja_yash"><img src="https://img.shields.io/badge/-@sakhuja__yash-444444?style=flat-square&logo=twitter"</a></td>
   </tr> 
+  <tr>
+    <td>yxdj2019</td>
+    <td><a href="https://github.com/yxdj2019"><img src="https://img.shields.io/badge/-yxdj2019-444444?style=flat-square&logo=github"></a></td>
+    <td></td>
+  </tr>  
 </table>
