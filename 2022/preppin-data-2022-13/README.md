@@ -18,11 +18,9 @@ What I learned/practiced this week:
 <a href="preppin-data-2022-13.yxzp">
 <img src="img-alteryx-2022-13.png?raw=true" alt="Alteryx workflow">
 </a>
-
-#### App interface:
 <br>
+#### App interface:
+
 <a href="preppin-data-2022-13.yxzp">
 <img src="img-alteryx-app-form-2022-13.png?raw=true" alt="Alteryx app interface">
 </a>
-
-
