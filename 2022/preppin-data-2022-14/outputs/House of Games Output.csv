@@ -1,0 +1,285 @@
+﻿Series,Week,Player,Original Rank,Rank without double points Friday,Change in winner with no double points Friday?,Rank based on Score,Change in winner based on Score?,Rank if Double Score Friday,Change in winner if Double Score Friday?,Score,Points,Score if double Friday,Points without double points Friday
+4,3,Rufus Hound,1,1,False,1,False,1,False,58,23,71,19
+4,3,Josie d'Arby,3,4,False,3,False,2,False,25,12,34,9
+4,3,Scott Mills,2,2,False,2,False,3,False,29,15,32,13
+4,3,Jayde Adams,3,3,False,4,False,4,False,22,12,22,11
+3,8,Chris Hollins,1,1,False,1,False,1,False,40,20,47,17
+3,8,Holly Walsh,2,2,False,2,False,2,False,39,18,46,15
+3,8,Gregg Wallace,3,3,False,3,False,3,False,34,17,42,13
+3,8,Charlene White,4,4,False,4,False,4,False,20,7,25,6
+4,9,Robert Rinder,1,1,False,1,False,1,False,46,22,56,19
+4,9,Jessica Knappett,2,2,False,2,False,2,False,31,19,42,15
+4,9,Alex Jones,3,3,False,3,False,3,False,28,14,34,12
+4,9,Karim Zeroual,4,4,False,4,False,4,False,11,6,14,5
+4,17,Marcus Brigstocke,1,1,False,1,False,1,False,40,20,48,16
+4,17,Tom Rosenthal,2,1,False,2,False,2,False,39,19,47,16
+4,17,Sindhu Vee,3,3,False,3,False,3,False,25,13,32,11
+4,17,Anna Richardson,4,4,False,4,False,4,False,17,9,21,8
+4,7,David James,3,3,True,2,True,1,True,38,16,48,13
+4,7,Rhys James,2,1,True,1,True,1,True,43,17,48,16
+4,7,Isy Suttie,1,2,True,3,True,3,True,34,19,45,15
+4,7,Denise Lewis,4,4,True,4,True,4,True,26,10,35,8
+3,17,Susan Calman,1,1,False,1,False,1,False,54,23,66,19
+3,17,Gareth Malone,3,3,False,2,False,2,False,35,15,41,13
+3,17,Jamelia,2,2,False,3,False,3,False,31,17,40,14
+3,17,Paul Martin,4,4,False,4,False,4,False,12,7,16,6
+4,2,Sunetra Sarker,1,1,False,1,False,1,False,42,21,55,17
+4,2,Aisling Bea,2,2,False,2,False,2,False,34,18,43,15
+4,2,Mike Bushell,3,3,False,3,False,3,False,29,15,35,13
+4,2,Dion Dublin,4,4,False,4,False,4,False,12,8,18,6
+5,12,Sarah Millican,1,1,False,1,False,1,False,56,23,70,19
+5,12,Luke Kempner,2,2,False,2,False,2,False,36,19,45,16
+5,12,Nabil Abdulrashid,3,3,False,3,False,3,False,27,11,35,9
+5,12,Philippa Perry,4,3,False,4,False,4,False,24,10,27,9
+2,7,Miles Jupp,1,1,False,1,False,1,False,50,22,62,18
+2,7,Dan Walker,2,2,False,2,False,2,False,39,18,47,15
+2,7,Lolly Adefope,3,3,False,3,False,3,False,35,14,42,12
+2,7,Sarah Greene,4,4,False,4,False,4,False,34,11,39,10
+5,11,Chris Washington,1,1,False,1,False,1,False,43,23,51,19
+5,11,Sean Fletcher,2,2,False,2,False,2,False,26,16,30,13
+5,11,Louise Minchin,2,2,False,3,False,3,False,24,16,28,13
+5,11,Kimberly Wyatt,4,4,False,4,False,4,False,20,9,22,8
+1,3,Jamie Theakston,1,1,False,1,False,1,False,55,19,62,16
+1,3,Anita Rani,2,2,False,3,False,2,False,36,17,45,13
+1,3,Chris Ramsey,3,2,False,2,False,3,False,40,14,44,13
+1,3,Janet Ellis,4,4,False,4,False,4,False,25,12,30,10
+5,1,Andrew Maxwell,2,2,False,2,False,1,True,39,18,50,14
+5,1,Olga Koch,1,1,False,1,False,2,True,41,20,47,17
+5,1,Reeta Chakrabarti,3,3,False,3,False,3,True,33,16,39,13
+5,1,Gareth Thomas,4,4,False,4,False,4,True,31,13,37,10
+5,8,Sanjeev Kohli,1,1,False,1,False,1,False,50,21,63,17
+5,8,Roger Black,2,2,False,2,False,2,False,37,17,43,15
+5,8,Tiff Stevenson,3,3,False,3,False,3,False,31,13,39,10
+5,8,Jo Brand,4,4,False,4,False,4,False,24,10,27,9
+3,1,Ed Gamble,1,1,False,1,False,1,False,63,23,75,19
+3,1,Ade Edmondson,2,2,False,2,False,2,False,46,18,55,15
+3,1,Kate Thornton,4,4,False,4,False,3,False,18,9,24,7
+3,1,Miquita Oliver,3,3,False,3,False,3,False,20,10,24,9
+1,2,Rick Edwards,1,1,False,1,False,1,False,47,21,58,17
+1,2,Sara Pascoe,2,1,False,2,False,2,False,40,20,47,17
+1,2,Clive Myrie,3,3,False,3,False,3,False,20,12,24,10
+1,2,Angela Scanlon,4,4,False,4,False,4,False,18,10,19,9
+3,11,Gary Delaney,1,1,False,1,False,1,False,55,21,69,17
+3,11,Rose Matafeo,2,1,False,2,False,2,False,49,20,62,17
+3,11,Rav Wilding,3,3,False,3,False,3,False,26,13,33,11
+3,11,Valerie Singleton,4,4,False,4,False,4,False,16,7,20,6
+5,5,Mark Chapman,1,1,False,1,False,1,False,54,21,63,18
+5,5,Kaye Adams,2,2,False,2,False,2,False,36,18,46,14
+5,5,Philip Glenister,3,3,False,3,False,3,False,32,15,39,13
+5,5,Thanyia Moore,4,4,False,4,False,4,False,19,8,24,7
+5,13,Mike Wozniak,1,1,False,1,False,1,False,43,21,54,17
+5,13,Clare Balding,2,2,False,2,False,2,False,40,17,45,15
+5,13,Jamie Laing,3,3,False,3,False,3,False,26,15,32,12
+5,13,Mehreen Baig,4,4,False,4,False,4,False,18,8,22,7
+3,13,Matt Forde,1,1,False,1,False,1,False,57,22,72,18
+3,13,Fred MacAulay,2,2,False,2,False,2,False,39,18,47,15
+3,13,Michelle Ackerley,3,3,False,3,False,3,False,28,13,34,11
+3,13,Judy Murray,4,4,False,4,False,4,False,22,9,28,7
+5,7,Cariad Lloyd,1,1,False,1,False,1,False,51,21,63,18
+5,7,Yasmine Akram,2,2,False,2,False,2,False,40,18,53,14
+5,7,Geoff Norcott,3,3,False,3,False,3,False,34,12,39,11
+5,7,Dennis Taylor,4,4,False,4,False,4,False,20,9,26,7
+3,20,Nish Kumar (C),1,1,False,1,False,1,False,57,22,69,19
+3,20,Hugh Dennis (C),2,3,False,2,False,2,False,39,16,51,12
+3,20,Holly Walsh (C),3,2,False,3,False,3,False,38,14,45,13
+3,20,Sarah Greene (C),4,4,False,4,False,4,False,31,10,40,8
+4,20,Shaun Williamson,1,1,False,1,False,1,False,59,23,70,19
+4,20,Glenn Moore,2,2,False,2,False,2,False,38,16,44,13
+4,20,Kiri Pritchard-McLean,3,2,False,3,False,3,False,36,15,41,13
+4,20,Mina Anwar,4,4,False,4,False,4,False,23,11,28,9
+5,10,Bill Turnbull,1,1,False,1,False,1,False,46,23,55,19
+5,10,Joanne McNally,2,2,False,2,False,2,False,30,17,37,14
+5,10,Michelle Collins,3,3,False,3,False,3,False,19,13,24,11
+5,10,Reginald D Hunter,4,4,False,4,False,4,False,11,9,12,8
+3,15,Stuart Maconie,1,1,False,1,False,1,False,53,22,68,18
+3,15,Rev Richard Coles,2,2,False,2,False,2,False,51,19,65,16
+3,15,Dr Maggie Aderin-Pocock,3,3,False,3,False,3,False,24,13,30,11
+3,15,Lou Sanders,4,4,False,4,False,4,False,17,7,20,6
+4,13,Maisie Adam,1,1,False,1,False,1,False,53,23,60,19
+4,13,Rory Bremner,2,2,False,2,False,2,False,35,15,40,13
+4,13,James Cracknell,3,3,False,3,False,3,False,32,13,38,10
+4,13,Michelle Gayle,4,3,False,4,False,4,False,31,12,36,10
+5,16,Simon Hickson,1,1,False,1,False,1,False,62,23,77,19
+5,16,Ayesha Hazarika,3,3,False,2,False,2,False,34,13,39,11
+5,16,Jessie Cave,2,2,False,3,False,3,False,29,16,35,13
+5,16,AJ Pritchard,4,4,False,4,False,4,False,20,11,25,9
+5,18,Ivo Graham (C),1,1,False,1,False,1,False,57,22,71,18
+5,18,Maisie Adam (C),2,2,False,2,False,2,False,41,18,49,15
+5,18,Zoe Lyons (C),3,3,False,3,False,3,False,30,14,35,12
+5,18,Dev Griffin (C),4,4,False,4,False,4,False,14,7,17,6
+2,6,Richard Herring,1,1,False,1,False,1,False,50,22,62,18
+2,6,Katie Derham,2,2,False,2,False,2,False,44,17,55,14
+2,6,Rachel Riley,3,3,False,3,False,3,False,35,13,42,11
+2,6,JB Gill,4,4,False,4,False,4,False,20,9,23,8
+3,6,Jan Ravens,1,2,True,1,True,1,True,44,19,54,15
+3,6,Rachel Parris,1,1,True,2,True,2,True,43,19,52,16
+3,6,Shaun Keaveny,3,3,True,3,True,3,True,41,16,48,14
+3,6,Jay Blades,4,4,True,4,True,4,True,17,6,23,5
+4,14,Les Dennis,1,1,True,1,True,1,True,39,18,46,15
+4,14,Melinda Messenger,1,2,True,2,True,2,True,27,18,35,14
+4,14,Charlie Brooks,3,3,True,2,True,3,True,27,14,32,12
+4,14,Darren Harriott,4,4,True,4,True,4,True,25,12,28,11
+3,9,Rick Edwards (C),1,1,False,1,False,1,False,47,22,59,18
+3,9,David O'Doherty (C),2,2,False,2,False,2,False,30,16,37,13
+3,9,Naga Munchetty (C),4,3,False,2,False,3,False,30,12,35,11
+3,9,Scarlett Moffatt (C),3,4,False,4,False,4,False,24,13,31,10
+3,18,Dom Joly,2,2,False,2,False,1,True,46,19,56,15
+3,18,John Robins,1,1,False,1,False,2,True,48,20,55,17
+3,18,Samira Ahmed,3,3,False,3,False,3,True,37,16,44,13
+3,18,Angela Rippon,4,4,False,4,False,4,True,21,7,27,6
+4,1,Stephen Mangan,1,1,False,1,False,1,False,54,23,66,19
+4,1,Vikki Stone,2,2,False,2,False,2,False,39,18,48,15
+4,1,Jean Johansson,3,3,False,3,False,3,False,29,13,34,11
+4,1,Ade Adepitan,4,4,False,4,False,4,False,16,6,19,5
+4,6,Angela Barnes,1,1,False,1,False,1,False,82,24,101,20
+4,6,Greg Rutherford,2,2,False,2,False,2,False,26,17,32,14
+4,6,Denise Van Outen,3,3,False,3,False,3,False,24,13,29,11
+4,6,Melvin Odoom,4,4,False,4,False,4,False,15,10,20,8
+5,4,Kevin Clifton,1,1,False,1,False,1,False,37,19,46,15
+5,4,JJ Chalmers,2,2,False,2,False,2,False,36,16,43,13
+5,4,Kemah Bob,3,4,False,4,False,3,False,33,15,40,12
+5,4,Victoria Derbyshire,4,2,False,3,False,3,False,34,14,40,13
+4,11,Tim Key,1,1,False,1,False,1,False,40,20,53,16
+4,11,Gabby Logan,2,1,False,2,False,2,False,30,19,37,16
+4,11,Jeff Stelling,3,3,False,3,False,3,False,26,14,32,12
+4,11,Gemma Cairney,4,4,False,4,False,4,False,14,10,16,9
+5,2,Hugh Fearnley-Whittingstall,1,1,False,1,False,1,False,48,22,59,18
+5,2,Suzi Perry,2,2,False,2,False,2,False,46,19,57,16
+5,2,Jodie Kidd,3,3,False,3,False,3,False,25,12,32,10
+5,2,Jamali Maddix,4,4,False,4,False,4,False,21,10,28,8
+3,16,Tim Vine,1,1,False,1,False,1,False,46,21,54,18
+3,16,Vick Hope,2,2,False,2,False,2,False,37,20,46,16
+3,16,Gethin Jones,3,3,False,3,False,3,False,21,12,27,10
+3,16,Nicki Chapman,4,4,False,4,False,4,False,17,8,21,7
+3,2,Scarlett Moffatt,1,1,False,1,False,1,False,31,19,42,15
+3,2,Iain Stirling,2,3,False,1,False,2,False,31,16,41,13
+3,2,Gyles Brandreth,2,2,False,1,False,3,False,31,16,40,14
+3,2,Angellica Bell,4,4,False,4,False,4,False,29,12,37,11
+2,5,Charlie Higson,1,1,False,1,False,1,False,48,18,57,15
+2,5,Kate Williams,2,4,False,2,False,2,False,42,15,55,11
+2,5,Tom Allen,4,2,False,3,False,3,False,40,13,44,12
+2,5,Chizzy Akudolu,3,2,False,4,False,4,False,34,14,39,12
+2,3,Elis James,2,2,False,1,True,1,True,40,18,49,15
+2,3,Amanda Abbington,1,1,False,2,True,2,True,38,20,48,16
+2,3,Shappi Khorsandi,3,3,False,3,True,3,True,22,13,28,11
+2,3,Michael Buerk,4,3,False,4,True,4,True,21,12,24,11
+4,18,Colin Murray,1,1,False,1,False,1,False,39,23,47,19
+4,18,Sally Phillips,2,2,False,2,False,2,False,36,18,43,15
+4,18,Nathan Caton,3,3,False,3,False,3,False,25,12,29,10
+4,18,Ronni Ancona,4,4,False,4,False,4,False,19,9,20,8
+3,7,Rev Kate Bottley,1,1,False,1,False,1,False,53,21,62,18
+3,7,John Thomson,2,2,False,2,False,2,False,37,18,47,14
+3,7,Joel Dommett,3,3,False,3,False,3,False,30,13,37,11
+3,7,YolanDa Brown,4,4,False,4,False,4,False,28,12,35,10
+3,14,Hal Cruttenden,1,1,False,1,False,1,False,48,20,54,18
+3,14,Radzi Chinyanganya,2,2,False,2,False,2,False,41,18,49,15
+3,14,Kerry Godliman,3,3,False,3,False,3,False,30,15,39,11
+3,14,Ebony Rainford-Brent,4,4,False,4,False,4,False,17,8,19,7
+3,10,Richard Herring (C),1,1,False,1,False,1,False,47,21,54,18
+3,10,Dane Baptiste (C),2,3,False,2,False,2,False,36,17,46,13
+3,10,Kate Williams (C),2,2,False,3,False,3,False,32,17,39,14
+3,10,June Sarpong (C),4,4,False,4,False,4,False,9,8,11,7
+5,14,Martin Lewis,1,1,False,1,False,1,False,46,20,56,16
+5,14,Edith Bowman,2,2,False,2,False,2,False,44,16,50,14
+5,14,Fern Brady,3,3,False,3,False,3,False,38,15,47,12
+5,14,Will Kirk,4,4,False,4,False,4,False,32,10,35,9
+2,9,Matt Allwright,1,1,False,1,False,1,False,56,21,72,17
+2,9,Kelly Cates,2,1,False,2,False,2,False,52,20,62,17
+2,9,Desiree Burch,3,3,False,3,False,3,False,29,11,37,9
+2,9,Tyger Drew-Honey,4,4,False,4,False,4,False,22,9,25,8
+3,5,Danny Wallace,1,1,False,1,False,1,False,46,21,53,18
+3,5,Johnny Ball,2,2,False,2,False,2,False,36,19,44,15
+3,5,Suzi Ruffell,3,3,False,3,False,3,False,34,16,40,14
+3,5,Nina Wadia,4,4,False,4,False,4,False,23,6,28,5
+3,3,Phill Jupitus,1,1,False,1,False,1,False,57,22,66,19
+3,3,Ivo Graham,2,2,False,2,False,2,False,46,20,56,16
+3,3,Andi Oliver,3,3,False,4,False,3,False,25,11,30,9
+3,3,Kate Humble,4,4,False,3,False,4,False,26,8,29,7
+2,2,Steve Pemberton,1,1,False,1,False,1,False,60,22,68,19
+2,2,Josh Widdicombe,3,2,False,2,False,2,False,45,15,52,13
+2,2,Ellie Taylor,2,3,False,3,False,3,False,37,16,46,12
+2,2,Fern Britton,4,4,False,4,False,4,False,25,7,30,6
+5,17,Sally Phillips (C),1,1,False,1,False,1,False,48,20,60,16
+5,17,Dan Walker (C),3,2,False,2,False,2,False,37,16,45,14
+5,17,Vikki Stone (C),2,2,False,3,False,3,False,32,17,41,14
+5,17,Rickie Haywood-Williams (C),4,4,False,4,False,4,False,16,8,16,7
+5,15,Toby Tarrant,1,1,False,1,False,1,False,43,22,50,18
+5,15,Nick Helm,2,2,False,3,False,2,False,30,17,36,14
+5,15,Athena Kugblenu,3,3,False,2,False,2,False,31,15,36,13
+5,15,Nina Conti,4,4,False,4,False,4,False,20,9,25,7
+4,8,Jessica Fostekew,2,1,False,1,True,1,True,39,16,44,14
+4,8,Rickie Haywood-Williams,1,1,False,2,True,2,True,30,17,38,14
+4,8,Sara Barron,3,4,False,4,True,3,True,28,15,37,11
+4,8,Anton Du Beke,4,3,False,3,True,4,True,29,13,31,12
+2,8,James Acaster,1,1,False,1,False,1,False,43,21,50,18
+2,8,Anne Diamond,2,2,False,2,False,2,False,36,20,44,16
+2,8,Rory Reid,3,3,False,3,False,3,False,26,15,33,12
+2,8,Samantha Womack,4,4,False,4,False,4,False,24,8,30,7
+3,19,Miles Jupp (C),1,1,False,1,False,1,False,50,19,59,16
+3,19,Chizzy Akudolu (C),2,2,False,2,False,2,False,36,17,44,15
+3,19,Ellie Taylor (C),2,3,False,3,False,3,False,32,17,42,13
+3,19,Amol Rajan (C),4,4,False,4,False,4,False,26,10,32,9
+3,4,Alex Horne,1,1,False,1,False,1,False,47,19,60,16
+3,4,Dev Griffin,3,2,False,2,False,2,False,40,16,48,14
+3,4,June Sarpong,2,2,False,3,False,3,False,30,18,43,14
+3,4,Debbie McGee,4,4,False,4,False,4,False,18,9,24,8
+5,3,Joe Thomas,1,1,False,1,False,1,False,50,23,64,19
+5,3,Jake Wood,2,2,False,2,False,2,False,35,15,37,14
+5,3,Lucy Beaumont,3,3,False,3,False,3,False,25,11,29,9
+5,3,Shazia Mirza,3,4,False,4,False,4,False,19,11,26,8
+4,4,Mark Billingham,3,3,True,1,True,1,True,45,18,53,15
+4,4,Neil Delamere,1,2,True,2,True,2,True,41,20,51,16
+4,4,Lucy Porter,2,1,True,2,True,3,True,41,19,47,17
+4,4,AJ Odudu,4,4,True,4,True,4,True,15,6,18,5
+2,1,Naga Munchetty,1,1,False,1,False,1,False,43,21,55,17
+2,1,Sally Lindsay,3,2,False,2,False,2,False,32,14,38,12
+2,1,Jordan Stephens,2,2,False,4,False,3,False,30,15,37,12
+2,1,David O'Doherty,4,4,False,3,False,4,False,31,12,36,11
+2,4,Hugh Dennis,1,1,False,1,False,1,False,52,20,63,16
+2,4,Beattie Edmondson,2,2,False,2,False,2,False,41,17,51,14
+2,4,Gaby Roslin,3,3,False,4,False,3,False,32,15,42,12
+2,4,Amol Rajan,4,4,False,3,False,4,False,33,12,39,11
+4,10,Josie Long,1,1,False,1,False,1,False,51,22,64,18
+4,10,Steve Cram,2,2,False,2,False,2,False,29,16,37,13
+4,10,Lloyd Griffith,3,3,False,3,False,3,False,26,13,33,11
+4,10,Jeanette Kwakye,4,4,False,4,False,4,False,22,11,25,10
+1,1,Nish Kumar,1,1,False,1,False,1,False,51,23,59,19
+1,1,Al Murray,2,2,False,2,False,2,False,47,17,53,15
+1,1,Clara Amfo,3,3,False,3,False,3,False,36,13,44,10
+1,1,Anneka Rice,4,4,False,4,False,4,False,25,7,29,6
+4,5,Steve Backshall,1,1,False,1,False,1,False,54,23,66,19
+4,5,Meera Syal,2,2,False,2,False,2,False,47,19,58,16
+4,5,Dr Ranj Singh,3,3,False,3,False,3,False,23,11,26,9
+4,5,Catherine Bohart,4,4,False,4,False,4,False,20,8,21,7
+4,12,David Baddiel,1,1,False,1,False,1,False,41,19,50,16
+4,12,Alex Brooker,2,2,False,3,False,2,False,35,17,45,13
+4,12,Sophie Duker,3,3,False,2,False,2,False,37,14,45,12
+4,12,Charlotte Hawkins,4,4,False,4,False,4,False,33,11,40,10
+5,9,Andy Hamilton,2,2,False,1,True,1,True,53,19,63,16
+5,9,Matt Edmondson,1,1,False,2,True,2,True,47,22,59,18
+5,9,Kirsty Wark,3,3,False,3,True,3,True,32,13,38,11
+5,9,Sabrina Grant,4,4,False,4,True,4,True,18,7,22,6
+4,15,Mark Watson,1,1,False,1,False,1,False,52,22,64,18
+4,15,Laura Whitmore,2,2,False,2,False,2,False,39,17,45,15
+4,15,Josie Lawrence,3,3,False,3,False,3,False,22,16,29,13
+4,15,Raj Bisram,4,4,False,4,False,4,False,15,8,20,7
+3,12,Phil Wang,1,1,False,1,False,1,False,42,21,53,17
+3,12,Rita Simons,2,2,False,2,False,2,False,26,16,32,13
+3,12,Adil Ray,3,3,False,2,False,3,False,26,14,31,12
+3,12,Andrea McLean,4,4,False,4,False,4,False,21,11,21,10
+5,6,Ed Byrne,1,1,False,1,False,1,False,56,23,68,19
+5,6,Ingrid Oliver,2,2,False,2,False,2,False,51,19,62,16
+5,6,Sir Matthew Pinsent,4,4,False,3,False,3,False,29,12,33,10
+5,6,Ruby Bhogal,3,3,False,4,False,4,False,26,13,30,11
+4,16,Andrew Hunter Murray,1,1,False,1,False,1,False,46,22,58,18
+4,16,Zoe Lyons,2,2,False,2,False,2,False,36,18,42,15
+4,16,Kate Robbins,3,3,False,4,False,3,False,20,13,25,11
+4,16,Kae Kurd,4,4,False,3,False,3,False,21,10,25,9
+4,19,Mae Martin,1,1,False,1,False,1,False,42,22,52,18
+4,19,Nihal Arthanayake,2,2,False,1,False,2,False,42,19,50,16
+4,19,Jake Humphrey,3,3,False,3,False,3,False,35,18,43,15
+4,19,Patsy Kensit,4,4,False,4,False,4,False,10,6,11,5
+2,10,Dane Baptiste,1,1,False,1,False,1,False,50,22,62,18
+2,10,Susie Dent,3,3,False,2,False,2,False,35,15,46,12
+2,10,Nick Owen,2,2,False,2,False,3,False,35,16,42,14
+2,10,Chemmy Alcott,4,4,False,4,False,4,False,17,8,22,7
