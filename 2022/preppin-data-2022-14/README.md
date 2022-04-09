@@ -20,8 +20,9 @@ What I learned/practiced this week:
 </a>
 <br>
 <br>
-#### Macro (applies standard competition ranking):
-<br>
+
+### Macro (applies standard competition ranking):
+
 <br>
 <a href="preppin-data-2022-14.yxzp">
 <img src="img-alteryx-2022-14-macro-interface.png?raw=true" alt="Alteryx workflow for standard competition macro">
