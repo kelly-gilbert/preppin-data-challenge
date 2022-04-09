@@ -15,12 +15,15 @@ https://preppindata.blogspot.com/2022/04/2022-week-14-house-of-games-winners.htm
 - Filter the data to remove Series that have a null value, or are preceded by an 'N'
 - Calculate the Points without double points Friday
     - Rank the players based on this new field
-    - Create a field to determine if there has been a change in winner for that particular Series and Week
+    - Create a field to determine if there has been a change in winner for that particular Series 
+      and Week
 - Rank the players based on their Score instead
-    - Create a field to determine if there has been a change in winner for that particular Series and Week
+    - Create a field to determine if there has been a change in winner for that particular Series
+      and Week
 - Calculate the Score if the score on Friday was doubled (instead of the Points)
     - Rank the players based on this new field
-    - Create a field to determine if there has been a change in winner for that particular Series and Week
+    - Create a field to determine if there has been a change in winner for that particular Series 
+      and Week
 - Remove unnecessary fields
 - Output the data
 
@@ -34,7 +37,6 @@ Requirements:
 """
 
 
-from numpy import where
 import pandas as pd
 
 
@@ -42,85 +44,59 @@ import pandas as pd
 # input the data
 #---------------------------------------------------------------------------------------------------
 
-# input the dataset, rename fields, remove null and N* Series
-df_input = pd.read_csv(r".\inputs\Richard Osman's House of Games - Episode Guide - Players.csv")\
-             .rename(columns={'Ser.' : 'Series', 
-                              'Wk.' : 'Week', 
-                              'T' : 'Tu', 
-                              'T.1' : 'Th', 
-                              'Total' : 'Score', 
-                              'Week' : 'Points', 
-                              'Week 1' : 'Rank'})\
-            .query("(Series.str[0] != 'N') and not (Series != Series)")\
-            .melt(id_vars=['Series', 'Week', 'Player'], value_vars=['M','Tu','W','Th', 'F'], 
-                  var_name='day', value_name='score')
+# input the dataset, rename fields, remove null and N Series
+usecols=['Player', 'Ser.', 'Wk.', 'Week', 'Total', 'Week.1', 'F', 'F.1']
+renames = {'Ser.' : 'Series', 'Wk.' : 'Week', 'Total' : 'Score', 'Week' : 'Points', 
+           'Week.1' : 'Original_Rank', 'F.1' : 'F_rank'}
+
+df = pd.read_csv(r".\inputs\Richard Osman's House of Games - Episode Guide - Players.csv",
+                 usecols=usecols)\
+       .rename(columns=renames)\
+       .query("(Series.str[0] != 'N') and not (Series != Series)")\
+       .assign(F=lambda df_x: df_x['F'].astype('int'),
+               F_rank=lambda df_x: df_x['F_rank'].str[0].astype('int'),
+               Original_Rank=lambda df_x: df_x['Original_Rank'].str[0].astype('int'))
 
 
 #---------------------------------------------------------------------------------------------------
 # process the data
 #---------------------------------------------------------------------------------------------------
 
-# calculate the points with and witout double points Friday
-df_input['points'] = df_input.groupby(['Series', 'Week', 'day'])['score'].rank('max')
-df_input['points_dpf'] = df_input['points'] * where(df_input['day'] == 'F', 2, 1)
-df_input['score_dpf'] = df_input['score'] * where(df_input['day'] == 'F', 2, 1)
+# calculate alternatives
+df['Points_no_dpf'] = (df['Points'] - (5 - df['F_rank'])).astype(int)
+df['Score_with_dpf'] = (df['Score'] + df['F']).astype(int)
 
 
-# summarize by series/week/player
-df = df_input.groupby(['Series', 'Week', 'Player'], as_index=False)\
-             [['points', 'points_dpf', 'score', 'score_dpf']].sum()
-
-
-# points
+# compare ranks based on points
 group = df.groupby(['Series', 'Week'])
-df['Original Rank'] = group['points_dpf'].rank(method='min', ascending=False)
-df['Rank without double points Friday'] = group['points'].rank('min', ascending=False)
-df['Change in winner with no double points Friday?'] = \
-    (group['Original Rank'].idxmin() != group['Rank without double points Friday'].idxmin())
+
+df['Rank without double points Friday'] = \
+    group['Points_no_dpf'].rank('min', ascending=False).astype(int)
+df['check1'] = ((df['Original_Rank'] == 1) & (df['Rank without double points Friday'] != 1))
+df['Change in winner with no double points Friday?'] = group['check1'].transform('any')
 
 
-# score
-df['Rank based on Score'] = df.groupby(['Series', 'Week'])['score'].rank('min', ascending=False)
-df['Change in winner based on Score?'] = \
-    (df['Rank without double points Friday'] != df['Rank based on Score'])
+# compare ranks based on score
+df['Rank based on Score'] = group['Score'].rank('min', ascending=False).astype(int)
+df['check2'] = ((df['Original_Rank'] == 1) & (df['Rank based on Score'] != 1))
+df['Change in winner based on Score?'] = group['check2'].transform('any')
+
+
+# compare ranks based on score (with Friday's score doubled)
+df['Rank if Double Score Friday'] = group['Score_with_dpf'].rank('min', ascending=False).astype(int)
+df['check3'] = ((df['Original_Rank'] == 1) & (df['Rank if Double Score Friday'] != 1))
+df['Change in winner if Double Score Friday?'] = group['check3'].transform('any')
     
-df['Rank if Double Score Friday'] = df.groupby(['Series', 'Week'])['score_dpf'].rank('min', ascending=False)
-df['Change in winner if Double Score Friday?]
-  
-    
-    
-Original Rank
-
-df.groupby(['Series', 'Week'])['Original Rank'].idxmin().iloc[0:20]
-
-df[(df['Series']=='2') & (df['Week']==3)][['Player', 'points', 'points_dpf', 'score', 'Original Rank']]
-
-
-
-
-    - Rank the players based on this new field
-    - Create a field to determine if there has been a change in winner for that particular Series and Week
-- Rank the players based on their Score instead
-    - Create a field to determine if there has been a change in winner for that particular Series and Week
-- Calculate the Score if the score on Friday was doubled (instead of the Points)
-    - Rank the players based on this new field
-    - Create a field to determine if there has been a change in winner for that particular Series and Week
-- Remove unnecessary fields
-- Output the data
-
-
-
-
-
-
-
-
 
 #---------------------------------------------------------------------------------------------------
 # output the file
 #---------------------------------------------------------------------------------------------------
 
-df.to_csv(r'.\outputs\output-2022-14.csv', index=False)
+df.rename(columns={'Score_with_dpf' : 'Score if double Friday', 
+                   'Points_no_dpf' : 'Points without double points Friday',
+                   'Original_Rank' : 'Original Rank'})\
+  .drop(columns=['F', 'F_rank', 'check1', 'check2', 'check3'])\
+  .to_csv(r'.\outputs\output-2022-14.csv', index=False)
 
 
 #---------------------------------------------------------------------------------------------------
@@ -129,8 +105,8 @@ df.to_csv(r'.\outputs\output-2022-14.csv', index=False)
 
 solution_files = ['House of Games Output.csv']
 my_files = ['output-2022-14.csv']
-unique_cols = ['Month']
-col_order_matters = True
+unique_cols = [['Series', 'Week', 'Player']]
+col_order_matters = False
 round_dec = 8
 
 for i, solution_file in enumerate(solution_files):
@@ -196,3 +172,4 @@ for i, solution_file in enumerate(solution_files):
             print('Values match')
 
     print('\n')  
+
