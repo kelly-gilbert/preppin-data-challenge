@@ -27,9 +27,10 @@
 |8|Pokemon Evolution Stats|[📋](https://preppindata.blogspot.com/2022/02/2022-week-8-pokemon-evolution-stats.html)|[✅](2022/preppin-data-2022-08/README.md)|
 |9|Customer Classifications|[📋](https://preppindata.blogspot.com/2022/03/2022-week-9-customer-classifications.html)|[✅](2022/preppin-data-2022-09/README.md)|
 |10|The Bechdel test|[📋](https://preppindata.blogspot.com/2022/03/2022-week-10-bechdel-test.html)|[✅](2022/preppin-data-2022-10/README.md)|
-|11|The Prep School - Filling in the Blanks|[📋](https://preppindata.blogspot.com/2022/03/2022-week-11-prep-school-filling-blanks.html)|[✅](2022/preppin-data-2022-11/README.md)|
+|11|The Prep School - Filling the Blanks|[📋](https://preppindata.blogspot.com/2022/03/2022-week-11-prep-school-filling-blanks.html)|[✅](2022/preppin-data-2022-11/README.md)|
 |12|Gender Pay Gap|[📋](https://preppindata.blogspot.com/2022/03/2022-week-12-gender-pay-gap.html)|[✅](2022/preppin-data-2022-12/README.md)|
 |13|Pareto Parameters|[📋](https://preppindata.blogspot.com/2022/03/2022-week-13-pareto-parameters.html)|[✅](2022/preppin-data-2022-13/README.md)|
+|14|House of Games Winners|[📋](https://preppindata.blogspot.com/2022/04/2022-week-14-house-of-games-winners.html)|[✅](2022/preppin-data-2022-14/README.md)|
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
@@ -365,6 +366,8 @@
       <b>2021:</b>&nbsp;&nbsp;
       <span title="NBA Draft Lottery calculator"><a href="2021/preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - Sales"><a href="2021/preppin-data-2021-50/README.md">W50</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -391,6 +394,18 @@
     <td>      
       <b>2022:</b>&nbsp;
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+    </td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td>
+      List Box
+    </td>
+    <td>      
+      <b>2022:</b>&nbsp;
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -405,6 +420,8 @@
       <span title="Controlling Complaints"><a href="2021/preppin-data-2021-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="NBA Draft Lottery calculator"><a href="2021/preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - Operations"><a href="2021/preppin-data-2021-52/README.md">W52</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -423,6 +440,7 @@
       <span title="Departmental December - Operations"><a href="2021/preppin-data-2021-52/README.md">W52</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -436,6 +454,28 @@
       <span title="NBA Draft Lottery calculator"><a href="2021/preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+    </td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td>
+      Radio Button
+    </td>
+    <td>      
+      <b>2022:</b>&nbsp;
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+    </td>
+  </tr>  
+  
+  <tr>
+    <td></td>
+    <td>
+      Text Box
+    </td>
+    <td>      
+      <b>2022:</b>&nbsp;
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -551,8 +591,9 @@
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
-      <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -767,6 +808,7 @@
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -844,9 +886,10 @@
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
-      <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -930,6 +973,7 @@
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -965,6 +1009,7 @@
       <b>2022:</b>&nbsp;
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1077,9 +1122,10 @@
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
-      <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1133,6 +1179,7 @@
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1363,6 +1410,7 @@
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1689,10 +1737,23 @@ user input
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Pandas - Aggregation
+    </td>
+    <td>
+
+Boolean aggregation(```any```, ```all```)
+    </td>
+    <td>
+      <b>2022:</b>&nbsp;
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+    </td>
+  </tr>  
+  
+  <tr>
+    <td>
     </td>
     <td>
 
@@ -1776,6 +1837,7 @@ Named Aggregation
       <b>2022:</b>&nbsp;
       <span title="The Prep School - Setting Grades"><a href="2022/preppin-data-2022-05/README.md">W05</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1817,7 +1879,8 @@ Named Aggregation
       <span title="The Prep School - Travel Plans"><a href="2022/preppin-data-2022-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Prep School - Setting Grades"><a href="2022/preppin-data-2022-05/README.md">W05</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
-      <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2273,9 +2336,10 @@ Write multiple tabs to Excel file
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
-      <span title="The Prep School - Filling in the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span> 
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2323,6 +2387,7 @@ Write multiple tabs to Excel file
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2375,7 +2440,7 @@ Write multiple tabs to Excel file
       <span title="Departmental December - Sales"><a href="2021/preppin-data-2021-50/README.md">W50</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - Operations"><a href="2021/preppin-data-2021-52/README.md">W52</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
-      <span title="The Prep School - Filling in the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
@@ -2441,7 +2506,7 @@ Write multiple tabs to Excel file
       <b>2022:</b>&nbsp;
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
-      <a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;
+      <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span> 
     </td>
@@ -2638,6 +2703,7 @@ transpose ```T```
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2708,6 +2774,7 @@ transpose ```T```
       <b>2022:</b>&nbsp;
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3011,6 +3078,8 @@ String slicing
       <span title="It's Coming Rome"><a href="2021/preppin-data-2021-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Excelling at adding one more row"><a href="2021/preppin-data-2021-33/README.md">W33</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="What's trendy?"><a href="2021/preppin-data-2021-36/README.md">W36</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;
+      <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
