@@ -1,0 +1,814 @@
+﻿Cumulative Monthly Cost,ID,Country,City,Address,Company,Office Size,Contract Start,Contract End,Contract Length,Months Until Expiry,People,Per Person,Rent per Month,Month Divider
+52000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/06/2021
+104000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/07/2021
+156000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/08/2021
+208000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/09/2021
+260000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/10/2021
+312000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/11/2021
+364000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/12/2021
+416000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/01/2022
+468000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/02/2022
+520000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/03/2022
+572000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/04/2022
+624000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/05/2022
+676000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/06/2022
+728000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/07/2022
+780000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/08/2022
+832000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/09/2022
+884000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/10/2022
+936000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/11/2022
+988000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/12/2022
+1040000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/01/2023
+1092000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/02/2023
+1144000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/03/2023
+1196000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/04/2023
+1248000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,05/05/2023
+1300000,18,United Kingdom,London,7 Delaware Drive,Corwin Group,Large,05/06/2021,04/06/2023,24,14,100,520,52000,04/06/2023
+20000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,30/07/2021
+40000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,30/08/2021
+60000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,30/09/2021
+80000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,30/10/2021
+100000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,30/11/2021
+120000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,30/12/2021
+140000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,30/01/2022
+160000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/02/2022
+180000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/03/2022
+200000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/04/2022
+220000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/05/2022
+240000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/06/2022
+260000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/07/2022
+280000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/08/2022
+300000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/09/2022
+320000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/10/2022
+340000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/11/2022
+360000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/12/2022
+380000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/01/2023
+400000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/02/2023
+420000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/03/2023
+440000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/04/2023
+460000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/05/2023
+480000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/06/2023
+500000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/07/2023
+520000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/08/2023
+540000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/09/2023
+560000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/10/2023
+580000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/11/2023
+600000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/12/2023
+620000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/01/2024
+640000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/02/2024
+660000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/03/2024
+680000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/04/2024
+700000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/05/2024
+720000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/06/2024
+740000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,28/07/2024
+760000,4,United Kingdom,Liverpool,628 Superior Plaza,"Olson, Berge and Walsh",Medium,30/07/2021,29/07/2024,36,27,50,400,20000,29/07/2024
+52000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/09/2021
+104000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/10/2021
+156000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/11/2021
+208000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/12/2021
+260000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/01/2022
+312000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/02/2022
+364000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/03/2022
+416000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/04/2022
+468000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/05/2022
+520000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/06/2022
+572000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/07/2022
+624000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/08/2022
+676000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/09/2022
+728000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/10/2022
+780000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/11/2022
+832000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/12/2022
+884000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/01/2023
+936000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/02/2023
+988000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/03/2023
+1040000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/04/2023
+1092000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/05/2023
+1144000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/06/2023
+1196000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/07/2023
+1248000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/08/2023
+1300000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/09/2023
+1352000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/10/2023
+1404000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/11/2023
+1456000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/12/2023
+1508000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/01/2024
+1560000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/02/2024
+1612000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/03/2024
+1664000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/04/2024
+1716000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/05/2024
+1768000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/06/2024
+1820000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/07/2024
+1872000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/08/2024
+1924000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/09/2024
+1976000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/10/2024
+2028000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/11/2024
+2080000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/12/2024
+2132000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/01/2025
+2184000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/02/2025
+2236000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/03/2025
+2288000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/04/2025
+2340000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/05/2025
+2392000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/06/2025
+2444000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/07/2025
+2496000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/08/2025
+2548000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/09/2025
+2600000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/10/2025
+2652000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/11/2025
+2704000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/12/2025
+2756000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/01/2026
+2808000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/02/2026
+2860000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/03/2026
+2912000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/04/2026
+2964000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/05/2026
+3016000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/06/2026
+3068000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/07/2026
+3120000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,26/08/2026
+3172000,14,United Kingdom,London,7 Porter Street,Lehner-Hilpert,Large,26/09/2021,25/09/2026,60,53,100,520,52000,25/09/2026
+8600,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/02/2021
+17200,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/03/2021
+25800,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/04/2021
+34400,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/05/2021
+43000,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/06/2021
+51600,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/07/2021
+60200,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/08/2021
+68800,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/09/2021
+77400,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/10/2021
+86000,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/11/2021
+94600,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/12/2021
+103200,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/01/2022
+111800,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/02/2022
+120400,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/03/2022
+129000,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/04/2022
+137600,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/05/2022
+146200,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/06/2022
+154800,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/07/2022
+163400,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/08/2022
+172000,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/09/2022
+180600,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/10/2022
+189200,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/11/2022
+197800,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/12/2022
+206400,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,06/01/2023
+215000,2,United Kingdom,Manchester,3 Graceland Lane,Nolan-Oberbrunner,Small,06/02/2021,05/02/2023,24,10,20,430,8600,05/02/2023
+38000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/03/2021
+76000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/04/2021
+114000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/05/2021
+152000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/06/2021
+190000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/07/2021
+228000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/08/2021
+266000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/09/2021
+304000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/10/2021
+342000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/11/2021
+380000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/12/2021
+418000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/01/2022
+456000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/02/2022
+494000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/03/2022
+532000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/04/2022
+570000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/05/2022
+608000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/06/2022
+646000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/07/2022
+684000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/08/2022
+722000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/09/2022
+760000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/10/2022
+798000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/11/2022
+836000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/12/2022
+874000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/01/2023
+912000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/02/2023
+950000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/03/2023
+988000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/04/2023
+1026000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/05/2023
+1064000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/06/2023
+1102000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/07/2023
+1140000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/08/2023
+1178000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/09/2023
+1216000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/10/2023
+1254000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/11/2023
+1292000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/12/2023
+1330000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/01/2024
+1368000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,18/02/2024
+1406000,19,United Kingdom,Newcastle,5468 Canary Park,Franecki LLC,Large,18/03/2021,17/03/2024,36,23,100,380,38000,17/03/2024
+40000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/09/2021
+80000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/10/2021
+120000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/11/2021
+160000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/12/2021
+200000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/01/2022
+240000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/02/2022
+280000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/03/2022
+320000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/04/2022
+360000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/05/2022
+400000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/06/2022
+440000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/07/2022
+480000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/08/2022
+520000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/09/2022
+560000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/10/2022
+600000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/11/2022
+640000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/12/2022
+680000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/01/2023
+720000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/02/2023
+760000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/03/2023
+800000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/04/2023
+840000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/05/2023
+880000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/06/2023
+920000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/07/2023
+960000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/08/2023
+1000000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/09/2023
+1040000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/10/2023
+1080000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/11/2023
+1120000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/12/2023
+1160000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/01/2024
+1200000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/02/2024
+1240000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/03/2024
+1280000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/04/2024
+1320000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/05/2024
+1360000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/06/2024
+1400000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/07/2024
+1440000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/08/2024
+1480000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/09/2024
+1520000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/10/2024
+1560000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/11/2024
+1600000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/12/2024
+1640000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/01/2025
+1680000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/02/2025
+1720000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/03/2025
+1760000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/04/2025
+1800000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/05/2025
+1840000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/06/2025
+1880000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/07/2025
+1920000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/08/2025
+1960000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/09/2025
+2000000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/10/2025
+2040000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/11/2025
+2080000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/12/2025
+2120000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/01/2026
+2160000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/02/2026
+2200000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/03/2026
+2240000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/04/2026
+2280000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/05/2026
+2320000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/06/2026
+2360000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/07/2026
+2400000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,28/08/2026
+2440000,8,United Kingdom,Liverpool,9838 Kennedy Street,McClure and Sons,Large,28/09/2021,27/09/2026,60,53,100,400,40000,27/09/2026
+52000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/08/2021
+104000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/09/2021
+156000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/10/2021
+208000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/11/2021
+260000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/12/2021
+312000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/01/2022
+364000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/02/2022
+416000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/03/2022
+468000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/04/2022
+520000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/05/2022
+572000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/06/2022
+624000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/07/2022
+676000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/08/2022
+728000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/09/2022
+780000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/10/2022
+832000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/11/2022
+884000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/12/2022
+936000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/01/2023
+988000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/02/2023
+1040000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/03/2023
+1092000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/04/2023
+1144000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/05/2023
+1196000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/06/2023
+1248000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/07/2023
+1300000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/08/2023
+1352000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/09/2023
+1404000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/10/2023
+1456000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/11/2023
+1508000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/12/2023
+1560000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/01/2024
+1612000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/02/2024
+1664000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/03/2024
+1716000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/04/2024
+1768000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/05/2024
+1820000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/06/2024
+1872000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/07/2024
+1924000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/08/2024
+1976000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/09/2024
+2028000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/10/2024
+2080000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/11/2024
+2132000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/12/2024
+2184000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/01/2025
+2236000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/02/2025
+2288000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/03/2025
+2340000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/04/2025
+2392000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/05/2025
+2444000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/06/2025
+2496000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,26/07/2025
+2548000,6,United Kingdom,London,6776 Gale Way,Abshire Group,Large,26/08/2021,25/08/2025,48,40,100,520,52000,25/08/2025
+19000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/05/2021
+38000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/06/2021
+57000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/07/2021
+76000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/08/2021
+95000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/09/2021
+114000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/10/2021
+133000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/11/2021
+152000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/12/2021
+171000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/01/2022
+190000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/02/2022
+209000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/03/2022
+228000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/04/2022
+247000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/05/2022
+266000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/06/2022
+285000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/07/2022
+304000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/08/2022
+323000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/09/2022
+342000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/10/2022
+361000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/11/2022
+380000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/12/2022
+399000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/01/2023
+418000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/02/2023
+437000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/03/2023
+456000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/04/2023
+475000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/05/2023
+494000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/06/2023
+513000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/07/2023
+532000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/08/2023
+551000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/09/2023
+570000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/10/2023
+589000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/11/2023
+608000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/12/2023
+627000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/01/2024
+646000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/02/2024
+665000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/03/2024
+684000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,21/04/2024
+703000,20,United Kingdom,Newcastle,277 Orin Lane,Dietrich-Hagenes,Medium,21/05/2021,20/05/2024,36,25,50,380,19000,20/05/2024
+8200,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,29/11/2021
+16400,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,29/12/2021
+24600,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,29/01/2022
+32800,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/02/2022
+41000,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/03/2022
+49200,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/04/2022
+57400,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/05/2022
+65600,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/06/2022
+73800,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/07/2022
+82000,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/08/2022
+90200,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/09/2022
+98400,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/10/2022
+106600,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/11/2022
+114800,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/12/2022
+123000,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/01/2023
+131200,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/02/2023
+139400,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/03/2023
+147600,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/04/2023
+155800,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/05/2023
+164000,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/06/2023
+172200,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/07/2023
+180400,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/08/2023
+188600,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/09/2023
+196800,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/10/2023
+205000,15,United Kingdom,Bristol,8478 Derek Terrace,"Homenick, Brekke and Reichel",Small,29/11/2021,28/11/2023,24,19,20,410,8200,28/11/2023
+26000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/10/2021
+52000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/11/2021
+78000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/12/2021
+104000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/01/2022
+130000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/02/2022
+156000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/03/2022
+182000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/04/2022
+208000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/05/2022
+234000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/06/2022
+260000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/07/2022
+286000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/08/2022
+312000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/09/2022
+338000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/10/2022
+364000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/11/2022
+390000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/12/2022
+416000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/01/2023
+442000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/02/2023
+468000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/03/2023
+494000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/04/2023
+520000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/05/2023
+546000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/06/2023
+572000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/07/2023
+598000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/08/2023
+624000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/09/2023
+650000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/10/2023
+676000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/11/2023
+702000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/12/2023
+728000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/01/2024
+754000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/02/2024
+780000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/03/2024
+806000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/04/2024
+832000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/05/2024
+858000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/06/2024
+884000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/07/2024
+910000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/08/2024
+936000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/09/2024
+962000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/10/2024
+988000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/11/2024
+1014000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/12/2024
+1040000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/01/2025
+1066000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/02/2025
+1092000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/03/2025
+1118000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/04/2025
+1144000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/05/2025
+1170000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/06/2025
+1196000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/07/2025
+1222000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/08/2025
+1248000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,22/09/2025
+1274000,10,United Kingdom,London,6969 Blackbird Terrace,Vandervort and Sons,Medium,22/10/2021,21/10/2025,48,42,50,520,26000,21/10/2025
+38000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/07/2021
+76000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/08/2021
+114000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/09/2021
+152000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/10/2021
+190000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/11/2021
+228000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/12/2021
+266000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/01/2022
+304000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/02/2022
+342000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/03/2022
+380000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/04/2022
+418000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/05/2022
+456000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/06/2022
+494000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/07/2022
+532000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/08/2022
+570000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/09/2022
+608000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/10/2022
+646000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/11/2022
+684000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/12/2022
+722000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/01/2023
+760000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/02/2023
+798000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/03/2023
+836000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/04/2023
+874000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/05/2023
+912000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/06/2023
+950000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/07/2023
+988000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/08/2023
+1026000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/09/2023
+1064000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/10/2023
+1102000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/11/2023
+1140000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/12/2023
+1178000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/01/2024
+1216000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/02/2024
+1254000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/03/2024
+1292000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/04/2024
+1330000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/05/2024
+1368000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/06/2024
+1406000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/07/2024
+1444000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/08/2024
+1482000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/09/2024
+1520000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/10/2024
+1558000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/11/2024
+1596000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/12/2024
+1634000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/01/2025
+1672000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/02/2025
+1710000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/03/2025
+1748000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/04/2025
+1786000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/05/2025
+1824000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/06/2025
+1862000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/07/2025
+1900000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/08/2025
+1938000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/09/2025
+1976000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/10/2025
+2014000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/11/2025
+2052000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/12/2025
+2090000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/01/2026
+2128000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/02/2026
+2166000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/03/2026
+2204000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/04/2026
+2242000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/05/2026
+2280000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,02/06/2026
+2318000,3,United Kingdom,Newcastle,22 Corben Circle,Schoen and Sons,Large,02/07/2021,01/07/2026,60,51,100,380,38000,01/07/2026
+41000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/09/2021
+82000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/10/2021
+123000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/11/2021
+164000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/12/2021
+205000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/01/2022
+246000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/02/2022
+287000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/03/2022
+328000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/04/2022
+369000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/05/2022
+410000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/06/2022
+451000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/07/2022
+492000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/08/2022
+533000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/09/2022
+574000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/10/2022
+615000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/11/2022
+656000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/12/2022
+697000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/01/2023
+738000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/02/2023
+779000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/03/2023
+820000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/04/2023
+861000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/05/2023
+902000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/06/2023
+943000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/07/2023
+984000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/08/2023
+1025000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/09/2023
+1066000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/10/2023
+1107000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/11/2023
+1148000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/12/2023
+1189000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/01/2024
+1230000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/02/2024
+1271000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/03/2024
+1312000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/04/2024
+1353000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/05/2024
+1394000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/06/2024
+1435000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/07/2024
+1476000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,12/08/2024
+1517000,13,United Kingdom,Bristol,6 Donald Lane,Herzog-Aufderhar,Large,12/09/2021,11/09/2024,36,29,100,410,41000,11/09/2024
+52000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/05/2021
+104000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/06/2021
+156000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/07/2021
+208000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/08/2021
+260000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/09/2021
+312000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/10/2021
+364000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/11/2021
+416000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/12/2021
+468000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/01/2022
+520000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/02/2022
+572000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/03/2022
+624000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/04/2022
+676000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/05/2022
+728000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/06/2022
+780000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/07/2022
+832000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/08/2022
+884000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/09/2022
+936000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/10/2022
+988000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/11/2022
+1040000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/12/2022
+1092000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/01/2023
+1144000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/02/2023
+1196000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/03/2023
+1248000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/04/2023
+1300000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/05/2023
+1352000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/06/2023
+1404000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/07/2023
+1456000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/08/2023
+1508000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/09/2023
+1560000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/10/2023
+1612000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/11/2023
+1664000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/12/2023
+1716000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/01/2024
+1768000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/02/2024
+1820000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/03/2024
+1872000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/04/2024
+1924000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/05/2024
+1976000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/06/2024
+2028000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/07/2024
+2080000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/08/2024
+2132000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/09/2024
+2184000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/10/2024
+2236000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/11/2024
+2288000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/12/2024
+2340000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/01/2025
+2392000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/02/2025
+2444000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/03/2025
+2496000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,04/04/2025
+2548000,16,United Kingdom,London,35058 Washington Crossing,Schimmel-Gerlach,Large,04/05/2021,03/05/2025,48,37,100,520,52000,03/05/2025
+21500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/07/2021
+43000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/08/2021
+64500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/09/2021
+86000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/10/2021
+107500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/11/2021
+129000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/12/2021
+150500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/01/2022
+172000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/02/2022
+193500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/03/2022
+215000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/04/2022
+236500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/05/2022
+258000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/06/2022
+279500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/07/2022
+301000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/08/2022
+322500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/09/2022
+344000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/10/2022
+365500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/11/2022
+387000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/12/2022
+408500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/01/2023
+430000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/02/2023
+451500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/03/2023
+473000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/04/2023
+494500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/05/2023
+516000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/06/2023
+537500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/07/2023
+559000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/08/2023
+580500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/09/2023
+602000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/10/2023
+623500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/11/2023
+645000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/12/2023
+666500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/01/2024
+688000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/02/2024
+709500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/03/2024
+731000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/04/2024
+752500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/05/2024
+774000,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,22/06/2024
+795500,17,United Kingdom,Manchester,18 Hudson Street,Stokes-Auer,Medium,22/07/2021,21/07/2024,36,27,50,430,21500,21/07/2024
+21500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/05/2021
+43000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/06/2021
+64500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/07/2021
+86000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/08/2021
+107500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/09/2021
+129000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/10/2021
+150500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/11/2021
+172000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/12/2021
+193500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/01/2022
+215000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/02/2022
+236500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/03/2022
+258000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/04/2022
+279500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/05/2022
+301000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/06/2022
+322500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/07/2022
+344000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/08/2022
+365500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/09/2022
+387000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/10/2022
+408500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/11/2022
+430000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/12/2022
+451500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/01/2023
+473000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/02/2023
+494500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/03/2023
+516000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/04/2023
+537500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/05/2023
+559000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/06/2023
+580500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/07/2023
+602000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/08/2023
+623500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/09/2023
+645000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/10/2023
+666500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/11/2023
+688000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/12/2023
+709500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/01/2024
+731000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/02/2024
+752500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/03/2024
+774000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/04/2024
+795500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/05/2024
+817000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/06/2024
+838500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/07/2024
+860000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/08/2024
+881500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/09/2024
+903000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/10/2024
+924500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/11/2024
+946000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/12/2024
+967500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/01/2025
+989000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/02/2025
+1010500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/03/2025
+1032000,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,06/04/2025
+1053500,12,United Kingdom,Manchester,6939 Glendale Point,"Yost, Bogan and Smith",Medium,06/05/2021,05/05/2025,48,37,50,430,21500,05/05/2025
+8600,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/09/2021
+17200,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/10/2021
+25800,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/11/2021
+34400,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/12/2021
+43000,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/01/2022
+51600,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/02/2022
+60200,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/03/2022
+68800,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/04/2022
+77400,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/05/2022
+86000,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/06/2022
+94600,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/07/2022
+103200,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/08/2022
+111800,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/09/2022
+120400,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/10/2022
+129000,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/11/2022
+137600,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/12/2022
+146200,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/01/2023
+154800,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/02/2023
+163400,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/03/2023
+172000,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/04/2023
+180600,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/05/2023
+189200,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/06/2023
+197800,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/07/2023
+206400,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,08/08/2023
+215000,11,United Kingdom,Manchester,63246 Thackeray Crossing,"Maggio, Halvorson and Morissette",Small,08/09/2021,07/09/2023,24,17,20,430,8600,07/09/2023
+26000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/01/2021
+52000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/02/2021
+78000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/03/2021
+104000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/04/2021
+130000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/05/2021
+156000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/06/2021
+182000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/07/2021
+208000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/08/2021
+234000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/09/2021
+260000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/10/2021
+286000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/11/2021
+312000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/12/2021
+338000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/01/2022
+364000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/02/2022
+390000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/03/2022
+416000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/04/2022
+442000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/05/2022
+468000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/06/2022
+494000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/07/2022
+520000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/08/2022
+546000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/09/2022
+572000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/10/2022
+598000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/11/2022
+624000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/12/2022
+650000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/01/2023
+676000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/02/2023
+702000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/03/2023
+728000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/04/2023
+754000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/05/2023
+780000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/06/2023
+806000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/07/2023
+832000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/08/2023
+858000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/09/2023
+884000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/10/2023
+910000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/11/2023
+936000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/12/2023
+962000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/01/2024
+988000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/02/2024
+1014000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/03/2024
+1040000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/04/2024
+1066000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/05/2024
+1092000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/06/2024
+1118000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/07/2024
+1144000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/08/2024
+1170000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/09/2024
+1196000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/10/2024
+1222000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/11/2024
+1248000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,09/12/2024
+1274000,1,United Kingdom,London,22487 Ridgeway Pass,"McLaughlin, Rutherford and Rohan",Medium,09/01/2021,08/01/2025,48,33,50,520,26000,08/01/2025
+10400,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/08/2021
+20800,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/09/2021
+31200,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/10/2021
+41600,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/11/2021
+52000,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/12/2021
+62400,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/01/2022
+72800,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/02/2022
+83200,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/03/2022
+93600,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/04/2022
+104000,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/05/2022
+114400,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/06/2022
+124800,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/07/2022
+135200,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/08/2022
+145600,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/09/2022
+156000,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/10/2022
+166400,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/11/2022
+176800,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/12/2022
+187200,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/01/2023
+197600,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/02/2023
+208000,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/03/2023
+218400,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/04/2023
+228800,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/05/2023
+239200,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/06/2023
+249600,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,23/07/2023
+260000,9,United Kingdom,London,25492 Brown Pass,Bergnaum-Parisian,Small,23/08/2021,22/08/2023,24,16,20,520,10400,22/08/2023
+43000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/12/2021
+86000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/01/2022
+129000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/02/2022
+172000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/03/2022
+215000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/04/2022
+258000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/05/2022
+301000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/06/2022
+344000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/07/2022
+387000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/08/2022
+430000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/09/2022
+473000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/10/2022
+516000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/11/2022
+559000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/12/2022
+602000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/01/2023
+645000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/02/2023
+688000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/03/2023
+731000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/04/2023
+774000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/05/2023
+817000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/06/2023
+860000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/07/2023
+903000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/08/2023
+946000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/09/2023
+989000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/10/2023
+1032000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/11/2023
+1075000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/12/2023
+1118000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/01/2024
+1161000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/02/2024
+1204000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/03/2024
+1247000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/04/2024
+1290000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/05/2024
+1333000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/06/2024
+1376000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/07/2024
+1419000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/08/2024
+1462000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/09/2024
+1505000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/10/2024
+1548000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,14/11/2024
+1591000,7,United Kingdom,Manchester,5364 Blaine Court,Emmerich-Tillman,Large,14/12/2021,13/12/2024,36,32,100,430,43000,13/12/2024
+8000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/10/2021
+16000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/11/2021
+24000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/12/2021
+32000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/01/2022
+40000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/02/2022
+48000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/03/2022
+56000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/04/2022
+64000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/05/2022
+72000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/06/2022
+80000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/07/2022
+88000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/08/2022
+96000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/09/2022
+104000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/10/2022
+112000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/11/2022
+120000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/12/2022
+128000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/01/2023
+136000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/02/2023
+144000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/03/2023
+152000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/04/2023
+160000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/05/2023
+168000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/06/2023
+176000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/07/2023
+184000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/08/2023
+192000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/09/2023
+200000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/10/2023
+208000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/11/2023
+216000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/12/2023
+224000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/01/2024
+232000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/02/2024
+240000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/03/2024
+248000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/04/2024
+256000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/05/2024
+264000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/06/2024
+272000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/07/2024
+280000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/08/2024
+288000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,24/09/2024
+296000,5,United Kingdom,Liverpool,83179 Debra Pass,Hilll-Trantow,Small,24/10/2021,23/10/2024,36,30,20,400,8000,23/10/2024
