@@ -31,6 +31,7 @@
 |12|Gender Pay Gap|[📋](https://preppindata.blogspot.com/2022/03/2022-week-12-gender-pay-gap.html)|[✅](2022/preppin-data-2022-12/README.md)|
 |13|Pareto Parameters|[📋](https://preppindata.blogspot.com/2022/03/2022-week-13-pareto-parameters.html)|[✅](2022/preppin-data-2022-13/README.md)|
 |14|House of Games Winners|[📋](https://preppindata.blogspot.com/2022/04/2022-week-14-house-of-games-winners.html)|[✅](2022/preppin-data-2022-14/README.md)|
+|15|Property Management|[📋](https://preppindata.blogspot.com/2022/04/2022-week-15-property-management.html)|[✅](2022/preppin-data-2022-15/README.md)|
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
@@ -594,6 +595,7 @@
       <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -643,6 +645,7 @@
       <span title="The Prep School - Travel Plans"><a href="2022/preppin-data-2022-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -809,6 +812,7 @@
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -890,6 +894,7 @@
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -936,6 +941,7 @@
       <span title="Southend Stats"><a href="2021/preppin-data-2021-41/README.md">W41</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Charity Fundraising"><a href="2021/preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="On yer bike!"><a href="2021/preppin-data-2021-44/README.md">W44</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -974,6 +980,7 @@
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1126,6 +1133,7 @@
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1340,6 +1348,7 @@
       <span title="Departmental December - Human Resources"><a href="2021/preppin-data-2021-49/README.md">W49</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1411,6 +1420,7 @@
       <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1585,12 +1595,13 @@ Function (recursive)
     <td></td>
     <td>
 
-list methods (```sort```, ```reverse```, ```append```, etc.)
+list methods (```sort```, ```reverse```, ```append```, ```union```, etc.)
     </td>
     <td>
       <b>2021:</b>&nbsp;&nbsp;
       <span title="Excelling in Prep"><a href="2021/preppin-data-2021-31/README.md">W31</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Excelling with lookups"><a href="2021/preppin-data-2021-34/README.md">W34</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1643,6 +1654,7 @@ list/dict comprehension
       <span title="Departmental December - IT"><a href="2021/preppin-data-2021-51/README.md">W51</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1735,6 +1747,7 @@ user input
       <span title="Is that the case?"><a href="2021/preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
 
@@ -1767,6 +1780,7 @@ Cumulative aggregation(```cumcount```, ```cumsum```, etc.)
       <span title="Departmental December - Sales"><a href="2021/preppin-data-2021-50/README.md">W50</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span> 
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1881,6 +1895,7 @@ Named Aggregation
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1907,6 +1922,7 @@ Date Calculations
       <b>2022:</b>&nbsp;
       <span title="The Prep School - Parental Contact Details"><a href="2022/preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Prep School - Birthday Cakes"><a href="2022/preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1924,6 +1940,7 @@ Date Calculations
       <b>2021:</b>&nbsp;&nbsp;
       <span title="Re-looking at phone contract revenue"><a href="2021/preppin-data-2021-37/README.md">W37</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - Sales"><a href="2021/preppin-data-2021-50/README.md">W50</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1957,6 +1974,7 @@ Dateparts (```dt.month```, ```dt.quarter```, etc.)
       <span title="The Prep School - Parental Contact Details"><a href="2022/preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Prep School - Birthday Cakes"><a href="2022/preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1972,6 +1990,7 @@ Dateparts (```dt.month```, ```dt.quarter```, etc.)
       <span title="Re-looking at phone contract revenue"><a href="2021/preppin-data-2021-37/README.md">W37</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Charity Fundraising"><a href="2021/preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="On yer bike!"><a href="2021/preppin-data-2021-44/README.md">W44</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2071,6 +2090,19 @@ Dateparts (```dt.month```, ```dt.quarter```, etc.)
   </tr>
   
   <tr>
+    <td></td>
+    <td>
+
+```to_period```
+    </td>
+    <td>
+      <b>2022:</b>&nbsp;
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
+    </td>
+  </tr> 
+  
+  
+  <tr>
     <td>
       Pandas - File I/O
     </td>
@@ -2136,6 +2168,7 @@ Read Excel files
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2278,6 +2311,7 @@ Write multiple tabs to Excel file
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2340,6 +2374,7 @@ Write multiple tabs to Excel file
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span> 
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2550,6 +2585,7 @@ Write multiple tabs to Excel file
       <span title="Departmental December - Operations"><a href="2021/preppin-data-2021-52/README.md">W52</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3174,6 +3210,7 @@ aggregate functions (e.g. ```sum```, ```max```)
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
 </table>
