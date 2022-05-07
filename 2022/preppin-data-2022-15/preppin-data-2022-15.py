@@ -81,7 +81,7 @@ df['Cumulative Monthly Cost'] = df.groupby('ID')['Rent per Month'].transform('cu
 # Create a table that details total rent paid for completed years across all contracts and year to
 # date figures for the current year, which would update as time goes on
 df2 = df.assign(Year=lambda df_x: df_x['Month Divider'].dt.year,
-                value=lambda df_x: np.where(df_x['Month Divider'] <= CURRENT_DATE, 
+                value=lambda df_x: np.where(df_x['Month Divider'] < CURRENT_DATE, 
                                             df_x['Rent per Month'], np.NaN))\
         .groupby('Year', as_index=False)['value'].sum(min_count = 1)\
         .rename(columns={'value' : 'EoY and Current'})
