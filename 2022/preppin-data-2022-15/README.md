@@ -13,6 +13,7 @@ What I learned/practiced this week:
 * Practiced: aggregation
 
 ## Python
+<p align="left"><i>click the image to view the code</i></p>
 <a href="preppin-data-2022-15.py">
 <img src="img-python-code-2022-15.png?raw=true" alt="Python code">
 </a>
