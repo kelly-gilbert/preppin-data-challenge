@@ -10,6 +10,7 @@ What I learned/practiced this week:
 *
 
 ## Python
+<p align="left"><i>click the image to view the code</i></p>
 <a href="preppin-data-YYYY-WW.py">
 <img src="img-python-code-YYYY-WW.png?raw=true" alt="Python code">
 </a>
