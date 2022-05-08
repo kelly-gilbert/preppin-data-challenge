@@ -23,12 +23,14 @@ Author: Kelly Gilbert
 Created: 2022-04-14
 
 Requirements:
-  - input dataset:
+  - input datasets:
       - Office Space Prices.xlsx
       - Rental Contracts.xlsx
-  - output dataset (for results check only):
-      - 
+  - output datasets (for results check only):
+      - 2022W15 Output 1.csv
+      - 2022W15 Output2.csv
   - output_check module (for results check only)
+  
 """
 
 
