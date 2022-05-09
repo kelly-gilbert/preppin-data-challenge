@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Preppin' Data 2022: Week 16 - challenge title goes here
-https://preppindata.blogspot.com/ - challenge url goes here
+https://preppindata.blogspot.com/2022/04/2022-week-16-restaurant-orders.html
 
 - Input the data
 - Reshape the Orders table so that we have 3 columns:
