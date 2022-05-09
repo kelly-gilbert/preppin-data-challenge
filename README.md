@@ -1,6 +1,6 @@
 # Preppin' Data Challenge
 
-[Preppin' Data Challenge](https://preppindata.blogspot.com/) is a weekly data preparation challenge intended for Tableau Prep. I'm using the challenges to practice Python (primarily pandas).
+[Preppin' Data Challenge](https://preppindata.blogspot.com/) is a weekly data preparation challenge intended for Tableau Prep. I'm using the challenges to practice Python (primarily pandas) as well as Alteryx.
 <br>
 <br>
 
