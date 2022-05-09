@@ -2,15 +2,13 @@
 
 # Preppin' Data 2022 Week 16
 
-[Challenge description](https://preppindata.blogspot.com/)
+[Challenge description](https://preppindata.blogspot.com/2022/04/2022-week-16-restaurant-orders.html)
 
 What I learned/practiced this week:
-*
-*
-*
+* Practiced: reshaping data (melt, pivot_table)
+* Practiced: joining (merge)
 
 ## Python
-<p align="left"><i>click the image to view the code</i></p>
 <a href="preppin-data-2022-16.py">
 <img src="img-python-code-2022-16.png?raw=true" alt="Python code">
 </a>
