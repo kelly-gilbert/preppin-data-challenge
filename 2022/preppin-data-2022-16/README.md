@@ -4,6 +4,8 @@
 
 [Challenge description](https://preppindata.blogspot.com/2022/04/2022-week-16-restaurant-orders.html)
 
+[Alteryx video walkthrough](https://www.youtube.com/watch?v=Mz8g-pBhY8g&t=0)
+
 What I learned/practiced this week:
 * Practiced: reshaping data (melt, pivot_table)
 * Practiced: joining (merge)
