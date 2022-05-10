@@ -15,24 +15,24 @@
 ## Challenges
 
 ### <a id="2022"></a>2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
-|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My Solutions|
-|-:|:--------------------------------------------------|:-:|:-:|
-|1|The Prep School - Parental Contact Details|[📋](https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html)|[✅](2022/preppin-data-2022-01/README.md)|
-|2|The Prep School - Birthday Cakes|[📋](https://preppindata.blogspot.com/2022/01/2022-week-2-prep-school-birthday-cakes.html)|[✅](2022/preppin-data-2022-02/README.md)|
-|3|The Prep School - Passing Grades|[📋](https://preppindata.blogspot.com/2022/01/2022-week-3-prep-school-passing-grades.html)|[✅](2022/preppin-data-2022-03/README.md)|
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My Solutions|Video<br>Walkthroughs|
+|-:|:--------------------------------------------------|:-:|:-:|:-:|
+|1|The Prep School - Parental Contact Details|[📋](https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html)|[✅](2022/preppin-data-2022-01/README.md)||
+|2|The Prep School - Birthday Cakes|[📋](https://preppindata.blogspot.com/2022/01/2022-week-2-prep-school-birthday-cakes.html)|[✅](2022/preppin-data-2022-02/README.md)||
+|3|The Prep School - Passing Grades|[📋](https://preppindata.blogspot.com/2022/01/2022-week-3-prep-school-passing-grades.html)|[✅](2022/preppin-data-2022-03/README.md)||
 |4|The Prep School - Travel Plans|[📋](https://preppindata.blogspot.com/2022/01/2022-week-4-prep-school-travel-plans.html)|[✅](2022/preppin-data-2022-04/README.md)|
-|5|The Prep School - Setting Grades|[📋](https://preppindata.blogspot.com/2022/02/2022-week-5-prep-school-setting-grades.html)|[✅](2022/preppin-data-2022-05/README.md)|
-|6|7 Letter Scrabble Words|[📋](https://preppindata.blogspot.com/2022/02/2022-week-6-7-letter-scrabble-words.html)|[✅](2022/preppin-data-2022-06/README.md)|
-|7|Call Centre Agent Metrics|[📋](https://preppindata.blogspot.com/2022/02/2022-week-7-call-center-agent-metrics.html)|[✅](2022/preppin-data-2022-07/README.md)|
-|8|Pokemon Evolution Stats|[📋](https://preppindata.blogspot.com/2022/02/2022-week-8-pokemon-evolution-stats.html)|[✅](2022/preppin-data-2022-08/README.md)|
-|9|Customer Classifications|[📋](https://preppindata.blogspot.com/2022/03/2022-week-9-customer-classifications.html)|[✅](2022/preppin-data-2022-09/README.md)|
-|10|The Bechdel test|[📋](https://preppindata.blogspot.com/2022/03/2022-week-10-bechdel-test.html)|[✅](2022/preppin-data-2022-10/README.md)|
-|11|The Prep School - Filling the Blanks|[📋](https://preppindata.blogspot.com/2022/03/2022-week-11-prep-school-filling-blanks.html)|[✅](2022/preppin-data-2022-11/README.md)|
-|12|Gender Pay Gap|[📋](https://preppindata.blogspot.com/2022/03/2022-week-12-gender-pay-gap.html)|[✅](2022/preppin-data-2022-12/README.md)|
-|13|Pareto Parameters|[📋](https://preppindata.blogspot.com/2022/03/2022-week-13-pareto-parameters.html)|[✅](2022/preppin-data-2022-13/README.md)|
-|14|House of Games Winners|[📋](https://preppindata.blogspot.com/2022/04/2022-week-14-house-of-games-winners.html)|[✅](2022/preppin-data-2022-14/README.md)|
-|15|Property Management|[📋](https://preppindata.blogspot.com/2022/04/2022-week-15-property-management.html)|[✅](2022/preppin-data-2022-15/README.md)|
-|16|Restaurant Orders|[📋](https://preppindata.blogspot.com/2022/04/2022-week-16-restaurant-orders.html)|[✅](2022/preppin-data-2022-16/README.md)|
+|5|The Prep School - Setting Grades|[📋](https://preppindata.blogspot.com/2022/02/2022-week-5-prep-school-setting-grades.html)|[✅](2022/preppin-data-2022-05/README.md)||
+|6|7 Letter Scrabble Words|[📋](https://preppindata.blogspot.com/2022/02/2022-week-6-7-letter-scrabble-words.html)|[✅](2022/preppin-data-2022-06/README.md)||
+|7|Call Centre Agent Metrics|[📋](https://preppindata.blogspot.com/2022/02/2022-week-7-call-center-agent-metrics.html)|[✅](2022/preppin-data-2022-07/README.md)||
+|8|Pokemon Evolution Stats|[📋](https://preppindata.blogspot.com/2022/02/2022-week-8-pokemon-evolution-stats.html)|[✅](2022/preppin-data-2022-08/README.md)||
+|9|Customer Classifications|[📋](https://preppindata.blogspot.com/2022/03/2022-week-9-customer-classifications.html)|[✅](2022/preppin-data-2022-09/README.md)||
+|10|The Bechdel test|[📋](https://preppindata.blogspot.com/2022/03/2022-week-10-bechdel-test.html)|[✅](2022/preppin-data-2022-10/README.md)||
+|11|The Prep School - Filling the Blanks|[📋](https://preppindata.blogspot.com/2022/03/2022-week-11-prep-school-filling-blanks.html)|[✅](2022/preppin-data-2022-11/README.md)||
+|12|Gender Pay Gap|[📋](https://preppindata.blogspot.com/2022/03/2022-week-12-gender-pay-gap.html)|[✅](2022/preppin-data-2022-12/README.md)||
+|13|Pareto Parameters|[📋](https://preppindata.blogspot.com/2022/03/2022-week-13-pareto-parameters.html)|[✅](2022/preppin-data-2022-13/README.md)||
+|14|House of Games Winners|[📋](https://preppindata.blogspot.com/2022/04/2022-week-14-house-of-games-winners.html)|[✅](2022/preppin-data-2022-14/README.md)||
+|15|Property Management|[📋](https://preppindata.blogspot.com/2022/04/2022-week-15-property-management.html)|[✅](2022/preppin-data-2022-15/README.md)||
+|16|Restaurant Orders|[📋](https://preppindata.blogspot.com/2022/04/2022-week-16-restaurant-orders.html)|[✅](2022/preppin-data-2022-16/README.md)|[📺](https://www.youtube.com/watch?v=Mz8g-pBhY8g&t=0)|
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
