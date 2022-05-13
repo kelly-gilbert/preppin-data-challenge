@@ -10,11 +10,15 @@ What I learned/practiced this week:
 * Practiced: conditional calculations (numpy where)
 
 ## Python
+<i>click the image to view the code</i><br>
+<br>
 <a href="preppin-data-2022-17.py">
 <img src="img-python-code-2022-17.png?raw=true" alt="Python code">
 </a>
 
 ## Alteryx
+<i>click the image to download the workflow</i><br>
+<br>
 <a href="preppin-data-2022-17.yxzp">
 <img src="img-alteryx-2022-17.png?raw=true" alt="Alteryx workflow">
 </a>
