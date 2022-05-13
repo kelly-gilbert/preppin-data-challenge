@@ -1,6 +1,6 @@
 <h6><a href="..\preppin-data-2022-15\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2022-17\README.md">Next Week  ▶</a></h6>
 
-# Preppin' Data 2022 Week 16
+# Preppin' Data 2022 Week 16 - Restaurant Orders
 
 [Challenge description](https://preppindata.blogspot.com/2022/04/2022-week-16-restaurant-orders.html)
 
