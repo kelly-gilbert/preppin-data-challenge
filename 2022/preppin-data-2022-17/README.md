@@ -2,15 +2,14 @@
 
 # Preppin' Data 2022 Week 17
 
-[Challenge description](https://preppindata.blogspot.com/)
+[Challenge description](https://preppindata.blogspot.com/2022/04/2022-week-17-price-of-streaming.html)
 
 What I learned/practiced this week:
-*
-*
-*
+* Learned: truncating a date to the beginning of the month
+* Practiced: aggregation (groupby and sum)
+* Practiced: conditional calculations (numpy where)
 
 ## Python
-<p align="left"><i>click the image to view the code</i></p>
 <a href="preppin-data-2022-17.py">
 <img src="img-python-code-2022-17.png?raw=true" alt="Python code">
 </a>
