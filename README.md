@@ -35,6 +35,7 @@
 |16|Restaurant Orders|[📋](https://preppindata.blogspot.com/2022/04/2022-week-16-restaurant-orders.html)|[✅](2022/preppin-data-2022-16/README.md)|[📺](https://www.youtube.com/watch?v=Mz8g-pBhY8g&t=0)|
 |17|The Price of Streaming|[📋](https://preppindata.blogspot.com/2022/04/2022-week-17-price-of-streaming.html)|[✅](2022/preppin-data-2022-17/README.md)||
 |18|Un-pivoting|[📋](https://preppindata.blogspot.com/2022/05/2022-week-18-un-pivoting.html)|[✅](2022/preppin-data-2022-18/README.md)||
+|19|C&BSCo Good Sales but Wrong Sizes|[📋](https://preppindata.blogspot.com/2022/05/2022-week-19-c-good-sales-but-wrong.html)|[✅](2022/preppin-data-2022-19/README.md)||
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
@@ -331,6 +332,8 @@
       <span title="Prep Air Project Details"><a href="2021/preppin-data-2021-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Answer Smash"><a href="2021/preppin-data-2021-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Bookshop Data Modelling"><a href="2021/preppin-data-2021-46/README.md">W46</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;&nbsp;
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -605,6 +608,7 @@
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -828,6 +832,7 @@
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -912,6 +917,7 @@
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1001,6 +1007,7 @@
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1159,6 +1166,7 @@
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1450,6 +1458,7 @@
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1783,6 +1792,7 @@ user input
       <b>2022:</b>&nbsp;
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
 
@@ -1857,6 +1867,7 @@ Named Aggregation
       <span title="The Prep School - Travel Plans"><a href="2022/preppin-data-2022-04/README.md">W04</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2219,6 +2230,7 @@ Read Excel files
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2364,6 +2376,7 @@ Write multiple tabs to Excel file
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2478,6 +2491,7 @@ Write multiple tabs to Excel file
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2932,6 +2946,7 @@ slicing a DataFrame
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3137,6 +3152,7 @@ Count matches
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
