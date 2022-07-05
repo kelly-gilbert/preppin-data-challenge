@@ -2,7 +2,7 @@
 
 # Preppin' Data 2022 Week 20 - TC22 Session Attendance
 
-[Challenge description](https://preppindata.blogspot.com/](https://preppindata.blogspot.com/2022/05/2022-week-20-tc22-session-attendance.html)
+[Challenge description](https://preppindata.blogspot.com/2022/05/2022-week-20-tc22-session-attendance.html)
 
 What I learned/practiced this week:
 * Practiced: lookups using a dictionary
