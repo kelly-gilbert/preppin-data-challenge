@@ -1,6 +1,6 @@
 <h6><a href="..\preppin-data-2022-18\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2022-20\README.md">Next Week  ▶</a></h6>
 
-# Preppin' Data 2022 Week 19
+# Preppin' Data 2022 Week 19 - C&BSCo Good Sales but Wrong Sizes
 
 [Challenge description](https://preppindata.blogspot.com/2022/05/2022-week-19-c-good-sales-but-wrong.html)
 
