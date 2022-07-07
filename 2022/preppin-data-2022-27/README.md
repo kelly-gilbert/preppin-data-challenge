@@ -1,8 +1,8 @@
 <h6><a href="..\preppin-data-2022-26\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2022-28\README.md">Next Week  ▶</a></h6>
 
-# Preppin' Data 2022 Week 27
+# Preppin' Data 2022 Week 27 - C&BSCo Clean and Aggregate
 
-[Challenge description](https://preppindata.blogspot.com/)
+[Challenge description](https://preppindata.blogspot.com/2022/07/2022-week-27-c-clean-and-aggregate.html)
 
 What I learned/practiced this week:
 * Practiced: parsing a string into columns with regex (extract)
@@ -15,12 +15,13 @@ I completed this challenge two ways: 1) split into separate branches based on pr
 <br>
 ## Python
 <i>click the image to view the code</i><br>
-<br>
 #### No split (how I'd normally accomplish this set of tasks)
 <a href="preppin-data-2022-27.py">
 <img src="img-python-code-2022-27-nosplit.png?raw=true" alt="Python code">
 </a>
 <br>
+<br>
+
 #### Split process on Product Type (as specified in the requirements)
 <a href="preppin-data-2022-27.py">
 <img src="img-python-code-2022-27-split.png?raw=true" alt="Python code">
@@ -28,12 +29,14 @@ I completed this challenge two ways: 1) split into separate branches based on pr
 
 ## Alteryx
 <i>click the image to download the workflow</i><br>
-<br>
 #### No split (how I'd normally accomplish this set of tasks)
 <a href="preppin-data-2022-27.yxzp">
 <img src="img-alteryx-2022-27-nosplit.png?raw=true" alt="Alteryx workflow">
-</a><br>
+</a>
+<br>
+<br>
+
 #### Split process on Product Type (as specified in the requirements)
-<a href="preppin-data-2022-27-split.yxzp">
-<img src="img-alteryx-2022-27.png?raw=true" alt="Alteryx workflow">
+<a href="preppin-data-2022-27.yxzp">
+<img src="img-alteryx-2022-27-split.png?raw=true" alt="Alteryx workflow">
 </a>
