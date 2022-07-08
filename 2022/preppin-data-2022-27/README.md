@@ -10,7 +10,13 @@ What I learned/practiced this week:
 * Practiced: f strings
 
 ## Note:
-I completed this challenge two ways: 1) split into separate branches based on product type (as specified in the challenge description), and 2) not split, which is the way I would normally solve for this.
+This week's requirements asked us to split the workflow into two branches (one for liquids and one for bars). However, the only difference was converting the units from L to mL on the liquid branch. In reality, I would probably keep this as a single path (especially in pandas), but, in the spirit of the challenge, I tried it both ways.
+<br>
+<br>
+In Alteryx, splitting the workflow with a Filter tool does slightly improve run time, because the mL to L conversion is only applied to part of the records. However, even after increasing the input dataset to ~1M records, the improvement was only about 0.4 sec (10%).
+<br>
+<br>
+In Python, the single workflow was ~0.6 sec faster (20% improvement) vs. splitting the dataframe on a larger input dataframe of ~1M records. In pandas, applying the mL to L conversion to the entire dataframe is reasonably efficient using numpy where.
 <br>
 <br>
 ## Python
@@ -22,21 +28,21 @@ I completed this challenge two ways: 1) split into separate branches based on pr
 <br>
 <br>
 
-#### Split process on Product Type (as specified in the requirements)
+#### Split on Product Type (as specified in the requirements)
 <a href="preppin-data-2022-27.py">
 <img src="img-python-code-2022-27-split.png?raw=true" alt="Python code">
 </a>
 
 ## Alteryx
 <i>click the image to download the workflow</i><br>
-#### No split (how I'd normally accomplish this set of tasks)
+#### No split
 <a href="preppin-data-2022-27.yxzp">
 <img src="img-alteryx-2022-27-nosplit.png?raw=true" alt="Alteryx workflow">
 </a>
 <br>
 <br>
 
-#### Split process on Product Type (as specified in the requirements)
+#### Split (as specified in the requirements)
 <a href="preppin-data-2022-27.yxzp">
 <img src="img-alteryx-2022-27-split.png?raw=true" alt="Alteryx workflow">
 </a>
