@@ -70,7 +70,6 @@ for t in df_out['Product Type'].unique():
     ( df_out[df_out['Product Type']==t]
           .drop(columns=['Product Type'])
           .to_csv(f'.\\outputs\\output-2022-27-{t}.csv', index=False)
-
     )
 
 
@@ -109,7 +108,7 @@ df = pd.read_csv(r".\inputs\Preppin' Summer 2022 - PD 2022 Wk 27 Input.csv",
 #---------------------------------------------------------------------------------------------------
 
 # separate out the Product Name field to form Product Type and Quantity
-df[['Product Type', 'Quantity', 'Unit']] = df['Product Name'].str.extract('(.+?) - (\d+)(.*)')
+df[['Product Type', 'Original Quantity', 'Unit']] = df['Product Name'].str.extract('(.+?) - (\d+)(.*)')
 
 
 # split the data based on product type
@@ -118,7 +117,8 @@ df_liquid = df.loc[df['Product Type']=='Liquid', df.columns]
 
 
 # for liquid, ensure every value is in milliliters
-df_liquid['Quantity'] =  df['Quantity'].astype(int) * where(df['Unit'] == 'L', 1000, 1)
+df_liquid['Quantity'] = ( df_liquid['Original Quantity'].astype(int) 
+                          * where(df_liquid['Unit'] == 'L', 1000, 1) )
 
 
 #---------------------------------------------------------------------------------------------------
