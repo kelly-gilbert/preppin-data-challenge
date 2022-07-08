@@ -89,27 +89,18 @@ df_liquid = df.loc[df['Product Type']=='Liquid', df.columns]
 df_liquid['Quantity'] =  df['Quantity'].astype(int) * where(df['Unit'] == 'L', 1000, 1)
 
 
-# sum sales and count orders by store, region, and quantity
-
-df_out = ( df.groupby(['Product Type', 'Store Name', 'Region', 'Quantity'], as_index=False)
-             .agg(Sale_Value=('Sale Value', 'sum'),
-                  Present_in_N_orders=('Order ID', 'nunique'))
-             .rename(columns=lambda x: x.replace('_', ' '))             
-         )
-
-
 #---------------------------------------------------------------------------------------------------
 # output the file (split path)
 #---------------------------------------------------------------------------------------------------
 
-for df in [df_bar, df_liquid]: 
+for df_x in [df_bar, df_liquid]: 
     product_type = df['Product Type'].max()
 
-    ( df.groupby(['Store Name', 'Region', 'Quantity'], as_index=False)
-        .agg(Sale_Value=('Sale Value', 'sum'),
-             Present_in_N_orders=('Order ID', 'nunique'))
-        .rename(columns=lambda x: x.replace('_', ' '))             
-        .to_csv(f'.\\outputs\\output-2022-27-{product_type}.csv', index=False)
+    ( df_x.groupby(['Store Name', 'Region', 'Quantity'], as_index=False)
+          .agg(Sale_Value=('Sale Value', 'sum'),
+               Present_in_N_orders=('Order ID', 'nunique'))
+          .rename(columns=lambda x: x.replace('_', ' '))             
+          .to_csv(f'.\\outputs\\output-2022-27-{product_type}.csv', index=False)
     )
 
 
