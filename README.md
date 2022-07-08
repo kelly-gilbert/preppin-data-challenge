@@ -37,6 +37,13 @@
 |18|Un-pivoting|[📋](https://preppindata.blogspot.com/2022/05/2022-week-18-un-pivoting.html)|[✅](2022/preppin-data-2022-18/README.md)||
 |19|C&BSCo Good Sales but Wrong Sizes|[📋](https://preppindata.blogspot.com/2022/05/2022-week-19-c-good-sales-but-wrong.html)|[✅](2022/preppin-data-2022-19/README.md)||
 |20|TC22 Session Attendance|[📋](https://preppindata.blogspot.com/2022/05/2022-week-20-tc22-session-attendance.html)|[✅](2022/preppin-data-2022-20/README.md)||
+|21|Multi-sheets of Madness|[📋](https://preppindata.blogspot.com/2022/05/2022-week-21-multi-sheets-of-madness.html)|[](2022/preppin-data-2022-21/README.md)||
+|22|Dungeons & Dragons: Critical Role|[📋](https://preppindata.blogspot.com/2022/06/2022-week-22-dungeons-dragons-critical.html)|[](2022/preppin-data-2022-22/README.md)||
+|23|PD x WOW Salesforce Opportunities|[📋](https://preppindata.blogspot.com/2022/06/2022-week-23-pd-x-wow-salesforce.html)|[](2022/preppin-data-2022-23/README.md)||
+|24|Longest Flights|[📋](https://preppindata.blogspot.com/2022/06/2022-week-24-longest-flights.html)|[](2022/preppin-data-2022-24/README.md)||
+|25|Housing Happy Hotel Guests|[📋](https://preppindata.blogspot.com/2022/06/2022-week-25-housing-happy-hotel-guests.html)|[](2022/preppin-data-2022-25/README.md)||
+|26|Making Spotify Data Spotless|[📋](https://preppindata.blogspot.com/2022/07/2022-week-26-solution.html)|[](2022/preppin-data-2022-26/README.md)||
+|27|C&BSCo Clean and Aggregate|[📋](https://preppindata.blogspot.com/2022/07/2022-week-27-c-clean-and-aggregate.html)|[✅](2022/preppin-data-2022-27/README.md)||
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
@@ -490,6 +497,8 @@
     </td>
   </tr>
   
+  
+  
   <tr>
     <td>
       Join
@@ -667,6 +676,8 @@
     </td>
   </tr>
   
+  
+  
   <tr>
     <td>
       Macro
@@ -697,6 +708,8 @@
       <span title="NBA Draft Lottery calculator"><a href="2021/preppin-data-2021-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+  
+  
   
   <tr>
     <td>
@@ -732,6 +745,7 @@
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -757,6 +771,8 @@
       <span title="Karaoke Data"><a href="2021/preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+  
+  
   
   <tr>
     <td>
@@ -838,6 +854,7 @@
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -924,6 +941,7 @@
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1173,6 +1191,7 @@
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1258,6 +1277,8 @@
     </td>
   </tr>
   
+  
+  
   <tr>
     <td>
       Reporting
@@ -1331,6 +1352,8 @@
       <span title="New Year, New Challenge"><a href="2021/preppin-data-2021-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+  
+  
   
   <tr>
     <td>
@@ -1466,6 +1489,7 @@
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1604,6 +1628,7 @@ Seaborn
       <b>2022:</b>&nbsp;
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1624,6 +1649,8 @@ Function
       <span title="Picture perfect"><a href="2021/preppin-data-2021-35/README.md">W35</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Charity Fundraising"><a href="2021/preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - IT"><a href="2021/preppin-data-2021-51/README.md">W51</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;&nbsp;
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1721,6 +1748,8 @@ Loops
       <span title="Excelling at adding one more row"><a href="2021/preppin-data-2021-33/README.md">W33</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Games Night Viz Collab"><a href="2021/preppin-data-2021-47/README.md">W47</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - IT"><a href="2021/preppin-data-2021-51/README.md">W51</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1878,6 +1907,7 @@ Named Aggregation
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2104,6 +2134,7 @@ Dateparts (```dt.month```, ```dt.quarter```, etc.)
       <b>2022:</b>&nbsp;
       <span title="The Prep School - Parental Contact Details"><a href="2022/preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Prep School - Birthday Cakes"><a href="2022/preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2506,6 +2537,7 @@ Write multiple tabs to Excel file
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2710,6 +2742,7 @@ Write multiple tabs to Excel file
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2833,6 +2866,7 @@ transpose ```T```
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2963,6 +2997,7 @@ slicing a DataFrame
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3317,6 +3352,7 @@ aggregate functions (e.g. ```sum```, ```max```)
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
 </table>
