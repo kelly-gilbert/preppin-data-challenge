@@ -32,6 +32,8 @@ import pandas as pd
 import output_check  # custom module for comparing output to the solution file
 
 
+# ---------- no split ----------
+
 #---------------------------------------------------------------------------------------------------
 # input the data
 #---------------------------------------------------------------------------------------------------
@@ -72,6 +74,36 @@ for t in df_out['Product Type'].unique():
     )
 
 
+
+
+
+
+# ---------- split path ----------
+    
+    
+#---------------------------------------------------------------------------------------------------
+# function (split path)
+#---------------------------------------------------------------------------------------------------
+
+def output_group(df_in, group_cols): 
+    product_type = df_in['Product Type'].max()
+
+    ( df_in.groupby(group_cols, as_index=False)
+           .agg(Sale_Value=('Sale Value', 'sum'),
+                Present_in_N_orders=('Order ID', 'nunique'))
+           .rename(columns=lambda x: x.replace('_', ' '))
+           .to_csv(f'.\\outputs\\output-2022-27-{product_type}.csv', index=False)
+    )
+
+
+#---------------------------------------------------------------------------------------------------
+# input the data
+#---------------------------------------------------------------------------------------------------
+
+df = pd.read_csv(r".\inputs\Preppin' Summer 2022 - PD 2022 Wk 27 Input.csv", 
+                 parse_dates=['Sale Date'], dayfirst=True)
+    
+
 #---------------------------------------------------------------------------------------------------
 # process the data (split path)
 #---------------------------------------------------------------------------------------------------
@@ -93,15 +125,12 @@ df_liquid['Quantity'] =  df['Quantity'].astype(int) * where(df['Unit'] == 'L', 1
 # output the file (split path)
 #---------------------------------------------------------------------------------------------------
 
-for df_x in [df_bar, df_liquid]: 
-    product_type = df['Product Type'].max()
+output_group(df_bar, ['Store Name', 'Region', 'Quantity'])
+output_group(df_liquid, ['Store Name', 'Region', 'Quantity'])
 
-    ( df_x.groupby(['Store Name', 'Region', 'Quantity'], as_index=False)
-          .agg(Sale_Value=('Sale Value', 'sum'),
-               Present_in_N_orders=('Order ID', 'nunique'))
-          .rename(columns=lambda x: x.replace('_', ' '))             
-          .to_csv(f'.\\outputs\\output-2022-27-{product_type}.csv', index=False)
-    )
+
+
+
 
 
 #---------------------------------------------------------------------------------------------------
