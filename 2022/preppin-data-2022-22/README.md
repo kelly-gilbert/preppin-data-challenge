@@ -19,6 +19,9 @@ What I learned/practiced this week:
 ## Alteryx
 <i>click the image to download the workflow</i><br>
 <br>
+NOTE: input and output files were not packaged with the workflow due to github file size restrictions.
+<br>
+<br>
 <a href="preppin-data-2022-22.yxzp">
 <img src="img-alteryx-2022-22.png?raw=true" alt="Alteryx workflow">
 </a>
