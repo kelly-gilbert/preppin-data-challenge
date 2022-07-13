@@ -23,12 +23,10 @@ What I learned/practiced this week:
 <img src="img-alteryx-2022-22.png?raw=true" alt="Alteryx workflow">
 </a><br>
 <br>
-<br>
-Chart:<br>
-<br>
+#### Chart workflow:
 <a href="preppin-data-2022-22.yxzp">
 <img src="img-alteryx-2022-22-chart-workflow.png?raw=true" alt="Alteryx workflow for creating the chart">
 </a><br>
-<br>
-<br>
+
+#### Chart recreated in Alteryx:
 <img src="img-alteryx-2022-22-chart-output.png?raw=true" alt="Chart recreated using Alteryx">
