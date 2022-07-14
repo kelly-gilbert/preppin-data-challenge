@@ -33,9 +33,10 @@ Requirements:
 """
 
 
+import matplotlib.pyplot as plt    # used for chart only
 from numpy import where
 import pandas as pd
-from output_check import output_check
+from output_check import output_check    # custom function for comparing my results to the solution
 
 
 #---------------------------------------------------------------------------------------------------
@@ -138,3 +139,63 @@ df_out = ( pd.merge_asof(df_dialogue.sort_values(by=['time_in_secs']),
 df_out = pd.merge_asof(df_dialogue, df_dialogue[['Episode', 'time_in_secs']], 
                        by='Episode', left_index=True, right_index=True, direction='forward',
                        allow_exact_matches=False)
+
+
+#---------------------------------------------------------------------------------------------------
+# chart
+#---------------------------------------------------------------------------------------------------
+
+MIN_DURATION = 15    # minimum visible duration
+
+
+# read in the output from this week's challenge and select one episode as an example
+# sort names descending
+chart_df = ( pd.read_csv(r'.\outputs\output-2022-22.csv', 
+                         usecols=['Episode', 'name', 'start_time', 'Duration'])
+               .query("Episode == 'C1E001'")
+               .sort_values(by='name', ascending=False)
+           )
+
+
+# increase small durations, so they'll be visible on the chart
+chart_df['Duration_adj'] = where(chart_df['Duration'] < MIN_DURATION, 
+                                 MIN_DURATION, 
+                                 chart_df['Duration'])
+
+
+# create the plot and axis - this facecolor controls the overall figure/margins
+fig, ax = plt.subplots(1, figsize=(10, 8), facecolor='black')  
+
+
+# set the facecolor for the axis (this controls the color within the plot area)
+ax.set_facecolor('black')
+
+
+# set the all of the tick labels to white and set the tick length to zero (hide ticks)
+ax.tick_params(axis='both', colors='white', length=0)
+
+
+# add the x axis label and make the font white, move the x axis to the top
+ax.set_xlabel('Start Time (Secs)')
+ax.xaxis.label.set_color('white')
+ax.xaxis.tick_top()
+ax.xaxis.set_label_position('top')
+
+
+# hide the spines (axis lines)
+for key, spine in ax.spines.items():
+    spine.set_visible(False)
+
+
+# add the text to the figure (x/y are relative to the bottom left corner and are % of figure,
+#     e.g. 1.1 = 110% of the figure height)
+fig.text(x=0, y=1.025, s='C R I T I C A L   R O L E', fontsize = 28, color='white', weight='bold')
+fig.text(x=0, y=0.99, s='P R E P P I N''   D A T A', fontsize = 14, color='white', weight='bold')
+fig.text(x=0.85, y=1.015, s=f"EPISODE\n{chart_df['Episode'].min()}", fontsize = 10, color='white', 
+         weight='bold')
+
+
+# add the barplot and show the figure
+ax.barh(y=chart_df['name'], width=chart_df['Duration_adj'], left=chart_df['start_time'], 
+        color=['#FFFFFF'])
+plt.show()
