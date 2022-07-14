@@ -191,8 +191,15 @@ for key, spine in ax.spines.items():
 #     e.g. 1.1 = 110% of the figure height)
 fig.text(x=0, y=1.025, s='C R I T I C A L   R O L E', fontsize = 28, color='white', weight='bold')
 fig.text(x=0, y=0.99, s='P R E P P I N''   D A T A', fontsize = 14, color='white', weight='bold')
-fig.text(x=0.85, y=1.015, s=f"EPISODE\n{chart_df['Episode'].min()}", fontsize = 10, color='white', 
+fig.text(x=0.85, y=1.015, s=f"EPISODE\n{chart_df['Episode'].min()}", fontsize = 11, color='white', 
          weight='bold')
+
+# footers
+fig.text(x=0, y=0.1, s='DESIGN: Christina Gorga | @StyleSTEAMed', fontsize = 9, color='white', 
+         weight='bold')
+fig.text(x=0.92, y=0.1, s='A #GamesNightViz + #DataFamCon Collab | June 2022 DND Month', 
+         fontsize = 9, color='white', weight='bold', horizontalalignment='right')
+
 
 
 # add the barplot and show the figure
