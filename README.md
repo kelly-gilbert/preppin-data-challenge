@@ -38,12 +38,13 @@
 |19|C&BSCo Good Sales but Wrong Sizes|[📋](https://preppindata.blogspot.com/2022/05/2022-week-19-c-good-sales-but-wrong.html)|[✅](2022/preppin-data-2022-19/README.md)||
 |20|TC22 Session Attendance|[📋](https://preppindata.blogspot.com/2022/05/2022-week-20-tc22-session-attendance.html)|[✅](2022/preppin-data-2022-20/README.md)||
 |21|Multi-sheets of Madness|[📋](https://preppindata.blogspot.com/2022/05/2022-week-21-multi-sheets-of-madness.html)|[✅](2022/preppin-data-2022-21/README.md)||
-|22|Dungeons & Dragons: Critical Role|[📋](https://preppindata.blogspot.com/2022/06/2022-week-22-dungeons-dragons-critical.html)|[](2022/preppin-data-2022-22/README.md)||
+|22|Dungeons & Dragons: Critical Role|[📋](https://preppindata.blogspot.com/2022/06/2022-week-22-dungeons-dragons-critical.html)|[✅](2022/preppin-data-2022-22/README.md)||
 |23|PD x WOW Salesforce Opportunities|[📋](https://preppindata.blogspot.com/2022/06/2022-week-23-pd-x-wow-salesforce.html)|[](2022/preppin-data-2022-23/README.md)||
 |24|Longest Flights|[📋](https://preppindata.blogspot.com/2022/06/2022-week-24-longest-flights.html)|[](2022/preppin-data-2022-24/README.md)||
 |25|Housing Happy Hotel Guests|[📋](https://preppindata.blogspot.com/2022/06/2022-week-25-housing-happy-hotel-guests.html)|[](2022/preppin-data-2022-25/README.md)||
 |26|Making Spotify Data Spotless|[📋](https://preppindata.blogspot.com/2022/07/2022-week-26-solution.html)|[](2022/preppin-data-2022-26/README.md)||
 |27|C&BSCo Clean and Aggregate|[📋](https://preppindata.blogspot.com/2022/07/2022-week-27-c-clean-and-aggregate.html)|[✅](2022/preppin-data-2022-27/README.md)||
+|28|No sales today|[📋](https://preppindata.blogspot.com/2022/07/2022-week-28-c-no-sales-today.html)|[✅](2022/preppin-data-2022-28/README.md)||
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
