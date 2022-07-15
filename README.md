@@ -1585,6 +1585,8 @@
     <td><b>Weeks Used</b></td>
   </tr>
   
+  
+  
   <tr>
     <td>
       Charts
@@ -1608,6 +1610,8 @@ matplotlib
     <td>
       <b>2021:</b>&nbsp;&nbsp;
       <span title="Games Night Viz Collab"><a href="2021/preppin-data-2021-47/README.md">W47</a>&nbsp;&nbsp;&nbsp;</span>
+	  <b>2022:</b>&nbsp;&nbsp;
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1623,6 +1627,8 @@ Seaborn
       <span title="Malspanes Tourism"><a href="2021/preppin-data-2021-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+  
+  
   
   <tr>
     <td>
@@ -1663,6 +1669,7 @@ Seaborn
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1765,6 +1772,7 @@ list/dict comprehension
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1783,6 +1791,7 @@ Loops
       <span title="Games Night Viz Collab"><a href="2021/preppin-data-2021-47/README.md">W47</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - IT"><a href="2021/preppin-data-2021-51/README.md">W51</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
@@ -1817,6 +1826,19 @@ Mapping values with dictionary
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>
+
+sets
+    </td>
+    <td>
+      <b>2022:</b>&nbsp;&nbsp;
+      <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1866,8 +1888,11 @@ user input
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+
+
 
   <tr>
     <td>
@@ -2021,6 +2046,8 @@ Named Aggregation
     </td>
   </tr>
   
+  
+  
   <tr>
     <td>
       Pandas - Dates
@@ -2113,6 +2140,8 @@ Dateparts (```dt.month```, ```dt.quarter```, etc.)
       <span title="Charity Fundraising"><a href="2021/preppin-data-2021-42/README.md">W42</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="On yer bike!"><a href="2021/preppin-data-2021-44/README.md">W44</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
+	  <b>2022:</b>&nbsp;&nbsp;
+	  <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2169,6 +2198,7 @@ Dateparts (```dt.month```, ```dt.quarter```, etc.)
       <span title="The Prep School - Parental Contact Details"><a href="2022/preppin-data-2022-01/README.md">W01</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Prep School - Birthday Cakes"><a href="2022/preppin-data-2022-02/README.md">W02</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2236,6 +2266,8 @@ working with timezones (tz_localize, etc.)
     </td>
   </tr>   
  
+  
+  
   
   <tr>
     <td>
@@ -2307,7 +2339,8 @@ Read Excel files
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
-      <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2329,6 +2362,7 @@ Read Excel files (dynamic sheets)
       <span title="Departmental December - Sales"><a href="2021/preppin-data-2021-50/README.md">W50</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="Call Centre Agent Metrics"><a href="2022/preppin-data-2022-07/README.md">W07</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2347,6 +2381,8 @@ Write multiple tabs to Excel file
       <span title="It's Coming Rome"><a href="2021/preppin-data-2021-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+  
+  
   
   <tr>
     <td>
@@ -2392,6 +2428,7 @@ Write multiple tabs to Excel file
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2468,8 +2505,12 @@ Write multiple tabs to Excel file
     <td>
       <b>2021:</b>&nbsp;&nbsp;
       <span title="Karaoke Data"><a href="2021/preppin-data-2021-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
+	  <b>2022:</b>&nbsp;&nbsp;
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+  
+  
   
   <tr>
     <td>
@@ -2521,6 +2562,8 @@ Write multiple tabs to Excel file
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2571,7 +2614,10 @@ Write multiple tabs to Excel file
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2694,8 +2740,11 @@ Write multiple tabs to Excel file
       <span title="The Prep School - Filling the Blanks"><a href="2022/preppin-data-2022-11/README.md">W11</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span> 
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+  
+  
   
   <tr>
     <td>
@@ -2736,6 +2785,7 @@ Write multiple tabs to Excel file
       <b>2022:</b>&nbsp;
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2816,6 +2866,7 @@ Write multiple tabs to Excel file
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2840,6 +2891,7 @@ Write multiple tabs to Excel file
       <span title="On yer bike!"><a href="2021/preppin-data-2021-44/README.md">W44</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2900,6 +2952,7 @@ transpose ```T```
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
@@ -2921,6 +2974,7 @@ transpose ```T```
       <span title="Spread the Knowledge for TC!"><a href="2021/preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2943,6 +2997,7 @@ transpose ```T```
       <b>2022:</b>&nbsp;
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2973,6 +3028,8 @@ transpose ```T```
       <span title="Pokemon Evolution Stats"><a href="2022/preppin-data-2022-08/README.md">W08</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Customer Classifications"><a href="2022/preppin-data-2022-09/README.md">W09</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3035,6 +3092,8 @@ slicing a DataFrame
     </td>
   </tr>
   
+  
+  
   <tr>
     <td>
       Rounding
@@ -3088,6 +3147,9 @@ Round Half Up
     </td>
   </tr>
   
+  
+  
+  
   <tr>
     <td>
       String Functions
@@ -3132,6 +3194,8 @@ Changing case (```upper```, ```lower```, ```title```, etc.)
       <span title="It's Coming Rome"><a href="2021/preppin-data-2021-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="PD x WOW - Tokyo 2020 Calendar"><a href="2021/preppin-data-2021-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - Finance"><a href="2021/preppin-data-2021-48/README.md">W48</a>&nbsp;&nbsp;&nbsp;</span>
+      <b>2022:</b>&nbsp;&nbsp;	  
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3240,6 +3304,8 @@ Count matches
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3266,6 +3332,7 @@ Count matches
       <span title="Spread the Knowledge for TC!"><a href="2021/preppin-data-2021-45/README.md">W45</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3288,6 +3355,7 @@ String slicing
       <span title="What's trendy?"><a href="2021/preppin-data-2021-36/README.md">W36</a>&nbsp;&nbsp;&nbsp;</span>
       <b>2022:</b>&nbsp;
       <span title="House of Games Winners"><a href="2022/preppin-data-2022-14/README.md">W14</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3311,8 +3379,12 @@ String slicing
       <span title="Is that the case?"><a href="2021/preppin-data-2021-43/README.md">W43</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Bookshop Data Modelling"><a href="2021/preppin-data-2021-46/README.md">W46</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Departmental December - Operations"><a href="2021/preppin-data-2021-52/README.md">W52</a>&nbsp;&nbsp;&nbsp;</span>
+	  <b>2022:</b>&nbsp;&nbsp;
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
+  
+  
   
   <tr>
     <td>
@@ -3386,6 +3458,8 @@ aggregate functions (e.g. ```sum```, ```max```)
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
