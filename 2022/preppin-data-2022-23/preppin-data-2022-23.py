@@ -42,37 +42,37 @@ from output_check import output_check    # custom function for comparing my resu
 # input the data
 #---------------------------------------------------------------------------------------------------
 
-df = pd.read_csv(r'.\inputs\Opportunity.csv', parse_dates=['CreatedDate', 'CloseDate'], dayfirst=True)
-df_hist = pd.read_csv(r'.\inputs\Opportunity History.csv', parse_dates=['CreatedDate'], dayfirst=True)
+df = pd.read_csv(r'.\inputs\Opportunity.csv')
+df_hist = pd.read_csv(r'.\inputs\Opportunity History.csv')
 
 
 #---------------------------------------------------------------------------------------------------
 # process the data
 #---------------------------------------------------------------------------------------------------
 
+COLUMN_RENAMES = {'CreatedDate' : 'Date',
+                  'CloseDate' : 'Date',
+                  'Id' : 'OppID',
+                  'StageName' : 'Stage'}
+
 # stack the open dates, expected close dates, and history
 df_out = pd.concat([df[['Id', 'CreatedDate']]
                         .assign(Stage='Opened', 
-                                SortOrder=0),
+                                SortOrder=0)
+                        .rename(columns=COLUMN_RENAMES),
                     df[~df['StageName'].str.contains('Closed')][['Id', 'CloseDate']]
                         .assign(Stage='ExpectedCloseDate',
-                                SortOrder=11),
-                    df_hist.rename(columns={'StageName' : 'Stage'})])
-
-
-# combine the date
-df_out['Date'] = where(df_out['CreatedDate'].notna(), df_out['CreatedDate'], df_out['CloseDate'])
-
-
-# combine the IDs
-df_out['OppID'] = where(df_out['OppID'].notna(), df_out['OppID'], df_out['Id'])
+                                SortOrder=11)
+                        .rename(columns=COLUMN_RENAMES),
+                    df_hist.rename(columns=COLUMN_RENAMES)]
+                  )
 
 
 #---------------------------------------------------------------------------------------------------
 # output the file
 #---------------------------------------------------------------------------------------------------
 
-df_out.to_csv(r'.\outputs\output-2022-23.csv', index=False, date_format='%d/%m/%Y', 
+df_out.to_csv(r'.\outputs\output-2022-23.csv', index=False, 
               columns=['OppID', 'Date', 'Stage', 'SortOrder'])
 
 
@@ -176,26 +176,24 @@ df_out['SortOrder'] = where(df_out['SortOrder'].notna(),
 
 
 
-# option 3 - assign in chain, manage dates/ID separately
-# 799 ms ± 25.2 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+# final (option 1, tidied up by using a common dictionary for the renames)
+# 716 ms ± 15.1 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
 # original df x 5000 (1.1 M recs)
- 
+
 %%timeit 
-# stack the open dates, expected close dates, and history
+COLUMN_RENAMES = {'CreatedDate' : 'Date',
+                  'CloseDate' : 'Date',
+                  'Id' : 'OppID',
+                  'StageName' : 'Stage'}
+
 df_out = pd.concat([df[['Id', 'CreatedDate']]
                         .assign(Stage='Opened', 
-                                SortOrder=0),
+                                SortOrder=0)
+                        .rename(columns=COLUMN_RENAMES),
                     df[~df['StageName'].str.contains('Closed')][['Id', 'CloseDate']]
                         .assign(Stage='ExpectedCloseDate',
-                                SortOrder=11),
-                    df_hist.rename(columns={'StageName' : 'Stage'})])
-
-
-# combine the date
-df_out['Date'] = where(df_out['CreatedDate'].notna(), df_out['CreatedDate'], df_out['CloseDate'])
-
-
-# combine the IDs
-df_out['OppID'] = where(df_out['OppID'].notna(), df_out['OppID'], df_out['Id'])
-
+                                SortOrder=11)
+                        .rename(columns=COLUMN_RENAMES),
+                    df_hist.rename(columns=COLUMN_RENAMES)]
+                  )
 
