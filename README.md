@@ -39,7 +39,7 @@
 |20|TC22 Session Attendance|[📋](https://preppindata.blogspot.com/2022/05/2022-week-20-tc22-session-attendance.html)|[✅](2022/preppin-data-2022-20/README.md)||
 |21|Multi-sheets of Madness|[📋](https://preppindata.blogspot.com/2022/05/2022-week-21-multi-sheets-of-madness.html)|[✅](2022/preppin-data-2022-21/README.md)||
 |22|Dungeons & Dragons: Critical Role|[📋](https://preppindata.blogspot.com/2022/06/2022-week-22-dungeons-dragons-critical.html)|[✅](2022/preppin-data-2022-22/README.md)||
-|23|PD x WOW Salesforce Opportunities|[📋](https://preppindata.blogspot.com/2022/06/2022-week-23-pd-x-wow-salesforce.html)|[](2022/preppin-data-2022-23/README.md)||
+|23|PD x WOW Salesforce Opportunities|[📋](https://preppindata.blogspot.com/2022/06/2022-week-23-pd-x-wow-salesforce.html)|[✅](2022/preppin-data-2022-23/README.md)||
 |24|Longest Flights|[📋](https://preppindata.blogspot.com/2022/06/2022-week-24-longest-flights.html)|[](2022/preppin-data-2022-24/README.md)||
 |25|Housing Happy Hotel Guests|[📋](https://preppindata.blogspot.com/2022/06/2022-week-25-housing-happy-hotel-guests.html)|[](2022/preppin-data-2022-25/README.md)||
 |26|Making Spotify Data Spotless|[📋](https://preppindata.blogspot.com/2022/07/2022-week-26-solution.html)|[](2022/preppin-data-2022-26/README.md)||
@@ -680,6 +680,7 @@
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -864,6 +865,7 @@
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
@@ -953,6 +955,7 @@
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
@@ -1214,6 +1217,7 @@
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
@@ -1826,7 +1830,8 @@ Mapping values with dictionary
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
-	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
 
@@ -2428,7 +2433,8 @@ Write multiple tabs to Excel file
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Gender Pay Gap"><a href="2022/preppin-data-2022-12/README.md">W12</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
-	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2562,8 +2568,9 @@ Write multiple tabs to Excel file
       <span title="Property Management"><a href="2022/preppin-data-2022-15/README.md">W15</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
-	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
-	  <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3088,6 +3095,7 @@ slicing a DataFrame
       <span title="Pareto Parameters"><a href="2022/preppin-data-2022-13/README.md">W13</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
