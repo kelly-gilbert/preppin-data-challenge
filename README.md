@@ -45,6 +45,7 @@
 |26|Making Spotify Data Spotless|[📋](https://preppindata.blogspot.com/2022/07/2022-week-26-solution.html)|[](2022/preppin-data-2022-26/README.md)||
 |27|C&BSCo Clean and Aggregate|[📋](https://preppindata.blogspot.com/2022/07/2022-week-27-c-clean-and-aggregate.html)|[✅](2022/preppin-data-2022-27/README.md)||
 |28|No sales today|[📋](https://preppindata.blogspot.com/2022/07/2022-week-28-c-no-sales-today.html)|[✅](2022/preppin-data-2022-28/README.md)||
+|29|C&BSco Meeting Targets?|[📋](https://preppindata.blogspot.com/2022/07/2022-week-29-c-meeting-targets.html)|[✅](2022/preppin-data-2022-29/README.md)||
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
@@ -627,7 +628,8 @@
       <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
-    </td>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
+      </td>
   </tr>
   
   <tr>
@@ -958,6 +960,7 @@
       <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1219,6 +1222,7 @@
       <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1527,6 +1531,7 @@
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="No sales today"><a href="2022/preppin-data-2022-28/README.md">W28</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -1570,6 +1575,7 @@
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
 </table>
@@ -2499,6 +2505,7 @@ Write multiple tabs to Excel file
       <span title="The Price of Streaming"><a href="2022/preppin-data-2022-17/README.md">W17</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Good Sales but Wrong Sizes"><a href="2022/preppin-data-2022-19/README.md">W19</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2571,6 +2578,7 @@ Write multiple tabs to Excel file
       <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Dungeons & Dragons: Critical Role"><a href="2022/preppin-data-2022-22/README.md">W22</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="PD x WOW Salesforce Opportunities"><a href="2022/preppin-data-2022-23/README.md">W23</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2834,6 +2842,7 @@ Write multiple tabs to Excel file
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="C&BSCo Clean and Aggregate"><a href="2022/preppin-data-2022-27/README.md">W27</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -2874,6 +2883,7 @@ Write multiple tabs to Excel file
       <span title="Restaurant Orders"><a href="2022/preppin-data-2022-16/README.md">W16</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="Un-pivoting"><a href="2022/preppin-data-2022-18/README.md">W18</a>&nbsp;&nbsp;&nbsp;</span>
 	  <span title="Multi-sheets of Madness"><a href="2022/preppin-data-2022-21/README.md">W21</a>&nbsp;&nbsp;&nbsp;</span>
+	  <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
@@ -3182,6 +3192,7 @@ Changing case (```upper```, ```lower```, ```title```, etc.)
       <span title="7 Letter Scrabble Words"><a href="2022/preppin-data-2022-06/README.md">W06</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="The Bechdel test"><a href="2022/preppin-data-2022-10/README.md">W10</a>&nbsp;&nbsp;&nbsp;</span>
       <span title="TC22 Session Attendance"><a href="2022/preppin-data-2022-20/README.md">W20</a>&nbsp;&nbsp;&nbsp;</span>
+      <span title="C&BSco Meeting Targets?"><a href="2022/preppin-data-2022-29/README.md">W29</a>&nbsp;&nbsp;&nbsp;</span>
     </td>
   </tr>
   
