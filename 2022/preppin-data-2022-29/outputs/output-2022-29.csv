@@ -1,0 +1,13 @@
+Store Name,Region,PRODUCT,Sale Value,Target,Beats Target?
+Chelsea,West,Bar,29245.81,25000,True
+Dulwich,East,Bar,30156.21,30000,True
+Lewisham,East,Bar,35685.63,35000,True
+Notting Hill,West,Bar,31222.56,30000,True
+Shoreditch,East,Bar,29491.32,30000,False
+Wimbledon,West,Bar,35562.65,35000,True
+Chelsea,West,Liquid,59640.50,60000,False
+Dulwich,East,Liquid,76457.58,75000,True
+Lewisham,East,Liquid,78734.58,75000,True
+Notting Hill,West,Liquid,67772.14,65000,True
+Shoreditch,East,Liquid,68881.38,70000,False
+Wimbledon,West,Liquid,72279.03,70000,True
