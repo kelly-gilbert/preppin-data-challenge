@@ -22,4 +22,11 @@ What I learned/practiced this week:
 <br>
 <a href="preppin-data-2022-24.yxzp">
 <img src="img-alteryx-2022-24.png?raw=true" alt="Alteryx workflow">
-</a>
+</a><br>
+<br>
+#### Performance comparison
+Knowing that regex functions can be slower than regular string functions, I tried replacing the Regex Parse + Multi-Field tools (to parse the distances and convert to numeric) with string formulas + ToNumber in the existing Formula tool. I duplicated the dataset 35,000 times for a test dataset of ~1.1M records.<br>
+<br>
+At 1.1M records, the non-regex alternative was a bit faster (~20% or 2.5 seconds). For this specific use case, I would favor the regex solution, because a few seconds is not likely to make a material difference, and (in my opinion) the regex version would be easier to maintain if the pattern changed in the future. However, with a very large dataset, it might make more sense to consider the non-regex solution.<br>
+<br>
+<img src="img-alteryx-2022-24-performance-compare.png?raw=true" alt="Alteryx workflow">
