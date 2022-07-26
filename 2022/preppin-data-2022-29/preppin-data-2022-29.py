@@ -19,7 +19,7 @@ https://preppindata.blogspot.com/2022/07/2022-week-29-c-meeting-targets.html
 - Output the results
 
 Author: Kelly Gilbert
-Created: 2022-MM-DD
+Created: 2022-07-22
 Requirements:
   - input datasets:
       - Preppin' Summer 2022 - PD 2022 Wk 27 Input.csv
@@ -30,39 +30,42 @@ Requirements:
 
 
 import pandas as pd
-from output_check import output_check    # custom function for comparing my results to the solution
+from output_check import output_check    # custom function to check my results against the solution
 
 
 #---------------------------------------------------------------------------------------------------
 # input the data
 #---------------------------------------------------------------------------------------------------
 
-# read in the sales data, extract the product type, sum sales by product type/store
+# read in the sales data, parse the product type, summarize by product/store
 df = ( pd.read_csv(r".\inputs\Preppin' Summer 2022 - PD 2022 Wk 27 Input.csv")
-         .assign(PRODUCT=lambda df_x: df_x['Product Name'].str.extract('(.*?) - .*'))
+         .assign(PRODUCT = lambda df_x: df_x['Product Name'].str.extract('(.*) - .*'))
          .groupby(['PRODUCT', 'Store Name', 'Region'], as_index=False)['Sale Value'].sum()
      )
 
-df_target = pd.read_csv(r".\inputs\Preppin' Summer 2022 - Targets (k's).csv")
+
+# read in the target data, melt store names into rows, multiply targets by 1000
+df_target = ( pd.read_csv(r".\inputs\Preppin' Summer 2022 - Targets (k's).csv")
+                .melt(id_vars='PRODUCT', var_name='Store Name', value_name="Sales Target (k's)")
+                .assign(Target = lambda df_x: df_x["Sales Target (k's)"] * 1000)
+                .drop(columns=["Sales Target (k's)"])
+            )
 
 
 #---------------------------------------------------------------------------------------------------
 # process the data
 #---------------------------------------------------------------------------------------------------
 
-# reshape and prep the Targets data
-df_target = df_target.melt(id_vars='PRODUCT', var_name='Store Name', value_name="Sales Target (k's)")
-
-df_target['Target'] = df_target["Sales Target (k's)"] * 1000
+# prep target data
 df_target['PRODUCT'] = df_target['PRODUCT'].str.title()
 df_target['Store Name'] = df_target['Store Name'].str.title()
 
 
-# join the datasets together
-df_out = df.merge(df_target, on=['PRODUCT', 'Store Name'], how='left')    
-   
+# merge the dataframes
+df_out = df.merge(df_target, on=['PRODUCT', 'Store Name'], how='left')  
 
-# calculate whether each product in each store beats the target
+
+# calculate whether or not sales beat target
 df_out['Beats Target?'] = df_out['Sale Value'] > df_out['Target']
 
 
@@ -70,8 +73,8 @@ df_out['Beats Target?'] = df_out['Sale Value'] > df_out['Target']
 # output the file
 #---------------------------------------------------------------------------------------------------
 
-df_out.to_csv(r'.\outputs\output-2022-29.csv', index=False, 
-              columns=['Beats Target?', 'Target', 'Store Name', 'Region', 'Sale Value', 'PRODUCT'])
+df_out.to_csv(r'.\outputs\output-2022-29.csv', index=False,
+               columns=['Beats Target?', 'Target', 'Store Name', 'Region', 'Sale Value', 'PRODUCT'])
 
 
 #---------------------------------------------------------------------------------------------------
