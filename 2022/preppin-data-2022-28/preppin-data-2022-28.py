@@ -65,7 +65,7 @@ with open(r'.\outputs\output-2022-28.csv', 'w') as f:
     f.write('Day of the Week,Number of Days\n')
     
     # write the data
-    [f.write(f'{day_names[k]},{v}\n') for k,v in weekday_counts.items()]
+    [f.write(f'{k},{v}\n') for k,v in weekday_counts.items()]
 
 
 #---------------------------------------------------------------------------------------------------
