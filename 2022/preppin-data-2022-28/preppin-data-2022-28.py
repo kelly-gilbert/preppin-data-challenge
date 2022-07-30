@@ -48,7 +48,9 @@ dates_wo_sales = list(set(pd.date_range(start=df['Sale Date'].min(),
                       - set(df['Sale Date'].unique()))
 
 # count by weekday
-weekdays = [datetime64(d, 'D').astype(datetime).weekday() for d in dates_wo_sales]
+day_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+weekdays = [day_names[datetime64(d, 'D').astype(datetime).weekday()] for d in dates_wo_sales]
 weekday_counts = Counter(weekdays)
 
 
@@ -121,20 +123,23 @@ dates_wo_sales = list(set(pd.date_range(start=df['Sale Date'].min(), end=df['Sal
 #---------------------------------------------------------------------------------------------------
 
 # method 1a: list comprehension and counter, weekday lookup
-# 4,000 recs = 1.3 ms ± 8.58 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
-# 1M res =     18.8 ms ± 1.68 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+# 4,000 recs = 1.35 ms ± 79.3 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+# 1M res =     15.5 ms ± 993 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
 
 %%timeit 
 dates_wo_sales = list(set(pd.date_range(start=df['Sale Date'].min(), end=df['Sale Date'].max(), freq='1D').values)
                       - set(df['Sale Date'].unique()))
 
-weekdays = [datetime64(d, 'D').astype(datetime).isoweekday() for d in dates_wo_sales]
+
+day_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', '8']
+
+weekdays = [day_names[datetime64(d, 'D').astype(datetime).weekday()] for d in dates_wo_sales]
 weekday_counts = Counter()
 
 
 # method 2: read into dataframe + value_counts
-# 4,000 recs = 3.69 ms ± 140 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
-# 1M recs =    21.2 ms ± 998 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
+# 4,000 recs = 2.95 ms ± 66.1 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+# 1M recs =    18 ms ± 1.19 ms per loop (mean ± std. dev. of 7 runs, 100 loops each)
 
 %%timeit 
 dates_wo_sales = list(set(pd.date_range(start=df['Sale Date'].min(), end=df['Sale Date'].max(), freq='1D').values)
@@ -149,8 +154,8 @@ weekday_counts = ( df_nosales['Day of the Week'].value_counts()
 
 
 # method 3: read into dataframe + groupby
-# 4,000 recs = 7.11 ms ± 1.18 ms per loop (mean ± std. dev. of 7 runs, 100 loops each)
-# 1M recs    = 25 ms ± 1.91 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+# 4,000 recs = 5.53 ms ± 280 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+# 1M recs    = 20.4 ms ± 1.99 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
 
 %%timeit 
 dates_wo_sales = list(set(pd.date_range(start=df['Sale Date'].min(), end=df['Sale Date'].max(), freq='1D').values)
