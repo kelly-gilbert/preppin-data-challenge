@@ -22,35 +22,88 @@ Requirements:
 """
 
 
-from collections import Counter
-from datetime import datetime
-from numpy import datetime64
 import pandas as pd
-from output_check import output_check    # custom function to check my results vs. solution
+from output_check import output_check
 
+
+# ---------- pandas method -------------------------------------------------------------------------
 
 #---------------------------------------------------------------------------------------------------
 # input the data
 #---------------------------------------------------------------------------------------------------
 
-df = pd.read_csv(r".\inputs\Preppin' Summer 2022 - PD 2022 Wk 27 Input.csv", 
-                 parse_dates=['Sale Date'], dayfirst=True)
+df_sales = pd.read_csv(r".\inputs\Preppin' Summer 2022 - PD 2022 Wk 27 Input.csv", 
+                       parse_dates=['Sale Date'], dayfirst=True, usecols=['Sale Date'])
 
 
 #---------------------------------------------------------------------------------------------------
 # process the data
 #---------------------------------------------------------------------------------------------------
 
-# get the dates without sales 
-dates_wo_sales = list(set(pd.date_range(start=df['Sale Date'].min(), 
-                                        end=df['Sale Date'].max(), 
-                                        freq='1D').values)
-                      - set(df['Sale Date'].unique()))
+# get a list of all possible dates
+df_all = pd.DataFrame({ 'date' : pd.date_range(start=df_sales['Sale Date'].min(), 
+                                               end=df_sales['Sale Date'].max(), freq='1D') })
 
-# count by weekday
-day_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-weekdays = [day_names[datetime64(d, 'D').astype(datetime).weekday()] for d in dates_wo_sales]
+# get dates that are in all dates, but not in sales
+mask = ~df_all['date'].isin(df_sales['Sale Date'].unique())
+df_missing = df_all.loc[mask, ['date']]
+
+
+# get weekday name
+df_missing['Day of the Week'] = df_missing['date'].dt.day_name()
+
+
+# get counts by day of the week
+df_out = ( df_missing['Day of the Week'].value_counts()
+                     .reset_index()
+                     .rename(columns={ 'Day of the Week' : 'Number of Days',
+                                      'index' : 'Day of the Week'})
+         )
+
+
+#---------------------------------------------------------------------------------------------------
+# output the file
+#---------------------------------------------------------------------------------------------------
+
+df_out.to_csv(r'.\outputs\output-2022-28.csv', index=False)
+
+
+
+
+
+# ---------- non-pandas method ---------------------------------------------------------------------
+
+from collections import Counter
+from datetime import datetime
+from numpy import datetime64
+
+
+#---------------------------------------------------------------------------------------------------
+# input the data
+#---------------------------------------------------------------------------------------------------
+
+df_sales = pd.read_csv(r".\inputs\Preppin' Summer 2022 - PD 2022 Wk 27 Input.csv", 
+                       parse_dates=['Sale Date'], dayfirst=True, usecols=['Sale Date'])
+
+
+#---------------------------------------------------------------------------------------------------
+# process the data
+#---------------------------------------------------------------------------------------------------
+
+# days without sales
+missing = list(set(pd.date_range(start=df_sales['Sale Date'].min(), 
+                                 end=df_sales['Sale Date'].max(), freq='1D').values)
+               -
+               set(df_sales['Sale Date'].unique())
+              )
+
+
+# get days of the week
+weekdays = [datetime64(d, 'D').astype(datetime).strftime('%A') for d in missing]
+
+
+# get count by day of week
 weekday_counts = Counter(weekdays)
 
 
@@ -58,14 +111,14 @@ weekday_counts = Counter(weekdays)
 # output the file
 #---------------------------------------------------------------------------------------------------
 
-day_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-
 with open(r'.\outputs\output-2022-28.csv', 'w') as f:
     # write the headings
-    f.write('Day of the Week,Number of Days\n')
-    
-    # write the data
+    f.write('Day of the Week,Number of Days\n')  
+
+    # write out the data
     [f.write(f'{k},{v}\n') for k,v in weekday_counts.items()]
+
+
 
 
 #---------------------------------------------------------------------------------------------------
@@ -80,6 +133,20 @@ round_dec = 8
 
 output_check(solution_files=solution_files, my_files=my_files, unique_cols=unique_cols, 
              col_order_matters=col_order_matters, round_dec=round_dec)
+
+
+
+
+#---------------------------------------------------------------------------------------------------
+# pandas method vs. sets method
+#---------------------------------------------------------------------------------------------------
+
+# pandas method:
+# 1M recs = 26.1 ms ± 5.37 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+
+# sets method: -- slightly faster
+# 1M recs = 19.1 ms ± 281 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+
 
 
 
@@ -108,7 +175,7 @@ dates_wo_sales = [d for d
                   if d not in df['Sale Date'].unique()]
 
 
-# method 3: sets
+# method 3: sets -- FASTEST
 # 4,000 recs = 1.19 ms ± 45.3 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each) -- FASTEST
 # 1M recs    = 17.2 ms ± 1.03 ms per loop (mean ± std. dev. of 7 runs, 100 loops each)
 
@@ -117,10 +184,22 @@ dates_wo_sales = list(set(pd.date_range(start=df['Sale Date'].min(), end=df['Sal
                       - set(df['Sale Date'].unique()))
 
 
+# method 4: merge
+# 4,000 recs = 7.12 ms ± 96.3 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+# 1M recs    = 214 ms ± 6.18 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+%%timeit 
+dates_wo_sales = ( df_all.merge(df_sales, left_on='date', right_on='Sale Date', 
+                              how='left', indicator=True)
+                         .query("_merge == 'left_only'") 
+                 )
+
+
 
 #---------------------------------------------------------------------------------------------------
 # options for getting the weekday counts
 #---------------------------------------------------------------------------------------------------
+
+# all times similar at 1M recs
 
 # method 1a: list comprehension and counter, weekday lookup
 # 4,000 recs = 1.35 ms ± 79.3 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
