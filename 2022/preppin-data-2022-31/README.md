@@ -2,7 +2,7 @@
 
 # Preppin' Data 2022 Week 31
 
-[Challenge description](https://preppindata.blogspot.com/)
+[Challenge description](https://preppindata.blogspot.com/2022/08/2022-week-31-c-preppin-parameters.html)
 
 What I learned/practiced this week:
 * Practiced: getting user input
@@ -24,13 +24,16 @@ What I learned/practiced this week:
 <img src="img-alteryx-2022-31-app1.png?raw=true" alt="Alteryx workflow for app #1">
 </a>
 <br>
+<br>
+
 #### App #2: get the user's input and create the output file
 <a href="preppin-data-2022-31.yxzp">
 <img src="img-alteryx-2022-31-app2.png?raw=true" alt="Alteryx workflow for app #2">
 </a>
 <br>
+<br>
+
 #### App interfaces:
 <img src="img-alteryx-2022-31-app1-interface.png?raw=true" alt="Alteryx interface for app #1">
-<br>
 <br>
 <img src="img-alteryx-2022-31-app2-interface.png?raw=true" alt="Alteryx interface for app #2">
