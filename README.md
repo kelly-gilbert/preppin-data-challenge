@@ -49,7 +49,7 @@
 |30|C&BSCo Actual Sales Values|[📋](https://preppindata.blogspot.com/2022/07/2022-week-30-c-actual-sales-values.html)|[✅](2022/preppin-data-2022-30/README.md)||
 |31|C&BSCo Preppin' Parameters|[📋](https://preppindata.blogspot.com/2022/08/2022-week-31-c-preppin-parameters.html)|[✅](2022/preppin-data-2022-31/README.md)||
 |32|C&BSCo Mortgage Repayments|[📋](https://preppindata.blogspot.com/2022/07/2022-week-32-c-mortgage-repayments.html)|[✅](2022/preppin-data-2022-32/README.md)||
-|33|C&BSCo Next Sale|[📋](https://preppindata.blogspot.com/2022/08/2022-week-33-c-next-sale.html)|[]()||
+|33|C&BSCo Next Sale|[📋](https://preppindata.blogspot.com/2022/08/2022-week-33-c-next-sale.html)|[✅](2022/preppin-data-2022-33/README.md)||
 |34|C&BSCo Parameters, Parameters, Parameters|[📋](https://preppindata.blogspot.com/2022/08/2022-week-34-c-parameters-parameters.html)|[]()||
 |35|C&BSCo Mortgage Repayments|[📋](https://preppindata.blogspot.com/2022/07/2022-week-32-c-mortgage-repayments.html)|[]()||
 <br>
