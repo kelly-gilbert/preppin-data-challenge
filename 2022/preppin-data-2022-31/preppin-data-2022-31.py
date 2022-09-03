@@ -78,7 +78,7 @@ store_list = sorted(df['Store Name'].unique())
 store_list_str = '\n  '.join([f'{i+1} - {n}' for i,n in enumerate(store_list)])
 
 while True:
-    input_num = input('Store list:\n  ' + store_list_str + '\n\n' 
+    input_num = input('\nStore list:\n  ' + store_list_str + '\n\n' 
                       + 'Please enter a number (or press Enter to quit): ')
     
     if input_num.isnumeric() and int(input_num) in range(1, len(store_list)+2):
