@@ -74,6 +74,7 @@ def input_and_prep_data(input_path):
     # split the unnamed column and change music type to title case
     df[['Coach', 'Calories', 'Music Type']] = df['Unnamed'].str.extract('(.*)\s+-\s+(\d+)\s+-\s+(.*)')
     df['Music Type'] = df['Music Type'].str.strip().str.title()
+    df['Calories'] = df['Calories'].astype(int)
     
     return df[['Coach', 'Calories', 'Music Type', 'Date', 'Mins']]
 
