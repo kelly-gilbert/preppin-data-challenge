@@ -19,19 +19,25 @@ What I learned/practiced this week:
 ## Alteryx
 <i>click the image to download the workflow</i><br>
 <br>
+
 #### App #1: prep the data and get options for the drop-down inputs
 <a href="preppin-data-2022-34.yxzp">
 <img src="img-alteryx-2022-34-workflow-app1.png?raw=true" alt="Alteryx workflow for app #1">
 </a>
 <br>
+
 #### App #2: get the user's input and create the output file
 <a href="preppin-data-2022-34.yxzp">
 <img src="img-alteryx-2022-34-workflow-app2.png?raw=true" alt="Alteryx workflow for app #2">
 </a>
 <br>
+
+## Interfaces
+
 #### App interface (Python):
 <img src="img-python-code-2022-34-interface.png?raw=true" alt="Python interface">
 <br>
+
 #### App interface (Alteryx):
 <img src="img-alteryx-2022-34-interface-app1.png?raw=true" alt="Alteryx interface for app #1">
 <br>
