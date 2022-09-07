@@ -50,8 +50,8 @@
 |31|C&BSCo Preppin' Parameters|[📋](https://preppindata.blogspot.com/2022/08/2022-week-31-c-preppin-parameters.html)|[✅](2022/preppin-data-2022-31/README.md)||
 |32|C&BSCo Mortgage Repayments|[📋](https://preppindata.blogspot.com/2022/07/2022-week-32-c-mortgage-repayments.html)|[✅](2022/preppin-data-2022-32/README.md)||
 |33|C&BSCo Next Sale|[📋](https://preppindata.blogspot.com/2022/08/2022-week-33-c-next-sale.html)|[✅](2022/preppin-data-2022-33/README.md)||
-|34|C&BSCo Parameters, Parameters, Parameters|[📋](https://preppindata.blogspot.com/2022/08/2022-week-34-c-parameters-parameters.html)|[]()||
-|35|C&BSCo Mortgage Repayments|[📋](https://preppindata.blogspot.com/2022/07/2022-week-32-c-mortgage-repayments.html)|[]()||
+|34|C&BSCo Parameters, Parameters, Parameters|[📋](https://preppindata.blogspot.com/2022/08/2022-week-34-c-parameters-parameters.html)|[✅](2022/preppin-data-2022-34/README.md)||
+|35|C&BSCo Summary Stats|[📋](https://preppindata.blogspot.com/2022/08/2022-week-35-c-summary-stats.html)|[✅](2022/preppin-data-2022-35/README.md)||
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
