@@ -10,8 +10,8 @@ What I learned/practiced this week:
 * Practiced: finding the row that contains the max value (idxmax)
 * Practiced: reshaping (melt and pivot_table)
 <br>
-<br>
 <b>NOTE:</b> my avg calories/min values differ from the official solution. The official solution finds the average calories/min for each ride, then returns the average of that number. However, I calculated the weighted average (sum calories) / (sum mins).
+<br>
 <br>
 
 ## Python
