@@ -1,6 +1,6 @@
 <h6><a href="..\preppin-data-2022-30\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2022-32\README.md">Next Week  ▶</a></h6>
 
-# Preppin' Data 2022 Week 31
+# Preppin' Data 2022 Week 31 - C&BSCo Preppin' Parameters
 
 [Challenge description](https://preppindata.blogspot.com/2022/08/2022-week-31-c-preppin-parameters.html)
 
