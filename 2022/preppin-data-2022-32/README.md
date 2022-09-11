@@ -1,6 +1,6 @@
 <h6><a href="..\preppin-data-2022-31\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2022-33\README.md">Next Week  ▶</a></h6>
 
-# Preppin' Data 2022 Week 32
+# Preppin' Data 2022 Week 32 - C&BSCo Mortgage Repayments
 
 [Challenge description](https://preppindata.blogspot.com/2022/07/2022-week-32-c-mortgage-repayments.html)
 
