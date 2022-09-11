@@ -223,6 +223,9 @@ df_all['scheduled'] = where(df_all['_merge']=='left_only', False, True)
 # this solution was actually slower (377 ms ± 28.2 ms per loop vs. pandas solution 
 # 144 ms ± 12.6 ms per loop) and less clean/easy to read
 
+# pandas solution = peak memory: 138.46 MiB, increment: 3.23 Mi
+# numpy solution = peak memory: 149.03 MiB, increment: 10.45 MiB
+
 
 from datetime import date
 from datetime import datetime
