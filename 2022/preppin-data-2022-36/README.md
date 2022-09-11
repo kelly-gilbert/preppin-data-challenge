@@ -8,6 +8,7 @@ What I learned/practiced this week:
 * Practiced: joining (merge)
 * Practiced: creating a range of dates (date_range)
 * Practiced: inserting a column at a specific location
+* Learned: adding # to a date specifier removes the leading zero (e.g. '%m/%d/%Y' --> '01/01/2022', but '%#m/%#d/%Y' --> 1/1/2022). # for Windows or - for Unix
 
 ## Python
 <i>click the image to view the code</i><br>

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Preppin' Data 2022: Week 36 - challenge title goes here
-https://preppindata.blogspot.com/ - challenge url goes here
+Preppin' Data 2022: Week 36 - Calendar Conundrum
+https://preppindata.blogspot.com/2022/09/2022-week-36-calendar-conundrum.html
 
 - Input the data
 - The main challenge is to solve this using only employee_data input
@@ -150,7 +150,7 @@ df_all = ( df[['scheduled_date', 'emp_id']].assign(scheduled=True)
          )
 
 
-# ---------- non-pandas approaches ----------
+# ---------- non-pandas merge approaches ----------
 
 # SLOW
 # method 4: itertools product + merge
@@ -213,3 +213,73 @@ df_all = ( pd.DataFrame(dates, columns=['scheduled_date'])
          )
 
 df_all['scheduled'] = where(df_all['_merge']=='left_only', False, True)
+
+
+
+# --------------------------------------------------------------------------------------------------
+# numpy solution
+# --------------------------------------------------------------------------------------------------
+
+# this solution was actually slower (377 ms ± 28.2 ms per loop vs. pandas solution 
+# 144 ms ± 12.6 ms per loop) and less clean/easy to read
+
+
+from datetime import date
+from datetime import datetime
+from datetime import timedelta
+from math import log10, pow
+import numpy as np
+
+
+# define the date converter function
+str_to_date = lambda x: datetime.strptime(x, '%m/%d/%Y').date()
+
+
+# read the file into a numpy array
+m = np.genfromtxt(r'.\inputs\employee_data.csv', encoding='utf-8-sig', delimiter=',', names=True, 
+                  converters={3 : str_to_date}, 
+                  dtype=[('emp_id','int8'),('first_name','U50'),('last_name','U50'),
+                         ('scheduled_date', 'object')])
+
+
+# create the range of possible dates
+min_date = date(np.min(m['scheduled_date']).year, 1, 1)
+max_date = date(np.max(m['scheduled_date']).year, 12, 31)
+date_list = np.arange(start=0, stop=((max_date - min_date).days + 1), step=1)
+
+
+# create arrays of all possible combos and actual employee/date combos
+multiplier = pow(10, np.ceil(log10(len(date_list))))
+
+emp_date = np.array(np.meshgrid(np.unique(m['emp_id']), date_list)).T.reshape(-1, 2) 
+all_combos = emp_date[:,0] * multiplier + emp_date[:,1]
+
+act_combos = m['emp_id'] * multiplier + (m['scheduled_date'] - min_date) // timedelta(days=1)
+
+
+# find the difference (adds that don't exist in actuals)
+missing_combos = np.setdiff1d(all_combos, act_combos, assume_unique=True)
+
+
+# generate the final output
+unique_employees = np.unique(m[['emp_id', 'first_name', 'last_name']])
+
+emp_ids = np.append(missing_combos // multiplier, act_combos // multiplier).astype('int8')
+
+scheduled_dates = ( np.append(missing_combos % multiplier, act_combos % multiplier) * timedelta(days=1) 
+                       + min_date )
+
+
+final = np.vstack(([d.strftime('%#m/%#d/%Y') for d in scheduled_dates],
+                   emp_ids,
+                   (unique_employees['first_name'][emp_ids-1].astype(object) + ' ' 
+                        + unique_employees['last_name'][emp_ids-1]).astype(str),
+                   unique_employees['first_name'][emp_ids-1],
+                   unique_employees['last_name'][emp_ids-1],
+                   np.append(np.full(len(missing_combos), False), np.full(len(act_combos), True))
+                 )).T
+
+
+# output to csv
+np.savetxt(r'.\outputs\output-2022-36.csv', final, delimiter = ",", fmt='%s', 
+           header='scheduled_date,emp_id,full_name,first_name,last_name,scheduled', comments='')
