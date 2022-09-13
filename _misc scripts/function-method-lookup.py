@@ -14,8 +14,19 @@ Created on Sun Sep 11 14:43:12 2022
 import glob
 import pandas as pd
 from numpy import nan, where
-import os
 import re
+
+
+# --------------------------------------------------------------------------------------------------
+# functions
+# --------------------------------------------------------------------------------------------------
+
+def make_snippet(string, start, end, margin=20):
+    """returns a snippet of string starting at start-margin and ending at end_margin"""
+    
+    return string[max(0, start-margin) : min(len(string), end+margin)]
+    
+
 
 
 # --------------------------------------------------------------------------------------------------
@@ -42,13 +53,16 @@ df_all = df.merge(df_regex, how='cross')
 
 
 # if the code string matches the regex, return a code snippet; otherwise nan
-df_all['code_snippet'] = [c[max(0, x.span()[0]-20) : min(len(c), x.span()[1]+ 20)] 
-                          if (x := re.search(r, c.lower())) != None else nan
+df_all['code_snippet'] = [make_snippet(c, *x.span(), margin=20) 
+                          if (x := re.search(r, c.lower())) != None 
+                          else nan
                           for c,r in zip(df_all['contents'], df_all['Regex'])]
+
+df_all = df_all.loc[df_all['code_snippet'].notna()]
 
 
 # output the matches for review
-( df_all[df_all['code_snippet'].notna()].sort_values(by=['Category', 'Function/Method/Concept'])
+( df_all.sort_values(by=['Category', 'Function/Method/Concept'])
       [['year', 'week', 'Category', 'Function/Method/Concept', 'code_snippet', 'May Overcount']]
       .to_csv(r'C:\Users\gilbe\projects\preppin-data-challenge\utilities\output.csv', index=False) )
 
@@ -62,20 +76,30 @@ df_regex[df_regex['May Undercount']==1][['Category', 'Function/Method/Concept', 
 
 
 
-
-
-
-
+# --------------------------------------------------------------------------------------------------
+# compare regex matches to manual matches
+# --------------------------------------------------------------------------------------------------
 
 # parse actual weeks
-df_all = ( df.merge(df_regex, how='cross')
-             .assign(year_week=lambda df_x: df_x['Weeks Used'].replace(':', '').str.split('\s+'))
-             .explode('year_week')
-             .assign(year=lambda df_x: pd.Series(where(~df_x['year_week'].str.contains('W'),
-                                             df_x['year_week'], nan)).ffill(),
+df_weeks = ( df_regex.assign(year_week=lambda df_x: df_x['Weeks Used'].replace(':', '').str.split('\s+'))
+               .explode('year_week')
+               .assign(year=lambda df_x: pd.Series(where(~df_x['year_week'].str.contains('W'),
+                                                         df_x['year_week'], nan))
+                                                       .ffill()
+                                                       .str.replace(':', '', regex=False)
+                                                       .astype(int),
                      week=lambda df_x: where(df_x['year_week'].str.startswith('W'),
-                                             df_x['year_week'].str.replace('W', ''),0).astype(int))
-         )
+                                             df_x['year_week'].str.replace('W', '', True),0)
+                                          .astype(int))
+               .drop(columns=['year_week', 'Weeks Used', 'Regex', 'May Overcount', 'May Undercount'])
+               .query('week != 0')
+           )
+
+df_compare = ( df_all[['Category', 'Function/Method/Concept', 'year', 'week']]
+                  .merge(df_weeks, on=['year', 'week'], how='outer', indicator=True)
+             )
+
+
 
 
 # --------------------------------------------------------------------------------------------------
