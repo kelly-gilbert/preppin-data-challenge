@@ -1,0 +1,3843 @@
+year,week,Category,Function/Method/Concept,code_snippet,May Overcount
+2020.0,9.0,Charts,Bokeh,"-------------------
+
+from bokeh.io import output_file
+from bokeh.layouts ",
+2021.0,1.0,Charts,Seaborn," DataFrame, read_csv
+import seaborn as sns
+
+
+# connect and loa",
+2021.0,2.0,Charts,Seaborn,"-------------------
+
+import seaborn as sns
+
+
+sns.set_style('wh",
+2021.0,12.0,Charts,Seaborn,"me
+
+# for the charts
+import seaborn as sns
+from matplotlib imp",
+2021.0,12.0,Charts,matplotlib,"mport seaborn as sns
+from matplotlib import pyplot as plt
+
+
+#----------------",
+2021.0,47.0,Charts,matplotlib,"  - output.csv
+""""""
+
+
+import matplotlib.pyplot as plt
+import matplotlib.p",
+2022.0,22.0,Charts,matplotlib,"W22 Output.csv
+""""""
+
+
+import matplotlib.pyplot as plt    # used for chart only
+from numpy import w",
+2020.0,4.0,Other,Function,"delta, to_datetime
+
+
+def age(begin, end):
+    """"""
+    calcula",
+2020.0,11.0,Other,Function,"-------------------
+
+def get_box_sizes(order_sizes, size_list):
+    """"""
+    Returns",
+2020.0,12.0,Other,Function,"ort datetime as dt
+
+
+def year_week_nbr(date_in):
+    """"""
+    mimic t",
+2021.0,8.0,Other,Function,"as import read_csv
+
+
+def convert_id(customer_id):
+    """"""convert long",
+2021.0,9.0,Other,Function,"as import read_csv
+
+
+def round_half_up(n, decimals=0):
+    """""" 
+    use ro",
+2021.0,10.0,Other,Function,"as import read_csv
+
+
+def get_evolution_group(p_name):
+    """"""
+    given a",
+2021.0,34.0,Other,Function," merge, read_excel
+
+
+def stack_dict(in_dict):
+    """"""
+    stack a",
+2021.0,35.0,Other,Function," merge, read_excel
+
+
+def parse_sizes(s):
+    """"""
+    parses ",
+2021.0,42.0,Other,Function,"necessary (up to 9)
+
+def apply_format(s):
+    """"""
+    formats",
+2021.0,51.0,Other,Function,"as import read_csv
+
+
+def print_errors(df_in, message):
+    if len(df_in) >",
+2022.0,27.0,Other,Function,"-------------------
+
+def output_group(df_in, group_cols): 
+    product_type = ",
+2022.0,31.0,Other,Function,"-------------------
+
+def output_data(df, store_name):
+    """"""
+    Prep da",
+2022.0,34.0,Other,Function,"-------------------
+
+def get_user_input(value_name, value_list):
+    """"""
+    present",
+2022.0,35.0,Other,Function,"-------------------
+
+def to_float(in_str):
+    """"""
+    if in_s",
+2020.0,4.0,Other,Function (recursive),"delta, to_datetime
+
+
+def age(begin, end):
+    """"""
+    calcula",1.0
+2020.0,11.0,Other,Function (recursive),"-------------------
+
+def get_box_sizes(order_sizes, size_list):
+    """"""
+    Returns",1.0
+2020.0,12.0,Other,Function (recursive),"ort datetime as dt
+
+
+def year_week_nbr(date_in):
+    """"""
+    mimic t",1.0
+2021.0,8.0,Other,Function (recursive),"as import read_csv
+
+
+def convert_id(customer_id):
+    """"""convert long",1.0
+2021.0,9.0,Other,Function (recursive),"as import read_csv
+
+
+def round_half_up(n, decimals=0):
+    """""" 
+    use ro",1.0
+2021.0,10.0,Other,Function (recursive),"as import read_csv
+
+
+def get_evolution_group(p_name):
+    """"""
+    given a",1.0
+2021.0,34.0,Other,Function (recursive)," merge, read_excel
+
+
+def stack_dict(in_dict):
+    """"""
+    stack a",1.0
+2021.0,35.0,Other,Function (recursive)," merge, read_excel
+
+
+def parse_sizes(s):
+    """"""
+    parses ",1.0
+2021.0,42.0,Other,Function (recursive),"necessary (up to 9)
+
+def apply_format(s):
+    """"""
+    formats",1.0
+2021.0,51.0,Other,Function (recursive),"as import read_csv
+
+
+def print_errors(df_in, message):
+    if len(df_in) >",1.0
+2022.0,27.0,Other,Function (recursive),"-------------------
+
+def output_group(df_in, group_cols): 
+    product_type = ",1.0
+2022.0,31.0,Other,Function (recursive),"-------------------
+
+def output_data(df, store_name):
+    """"""
+    Prep da",1.0
+2022.0,34.0,Other,Function (recursive),"-------------------
+
+def get_user_input(value_name, value_list):
+    """"""
+    present",1.0
+2022.0,35.0,Other,Function (recursive),"-------------------
+
+def to_float(in_str):
+    """"""
+    if in_s",1.0
+2019.0,4.0,Other,Loops,"nd value is separate
+for c in [c for c in df.",
+2019.0,25.0,Other,Loops,"t Wednesday 2019-31.
+
+While it may have been eas",
+2020.0,1.0,Other,Loops,"el
+dfSubtotal = None
+for i in range(maxLevel,",
+2020.0,2.0,Other,Loops,"                   )
+                     for (t,p) in zip(df['tim",
+2020.0,3.0,Other,Loops,"lts' in s]
+df = None
+for sheet in result_shee",
+2020.0,4.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2020.0,8.0,Other,Loops,"ame(columns=renames)
+                           for s in xl.sheet_names ",
+2020.0,9.0,Other,Loops," {}
+circle_dict = {}
+for i, c in enumerate(ca",
+2020.0,10.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2020.0,11.0,Other,Loops,"t.sort(reverse=True)
+    
+    for i, s in enumerate(si",
+2021.0,2.0,Other,Loops,"rder_matters = False
+
+for i in range(len(solut",
+2021.0,3.0,Other,Loops,".xlsx')
+
+dfIn = None
+for sheet in xl.sheet_na",
+2021.0,4.0,Other,Loops,"rgets')
+
+dfIn = None
+for sheet in [s for s in",
+2021.0,5.0,Other,Loops,"rder_matters = False
+
+for i in range(len(solut",
+2021.0,6.0,Other,Loops,"rder_matters = False
+
+for i in range(len(solut",
+2021.0,7.0,Other,Loops,".isnumeric() else k 
+               for k in dfKeywordsIn.st",
+2021.0,8.0,Other,Loops,"rder_matters = False
+
+for i in range(len(solut",
+2021.0,9.0,Other,Loops,"rder_matters = False
+
+
+for i in range(len(solut",
+2021.0,10.0,Other,Loops,"=g) | (g==f) else g 
+                         for n,g,f in zip(df['Nam",
+2021.0,11.0,Other,Loops,"rder_matters = False
+
+
+for i in range(len(solut",
+2021.0,12.0,Other,Loops,"t we don't have data
+  for all countries in a c",
+2021.0,13.0,Other,Loops,"order_matters = True
+
+
+for i in range(len(solut",
+2021.0,15.0,Other,Loops,"rder_matters = False
+
+for i in range(len(solut",
+2021.0,16.0,Other,Loops,"rder_matters = False
+
+for i in range(len(solut",
+2021.0,17.0,Other,Loops,"rder_matters = False
+
+for i in range(len(solut",
+2021.0,18.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2021.0,19.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2021.0,20.0,Other,Loops,"eparate tab for each
+    for n in df_outliers['n'",
+2021.0,21.0,Other,Loops," Input.xlsx') as xl:
+    for s in xl.sheet_names:",
+2021.0,22.0,Other,Loops,"rtswith(n.lower())] 
+                 for s in smash['Answer S",
+2021.0,24.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2021.0,26.0,Other,Loops," for n in range(7)] 
+                         for d in df_dates['Date'",
+2021.0,27.0,Other,Loops,"ttery = []
+#pick = 0
+for pick in range(lotter",
+2021.0,28.0,Other,Loops,"alties.xlsx') as xl:
+    for s in xl.sheet_names:",
+2021.0,29.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2021.0,31.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2021.0,32.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2021.0,33.0,Other,Loops,"Orders.xlsx') as xl:
+    for s in xl.sheet_names:",
+2021.0,37.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2021.0,38.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2021.0,39.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2021.0,41.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2021.0,42.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2021.0,44.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2021.0,45.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2021.0,46.0,Other,Loops,"ataFrames
+    d = {}
+    for s in [s for s in xl.",
+2021.0,47.0,Other,Loops,"e subplot axes
+n = 1
+for player_name, player_",
+2021.0,48.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2021.0,49.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2021.0,50.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2021.0,51.0,Other,Loops,"order_matters = True
+
+
+for i, solution_file in ",
+2021.0,52.0,Other,Loops,"rder_matters = False
+
+for i, solution_file in ",
+2022.0,1.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2022.0,2.0,Other,Loops,"order_matters = True
+
+for i, solution_file in ",
+2022.0,3.0,Other,Loops,"= True
+round_dec = 8
+
+
+for i, solution_file in ",
+2022.0,4.0,Other,Loops," False
+round_dec = 8
+
+for i, solution_file in ",
+2022.0,5.0,Other,Loops," False
+round_dec = 8
+
+for i, solution_file in ",
+2022.0,6.0,Other,Loops,"False
+round_dec = 14
+
+for i, solution_file in ",
+2022.0,7.0,Other,Loops,"             else x)
+                           for s in xl.sheet_names]",
+2022.0,8.0,Other,Loops,"= True
+round_dec = 8
+
+for i, solution_file in ",
+2022.0,9.0,Other,Loops," False
+round_dec = 8
+
+for i, solution_file in ",
+2022.0,10.0,Other,Loops," False
+round_dec = 8
+
+for i, solution_file in ",
+2022.0,11.0,Other,Loops," False
+round_dec = 8
+
+for i, solution_file in ",
+2022.0,12.0,Other,Loops,"ar=int(f[-16:-12])) 
+                for f in listdir(IN_DIR)",
+2022.0,13.0,Other,Loops,"= True
+round_dec = 8
+
+for i, solution_file in ",
+2022.0,14.0,Other,Loops," False
+round_dec = 8
+
+for i, solution_file in ",
+2022.0,15.0,Other,Loops,"nths=1)).union([e]) 
+                               for s, e in zip(df_x['Co",
+2022.0,16.0,Other,Loops,"n c else f'{c}_Dish'
+                     for i, c in enumerate(df",
+2022.0,17.0,Other,Loops,"n each location and 
+      for each content_type
+- ",
+2022.0,21.0,Other,Loops,"    .assign(Shop=s) 
+                      for s in xl.sheet_names]",
+2022.0,22.0,Other,Loops," spines (axis lines)
+for key, spine in ax.spi",
+2022.0,27.0,Other,Loops,"--------------------
+
+for t in df_out['Product",
+2022.0,30.0,Other,Loops,"er than percentage) 
+  for each sales person
+  ",
+2022.0,31.0,Other,Loops,"merate(store_list)])
+
+while True:
+    input_num ",
+2022.0,32.0,Other,Loops,"teOffset(months=1)) 
+                                             for e in df['Last Month'",
+2022.0,34.0,Other,Loops,"merate(value_list)])
+    
+    while True:
+        user_i",
+2022.0,35.0,Other,Loops,"--------------------
+
+while True:
+    input_kph ",
+2022.0,36.0,Other,Loops,"p_id'] + (i//10)*20)
+                for i in range(0,(n//len",
+2020.0,4.0,Other,Mapping values with dictionary,ountry'].str.lower().replace(split_dict(country_dict)),1.0
+2020.0,7.0,Other,Mapping values with dictionary,"f_curr['Salary'].str.replace(r""[\D]"",'')  
+df_curr",1.0
+2020.0,9.0,Other,Mapping values with dictionary,"ype'] = df['Sample'].replace(sample_map, regex=True)
+
+
+",1.0
+2021.0,1.0,Other,Mapping values with dictionary," 'Road' }
+df['Bike'].replace(remap, inplace=True)
+
+# c",1.0
+2021.0,29.0,Other,Mapping values with dictionary,"\.', '').str.title().replace(sports_map)
+events['Sport ",1.0
+2021.0,30.0,Other,Mapping values with dictionary,"'From'] = df['From'].replace(floor_map).astype(int)
+df",1.0
+2021.0,34.0,Other,Mapping values with dictionary,"] = targets['Store'].replace(store_map_stack)
+
+missing",1.0
+2021.0,43.0,Other,Mapping values with dictionary,"g'] = df_a['Rating'].replace(risk_dict)
+
+
+# bring Bus",1.0
+2021.0,48.0,Other,Mapping values with dictionary,"'] * df_melt['unit'].replace(multiplier).fillna(1)
+
+# drop ",1.0
+2022.0,2.0,Other,Mapping values with dictionary,'].apply(lambda x: x.replace(year=datetime.now().year,1.0
+2022.0,4.0,Other,Mapping values with dictionary,"['Method of Travel'].replace(travel_method_renames)
+df[",1.0
+2022.0,5.0,Other,Mapping values with dictionary,"ints'] = df['Grade'].replace(grade_map)
+
+
+# determine ",1.0
+2022.0,10.0,Other,Mapping values with dictionary,"ovie'] = df['Movie'].replace(char_dict, regex=True)\
+",1.0
+2022.0,16.0,Other,Mapping values with dictionary,"        df_x['Dish'].replace(COURSES), NaN )).ffill())\
+",1.0
+2022.0,17.0,Other,Mapping values with dictionary,"_x: df_x['location'].replace(LOCATION_RENAMES))\
+        ",1.0
+2022.0,19.0,Other,Mapping values with dictionary,] = df_sales['Size'].replace(dict(zip(df_sizes['Size ,1.0
+2022.0,20.0,Other,Mapping values with dictionary,df_reg['Session ID'].replace(dict(zip(df_ses['Session,1.0
+2022.0,22.0,Other,Mapping values with dictionary,   df_out['Episode'].replace(dict(zip(df_eps['Episode,1.0
+2022.0,23.0,Other,Mapping values with dictionary,"     df_out['Stage'].replace({'Opened' : 0, 'Expec",1.0
+2022.0,30.0,Other,Mapping values with dictionary,"] = df_top3['Store'].replace({k:v for k,v in zip(d",1.0
+2022.0,33.0,Other,Mapping values with dictionary," df_sales['Product'].replace({k:v for k,v in zip(d",1.0
+2022.0,6.0,Other,decimal module,"ter output.csv
+""""""
+
+
+import decimal as d
+from numpy import w",
+2019.0,4.0,Other,f strings / format,"th('HI ')]:
+    df[[f'{c} - Player', f'{c} - Value']] = df[f'{c}'].str.extract('(.*?) (\d+)')
+
+
+# determine wheth",
+2020.0,3.0,Other,f strings / format,"d(3)
+df_summary['Conf'] = df_summary['Conf_W'].astype(str) + '-' + df_summary['Conf_L'].astype(str)
+df_summary['Home'] ",
+2020.0,5.0,Other,f strings / format,"time
+df = df[(df['HTf'] != '-') & (df['HTa'] != '-')]
+
+
+# determine stand",
+2020.0,8.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2020.0,9.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2020.0,11.0,Other,f strings / format,"- 1:
+            df[f'Boxes of {s}'] = df['Remainder'] // s
+            df['Rem",
+2021.0,6.0,Other,f strings / format,"=False)
+df['rank_diff'] = df['overall_rank'] - df['tour_rank']
+
+dfRankAgg = df.gro",
+2021.0,14.0,Other,f strings / format,"s = {'A':'Window', 'F':'Window', 'B':'Middle', 'E':'Middle', 'C':'Aisle', 'D':'Aisle'}
+seats['Seat Positio",
+2021.0,24.0,Other,f strings / format," Date'], df['Days Off'])]
+df_count = df.explo",
+2021.0,35.0,Other,f strings / format,"y', suffixes=['', '_f'])\
+      .drop('key', ",
+2021.0,36.0,Other,f strings / format,"umns={ 'CY_index' : f'{max_year-1}/{str(max_year)[-2:]} avg index', 
+                   ",
+2021.0,41.0,Other,f strings / format,"aFrame({'Season' : [f'{y}-{(y+1) % 100}' for y in missing_years],
+                   ",
+2021.0,42.0,Other,f strings / format,"    s.map(lambda x: f'{x:.0f}' if x == round(x, 0) else str(x)))
+
+
+df['Value raised ",
+2021.0,44.0,Other,f strings / format,"no activities
+print(f'Days with no activities: {df_p[df_p[""Activities per day""] == 0][""Date""].count()}')
+
+
+df_p.to_csv(r'.\o",
+2021.0,46.0,Other,f strings / format," record count
+print(f'Number of records after merge: {len(df)}')
+
+
+#----------------",
+2021.0,47.0,Other,f strings / format,"_list[0]
+ax.axis('off')   
+
+handles = [mpatche",
+2021.0,51.0,Other,f strings / format,"+ 4))
+        print(f'{message}\n')
+        print('-' *",
+2022.0,3.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,4.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,5.0,Other,f strings / format,"ut(x, q=6, labels=['F', 'E', 'D', 'C', 'B', 'A']))
+
+df['Points'] = df[",
+2022.0,6.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,7.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,8.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,9.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,10.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,11.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,12.0,Other,f strings / format,"loat' in df_compare[f'{c}_sol'].dtype.name:
+                df_",
+2022.0,13.0,Other,f strings / format,"].count()
+outcome = f'{filter_rows / len(df.index):.0%} of Customers account for {FILTER_PCT}% of Sales'
+
+
+#----------------",
+2022.0,14.0,Other,f strings / format,"'Total', 'Week.1', 'F', 'F.1']
+renames = {'Ser.' :",
+2022.0,16.0,Other,f strings / format,"f_orders.columns = [f'{df_orders.columns[i-1]}_Selection' if 'Unnamed' in c else f'{c}_Dish'
+                   ",
+2022.0,17.0,Other,f strings / format,"'Primary' : ['Cardiff', 'Edinburgh', 'London']}
+
+
+#----------------",
+2022.0,22.0,Other,f strings / format,"      color=['#FFFFFF'])
+plt.show()
+",
+2022.0,27.0,Other,f strings / format,")
+          .to_csv(f'.\\outputs\\output-2022-27-{t}.csv', index=False)
+    )
+
+
+
+
+
+
+# -----",
+2022.0,28.0,Other,f strings / format,"e data
+    [f.write(f'{k},{v}\n') for k,v in weekday_counts.items()]
+
+
+
+
+#--------------",
+2022.0,31.0,Other,f strings / format," 
+    df_out.to_csv(f'.\\outputs\\output-2022-31-{store_name}.csv', index=False,
+                  c",
+2022.0,34.0,Other,f strings / format," user_input = input(f'\n{value_name.title()} list:\n{options_str}\n\n'
+                   ",
+2022.0,35.0,Other,f strings / format,"<= 0:
+        print(f'*** ERROR: {input_kph} is not a vailid number. Please enter a number > 0.')
+    else:
+        d",
+2019.0,4.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2020.0,4.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2020.0,8.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2020.0,9.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2020.0,10.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2020.0,11.0,Other,"list methods (sort, reverse, append, union, etc.)","df_x['Order Size'])
+    size_list.sort(reverse=True)
+    
+    for i, s i",
+2021.0,2.0,Other,"list methods (sort, reverse, append, union, etc.)","r_matters == False:
+         solution_cols.sort()
+         my_cols.so",
+2021.0,3.0,Other,"list methods (sort, reverse, append, union, etc.)","r_matters == False:
+         solution_cols.sort()
+         my_cols.so",
+2021.0,4.0,Other,"list methods (sort, reverse, append, union, etc.)","r_matters == False:
+         solution_cols.sort()
+         my_cols.so",
+2021.0,5.0,Other,"list methods (sort, reverse, append, union, etc.)","r_matters == False:
+         solution_cols.sort()
+         my_cols.so",
+2021.0,6.0,Other,"list methods (sort, reverse, append, union, etc.)","r_matters == False:
+         solution_cols.sort()
+         my_cols.so",
+2021.0,7.0,Other,"list methods (sort, reverse, append, union, etc.)","r_matters == False:
+         solutionCols.sort()
+         myCols.sor",
+2021.0,8.0,Other,"list methods (sort, reverse, append, union, etc.)","r_matters == False:
+         solutionCols.sort()
+         myCols.sor",
+2021.0,9.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+        solutionCols.sort()
+        myCols.sort",
+2021.0,10.0,Other,"list methods (sort, reverse, append, union, etc.)"," all of the Pokemon
+if not pokemon['Name'].unique().sort() == df['Name'].unique().sort():
+    print('The list",
+2021.0,11.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+        solutionCols.sort()
+        myCols.sort",
+2021.0,12.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solutionCols.sort()
+         myCols.sor",
+2021.0,13.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+        solutionCols.sort()
+        myCols.sort",
+2021.0,15.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+        solutionCols.sort()
+        myCols.sort",
+2021.0,16.0,Other,"list methods (sort, reverse, append, union, etc.)","r_matters == False:
+         solutionCols.sort()
+         myCols.sor",
+2021.0,17.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solutionCols.sort()
+         myCols.sor",
+2021.0,18.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solutionCols.sort()
+         myCols.sor",
+2021.0,19.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solutionCols.sort()
+         myCols.sor",
+2021.0,20.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+             solutionCols.sort()
+             myCols",
+2021.0,21.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,22.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,24.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,26.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,27.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,28.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+             solution_cols.sort()
+             myCols",
+2021.0,29.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+             solution_cols.sort()
+             myCols",
+2021.0,31.0,Other,"list methods (sort, reverse, append, union, etc.)","list(pivot.columns)
+cols.reverse()
+
+pivot.iloc[0:len(p",
+2021.0,32.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,33.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,37.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,38.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,39.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,41.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,42.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,44.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,45.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,46.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,47.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,48.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,49.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,50.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,51.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2021.0,52.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,1.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,2.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,3.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,4.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+        solution_cols.sort()
+        myCols.sort",
+2022.0,5.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,6.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,7.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,8.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,9.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,10.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,11.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,12.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,13.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2022.0,14.0,Other,"list methods (sort, reverse, append, union, etc.)"," col_order_matters:
+         solution_cols.sort()
+         myCols.sor",
+2019.0,4.0,Other,sets,"df['DATE'] - DateOffset(years=1), df['DATE']",
+2020.0,9.0,Other,sets," Date'] + pd.DateOffset(years=-1), 
+        ",
+2021.0,12.0,Other,sets,"Breakdown}"")
+    ax.set(xlabel=None, ylabel=",
+2021.0,37.0,Other,sets,"iods=p, freq=DateOffset(months=1)) for d, p ",
+2022.0,2.0,Other,sets,"'] + offsets.DateOffset(year=2022)
+
+# using ",
+2022.0,15.0,Other,sets,", e, freq=pd.DateOffset(months=1)).union([e]",
+2022.0,28.0,Other,sets,"ales
+missing = list(set(pd.date_range(start=",
+2022.0,32.0,Other,sets,NT_DATE + pd.DateOffset(months=m-1) for m in,
+2022.0,36.0,Other,sets,"_date'] - pd.DateOffset(months=12*(i % 10)),",
+2019.0,4.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2019.0,25.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,1.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,2.0,Other,unpacking a sequence *,"s
+- Output the data
+
+*** NOTE: the provide",1.0
+2020.0,3.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,4.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,5.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,6.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,7.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,8.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,9.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,10.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,11.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,12.0,Other,unpacking a sequence *,"g# -*- coding: utf-8 -*-
+",1.0
+2020.0,17.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,32.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,1.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,2.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,3.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,4.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,5.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,6.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,7.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,8.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,9.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,10.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,11.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,12.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,13.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,14.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,15.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,16.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,17.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,18.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,19.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,20.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,21.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,22.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,23.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,24.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,25.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,26.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,27.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,28.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,29.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,30.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,31.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,32.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,33.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,34.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,35.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,36.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,37.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,38.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,39.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,40.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,41.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,42.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,43.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,44.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,45.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,46.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,47.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,48.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,49.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,50.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,51.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2021.0,52.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,1.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,2.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,3.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,4.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,5.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,6.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,7.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,8.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,9.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,10.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,11.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,12.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,13.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,14.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,15.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,16.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,17.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,18.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,19.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,20.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,21.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,22.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,23.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,24.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,27.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,28.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,29.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,30.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,31.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,32.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,33.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,34.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,35.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2022.0,36.0,Other,unpacking a sequence *,"# -*- coding: utf-8 -*-
+",1.0
+2020.0,12.0,Other,user input,"taset
+  - PD week 12 input(1).xlsx
+""""""
+
+
+from p",1.0
+2022.0,13.0,Other,user input,"------
+
+FILTER_PCT = input('Enter the % of sale",1.0
+2022.0,31.0,Other,user input,"rue:
+    input_num = input('\nStore list:\n  ' ",1.0
+2022.0,34.0,Other,user input,        user_input = input(f'\n{value_name.titl,1.0
+2022.0,35.0,Other,user input,"rue:
+    input_kph = input('Enter the average p",1.0
+2020.0,2.0,Other,zip,"        for (t,p) in zip(df['time_part'],df['",
+2020.0,4.0,Other,zip,"= {n : q for n, q in zip(df_q['Number'], df_q",
+2021.0,7.0,Other,zip,"          for i,k in zip(dfAll['Ingredients/A",
+2021.0,10.0,Other,zip,"        for n,g,f in zip(df['Name'], df['Evol",
+2021.0,11.0,Other,zip,"v_dict[c] for c,p in zip(src['Currency'], src",
+2021.0,24.0,Other,zip,"req='D') for d, p in zip(df['Start Date'], df",
+2021.0,37.0,Other,zip," p 
+              in zip(df['Start Date'], df",
+2022.0,15.0,Other,zip,"         for s, e in zip(df_x['Contract Start",
+2022.0,30.0,Other,zip,"lace({k:v for k,v in zip(df_stores['StoreID']",
+2022.0,33.0,Other,zip,"lace({k:v for k,v in zip(df_lookup['Product I",
+2020.0,8.0,Pandas - Aggregation,"Boolean aggregation(any, all)","        .dropna(how='all', axis=1)\
+         ",1.0
+2021.0,26.0,Pandas - Aggregation,"Boolean aggregation(any, all)","gg['Destination'] = 'All'
+
+
+# union the desti",1.0
+2021.0,48.0,Pandas - Aggregation,"Boolean aggregation(any, all)",".dropna(axis=1, how='all').dropna(axis=0, how",1.0
+2022.0,14.0,Pandas - Aggregation,"Boolean aggregation(any, all)","'check1'].transform('any')
+
+
+# compare ranks ",1.0
+2022.0,16.0,Pandas - Aggregation,"Boolean aggregation(any, all)","        .dropna(how='all', axis=1)
+    
+    d",1.0
+2020.0,3.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)",'Team')['win_flag'].cumsum(skipna=False) # thi,
+2020.0,11.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)","Number'].transform('cumcount') + 1
+
+
+#----------",
+2021.0,1.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)","er'])['Bike Value'].cumsum()
+
+
+# generate char",
+2021.0,8.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)","seconds().ge(59*60).cumsum() + 1
+
+
+# number th",
+2021.0,37.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)","e')['Monthly Cost'].cumsum()
+
+
+#--------------",
+2021.0,49.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)","')['months_worked'].cumsum()
+
+    
+# create th",
+2021.0,50.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)","ar'])['YTD Total2'].cumsum()
+df_tot.drop(colum",
+2022.0,13.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)","f_x['Pct_of_Total'].cumsum().round(2))    
+
+
+#",
+2022.0,15.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)"," Month'].transform('cumsum')
+         
+       ",
+2022.0,32.0,Pandas - Aggregation,"Cumulative aggregation(cumcount, cumsum, etc.)","apital'].transform('cumsum') )
+
+df_out['Capita",
+2020.0,3.0,Pandas - Aggregation,Named Aggregation,"m'], as_index=False).agg( 
+               { '",
+2020.0,5.0,Pandas - Aggregation,Named Aggregation,"e'], as_index=False).agg( 
+                 {",
+2020.0,6.0,Pandas - Aggregation,Named Aggregation,"k'], as_index=False).agg( 
+                 {",
+2020.0,7.0,Pandas - Aggregation,Named Aggregation,"th', as_index=False).agg( 
+        { 'Employe",
+2021.0,2.0,Pandas - Aggregation,Named Aggregation,"rand', 'Bike Type']).agg({ 'Quantity' : ['sum",
+2021.0,6.0,Pandas - Aggregation,Named Aggregation,= df.groupby('TOUR').agg(Total_Prize_Money = ,
+2021.0,7.0,Pandas - Aggregation,Named Aggregation,ption'])['Contains'].agg(Contains=list).reset,
+2021.0,17.0,Pandas - Aggregation,Named Aggregation,"df_m.groupby('Name').agg(total_days=('Date', ",
+2021.0,18.0,Pandas - Aggregation,Named Aggregation,(id_vars + ['Task']).agg(count=('Scheduled Da,
+2021.0,20.0,Pandas - Aggregation,Named Aggregation,"= df.groupby('Week').agg(Mean=('Complaints', ",
+2021.0,22.0,Pandas - Aggregation,Named Aggregation,"swer Smash')['Name'].agg(Names=('Name', 'nuni",
+2021.0,25.0,Pandas - Aggregation,Named Aggregation,y('Evolution Group').agg(Appearances=('Episod,
+2021.0,26.0,Pandas - Aggregation,Named Aggregation,"stination', 'Date']).agg(Rolling_Week_Avg=('R",
+2021.0,28.0,Pandas - Aggregation,Named Aggregation,df_m.groupby('Team').agg(Total_Shootouts=('sh,
+2021.0,32.0,Pandas - Aggregation,Named Aggregation,"['Flight', 'Class']).agg(avg_gte_7=('sales_gt",
+2021.0,34.0,Pandas - Aggregation,Named Aggregation,"Store', 'Employee']).agg(Avg_monthly_Sales=('",
+2021.0,36.0,Pandas - Aggregation,Named Aggregation,oupby('Search Term').agg(Avg_index = ('index',
+2021.0,38.0,Pandas - Aggregation,Named Aggregation,('Trilogy Grouping').agg(Trilogy_Average=('Ra,
+2021.0,46.0,Pandas - Aggregation,Named Aggregation,                    .agg(Number_of_Months_Che,
+2021.0,47.0,Pandas - Aggregation,Named Aggregation,"groupby('player_id').agg(wins=('first_place',",
+2021.0,49.0,Pandas - Aggregation,Named Aggregation,", 'Reporting Year']).agg(min_date=('Date', 'm",
+2021.0,51.0,Pandas - Aggregation,Named Aggregation,.groupby('Customer').agg(Returned=('Returned',
+2021.0,52.0,Pandas - Aggregation,Named Aggregation,"s']\
+               .agg(lambda x: ', '.join(",
+2022.0,3.0,Pandas - Aggregation,Named Aggregation,"dent ID', 'Gender']).agg(Passed_Subjects=('Pa",
+2022.0,4.0,Pandas - Aggregation,Named Aggregation,"=False)\
+           .agg(Number_of_Trips=('St",
+2022.0,6.0,Pandas - Aggregation,Named Aggregation,"e'], as_index=False).agg(Count=('Tile', 'size",
+2022.0,9.0,Pandas - Aggregation,Named Aggregation,"e'], as_index=False).agg(First_Purchase=('Yea",
+2022.0,12.0,Pandas - Aggregation,Named Aggregation,roupby('EmployerId').agg(EmployerName=('DateS,
+2022.0,19.0,Pandas - Aggregation,Named Aggregation,"_index=False)
+      .agg(Sales_with_the_wrong",
+2022.0,20.0,Pandas - Aggregation,Named Aggregation,"il', as_index=False).agg(Reg_Count=('Session'",
+2022.0,27.0,Pandas - Aggregation,Named Aggregation,"False)
+             .agg(Sale_Value=('Sale Va",
+2022.0,28.0,Pandas - Aggregation,Named Aggregation,"ek', as_index=False).agg(Number_of_Days=('dat",
+2022.0,35.0,Pandas - Aggregation,Named Aggregation,"])
+                 .agg(Total_Mins=('Mins', ",
+2021.0,23.0,Pandas - Aggregation,groupby with filter,"t by airline
+df = df.groupby('Airline').filter(lambda x: len(x) >= ",
+2020.0,3.0,Pandas - Aggregation,rank,"nce rank
+df_summary['Rank'] = df_summary.group",1.0
+2020.0,5.0,Pandas - Aggregation,rank,"larger = better)
+df['Rank'] = df['Diff'].rank(",1.0
+2020.0,9.0,Pandas - Aggregation,rank,"on their results
+df['Rank'] = df.groupby(['Pol",1.0
+2021.0,4.0,Pandas - Aggregation,rank,"ach quarter
+dfFinal['Rank'] = dfFinal.groupby(",1.0
+2021.0,9.0,Pandas - Aggregation,rank," the rank
+area_item['Rank'] = area_item.groupb",1.0
+2021.0,13.0,Pandas - Aggregation,rank,"p 20 overall
+df_sum['Rank'] = df_sum['Open Pla",1.0
+2021.0,14.0,Pandas - Aggregation,rank,"light'].round(2)
+q1['Rank'] = q1['Avg per Flig",1.0
+2021.0,28.0,Pandas - Aggregation,rank," 100, 0)
+out1['Win % Rank'] = out1['Shootout W",1.0
+2022.0,6.0,Pandas - Aggregation,rank,"s'})
+
+df_out['Points Rank'] = df_out['Total Po",1.0
+2022.0,14.0,Pandas - Aggregation,rank,"al_Rank' : 'Original Rank'})\
+  .drop(columns=",1.0
+2022.0,24.0,Pandas - Aggregation,rank,"Distance
+df_flights['Rank'] = df_flights['Dist",1.0
+2022.0,34.0,Pandas - Aggregation,rank,"s burned
+    df_out['Rank'] = df_out.groupby([",1.0
+2020.0,4.0,Pandas - Aggregation,transform,")['Completion Date'].transform('min'),
+            ",
+2020.0,9.0,Pandas - Aggregation,transform,"ll Results']\
+      .transform(lambda x: x.max() - ",
+2020.0,11.0,Pandas - Aggregation,transform,"mber')['Box Number'].transform('cumcount') + 1
+
+
+#-",
+2021.0,9.0,Pandas - Aggregation,transform,"upby('join')['join'].transform('count')
+
+# remove u",
+2021.0,17.0,Pandas - Aggregation,transform,"pby('Name')['Hours'].transform('sum'))\
+           ",
+2021.0,21.0,Pandas - Aggregation,transform,"('Product')['Price'].transform('mean')
+
+# work out ",
+2021.0,33.0,Pandas - Aggregation,transform,"')['Reporting Date'].transform('min')
+df['last_date",
+2021.0,35.0,Pandas - Aggregation,transform,"ture'])['Area_diff'].transform('min')]
+
+
+#---------",
+2021.0,42.0,Pandas - Aggregation,transform,"lue raised per day'].transform('mean').round(9)
+
+
+#",
+2021.0,49.0,Pandas - Aggregation,transform,'Name'])['min_date'].transform('min').dt.strftime(',
+2021.0,52.0,Pandas - Aggregation,transform,"'Name')['Complaint'].transform('size')
+
+
+# preproce",
+2022.0,2.0,Pandas - Aggregation,transform,"On', 'Month'])['id'].transform('size')
+
+
+#---------",
+2022.0,4.0,Pandas - Aggregation,transform,")['Number_of_Trips'].transform('sum'),
+            ",
+2022.0,5.0,Pandas - Aggregation,transform,"']\
+                .transform(lambda x: pd.qcut(x,",
+2022.0,9.0,Pandas - Aggregation,transform,"urchase'])['Order?'].transform('sum') \
+         - ",
+2022.0,11.0,Pandas - Aggregation,transform,"ame'])['Attendance'].transform('mean')
+
+
+#---------",
+2022.0,12.0,Pandas - Aggregation,transform,"d')['DateSubmitted'].transform('idxmax'))
+
+
+# incre",
+2022.0,14.0,Pandas - Aggregation,transform,"'] = group['check1'].transform('any')
+
+
+# compare r",
+2022.0,15.0,Pandas - Aggregation,transform,"')['Rent per Month'].transform('cumsum')
+         
+",
+2022.0,17.0,Pandas - Aggregation,transform,                    .transform('min').dt.tz_localiz,
+2022.0,20.0,Pandas - Aggregation,transform,"('Email')['Session'].transform('count')
+
+
+# join th",
+2022.0,32.0,Pandas - Aggregation,transform,")['Monthly Capital'].transform('cumsum') )
+
+df_out[",
+2019.0,4.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2019.0,25.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,1.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,2.0,Pandas - Dates,Date Calculations,"""""""
+Preppin Data Challenge 2020",1.0
+2020.0,3.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,4.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,5.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,6.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,7.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,8.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,9.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,10.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,11.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,12.0,Pandas - Dates,Date Calculations,"g# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,17.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2020.0,32.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,1.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,2.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,3.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,4.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,5.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,6.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,7.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,8.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,9.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,10.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,11.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,12.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,13.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,14.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,15.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,16.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,17.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,18.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,19.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,20.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,21.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,22.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,23.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,24.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,25.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,26.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,27.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,28.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,29.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,30.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,31.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,32.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,33.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,34.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,35.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,36.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,37.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,38.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,39.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,40.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,41.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,42.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,43.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,44.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,45.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,46.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,47.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,48.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,49.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,50.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,51.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2021.0,52.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,1.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,2.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,3.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,4.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,5.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,6.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,7.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,8.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,9.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,10.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,11.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,12.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,13.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,14.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,15.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,16.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,17.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,18.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,19.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,20.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,21.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,22.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,23.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,24.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,27.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,28.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,29.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,30.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,31.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,32.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,33.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,34.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,35.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2022.0,36.0,Pandas - Dates,Date Calculations,"# -*- coding: utf-8 -*-
+""""""
+Pre",1.0
+2019.0,4.0,Pandas - Dates,DateOffset / offsets,"
+from pandas import DateOffset, ExcelFile, read_ex",
+2020.0,9.0,Pandas - Dates,DateOffset / offsets,"df['End Date'] + pd.DateOffset(years=-1), 
+       ",
+2021.0,37.0,Pandas - Dates,DateOffset / offsets,"from pandas.tseries.offsets import DateOffset
+
+",
+2021.0,50.0,Pandas - Dates,DateOffset / offsets,"t, ExcelFile, melt, offsets, read_excel
+
+# for ",
+2022.0,2.0,Pandas - Dates,DateOffset / offsets,"
+from pandas import offsets
+import timeit
+from ",
+2022.0,15.0,Pandas - Dates,DateOffset / offsets,"range(s, e, freq=pd.DateOffset(months=1)).union([e",
+2022.0,17.0,Pandas - Dates,DateOffset / offsets,"me('%Y-%m-01'))
+
+
+# dateoffset
+# much better: 920 ",
+2022.0,32.0,Pandas - Dates,DateOffset / offsets, [CURRENT_DATE + pd.DateOffset(months=m-1) for m i,
+2022.0,36.0,Pandas - Dates,DateOffset / offsets,heduled_date'] - pd.DateOffset(months=12*(i % 10)),
+2021.0,2.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)",] = df['Order Date'].dt.to_period('M').dt.to_timestamp,
+2021.0,8.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)",ices['Date'].diff(1).dt.total_seconds().ge(59*60).cumsum(),
+2021.0,15.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)","ders_f['Order Date'].dt.day_name()
+orders_f['Price'] ",
+2021.0,18.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)","df['Completed Date'].dt.day_name()
+
+
+#---------------",
+2021.0,42.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)","'Date'] = df['Date'].dt.day_name()
+
+
+# average the am",
+2022.0,2.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)","s Year\'s Birthday'].dt.day_name()\
+                 ",
+2022.0,15.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)",df_c['Contract End'].dt.to_period('M').view('int64') \,
+2022.0,28.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)","= df_missing['date'].dt.day_name()
+
+
+# get counts by ",
+2022.0,33.0,Pandas - Dates,"Dateparts (dt.month, dt.quarter, etc.)","['Sales Timestamp']).dt.total_seconds() / 60
+
+
+# summarize",
+2022.0,15.0,Pandas - Dates,date_range,"    lambda df_x: [pd.date_range(s, e, freq=pd.DateOf",
+2022.0,28.0,Pandas - Dates,date_range,aFrame({ 'date' : pd.date_range(start=df_sales['Sale,
+2022.0,32.0,Pandas - Dates,date_range,"y_Payment_Date = [pd.date_range(start=CURRENT_DATE, ",
+2022.0,36.0,Pandas - Dates,date_range,"ate range
+dates = pd.date_range(start=datetime(df['s",
+2019.0,25.0,Pandas - Dates,dt.strftime,"inal['Concert Date'].dt.strftime('%Y-%m-%d') + '|' \
+",
+2021.0,12.0,Pandas - Dates,dt.strftime,"= df_region['Month'].dt.strftime('%b')
+
+# draw a grid",
+2021.0,28.0,Pandas - Dates,dt.strftime,"[0:4] + df_m['date'].dt.strftime('-%m-%d'))
+
+
+# add c",
+2021.0,49.0,Pandas - Dates,dt.strftime,"e'].transform('min').dt.strftime('%b %Y') \
+         ",
+2022.0,2.0,Pandas - Dates,dt.strftime,"big['Date of Birth'].dt.strftime('%m-%d'))
+",
+2022.0,17.0,Pandas - Dates,dt.strftime,"me(df_s['timestamp'].dt.strftime('%Y-%m-01'))
+
+
+# dat",
+2020.0,4.0,Pandas - Dates,timedelta / to_timedelta / relativedelta,"ot_table, read_csv, to_timedelta, to_datetime
+
+
+def ",
+2020.0,7.0,Pandas - Dates,timedelta / to_timedelta / relativedelta,"parse
+from dateutil.relativedelta import relativedelt",
+2021.0,8.0,Pandas - Dates,timedelta / to_timedelta / relativedelta,"e_asof, read_excel, Timedelta
+
+# used for answer ",
+2021.0,18.0,Pandas - Dates,timedelta / to_timedelta / relativedelta,"_table, read_excel, Timedelta
+
+
+# for solution ch",
+2021.0,26.0,Pandas - Dates,timedelta / to_timedelta / relativedelta,"e, merge, read_csv, Timedelta
+
+
+#----------------",
+2021.0,33.0,Pandas - Dates,timedelta / to_timedelta / relativedelta,"elFile, read_excel, Timedelta, to_datetime
+
+# for",
+2022.0,15.0,Pandas - Dates,timedelta / to_timedelta / relativedelta,"       
+# method 1: timedelta -- this counts frac",
+2022.0,36.0,Pandas - Dates,timedelta / to_timedelta / relativedelta,"rom datetime import timedelta
+from math import lo",
+2020.0,4.0,Pandas - Dates,to_datetime,"_csv, to_timedelta, to_datetime
+
+
+def age(begin, en",
+2020.0,9.0,Pandas - Dates,to_datetime,df['End Date'] = pd.to_datetime(df['Date'].str.extr,
+2021.0,2.0,Pandas - Dates,to_datetime,"t.to_period('M').dt.to_timestamp()
+palette = ['#ccb2",
+2021.0,12.0,Pandas - Dates,to_datetime,"t, merge, read_csv, to_datetime
+
+# for the charts
+i",
+2021.0,21.0,Pandas - Dates,to_datetime,"elFile, read_excel, to_datetime
+
+# for solution che",
+2021.0,28.0,Pandas - Dates,to_datetime,"read_excel, Series, to_datetime
+
+
+#----------------",
+2021.0,29.0,Pandas - Dates,to_datetime,"Writer, read_excel, to_datetime
+from re import IGNO",
+2021.0,30.0,Pandas - Dates,to_datetime,"ataFrame, read_csv, to_datetime
+
+
+#----------------",
+2021.0,33.0,Pandas - Dates,to_datetime,"d_excel, Timedelta, to_datetime
+
+# for results chec",
+2021.0,45.0,Pandas - Dates,to_datetime," merge, read_excel, to_datetime
+
+# for results chec",
+2022.0,2.0,Pandas - Dates,to_datetime,"
+from pandas import to_datetime
+
+df_big = read_csv(",
+2022.0,7.0,Pandas - Dates,to_datetime,"Month_Start_Date=pd.to_datetime(s + '1, 2021'))\
+  ",
+2022.0,12.0,Pandas - Dates,to_datetime,                 pd.to_datetime(df['DateSubmitted'],
+2022.0,15.0,Pandas - Dates,to_datetime,"
+
+CURRENT_DATE = pd.to_datetime('2022-04-13')
+
+
+#--",
+2022.0,17.0,Pandas - Dates,to_datetime,f_s['month_1'] = pd.to_datetime(df_s['timestamp'].d,
+2022.0,18.0,Pandas - Dates,to_datetime,"me
+df['Month'] = pd.to_datetime(df['Month'], format",
+2021.0,2.0,Pandas - Dates,to_period,df['Order Date'].dt.to_period('M').dt.to_timestam,
+2022.0,15.0,Pandas - Dates,to_period,['Contract End'].dt.to_period('M').view('int64') ,
+2022.0,17.0,Pandas - Dates,"working with timezones (tz_localize, etc.)",transform('min').dt.tz_localize(None).astype('datet,
+2019.0,4.0,Pandas - File I/O,Read Excel files,"eOffset, ExcelFile, read_excel
+
+# for results chec",
+2019.0,25.0,Pandas - File I/O,Read Excel files,")
+
+df_concerts = pd.read_excel('Wow _ PD data set.",
+2020.0,6.0,Pandas - File I/O,Read Excel files,"
+from pandas import read_excel
+
+
+# import the data",
+2020.0,8.0,Pandas - File I/O,Read Excel files,"kly = pd.concat([pd.read_excel(xl, s)\
+           ",
+2020.0,11.0,Pandas - File I/O,Read Excel files,"
+    df_orders = pd.read_excel(xl, sheet_name='Ord",
+2020.0,12.0,Pandas - File I/O,Read Excel files,"xcelFile, read_csv, read_excel
+import datetime as ",
+2020.0,17.0,Pandas - File I/O,Read Excel files,"s import ExcelFile, read_excel, merge
+from numpy i",
+2020.0,32.0,Pandas - File I/O,Read Excel files,"rge_asof, read_csv, read_excel
+
+
+#----------------",
+2021.0,7.0,Pandas - File I/O,Read Excel files,"taFrame, ExcelFile, read_excel
+
+# used for answer ",
+2021.0,8.0,Pandas - File I/O,Read Excel files," merge, merge_asof, read_excel, Timedelta
+
+# used ",
+2021.0,9.0,Pandas - File I/O,Read Excel files,"s import DataFrame, read_excel
+from numpy import f",
+2021.0,10.0,Pandas - File I/O,Read Excel files,"s import ExcelFile, read_excel
+from numpy import n",
+2021.0,11.0,Pandas - File I/O,Read Excel files,"s import ExcelFile, read_excel
+
+# used for answer ",
+2021.0,14.0,Pandas - File I/O,Read Excel files,"lFile, ExcelWriter, read_excel
+
+
+# ---------------",
+2021.0,15.0,Pandas - File I/O,Read Excel files," melt, pivot_table, read_excel
+
+# for results chec",
+2021.0,17.0,Pandas - File I/O,Read Excel files,"rt ExcelFile, melt, read_excel
+
+# for solution che",
+2021.0,18.0,Pandas - File I/O,Read Excel files,"lFile, pivot_table, read_excel, Timedelta
+
+
+# for ",
+2021.0,19.0,Pandas - File I/O,Read Excel files,"t ExcelFile, merge, read_excel
+
+# for solution che",
+2021.0,20.0,Pandas - File I/O,Read Excel files,"s import ExcelFile, read_excel
+
+
+#----------------",
+2021.0,21.0,Pandas - File I/O,Read Excel files,"taFrame, ExcelFile, read_excel, to_datetime
+
+# for",
+2021.0,22.0,Pandas - File I/O,Read Excel files,"taFrame, ExcelFile, read_excel
+
+# for solution che",
+2021.0,23.0,Pandas - File I/O,Read Excel files,"taFrame, ExcelFile, read_excel
+
+# for results chec",
+2021.0,24.0,Pandas - File I/O,Read Excel files,"e_range, ExcelFile, read_excel
+
+# for solution che",
+2021.0,25.0,Pandas - File I/O,Read Excel files,", ExcelFile, merge, read_excel
+
+
+#----------------",
+2021.0,27.0,Pandas - File I/O,Read Excel files,"lFile, melt, merge, read_excel
+from random import ",
+2021.0,28.0,Pandas - File I/O,Read Excel files,"lFile, ExcelWriter, read_excel, Series, to_datetim",
+2021.0,29.0,Pandas - File I/O,Read Excel files,"lFile, ExcelWriter, read_excel, to_datetime
+from r",
+2021.0,33.0,Pandas - File I/O,Read Excel files," concat, ExcelFile, read_excel, Timedelta, to_date",
+2021.0,34.0,Pandas - File I/O,Read Excel files,"lFile, melt, merge, read_excel
+
+
+def stack_dict(in",
+2021.0,35.0,Pandas - File I/O,Read Excel files,"t ExcelFile, merge, read_excel
+
+
+def parse_sizes(s",
+2021.0,36.0,Pandas - File I/O,Read Excel files,"lFile, melt, merge, read_excel
+
+
+#----------------",
+2021.0,37.0,Pandas - File I/O,Read Excel files,"e_range, ExcelFile, read_excel
+from pandas.tseries",
+2021.0,38.0,Pandas - File I/O,Read Excel files,"t merge, ExcelFile, read_excel
+
+# for results chec",
+2021.0,43.0,Pandas - File I/O,Read Excel files,"lFile, pivot_table, read_excel
+from pandas import ",
+2021.0,44.0,Pandas - File I/O,Read Excel files,"lFile, pivot_table, read_excel
+
+# for results chec",
+2021.0,45.0,Pandas - File I/O,Read Excel files,", ExcelFile, merge, read_excel, to_datetime
+
+# for",
+2021.0,46.0,Pandas - File I/O,Read Excel files,", ExcelFile, merge, read_excel
+
+# for results chec",
+2021.0,47.0,Pandas - File I/O,Read Excel files,"rt ExcelFile, melt, read_excel
+from textwrap impor",
+2021.0,48.0,Pandas - File I/O,Read Excel files,"rt ExcelFile, melt, read_excel, Series
+
+# for resu",
+2021.0,50.0,Pandas - File I/O,Read Excel files,"ile, melt, offsets, read_excel
+
+# for results chec",
+2021.0,52.0,Pandas - File I/O,Read Excel files,"s import ExcelFile, read_excel
+
+
+# for results che",
+2022.0,6.0,Pandas - File I/O,Read Excel files,":
+    df_words = pd.read_excel(xl, sheet_name='7 l",
+2022.0,7.0,Pandas - File I/O,Read Excel files,"ric = pd.concat([pd.read_excel(xl, s)\
+           ",
+2022.0,8.0,Pandas - File I/O,Read Excel files,"rs
+    df_stat = pd.read_excel(xl, 'pkmn_stats', u",
+2022.0,9.0,Pandas - File I/O,Read Excel files,"----------
+
+df = pd.read_excel(r'.\inputs\Sample -",
+2022.0,10.0,Pandas - File I/O,Read Excel files," as xl:
+    df = pd.read_excel(xl, 'Webscraping')
+",
+2022.0,15.0,Pandas - File I/O,Read Excel files,"--------
+
+df_p = pd.read_excel(r'.\inputs\Office S",
+2022.0,16.0,Pandas - File I/O,Read Excel files,"
+    df_orders = pd.read_excel(xl, 'Orders')\
+    ",
+2022.0,17.0,Pandas - File I/O,Read Excel files,"ssion
+    df_s = pd.read_excel(xl, sheet_name='Str",
+2022.0,19.0,Pandas - File I/O,Read Excel files,":
+    df_sales = pd.read_excel(xl, sheet_name='Sal",
+2022.0,20.0,Pandas - File I/O,Read Excel files,"xl:
+    df_reg = pd.read_excel(xl, sheet_name='Reg",
+2022.0,21.0,Pandas - File I/O,Read Excel files,"f = ( pd.concat([pd.read_excel(xl, sheet_name=s, s",
+2022.0,22.0,Pandas - File I/O,Read Excel files,"xl:
+    df_eps = pd.read_excel(xl, sheet_name='epi",
+2022.0,24.0,Pandas - File I/O,Read Excel files,"    df_flights = pd.read_excel(xl, sheet_name='Non",
+2021.0,23.0,Pandas - File I/O,Read Excel files (dynamic sheets),"l:
+    df = concat([read_excel(xl, s) for s in xl.sheet_names]",
+2021.0,25.0,Pandas - File I/O,Read Excel files (dynamic sheets),"  exclude = concat([read_excel(xl, s) for s in ['Mega Evolutio",
+2021.0,45.0,Pandas - File I/O,Read Excel files (dynamic sheets),"l:
+    df = concat([read_excel(xl, s).assign(date=s) for s in xl.sheet_names ",
+2021.0,50.0,Pandas - File I/O,Read Excel files (dynamic sheets),"l:
+    df = concat([read_excel(xl, s).assign(sheet=s) for s in xl.sheet_names]",
+2021.0,27.0,Pandas - Joining,append,"ottery)]
+    lottery.append(choices(list(prob_su",
+2021.0,41.0,Pandas - Joining,append,"ing_years)})
+df = df.append(df_adds)
+
+
+#--------",
+2022.0,36.0,Pandas - Joining,append,"me']])
+
+emp_ids = np.append(missing_combos // mu",
+2019.0,25.0,Pandas - Joining,concat,"] = ''
+df_final = pd.concat([df_joined, df_artis",
+2020.0,1.0,Pandas - Joining,concat,"
+    dfSubtotal = pd.concat([dfSubtotal, 
+      ",
+2020.0,8.0,Pandas - Joining,concat,"}
+    df_weekly = pd.concat([pd.read_excel(xl, s",
+2020.0,11.0,Pandas - Joining,concat,"uired.
+df_boxes = pd.concat([df_orders, 
+       ",
+2022.0,7.0,Pandas - Joining,concat,":
+    df_metric = pd.concat([pd.read_excel(xl, s",
+2022.0,10.0,Pandas - Joining,concat,"pna()
+df_html_m = pd.concat([df_html_m.loc[df_ht",
+2022.0,12.0,Pandas - Joining,concat,"Submitted']
+
+df = pd.concat([pd.read_csv(path.jo",
+2022.0,20.0,Pandas - Joining,concat," 1
+
+df_combined = pd.concat( 
+    [df_reg_onl.me",
+2022.0,21.0,Pandas - Joining,concat,":
+    
+    df = ( pd.concat([pd.read_excel(xl, s",
+2022.0,23.0,Pandas - Joining,concat," history
+df_out = pd.concat([df[['Id', 'CreatedD",
+2022.0,30.0,Pandas - Joining,concat,".csv']
+
+df_top3 = pd.concat([pd.read_csv(f)
+    ",
+2022.0,33.0,Pandas - Joining,concat,"---
+
+df_sales = ( pd.concat([pd.read_csv(r'.\inp",
+2022.0,35.0,Pandas - Joining,concat,"df
+    df_all = ( pd.concat([df_agg.drop(columns",
+2022.0,36.0,Pandas - Joining,concat,"
+n = 200_000
+df = pd.concat([df.assign(scheduled",
+2019.0,4.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2019.0,25.0,Pandas - Joining,merge,"----
+
+df_joined = pd.merge(df_concerts, df_lat_",
+2020.0,1.0,Pandas - Joining,merge,"e the Profit
+df = pd.merge(df, dfSubtotal, how=",
+2020.0,2.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2020.0,3.0,Pandas - Joining,merge," conferences
+df = df.merge(df_team, left_on='wi",
+2020.0,4.0,Pandas - Joining,merge,"set_index()\
+       .merge(df_r, how='inner', o",
+2020.0,6.0,Pandas - Joining,merge,"es
+df_all = df_sales.merge(df_rates_sum, on=['Y",
+2020.0,7.0,Pandas - Joining,merge," = 1
+df_all = df_all.merge(df_dates, left_on='L",
+2020.0,8.0,Pandas - Joining,merge,"ofit_out = df_profit.merge(df_weekly, on=['Week",
+2020.0,9.0,Pandas - Joining,merge," df_compare = df_sol.merge(df_mine, how='outer'",
+2020.0,10.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2020.0,11.0,Pandas - Joining,merge," df_compare = df_sol.merge(df_mine, how='outer'",
+2020.0,12.0,Pandas - Joining,merge,"les data
+df = df_pct.merge(df_lookup, how='left",
+2020.0,32.0,Pandas - Joining,merge,")
+
+df_check = df_sol.merge(df_mine, suffixes=['",
+2021.0,1.0,Pandas - Joining,merge,"= 1
+
+df_all = df_qtr.merge(df_day, how='outer',",
+2021.0,2.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,3.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,4.0,Pandas - Joining,merge,"data
+dfFinal = dfSum.merge(dfTargets, how='left",
+2021.0,5.0,Pandas - Joining,merge,"
+dfFinal = dfDeduped.merge(dfCurrentAM, how='le",
+2021.0,6.0,Pandas - Joining,merge,"frames
+dfAll = dfAgg.merge(dfRankAgg, how='left",
+2021.0,7.0,Pandas - Joining,merge," = 1
+dfAll = dfItems.merge(dfKeywords, on='join",
+2021.0,8.0,Pandas - Joining,merge,"Compare = dfSolution.merge(dfMine, how='outer',",
+2021.0,9.0,Pandas - Joining,merge,"ustomers = customers.merge(areas, on='join', ho",
+2021.0,10.0,Pandas - Joining,merge," nulls)
+df = pokemon.merge(evolution, left_on='",
+2021.0,11.0,Pandas - Joining,merge,"ecipes.reset_index().merge(src[cols], on='Ingre",
+2021.0,12.0,Pandas - Joining,merge,"
+cont_tot = cont_tot.merge(cont_dtl, on=['Break",
+2021.0,13.0,Pandas - Joining,merge,"Compare = dfSolution.merge(dfMine, how='outer',",
+2021.0,14.0,Pandas - Joining,merge,"ombined = passengers.merge(seats, on='passenger",
+2021.0,15.0,Pandas - Joining,merge,"es
+orders_f = orders.merge(menu_f, left_on='Ord",
+2021.0,16.0,Pandas - Joining,merge,"on
+total_2 = total_2.merge(total_1[['Team', 'Po",
+2021.0,17.0,Pandas - Joining,merge,"ls
+df_area = df_area.merge(df_tot, on='Name', h",
+2021.0,18.0,Pandas - Joining,merge,"al dataframe
+df = df.merge(df_complete[id_vars ",
+2021.0,19.0,Pandas - Joining,merge,"ookup tables
+df = df.merge(proj, on='Project Co",
+2021.0,20.0,Pandas - Joining,merge,"'] = 1
+df_wk = df_wk.merge(DataFrame({'n' : std",
+2021.0,21.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,22.0,Pandas - Joining,merge,"stions
+smash = smash.merge(questions, on='Q No'",
+2021.0,24.0,Pandas - Joining,merge,"
+df_dates = df_dates.merge(df_count, on='Date',",
+2021.0,25.0,Pandas - Joining,merge," gen1[['#', 'Name']].merge(evol_group, on='#', ",
+2021.0,26.0,Pandas - Joining,merge,"in date
+df_join = df.merge(df_dates, on='Date',",
+2021.0,27.0,Pandas - Joining,merge,"ry]})\
+             .merge(teams, on='Seed')\
+ ",
+2021.0,28.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,29.0,Pandas - Joining,merge,".*)')
+final = events.merge(venues[['Venue_lower",
+2021.0,31.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,32.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,33.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,34.0,Pandas - Joining,merge,"argets
+sales = sales.merge(targets, on=['Store'",
+2021.0,35.0,Pandas - Joining,merge,"df = p.assign(key=1).merge(f.assign(key=1), how",
+2021.0,36.0,Pandas - Joining,merge,"set_index()
+
+df = df.merge(df_c, on='Search Ter",
+2021.0,37.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,38.0,Pandas - Joining,merge,"g fields
+df = df_sum.merge(df_t, on='Trilogy Ra",
+2021.0,39.0,Pandas - Joining,merge,"
+df_final = df_batch.merge(df_parms, on='Batch ",
+2021.0,41.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,42.0,Pandas - Joining,merge,", freq='D')})\
+     .merge(df_in, on='Date', ho",
+2021.0,44.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,45.0,Pandas - Joining,merge,"ame session)
+dc = df.merge(df[['Session ID', 'A",
+2021.0,46.0,Pandas - Joining,merge,"etail
+
+df = df_sales.merge(d['Edition'], on='IS",
+2021.0,47.0,Pandas - Joining,merge,"x()\
+               .merge(df_p[['player_id', '",
+2021.0,48.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,49.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2021.0,50.0,Pandas - Joining,merge,"t_index()\
+         .merge(df[df['YTD Total'].n",
+2021.0,51.0,Pandas - Joining,merge,"e fact table
+df = df.merge(df_store[['StoreID',",
+2021.0,52.0,Pandas - Joining,merge,"')\
+                .merge(df_dept.assign(Keywo",
+2022.0,1.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2022.0,2.0,Pandas - Joining,merge,"ompare = df_solution.merge(df_mine, how='outer'",
+2022.0,3.0,Pandas - Joining,merge,"ent
+df = df_students.merge(df_grades.melt(id_va",
+2022.0,4.0,Pandas - Joining,merge,"r practice!]
+df = df.merge(df_students, on='Stu",
+2022.0,5.0,Pandas - Joining,merge," df_compare = df_sol.merge(df_mine, how='outer'",
+2022.0,6.0,Pandas - Joining,merge,"letters = df_letters.merge(df_scores, on='Tile'",
+2022.0,7.0,Pandas - Joining,merge,"\
+                  .merge(pd.read_excel(xl, 'L",
+2022.0,8.0,Pandas - Joining,merge,"])
+
+df_out = df_evol.merge(df_stat, left_on='St",
+2022.0,9.0,Pandas - Joining,merge,"'))\
+               .merge(pd.DataFrame({'Year'",
+2022.0,10.0,Pandas - Joining,merge," df_compare = df_sol.merge(df_mine, how='outer'",
+2022.0,11.0,Pandas - Joining,merge," df_compare = df_sol.merge(df_mine, how='outer'",
+2022.0,12.0,Pandas - Joining,merge," df_compare = df_sol.merge(df_mine, how='outer'",
+2022.0,13.0,Pandas - Joining,merge," df_compare = df_sol.merge(df_mine, how='outer'",
+2022.0,14.0,Pandas - Joining,merge," df_compare = df_sol.merge(df_mine, how='outer'",
+2022.0,15.0,Pandas - Joining,merge,"          
+df = df_c.merge(df_p, on=['City', 'O",
+2022.0,16.0,Pandas - Joining,merge,"ex'])\
+             .merge(df_lookup, how='left",
+2022.0,17.0,Pandas - Joining,merge,"ontent
+df_out = df_s.merge(df_p.rename(columns=",
+2022.0,19.0,Pandas - Joining,merge,"ze
+df_out = df_sales.merge(df_prod, left_on='Pr",
+2022.0,20.0,Pandas - Joining,merge,"at( 
+    [df_reg_onl.merge(df_online, on=['Emai",
+2022.0,22.0,Pandas - Joining,merge,df_out = df_dialogue.merge(df_dialogue[['Episod,
+2022.0,24.0,Pandas - Joining,merge,"f_out = ( df_flights.merge(df_cities, left_on='",
+2022.0,28.0,Pandas - Joining,merge,"_wo_sales = ( df_all.merge(df_sales, left_on='d",
+2022.0,29.0,Pandas - Joining,merge,"taframes
+df_out = df.merge(df_target, on=['PROD",
+2022.0,30.0,Pandas - Joining,merge,"a
+df_out = ( df_top3.merge(df_sales, on='Store ",
+2022.0,36.0,Pandas - Joining,merge,"ate'])
+             .merge(df.drop(columns='sch",
+2022.0,22.0,Pandas - Joining,merge_asof,"ctions
+df_out = ( pd.merge_asof(df_dialogue.sort_val",
+2022.0,33.0,Pandas - Joining,merge_asof,"ID'])
+
+df_merge = pd.merge_asof(df_sales, 
+         ",
+2020.0,4.0,Pandas - Other,apply / map,"omer'] = df_p['DoB'].apply(lambda x: age(x, CU",
+2021.0,1.0,Pandas - Other,apply / map,"size='xx-large')
+
+g.map(sns.lineplot, ""Day o",
+2021.0,10.0,Pandas - Other,apply / map,Group'] = df['Name'].apply(get_evolution_group,
+2021.0,11.0,Pandas - Other,apply / map,es['Cost'] = recipes.apply(lambda r: round(flo,
+2021.0,14.0,Pandas - Other,apply / map,"ts['Seat Position'].map(seat_types)
+
+# parse",
+2021.0,16.0,Pandas - Other,apply / map,"on'] = total_1[cols].apply(tuple, axis=1)\
+   ",
+2021.0,17.0,Pandas - Other,apply / map,"                   .map('{:.0%}'.format)
+
+
+#",
+2021.0,18.0,Pandas - Other,apply / map,erence to Schedule'].apply(lambda x: Timedelta,
+2021.0,42.0,Pandas - Other,apply / map,"
+                 s.map(lambda x: f'{x:.0f}'",
+2021.0,47.0,Pandas - Other,apply / map,"ayer_data['metric'].map(color_map)
+    )    ",
+2022.0,2.0,Pandas - Other,apply / map, df['Date of Birth'].apply(lambda x: x.replace,
+2022.0,6.0,Pandas - Other,apply / map,"cy'].sum()).round(2).apply(d.Decimal)
+
+
+# coun",
+2022.0,10.0,Pandas - Other,apply / map,variable']=='Named'].apply(lambda x: x.str.low,
+2020.0,8.0,Pandas - Other,assign,                    .assign(Week=int(s.replace(',
+2020.0,11.0,Pandas - Other,assign,"sizes})\
+           .assign(Remainder=lambda df_",
+2021.0,35.0,Pandas - Other,assign,"es and frames
+df = p.assign(key=1).merge(f.assig",
+2021.0,45.0,Pandas - Other,assign,"t([read_excel(xl, s).assign(date=s) for s in xl.",
+2021.0,46.0,Pandas - Other,assign,"t([read_excel(xl, s).assign(sheet_name=s) 
+     ",
+2021.0,50.0,Pandas - Other,assign,"t([read_excel(xl, s).assign(sheet=s) for s in xl",
+2021.0,52.0,Pandas - Other,assign,"())
+df_out = df_comp.assign(Keyword=df_comp['Com",
+2022.0,3.0,Pandas - Other,assign,"')\
+                .assign(Pass=lambda df_x: df",
+2022.0,4.0,Pandas - Other,assign,"ount'))\
+           .assign(Trips_per_day = lamb",
+2022.0,6.0,Pandas - Other,assign,">.*)')\
+            .assign(Tile=lambda df_x: df",
+2022.0,7.0,Pandas - Other,assign,                    .assign(Month_Start_Date=pd.,
+2022.0,9.0,Pandas - Other,assign,", 'Orders')\
+       .assign(Year=df['Order Date'",
+2022.0,11.0,Pandas - Other,assign," : 'Time'})\
+       .assign(Time=lambda df_x: df",
+2022.0,12.0,Pandas - Other,assign,"\
+                  .assign(Report=f[-16:-4],
+  ",
+2022.0,13.0,Pandas - Other,assign,"rue)\
+              .assign(Pct_of_Total=lambda ",
+2022.0,14.0,Pandas - Other,assign,"= Series)"")\
+       .assign(F=lambda df_x: df_x[",
+2022.0,15.0,Pandas - Other,assign,"w='left')\
+         .assign(Month_Divider=\
+    ",
+2022.0,16.0,Pandas - Other,assign,"dex')\
+             .assign(Guest=lambda df_x: d",
+2022.0,17.0,Pandas - Other,assign,"'t'])\
+             .assign(location=lambda df_x",
+2022.0,20.0,Pandas - Other,assign,"[df_online, df_inp]).assign(Attended=1), 
+      ",
+2022.0,21.0,Pandas - Other,assign,"                    .assign(Shop=s) 
+           ",
+2022.0,22.0,Pandas - Other,assign,"me
+df_out = ( df_out.assign(name=df_out['name'].",
+2022.0,23.0,Pandas - Other,assign,"                    .assign(Stage='Opened', 
+   ",
+2022.0,29.0,Pandas - Other,assign,"nput.csv"")
+         .assign(PRODUCT = lambda df_",
+2022.0,30.0,Pandas - Other,assign,                    .assign(Region=f[f.find('('),
+2022.0,32.0,Pandas - Other,assign," month
+df_out = ( df.assign(Monthly_Payment_Date",
+2022.0,33.0,Pandas - Other,assign,"                    .assign(Store='Online')])
+  ",
+2022.0,36.0,Pandas - Other,assign,"ed_date', 'emp_id']].assign(scheduled=True), 
+  ",
+2019.0,4.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2020.0,3.0,Pandas - Other,astype,"loc[:, 2:].fillna(0).astype(int)], axis=1)
+
+
+# c",
+2020.0,4.0,Pandas - Other,astype,our'] = df_p['Hour'].astype(int) + where(df_p['A,
+2020.0,6.0,Pandas - Other,astype,".]+)', expand=False).astype(float)
+df_rates['Wee",
+2020.0,7.0,Pandas - Other,astype," = df_curr['Salary'].astype(int)
+df_curr['Leave ",
+2020.0,8.0,Pandas - Other,astype,"extract('.*\_(\d+)').astype(int),
+              ",
+2020.0,9.0,Pandas - Other,astype,"se)\
+               .astype(int)
+      
+        ",
+2020.0,10.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2020.0,11.0,Pandas - Other,astype,"f['Remainder'] / s)).astype(int)
+            
+  ",
+2021.0,6.0,Pandas - Other,astype,"per_Event'].round(0).astype(int)
+
+# rank
+df['ove",
+2021.0,8.0,Pandas - Other,astype,"se', ascending=True).astype(int)
+
+
+# join the cu",
+2021.0,9.0,Pandas - Other,astype,"customers['ordered'].astype(int)
+
+# clean the pr",
+2021.0,10.0,Pandas - Other,astype,okemon[(pokemon['#'].astype(float) <= 386) & (po,
+2021.0,12.0,Pandas - Other,astype,"alue'] = df['value'].astype(int)
+
+# extract the ",
+2021.0,13.0,Pandas - Other,astype," scored'].fillna(0)).astype(int)
+
+# rename the o",
+2021.0,14.0,Pandas - Other,astype," flights['FlightID'].astype(int)
+
+# calculate th",
+2021.0,15.0,Pandas - Other,astype,"'] = orders['Order'].astype(str).str.split('-')
+",
+2021.0,16.0,Pandas - Other,astype,"(' - ', expand=True).astype(int)
+df['Winner'] = ",
+2021.0,17.0,Pandas - Other,astype,"rs'] = df_m['Hours'].astype('float16')
+
+
+# work ",
+2021.0,19.0,Pandas - Other,astype,"'Week ' + df['Week'].astype(str)
+
+# split projec",
+2021.0,21.0,Pandas - Other,astype,"+ df['Day of Month'].astype(str))
+
+# Create 'New",
+2021.0,22.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,23.0,Pandas - Other,astype,"include_lowest=True).astype(str)
+    
+# calculat",
+2021.0,24.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,25.0,Pandas - Other,astype,"'] = evol_group['#'].astype(int)
+evol_group.drop",
+2021.0,26.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,27.0,Pandas - Other,astype,rob'] = prob['prob'].astype(str).str.replace('>',
+2021.0,28.0,Pandas - Other,astype," + '|' + df_m['no.'].astype(str)
+df_m['penalty_s",
+2021.0,29.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+            for",
+2021.0,30.0,Pandas - Other,astype,07-12 ' + df['Hour'].astype(str) + ':' + df['Min,
+2021.0,31.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,32.0,Pandas - Other,astype,"           .round(0).astype(int)\
+           .re",
+2021.0,33.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,35.0,Pandas - Other,astype,"rs
+    df[0] = df[0].astype(float) * where(df[1]",
+2021.0,37.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,38.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,39.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,40.0,Pandas - Other,astype,"                    .astype('category')
+        ",
+2021.0,41.0,Pandas - Other,astype,"\d+)', expand=False).astype(float)))
+
+# create a",
+2021.0,42.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,44.0,Pandas - Other,astype,"Date')['km'].count().astype('Int64')
+
+# ensure t",
+2021.0,45.0,Pandas - Other,astype, (df['Session Time'].astype(str) + ':00:00').str,
+2021.0,46.0,Pandas - Other,astype,"d['Info']['BookID2'].astype(str)).count() == \
+ ",
+2021.0,47.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,48.0,Pandas - Other,astype,"                    .astype(int)
+
+# clean the me",
+2021.0,49.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2021.0,50.0,Pandas - Other,astype,"         df['Date']).astype('datetime64[M]')
+df[",
+2021.0,51.0,Pandas - Other,astype,"-]', '', regex=True).astype(float) 
+df['Sales'] ",
+2021.0,52.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2022.0,1.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2022.0,2.0,Pandas - Other,astype,"= df_solution.dtypes.astype(str)
+        for c i",
+2022.0,6.0,Pandas - Other,astype,"extract(r'.*×(\d+)').astype(int),
+              ",
+2022.0,7.0,Pandas - Other,astype,"                    .astype(float))\
+           ",
+2022.0,9.0,Pandas - Other,astype,".shift(1))\
+        .astype('Int16'))
+
+
+# add th",
+2022.0,12.0,Pandas - Other,astype,"_datetime(df['Year'].astype(str) + '-01-01'))
+
+
+",
+2022.0,14.0,Pandas - Other,astype,"mbda df_x: df_x['F'].astype('int'),
+            ",
+2022.0,17.0,Pandas - Other,astype,"dt.tz_localize(None).astype('datetime64[M]'), 
+ ",
+2022.0,19.0,Pandas - Other,astype,"                    .astype(str)
+               ",
+2022.0,21.0,Pandas - Other,astype,"df_x: df_x['Target'].astype(str))
+             .",
+2022.0,22.0,Pandas - Other,astype,"                   ).astype(int)
+
+
+# split (dupl",
+2022.0,24.0,Pandas - Other,astype,"                    .astype(int)
+               ",
+2022.0,27.0,Pandas - Other,astype,'Original Quantity'].astype(int) * where(df['Uni,
+2022.0,28.0,Pandas - Other,astype," [datetime64(d, 'D').astype(datetime).strftime('",
+2022.0,34.0,Pandas - Other,astype,"s'] = df['Calories'].astype(int)
+    
+    return",
+2022.0,35.0,Pandas - Other,astype,"s'] = df['Calories'].astype(int)
+    df['Distanc",
+2022.0,36.0,Pandas - Other,astype,"ombos // multiplier).astype('int8')
+
+scheduled_d",
+2022.0,5.0,Pandas - Other,cut / qcut,"nsform(lambda x: pd.qcut(x, q=6, labels=['F',",
+2019.0,25.0,Pandas - Other,fillna / ffill / bfill,"f_joined['Concert'].fillna('')
+
+# create a new",
+2020.0,1.0,Pandas - Other,fillna / ffill / bfill,"zeroes
+df['Profit'].fillna(0, inplace=True)
+
+#",
+2020.0,3.0,Pandas - Other,fillna / ffill / bfill,"'] = df['win_flag'].fillna(0)
+df['loss_flag'] ",
+2020.0,32.0,Pandas - Other,fillna / ffill / bfill,"-------
+# Method 1: ffill
+#------------------",
+2021.0,1.0,Pandas - Other,fillna / ffill / bfill,"of Month', 'Bike']).fillna(0)
+df_all['Cuml Sal",
+2021.0,12.0,Pandas - Other,fillna / ffill / bfill,"alue_CountryTotal'].fillna(0)
+
+# remove the co",
+2021.0,13.0,Pandas - Other,fillna / ffill / bfill,"'Penalties scored'].fillna(0) \
+              ",
+2021.0,24.0,Pandas - Other,fillna / ffill / bfill,"'Date', how='left').fillna(0)
+
+
+#-------------",
+2021.0,39.0,Pandas - Other,fillna / ffill / bfill,"Data Value'], nan)).fillna(method='ffill')
+
+
+#",
+2021.0,42.0,Pandas - Other,fillna / ffill / bfill,"al Raised to date'].fillna(method='ffill', inp",
+2021.0,44.0,Pandas - Other,fillna / ffill / bfill,= df_p.reindex(rng).fillna(0).rename_axis('Dat,
+2021.0,47.0,Pandas - Other,fillna / ffill / bfill,"= df_e['prize_usd'].fillna(0)
+
+
+# summarize ev",
+2021.0,48.0,Pandas - Other,fillna / ffill / bfill,"                   .fillna(method='ffill')
+
+# ",
+2021.0,50.0,Pandas - Other,fillna / ffill / bfill,"= df['Salesperson'].fillna(method='bfill')
+
+
+#",
+2021.0,52.0,Pandas - Other,fillna / ffill / bfill,"= df_out['Keyword'].fillna('other')
+df_out['De",
+2022.0,11.0,Pandas - Other,fillna / ffill / bfill,"ing=False)\
+       .ffill()
+
+# find the avera",
+2022.0,12.0,Pandas - Other,fillna / ffill / bfill,"d')['EmployerName'].ffill())\
+       .reset_i",
+2022.0,16.0,Pandas - Other,fillna / ffill / bfill,"ce(COURSES), NaN )).ffill())\
+             .d",
+2022.0,21.0,Pandas - Other,fillna / ffill / bfill," df_x['Department'].ffill(),
+                ",
+2022.0,36.0,Pandas - Other,fillna / ffill / bfill,"eft')
+             .fillna(False)
+         )
+
+",
+2021.0,44.0,Pandas - Other,reindex,"-11-01')
+df_p = df_p.reindex(rng).fillna(0).renam",
+2022.0,36.0,Pandas - Other,reindex,"names)
+             .reindex(new_idx, fill_value=",
+2021.0,8.0,Pandas - Other,shift / diff,'] = choices['Date'].diff(1).dt.total_seconds(,
+2021.0,30.0,Pandas - Other,shift / diff,"s'] = abs(df['From'].shift(-1) - df['To'])
+
+
+# ",
+2021.0,41.0,Pandas - Other,shift / diff,ere(df['league_nbr'].shift(-1) < df['league_nbr,
+2021.0,50.0,Pandas - Other,shift / diff,          df['Date'].shift(1) - offsets.MonthBe,
+2022.0,9.0,Pandas - Other,shift / diff,"df_cust_yr['Order?'].shift(1) == 0, 'Returning'",
+2022.0,12.0,Pandas - Other,shift / diff,e(df_x['EmployerId'].shift(1) != df_x['Employer,
+2020.0,3.0,Pandas - Other,sort_values,"'loser', 1, nan)
+
+df.sort_values(['Team', 'Date'], as",
+2020.0,5.0,Pandas - Other,sort_values,"dard Competition)']].sort_values(by=['Venue'])
+
+
+# ou",
+2020.0,9.0,Pandas - Other,sort_values," Voter']\
+          .sort_values(by=['Candidate', 'En",
+2021.0,1.0,Pandas - Other,sort_values,"uarter'].unique() }).sort_values(by='Quarter')
+df_qtr",
+2021.0,5.0,Pandas - Other,sort_values,"e']
+dfCurrentAM = df.sort_values(by='From Date').grou",
+2021.0,8.0,Pandas - Other,sort_values,", 'Karaoke Choices').sort_values(by='Date')
+    custo",
+2021.0,13.0,Pandas - Other,sort_values,"size().reset_index().sort_values(by=0, ascending=Fals",
+2021.0,14.0,Pandas - Other,sort_values,"ex()\
+              .sort_values(by='purchase_amount'",
+2021.0,15.0,Pandas - Other,sort_values,"x()\
+               .sort_values(by='Order', ascendin",
+2021.0,25.0,Pandas - Other,sort_values,"n='Evolution Group').sort_values(by='Appearances')
+
+
+",
+2021.0,26.0,Pandas - Other,sort_values,"True)\
+             .sort_values(by='Date')
+
+
+#------",
+2021.0,27.0,Pandas - Other,sort_values,r t in teams['Seed'].sort_values() if t not in lotter,
+2021.0,30.0,Pandas - Other,sort_values,"f = df.reset_index().sort_values(by=['trip_dtt', 'ind",
+2021.0,36.0,Pandas - Other,sort_values,"que())]\
+           .sort_values('pct', ascending=Fal",
+2021.0,38.0,Pandas - Other,sort_values,"ax'))\
+             .sort_values(['Trilogy_Average', ",
+2021.0,39.0,Pandas - Other,sort_values,"process step
+df = df.sort_values(['Batch No.', 'Datet",
+2021.0,41.0,Pandas - Other,sort_values," null value)
+df = df.sort_values(by='Season')
+df['Out",
+2021.0,43.0,Pandas - Other,sort_values,"')
+print(solution_df.sort_values(['Rating', 'Status']",
+2021.0,45.0,Pandas - Other,sort_values,", axis=0)\
+         .sort_values(by='Contact_Type')\
+",
+2021.0,50.0,Pandas - Other,sort_values,"person'])\
+         .sort_values(by=['Salesperson', '",
+2021.0,51.0,Pandas - Other,sort_values,"dex()\
+             .sort_values(by=['Order Date', 'S",
+2022.0,9.0,Pandas - Other,sort_values,"e')\
+               .sort_values(by=['Customer ID', '",
+2022.0,10.0,Pandas - Other,sort_values,"west ranking
+df = df.sort_values(by='Ranking', ascend",
+2022.0,11.0,Pandas - Other,sort_values,"the same day
+df = df.sort_values(by=['Weekday', 'Time",
+2022.0,12.0,Pandas - Other,sort_values,"loyerName   
+df = df.sort_values(by=['EmployerId', 'D",
+2022.0,13.0,Pandas - Other,sort_values,"um()\
+              .sort_values(by='Sales', ascendin",
+2022.0,22.0,Pandas - Other,sort_values,rge_asof(df_dialogue.sort_values(by=['time_in_secs']),
+2022.0,32.0,Pandas - Other,sort_values,"Date')
+             .sort_values(by=['Store', 'Monthl",
+2022.0,33.0,Pandas - Other,sort_values,"
+df_sales = df_sales.sort_values(by=['ID'])
+
+df_merge",
+2022.0,34.0,Pandas - Other,sort_values,"k'] <= n]
+          .sort_values('Rank', ascending=Tr",
+2020.0,8.0,Pandas - Reshaping,explode,"                    .explode('Week')
+
+# I could h",
+2020.0,11.0,Pandas - Reshaping,explode,"
+                   .explode('Box_Number')\
+     ",
+2021.0,7.0,Pandas - Reshaping,explode,"ck().str.split(', ').explode().reset_index(drop=T",
+2021.0,9.0,Pandas - Reshaping,explode,"IDs'].str.split(' ').explode()
+areas = read_excel",
+2021.0,11.0,Pandas - Reshaping,explode,l)'].str.split('; ').explode().str.extract(regex_,
+2021.0,15.0,Pandas - Reshaping,explode,"'-')
+orders = orders.explode('Order')
+orders['Ord",
+2021.0,19.0,Pandas - Reshaping,explode,r.split('\s+(?=\[)').explode().str.strip().reset_,
+2021.0,22.0,Pandas - Reshaping,explode,"ash']]
+smash = smash.explode('Name')
+
+# find the ",
+2021.0,24.0,Pandas - Reshaping,explode,"ff'])]
+df_count = df.explode('Date').groupby('Dat",
+2021.0,26.0,Pandas - Reshaping,explode,"
+df_dates = df_dates.explode('join_date')
+
+
+# joi",
+2021.0,29.0,Pandas - Reshaping,explode,",')]
+events = events.explode('Events Split')
+
+
+# ",
+2021.0,37.0,Pandas - Reshaping,explode,"(months)'])]
+df = df.explode('Payment Date')
+
+
+# ",
+2021.0,45.0,Pandas - Reshaping,explode,".split(', ')
+df = df.explode('Attendee ID').astyp",
+2021.0,52.0,Pandas - Reshaping,explode,"))\
+                .explode('Keyword')\
+        ",
+2022.0,6.0,Pandas - Reshaping,explode,"(','))\
+            .explode('Tile')\
+           ",
+2022.0,9.0,Pandas - Reshaping,explode,"]])\
+               .explode('Year')\
+           ",
+2022.0,15.0,Pandas - Reshaping,explode," End'])])\
+         .explode('Month_Divider')\
+  ",
+2022.0,22.0,Pandas - Reshaping,explode,"))
+                 .explode('name')
+            ",
+2022.0,32.0,Pandas - Reshaping,explode,"th']])
+             .explode('Monthly_Payment_Dat",
+2019.0,4.0,Pandas - Reshaping,extract,"alue']] = df[f'{c}'].str.extract('(.*?) (\d+)')
+
+
+# d",
+2019.0,25.0,Pandas - Reshaping,extract,= df_joined.LongLats.str.extract('(?P<Latitude>[\d\.\,
+2020.0,1.0,Pandas - Reshaping,extract,"archy'] = df['Item'].str.extract('([\d\.]+?)\.? .*')
+",
+2020.0,4.0,Pandas - Reshaping,extract,"                    .str.extract('(\d{1,2}):?(\d{2})\",
+2020.0,6.0,Pandas - Reshaping,extract,"Pound to US Dollar'].str.extract('\= ([\d\.]+)', expa",
+2020.0,8.0,Pandas - Reshaping,extract,a df_x: df_x['Week'].str.extract('.*\_(\d+)').astype(,
+2020.0,9.0,Pandas - Reshaping,extract,"_datetime(df['Date'].str.extract('.*- (\d+/\d+)', exp",
+2021.0,9.0,Pandas - Reshaping,extract,"ustomer_info)['IDs'].str.extract(extract_regex)
+custo",
+2021.0,11.0,Pandas - Reshaping,extract,"plit('; ').explode().str.extract(regex_str, expand=Tr",
+2021.0,15.0,Pandas - Reshaping,extract,] = menu['variable'].str.extract('(.*?)\s?(ID|Price|$,
+2021.0,17.0,Pandas - Reshaping,extract,"]] = df_m.iloc[:, 0].str.extract('(.*), (\d+): (.*)')",
+2021.0,19.0,Pandas - Reshaping,extract,    df['Commentary'].str.extract('\[(.*?)\/(.*?)\-(.*,
+2021.0,22.0,Pandas - Reshaping,extract,Answer'].str.strip().str.extract('(?P<Category>.*?)\:,
+2021.0,25.0,Pandas - Reshaping,extract,'] = exclude['Name'].str.extract('(?:\w+) (.*?)(?: [X,
+2021.0,29.0,Pandas - Reshaping,extract,"= venues['Location'].str.extract('(.*), (.*)')
+final ",
+2021.0,35.0,Pandas - Reshaping,extract,"a
+    """"""
+    df = s.str.extract(r'(\d+)(\S+)(?: x )?",
+2021.0,38.0,Pandas - Reshaping,extract,"['Number in Series'].str.extract('(.*)/(.*)')
+
+
+# avg",
+2021.0,39.0,Pandas - Reshaping,extract,df['Data Parameter'].str.extract('(Actual|Target)? ?(,
+2021.0,41.0,Pandas - Reshaping,extract,"        df['League'].str.extract('.*-(\d+)', expand=F",
+2021.0,48.0,Pandas - Reshaping,extract,f_melt['Unnamed: 1'].str.extract('(.*?) ?(\(.*\))?$'),
+2021.0,51.0,Pandas - Reshaping,extract,"] = df['OrderID_in'].str.extract('(\D+)-(\d+)', expan",
+2022.0,6.0,Pandas - Reshaping,extract,f_scores['Scrabble'].str.extract('(?P<Points>\d+) poi,
+2022.0,7.0,Pandas - Reshaping,extract,a df_x:df_x['Goals'].str.extract('.*? (?P<goal_amt>\d,
+2022.0,10.0,Pandas - Reshaping,extract,"tr.replace('\n', '').str.extract(pattern, expand=True",
+2022.0,16.0,Pandas - Reshaping,extract,"_x: df_x['variable'].str.extract('(.*?)\_.*'),
+      ",
+2022.0,18.0,Pandas - Reshaping,extract,']] = df['variable'].str.extract('(\w+?)_+(\w{3}_\d+),
+2022.0,20.0,Pandas - Reshaping,extract,"'] = df_out['Email'].str.extract('.*@(.*?)\..*')
+
+
+#-",
+2022.0,24.0,Pandas - Reshaping,extract,"                    .str.extract('([\d\,]+) km \(([\d",
+2022.0,27.0,Pandas - Reshaping,extract,= df['Product Name'].str.extract('(.+?) - (\d+)(.*)'),
+2022.0,29.0,Pandas - Reshaping,extract,"df_x['Product Name'].str.extract('(.*) - .*'))
+      ",
+2022.0,31.0,Pandas - Reshaping,extract,"tore['Product Name'].str.extract('(.*) - (.*)')
+    
+",
+2022.0,33.0,Pandas - Reshaping,extract,"df_x['Product Name'].str.extract('(.*) - .*'))
+      ",
+2022.0,34.0,Pandas - Reshaping,extract,e']] = df['Unnamed'].str.extract('(.*)\s+-\s+(\d+)\s+,
+2022.0,35.0,Pandas - Reshaping,extract,e']] = df['Unnamed'].str.extract('(.*)\s+-\s+(\d+)\s+,
+2020.0,8.0,Pandas - Reshaping,melt,"                    .melt(id_vars=['Type', 'Me",
+2020.0,9.0,Pandas - Reshaping,melt,"alues='--')\
+       .melt(id_vars=['Poll', 'Da",
+2020.0,11.0,Pandas - Reshaping,melt,"
+df_soaps = df_boxes.melt(id_vars=['Order Numb",
+2021.0,12.0,Pandas - Reshaping,melt,"s=['id'])\
+         .melt(id_vars=key_cols)\
+ ",
+2021.0,14.0,Pandas - Reshaping,melt,"st
+seats = seats_mtx.melt(id_vars='Row', value",
+2021.0,15.0,Pandas - Reshaping,melt,"= menu.reset_index().melt(id_vars=['index'])
+
+",
+2021.0,16.0,Pandas - Reshaping,melt,"way Team']
+df_m = df.melt(id_vars=[c for c in ",
+2021.0,17.0,Pandas - Reshaping,melt,"nd 'Hours'
+df_m = df.melt(id_vars=['Name, Age,",
+2021.0,28.0,Pandas - Reshaping,melt," into rows
+df_m = df.melt(id_vars=[c for c in ",
+2021.0,34.0,Pandas - Reshaping,melt,"ales')\
+            .melt(id_vars=['Store', 'E",
+2021.0,36.0,Pandas - Reshaping,melt,"rows=2)\
+           .melt(id_vars='Week', var_",
+2021.0,43.0,Pandas - Reshaping,melt,"to columns
+df_p = df.melt(id_vars=['Ticket ID'",
+2021.0,47.0,Pandas - Reshaping,melt,"']
+df_out = df_p_tot.melt(id_vars='name', valu",
+2021.0,48.0,Pandas - Reshaping,melt,"       
+df_melt = df.melt(id_vars=['Unnamed: 1",
+2021.0,50.0,Pandas - Reshaping,melt,"'sheet'])\
+         .melt(id_vars=['Salesperso",
+2022.0,3.0,Pandas - Reshaping,melt,ents.merge(df_grades.melt(id_vars='Student ID',
+2022.0,4.0,Pandas - Reshaping,melt,"ow='inner')\
+       .melt(id_vars='Student ID'",
+2022.0,5.0,Pandas - Reshaping,melt,"Input.csv')\
+       .melt(id_vars='Student ID'",
+2022.0,8.0,Pandas - Reshaping,melt,"s)\
+                .melt(id_vars=['name', 'po",
+2022.0,10.0,Pandas - Reshaping,melt,"
+df_html_m = df_html.melt(id_vars='Char', valu",
+2022.0,16.0,Pandas - Reshaping,melt,"dex()\
+             .melt(id_vars='index')\
+  ",
+2022.0,18.0,Pandas - Reshaping,melt,"Input.csv')\
+       .melt(id_vars='Region')
+
+
+",
+2022.0,21.0,Pandas - Reshaping,melt,"o rows
+df_out = ( df.melt(id_vars=['Shop', 'De",
+2022.0,23.0,Pandas - Reshaping,melt,"meit 
+df_melt = ( df.melt(id_vars=['Id', 'Stag",
+2022.0,29.0,Pandas - Reshaping,melt,"v"")
+                .melt(id_vars='PRODUCT', v",
+2022.0,35.0,Pandas - Reshaping,melt," data  
+    ( df_all.melt(ignore_index=False, ",
+2020.0,4.0,Pandas - Reshaping,pivot / pivot_table,"attributes
+df_p = df.pivot_table(index=['Response'], ",
+2020.0,8.0,Pandas - Reshaping,pivot / pivot_table,"                    .pivot_table(index=['Type', 'Star",
+2021.0,6.0,Pandas - Reshaping,pivot / pivot_table,"o cols
+dfAll = dfAll.pivot(index='variable', co",
+2021.0,15.0,Pandas - Reshaping,pivot / pivot_table,"olumns
+menu_f = menu.pivot_table(values='value', inde",
+2021.0,18.0,Pandas - Reshaping,pivot / pivot_table,"mns
+df_complete = df.pivot_table(index=id_vars, colum",
+2021.0,23.0,Pandas - Reshaping,pivot / pivot_table,"est %)
+df_pivot = df.pivot_table(values=['CustomerID'",
+2021.0,43.0,Pandas - Reshaping,pivot / pivot_table,"'Status')\
+         .pivot_table(values='Ticket ID', ",
+2021.0,44.0,Pandas - Reshaping,pivot / pivot_table,"ke values)
+df_p = df.pivot_table(values='km', index='",
+2022.0,12.0,Pandas - Reshaping,pivot / pivot_table,timeit_p = df_timeit.pivot(index='record_count',
+2022.0,16.0,Pandas - Reshaping,pivot / pivot_table,"*)'))\
+             .pivot_table(index=['Guest', 'ind",
+2022.0,18.0,Pandas - Reshaping,pivot / pivot_table," columns
+df_out = df.pivot_table(index=['Region', 'Bi",
+2022.0,21.0,Pandas - Reshaping,pivot / pivot_table,"umns
+df_out = df_out.pivot_table(values='value', inde",
+2022.0,35.0,Pandas - Reshaping,pivot / pivot_table,"asure')
+            .pivot_table(index='Measure', val",
+2019.0,25.0,Pandas - Reshaping,stack,"df_artist.ConcertID).stack()
+
+# make ConcertID ",
+2021.0,7.0,Pandas - Reshaping,stack,"or k in dfKeywordsIn.stack().str.split(', ').ex",
+2019.0,25.0,Pandas - Selection/slicing,drop,"f_joined = df_joined.drop(['LongLats'], axis=1",
+2020.0,3.0,Pandas - Selection/slicing,drop," how='left') \
+     .drop(columns=['Team','Div",
+2020.0,6.0,Pandas - Selection/slicing,drop,"an up columns
+df_all.drop(columns=['Year','Sal",
+2020.0,11.0,Pandas - Selection/slicing,drop,"      
+    return df.drop(columns=['Order Size",
+2021.0,8.0,Pandas - Selection/slicing,drop,"xes=['','_y'])
+final.drop(columns=['Date_y'], ",
+2021.0,10.0,Pandas - Selection/slicing,drop,"erent types 
+pokemon.drop(columns=['Type'], in",
+2021.0,12.0,Pandas - Selection/slicing,drop,"s=['na'])\
+         .drop(columns=['id'])\
+   ",
+2021.0,14.0,Pandas - Selection/slicing,drop,").astype(int)
+planes.drop(columns=['Business C",
+2021.0,15.0,Pandas - Selection/slicing,drop,"dex()\
+             .drop(columns='index')
+
+
+#",
+2021.0,16.0,Pandas - Selection/slicing,drop,"['Position']
+total_2.drop(columns=['Position_1",
+2021.0,17.0,Pandas - Selection/slicing,drop,"ecessary fields
+df_m.drop(columns=['Name, Age,",
+2021.0,25.0,Pandas - Selection/slicing,drop,"utions for gen1
+evol.drop(columns=['Evolution ",
+2021.0,35.0,Pandas - Selection/slicing,drop,"=['', '_f'])\
+      .drop('key', 1)
+
+
+# find v",
+2021.0,43.0,Pandas - Selection/slicing,drop,"_value=0)\
+         .drop(columns=['In Progres",
+2021.0,45.0,Pandas - Selection/slicing,drop,"00:00').str[0:8])
+df.drop(columns=['date', 'Se",
+2021.0,46.0,Pandas - Selection/slicing,drop,"eft')\
+             .drop(columns=['sheet_name",
+2021.0,48.0,Pandas - Selection/slicing,drop,"xtra columns
+df_melt.drop(columns=['Unnamed: 1",
+2021.0,50.0,Pandas - Selection/slicing,drop,"[df['Date'].notna()].drop(columns=['RowID', 'T",
+2022.0,7.0,Pandas - Selection/slicing,drop,"\
+                  .drop(columns='AgentID')\
+",
+2022.0,8.0,Pandas - Selection/slicing,drop,"')\
+                .drop(columns=['name'])\
+ ",
+2022.0,9.0,Pandas - Selection/slicing,drop,"1))\
+               .drop(columns='Order_Lines",
+2022.0,10.0,Pandas - Selection/slicing,drop,"----------------
+
+df.drop(columns='DownloadDat",
+2022.0,12.0,Pandas - Selection/slicing,drop,"\
+                  .drop(columns='DateSubmitt",
+2022.0,14.0,Pandas - Selection/slicing,drop,"Original Rank'})\
+  .drop(columns=['F', 'F_ran",
+2022.0,16.0,Pandas - Selection/slicing,drop,"on'])\
+             .drop(columns=['Selection'",
+2022.0,17.0,Pandas - Selection/slicing,drop,"eft')\
+             .drop(columns='Month')\
+  ",
+2022.0,22.0,Pandas - Selection/slicing,drop,"')
+                 .drop(columns=['end_time']",
+2022.0,23.0,Pandas - Selection/slicing,drop,"e"")')
+              .drop(columns='StageName')",
+2022.0,24.0,Pandas - Selection/slicing,drop,"                    .drop(columns=['City_x', '",
+2022.0,27.0,Pandas - Selection/slicing,drop,"ype']==t]
+          .drop(columns=['Product Ty",
+2022.0,29.0,Pandas - Selection/slicing,drop,"00)
+                .drop(columns=[""Sales Targ",
+2022.0,30.0,Pandas - Selection/slicing,drop,")
+                  .drop(columns='Store')
+   ",
+2022.0,35.0,Pandas - Selection/slicing,drop,"se c)
+              .drop(columns=['Units', 'T",
+2022.0,36.0,Pandas - Selection/slicing,drop,           .merge(df.drop(columns='scheduled_d,
+2019.0,25.0,Pandas - Selection/slicing,drop_duplicates,"
+df_final = df_final.drop_duplicates(subset=['unique_key'",
+2020.0,4.0,Pandas - Selection/slicing,drop_duplicates,"as the DoB
+df_r = df.drop_duplicates(subset='Response')[[",
+2020.0,17.0,Pandas - Selection/slicing,drop_duplicates,"Timestamp')
+dfSurvey.drop_duplicates(subset=columnSubset,",
+2021.0,5.0,Pandas - Selection/slicing,drop_duplicates,"ent']
+dfDeduped = df.drop_duplicates(subset=outCols)[outC",
+2021.0,7.0,Pandas - Selection/slicing,drop_duplicates,"ds into a list
+dfAll.drop_duplicates(subset=['Product', '",
+2021.0,10.0,Pandas - Selection/slicing,drop_duplicates,"nplace=True)
+pokemon.drop_duplicates(inplace=True)
+
+# rem",
+2021.0,25.0,Pandas - Selection/slicing,drop_duplicates,"'Anime Appearances').drop_duplicates()
+
+
+#---------------",
+2021.0,29.0,Pandas - Selection/slicing,drop_duplicates,"tude', 'Longitude']].drop_duplicates(), 
+                ",
+2021.0,35.0,Pandas - Selection/slicing,drop_duplicates,"_excel(xl, 'Frames').drop_duplicates().rename(columns={'S",
+2021.0,45.0,Pandas - Selection/slicing,drop_duplicates,"l = concat([dc[cols].drop_duplicates(subset=['Subject', '",
+2022.0,9.0,Pandas - Selection/slicing,drop_duplicates,"f[['Customer Name']].drop_duplicates()\
+               .m",
+2022.0,10.0,Pandas - Selection/slicing,drop_duplicates,"))])\
+              .drop_duplicates()
+            
+char_",
+2022.0,12.0,Pandas - Selection/slicing,drop_duplicates,"\
+                  .drop_duplicates('EmployerId', keep='",
+2022.0,22.0,Pandas - Selection/slicing,drop_duplicates,"])
+                 .drop_duplicates()
+         )
+
+
+#----",
+2022.0,36.0,Pandas - Selection/slicing,drop_duplicates,"ns='scheduled_date').drop_duplicates(), how='cross')
+    ",
+2021.0,24.0,Pandas - Selection/slicing,idmax / idmin,"[df_dates.iloc[:, 1].idxmax()]['Date']
+print('D",
+2021.0,30.0,Pandas - Selection/slicing,idmax / idmin,"'From')['To'].size().idxmax()
+
+
+# if every trip",
+2022.0,12.0,Pandas - Selection/slicing,idmax / idmin,"d')['DateSubmitted'].idxmax()][['EmployerId', '",
+2022.0,35.0,Pandas - Selection/slicing,idmax / idmin,"upby('Year')['Mins'].idxmax()]
+                ",
+2020.0,9.0,Pandas - Selection/slicing,query," Results'])\
+       .query(""~Poll.str.contains(",
+2022.0,8.0,Pandas - Selection/slicing,query,"')\
+                .query('Stage_2==Stage_2 or",
+2022.0,9.0,Pandas - Selection/slicing,query,"s')\
+               .query('Year >= First_Purch",
+2022.0,14.0,Pandas - Selection/slicing,query,"ns=renames)\
+       .query(""(Series.str[0] != '",
+2022.0,21.0,Pandas - Selection/slicing,query,"ill())
+             .query(f""Breakdown == {str(",
+2022.0,22.0,Pandas - Selection/slicing,query,"False)
+             .query(""section == 'Gamepla",
+2022.0,23.0,Pandas - Selection/slicing,query,"me2')
+              .query('~(StageName.str.con",
+2022.0,28.0,Pandas - Selection/slicing,query,"                    .query(""_merge == 'left_onl",
+2019.0,4.0,Pandas - Selection/slicing,slicing a DataFrame,"8 instead of 2019
+df['True Date'] = where(df['DATE'].",
+2019.0,25.0,Pandas - Selection/slicing,slicing a DataFrame,"tract('(?P<Latitude>[\d\.\-]+), (?P<Longitude>.*",
+2020.0,1.0,Pandas - Selection/slicing,slicing a DataFrame,"nulls with zeroes
+df['Profit'].fillna(0, inplace=T",
+2020.0,2.0,Pandas - Selection/slicing,slicing a DataFrame,"om d/m/y to m/d/y
+df['Date_out'] = [dt.strftime(dt.s",
+2020.0,3.0,Pandas - Selection/slicing,slicing a DataFrame,"ets
+result_sheets = [s for s in xl.sheet_names if 'Results' in s]
+df = None
+for sheet",
+2020.0,4.0,Pandas - Selection/slicing,slicing a DataFrame,"t.csv', parse_dates=['DoB'], dayfirst=True)
+df_",
+2020.0,5.0,Pandas - Selection/slicing,slicing a DataFrame," at halftime
+df = df[(df['HTf'] != '-') & (df['HTa'",
+2020.0,6.0,Pandas - Selection/slicing,slicing a DataFrame,"e year/week
+df_rates['Rate'] =    \
+    df_rates",
+2020.0,7.0,Pandas - Selection/slicing,slicing a DataFrame," leave month
+df_curr['Salary'] = df_curr['Salary']",
+2020.0,8.0,Pandas - Selection/slicing,slicing a DataFrame,"pe=lambda df_x: df_x['Type'].str.lower())\
+     ",
+2020.0,9.0,Pandas - Selection/slicing,slicing a DataFrame,"      .melt(id_vars=['Poll', 'Date', 'Sample'], var_name='Candidat",
+2020.0,10.0,Pandas - Selection/slicing,slicing a DataFrame,"sv(r'', parse_dates=[], dayfirst=True)
+
+
+#",
+2020.0,11.0,Pandas - Selection/slicing,slicing a DataFrame,"er=lambda df_x: df_x['Order Size'])
+    size_list.sort",
+2020.0,12.0,Pandas - Selection/slicing,slicing a DataFrame,"inplace=True)
+df_tot['Scent_join'] = df_tot['Scent_ori",
+2020.0,17.0,Pandas - Selection/slicing,slicing a DataFrame,"viceCount = dfSurvey[['Timestamp', dfSurvey.columns[2]]].copy()
+dfDeviceCo",
+2020.0,32.0,Pandas - Selection/slicing,slicing a DataFrame," 
+          columns=['Store Manager', 'Store', 'Sales Target'])
+
+
+
+#--------------",
+2021.0,1.0,Pandas - Selection/slicing,slicing a DataFrame,"        parse_dates=['Date'], dayfirst=True)
+
+# ",
+2021.0,2.0,Pandas - Selection/slicing,slicing a DataFrame,"        parse_dates=['Order Date', 'Shipping Date'], dayfirst=True)
+
+
+#",
+2021.0,3.0,Pandas - Selection/slicing,slicing a DataFrame,"rse(sheet)
+    dfNew['Store'] = sheet
+    dfIn = ",
+2021.0,4.0,Pandas - Selection/slicing,slicing a DataFrame,"= None
+for sheet in [s for s in xl.sheet_names if s != 'Targets']:
+    dfNew = xl.par",
+2021.0,5.0,Pandas - Selection/slicing,slicing a DataFrame,"t.csv', parse_dates=['From Date'], dayfirst=True)
+
+# ",
+2021.0,6.0,Pandas - Selection/slicing,slicing a DataFrame," weighted average
+df['avg_money_by_person'] = df['MONEY'] / df[",
+2021.0,7.0,Pandas - Selection/slicing,slicing a DataFrame,"=True)]
+    
+dfItems['Contains'] = [', '.join([k.low",
+2021.0,8.0,Pandas - Selection/slicing,slicing a DataFrame,"tomer IDs 
+customers['Customer ID'] = [convert_id(c) fo",
+2021.0,9.0,Pandas - Selection/slicing,slicing a DataFrame,r Information.xlsx')['IDs'].str.split(' ').expl,
+2021.0,10.0,Pandas - Selection/slicing,slicing a DataFrame,"me == evolution_dict[p_name]: 
+        return p_",
+2021.0,11.0,Pandas - Selection/slicing,slicing a DataFrame,"
+recipes = cocktails['Recipe (ml)'].str.split('; ').exp",
+2021.0,12.0,Pandas - Selection/slicing,slicing a DataFrame,"stack it
+key_cols = ['Series-Measure', 'Hierarchy-Breakdown', 'Unit-Detail']
+
+df = read_csv(r'.\",
+2021.0,13.0,Pandas - Selection/slicing,slicing a DataFrame,"------
+
+df = concat([read_csv(r'.\inputs\\' + f) for f in listdir(r'.\inputs')])
+#df.info(verbose=T",
+2021.0,14.0,Pandas - Selection/slicing,slicing a DataFrame,"sengers = passengers[[c for c in passengers.columns if 'Unnamed' not in c]]
+
+
+# --------------",
+2021.0,15.0,Pandas - Selection/slicing,slicing a DataFrame,"ndex().melt(id_vars=['index'])
+
+# parse the field",
+2021.0,16.0,Pandas - Selection/slicing,slicing a DataFrame,"----------
+
+big_6 = ['Arsenal', 'Chelsea', 'Liverpool', 'Man Utd', 'Man City', 'Spurs']
+
+df = read_csv(r'.\",
+2021.0,17.0,Pandas - Selection/slicing,slicing a DataFrame,"e total rows
+df = df.loc[df['Name, Age, Area ",
+2021.0,18.0,Pandas - Selection/slicing,slicing a DataFrame," 'Completed Date'
+df['Completed Date'] = df['Scheduled Dat",
+2021.0,19.0,Pandas - Selection/slicing,slicing a DataFrame,"ject details in the [ ]
+- Output the file
+
+",
+2021.0,20.0,Pandas - Selection/slicing,slicing a DataFrame,"        parse_dates=['Date'], dayfirst=True)
+
+
+#",
+2021.0,21.0,Pandas - Selection/slicing,slicing a DataFrame,"l, s)
+        df_new['sheet_name'] = s
+        df = co",
+2021.0,22.0,Pandas - Selection/slicing,slicing a DataFrame,"egory data
+cat = cat['Category: Answer'].str.strip().str.ext",
+2021.0,23.0,Pandas - Selection/slicing,slicing a DataFrame,"xl:
+    df = concat([read_excel(xl, s) for s in xl.sheet_names])   
+        
+
+#----",
+2021.0,24.0,Pandas - Selection/slicing,slicing a DataFrame," absences by date
+df['Date'] = [date_range(d, pe",
+2021.0,25.0,Pandas - Selection/slicing,slicing a DataFrame,"not used
+gen1 = gen1.loc[gen1['#'].notna()]
+
+",
+2021.0,26.0,Pandas - Selection/slicing,slicing a DataFrame,"1.csv', parse_dates=['Date'], dayfirst=True)\
+  ",
+2021.0,27.0,Pandas - Selection/slicing,slicing a DataFrame," melt(prob, id_vars=['Seed'], var_name='pick', v",
+2021.0,28.0,Pandas - Selection/slicing,slicing a DataFrame,"  df_temp.columns = [c.lower().strip() for c in df_temp.columns]
+        df_temp['sh",
+2021.0,29.0,Pandas - Selection/slicing,slicing a DataFrame,"ateTime field
+events['UK Date Time'] = to_datetime(event",
+2021.0,30.0,Pandas - Selection/slicing,slicing a DataFrame,"der is maintained
+df['trip_dtt'] = to_datetime('2021",
+2021.0,31.0,Pandas - Selection/slicing,slicing a DataFrame,"t.csv', parse_dates=['Date'])
+
+
+#---------------",
+2021.0,32.0,Pandas - Selection/slicing,slicing a DataFrame,"a.csv', parse_dates=['Date', 'Date of Flight'], 
+              day",
+2021.0,33.0,Pandas - Selection/slicing,slicing a DataFrame,", s)
+        df_temp['sheet'] = s
+        df = co",
+2021.0,34.0,Pandas - Selection/slicing,slicing a DataFrame,"map = { 'Bristol' : ['Bristal', 'Bristole', 'Bristoll'],
+              'Str",
+2021.0,35.0,Pandas - Selection/slicing,slicing a DataFrame,"o centimeters
+    df[0] = df[0].astype(floa",
+2021.0,36.0,Pandas - Selection/slicing,slicing a DataFrame,"earch term name
+df_t['Search Term'] = df_t['Search Term",
+2021.0,37.0,Pandas - Selection/slicing,slicing a DataFrame,"hold the contract
+df['Payment Date'] = [date_range(d, pe",
+2021.0,38.0,Pandas - Selection/slicing,slicing a DataFrame,"Films in Series
+df_f[['Film Order', 'Total Films in Series']] = df_f['Number in ",
+2021.0,39.0,Pandas - Selection/slicing,slicing a DataFrame,"dates={'Datetime' : ['Date', 'Time']}, dayfirst=True)
+
+
+",
+2021.0,40.0,Pandas - Selection/slicing,slicing a DataFrame,"--------
+
+usecols = ['Animal ID', 'Outcome Type', 'Animal Type']
+df = read_csv(r'.\\",
+2021.0,41.0,Pandas - Selection/slicing,slicing a DataFrame,"Pts'})
+df.columns = [c if c == 'POS' else c.title() for c in df.columns]
+
+
+#----------------",
+2021.0,42.0,Pandas - Selection/slicing,slicing a DataFrame,"        parse_dates=['Date'], dayfirst=True)
+
+
+#",
+2021.0,43.0,Pandas - Selection/slicing,slicing a DataFrame,"es={'Date lodged' : ['Month ', 'Date', 'Year']})
+    df_b = read_e",
+2021.0,44.0,Pandas - Selection/slicing,slicing a DataFrame,"ssuming 30 km/hr)
+df['km'] = where(df['Measure",
+2021.0,45.0,Pandas - Selection/slicing,slicing a DataFrame,"xl:
+    df = concat([read_excel(xl, s).assign(date=s) for s in xl.sheet_names if s != 'Attendees'])\
+        .rename(c",
+2021.0,46.0,Pandas - Selection/slicing,slicing a DataFrame,"d = {}
+    for s in [s for s in xl.sheet_names if 'Sales' not in s]:
+        d[s] = rea",
+2021.0,47.0,Pandas - Selection/slicing,slicing a DataFrame,"e_usd with zero
+df_e['prize_usd'] = df_e['prize_usd']",
+2021.0,48.0,Pandas - Selection/slicing,slicing a DataFrame,"t = df.melt(id_vars=['Unnamed: 1'],
+                  ",
+2021.0,49.0,Pandas - Selection/slicing,slicing a DataFrame,"t.csv', parse_dates=['Date'], dayfirst=True)
+
+
+#",
+2021.0,50.0,Pandas - Selection/slicing,slicing a DataFrame,"xl:
+    df = concat([read_excel(xl, s).assign(sheet=s) for s in xl.sheet_names])\
+         .rename(",
+2021.0,51.0,Pandas - Selection/slicing,slicing a DataFrame,"t.csv', parse_dates=['Order Date'], dayfirst=True)\
+  ",
+2021.0,52.0,Pandas - Selection/slicing,slicing a DataFrame," by customer
+df_comp['Complaints per Person'] = df_comp.groupby('",
+2022.0,1.0,Pandas - Selection/slicing,slicing a DataFrame,"t.csv', parse_dates=['Date of Birth'])
+
+
+#---------------",
+2022.0,2.0,Pandas - Selection/slicing,slicing a DataFrame,"t.csv', parse_dates=['Date of Birth'],
+                 u",
+2022.0,3.0,Pandas - Selection/slicing,slicing a DataFrame,"Input.csv', usecols=['id', 'gender'])\
+                .",
+2022.0,4.0,Pandas - Selection/slicing,slicing a DataFrame,"Input.csv', usecols=['id'])\
+                .",
+2022.0,5.0,Pandas - Selection/slicing,slicing a DataFrame,"letter and points
+df['Grade'] = df.groupby('Subje",
+2022.0,6.0,Pandas - Selection/slicing,slicing a DataFrame,f_scores = df_scores['Scrabble'].str.extract('(?P<Po,
+2022.0,7.0,Pandas - Selection/slicing,slicing a DataFrame,"            if x in ['Offered', 'Not Answered', 'Answered']
+                   ",
+2022.0,8.0,Pandas - Selection/slicing,slicing a DataFrame,"------
+
+drop_cols = ['weight', 'height', 'evolves_from']
+
+with pd.ExcelFile(",
+2022.0,9.0,Pandas - Selection/slicing,slicing a DataFrame,"     .assign(Year=df['Order Date'].dt.year)
+
+
+#-------",
+2022.0,10.0,Pandas - Selection/slicing,slicing a DataFrame,"?)\.png.*? title=\""\[(.*?)\].*? href.*?>(.*?)<.*",
+2022.0,11.0,Pandas - Selection/slicing,slicing a DataFrame,"me=lambda df_x: df_x['Time'] + ':00')
+
+
+#-------",
+2022.0,12.0,Pandas - Selection/slicing,slicing a DataFrame,"--------
+
+usecols = ['EmployerName', 'EmployerId', 'EmployerSize', 'DiffMedianHourlyPercent', 'DateSubmitted']
+
+df = pd.concat([pd",
+2022.0,13.0,Pandas - Selection/slicing,slicing a DataFrame,"= df_orders.groupby(['Customer ID', 'First Name', 'Surname'], as_index=False)['S",
+2022.0,14.0,Pandas - Selection/slicing,slicing a DataFrame,"nd N Series
+usecols=['Player', 'Ser.', 'Wk.', 'Week', 'Total', 'Week.1', 'F', 'F.1']
+renames = {'Ser.' :",
+2022.0,15.0,Pandas - Selection/slicing,slicing a DataFrame,"--------------
+
+df_c['Current Date'] = CURRENT_DATE
+
+# w",
+2022.0,16.0,Pandas - Selection/slicing,slicing a DataFrame,df_orders.columns = [f'{df_orders.columns[i-1]}_Selection' if 'Unn,
+2022.0,17.0,Pandas - Selection/slicing,slicing a DataFrame,"YPES = {'Primary' : ['Cardiff', 'Edinburgh', 'London']}
+
+
+#---------------",
+2022.0,18.0,Pandas - Selection/slicing,slicing a DataFrame," and Measure Name
+df[['Bike Type', 'Month', 'Measure Name']] = df['variable'].s",
+2022.0,19.0,Pandas - Selection/slicing,slicing a DataFrame,"oducts table
+df_prod['Product Code'] = df_prod['Product ",
+2022.0,20.0,Pandas - Selection/slicing,slicing a DataFrame,"person field
+#df_reg['Online/In Person'].unique()
+df_reg['On",
+2022.0,21.0,Pandas - Selection/slicing,slicing a DataFrame,"nt=lambda df_x: df_x['Department'].ffill(),
+          ",
+2022.0,22.0,Pandas - Selection/slicing,slicing a DataFrame,"ogue.sort_values(by=['time_in_secs'])
+                  ",
+2022.0,23.0,Pandas - Selection/slicing,slicing a DataFrame,"
+df_out = pd.concat([df[['Id', 'CreatedDate']]
+                  ",
+2022.0,24.0,Pandas - Selection/slicing,slicing a DataFrame,"ights', parse_dates=['First flight'], 
+                 ",
+2022.0,27.0,Pandas - Selection/slicing,slicing a DataFrame,"        parse_dates=['Sale Date'], dayfirst=True)
+
+
+#",
+2022.0,28.0,Pandas - Selection/slicing,slicing a DataFrame,"        parse_dates=['Sale Date'], dayfirst=True, use",
+2022.0,29.0,Pandas - Selection/slicing,slicing a DataFrame, = lambda df_x: df_x['Product Name'].str.extract('(.*) -,
+2022.0,30.0,Pandas - Selection/slicing,slicing a DataFrame,"    .assign(Region=f[f.find('(') + 1 : f.find(')')])
+                  ",
+2022.0,31.0,Pandas - Selection/slicing,slicing a DataFrame,"Top 10 Products for [store name].csv (six files)
+""""""",
+2022.0,32.0,Pandas - Selection/slicing,slicing a DataFrame,"months to pay off
+df['Monthly Capital'] = df['Monthly Payme",
+2022.0,33.0,Pandas - Selection/slicing,slicing a DataFrame,"        parse_dates=['Sales Date'], dayfirst=True)
+   ",
+2022.0,34.0,Pandas - Selection/slicing,slicing a DataFrame,"heck only):
+      - [one example] PD 2022 Wk 34 Outpu",
+2022.0,35.0,Pandas - Selection/slicing,slicing a DataFrame,"heck only):
+      - [example w/ 30 kph] PD 2022 Wk 35 Outpu",
+2022.0,36.0,Pandas - Selection/slicing,slicing a DataFrame,"a.csv', parse_dates=['scheduled_date'])
+
+
+#---------------",
+2019.0,4.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2020.0,3.0,Rounding,Basic,"+ df_summary['L'])).round(3)
+df_summary['Conf'",
+2020.0,4.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2020.0,6.0,Rounding,Basic," (GBP)'] =    \
+    round(df_all['Sales Value'",
+2020.0,8.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2020.0,9.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2020.0,10.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2020.0,11.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2020.0,12.0,Rounding,Basic,"table
+df['Sales'] = round(df['Total Scent Sale",
+2021.0,2.0,Rounding,Basic,"d per Brand, Type'].round(1)
+
+
+# calculate Day",
+2021.0,6.0,Rounding,Basic,"g_Money_per_Event'].round(0).astype(int)
+
+# ra",
+2021.0,8.0,Rounding,Basic," = final['Date'].dt.round('1s')
+final.to_csv('",
+2021.0,11.0,Rounding,Basic,pes.apply(lambda r: round(float(r['ml']) * r[',
+2021.0,13.0,Rounding,Basic,Play Goals/Game'] = round(df_sum['Open Play Go,
+2021.0,14.0,Rounding,Basic,"1['Avg per Flight'].round(2)
+q1['Rank'] = q1['",
+2021.0,20.0,Rounding,Basic,"[c] = dfSolution[c].round(8)
+                 ",
+2021.0,21.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,22.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,24.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,26.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,28.0,Rounding,Basic,'Shootout Win %'] = round(out1['Shootouts'] / ,
+2021.0,29.0,Rounding,Basic,"c] = df_solution[c].round(8)
+                d",
+2021.0,30.0,Rounding,Basic,efault position' : [round(df['floors_from_dp'],
+2021.0,31.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,32.0,Rounding,Basic,"sum'))\
+           .round(0).astype(int)\
+    ",
+2021.0,33.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,34.0,Rounding,Basic,nths target met'] = round(summary['% of months,
+2021.0,36.0,Rounding,Basic,"dex', 'Avg_index']].round(1)
+
+df['Index Peak']",
+2021.0,37.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,38.0,Rounding,Basic,"['Trilogy Average'].round(1)
+
+
+#--------------",
+2021.0,39.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,40.0,Rounding,Basic,"alize='index')*100).round(1)\
+        .reset_i",
+2021.0,41.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,42.0,Rounding,Basic,"nto fund raising']).round(9)
+
+
+# workout the w",
+2021.0,44.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,45.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,46.0,Rounding,Basic,"c] = df_solution[c].round(6)
+            df_mi",
+2021.0,47.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,48.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,49.0,Rounding,Basic,"t['months_worked']).round(2)
+df_out['Yearly Bo",
+2021.0,50.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2021.0,51.0,Rounding,Basic,"ust['Order Lines']).round(2)
+df_cust['Customer",
+2021.0,52.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2022.0,1.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2022.0,2.0,Rounding,Basic,"c] = df_solution[c].round(8)
+            df_mi",
+2022.0,3.0,Rounding,Basic,": df_x['Avg_Score'].round(1))\
+           .ren",
+2022.0,4.0,Rounding,Basic,"x['Trips_per_day']).round(2))\
+           .ren",
+2022.0,5.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2022.0,6.0,Rounding,Basic,"'Frequency'].sum()).round(2).apply(d.Decimal)
+",
+2022.0,7.0,Rounding,Basic,"l['Calls Offered']).round(3),
+                ",
+2022.0,8.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2022.0,9.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2022.0,10.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2022.0,11.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2022.0,12.0,Rounding,Basic,"dianHourlyPercent'].round(2).abs()\
+          ",
+2022.0,13.0,Rounding,Basic,_Total=lambda df_x: round(df_x['Sales'] / df_x,
+2022.0,14.0,Rounding,Basic,"compare[f'{c}_sol'].round(round_dec)
+         ",
+2022.0,20.0,Rounding,Basic,"ered_Count'] * 100).round(2)
+
+
+# from the Emai",
+2022.0,31.0,Rounding,Basic,"f_out['Sale Value'].round(-1)
+
+    # output th",
+2022.0,33.0,Rounding,Basic,"e_diff_min'].mean().round(1)
+               .r",
+2022.0,35.0,Rounding,Basic,"agg['Total_Rides']).round(1)
+    df_agg['Avg. ",
+2021.0,9.0,Rounding,Round Half Up,"port read_csv
+
+
+def round_half_up(n, decimals=0):
+   ",
+2019.0,25.0,String Functions,"Changing case (upper, lower, title, etc.)","al['unique_key'].str.lower()
+#df_final.head()
+
+",
+2020.0,4.0,String Functions,"Changing case (upper, lower, title, etc.)", new_dict.update({ k.lower() : k.title() for k ,
+2020.0,8.0,String Functions,"Changing case (upper, lower, title, etc.)","_x: df_x['Type'].str.lower())\
+                ",
+2020.0,9.0,String Functions,"Changing case (upper, lower, title, etc.)","etime')
+p.add_layout(Title(text='Data from: rea",
+2020.0,12.0,String Functions,"Changing case (upper, lower, title, etc.)","_lookup['Scent'].str.upper().replace(' +', '', ",
+2021.0,7.0,String Functions,"Changing case (upper, lower, title, etc.)","ns'] = [', '.join([k.lower() for k in dfKeyword",
+2021.0,12.0,String Functions,"Changing case (upper, lower, title, etc.)","end=None)
+    ax.set_title(f""{Breakdown}"")
+    ",
+2021.0,19.0,String Functions,"Changing case (upper, lower, title, etc.)","b-Project Code'].str.lower().replace('ops', 'op",
+2021.0,22.0,String Functions,"Changing case (upper, lower, title, etc.)",n names['Name'] if s.lower().startswith(n.lower,
+2021.0,28.0,String Functions,"Changing case (upper, lower, title, etc.)",df_temp.columns = [c.lower().strip() for c in d,
+2021.0,29.0,String Functions,"Changing case (upper, lower, title, etc.)","eplace('\.', '').str.title().replace(sports_map",
+2021.0,41.0,String Functions,"Changing case (upper, lower, title, etc.)",if c == 'POS' else c.title() for c in df.column,
+2021.0,44.0,String Functions,"Changing case (upper, lower, title, etc.)","re(df['Measure'].str.lower() == 'min', df['Valu",
+2021.0,47.0,String Functions,"Changing case (upper, lower, title, etc.)","yer chart
+    ax.set_title(""\n"".join(wrap(playe",
+2021.0,51.0,String Functions,"Changing case (upper, lower, title, etc.)","        return x.str.lower()
+    else:
+        ",
+2021.0,52.0,String Functions,"Changing case (upper, lower, title, etc.)","nt'].str.strip().str.lower()
+
+
+# find keyword m",
+2022.0,6.0,String Functions,"Changing case (upper, lower, title, etc.)",_x: df_x['Tile'].str.lower().str.extract(r'\s*(,
+2022.0,10.0,String Functions,"Changing case (upper, lower, title, etc.)","pply(lambda x: x.str.lower()),
+                ",
+2022.0,20.0,String Functions,"Changing case (upper, lower, title, etc.)","line/In Person'].str.lower().str[0]=='o',
+     ",
+2022.0,29.0,String Functions,"Changing case (upper, lower, title, etc.)","arget['PRODUCT'].str.title()
+df_target['Store N",
+2022.0,34.0,String Functions,"Changing case (upper, lower, title, etc.)",nput(f'\n{value_name.title()} list:\n{options_s,
+2022.0,35.0,String Functions,"Changing case (upper, lower, title, etc.)","pe'].str.strip().str.title()
+    df['Year'] = -",
+2019.0,4.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2019.0,25.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,1.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,2.0,String Functions,Count matches,"""""""
+Preppin Data Challeng",
+2020.0,3.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,4.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,5.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,6.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,7.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,8.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,9.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,10.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,11.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,12.0,String Functions,Count matches,g# -*- coding: utf-8 ,
+2020.0,17.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,32.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,1.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,2.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,3.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,4.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,5.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,6.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,7.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,8.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,9.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,10.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,11.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,12.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,13.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,14.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,15.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,16.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,17.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,18.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,19.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,20.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,21.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,22.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,23.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,24.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,25.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,26.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,27.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,28.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,29.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,30.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,31.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,32.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,33.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,34.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,35.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,36.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,37.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,38.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,39.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,40.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,41.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,42.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,43.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,44.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,45.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,46.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,47.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,48.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,49.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,50.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,51.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2021.0,52.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,1.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,2.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,3.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,4.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,5.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,6.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,7.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,8.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,9.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,10.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,11.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,12.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,13.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,14.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,15.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,16.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,17.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,18.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,19.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,20.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,21.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,22.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,23.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,24.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,27.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,28.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,29.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,30.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,31.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,32.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,33.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,34.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,35.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2022.0,36.0,String Functions,Count matches,"# -*- coding: utf-8 -*-
+""""""",
+2020.0,3.0,String Functions,String slicing,"     df_summary.iloc[:, 2:].fillna(0).astype(in",1.0
+2020.0,8.0,String Functions,String slicing," = df_budget_in.iloc[0:header_row]\
+                  ",1.0
+2021.0,1.0,String Functions,String slicing," values
+df = df.iloc[10:]
+
+# output the data ",1.0
+2021.0,2.0,String Functions,String slicing,"_brand = df.groupby(['Brand', 'Bike Type']).agg({ 'Quantity' : ['sum'],
+                  ",1.0
+2021.0,3.0,String Functions,String slicing,"df_solution.columns)[:-1])
+        
+        i",1.0
+2021.0,4.0,String Functions,String slicing,"df_solution.columns)[:-1])
+        
+        i",1.0
+2021.0,5.0,String Functions,String slicing,"df_solution.columns)[:-1])
+        
+        i",1.0
+2021.0,6.0,String Functions,String slicing,"df_solution.columns)[:-1])
+        
+        i",1.0
+2021.0,7.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,8.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,9.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,10.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,11.0,String Functions,String slicing,"how='left')
+
+recipes['Cost'] = recipes.apply(lambda r: round(float(r['ml']) * r['price_pounds'",1.0
+2021.0,12.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,13.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,14.0,String Functions,String slicing,"rs=seats_mtx.columns[1:])
+seats.rename(colum",1.0
+2021.0,15.0,String Functions,String slicing,"scending=False).iloc[0:1, :]
+out2.rename(columns",1.0
+2021.0,16.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,17.0,String Functions,String slicing,"elds and Rename
+df_m[['Name', 'Age', 'Area of Work']] = df_m.iloc[:, 0].str.extract('(.*), ",1.0
+2021.0,18.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,19.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+        dfCompare.",1.0
+2021.0,20.0,String Functions,String slicing,"(dfSolution.columns)[:-1])
+            dfComp",1.0
+2021.0,21.0,String Functions,String slicing,"df_solution.columns)[:-1],
+                  ",1.0
+2021.0,22.0,String Functions,String slicing,"egory data
+cat = cat['Category: Answer'].str.strip().str.ext",1.0
+2021.0,24.0,String Functions,String slicing,"date = df_dates.iloc[df_dates.iloc[:, 1].idxmax()]['Date']
+p",1.0
+2021.0,25.0,String Functions,String slicing,"antamax form
+exclude['Name_clean'] = exclude['Name'].str.extract('(?:\w+) (.*?)(?: [XY]|$)')
+exclude_list =",1.0
+2021.0,28.0,String Functions,String slicing,"e requirements)
+df_m['date'] = to_datetime(df_m['event year'].str[0:4] + df_m['date'].dt.s",1.0
+2021.0,30.0,String Functions,String slicing,"der is maintained
+df['trip_dtt'] = to_datetime('2021-07-12 ' + df['Hour'].astype(str) + ':' + df['Minute'].astype(str), 
+     ",1.0
+2021.0,31.0,String Functions,String slicing,"everse()
+
+pivot.iloc[0:len(pivot)-1].to_csv(r'.\outputs\",1.0
+2021.0,33.0,String Functions,String slicing,"he Reporting Date
+df['Reporting Date'] = to_datetime(df['sheet'].str[0:4] + '-' + df['sheet']",1.0
+2021.0,36.0,String Functions,String slicing,"ar-1}/{str(max_year)[-2:]} avg index', 
+     ",1.0
+2021.0,45.0,String Functions,String slicing,"               + (df['Session Time'].astype(str) + ':00:00').str[0:8])
+df.drop(columns=['",1.0
+2021.0,46.0,String Functions,String slicing,"me
+df_cols = concat([DataFrame({'col_name' : d[s].columns}).assign(df",1.0
+2021.0,47.0,String Functions,String slicing,"
+for ax in axis_list[player_count+1:]:
+    ax.remove()
+  ",1.0
+2021.0,48.0,String Functions,String slicing,"t = df.melt(id_vars=['Unnamed: 1'],
+                  ",1.0
+2022.0,4.0,String Functions,String slicing,"eekdays into rows
+# [KLG: the join doesn't seem necessary for the result. I think it's just for practice!]
+df = df.merge(df_st",1.0
+2022.0,10.0,String Functions,String slicing,"       df_html_m.loc[df_html_m['variable']=='Named'].apply(lambda x: x.str.title())])\
+              .dr",1.0
+2022.0,12.0,String Functions,String slicing,"    .assign(Report=f[-16:-4],
+                  ",1.0
+2022.0,13.0,String Functions,String slicing,"ut the table
+df.iloc[0:filter_rows].rename(columns=lamb",1.0
+2022.0,21.0,String Functions,String slicing,            + df_out['Breakdown'].str[0:2] + df_out['Departmen,1.0
+2022.0,30.0,String Functions,String slicing,"    .assign(Region=f[f.find('(') + 1 : f.find(')')])
+                  ",1.0
+2022.0,33.0,String Functions,String slicing," product ID
+df_sales['Product Type'] = df_sales['Product'].replace({k:v for k,v in zip(df_lookup['Product ID'], 
+                 ",1.0
+2022.0,36.0,String Functions,String slicing,"ll_combos = emp_date[:,0] * multiplier + emp_",1.0
+2019.0,4.0,String Functions,"contains, startswith, endswith"," in df.columns if c.startswith('HI ')]:
+    df[[f'{",
+2019.0,25.0,String Functions,"contains, startswith, endswith","ined['Concert'].str.contains('/')]
+8#df_artist.he",
+2020.0,4.0,String Functions,"contains, startswith, endswith","M'].str.lower().str.contains('pm'), 12, 0)
+df_p['",
+2020.0,9.0,String Functions,"contains, startswith, endswith","  .query(""~Poll.str.contains('Average')"", engine=",
+2020.0,10.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,12.0,String Functions,"contains, startswith, endswith",eries-Measure'].str.contains('Tourist arrivals')),
+2021.0,21.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,22.0,String Functions,"contains, startswith, endswith","Name'] if s.lower().startswith(n.lower())] 
+       ",
+2021.0,24.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,26.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,28.0,String Functions,"contains, startswith, endswith","   .str.lower().str.contains('penalty scored')
+df",
+2021.0,29.0,String Functions,"contains, startswith, endswith",'Events Split'].str.contains('Gold Medal|Victory ,
+2021.0,31.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,32.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,33.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,37.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,38.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,39.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,41.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,42.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,44.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,45.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,46.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,47.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,48.0,String Functions,"contains, startswith, endswith","t['True Value'].str.contains('Year')==True,
+     ",
+2021.0,49.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,50.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,51.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2021.0,52.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2022.0,1.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2022.0,2.0,String Functions,"contains, startswith, endswith","   for c in s[s.str.contains('float')].index:
+   ",
+2022.0,21.0,String Functions,"contains, startswith, endswith","(df_x['Target'].str.contains('%'), 1/100, 1) )
+  ",
+2022.0,23.0,String Functions,"contains, startswith, endswith","df['StageName'].str.contains('Closed')][['Id', 'C",
+2022.0,31.0,String Functions,"contains, startswith, endswith","'Product Name'].str.contains('Liquid')),
+        ",
+2021.0,52.0,String Functions,findall,"omp['Complaint'].str.findall(keywords))\
+        ",
+2022.0,6.0,String Functions,findall,"rd'].str.lower().str.findall('(.)'))\
+           ",
+2020.0,6.0,String Functions,join,s_sum.columns = ['_'.join(t) if t[1] else t[0],
+2021.0,7.0,String Functions,join,"['Contains'] = [', '.join([k.lower() for k in ",
+2021.0,34.0,String Functions,join,"he lookup:\n' + '\n'.join(missing_stores))
+
+
+#",
+2021.0,47.0,String Functions,join,"   ax.set_title(""\n"".join(wrap(player_name, 15",
+2021.0,52.0,String Functions,join,"yword
+keywords = '|'.join(df_dept['Keyword'].s",
+2022.0,12.0,String Functions,join,"at([pd.read_csv(path.join(IN_DIR, f), encoding",
+2022.0,16.0,String Functions,join,Dish'].str.match('|'.join(list(COURSES.keys()),
+2022.0,31.0,String Functions,join,re_list_str = '\n  '.join([f'{i+1} - {n}' for ,
+2022.0,34.0,String Functions,join,  options_str = '\n'.join([f'  {i+1} - {c}' fo,
+2020.0,2.0,String Functions,ljust / rjust,"se)
+df['am_pm'] = [t.ljust(2, 'm') if t != '' e",
+2019.0,4.0,String Functions,match,"e(df['OPPONENT'].str.match('^vs'), 'Home', 'Awa",
+2020.0,17.0,String Functions,match,t['flag'] = where(re.match('^|\W' + dfDeviceCou,
+2021.0,12.0,String Functions,match,rchy-Breakdown'].str.match('.*Tourist arrivals ,
+2022.0,16.0,String Functions,match,ere(df_x['Dish'].str.match('|'.join(list(COURSE,
+2019.0,4.0,String Functions,replace,-L'] = df['W-L'].str.replace('\d{4}-0?(\d+)-0?(\d+,1.0
+2020.0,2.0,String Functions,replace,"t'] = df['Time'].str.replace('\D','', regex=True)
+",1.0
+2020.0,4.0,String Functions,replace,ountry'].str.lower().replace(split_dict(country_di,1.0
+2020.0,7.0,String Functions,replace,"f_curr['Salary'].str.replace(r""[\D]"",'')  
+df_curr",1.0
+2020.0,8.0,String Functions,replace,"  .assign(Week=int(s.replace('Week ', '')))\
+     ",1.0
+2020.0,9.0,String Functions,replace,"ype'] = df['Sample'].replace(sample_map, regex=Tru",1.0
+2020.0,11.0,String Functions,replace,"df_x['Box_Size'].str.replace('Boxes of ', '').asty",1.0
+2020.0,12.0,String Functions,replace,"ot['Scent_orig'].str.replace(' ', '')
+
+
+# Percenta",1.0
+2021.0,1.0,String Functions,replace," 'Road' }
+df['Bike'].replace(remap, inplace=True)
+",1.0
+2021.0,2.0,String Functions,replace,"'] = df['Model'].str.replace('[^A-Z]+', '')
+
+
+# wo",1.0
+2021.0,6.0,String Functions,replace,"dfAll['Measure'].str.replace('_', ' ')
+
+# output
+d",1.0
+2021.0,12.0,String Functions,replace,Series-Measure'].str.replace('Tourist arrivals fro,1.0
+2021.0,14.0,String Functions,replace,"_list.iloc[:, 0].str.replace('[\[\]]', '').str.spl",1.0
+2021.0,19.0,String Functions,replace,"t Code'].str.lower().replace('ops', 'op')
+df['Abbr",1.0
+2021.0,21.0,String Functions,replace,"df['sheet_name'].str.replace('Month ', '')
+       ",1.0
+2021.0,26.0,String Functions,replace," df_all.columns = [c.replace('_', ' ') for c in df",1.0
+2021.0,27.0,String Functions,replace,"ob'].astype(str).str.replace('>', '').astype(float",1.0
+2021.0,28.0,String Functions,replace,"] = df_m['Team'].str.replace('.*Germany.*', 'Germa",1.0
+2021.0,29.0,String Functions,replace,"e(events['Date'].str.replace('(?<=\d)[a-z]+', '') ",1.0
+2021.0,30.0,String Functions,replace,'From'] = df['From'].replace(floor_map).astype(int,1.0
+2021.0,34.0,String Functions,replace,"] = targets['Store'].replace(store_map_stack)
+
+mis",1.0
+2021.0,36.0,String Functions,replace,"t['Search Term'].str.replace(':.*', '')
+df_c['Sear",1.0
+2021.0,38.0,String Functions,replace,"
+df_sum.columns = [c.replace('_', ' ') for c in df",1.0
+2021.0,43.0,String Functions,replace,"g'] = df_a['Rating'].replace(risk_dict)
+
+
+# bring ",1.0
+2021.0,46.0,String Functions,replace,"ames
+df.columns = [c.replace('_', ' ') for c in df",1.0
+2021.0,48.0,String Functions,replace,"lt['True Value'].str.replace('Year ', ''), nan))\
+",1.0
+2021.0,51.0,String Functions,replace,"'Unit Price_in'].str.replace('[^\d\.\-]', '', rege",1.0
+2022.0,2.0,String Functions,replace,'].apply(lambda x: x.replace(year=datetime.now().y,1.0
+2022.0,4.0,String Functions,replace,['Method of Travel'].replace(travel_method_renames,1.0
+2022.0,5.0,String Functions,replace,"ints'] = df['Grade'].replace(grade_map)
+
+
+# determ",1.0
+2022.0,7.0,String Functions,replace,"(columns=lambda x: x.replace('_', ' '))\
+      .to",1.0
+2022.0,10.0,String Functions,replace,"['DownloadData'].str.replace('\n', '').str.extract",1.0
+2022.0,12.0,String Functions,replace,"    .astype(str).str.replace('\.?0$', '', regex=Tr",1.0
+2022.0,13.0,String Functions,replace,"(columns=lambda x: x.replace('_', ' ').replace('Pc",1.0
+2022.0,15.0,String Functions,replace,"(columns=lambda x: x.replace('_', ' '))
+         
+",1.0
+2022.0,16.0,String Functions,replace,"        df_x['Dish'].replace(COURSES), NaN )).ffil",1.0
+2022.0,17.0,String Functions,replace,"_x: df_x['location'].replace(LOCATION_RENAMES))\
+ ",1.0
+2022.0,19.0,String Functions,replace,"['Product Code'].str.replace('S', '')
+
+
+# get the ",1.0
+2022.0,20.0,String Functions,replace,df_reg['Session ID'].replace(dict(zip(df_ses['Sess,1.0
+2022.0,21.0,String Functions,replace,": df_x['Target'].str.replace('[^0-9\.\-]', '', reg",1.0
+2022.0,22.0,String Functions,replace,   df_out['Episode'].replace(dict(zip(df_eps['Epis,1.0
+2022.0,24.0,String Functions,replace,"ghts[['From', 'To']].replace('[-–/].*', '', regex=",1.0
+2022.0,27.0,String Functions,replace,"(columns=lambda x: x.replace('_', ' '))           ",1.0
+2022.0,28.0,String Functions,replace,"(columns=lambda x: x.replace('_', ' '))
+          ",1.0
+2022.0,32.0,String Functions,replace,"(columns=lambda c: c.replace('_', ' '))
+         )",1.0
+2022.0,33.0,String Functions,replace,"(columns=lambda c: c.replace('_', ' '))
+          ",1.0
+2022.0,35.0,String Functions,replace,"(columns=lambda c: c.replace('_', ' '))
+          ",1.0
+2019.0,25.0,String Functions,split,"f_artist.Concert.str.split(' / ').tolist(), \
+ ",
+2021.0,1.0,String Functions,split,"['Store - Bike'].str.split(pat=' - ', expand=Tr",
+2021.0,3.0,String Functions,split,"stomer-Product'].str.split(pat=' - ', expand=Tr",
+2021.0,4.0,String Functions,split,"stomer-Product'].str.split(pat=' - ', expand=Tr",
+2021.0,7.0,String Functions,split,"ywordsIn.stack().str.split(', ').explode().rese",
+2021.0,9.0,String Functions,split,"on.xlsx')['IDs'].str.split(' ').explode()
+areas",
+2021.0,11.0,String Functions,split,s['Recipe (ml)'].str.split('; ').explode().str.,
+2021.0,14.0,String Functions,split,"ce('[\[\]]', '').str.split('|', expand=True)
+fl",
+2021.0,15.0,String Functions,split,"er'].astype(str).str.split('-')
+orders = orders",
+2021.0,16.0,String Functions,split,"] = df['Result'].str.split(' - ', expand=True).",
+2021.0,19.0,String Functions,split,df['Commentary'].str.split('\s+(?=\[)').explode,
+2021.0,21.0,String Functions,split," = df['Product'].str.split(' -').str[0]
+
+# make",
+2021.0,29.0,String Functions,split,"events['Events'].str.split(',')]
+events = event",
+2021.0,45.0,String Functions,split,"f['Attendee ID'].str.split(', ')
+df = df.explod",
+2022.0,6.0,String Functions,split,"_x: df_x['Tile'].str.split(','))\
+            .",
+2022.0,22.0,String Functions,split,"replace(' ', '').str.split(','),
+              ",
+2021.0,9.0,String Functions,strip,"roducts['Price'].str.strip('£').astype(float)
+
+",
+2021.0,13.0,String Functions,strip,"e'] = df['Name'].str.strip()
+
+# remove all goal",
+2021.0,15.0,String Functions,strip,"re(menu['field'].str.strip() == '', 'Item', men",
+2021.0,16.0,String Functions,strip,olution.columns = [c.strip() for c in dfSolutio,
+2021.0,19.0,String Functions,strip,"=\[)').explode().str.strip().reset_index()
+
+# p",
+2021.0,21.0,String Functions,strip,"f['Destination'].str.strip()
+
+# Use the Day of ",
+2021.0,22.0,String Functions,strip,tegory: Answer'].str.strip().str.extract('(?P<C,
+2021.0,28.0,String Functions,strip,columns = [c.lower().strip() for c in df_temp.c,
+2021.0,29.0,String Functions,strip,Events Split'] = [[e.strip() for e in es] for e,
+2021.0,43.0,String Functions,strip,"_b])
+df.columns = [c.strip() for c in df.column",
+2021.0,46.0,String Functions,strip,"'Staff Comment'].str.strip()),
+                ",
+2021.0,52.0,String Functions,strip,"omp['Complaint'].str.strip().str.lower()
+
+
+# fi",
+2022.0,22.0,String Functions,strip,"ue'].astype(str).str.strip())
+                 ",
+2022.0,34.0,String Functions,strip,"df['Music Type'].str.strip().str.title()
+    df",
+2022.0,35.0,String Functions,strip,"df['Music Type'].str.strip().str.title()
+    df",
+2020.0,11.0,numpy,ceil / floor,f'Boxes of {s}'] = (np.ceil(df['Remainder'] / s),
+2021.0,9.0,numpy,ceil / floor,"taFrame, read_excel
+from numpy import floor, vectorize
+
+# used ",
+2021.0,23.0,numpy,ceil / floor,"NPS Input.xlsx
+""""""
+
+from numpy import floor
+from pandas import ",
+2021.0,47.0,numpy,ceil / floor,"patches as mpatches
+from numpy import ceil, pi, where
+from pan",
+2022.0,32.0,numpy,ceil / floor,"ime import datetime
+from numpy import ceil
+import pandas as pd",
+2022.0,36.0,numpy,ceil / floor,"ultiplier = pow(10, np.ceil(log10(len(date_list)",
+2019.0,4.0,numpy,where,"ur Output.csv
+""""""
+
+
+from numpy import where
+from pandas import ",
+2020.0,3.0,numpy,where,"port datetime as dt
+from numpy import where, nan
+from os import",
+2020.0,11.0,numpy,where,s['Soaps in Box'] = np.where((df_soaps['Box Size',
+2020.0,17.0,numpy,where,", read_excel, merge
+from numpy import where
+import re
+
+chdir('C",
+2021.0,14.0,numpy,where," Input.xlsx)
+
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,15.0,numpy,where,"- Output 2.csv
+""""""
+
+from numpy import where
+from pandas import ",
+2021.0,16.0,numpy,where,"9 Output.csv
+
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,20.0,numpy,where,"0 Output.xlsx
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,28.0,numpy,where,"8 Output.xlsx
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,33.0,numpy,where,"33 Output.csv
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,34.0,numpy,where,"34 Input.xlsx
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,35.0,numpy,where,"ile this week)
+""""""
+
+from numpy import where
+from pandas import ",
+2021.0,40.0,numpy,where,"_Outcomes.csv
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,42.0,numpy,where,"42 Output.csv
+""""""
+
+
+from numpy import where    # only used for ",
+2021.0,43.0,numpy,where," screen shot)
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,44.0,numpy,where,"44 Output.csv
+""""""
+
+
+from numpy import where
+from pandas import ",
+2021.0,50.0,numpy,where,"ent Output.csv
+""""""
+
+from numpy import where
+from pandas import ",
+2021.0,51.0,numpy,where,"ion Table.csv
+""""""
+
+
+from numpy import where
+from pandas import ",
+2022.0,1.0,numpy,where," 1 Output.csv
+""""""
+
+
+from numpy import where
+from pandas import ",
+2022.0,4.0,numpy,where,['Sustainable?']  = np.where(df['Method of Travel,
+2022.0,6.0,numpy,where,"import decimal as d
+from numpy import where
+import pandas as pd",
+2022.0,7.0,numpy,where,"ll Center.csv
+""""""
+
+
+from numpy import where, NaN
+import pandas ",
+2022.0,8.0,numpy,where,"a_gnv_feb.csv
+""""""
+
+
+from numpy import where
+import pandas as pd",
+2022.0,15.0,numpy,where, value=lambda df_x: np.where(df_x['Month Divider',
+2022.0,17.0,numpy,where," check only)
+
+""""""
+
+
+from numpy import where
+import pandas as pd",
+2022.0,20.0,numpy,where,"import pandas as pd
+from numpy import where
+import output_check",
+2022.0,21.0,numpy,where,"21 Output.csv
+""""""
+
+
+from numpy import where
+import pandas as pd",
+2022.0,22.0,numpy,where,"used for chart only
+from numpy import where
+import pandas as pd",
+2022.0,23.0,numpy,where,"orce Data.csv
+""""""
+
+
+from numpy import where
+import pandas as pd",
+2022.0,27.0,numpy,where,"id Output.csv
+""""""
+
+
+from numpy import where
+import pandas as pd",
