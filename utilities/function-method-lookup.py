@@ -13,7 +13,7 @@ Created on Sun Sep 11 14:43:12 2022
 
 import glob
 import pandas as pd
-from numpy import nan, where
+from numpy import NaN, where
 import re
 
 
@@ -62,7 +62,7 @@ df_all = df.merge(df_regex, how='cross')
 # if the code string matches the regex, return a code snippet; otherwise nan
 df_all['code_snippet'] = [make_snippet(c, *x.span(), margin=20) 
                           if (x := re.search(r.lower(), c.lower(), flags=re.DOTALL)) != None 
-                          else nan
+                          else NaN
                           for c,r in zip(df_all['contents'], df_all['Regex'])]
 
 df_all = df_all.loc[df_all['code_snippet'].notna()]
@@ -94,18 +94,14 @@ df_regex[df_regex['May Undercount']==1][['Category', 'Function/Method/Concept', 
 # --------------------------------------------------------------------------------------------------
 
 # parse actual weeks
-df_weeks = ( df_regex.assign(year_week=lambda df_x: df_x['Weeks Used'].replace(':', '').str.split('\s+'))
-               .explode('year_week')
-               .assign(year=lambda df_x: pd.Series(where(~df_x['year_week'].str.contains('W'),
-                                                         df_x['year_week'], nan))
-                                                       .ffill()
-                                                       .str.replace(':', '', regex=False)
-                                                       .astype(int),
-                     week=lambda df_x: where(df_x['year_week'].str.startswith('W'),
-                                             df_x['year_week'].str.replace('W', '', True),0)
-                                          .astype(int))
-               .drop(columns=['year_week', 'Weeks Used', 'Regex', 'May Overcount', 'May Undercount'])
-               .query('week != 0')
+df_weeks = ( df_regex.assign(week=lambda df_x: df_x['Weeks Used'].str.split('\:?\s+W?0?'))
+                 .explode('week')
+                 .reset_index()
+                 .assign(week = lambda df_x: df_x['week'].astype(int))
+                 .assign(year = lambda df_x: pd.Series(where(df_x['week'] > 100, df_x['week'], None))
+                                               .ffill())
+                 .drop(columns=['Weeks Used', 'Regex', 'May Overcount', 'May Undercount'])
+                 .query('week != year')
            )
 
 df_compare = ( df_all[['Category', 'Function/Method/Concept', 'year', 'week']]
@@ -114,13 +110,26 @@ df_compare = ( df_all[['Category', 'Function/Method/Concept', 'year', 'week']]
                   [['Category', 'Function/Method/Concept', 'year', 'week', '_merge']]
              )
 
+df_compare['_merge'] = df_compare['_merge'].replace({'right_only' : 'in actual', 
+                                                     'left_only' : 'in regex match'})
+
+
+df_compare.to_csv(r'C:\Users\gilbe\projects\preppin-data-challenge\utilities\compare_output.csv')
+
+
+
 print('Weeks in actuals, not in regex match:\n')
-print(df_compare[df_compare['_merge']=='right_only'])
+print(df_compare[df_compare['_merge']=='in actual'])
 
 print('Weeks in regex_match, not in actuals:\n')
-print(df_compare[df_compare['_merge']=='left_only'].drop(columns='_merge'))
+print(df_compare[df_compare['_merge']=='in regex match'].drop(columns='_merge'))
+
+print('Weeks in both:\n')
+print(df_compare[df_compare['_merge']=='both'].drop(columns='_merge'))
 
 
+
+df_compare[(df_compare['year']==2021) & (df_compare['week']==47)]
 # --------------------------------------------------------------------------------------------------
 
 
