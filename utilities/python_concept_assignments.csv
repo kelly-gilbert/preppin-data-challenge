@@ -1,0 +1,1187 @@
+Category,Function/Method/Concept,year,week
+Other,Loops,2019.0,4.0
+Other,f strings / format,2019.0,4.0
+Other,list/dict comprehension,2019.0,4.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2019.0,4.0
+Pandas - Dates,"```DateOffset```, ```offsets```",2019.0,4.0
+Pandas - File I/O,Read Excel files,2019.0,4.0
+Pandas - Reshaping,```extract```,2019.0,4.0
+String Functions,String slicing,2019.0,4.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2019.0,4.0
+String Functions,```match```,2019.0,4.0
+numpy,```where```,2019.0,4.0
+Pandas - Dates,```dt.strftime```,2019.0,25.0
+Pandas - File I/O,Read Excel files,2019.0,25.0
+Pandas - Joining,```concat```,2019.0,25.0
+Pandas - Joining,```merge```,2019.0,25.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2019.0,25.0
+Pandas - Reshaping,```extract```,2019.0,25.0
+Pandas - Reshaping,```stack```,2019.0,25.0
+Pandas - Selection/slicing,```drop_duplicates```,2019.0,25.0
+Pandas - Selection/slicing,```drop```,2019.0,25.0
+Pandas - Selection/slicing,slicing a DataFrame,2019.0,25.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2019.0,25.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2019.0,25.0
+String Functions,```split```,2019.0,25.0
+Other,Loops,2020.0,1.0
+Other,list/dict comprehension,2020.0,1.0
+Pandas - Joining,```concat```,2020.0,1.0
+Pandas - Joining,```merge```,2020.0,1.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2020.0,1.0
+Pandas - Reshaping,```extract```,2020.0,1.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,1.0
+String Functions,Count matches,2020.0,1.0
+Other,```zip```,2020.0,2.0
+Other,list/dict comprehension,2020.0,2.0
+Pandas - Dates,```dt.strftime```,2020.0,2.0
+Pandas - Dates,```dt.strptime```,2020.0,2.0
+String Functions,"```ljust```, ```rjust```",2020.0,2.0
+String Functions,```replace```,2020.0,2.0
+Other,Loops,2020.0,3.0
+Other,list/dict comprehension,2020.0,3.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2020.0,3.0
+Pandas - Aggregation,Named Aggregation,2020.0,3.0
+Pandas - Aggregation,```rank```,2020.0,3.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2020.0,3.0
+Pandas - Dates,```dt.strptime```,2020.0,3.0
+Pandas - File I/O,Read Excel files,2020.0,3.0
+Pandas - File I/O,Write multiple tabs to Excel file,2020.0,3.0
+Pandas - Joining,```concat```,2020.0,3.0
+Pandas - Joining,```merge```,2020.0,3.0
+Pandas - Other,```astype```,2020.0,3.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2020.0,3.0
+Pandas - Other,```sort_values```,2020.0,3.0
+Pandas - Reshaping,```melt```,2020.0,3.0
+Pandas - Selection/slicing,```drop```,2020.0,3.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,3.0
+Rounding,Basic,2020.0,3.0
+numpy,```where```,2020.0,3.0
+Other,Function,2020.0,4.0
+Other,Mapping values with dictionary,2020.0,4.0
+Other,```zip```,2020.0,4.0
+Other,list/dict comprehension,2020.0,4.0
+Pandas - Aggregation,```transform```,2020.0,4.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2020.0,4.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2020.0,4.0
+Pandas - Dates,"```timedelta```, ```to_timedelta```, ```relativedelta```",2020.0,4.0
+Pandas - Dates,```to_datetime```,2020.0,4.0
+Pandas - Joining,```merge```,2020.0,4.0
+Pandas - Other,"```apply```, ```map```",2020.0,4.0
+Pandas - Other,```astype```,2020.0,4.0
+Pandas - Reshaping,```extract```,2020.0,4.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2020.0,4.0
+Pandas - Selection/slicing,```drop_duplicates```,2020.0,4.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,4.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2020.0,4.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2020.0,4.0
+String Functions,```replace```,2020.0,4.0
+numpy,```where```,2020.0,4.0
+Pandas - Aggregation,Named Aggregation,2020.0,5.0
+Pandas - Aggregation,```rank```,2020.0,5.0
+Pandas - Other,```sort_values```,2020.0,5.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,5.0
+Other,list/dict comprehension,2020.0,6.0
+Pandas - Aggregation,Named Aggregation,2020.0,6.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2020.0,6.0
+Pandas - Dates,```dt.strftime```,2020.0,6.0
+Pandas - File I/O,Read Excel files,2020.0,6.0
+Pandas - Joining,```merge```,2020.0,6.0
+Pandas - Other,```astype```,2020.0,6.0
+Pandas - Reshaping,```extract```,2020.0,6.0
+Pandas - Selection/slicing,```drop```,2020.0,6.0
+Rounding,Basic,2020.0,6.0
+String Functions,```join```,2020.0,6.0
+Other,Mapping values with dictionary,2020.0,7.0
+Other,list/dict comprehension,2020.0,7.0
+Pandas - Aggregation,Named Aggregation,2020.0,7.0
+Pandas - Dates,"```timedelta```, ```to_timedelta```, ```relativedelta```",2020.0,7.0
+Pandas - Joining,```concat```,2020.0,7.0
+Pandas - Joining,```merge```,2020.0,7.0
+Pandas - Other,```astype```,2020.0,7.0
+String Functions,```replace```,2020.0,7.0
+Other,list/dict comprehension,2020.0,8.0
+Other,list/dict comprehension,2020.0,8.0
+Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2020.0,8.0
+Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2020.0,8.0
+Pandas - Dates,```dt.strftime```,2020.0,8.0
+Pandas - Dates,```dt.strftime```,2020.0,8.0
+Pandas - File I/O,Read Excel files,2020.0,8.0
+Pandas - File I/O,Read Excel files,2020.0,8.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2020.0,8.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2020.0,8.0
+Pandas - Joining,```concat```,2020.0,8.0
+Pandas - Joining,```concat```,2020.0,8.0
+Pandas - Joining,```merge```,2020.0,8.0
+Pandas - Joining,```merge```,2020.0,8.0
+Pandas - Other,```assign```,2020.0,8.0
+Pandas - Other,```assign```,2020.0,8.0
+Pandas - Other,```astype```,2020.0,8.0
+Pandas - Other,```astype```,2020.0,8.0
+Pandas - Reshaping,```explode```,2020.0,8.0
+Pandas - Reshaping,```explode```,2020.0,8.0
+Pandas - Reshaping,```extract```,2020.0,8.0
+Pandas - Reshaping,```extract```,2020.0,8.0
+Pandas - Reshaping,```melt```,2020.0,8.0
+Pandas - Reshaping,```melt```,2020.0,8.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2020.0,8.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2020.0,8.0
+Pandas - Selection/slicing,```dropna```,2020.0,8.0
+Pandas - Selection/slicing,```dropna```,2020.0,8.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,8.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,8.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2020.0,8.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2020.0,8.0
+String Functions,String slicing,2020.0,8.0
+String Functions,String slicing,2020.0,8.0
+String Functions,```replace```,2020.0,8.0
+String Functions,```replace```,2020.0,8.0
+String Functions,```strip```,2020.0,8.0
+String Functions,```strip```,2020.0,8.0
+numpy,"aggregate functions (e.g. ```sum```, ```max```)",2020.0,8.0
+numpy,"aggregate functions (e.g. ```sum```, ```max```)",2020.0,8.0
+Charts,```Bokeh```,2020.0,9.0
+Other,Loops,2020.0,9.0
+Other,Mapping values with dictionary,2020.0,9.0
+Other,list/dict comprehension,2020.0,9.0
+Pandas - Aggregation,```rank```,2020.0,9.0
+Pandas - Aggregation,```transform```,2020.0,9.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2020.0,9.0
+Pandas - Dates,"```DateOffset```, ```offsets```",2020.0,9.0
+Pandas - Dates,```to_datetime```,2020.0,9.0
+Pandas - Other,```astype```,2020.0,9.0
+Pandas - Other,```sort_values```,2020.0,9.0
+Pandas - Reshaping,```extract```,2020.0,9.0
+Pandas - Reshaping,```melt```,2020.0,9.0
+Pandas - Selection/slicing,```dropna```,2020.0,9.0
+Pandas - Selection/slicing,```query```,2020.0,9.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,9.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2020.0,9.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2020.0,9.0
+String Functions,```replace```,2020.0,9.0
+numpy,```where```,2020.0,9.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2020.0,10.0
+Other,Function,2020.0,11.0
+Other,Loops,2020.0,11.0
+Other,f strings / format,2020.0,11.0
+Other,"list methods (```sort```, ```reverse```, ```append```, ```union```, etc.)",2020.0,11.0
+Other,list/dict comprehension,2020.0,11.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2020.0,11.0
+Pandas - Aggregation,```transform```,2020.0,11.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2020.0,11.0
+Pandas - File I/O,Read Excel files,2020.0,11.0
+Pandas - Joining,```concat```,2020.0,11.0
+Pandas - Other,```assign```,2020.0,11.0
+Pandas - Other,```astype```,2020.0,11.0
+Pandas - Reshaping,```explode```,2020.0,11.0
+Pandas - Reshaping,```melt```,2020.0,11.0
+Pandas - Selection/slicing,```drop```,2020.0,11.0
+Pandas - Selection/slicing,```dropna```,2020.0,11.0
+String Functions,```replace```,2020.0,11.0
+numpy,"```ceil```, ```floor```",2020.0,11.0
+numpy,```where```,2020.0,11.0
+Other,Function,2020.0,12.0
+Other,list/dict comprehension,2020.0,12.0
+Other,user input,2020.0,12.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2020.0,12.0
+Pandas - Dates,```dt.strftime```,2020.0,12.0
+Pandas - File I/O,Read Excel files,2020.0,12.0
+Pandas - Joining,```merge```,2020.0,12.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,12.0
+Rounding,Basic,2020.0,12.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2020.0,12.0
+String Functions,```replace```,2020.0,12.0
+Pandas - File I/O,Read Excel files,2020.0,17.0
+Pandas - Joining,```merge```,2020.0,17.0
+Pandas - Selection/slicing,```drop_duplicates```,2020.0,17.0
+String Functions,```match```,2020.0,17.0
+numpy,```where```,2020.0,17.0
+Pandas - File I/O,Read Excel files,2020.0,32.0
+Pandas - Joining,```merge_asof```,2020.0,32.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2020.0,32.0
+Charts,```Seaborn```,2021.0,1.0
+Other,Mapping values with dictionary,2021.0,1.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2021.0,1.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,1.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,1.0
+Pandas - Joining,```merge```,2021.0,1.0
+Pandas - Other,"```apply```, ```map```",2021.0,1.0
+Pandas - Other,"```cut```, ```qcut```",2021.0,1.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,1.0
+Pandas - Other,```sort_values```,2021.0,1.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,1.0
+String Functions,```replace```,2021.0,1.0
+String Functions,```split```,2021.0,1.0
+Charts,```Seaborn```,2021.0,2.0
+Pandas - Aggregation,Named Aggregation,2021.0,2.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,2.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,2.0
+Pandas - Dates,```to_datetime```,2021.0,2.0
+Pandas - Dates,```to_period```,2021.0,2.0
+Rounding,Basic,2021.0,2.0
+String Functions,```replace```,2021.0,2.0
+Other,Loops,2021.0,3.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,3.0
+Pandas - File I/O,Read Excel files,2021.0,3.0
+Pandas - Joining,```concat```,2021.0,3.0
+Pandas - Reshaping,```melt```,2021.0,3.0
+String Functions,```split```,2021.0,3.0
+Other,Loops,2021.0,4.0
+Other,list/dict comprehension,2021.0,4.0
+Pandas - Aggregation,```rank```,2021.0,4.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,4.0
+Pandas - File I/O,Read Excel files,2021.0,4.0
+Pandas - Joining,```concat```,2021.0,4.0
+Pandas - Joining,```merge```,2021.0,4.0
+Pandas - Reshaping,```melt```,2021.0,4.0
+String Functions,```split```,2021.0,4.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,5.0
+Pandas - Joining,```merge```,2021.0,5.0
+Pandas - Other,```sort_values```,2021.0,5.0
+Pandas - Selection/slicing,```drop_duplicates```,2021.0,5.0
+Pandas - Aggregation,Named Aggregation,2021.0,6.0
+Pandas - Aggregation,```rank```,2021.0,6.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,6.0
+Pandas - File I/O,Read Excel files,2021.0,6.0
+Pandas - Joining,```merge```,2021.0,6.0
+Pandas - Other,```astype```,2021.0,6.0
+Pandas - Reshaping,```melt```,2021.0,6.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2021.0,6.0
+Rounding,Basic,2021.0,6.0
+String Functions,```replace```,2021.0,6.0
+Other,```zip```,2021.0,7.0
+Other,list/dict comprehension,2021.0,7.0
+Pandas - Aggregation,Named Aggregation,2021.0,7.0
+Pandas - File I/O,Read Excel files,2021.0,7.0
+Pandas - Joining,```merge```,2021.0,7.0
+Pandas - Reshaping,```explode```,2021.0,7.0
+Pandas - Reshaping,```stack```,2021.0,7.0
+Pandas - Selection/slicing,```drop_duplicates```,2021.0,7.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,7.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,7.0
+String Functions,```join```,2021.0,7.0
+String Functions,```split```,2021.0,7.0
+Other,Function,2021.0,8.0
+Other,f strings / format,2021.0,8.0
+Other,list/dict comprehension,2021.0,8.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2021.0,8.0
+Pandas - Aggregation,```rank```,2021.0,8.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,8.0
+Pandas - Dates,"```timedelta```, ```to_timedelta```, ```relativedelta```",2021.0,8.0
+Pandas - File I/O,Read Excel files,2021.0,8.0
+Pandas - Joining,```merge_asof```,2021.0,8.0
+Pandas - Joining,```merge```,2021.0,8.0
+Pandas - Other,```astype```,2021.0,8.0
+Pandas - Other,"```shift```, ```diff```",2021.0,8.0
+Pandas - Other,```sort_values```,2021.0,8.0
+Pandas - Selection/slicing,```drop```,2021.0,8.0
+Pandas - Selection/slicing,```dropna```,2021.0,8.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,8.0
+Rounding,Basic,2021.0,8.0
+Other,Function,2021.0,9.0
+Pandas - Aggregation,```rank```,2021.0,9.0
+Pandas - Aggregation,```transform```,2021.0,9.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,9.0
+Pandas - File I/O,Read Excel files,2021.0,9.0
+Pandas - Joining,```merge```,2021.0,9.0
+Pandas - Other,```astype```,2021.0,9.0
+Pandas - Reshaping,```explode```,2021.0,9.0
+Pandas - Reshaping,```extract```,2021.0,9.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,9.0
+Rounding,Round Half Up,2021.0,9.0
+String Functions,String slicing,2021.0,9.0
+String Functions,```split```,2021.0,9.0
+String Functions,```strip```,2021.0,9.0
+numpy,"```ceil```, ```floor```",2021.0,9.0
+Other,Function,2021.0,10.0
+Other,Function (recursive),2021.0,10.0
+Other,```zip```,2021.0,10.0
+Other,"list methods (```sort```, ```reverse```, ```append```, ```union```, etc.)",2021.0,10.0
+Other,list/dict comprehension,2021.0,10.0
+Pandas - File I/O,Read Excel files,2021.0,10.0
+Pandas - Joining,```merge```,2021.0,10.0
+Pandas - Other,"```apply```, ```map```",2021.0,10.0
+Pandas - Other,```astype```,2021.0,10.0
+Pandas - Selection/slicing,```drop_duplicates```,2021.0,10.0
+Pandas - Selection/slicing,```drop```,2021.0,10.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,10.0
+String Functions,String slicing,2021.0,10.0
+Other,```zip```,2021.0,11.0
+Other,list/dict comprehension,2021.0,11.0
+Pandas - File I/O,Read Excel files,2021.0,11.0
+Pandas - Joining,```merge```,2021.0,11.0
+Pandas - Other,"```apply```, ```map```",2021.0,11.0
+Pandas - Reshaping,```explode```,2021.0,11.0
+Pandas - Reshaping,```extract```,2021.0,11.0
+Rounding,Basic,2021.0,11.0
+String Functions,```split```,2021.0,11.0
+Charts,```Seaborn```,2021.0,12.0
+Charts,```matplotlib```,2021.0,12.0
+Other,Loops,2021.0,12.0
+Other,f strings / format,2021.0,12.0
+Other,list/dict comprehension,2021.0,12.0
+Other,sets,2021.0,12.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,12.0
+Pandas - Dates,```dt.strftime```,2021.0,12.0
+Pandas - Dates,```to_datetime```,2021.0,12.0
+Pandas - Joining,```concat```,2021.0,12.0
+Pandas - Joining,```merge```,2021.0,12.0
+Pandas - Other,```astype```,2021.0,12.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,12.0
+Pandas - Reshaping,```melt```,2021.0,12.0
+Pandas - Selection/slicing,```drop```,2021.0,12.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,12.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2021.0,12.0
+String Functions,```match```,2021.0,12.0
+String Functions,```replace```,2021.0,12.0
+numpy,```where```,2021.0,12.0
+Other,list/dict comprehension,2021.0,13.0
+Pandas - Aggregation,```rank```,2021.0,13.0
+Pandas - Joining,```concat```,2021.0,13.0
+Pandas - Other,```astype```,2021.0,13.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,13.0
+Pandas - Other,```sort_values```,2021.0,13.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,13.0
+Rounding,Basic,2021.0,13.0
+String Functions,```strip```,2021.0,13.0
+Other,f strings / format,2021.0,14.0
+Other,list/dict comprehension,2021.0,14.0
+Pandas - Aggregation,```rank```,2021.0,14.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,14.0
+Pandas - File I/O,Read Excel files,2021.0,14.0
+Pandas - File I/O,Write multiple tabs to Excel file,2021.0,14.0
+Pandas - Joining,```merge```,2021.0,14.0
+Pandas - Other,"```apply```, ```map```",2021.0,14.0
+Pandas - Other,```astype```,2021.0,14.0
+Pandas - Other,```sort_values```,2021.0,14.0
+Pandas - Reshaping,```melt```,2021.0,14.0
+Pandas - Selection/slicing,```drop```,2021.0,14.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,14.0
+Rounding,Basic,2021.0,14.0
+String Functions,```replace```,2021.0,14.0
+String Functions,```split```,2021.0,14.0
+numpy,```where```,2021.0,14.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,15.0
+Pandas - File I/O,Read Excel files,2021.0,15.0
+Pandas - Joining,```merge```,2021.0,15.0
+Pandas - Other,```astype```,2021.0,15.0
+Pandas - Other,```sort_values```,2021.0,15.0
+Pandas - Reshaping,```explode```,2021.0,15.0
+Pandas - Reshaping,```extract```,2021.0,15.0
+Pandas - Reshaping,```melt```,2021.0,15.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2021.0,15.0
+Pandas - Selection/slicing,```drop```,2021.0,15.0
+Pandas - Selection/slicing,```dropna```,2021.0,15.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,15.0
+String Functions,```split```,2021.0,15.0
+String Functions,```strip```,2021.0,15.0
+numpy,```where```,2021.0,15.0
+Other,list/dict comprehension,2021.0,16.0
+Pandas - Aggregation,```rank```,2021.0,16.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,16.0
+Pandas - Joining,```concat```,2021.0,16.0
+Pandas - Joining,```merge```,2021.0,16.0
+Pandas - Other,"```apply```, ```map```",2021.0,16.0
+Pandas - Other,```astype```,2021.0,16.0
+Pandas - Reshaping,```melt```,2021.0,16.0
+Pandas - Selection/slicing,```drop```,2021.0,16.0
+Pandas - Selection/slicing,```dropna```,2021.0,16.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,16.0
+String Functions,```split```,2021.0,16.0
+numpy,```where```,2021.0,16.0
+Other,f strings / format,2021.0,17.0
+Pandas - Aggregation,Named Aggregation,2021.0,17.0
+Pandas - Aggregation,```transform```,2021.0,17.0
+Pandas - File I/O,Read Excel files,2021.0,17.0
+Pandas - Joining,```merge```,2021.0,17.0
+Pandas - Other,"```apply```, ```map```",2021.0,17.0
+Pandas - Other,```astype```,2021.0,17.0
+Pandas - Reshaping,```extract```,2021.0,17.0
+Pandas - Reshaping,```melt```,2021.0,17.0
+Pandas - Selection/slicing,```drop```,2021.0,17.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,17.0
+Pandas - Aggregation,Named Aggregation,2021.0,18.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,18.0
+Pandas - Dates,"```timedelta```, ```to_timedelta```, ```relativedelta```",2021.0,18.0
+Pandas - File I/O,Read Excel files,2021.0,18.0
+Pandas - Joining,```merge```,2021.0,18.0
+Pandas - Other,"```apply```, ```map```",2021.0,18.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2021.0,18.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,18.0
+Pandas - File I/O,Read Excel files,2021.0,19.0
+Pandas - Joining,```merge```,2021.0,19.0
+Pandas - Other,```astype```,2021.0,19.0
+Pandas - Reshaping,```explode```,2021.0,19.0
+Pandas - Reshaping,```extract```,2021.0,19.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,19.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,19.0
+String Functions,```replace```,2021.0,19.0
+String Functions,```split```,2021.0,19.0
+String Functions,```strip```,2021.0,19.0
+Other,Loops,2021.0,20.0
+Other,list/dict comprehension,2021.0,20.0
+Pandas - Aggregation,Named Aggregation,2021.0,20.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,20.0
+Pandas - File I/O,Read Excel files,2021.0,20.0
+Pandas - File I/O,Write multiple tabs to Excel file,2021.0,20.0
+Pandas - Joining,```merge```,2021.0,20.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,20.0
+numpy,```where```,2021.0,20.0
+Other,Loops,2021.0,21.0
+Pandas - Aggregation,```rank```,2021.0,21.0
+Pandas - Aggregation,```transform```,2021.0,21.0
+Pandas - Dates,```to_datetime```,2021.0,21.0
+Pandas - File I/O,Read Excel files,2021.0,21.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2021.0,21.0
+Pandas - Joining,```concat```,2021.0,21.0
+Pandas - Other,```astype```,2021.0,21.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,21.0
+String Functions,String slicing,2021.0,21.0
+String Functions,```replace```,2021.0,21.0
+String Functions,```split```,2021.0,21.0
+String Functions,```strip```,2021.0,21.0
+Other,list/dict comprehension,2021.0,22.0
+Pandas - Aggregation,Named Aggregation,2021.0,22.0
+Pandas - File I/O,Read Excel files,2021.0,22.0
+Pandas - Joining,```merge```,2021.0,22.0
+Pandas - Reshaping,```explode```,2021.0,22.0
+Pandas - Reshaping,```extract```,2021.0,22.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,22.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,22.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2021.0,22.0
+String Functions,```strip```,2021.0,22.0
+Other,list/dict comprehension,2021.0,23.0
+Pandas - Aggregation,```groupby``` with filter,2021.0,23.0
+Pandas - File I/O,Read Excel files,2021.0,23.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2021.0,23.0
+Pandas - Joining,```concat```,2021.0,23.0
+Pandas - Other,```astype```,2021.0,23.0
+Pandas - Other,"```cut```, ```qcut```",2021.0,23.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2021.0,23.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,23.0
+numpy,"```ceil```, ```floor```",2021.0,23.0
+Other,```zip```,2021.0,24.0
+Other,list/dict comprehension,2021.0,24.0
+Pandas - Dates,```date_range```,2021.0,24.0
+Pandas - Dates,```dt.strftime```,2021.0,24.0
+Pandas - File I/O,Read Excel files,2021.0,24.0
+Pandas - Joining,```merge```,2021.0,24.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,24.0
+Pandas - Reshaping,```explode```,2021.0,24.0
+Pandas - Selection/slicing,"```idmax```, ```idmin```",2021.0,24.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,24.0
+Other,list/dict comprehension,2021.0,25.0
+Pandas - Aggregation,Named Aggregation,2021.0,25.0
+Pandas - Aggregation,```rank```,2021.0,25.0
+Pandas - File I/O,Read Excel files,2021.0,25.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2021.0,25.0
+Pandas - Joining,```concat```,2021.0,25.0
+Pandas - Joining,```merge```,2021.0,25.0
+Pandas - Other,```astype```,2021.0,25.0
+Pandas - Other,```sort_values```,2021.0,25.0
+Pandas - Reshaping,```extract```,2021.0,25.0
+Pandas - Selection/slicing,```drop_duplicates```,2021.0,25.0
+Pandas - Selection/slicing,```drop```,2021.0,25.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,25.0
+Other,list/dict comprehension,2021.0,26.0
+Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2021.0,26.0
+Pandas - Aggregation,Named Aggregation,2021.0,26.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,26.0
+Pandas - Dates,"```timedelta```, ```to_timedelta```, ```relativedelta```",2021.0,26.0
+Pandas - Joining,```concat```,2021.0,26.0
+Pandas - Joining,```merge```,2021.0,26.0
+Pandas - Other,```sort_values```,2021.0,26.0
+Pandas - Reshaping,```explode```,2021.0,26.0
+String Functions,```replace```,2021.0,26.0
+Other,Loops,2021.0,27.0
+Other,list/dict comprehension,2021.0,27.0
+Pandas - File I/O,Read Excel files,2021.0,27.0
+Pandas - Joining,```append```,2021.0,27.0
+Pandas - Joining,```merge```,2021.0,27.0
+Pandas - Other,```astype```,2021.0,27.0
+Pandas - Other,```sort_values```,2021.0,27.0
+Pandas - Reshaping,```melt```,2021.0,27.0
+Pandas - Selection/slicing,```dropna```,2021.0,27.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,27.0
+String Functions,```replace```,2021.0,27.0
+Other,Loops,2021.0,28.0
+Other,list/dict comprehension,2021.0,28.0
+Pandas - Aggregation,Named Aggregation,2021.0,28.0
+Pandas - Aggregation,```rank```,2021.0,28.0
+Pandas - Dates,```dt.strftime```,2021.0,28.0
+Pandas - Dates,```to_datetime```,2021.0,28.0
+Pandas - File I/O,Read Excel files,2021.0,28.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2021.0,28.0
+Pandas - File I/O,Write multiple tabs to Excel file,2021.0,28.0
+Pandas - Joining,```concat```,2021.0,28.0
+Pandas - Other,```astype```,2021.0,28.0
+Pandas - Reshaping,```melt```,2021.0,28.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,28.0
+Rounding,Basic,2021.0,28.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,28.0
+String Functions,String slicing,2021.0,28.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2021.0,28.0
+String Functions,```replace```,2021.0,28.0
+String Functions,```strip```,2021.0,28.0
+numpy,```where```,2021.0,28.0
+Other,Mapping values with dictionary,2021.0,29.0
+Other,list/dict comprehension,2021.0,29.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,29.0
+Pandas - Dates,```to_datetime```,2021.0,29.0
+Pandas - File I/O,Read Excel files,2021.0,29.0
+Pandas - File I/O,Write multiple tabs to Excel file,2021.0,29.0
+Pandas - Joining,```merge```,2021.0,29.0
+Pandas - Reshaping,```explode```,2021.0,29.0
+Pandas - Reshaping,```extract```,2021.0,29.0
+Pandas - Selection/slicing,```drop_duplicates```,2021.0,29.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,29.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2021.0,29.0
+String Functions,```replace```,2021.0,29.0
+String Functions,```split```,2021.0,29.0
+String Functions,```strip```,2021.0,29.0
+Other,Mapping values with dictionary,2021.0,30.0
+Other,list/dict comprehension,2021.0,30.0
+Pandas - Dates,```to_datetime```,2021.0,30.0
+Pandas - Other,```astype```,2021.0,30.0
+Pandas - Other,"```shift```, ```diff```",2021.0,30.0
+Pandas - Other,```sort_values```,2021.0,30.0
+Pandas - Selection/slicing,"```idmax```, ```idmin```",2021.0,30.0
+Rounding,Basic,2021.0,30.0
+Other,"list methods (```sort```, ```reverse```, ```append```, ```union```, etc.)",2021.0,31.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,31.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2021.0,31.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,31.0
+Pandas - Aggregation,Named Aggregation,2021.0,32.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,32.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,32.0
+Pandas - Other,```astype```,2021.0,32.0
+Rounding,Basic,2021.0,32.0
+numpy,```where```,2021.0,32.0
+Other,Loops,2021.0,33.0
+Pandas - Aggregation,```transform```,2021.0,33.0
+Pandas - Dates,"```timedelta```, ```to_timedelta```, ```relativedelta```",2021.0,33.0
+Pandas - Dates,```to_datetime```,2021.0,33.0
+Pandas - File I/O,Read Excel files,2021.0,33.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2021.0,33.0
+Pandas - Joining,```concat```,2021.0,33.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,33.0
+String Functions,String slicing,2021.0,33.0
+numpy,```where```,2021.0,33.0
+Other,Function,2021.0,34.0
+Other,Mapping values with dictionary,2021.0,34.0
+Other,list/dict comprehension,2021.0,34.0
+Pandas - Aggregation,Named Aggregation,2021.0,34.0
+Pandas - File I/O,Read Excel files,2021.0,34.0
+Pandas - Joining,```merge```,2021.0,34.0
+Pandas - Reshaping,```melt```,2021.0,34.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,34.0
+Rounding,Basic,2021.0,34.0
+String Functions,```join```,2021.0,34.0
+String Functions,```replace```,2021.0,34.0
+numpy,```where```,2021.0,34.0
+Other,Function,2021.0,35.0
+Pandas - Aggregation,```transform```,2021.0,35.0
+Pandas - File I/O,Read Excel files,2021.0,35.0
+Pandas - Joining,```merge```,2021.0,35.0
+Pandas - Other,```assign```,2021.0,35.0
+Pandas - Other,```astype```,2021.0,35.0
+Pandas - Reshaping,```extract```,2021.0,35.0
+Pandas - Selection/slicing,```drop_duplicates```,2021.0,35.0
+Pandas - Selection/slicing,```drop```,2021.0,35.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,35.0
+numpy,```where```,2021.0,35.0
+Other,f strings / format,2021.0,36.0
+Pandas - Aggregation,Named Aggregation,2021.0,36.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,36.0
+Pandas - File I/O,Read Excel files,2021.0,36.0
+Pandas - Joining,```merge```,2021.0,36.0
+Pandas - Other,```sort_values```,2021.0,36.0
+Pandas - Reshaping,```melt```,2021.0,36.0
+Pandas - Selection/slicing,"```idmax```, ```idmin```",2021.0,36.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,36.0
+Rounding,Basic,2021.0,36.0
+String Functions,```replace```,2021.0,36.0
+numpy,```where```,2021.0,36.0
+Other,```zip```,2021.0,37.0
+Other,list/dict comprehension,2021.0,37.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2021.0,37.0
+Pandas - Dates,"```DateOffset```, ```offsets```",2021.0,37.0
+Pandas - Dates,```date_range```,2021.0,37.0
+Pandas - File I/O,Read Excel files,2021.0,37.0
+Pandas - Reshaping,```explode```,2021.0,37.0
+Other,list/dict comprehension,2021.0,38.0
+Pandas - Aggregation,Named Aggregation,2021.0,38.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,38.0
+Pandas - File I/O,Read Excel files,2021.0,38.0
+Pandas - Joining,```merge```,2021.0,38.0
+Pandas - Other,```sort_values```,2021.0,38.0
+Pandas - Reshaping,```extract```,2021.0,38.0
+Rounding,Basic,2021.0,38.0
+String Functions,```replace```,2021.0,38.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,39.0
+Pandas - Joining,```merge```,2021.0,39.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,39.0
+Pandas - Other,```sort_values```,2021.0,39.0
+Pandas - Reshaping,```extract```,2021.0,39.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2021.0,39.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,39.0
+numpy,```where```,2021.0,39.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,40.0
+Pandas - Reshaping,```crosstab```,2021.0,40.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,40.0
+Rounding,Basic,2021.0,40.0
+numpy,```where```,2021.0,40.0
+Other,f strings / format,2021.0,41.0
+Other,list/dict comprehension,2021.0,41.0
+Pandas - File I/O,Formatting numeric output,2021.0,41.0
+Pandas - Joining,```append```,2021.0,41.0
+Pandas - Other,```astype```,2021.0,41.0
+Pandas - Other,"```shift```, ```diff```",2021.0,41.0
+Pandas - Other,```sort_values```,2021.0,41.0
+Pandas - Reshaping,```extract```,2021.0,41.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,41.0
+numpy,```where```,2021.0,41.0
+Other,Function,2021.0,42.0
+Other,f strings / format,2021.0,42.0
+Other,list/dict comprehension,2021.0,42.0
+Pandas - Aggregation,```transform```,2021.0,42.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,42.0
+Pandas - Dates,```date_range```,2021.0,42.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,42.0
+Pandas - Joining,```merge```,2021.0,42.0
+Pandas - Other,"```apply```, ```map```",2021.0,42.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,42.0
+Rounding,Basic,2021.0,42.0
+numpy,```where```,2021.0,42.0
+Other,Mapping values with dictionary,2021.0,43.0
+Other,```zip```,2021.0,43.0
+Other,list/dict comprehension,2021.0,43.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,43.0
+Pandas - File I/O,Read Excel files,2021.0,43.0
+Pandas - Joining,```concat```,2021.0,43.0
+Pandas - Reshaping,```melt```,2021.0,43.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2021.0,43.0
+Pandas - Selection/slicing,```drop```,2021.0,43.0
+String Functions,```strip```,2021.0,43.0
+numpy,```where```,2021.0,43.0
+Other,f strings / format,2021.0,44.0
+Pandas - Dates,```date_range```,2021.0,44.0
+Pandas - File I/O,Read Excel files,2021.0,44.0
+Pandas - Other,```astype```,2021.0,44.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,44.0
+Pandas - Other,```reindex```,2021.0,44.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2021.0,44.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,44.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,44.0
+numpy,```where```,2021.0,44.0
+Other,list/dict comprehension,2021.0,45.0
+Pandas - Dates,```to_datetime```,2021.0,45.0
+Pandas - File I/O,Read Excel files,2021.0,45.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2021.0,45.0
+Pandas - Joining,```concat```,2021.0,45.0
+Pandas - Joining,```merge```,2021.0,45.0
+Pandas - Other,```assign```,2021.0,45.0
+Pandas - Other,```astype```,2021.0,45.0
+Pandas - Other,```sort_values```,2021.0,45.0
+Pandas - Reshaping,```explode```,2021.0,45.0
+Pandas - Selection/slicing,```drop_duplicates```,2021.0,45.0
+Pandas - Selection/slicing,```drop```,2021.0,45.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,45.0
+String Functions,String slicing,2021.0,45.0
+String Functions,```split```,2021.0,45.0
+Other,Loops,2021.0,46.0
+Other,f strings / format,2021.0,46.0
+Other,list/dict comprehension,2021.0,46.0
+Pandas - Aggregation,Named Aggregation,2021.0,46.0
+Pandas - File I/O,Read Excel files,2021.0,46.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2021.0,46.0
+Pandas - Joining,```concat```,2021.0,46.0
+Pandas - Joining,```merge```,2021.0,46.0
+Pandas - Other,```assign```,2021.0,46.0
+Pandas - Other,```astype```,2021.0,46.0
+Pandas - Selection/slicing,```drop```,2021.0,46.0
+String Functions,```replace```,2021.0,46.0
+String Functions,```strip```,2021.0,46.0
+Charts,```matplotlib```,2021.0,47.0
+Other,Loops,2021.0,47.0
+Other,list/dict comprehension,2021.0,47.0
+Pandas - Aggregation,Named Aggregation,2021.0,47.0
+Pandas - Aggregation,```rank```,2021.0,47.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,47.0
+Pandas - File I/O,Read Excel files,2021.0,47.0
+Pandas - Joining,```merge```,2021.0,47.0
+Pandas - Other,"```apply```, ```map```",2021.0,47.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,47.0
+Pandas - Reshaping,```melt```,2021.0,47.0
+String Functions,```join```,2021.0,47.0
+numpy,"```ceil```, ```floor```",2021.0,47.0
+numpy,```where```,2021.0,47.0
+Other,Mapping values with dictionary,2021.0,48.0
+Other,list/dict comprehension,2021.0,48.0
+Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2021.0,48.0
+Pandas - File I/O,Read Excel files,2021.0,48.0
+Pandas - Other,```astype```,2021.0,48.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,48.0
+Pandas - Reshaping,```extract```,2021.0,48.0
+Pandas - Reshaping,```melt```,2021.0,48.0
+Pandas - Selection/slicing,```drop```,2021.0,48.0
+Pandas - Selection/slicing,```dropna```,2021.0,48.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,48.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2021.0,48.0
+String Functions,```replace```,2021.0,48.0
+numpy,```where```,2021.0,48.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2021.0,49.0
+Pandas - Aggregation,Named Aggregation,2021.0,49.0
+Pandas - Aggregation,```transform```,2021.0,49.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,49.0
+Pandas - Dates,```dt.strftime```,2021.0,49.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,49.0
+Rounding,Basic,2021.0,49.0
+Other,list/dict comprehension,2021.0,50.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2021.0,50.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,50.0
+Pandas - Dates,"```DateOffset```, ```offsets```",2021.0,50.0
+Pandas - File I/O,Read Excel files,2021.0,50.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2021.0,50.0
+Pandas - Joining,```concat```,2021.0,50.0
+Pandas - Joining,```merge```,2021.0,50.0
+Pandas - Other,```assign```,2021.0,50.0
+Pandas - Other,```astype```,2021.0,50.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,50.0
+Pandas - Other,"```shift```, ```diff```",2021.0,50.0
+Pandas - Other,```sort_values```,2021.0,50.0
+Pandas - Reshaping,```melt```,2021.0,50.0
+Pandas - Selection/slicing,```drop```,2021.0,50.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,50.0
+numpy,```where```,2021.0,50.0
+Other,Function,2021.0,51.0
+Other,Function,2021.0,51.0
+Other,Function,2021.0,51.0
+Other,Function,2021.0,51.0
+Other,Loops,2021.0,51.0
+Other,f strings / format,2021.0,51.0
+Other,f strings / format,2021.0,51.0
+Other,list/dict comprehension,2021.0,51.0
+Other,list/dict comprehension,2021.0,51.0
+Other,list/dict comprehension,2021.0,51.0
+Other,list/dict comprehension,2021.0,51.0
+Pandas - Aggregation,Named Aggregation,2021.0,51.0
+Pandas - Aggregation,Named Aggregation,2021.0,51.0
+Pandas - Aggregation,Named Aggregation,2021.0,51.0
+Pandas - Aggregation,Named Aggregation,2021.0,51.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,51.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,51.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2021.0,51.0
+Pandas - Dates,```date_range```,2021.0,51.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,51.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,51.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,51.0
+Pandas - Joining,```merge```,2021.0,51.0
+Pandas - Joining,```merge```,2021.0,51.0
+Pandas - Joining,```merge```,2021.0,51.0
+Pandas - Other,```assign```,2021.0,51.0
+Pandas - Other,```astype```,2021.0,51.0
+Pandas - Other,```astype```,2021.0,51.0
+Pandas - Other,```astype```,2021.0,51.0
+Pandas - Other,```factorize```,2021.0,51.0
+Pandas - Other,```factorize```,2021.0,51.0
+Pandas - Other,```sort_values```,2021.0,51.0
+Pandas - Other,```sort_values```,2021.0,51.0
+Pandas - Other,```sort_values```,2021.0,51.0
+Pandas - Other,```sort_values```,2021.0,51.0
+Pandas - Reshaping,```extract```,2021.0,51.0
+Pandas - Reshaping,```extract```,2021.0,51.0
+Pandas - Reshaping,```extract```,2021.0,51.0
+Pandas - Selection/slicing,slicing a DataFrame,2021.0,51.0
+Rounding,Basic,2021.0,51.0
+Rounding,Basic,2021.0,51.0
+Rounding,Basic,2021.0,51.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,51.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,51.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,51.0
+String Functions,```join```,2021.0,51.0
+String Functions,```replace```,2021.0,51.0
+String Functions,```replace```,2021.0,51.0
+String Functions,```replace```,2021.0,51.0
+numpy,```where```,2021.0,51.0
+numpy,```where```,2021.0,51.0
+numpy,```where```,2021.0,51.0
+Pandas - Aggregation,Named Aggregation,2021.0,52.0
+Pandas - Aggregation,```transform```,2021.0,52.0
+Pandas - File I/O,Read Excel files,2021.0,52.0
+Pandas - Joining,```merge```,2021.0,52.0
+Pandas - Other,```assign```,2021.0,52.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,52.0
+Pandas - Reshaping,```explode```,2021.0,52.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2021.0,52.0
+String Functions,```findall```,2021.0,52.0
+String Functions,```join```,2021.0,52.0
+String Functions,```strip```,2021.0,52.0
+Other,list/dict comprehension,2022.0,1.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,1.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,1.0
+numpy,```where```,2022.0,1.0
+Other,Mapping values with dictionary,2022.0,2.0
+Other,list/dict comprehension,2022.0,2.0
+Pandas - Aggregation,```transform```,2022.0,2.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,2.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,2.0
+Pandas - Other,"```apply```, ```map```",2022.0,2.0
+Pandas - Aggregation,Named Aggregation,2022.0,3.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,3.0
+Pandas - Joining,```merge```,2022.0,3.0
+Pandas - Other,```assign```,2022.0,3.0
+Pandas - Reshaping,```melt```,2022.0,3.0
+Rounding,Basic,2022.0,3.0
+Other,Mapping values with dictionary,2022.0,4.0
+Other,Mapping values with dictionary,2022.0,4.0
+Pandas - Aggregation,Named Aggregation,2022.0,4.0
+Pandas - Aggregation,Named Aggregation,2022.0,4.0
+Pandas - Aggregation,```transform```,2022.0,4.0
+Pandas - Aggregation,```transform```,2022.0,4.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,4.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,4.0
+Pandas - Joining,```merge```,2022.0,4.0
+Pandas - Joining,```merge```,2022.0,4.0
+Pandas - Other,```assign```,2022.0,4.0
+Pandas - Other,```assign```,2022.0,4.0
+Pandas - Reshaping,```melt```,2022.0,4.0
+Pandas - Reshaping,```melt```,2022.0,4.0
+Rounding,Basic,2022.0,4.0
+Rounding,Basic,2022.0,4.0
+String Functions,```replace```,2022.0,4.0
+String Functions,```replace```,2022.0,4.0
+numpy,```where```,2022.0,4.0
+numpy,```where```,2022.0,4.0
+Other,Mapping values with dictionary,2022.0,5.0
+Other,f strings / format,2022.0,5.0
+Other,list/dict comprehension,2022.0,5.0
+Pandas - Aggregation,```rank```,2022.0,5.0
+Pandas - Aggregation,```transform```,2022.0,5.0
+Pandas - Other,"```cut```, ```qcut```",2022.0,5.0
+Pandas - Reshaping,```melt```,2022.0,5.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,5.0
+Other,```decimal``` module,2022.0,6.0
+Pandas - Aggregation,Named Aggregation,2022.0,6.0
+Pandas - Aggregation,```groupby``` with filter,2022.0,6.0
+Pandas - Aggregation,```rank```,2022.0,6.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,6.0
+Pandas - File I/O,Read Excel files,2022.0,6.0
+Pandas - Joining,```merge```,2022.0,6.0
+Pandas - Other,"```apply```, ```map```",2022.0,6.0
+Pandas - Other,```assign```,2022.0,6.0
+Pandas - Other,```astype```,2022.0,6.0
+Pandas - Reshaping,```explode```,2022.0,6.0
+Pandas - Reshaping,```extract```,2022.0,6.0
+Rounding,Basic,2022.0,6.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2022.0,6.0
+String Functions,```findall```,2022.0,6.0
+String Functions,```split```,2022.0,6.0
+numpy,```where```,2022.0,6.0
+Other,list/dict comprehension,2022.0,7.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,7.0
+Pandas - Dates,```to_datetime```,2022.0,7.0
+Pandas - File I/O,Read Excel files,2022.0,7.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2022.0,7.0
+Pandas - Joining,```concat```,2022.0,7.0
+Pandas - Joining,```merge```,2022.0,7.0
+Pandas - Other,```assign```,2022.0,7.0
+Pandas - Other,```astype```,2022.0,7.0
+Pandas - Reshaping,```extract```,2022.0,7.0
+Pandas - Reshaping,transpose ```T```,2022.0,7.0
+Pandas - Selection/slicing,```drop```,2022.0,7.0
+Rounding,Basic,2022.0,7.0
+String Functions,```replace```,2022.0,7.0
+numpy,```where```,2022.0,7.0
+Pandas - File I/O,Read Excel files,2022.0,8.0
+Pandas - Joining,```merge```,2022.0,8.0
+Pandas - Reshaping,```melt```,2022.0,8.0
+Pandas - Selection/slicing,```drop```,2022.0,8.0
+Pandas - Selection/slicing,```query```,2022.0,8.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,8.0
+numpy,```where```,2022.0,8.0
+Pandas - Aggregation,Named Aggregation,2022.0,9.0
+Pandas - Aggregation,```transform```,2022.0,9.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,9.0
+Pandas - File I/O,Read Excel files,2022.0,9.0
+Pandas - Joining,```merge```,2022.0,9.0
+Pandas - Other,```assign```,2022.0,9.0
+Pandas - Other,```astype```,2022.0,9.0
+Pandas - Other,"```shift```, ```diff```",2022.0,9.0
+Pandas - Other,```sort_values```,2022.0,9.0
+Pandas - Selection/slicing,```drop```,2022.0,9.0
+Pandas - Selection/slicing,```query```,2022.0,9.0
+numpy,```where```,2022.0,9.0
+Other,Mapping values with dictionary,2022.0,10.0
+Other,```zip```,2022.0,10.0
+Pandas - File I/O,Read Excel files,2022.0,10.0
+Pandas - Joining,```concat```,2022.0,10.0
+Pandas - Other,"```apply```, ```map```",2022.0,10.0
+Pandas - Other,```sort_values```,2022.0,10.0
+Pandas - Reshaping,```extract```,2022.0,10.0
+Pandas - Reshaping,```melt```,2022.0,10.0
+Pandas - Selection/slicing,```drop_duplicates```,2022.0,10.0
+Pandas - Selection/slicing,```drop```,2022.0,10.0
+Pandas - Selection/slicing,```dropna```,2022.0,10.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,10.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2022.0,10.0
+String Functions,```replace```,2022.0,10.0
+Pandas - Aggregation,```transform```,2022.0,11.0
+Pandas - Other,```assign```,2022.0,11.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2022.0,11.0
+Pandas - Other,```sort_values```,2022.0,11.0
+Other,list/dict comprehension,2022.0,12.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,12.0
+Pandas - Dates,```to_datetime```,2022.0,12.0
+Pandas - Joining,```concat```,2022.0,12.0
+Pandas - Other,```assign```,2022.0,12.0
+Pandas - Other,```astype```,2022.0,12.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2022.0,12.0
+Pandas - Other,"```shift```, ```diff```",2022.0,12.0
+Pandas - Other,```sort_values```,2022.0,12.0
+Rounding,Basic,2022.0,12.0
+String Functions,```join```,2022.0,12.0
+String Functions,```replace```,2022.0,12.0
+numpy,```where```,2022.0,12.0
+Other,f strings / format,2022.0,13.0
+Other,list/dict comprehension,2022.0,13.0
+Other,user input,2022.0,13.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2022.0,13.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,13.0
+Pandas - Other,```assign```,2022.0,13.0
+Pandas - Other,```sort_values```,2022.0,13.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,13.0
+Rounding,Basic,2022.0,13.0
+String Functions,```replace```,2022.0,13.0
+Other,f strings / format,2022.0,14.0
+Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2022.0,14.0
+Pandas - Aggregation,```rank```,2022.0,14.0
+Pandas - Aggregation,```transform```,2022.0,14.0
+Pandas - Other,```assign```,2022.0,14.0
+Pandas - Other,```astype```,2022.0,14.0
+Pandas - Selection/slicing,```drop```,2022.0,14.0
+Pandas - Selection/slicing,```query```,2022.0,14.0
+String Functions,String slicing,2022.0,14.0
+Other,```zip```,2022.0,15.0
+Other,list/dict comprehension,2022.0,15.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2022.0,15.0
+Pandas - Aggregation,```transform```,2022.0,15.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,15.0
+Pandas - Dates,"```DateOffset```, ```offsets```",2022.0,15.0
+Pandas - Dates,```date_range```,2022.0,15.0
+Pandas - Dates,```to_datetime```,2022.0,15.0
+Pandas - Dates,```to_period```,2022.0,15.0
+Pandas - File I/O,Read Excel files,2022.0,15.0
+Pandas - Joining,```merge```,2022.0,15.0
+Pandas - Other,```assign```,2022.0,15.0
+Pandas - Reshaping,```explode```,2022.0,15.0
+String Functions,```replace```,2022.0,15.0
+numpy,```where```,2022.0,15.0
+Other,Mapping values with dictionary,2022.0,16.0
+Other,f strings / format,2022.0,16.0
+Other,list/dict comprehension,2022.0,16.0
+Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2022.0,16.0
+Pandas - File I/O,Read Excel files,2022.0,16.0
+Pandas - Joining,```merge```,2022.0,16.0
+Pandas - Other,```assign```,2022.0,16.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2022.0,16.0
+Pandas - Reshaping,```extract```,2022.0,16.0
+Pandas - Reshaping,```melt```,2022.0,16.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2022.0,16.0
+Pandas - Selection/slicing,```drop```,2022.0,16.0
+Pandas - Selection/slicing,```dropna```,2022.0,16.0
+String Functions,```join```,2022.0,16.0
+String Functions,```match```,2022.0,16.0
+numpy,```where```,2022.0,16.0
+Other,Mapping values with dictionary,2022.0,17.0
+Other,list/dict comprehension,2022.0,17.0
+Pandas - Aggregation,```transform```,2022.0,17.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,17.0
+Pandas - Dates,"working with timezones (```tz_localize```, etc.)",2022.0,17.0
+Pandas - File I/O,Read Excel files,2022.0,17.0
+Pandas - Joining,```merge```,2022.0,17.0
+Pandas - Other,```assign```,2022.0,17.0
+Pandas - Other,```astype```,2022.0,17.0
+Pandas - Selection/slicing,```drop```,2022.0,17.0
+numpy,```where```,2022.0,17.0
+Pandas - Dates,```to_datetime```,2022.0,18.0
+Pandas - Reshaping,```extract```,2022.0,18.0
+Pandas - Reshaping,```melt```,2022.0,18.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2022.0,18.0
+Other,Mapping values with dictionary,2022.0,19.0
+Other,```zip```,2022.0,19.0
+Pandas - Aggregation,Named Aggregation,2022.0,19.0
+Pandas - File I/O,Read Excel files,2022.0,19.0
+Pandas - Joining,```merge```,2022.0,19.0
+Pandas - Other,```astype```,2022.0,19.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,19.0
+String Functions,```replace```,2022.0,19.0
+Other,Mapping values with dictionary,2022.0,20.0
+Other,```zip```,2022.0,20.0
+Pandas - Aggregation,```transform```,2022.0,20.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,20.0
+Pandas - File I/O,Read Excel files,2022.0,20.0
+Pandas - Joining,```concat```,2022.0,20.0
+Pandas - Joining,```merge```,2022.0,20.0
+Pandas - Reshaping,```extract```,2022.0,20.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,20.0
+Rounding,Basic,2022.0,20.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2022.0,20.0
+String Functions,String slicing,2022.0,20.0
+String Functions,```replace```,2022.0,20.0
+numpy,```where```,2022.0,20.0
+Other,f strings / format,2022.0,21.0
+Other,list/dict comprehension,2022.0,21.0
+Pandas - File I/O,Read Excel files,2022.0,21.0
+Pandas - File I/O,Read Excel files (dynamic sheets),2022.0,21.0
+Pandas - Joining,```concat```,2022.0,21.0
+Pandas - Other,```assign```,2022.0,21.0
+Pandas - Other,```astype```,2022.0,21.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2022.0,21.0
+Pandas - Reshaping,```melt```,2022.0,21.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2022.0,21.0
+Pandas - Selection/slicing,```dropna```,2022.0,21.0
+Pandas - Selection/slicing,```query```,2022.0,21.0
+String Functions,String slicing,2022.0,21.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2022.0,21.0
+String Functions,```replace```,2022.0,21.0
+numpy,```where```,2022.0,21.0
+Charts,```matplotlib```,2022.0,22.0
+Other,Mapping values with dictionary,2022.0,22.0
+Other,```zip```,2022.0,22.0
+Pandas - File I/O,Read Excel files,2022.0,22.0
+Pandas - Joining,```merge_asof```,2022.0,22.0
+Pandas - Other,```assign```,2022.0,22.0
+Pandas - Other,```astype```,2022.0,22.0
+Pandas - Other,```sort_values```,2022.0,22.0
+Pandas - Reshaping,```explode```,2022.0,22.0
+Pandas - Selection/slicing,```drop_duplicates```,2022.0,22.0
+Pandas - Selection/slicing,```drop```,2022.0,22.0
+Pandas - Selection/slicing,```query```,2022.0,22.0
+String Functions,```replace```,2022.0,22.0
+String Functions,```split```,2022.0,22.0
+String Functions,```strip```,2022.0,22.0
+numpy,```where```,2022.0,22.0
+Pandas - Joining,```concat```,2022.0,23.0
+Pandas - Other,```assign```,2022.0,23.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,23.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2022.0,23.0
+numpy,```where```,2022.0,23.0
+Other,list/dict comprehension,2022.0,24.0
+Pandas - Aggregation,```rank```,2022.0,24.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,24.0
+Pandas - File I/O,Read Excel files,2022.0,24.0
+Pandas - Joining,```merge```,2022.0,24.0
+Pandas - Other,```astype```,2022.0,24.0
+Pandas - Reshaping,```extract```,2022.0,24.0
+Pandas - Selection/slicing,```drop```,2022.0,24.0
+String Functions,```replace```,2022.0,24.0
+Other,Function,2022.0,27.0
+Other,Loops,2022.0,27.0
+Other,f strings / format,2022.0,27.0
+Other,list/dict comprehension,2022.0,27.0
+Pandas - Aggregation,Named Aggregation,2022.0,27.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,27.0
+Pandas - Other,```astype```,2022.0,27.0
+Pandas - Reshaping,```extract```,2022.0,27.0
+Pandas - Selection/slicing,```drop```,2022.0,27.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,27.0
+String Functions,```replace```,2022.0,27.0
+numpy,```where```,2022.0,27.0
+Other,f strings / format,2022.0,28.0
+Other,list/dict comprehension,2022.0,28.0
+Other,sets,2022.0,28.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,28.0
+Pandas - Dates,```date_range```,2022.0,28.0
+Pandas - Dates,```dt.strftime```,2022.0,28.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,28.0
+Pandas - Other,```astype```,2022.0,28.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,28.0
+Pandas - Joining,```merge```,2022.0,29.0
+Pandas - Other,```assign```,2022.0,29.0
+Pandas - Reshaping,```extract```,2022.0,29.0
+Pandas - Reshaping,```melt```,2022.0,29.0
+Pandas - Selection/slicing,```drop```,2022.0,29.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2022.0,29.0
+Other,Mapping values with dictionary,2022.0,30.0
+Other,```zip```,2022.0,30.0
+Other,list/dict comprehension,2022.0,30.0
+Pandas - Joining,```concat```,2022.0,30.0
+Pandas - Joining,```merge```,2022.0,30.0
+Pandas - Other,```assign```,2022.0,30.0
+Pandas - Selection/slicing,```drop```,2022.0,30.0
+Other,Function,2022.0,31.0
+Other,Loops,2022.0,31.0
+Other,f strings / format,2022.0,31.0
+Other,list/dict comprehension,2022.0,31.0
+Other,user input,2022.0,31.0
+Pandas - Aggregation,```rank```,2022.0,31.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,31.0
+Pandas - Reshaping,```extract```,2022.0,31.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,31.0
+Rounding,Basic,2022.0,31.0
+String Functions,"```contains```, ```startswith```, ```endswith```",2022.0,31.0
+String Functions,```join```,2022.0,31.0
+Other,list/dict comprehension,2022.0,32.0
+Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2022.0,32.0
+Pandas - Aggregation,```transform```,2022.0,32.0
+Pandas - Dates,"```DateOffset```, ```offsets```",2022.0,32.0
+Pandas - Dates,```date_range```,2022.0,32.0
+Pandas - Other,```assign```,2022.0,32.0
+Pandas - Other,```sort_values```,2022.0,32.0
+Pandas - Reshaping,```explode```,2022.0,32.0
+String Functions,```replace```,2022.0,32.0
+numpy,"```ceil```, ```floor```",2022.0,32.0
+Other,Mapping values with dictionary,2022.0,33.0
+Other,```zip```,2022.0,33.0
+Other,list/dict comprehension,2022.0,33.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,33.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,33.0
+Pandas - Joining,```concat```,2022.0,33.0
+Pandas - Joining,```merge_asof```,2022.0,33.0
+Pandas - Other,```assign```,2022.0,33.0
+Pandas - Other,```sort_values```,2022.0,33.0
+Pandas - Reshaping,```extract```,2022.0,33.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,33.0
+Rounding,Basic,2022.0,33.0
+String Functions,```replace```,2022.0,33.0
+Other,Function,2022.0,34.0
+Other,Loops,2022.0,34.0
+Other,f strings / format,2022.0,34.0
+Other,list/dict comprehension,2022.0,34.0
+Other,user input,2022.0,34.0
+Pandas - Aggregation,```rank```,2022.0,34.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,34.0
+Pandas - Other,```astype```,2022.0,34.0
+Pandas - Other,```sort_values```,2022.0,34.0
+Pandas - Reshaping,```extract```,2022.0,34.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,34.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2022.0,34.0
+String Functions,```join```,2022.0,34.0
+String Functions,```strip```,2022.0,34.0
+Other,Function,2022.0,35.0
+Other,Loops,2022.0,35.0
+Other,f strings / format,2022.0,35.0
+Other,user input,2022.0,35.0
+Pandas - Aggregation,Named Aggregation,2022.0,35.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,35.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,35.0
+Pandas - Joining,```concat```,2022.0,35.0
+Pandas - Other,```astype```,2022.0,35.0
+Pandas - Reshaping,```extract```,2022.0,35.0
+Pandas - Reshaping,```melt```,2022.0,35.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2022.0,35.0
+Pandas - Selection/slicing,```drop```,2022.0,35.0
+Pandas - Selection/slicing,"```idmax```, ```idmin```",2022.0,35.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,35.0
+Rounding,Basic,2022.0,35.0
+String Functions,"Changing case (```upper```, ```lower```, ```title```, etc.)",2022.0,35.0
+String Functions,```replace```,2022.0,35.0
+String Functions,```strip```,2022.0,35.0
+Pandas - Dates,"Dateparts (```dt.month```, ```dt.quarter```, etc.)",2022.0,36.0
+Pandas - Dates,```date_range```,2022.0,36.0
+Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2022.0,36.0
+Pandas - Joining,```merge```,2022.0,36.0
+Pandas - Other,```assign```,2022.0,36.0
+Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2022.0,36.0
+Pandas - Selection/slicing,```drop_duplicates```,2022.0,36.0
+Pandas - Selection/slicing,```drop```,2022.0,36.0
