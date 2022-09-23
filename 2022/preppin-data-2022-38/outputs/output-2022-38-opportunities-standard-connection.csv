@@ -1,0 +1,707 @@
+Opportunity ID,AccountId,Opportunity Name,StageName,Amount,OwnerId,CreatedById,Account Name,Account Type,Created By Name,Owner Name,Account Created By Name,Account Owner Name
+0068d000009MWGPAA4,0018d00000Ggx86AAB,Opportunity for Harper529,Closed Won,17621,0058d000004QHaiAAG,0058d000004B2qYAAS,Bowman347 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Irene McCoy
+0068d000009MWGQAA4,0018d00000Ggwy8AAB,Opportunity for Duncan873,Closed Won,2400250,0058d000004QHapAAG,0058d000004B2qYAAS,Cox450 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Irene McCoy
+0068d000009MWGRAA4,0018d00000GgwzDAAR,Opportunity for Daniel875,Closed Won,5023650,0058d000004QHadAAG,0058d000004B2qYAAS,Stevenson954 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Kelly Frazier
+0068d000009MWGTAA4,0018d00000GgwugAAB,Opportunity for McKenzie881,Closed Won,1684050,0058d000004QHacAAG,0058d000004B2qYAAS,Christensen164 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Harold Campbell
+0068d000009MWGUAA4,0018d00000Ggx3VAAR,Opportunity for Duncan885,Qualification,413101,0058d000004QHapAAG,0058d000004B2qYAAS,Murphy861 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Julie Chavez
+0068d000009MWGZAA4,0018d00000GgwumAAB,Opportunity for Baker1261,Closed Lost,41580,0058d000004QHaiAAG,0058d000004B2qYAAS,Coleman170 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,John Williams
+0068d000009MWJVAA4,0018d00000Ggx4sAAB,Opportunity for White1730,Negotiation/Review,1994920,0058d000004QHaaAAG,0058d000004B2qYAAS,Collins522 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Chris Riley
+0068d000009MWJWAA4,0018d00000Ggx5QAAR,Opportunity for Griffin1731,Closed Won,455096,0058d000004QHagAAG,0058d000004B2qYAAS,Bradley715 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Dennis Howard
+0068d000009MWJXAA4,0018d00000GgwxsAAB,Opportunity for Marsh1734,Closed Won,309686,0058d000004QHapAAG,0058d000004B2qYAAS,Perez237 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Chris Riley
+0068d000009MWJZAA4,0018d00000Ggx6jAAB,Opportunity for Arnold1738,Closed Lost,257045,0058d000004QHajAAG,0058d000004B2qYAAS,Crawford536 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Irene Kelley
+0068d000009MW7HAAW,0018d00000Ggx5OAAR,Opportunity for Barrett259,Closed Lost,1589440,0058d000004QHabAAG,0058d000004B2qYAAS,Hernandez713 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Johnny Green
+0068d000009MW7IAAW,0018d00000GgwyPAAR,Opportunity for Dennis260,Needs Analysis,2868400,0058d000004QHaaAAG,0058d000004B2qYAAS,Gordon630 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Harold Campbell
+0068d000009MW7KAAW,0018d00000Ggx8KAAR,Opportunity for Pittman263,Closed Won,1879190,0058d000004QHajAAG,0058d000004B2qYAAS,Joseph361 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Eric Sanchez
+0068d000009MW7LAAW,0018d00000Ggx8ZAAR,Opportunity for Holmes265,Prospecting,206640,0058d000004QHaqAAG,0058d000004B2qYAAS,Fox572 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Irene Kelley
+0068d000009MWBiAAO,0018d00000Ggx8sAAB,Opportunity for Andrews1118,Closed Won,591520,0058d000004QHaaAAG,0058d000004B2qYAAS,Becker755 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Chris Riley
+0068d000009MWBkAAO,0018d00000Ggx2MAAR,Opportunity for Estrada1122,Value Proposition,466560,0058d000004QHaqAAG,0058d000004B2qYAAS,Harrison279 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Chris Riley
+0068d000009MWBmAAO,0018d00000GgwyrAAB,Opportunity for Miles1126,Closed Won,142400,0058d000004QHagAAG,0058d000004B2qYAAS,Gutierrez801 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Irene McCoy
+0068d000009MWBoAAO,0018d00000GgwwrAAB,Opportunity for Alvarado1128,Closed Won,254886,0058d000004QHapAAG,0058d000004B2qYAAS,Duncan773 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Eric Sanchez
+0068d000009MWBpAAO,0018d00000Ggx1qAAB,Opportunity for Wilkins1129,Closed Won,2210350,0058d000004QHacAAG,0058d000004B2qYAAS,Martin56 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Evelyn Williamson
+0068d000009MWBqAAO,0018d00000Ggx2fAAB,Opportunity for Harris1133,Closed Won,524400,0058d000004QHalAAG,0058d000004B2qYAAS,Higgins494 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Laura Garza
+0068d000009MWBsAAO,0018d00000Ggx5NAAR,Opportunity for Howell1136,Closed Won,987000,0058d000004QHaYAAW,0058d000004B2qYAAS,Grant712 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Chris Riley
+0068d000009MWBuAAO,0018d00000GgwvQAAR,Opportunity for Obrien1138,Closed Lost,489886,0058d000004QHagAAG,0058d000004B2qYAAS,Perez590 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Eric Gutierrez
+0068d000009MWBwAAO,0018d00000Ggwv7AAB,Opportunity for Young1496,Closed Won,219000,0058d000004QHajAAG,0058d000004B2qYAAS,Owens400 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Nicolas Weaver
+0068d000009MWBxAAO,0018d00000Ggx0oAAB,Opportunity for Malone1500,Closed Won,583800,0058d000004QHagAAG,0058d000004B2qYAAS,Higgins666 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Kelly Frazier
+0068d000009MWBzAAO,0018d00000Ggx19AAB,Opportunity for McDonald1503,Closed Won,3851250,0058d000004QHalAAG,0058d000004B2qYAAS,Rios830 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Laura Garza
+0068d000009MWC0AAO,0018d00000Ggx2XAAR,Opportunity for Oliver1504,Closed Won,1032600,0058d000004QHanAAG,0058d000004B2qYAAS,Young486 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Evelyn Williamson
+0068d000009MWGaAAO,0018d00000Ggx9BAAR,Opportunity for Perkins1263,Negotiation/Review,1314185,0058d000004QHaZAAW,0058d000004B2qYAAS,Turner924 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Doroth Gardner
+0068d000009MWGbAAO,0018d00000GgwvHAAR,Opportunity for Tucker1268,Closed Won,371689,0058d000004QHamAAG,0058d000004B2qYAAS,Myers581 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Eric Sanchez
+0068d000009MWGeAAO,0018d00000Ggx2BAAR,Opportunity for Malone1276,Closed Won,196200,0058d000004QHaZAAW,0058d000004B2qYAAS,Clarke268 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Bruce Kennedy
+0068d000009MWGfAAO,0018d00000Ggx41AAB,Opportunity for Patton1278,Closed Won,2477275,0058d000004QHaYAAW,0058d000004B2qYAAS,Santos84 Inc,Partner,Lorna Brown,Julie Chavez,Lorna Brown,Kelly Frazier
+0068d000009MWGhAAO,0018d00000GgwvfAAB,Opportunity for Chandler1281,Perception Analysis,2336600,0058d000004QHaoAAG,0058d000004B2qYAAS,Lee192 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Johnny Green
+0068d000009MWGiAAO,0018d00000Ggx5TAAR,Opportunity for Bradley1628,Closed Won,326160,0058d000004QHaZAAW,0058d000004B2qYAAS,Vega718 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Laura Palmer
+0068d000009MWGkAAO,0018d00000GgwwsAAB,Opportunity for Marsh1634,Closed Lost,3055100,0058d000004QHagAAG,0058d000004B2qYAAS,Gilbert774 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Bruce Kennedy
+0068d000009MW7MAAW,0018d00000Ggx3AAAR,Opportunity for Murphy267,Closed Won,2664105,0058d000004QHaqAAG,0058d000004B2qYAAS,Todd690 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Irene Kelley
+0068d000009MW7NAAW,0018d00000GgwwSAAR,Opportunity for Freeman268,Closed Won,1518190,0058d000004QHajAAG,0058d000004B2qYAAS,Roberson601 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Laura Garza
+0068d000009MW7OAAW,0018d00000GgwzrAAB,Opportunity for Terry269,Closed Won,846000,0058d000004QHacAAG,0058d000004B2qYAAS,Wise244 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Evelyn Williamson
+0068d000009MW7PAAW,0018d00000GgwzEAAR,Opportunity for Butler275,Closed Won,209104,0058d000004QHalAAG,0058d000004B2qYAAS,Briggs955 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Harold Campbell
+0068d000009MW7QAAW,0018d00000GgwtkAAB,Opportunity for Collier276,Qualification,582035,0058d000004QHaeAAG,0058d000004B2qYAAS,Daniels141 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,John Williams
+0068d000009MW7RAAW,0018d00000Ggx3yAAB,Opportunity for Banks277,Closed Won,376862,0058d000004QHacAAG,0058d000004B2qYAAS,Lane81 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Harold Campbell
+0068d000009MW7SAAW,0018d00000Ggwy2AAB,Opportunity for Alexander278,Closed Won,18960,0058d000004QHagAAG,0058d000004B2qYAAS,Oliver444 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Chris Riley
+0068d000009MW7TAAW,0018d00000Ggx2sAAB,Opportunity for Allison281,Qualification,1573350,0058d000004QHadAAG,0058d000004B2qYAAS,Wright507 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Eric Gutierrez
+0068d000009MW7UAAW,0018d00000Ggx22AAB,Opportunity for Delgado355,Closed Won,1318960,0058d000004QHagAAG,0058d000004B2qYAAS,Figueroa68 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Laura Garza
+0068d000009MW7XAAW,0018d00000GgwvPAAR,Opportunity for Bryant359,Closed Won,3039400,0058d000004QHaqAAG,0058d000004B2qYAAS,Jackson589 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Kelly Frazier
+0068d000009MW7YAAW,0018d00000Ggx5JAAR,Opportunity for Wise361,Needs Analysis,1595250,0058d000004QHaaAAG,0058d000004B2qYAAS,Scott708 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Irene Kelley
+0068d000009MW7ZAAW,0018d00000Ggx17AAB,Opportunity for Hunt362,Closed Won,1148850,0058d000004QHafAAG,0058d000004B2qYAAS,Hart828 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Kelly Frazier
+0068d000009MW7aAAG,0018d00000Ggx7VAAR,Opportunity for Scott363,Perception Analysis,788800,0058d000004QHaoAAG,0058d000004B2qYAAS,Carlson744 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Bruce Kennedy
+0068d000009MW9qAAG,0018d00000GgwyCAAR,Opportunity for Campbell329,Closed Won,3173450,0058d000004QHajAAG,0058d000004B2qYAAS,Bush454 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Julie Chavez
+0068d000009MW9rAAG,0018d00000GgwueAAB,Opportunity for Reynolds330,Closed Lost,276000,0058d000004QHabAAG,0058d000004B2qYAAS,Reed186 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Irene McCoy
+0068d000009MW9sAAG,0018d00000GgwuzAAB,Opportunity for Fletcher332,Value Proposition,313425,0058d000004QHajAAG,0058d000004B2qYAAS,Pratt392 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Johnny Green
+0068d000009MW9tAAG,0018d00000Ggwx8AAB,Opportunity for Shaw336,Qualification,389120,0058d000004QHadAAG,0058d000004B2qYAAS,Keller1 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,Eric Gutierrez
+0068d000009MW9uAAG,0018d00000Ggx0JAAR,Opportunity for Roy337,Closed Won,1241600,0058d000004QHaZAAW,0058d000004B2qYAAS,Holloway471 Inc,Partner,Lorna Brown,Laura Garza,Lorna Brown,Evelyn Williamson
+0068d000009MW9vAAG,0018d00000Ggx1oAAB,Opportunity for Brooks342,Closed Won,5280,0058d000004QHaaAAG,0058d000004B2qYAAS,Walsh54 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Catherine Brown
+0068d000009MW9wAAG,0018d00000Ggx8NAAR,Opportunity for Gomez345,Closed Lost,3145700,0058d000004QHamAAG,0058d000004B2qYAAS,Russell560 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Irene McCoy
+0068d000009MW9xAAG,0018d00000GgwzjAAB,Opportunity for Lamb346,Closed Lost,1668500,0058d000004QHapAAG,0058d000004B2qYAAS,West49 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Catherine Brown
+0068d000009MW9zAAG,0018d00000Ggx0lAAB,Opportunity for Christensen684,Qualification,624510,0058d000004QHacAAG,0058d000004B2qYAAS,Simmons663 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Catherine Brown
+0068d000009MWA0AAO,0018d00000Ggx1FAAR,Opportunity for Murray689,Closed Lost,2135800,0058d000004QHajAAG,0058d000004B2qYAAS,Marsh836 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Laura Garza
+0068d000009MWA2AAO,0018d00000Ggx4GAAR,Opportunity for Gomez694,Closed Lost,452200,0058d000004QHaeAAG,0058d000004B2qYAAS,Schmidt289 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Julie Chavez
+0068d000009MWA3AAO,0018d00000Ggx9MAAR,Opportunity for McKenzie695,Closed Lost,538820,0058d000004QHapAAG,0058d000004B2qYAAS,Stokes935 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Eric Sanchez
+0068d000009MWC2AAO,0018d00000Ggx39AAB,Opportunity for Hardy1507,Perception Analysis,594760,0058d000004QHacAAG,0058d000004B2qYAAS,Benson689 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,John Williams
+0068d000009MWC3AAO,0018d00000Ggx2JAAR,Opportunity for Nguyen1510,Qualification,791500,0058d000004QHanAAG,0058d000004B2qYAAS,Hawkins276 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Dennis Howard
+0068d000009MWC4AAO,0018d00000GgwzBAAR,Opportunity for Garrett1512,Closed Won,2719000,0058d000004QHacAAG,0058d000004B2qYAAS,Sims952 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Dennis Howard
+0068d000009MWC5AAO,0018d00000Ggx6RAAR,Opportunity for Kennedy1514,Closed Won,130230,0058d000004QHadAAG,0058d000004B2qYAAS,Tate321 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Julie Chavez
+0068d000009MWC6AAO,0018d00000Ggwv2AAB,Opportunity for Bell1517,Closed Won,448068,0058d000004QHajAAG,0058d000004B2qYAAS,Rivera395 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Laura Palmer
+0068d000009MWC1AAO,0018d00000GgwyoAAB,Opportunity for Norris1506,Closed Won,43355,0058d000004QHabAAG,0058d000004B2qYAAS,Tran798 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Eric Gutierrez
+0068d000009MWJaAAO,0018d00000GgwwuAAB,Opportunity for Meyer1740,Closed Won,1337090,0058d000004QHaqAAG,0058d000004B2qYAAS,Bridges776 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Johnny Green
+0068d000009MWJbAAO,0018d00000Ggx3oAAB,Opportunity for Phillips1742,Qualification,1580935,0058d000004QHagAAG,0058d000004B2qYAAS,Riley999 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Dennis Howard
+0068d000009MWJcAAO,0018d00000Ggx94AAB,Opportunity for Smith1744,Closed Lost,535160,0058d000004QHapAAG,0058d000004B2qYAAS,Casey767 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Evelyn Williamson
+0068d000009MWJdAAO,0018d00000Ggx4CAAR,Opportunity for Rhodes1746,Perception Analysis,918500,0058d000004QHadAAG,0058d000004B2qYAAS,Dean95 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Laura Palmer
+0068d000009MWJfAAO,0018d00000Ggx51AAB,Opportunity for Jackson611,Closed Won,73600,0058d000004QHaeAAG,0058d000004B2qYAAS,McKenzie531 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Gutierrez
+0068d000009MWJgAAO,0018d00000GgwyJAAR,Opportunity for Keller612,Closed Lost,765600,0058d000004QHaaAAG,0058d000004B2qYAAS,Rodgers461 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Irene McCoy
+0068d000009MWJhAAO,0018d00000Ggx1tAAB,Opportunity for Osborne613,Closed Won,834280,0058d000004QHacAAG,0058d000004B2qYAAS,Doyle59 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Kelly Frazier
+0068d000009MWJiAAO,0018d00000GgwxTAAR,Opportunity for Valdez617,Closed Won,273090,0058d000004QHaiAAG,0058d000004B2qYAAS,Austin22 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Harold Campbell
+0068d000009MW7bAAG,0018d00000Ggx7BAAR,Opportunity for McCoy365,Closed Won,88200,0058d000004QHaoAAG,0058d000004B2qYAAS,Munoz724 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Irene Kelley
+0068d000009MW7cAAG,0018d00000Ggwu7AAB,Opportunity for Love368,Closed Won,390885,0058d000004QHanAAG,0058d000004B2qYAAS,Ross364 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Johnny Green
+0068d000009MW7dAAG,0018d00000GgwuVAAR,Opportunity for Rios369,Closed Lost,112725,0058d000004QHaoAAG,0058d000004B2qYAAS,King177 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Catherine Brown
+0068d000009MW7eAAG,0018d00000Ggx0KAAR,Opportunity for Gordon370,Closed Won,179225,0058d000004QHacAAG,0058d000004B2qYAAS,Padilla472 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Laura Garza
+0068d000009MW7fAAG,0018d00000Ggx5HAAR,Opportunity for Harrington373,Closed Won,22240,0058d000004QHalAAG,0058d000004B2qYAAS,West706 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,John Williams
+0068d000009MW7gAAG,0018d00000GgwzMAAR,Opportunity for Pearson374,Closed Won,62400,0058d000004QHagAAG,0058d000004B2qYAAS,McGuire26 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Nicolas Weaver
+0068d000009MW7hAAG,0018d00000GgwvlAAB,Opportunity for Clayton375,Closed Won,657600,0058d000004QHaqAAG,0058d000004B2qYAAS,Perkins198 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Dennis Howard
+0068d000009MWA4AAO,0018d00000GgwwMAAR,Opportunity for Malone696,Negotiation/Review,137400,0058d000004QHagAAG,0058d000004B2qYAAS,Fletcher429 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Irene McCoy
+0068d000009MWA6AAO,0018d00000Ggx89AAB,Opportunity for Ingram699,Closed Lost,2669875,0058d000004QHanAAG,0058d000004B2qYAAS,Weaver350 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Julie Chavez
+0068d000009MWA8AAO,0018d00000Ggx6XAAR,Opportunity for Swanson1068,Negotiation/Review,248276,0058d000004QHaZAAW,0058d000004B2qYAAS,Ellis327 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Irene McCoy
+0068d000009MWA9AAO,0018d00000Ggx01AAB,Opportunity for Ramsey1069,Closed Won,1867750,0058d000004QHagAAG,0058d000004B2qYAAS,Glover254 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Laura Palmer
+0068d000009MWACAA4,0018d00000GgwuhAAB,Opportunity for Weber1078,Value Proposition,36960,0058d000004QHabAAG,0058d000004B2qYAAS,Webb165 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Doroth Gardner
+0068d000009MWADAA4,0018d00000GgwzJAAR,Opportunity for Bowman1081,Closed Won,218204,0058d000004QHadAAG,0058d000004B2qYAAS,Johnson960 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,Johnny Green
+0068d000009MWAEAA4,0018d00000Ggx6bAAB,Opportunity for Maxwell1082,Closed Won,457656,0058d000004QHajAAG,0058d000004B2qYAAS,Hill331 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Laura Garza
+0068d000009MWAFAA4,0018d00000Ggx5LAAR,Opportunity for Soto1087,Closed Won,263500,0058d000004QHacAAG,0058d000004B2qYAAS,Fleming710 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Irene Kelley
+0068d000009MWAGAA4,0018d00000Ggx3hAAB,Opportunity for Alvarez1088,Needs Analysis,2592000,0058d000004QHaiAAG,0058d000004B2qYAAS,Allison992 Inc,Partner,Lorna Brown,Dennis Howard,Lorna Brown,Kelly Frazier
+0068d000009MWAJAA4,0018d00000GgwvOAAR,Opportunity for Chandler1451,Closed Lost,163110,0058d000004QHaqAAG,0058d000004B2qYAAS,Owens588 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Nicolas Weaver
+0068d000009MWAKAA4,0018d00000GgwydAAB,Opportunity for Grant1452,Prospecting,735870,0058d000004QHadAAG,0058d000004B2qYAAS,Ingram644 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Laura Garza
+0068d000009MWALAA4,0018d00000Ggx8zAAB,Opportunity for Bates1455,Value Proposition,482025,0058d000004QHaaAAG,0058d000004B2qYAAS,Fleming762 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Chris Riley
+0068d000009MWAMAA4,0018d00000Ggx5XAAR,Opportunity for Fisher1458,Closed Won,1438500,0058d000004QHaiAAG,0058d000004B2qYAAS,Owen872 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Dennis Howard
+0068d000009MWANAA4,0018d00000GgwxKAAR,Opportunity for Paul1460,Closed Lost,2714200,0058d000004QHacAAG,0058d000004B2qYAAS,Harris13 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Laura Garza
+0068d000009MWAOAA4,0018d00000Ggx5GAAR,Opportunity for Cruz1461,Value Proposition,60160,0058d000004QHajAAG,0058d000004B2qYAAS,Graham705 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Irene McCoy
+0068d000009MWC8AAO,0018d00000Ggx32AAB,Opportunity for Holt1880,Closed Lost,950440,0058d000004QHamAAG,0058d000004B2qYAAS,Ortega682 Inc,Partner,Lorna Brown,Catherine Brown,Lorna Brown,Doroth Gardner
+0068d000009MWCAAA4,0018d00000GgwuoAAB,Opportunity for Barker1887,Closed Lost,1740500,0058d000004QHaYAAW,0058d000004B2qYAAS,Carter172 Inc,Partner,Lorna Brown,Julie Chavez,Lorna Brown,Johnny Green
+0068d000009MWCBAA4,0018d00000Ggwv8AAB,Opportunity for Daniel1888,Value Proposition,1384600,0058d000004QHaqAAG,0058d000004B2qYAAS,Tucker401 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Harold Campbell
+0068d000009MWCCAA4,0018d00000GgwyiAAB,Opportunity for Phillips1889,Value Proposition,39600,0058d000004QHafAAG,0058d000004B2qYAAS,Valdez792 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Catherine Brown
+0068d000009MWCDAA4,0018d00000GgwtjAAB,Opportunity for Hall1897,Perception Analysis,2925000,0058d000004QHaeAAG,0058d000004B2qYAAS,Lopez140 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Kelly Frazier
+0068d000009MWCEAA4,0018d00000GgwvUAAR,Opportunity for McKenzie1898,Closed Won,201720,0058d000004QHaaAAG,0058d000004B2qYAAS,Benson594 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Dennis Howard
+0068d000009MWCFAA4,0018d00000Ggx8vAAB,Opportunity for Mullins1899,Closed Won,498520,0058d000004QHaZAAW,0058d000004B2qYAAS,Hall758 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Chris Riley
+0068d000009MWK2AAO,0018d00000Ggx1EAAR,Opportunity for Kennedy1017,Closed Won,1590600,0058d000004QHaiAAG,0058d000004B2qYAAS,Ford835 Inc,Partner,Lorna Brown,Dennis Howard,Lorna Brown,Laura Palmer
+0068d000009MWK3AAO,0018d00000GgwtqAAB,Opportunity for Collier1376,Prospecting,89230,0058d000004QHabAAG,0058d000004B2qYAAS,Graves147 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Evelyn Williamson
+0068d000009MWK4AAO,0018d00000Ggx0hAAB,Opportunity for Bridges1377,Closed Won,794270,0058d000004QHajAAG,0058d000004B2qYAAS,Long659 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Nicolas Weaver
+0068d000009MWK5AAO,0018d00000GgwzkAAB,Opportunity for Elliott1378,Closed Lost,3164200,0058d000004QHagAAG,0058d000004B2qYAAS,Lawrence50 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Dennis Howard
+0068d000009MWK6AAO,0018d00000Ggx5UAAR,Opportunity for Ray1381,Closed Won,908360,0058d000004QHadAAG,0058d000004B2qYAAS,Chambers869 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Bruce Kennedy
+0068d000009MWK7AAO,0018d00000GgwvPAAR,Opportunity for Ryan1382,Closed Won,2346320,0058d000004QHapAAG,0058d000004B2qYAAS,Jackson589 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Kelly Frazier
+0068d000009MWK8AAO,0018d00000Ggx5QAAR,Opportunity for Washington1383,Closed Won,208600,0058d000004QHafAAG,0058d000004B2qYAAS,Bradley715 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Dennis Howard
+0068d000009MWK9AAO,0018d00000Ggwu7AAB,Opportunity for Griffin1384,Closed Lost,374162,0058d000004QHalAAG,0058d000004B2qYAAS,Ross364 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Johnny Green
+0068d000009MWKAAA4,0018d00000Ggx0IAAR,Opportunity for Simpson1385,Qualification,392207,0058d000004QHabAAG,0058d000004B2qYAAS,Moore470 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Doroth Gardner
+0068d000009MWLQAA4,0018d00000GgwtnAAB,Opportunity for Luna668,Closed Won,3251640,0058d000004QHacAAG,0058d000004B2qYAAS,Quinn144 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Eric Sanchez
+0068d000009MWLRAA4,0018d00000Ggx6FAAR,Opportunity for Stevenson670,Value Proposition,2728890,0058d000004QHamAAG,0058d000004B2qYAAS,Webster118 Inc,Partner,Lorna Brown,Catherine Brown,Lorna Brown,Eric Gutierrez
+0068d000009MWLSAA4,0018d00000Ggx3rAAB,Opportunity for Ramirez671,Closed Lost,430330,0058d000004QHaoAAG,0058d000004B2qYAAS,Wood74 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Eric Gutierrez
+0068d000009MW7iAAG,0018d00000GgwuMAAR,Opportunity for Mathis376,Closed Won,637520,0058d000004QHabAAG,0058d000004B2qYAAS,Banks379 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Eric Sanchez
+0068d000009MW7jAAG,0018d00000Ggx6qAAB,Opportunity for Gray19,Closed Won,690210,0058d000004QHafAAG,0058d000004B2qYAAS,Barnett543 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Irene Kelley
+0068d000009MW7kAAG,0018d00000GgwwQAAR,Opportunity for Hawkins22,Prospecting,136464,0058d000004QHaZAAW,0058d000004B2qYAAS,Duncan433 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Chris Riley
+0068d000009MW7lAAG,0018d00000Ggx2hAAB,Opportunity for McCormick23,Negotiation/Review,744440,0058d000004QHaaAAG,0058d000004B2qYAAS,Lowe496 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,John Williams
+0068d000009MW7mAAG,0018d00000Ggx5TAAR,Opportunity for Cox29,Closed Won,2345840,0058d000004QHaZAAW,0058d000004B2qYAAS,Vega718 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Laura Palmer
+0068d000009MW7oAAG,0018d00000Ggx2RAAR,Opportunity for Bass32,Closed Won,4010350,0058d000004QHaeAAG,0058d000004B2qYAAS,Tucker284 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Julie Chavez
+0068d000009MW7pAAG,0018d00000Ggx35AAB,Opportunity for Butler33,Perception Analysis,8577295,0058d000004QHabAAG,0058d000004B2qYAAS,Watts685 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Laura Palmer
+0068d000009MW7qAAG,0018d00000Ggx7AAAR,Opportunity for Alvarez35,Closed Won,266400,0058d000004QHanAAG,0058d000004B2qYAAS,Wade723 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Garza
+0068d000009MW7rAAG,0018d00000Ggx75AAB,Opportunity for Nunez37,Closed Lost,809810,0058d000004QHacAAG,0058d000004B2qYAAS,Smith558 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Laura Palmer
+0068d000009MW7sAAG,0018d00000Ggx4pAAB,Opportunity for Wilkins38,Closed Won,980500,0058d000004QHapAAG,0058d000004B2qYAAS,Bennett519 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Chris Riley
+0068d000009MW7tAAG,0018d00000Ggx0qAAB,Opportunity for Stevens152,Closed Lost,11883,0058d000004QHajAAG,0058d000004B2qYAAS,Rogers668 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Bruce Kennedy
+0068d000009MW7vAAG,0018d00000GgwzDAAR,Opportunity for Vega154,Closed Lost,77270,0058d000004QHaZAAW,0058d000004B2qYAAS,Stevenson954 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Kelly Frazier
+0068d000009MW7wAAG,0018d00000GgwuRAAR,Opportunity for Moss156,Negotiation/Review,857500,0058d000004QHajAAG,0058d000004B2qYAAS,Rios384 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Eric Gutierrez
+0068d000009MW7xAAG,0018d00000Ggx90AAB,Opportunity for Hunt157,Closed Won,353136,0058d000004QHadAAG,0058d000004B2qYAAS,Brewer763 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Dennis Howard
+0068d000009MW7yAAG,0018d00000Ggx6qAAB,Opportunity for Mendoza161,Closed Won,567800,0058d000004QHahAAG,0058d000004B2qYAAS,Barnett543 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Irene Kelley
+0068d000009MW7zAAG,0018d00000Ggx0CAAR,Opportunity for Todd162,Prospecting,465500,0058d000004QHapAAG,0058d000004B2qYAAS,Maldonado464 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Kelly Frazier
+0068d000009MWCHAA4,0018d00000Ggx0FAAR,Opportunity for Lee759,Closed Won,710500,0058d000004QHajAAG,0058d000004B2qYAAS,McDaniel467 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Doroth Gardner
+0068d000009MWCKAA4,0018d00000Ggx4xAAB,Opportunity for Walters765,Closed Won,623750,0058d000004QHapAAG,0058d000004B2qYAAS,Snyder527 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Harold Campbell
+0068d000009MWCLAA4,0018d00000Ggx8zAAB,Opportunity for Drake768,Perception Analysis,70368,0058d000004QHagAAG,0058d000004B2qYAAS,Fleming762 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Chris Riley
+0068d000009MWCMAA4,0018d00000Ggx06AAB,Opportunity for Elliott770,Closed Won,646400,0058d000004QHajAAG,0058d000004B2qYAAS,Wells259 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Laura Garza
+0068d000009MWCNAA4,0018d00000Ggx5cAAB,Opportunity for Malone772,Closed Won,5880,0058d000004QHapAAG,0058d000004B2qYAAS,Norton877 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Eric Sanchez
+0068d000009MWCOAA4,0018d00000GgwxyAAB,Opportunity for Newton773,Closed Won,887240,0058d000004QHagAAG,0058d000004B2qYAAS,Mann440 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Julie Chavez
+0068d000009MWEWAA4,0018d00000Ggx7qAAB,Opportunity for Campbell1583,Closed Won,2008900,0058d000004QHajAAG,0058d000004B2qYAAS,Dixon915 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Eric Sanchez
+0068d000009MWEXAA4,0018d00000GgwzRAAR,Opportunity for Lamb1584,Closed Lost,1728950,0058d000004QHacAAG,0058d000004B2qYAAS,Long31 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Doroth Gardner
+0068d000009MWEYAA4,0018d00000Ggx1YAAR,Opportunity for Bates1952,Closed Won,127600,0058d000004QHapAAG,0058d000004B2qYAAS,Cummings974 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Laura Palmer
+0068d000009MWEZAA4,0018d00000GgwyGAAR,Opportunity for Webster1954,Closed Won,171660,0058d000004QHajAAG,0058d000004B2qYAAS,Summers458 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Kelly Frazier
+0068d000009MWEaAAO,0018d00000Ggx5xAAB,Opportunity for Cobb1955,Closed Won,446461,0058d000004QHacAAG,0058d000004B2qYAAS,Floyd100 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Nicolas Weaver
+0068d000009MWEbAAO,0018d00000Ggx4uAAB,Opportunity for Wilkerson1956,Closed Won,1128970,0058d000004QHahAAG,0058d000004B2qYAAS,Lopez524 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Irene Kelley
+0068d000009MWEcAAO,0018d00000Ggx6SAAR,Opportunity for Harper1957,Closed Won,421000,0058d000004QHanAAG,0058d000004B2qYAAS,Fowler322 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Irene Kelley
+0068d000009MWEdAAO,0018d00000Ggww4AAB,Opportunity for Stone1959,Closed Won,1052275,0058d000004QHaoAAG,0058d000004B2qYAAS,Payne411 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Irene Kelley
+0068d000009MWEeAAO,0018d00000GgwvfAAB,Opportunity for Bush1960,Closed Lost,1540000,0058d000004QHagAAG,0058d000004B2qYAAS,Lee192 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Johnny Green
+0068d000009MWEgAAO,0018d00000Ggx1TAAR,Opportunity for Murphy1963,Negotiation/Review,1241390,0058d000004QHabAAG,0058d000004B2qYAAS,Rivera969 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Irene McCoy
+0068d000009MWEiAAO,0018d00000GgwvpAAB,Opportunity for Bowen1968,Qualification,125340,0058d000004QHalAAG,0058d000004B2qYAAS,Reeves202 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Irene McCoy
+0068d000009MWEjAAO,0018d00000GgwtiAAB,Opportunity for Nguyen1971,Proposal/Price Quote,2049800,0058d000004QHacAAG,0058d000004B2qYAAS,Pope139 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,John Williams
+0068d000009MWGmAAO,0018d00000GgwwXAAR,Opportunity for Jacobs1642,Closed Lost,2560600,0058d000004QHaoAAG,0058d000004B2qYAAS,Davidson606 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Julie Chavez
+0068d000009MWGnAAO,0018d00000Ggx47AAB,Opportunity for Baker1644,Closed Won,2440900,0058d000004QHaqAAG,0058d000004B2qYAAS,Steele90 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,John Williams
+0068d000009MWGoAAO,0018d00000Ggx29AAB,Opportunity for Austin1650,Closed Won,1132600,0058d000004QHalAAG,0058d000004B2qYAAS,Beck266 Inc,Partner,Lorna Brown,Johnny Green,Lorna Brown,Irene Kelley
+0068d000009MWGpAAO,0018d00000GgwyuAAB,Opportunity for Wright1651,Closed Won,286073,0058d000004QHaoAAG,0058d000004B2qYAAS,Roberts804 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Johnny Green
+0068d000009MWGqAAO,0018d00000Ggx0bAAB,Opportunity for McKenzie1652,Closed Won,2386625,0058d000004QHadAAG,0058d000004B2qYAAS,Warren653 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,Julie Chavez
+0068d000009MWGrAAO,0018d00000GgwxpAAB,Opportunity for Newton532,Negotiation/Review,45265,0058d000004QHanAAG,0058d000004B2qYAAS,Fletcher234 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Harold Campbell
+0068d000009MWGsAAO,0018d00000Ggx7AAAR,Opportunity for Schwartz533,Closed Won,632960,0058d000004QHaiAAG,0058d000004B2qYAAS,Wade723 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Laura Garza
+0068d000009MWGtAAO,0018d00000Ggx9CAAR,Opportunity for Hunter534,Closed Lost,234750,0058d000004QHahAAG,0058d000004B2qYAAS,Graves925 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Harold Campbell
+0068d000009MWGwAAO,0018d00000Ggx4WAAR,Opportunity for Tate537,Closed Lost,1238650,0058d000004QHafAAG,0058d000004B2qYAAS,Gutierrez305 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Irene McCoy
+0068d000009MWGyAAO,0018d00000Ggx5dAAB,Opportunity for Bryant543,Closed Won,3072000,0058d000004QHanAAG,0058d000004B2qYAAS,Barber878 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Johnny Green
+0068d000009MWGzAAO,0018d00000Ggx7tAAB,Opportunity for Wong544,Closed Lost,3498250,0058d000004QHafAAG,0058d000004B2qYAAS,Walters918 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Eric Sanchez
+0068d000009MWH0AAO,0018d00000Ggx4YAAR,Opportunity for Mack545,Closed Won,551580,0058d000004QHaqAAG,0058d000004B2qYAAS,Fowler307 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Bruce Kennedy
+0068d000009MWH1AAO,0018d00000GgwyWAAR,Opportunity for Watkins896,Closed Won,358100,0058d000004QHaeAAG,0058d000004B2qYAAS,Herrera637 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Harold Campbell
+0068d000009MWH2AAO,0018d00000Ggx85AAB,Opportunity for Bridges897,Closed Lost,1316850,0058d000004QHaqAAG,0058d000004B2qYAAS,Benson346 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Julie Chavez
+0068d000009MWH3AAO,0018d00000Ggx2OAAR,Opportunity for Powell899,Closed Won,1802500,0058d000004QHapAAG,0058d000004B2qYAAS,Evans281 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Dennis Howard
+0068d000009MWH4AAO,0018d00000Ggx2wAAB,Opportunity for Wilkerson900,Prospecting,3537660,0058d000004QHaoAAG,0058d000004B2qYAAS,Gray676 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,John Williams
+0068d000009MWJjAAO,0018d00000Ggx3dAAB,Opportunity for Weber619,Closed Won,3474950,0058d000004QHaiAAG,0058d000004B2qYAAS,Joseph988 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Laura Garza
+0068d000009MWJkAAO,0018d00000GgwvGAAR,Opportunity for West620,Closed Won,2151600,0058d000004QHadAAG,0058d000004B2qYAAS,Gonzales409 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Doroth Gardner
+0068d000009MWJlAAO,0018d00000GgwucAAB,Opportunity for Ingram622,Closed Won,4841250,0058d000004QHaZAAW,0058d000004B2qYAAS,Crawford184 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Laura Garza
+0068d000009MWJmAAO,0018d00000GgwzOAAR,Opportunity for Jackson625,Closed Won,1948800,0058d000004QHaaAAG,0058d000004B2qYAAS,Cohen28 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Eric Gutierrez
+0068d000009MWJnAAO,0018d00000Ggx90AAB,Opportunity for Daniels627,Qualification,1422600,0058d000004QHaZAAW,0058d000004B2qYAAS,Brewer763 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Dennis Howard
+0068d000009MWJrAAO,0018d00000Ggx01AAB,Opportunity for McCarthy999,Closed Won,775200,0058d000004QHagAAG,0058d000004B2qYAAS,Glover254 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Laura Palmer
+0068d000009MWJtAAO,0018d00000Ggx45AAB,Opportunity for Chavez1002,Qualification,355680,0058d000004QHaZAAW,0058d000004B2qYAAS,Hunter88 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Dennis Howard
+0068d000009MWJwAAO,0018d00000GgwtqAAB,Opportunity for Vasquez1005,Closed Won,269400,0058d000004QHaYAAW,0058d000004B2qYAAS,Graves147 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Evelyn Williamson
+0068d000009MWJxAAO,0018d00000Ggx23AAB,Opportunity for Schultz1008,Closed Won,5188750,0058d000004QHabAAG,0058d000004B2qYAAS,Sharp69 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Harold Campbell
+0068d000009MWJyAAO,0018d00000Ggww5AAB,Opportunity for Holmes1012,Qualification,1348890,0058d000004QHadAAG,0058d000004B2qYAAS,Rodriquez412 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Irene Kelley
+0068d000009MWJzAAO,0018d00000Ggwu5AAB,Opportunity for Richardson1013,Value Proposition,499733,0058d000004QHaiAAG,0058d000004B2qYAAS,McCarthy162 Inc,Partner,Lorna Brown,Dennis Howard,Lorna Brown,Dennis Howard
+0068d000009MWK0AAO,0018d00000GgwwBAAR,Opportunity for Floyd1015,Closed Won,401291,0058d000004QHamAAG,0058d000004B2qYAAS,Tyler418 Inc,Partner,Lorna Brown,Catherine Brown,Lorna Brown,Johnny Green
+0068d000009MWK1AAO,0018d00000GgwttAAB,Opportunity for Atkins1016,Closed Won,1926610,0058d000004QHamAAG,0058d000004B2qYAAS,Salazar150 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,John Williams
+0068d000009MWKBAA4,0018d00000Ggx3oAAB,Opportunity for Newman1387,Closed Won,2451210,0058d000004QHalAAG,0058d000004B2qYAAS,Riley999 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Dennis Howard
+0068d000009MWKCAA4,0018d00000GgwtpAAB,Opportunity for Boone1390,Closed Won,69240,0058d000004QHaZAAW,0058d000004B2qYAAS,Knight146 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Nicolas Weaver
+0068d000009MWKEAA4,0018d00000GgwvTAAR,Opportunity for Sanders1392,Closed Won,196890,0058d000004QHanAAG,0058d000004B2qYAAS,Yates593 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Nicolas Weaver
+0068d000009MWKFAA4,0018d00000Ggx95AAB,Opportunity for Maldonado1393,Closed Won,739550,0058d000004QHaqAAG,0058d000004B2qYAAS,Rodriguez768 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Nicolas Weaver
+0068d000009MWKHAA4,0018d00000GgwtqAAB,Opportunity for Moran1395,Closed Won,234500,0058d000004QHamAAG,0058d000004B2qYAAS,Graves147 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Evelyn Williamson
+0068d000009MWKIAA4,0018d00000GgwzhAAB,Opportunity for Robinson1397,Closed Won,33600,0058d000004QHaYAAW,0058d000004B2qYAAS,Casey47 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Laura Garza
+0068d000009MWKJAA4,0018d00000GgwwTAAR,Opportunity for Salazar1398,Closed Won,555200,0058d000004QHapAAG,0058d000004B2qYAAS,McCarthy602 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Eric Gutierrez
+0068d000009MWKKAA4,0018d00000Ggx7UAAR,Opportunity for Kelly1755,Closed Won,197075,0058d000004QHacAAG,0058d000004B2qYAAS,Mitchell743 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Bruce Kennedy
+0068d000009MWKLAA4,0018d00000Ggx3aAAB,Opportunity for Buchanan1756,Closed Lost,76532,0058d000004QHacAAG,0058d000004B2qYAAS,Tran866 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Irene Kelley
+0068d000009MWKMAA4,0018d00000GgwykAAB,Opportunity for McGee1757,Proposal/Price Quote,360800,0058d000004QHalAAG,0058d000004B2qYAAS,Weber794 Inc,Partner,Lorna Brown,Johnny Green,Lorna Brown,Chris Riley
+0068d000009MWKNAA4,0018d00000Ggx5WAAR,Opportunity for Nguyen1759,Closed Lost,1324800,0058d000004QHamAAG,0058d000004B2qYAAS,Gomez871 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Irene McCoy
+0068d000009MWKOAA4,0018d00000GgwvwAAB,Opportunity for Luna1760,Closed Won,89400,0058d000004QHaoAAG,0058d000004B2qYAAS,Gonzales209 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Harold Campbell
+0068d000009MWKPAA4,0018d00000Ggx9SAAR,Opportunity for Sanders1761,Qualification,1049880,0058d000004QHaqAAG,0058d000004B2qYAAS,Brewer941 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Laura Garza
+0068d000009MWKRAA4,0018d00000Ggx85AAB,Opportunity for Zimmerman1763,Qualification,4747520,0058d000004QHaeAAG,0058d000004B2qYAAS,Benson346 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Julie Chavez
+0068d000009MWKSAA4,0018d00000Ggx0BAAR,Opportunity for Barton1764,Value Proposition,3209120,0058d000004QHaZAAW,0058d000004B2qYAAS,Hill463 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Kelly Frazier
+0068d000009MWKaAAO,0018d00000Ggww9AAB,Opportunity for Byrd640,Closed Won,499928,0058d000004QHanAAG,0058d000004B2qYAAS,West416 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Garza
+0068d000009MWKbAAO,0018d00000GgwzPAAR,Opportunity for Carson641,Closed Won,376955,0058d000004QHanAAG,0058d000004B2qYAAS,Reid29 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Johnny Green
+0068d000009MWKcAAO,0018d00000Ggx9WAAR,Opportunity for Figueroa642,Needs Analysis,701400,0058d000004QHalAAG,0058d000004B2qYAAS,Holmes945 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Eric Sanchez
+0068d000009MWKdAAO,0018d00000Ggwz4AAB,Opportunity for Jensen643,Closed Won,898800,0058d000004QHahAAG,0058d000004B2qYAAS,Gordon814 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Irene McCoy
+0068d000009MWKeAAO,0018d00000GgwucAAB,Opportunity for Frazier644,Qualification,1528750,0058d000004QHafAAG,0058d000004B2qYAAS,Crawford184 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Laura Garza
+0068d000009MWKfAAO,0018d00000Ggx7NAAR,Opportunity for Barrett645,Closed Lost,2221650,0058d000004QHacAAG,0058d000004B2qYAAS,Schneider736 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Chris Riley
+0068d000009MWKgAAO,0018d00000Ggx1TAAR,Opportunity for Bowen646,Needs Analysis,1158700,0058d000004QHaaAAG,0058d000004B2qYAAS,Rivera969 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Irene McCoy
+0068d000009MWKiAAO,0018d00000GgwuLAAR,Opportunity for Ruiz650,Closed Won,209640,0058d000004QHadAAG,0058d000004B2qYAAS,Armstrong378 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Johnny Green
+0068d000009MWKjAAO,0018d00000Ggx91AAB,Opportunity for Blair652,Closed Won,965425,0058d000004QHaZAAW,0058d000004B2qYAAS,Sharp764 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Eric Sanchez
+0068d000009MW85AAG,0018d00000GgwutAAB,Opportunity for Cunningham175,Closed Won,4357300,0058d000004QHahAAG,0058d000004B2qYAAS,Flores188 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Chris Riley
+0068d000009MW86AAG,0018d00000GgwuaAAB,Opportunity for Bush283,Proposal/Price Quote,4067300,0058d000004QHagAAG,0058d000004B2qYAAS,Allen182 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Irene McCoy
+0068d000009MW87AAG,0018d00000GgwzTAAR,Opportunity for Pearson288,Closed Won,1790440,0058d000004QHaYAAW,0058d000004B2qYAAS,Graves33 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Irene McCoy
+0068d000009MW88AAG,0018d00000Ggx72AAB,Opportunity for Higgins293,Negotiation/Review,3306425,0058d000004QHaYAAW,0058d000004B2qYAAS,Stone555 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Harold Campbell
+0068d000009MW89AAG,0018d00000GgwzWAAR,Opportunity for Armstrong296,Closed Won,236040,0058d000004QHahAAG,0058d000004B2qYAAS,Soto36 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Chris Riley
+0068d000009MW8AAAW,0018d00000Ggx3TAAR,Opportunity for Francis298,Perception Analysis,219000,0058d000004QHaqAAG,0058d000004B2qYAAS,Jefferson859 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Eric Sanchez
+0068d000009MW8BAAW,0018d00000Ggx9CAAR,Opportunity for McBride299,Value Proposition,567000,0058d000004QHalAAG,0058d000004B2qYAAS,Graves925 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Harold Campbell
+0068d000009MW8CAAW,0018d00000Ggx53AAB,Opportunity for Miller300,Closed Won,2303500,0058d000004QHajAAG,0058d000004B2qYAAS,Stone533 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Doroth Gardner
+0068d000009MW8DAAW,0018d00000GgwwnAAB,Opportunity for Cross303,Perception Analysis,2086050,0058d000004QHaaAAG,0058d000004B2qYAAS,Thompson622 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Julie Chavez
+0068d000009MW8FAAW,0018d00000GgwxKAAR,Opportunity for Figueroa377,Perception Analysis,5839810,0058d000004QHaaAAG,0058d000004B2qYAAS,Harris13 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Laura Garza
+0068d000009MWH5AAO,0018d00000Ggx84AAB,Opportunity for McCoy901,Closed Won,2132690,0058d000004QHadAAG,0058d000004B2qYAAS,Armstrong345 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Laura Garza
+0068d000009MWHDAA4,0018d00000Ggx5OAAR,Opportunity for West913,Closed Won,1418640,0058d000004QHaaAAG,0058d000004B2qYAAS,Hernandez713 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Johnny Green
+0068d000009MWHEAA4,0018d00000GgwwrAAB,Opportunity for Armstrong916,Closed Lost,237283,0058d000004QHagAAG,0058d000004B2qYAAS,Duncan773 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Eric Sanchez
+0068d000009MWH6AAO,0018d00000GgwyVAAR,Opportunity for Black902,Closed Won,340500,0058d000004QHaaAAG,0058d000004B2qYAAS,Walton636 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Harold Campbell
+0068d000009MWH7AAO,0018d00000Ggx91AAB,Opportunity for Morales903,Closed Won,2317340,0058d000004QHanAAG,0058d000004B2qYAAS,Sharp764 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Eric Sanchez
+0068d000009MWH8AAO,0018d00000Ggx5jAAB,Opportunity for Doyle904,Closed Won,94283,0058d000004QHamAAG,0058d000004B2qYAAS,Stevenson884 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Doroth Gardner
+0068d000009MWH9AAO,0018d00000Ggx3eAAB,Opportunity for Williamson906,Closed Won,2449675,0058d000004QHaZAAW,0058d000004B2qYAAS,Hogan989 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Chris Riley
+0068d000009MWHAAA4,0018d00000GgwztAAB,Opportunity for Black908,Closed Won,165000,0058d000004QHalAAG,0058d000004B2qYAAS,Medina246 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Dennis Howard
+0068d000009MWHBAA4,0018d00000Ggwx5AAB,Opportunity for Brady910,Closed Won,1355700,0058d000004QHahAAG,0058d000004B2qYAAS,Medina787 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Dennis Howard
+0068d000009MWHCAA4,0018d00000Ggx5VAAR,Opportunity for Evans911,Value Proposition,185630,0058d000004QHapAAG,0058d000004B2qYAAS,Aguilar870 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Laura Palmer
+0068d000009MWKUAA4,0018d00000GgwyXAAR,Opportunity for Ramirez1767,Closed Won,3440,0058d000004QHaYAAW,0058d000004B2qYAAS,Anderson638 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Julie Chavez
+0068d000009MWKVAA4,0018d00000Ggx1YAAR,Opportunity for James1768,Closed Won,1386250,0058d000004QHaZAAW,0058d000004B2qYAAS,Cummings974 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Laura Palmer
+0068d000009MWKYAA4,0018d00000Ggx2RAAR,Opportunity for Abbott636,Closed Won,121490,0058d000004QHaqAAG,0058d000004B2qYAAS,Tucker284 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Julie Chavez
+0068d000009MWKZAA4,0018d00000Ggx3YAAR,Opportunity for Jefferson638,Closed Won,719960,0058d000004QHacAAG,0058d000004B2qYAAS,Estrada864 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Dennis Howard
+0068d000009MWKlAAO,0018d00000GgwvyAAB,Opportunity for Bridges657,Qualification,1314400,0058d000004QHaZAAW,0058d000004B2qYAAS,Simmons211 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Catherine Brown
+0068d000009MWKvAAO,0018d00000GgwyBAAR,Opportunity for Ortiz1039,Closed Won,128265,0058d000004QHaYAAW,0058d000004B2qYAAS,Paul453 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Kelly Frazier
+0068d000009MWKnAAO,0018d00000GgwzvAAB,Opportunity for Willis1022,Closed Won,296805,0058d000004QHaeAAG,0058d000004B2qYAAS,Greene248 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Doroth Gardner
+0068d000009MWKwAAO,0018d00000Ggx4jAAB,Opportunity for Lopez1040,Closed Won,79550,0058d000004QHafAAG,0058d000004B2qYAAS,Conner513 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Catherine Brown
+0068d000009MWKxAAO,0018d00000GgwwZAAR,Opportunity for Houston1041,Closed Won,3513380,0058d000004QHaaAAG,0058d000004B2qYAAS,Rodriguez608 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Johnny Green
+0068d000009MWKqAAO,0018d00000GgwtlAAB,Opportunity for Santiago1026,Closed Won,2288250,0058d000004QHafAAG,0058d000004B2qYAAS,Underwood142 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Nicolas Weaver
+0068d000009MWKzAAO,0018d00000GgwzvAAB,Opportunity for Gutierrez1402,Closed Won,96977,0058d000004QHaqAAG,0058d000004B2qYAAS,Greene248 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Doroth Gardner
+0068d000009MWKsAAO,0018d00000GgwxQAAR,Opportunity for Walton1035,Closed Won,2550000,0058d000004QHajAAG,0058d000004B2qYAAS,Bailey19 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Evelyn Williamson
+0068d000009MWL1AAO,0018d00000Ggx5qAAB,Opportunity for Dixon1405,Qualification,644000,0058d000004QHaeAAG,0058d000004B2qYAAS,Henderson891 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Gutierrez
+0068d000009MWKtAAO,0018d00000Ggx6cAAB,Opportunity for Mendez1036,Closed Won,459280,0058d000004QHaYAAW,0058d000004B2qYAAS,Hicks332 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Catherine Brown
+0068d000009MWL2AAO,0018d00000Ggx8WAAR,Opportunity for Cobb1406,Qualification,802000,0058d000004QHaiAAG,0058d000004B2qYAAS,Horton569 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Eric Gutierrez
+0068d000009MWL3AAO,0018d00000Ggx7qAAB,Opportunity for Graves1407,Closed Lost,1423890,0058d000004QHaoAAG,0058d000004B2qYAAS,Dixon915 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Eric Sanchez
+0068d000009MWLTAA4,0018d00000Ggx74AAB,Opportunity for Brown672,Closed Won,2684465,0058d000004QHapAAG,0058d000004B2qYAAS,Clayton557 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,John Williams
+0068d000009MWLUAA4,0018d00000Ggx44AAB,Opportunity for Barton675,Closed Won,105210,0058d000004QHalAAG,0058d000004B2qYAAS,Webster87 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Evelyn Williamson
+0068d000009MWLVAA4,0018d00000Ggx1AAAR,Opportunity for Duncan681,Closed Won,63600,0058d000004QHaeAAG,0058d000004B2qYAAS,Greer831 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Gutierrez
+0068d000009MWLWAA4,0018d00000Ggx7nAAB,Opportunity for Manning1045,Closed Won,16843,0058d000004QHagAAG,0058d000004B2qYAAS,Robinson912 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,John Williams
+0068d000009MWLXAA4,0018d00000GgwuvAAB,Opportunity for Colon1047,Value Proposition,680,0058d000004QHagAAG,0058d000004B2qYAAS,Ross388 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Eric Gutierrez
+0068d000009MWLaAAO,0018d00000Ggx6dAAB,Opportunity for McKenzie1054,Closed Won,1224345,0058d000004QHacAAG,0058d000004B2qYAAS,Rowe333 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Laura Garza
+0068d000009MWLbAAO,0018d00000Ggx1TAAR,Opportunity for Webb1055,Closed Lost,1264240,0058d000004QHaqAAG,0058d000004B2qYAAS,Rivera969 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Irene McCoy
+0068d000009MWLcAAO,0018d00000GgwuBAAR,Opportunity for Hart1061,Closed Won,258140,0058d000004QHagAAG,0058d000004B2qYAAS,Dunn368 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,John Williams
+0068d000009MWLdAAO,0018d00000Ggx9RAAR,Opportunity for Vega1066,Perception Analysis,201572,0058d000004QHafAAG,0058d000004B2qYAAS,Bowman940 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Laura Garza
+0068d000009MWAPAA4,0018d00000GgwvHAAR,Opportunity for Jacobs1464,Prospecting,5198280,0058d000004QHajAAG,0058d000004B2qYAAS,Myers581 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Eric Sanchez
+0068d000009MWAQAA4,0018d00000Ggx8fAAB,Opportunity for Walton1466,Closed Lost,558860,0058d000004QHaiAAG,0058d000004B2qYAAS,Vargas578 Inc,Partner,Lorna Brown,Dennis Howard,Lorna Brown,Chris Riley
+0068d000009MWARAA4,0018d00000Ggx2EAAR,Opportunity for Lee1827,Needs Analysis,15760,0058d000004QHahAAG,0058d000004B2qYAAS,Bass271 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Eric Sanchez
+0068d000009MWATAA4,0018d00000Ggx6QAAR,Opportunity for Clarke1831,Closed Won,359939,0058d000004QHaqAAG,0058d000004B2qYAAS,Myers320 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Irene Kelley
+0068d000009MWAUAA4,0018d00000GgwvDAAR,Opportunity for Cross1834,Qualification,1756800,0058d000004QHahAAG,0058d000004B2qYAAS,Gordon406 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Laura Palmer
+0068d000009MWAVAA4,0018d00000GgwwEAAR,Opportunity for McGee1836,Closed Won,110986,0058d000004QHaeAAG,0058d000004B2qYAAS,Wagner421 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Doroth Gardner
+0068d000009MWAWAA4,0018d00000GgwttAAB,Opportunity for Ramirez1837,Qualification,179964,0058d000004QHajAAG,0058d000004B2qYAAS,Salazar150 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,John Williams
+0068d000009MWAYAA4,0018d00000Ggwz3AAB,Opportunity for Lawson1843,Closed Won,1876750,0058d000004QHalAAG,0058d000004B2qYAAS,Arnold813 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Laura Palmer
+0068d000009MWAZAA4,0018d00000GgwxCAAR,Opportunity for Medina1844,Value Proposition,3570200,0058d000004QHaYAAW,0058d000004B2qYAAS,Robertson5 Inc,Partner,Lorna Brown,Julie Chavez,Lorna Brown,Dennis Howard
+0068d000009MWAbAAO,0018d00000GgwwTAAR,Opportunity for Roberts1847,Closed Won,1096500,0058d000004QHaiAAG,0058d000004B2qYAAS,McCarthy602 Inc,Partner,Lorna Brown,Dennis Howard,Lorna Brown,Eric Gutierrez
+0068d000009MWAdAAO,0018d00000GgwzTAAR,Opportunity for Ramos1851,Closed Won,388890,0058d000004QHaaAAG,0058d000004B2qYAAS,Graves33 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Irene McCoy
+0068d000009MWAeAAO,0018d00000GgwyEAAR,Opportunity for Adams708,Negotiation/Review,1269390,0058d000004QHaeAAG,0058d000004B2qYAAS,Bryant456 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Irene Kelley
+0068d000009MWAfAAO,0018d00000GgwtlAAB,Opportunity for Luna711,Value Proposition,281700,0058d000004QHaiAAG,0058d000004B2qYAAS,Underwood142 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Nicolas Weaver
+0068d000009MWAgAAO,0018d00000Ggx7HAAR,Opportunity for Morgan713,Prospecting,2717500,0058d000004QHagAAG,0058d000004B2qYAAS,Joseph730 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Evelyn Williamson
+0068d000009MWAhAAO,0018d00000GgwxlAAB,Opportunity for Massey714,Closed Won,559580,0058d000004QHaZAAW,0058d000004B2qYAAS,Hall230 Inc,Partner,Lorna Brown,Laura Garza,Lorna Brown,Dennis Howard
+0068d000009MWCPAA4,0018d00000Ggx3QAAR,Opportunity for Hoffman774,Closed Won,152400,0058d000004QHacAAG,0058d000004B2qYAAS,Goodwin856 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Nicolas Weaver
+0068d000009MWCRAA4,0018d00000GgwvFAAR,Opportunity for Waters780,Closed Won,902400,0058d000004QHaeAAG,0058d000004B2qYAAS,Myers408 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Kelly Frazier
+0068d000009MWCSAA4,0018d00000GgwygAAB,Opportunity for Robbins1143,Qualification,365072,0058d000004QHajAAG,0058d000004B2qYAAS,Norton790 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Irene Kelley
+0068d000009MWCVAA4,0018d00000Ggx3pAAB,Opportunity for Beck1148,Closed Won,52440,0058d000004QHamAAG,0058d000004B2qYAAS,Alvarez72 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Bruce Kennedy
+0068d000009MWCWAA4,0018d00000GgwuZAAR,Opportunity for Poole1149,Closed Won,205489,0058d000004QHaZAAW,0058d000004B2qYAAS,Martinez181 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Julie Chavez
+0068d000009MWCZAA4,0018d00000Ggx6fAAB,Opportunity for Santos1154,Closed Lost,1153670,0058d000004QHaiAAG,0058d000004B2qYAAS,Adams335 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,John Williams
+0068d000009MWCaAAO,0018d00000Ggx5EAAR,Opportunity for Lewis1160,Closed Won,1132470,0058d000004QHagAAG,0058d000004B2qYAAS,Page703 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Harold Campbell
+0068d000009MWCbAAO,0018d00000GgwyuAAB,Opportunity for Allen1162,Closed Won,1032800,0058d000004QHagAAG,0058d000004B2qYAAS,Roberts804 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Johnny Green
+0068d000009MWCdAAO,0018d00000GgwxNAAR,Opportunity for Lloyd1165,Value Proposition,439380,0058d000004QHalAAG,0058d000004B2qYAAS,Parker16 Inc,Partner,Lorna Brown,Johnny Green,Lorna Brown,Julie Chavez
+0068d000009MWCeAAO,0018d00000GgwzWAAR,Opportunity for Campbell1166,Closed Lost,1459175,0058d000004QHamAAG,0058d000004B2qYAAS,Soto36 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Chris Riley
+0068d000009MWCfAAO,0018d00000Ggx1wAAB,Opportunity for Gill1167,Closed Lost,313200,0058d000004QHaiAAG,0058d000004B2qYAAS,Gibson62 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Dennis Howard
+0068d000009MWCgAAO,0018d00000Ggx4GAAR,Opportunity for Gross1521,Closed Won,3263870,0058d000004QHamAAG,0058d000004B2qYAAS,Schmidt289 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Julie Chavez
+0068d000009MWHFAA4,0018d00000Ggx4XAAR,Opportunity for Swanson1282,Closed Won,70680,0058d000004QHahAAG,0058d000004B2qYAAS,Woods306 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Laura Palmer
+0068d000009MWHHAA4,0018d00000Ggx8rAAB,Opportunity for Bowers1284,Closed Won,229470,0058d000004QHaoAAG,0058d000004B2qYAAS,Gill754 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Doroth Gardner
+0068d000009MWHIAA4,0018d00000Ggx3eAAB,Opportunity for Park1288,Closed Won,107040,0058d000004QHagAAG,0058d000004B2qYAAS,Hogan989 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Chris Riley
+0068d000009MWHJAA4,0018d00000GgwtvAAB,Opportunity for Stevenson1289,Closed Won,1640210,0058d000004QHaoAAG,0058d000004B2qYAAS,Butler152 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Johnny Green
+0068d000009MWHMAA4,0018d00000GgwvnAAB,Opportunity for Ball1294,Closed Won,27800,0058d000004QHaoAAG,0058d000004B2qYAAS,Stokes200 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Nicolas Weaver
+0068d000009MWHNAA4,0018d00000Ggx6SAAR,Opportunity for Colon1295,Closed Won,667200,0058d000004QHajAAG,0058d000004B2qYAAS,Fowler322 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Irene Kelley
+0068d000009MWHOAA4,0018d00000GgwvpAAB,Opportunity for Flores1296,Closed Won,2325850,0058d000004QHacAAG,0058d000004B2qYAAS,Reeves202 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Irene McCoy
+0068d000009MWHPAA4,0018d00000Ggx9NAAR,Opportunity for Baldwin1297,Closed Won,638750,0058d000004QHadAAG,0058d000004B2qYAAS,Mendoza936 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Laura Garza
+0068d000009MWHQAA4,0018d00000Ggww7AAB,Opportunity for Clark1301,Closed Won,116360,0058d000004QHaeAAG,0058d000004B2qYAAS,Stone414 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Harold Campbell
+0068d000009MWHRAA4,0018d00000GgwxEAAR,Opportunity for Frank1303,Closed Won,1886550,0058d000004QHadAAG,0058d000004B2qYAAS,Holmes7 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Dennis Howard
+0068d000009MWHSAA4,0018d00000Ggx1bAAB,Opportunity for Baker1304,Qualification,1918900,0058d000004QHaZAAW,0058d000004B2qYAAS,Marshall977 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Catherine Brown
+0068d000009MWHTAA4,0018d00000Ggx2XAAR,Opportunity for Santos1305,Proposal/Price Quote,14640,0058d000004QHajAAG,0058d000004B2qYAAS,Young486 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Evelyn Williamson
+0068d000009MWHVAA4,0018d00000GgwuwAAB,Opportunity for Nguyen1657,Closed Won,236610,0058d000004QHaeAAG,0058d000004B2qYAAS,Fleming389 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,John Williams
+0068d000009MWL8AAO,0018d00000Ggx8bAAB,Opportunity for Hart1416,Closed Won,3960970,0058d000004QHaaAAG,0058d000004B2qYAAS,Cain574 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Evelyn Williamson
+0068d000009MWL9AAO,0018d00000Ggx2jAAB,Opportunity for Martin1417,Closed Won,3712300,0058d000004QHagAAG,0058d000004B2qYAAS,Doyle498 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Irene Kelley
+0068d000009MWLAAA4,0018d00000Ggx1dAAB,Opportunity for Dawson1421,Closed Won,18900,0058d000004QHaeAAG,0058d000004B2qYAAS,Roberts979 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Sanchez
+0068d000009MWLBAA4,0018d00000Ggx2kAAB,Opportunity for Hines1779,Closed Won,1241900,0058d000004QHadAAG,0058d000004B2qYAAS,Gardner499 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,Bruce Kennedy
+0068d000009MWLCAA4,0018d00000GgwueAAB,Opportunity for Morrison1784,Closed Won,343000,0058d000004QHajAAG,0058d000004B2qYAAS,Reed186 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Irene McCoy
+0068d000009MWLDAA4,0018d00000Ggx2gAAB,Opportunity for Paul1791,Closed Won,424600,0058d000004QHaoAAG,0058d000004B2qYAAS,Brown495 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Laura Garza
+0068d000009MWLEAA4,0018d00000Ggx6lAAB,Opportunity for Andrews1792,Needs Analysis,1488450,0058d000004QHaYAAW,0058d000004B2qYAAS,Conner538 Inc,Partner,Lorna Brown,Julie Chavez,Lorna Brown,Doroth Gardner
+0068d000009MWLFAA4,0018d00000Ggwz0AAB,Opportunity for Guzman1793,Qualification,136800,0058d000004QHabAAG,0058d000004B2qYAAS,Burton810 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Irene Kelley
+0068d000009MWLGAA4,0018d00000Ggww2AAB,Opportunity for Watson1794,Qualification,991350,0058d000004QHaaAAG,0058d000004B2qYAAS,Pittman435 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Irene McCoy
+0068d000009MWLHAA4,0018d00000Ggx8hAAB,Opportunity for Massey1797,Closed Won,1683185,0058d000004QHafAAG,0058d000004B2qYAAS,Griffith580 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Doroth Gardner
+0068d000009MWLIAA4,0018d00000Ggx0ZAAR,Opportunity for Nelson1799,Closed Won,875880,0058d000004QHaYAAW,0058d000004B2qYAAS,Hines651 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Doroth Gardner
+0068d000009MWLJAA4,0018d00000Ggx55AAB,Opportunity for Pena1800,Closed Won,54090,0058d000004QHacAAG,0058d000004B2qYAAS,Carroll694 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Bruce Kennedy
+0068d000009MWLKAA4,0018d00000GgwzxAAB,Opportunity for Pittman658,Closed Won,252545,0058d000004QHanAAG,0058d000004B2qYAAS,Bryant250 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Dennis Howard
+0068d000009MWLNAA4,0018d00000Ggx2sAAB,Opportunity for Cunningham662,Proposal/Price Quote,25450,0058d000004QHalAAG,0058d000004B2qYAAS,Wright507 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Eric Gutierrez
+0068d000009MWL5AAO,0018d00000Ggx7mAAB,Opportunity for Maxwell1410,Closed Lost,2183750,0058d000004QHahAAG,0058d000004B2qYAAS,Ferguson911 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Eric Sanchez
+0068d000009MWLnAAO,0018d00000Ggx5DAAR,Opportunity for Conner1442,Closed Lost,449660,0058d000004QHaoAAG,0058d000004B2qYAAS,Black702 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Julie Chavez
+0068d000009MWLgAAO,0018d00000Ggwy7AAB,Opportunity for Love1426,Closed Lost,2649820,0058d000004QHabAAG,0058d000004B2qYAAS,Robbins449 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Nicolas Weaver
+0068d000009MWLoAAO,0018d00000Ggx8TAAR,Opportunity for Robbins1443,Closed Lost,968870,0058d000004QHadAAG,0058d000004B2qYAAS,Todd566 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,Eric Gutierrez
+0068d000009MWLhAAO,0018d00000Ggx8jAAB,Opportunity for Flowers1427,Needs Analysis,1979000,0058d000004QHaeAAG,0058d000004B2qYAAS,Greer746 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Irene McCoy
+0068d000009MWLpAAO,0018d00000GgwxzAAB,Opportunity for Berry1447,Closed Won,470298,0058d000004QHaiAAG,0058d000004B2qYAAS,Owens441 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Bruce Kennedy
+0068d000009MWLjAAO,0018d00000GgwzbAAB,Opportunity for Keller1431,Needs Analysis,2894390,0058d000004QHaeAAG,0058d000004B2qYAAS,Morales41 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Laura Garza
+0068d000009MWLrAAO,0018d00000GgwyFAAR,Opportunity for Marsh1806,Closed Won,58840,0058d000004QHadAAG,0058d000004B2qYAAS,Romero457 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,John Williams
+0068d000009MWLkAAO,0018d00000Ggx36AAB,Opportunity for Allison1432,Closed Lost,1471800,0058d000004QHanAAG,0058d000004B2qYAAS,Strickland686 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Evelyn Williamson
+0068d000009MWLsAAO,0018d00000GgwxfAAB,Opportunity for Dunn1807,Closed Won,225083,0058d000004QHadAAG,0058d000004B2qYAAS,Silva224 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Bruce Kennedy
+0068d000009MWLlAAO,0018d00000GgwvpAAB,Opportunity for Dixon1438,Closed Won,209955,0058d000004QHagAAG,0058d000004B2qYAAS,Reeves202 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Irene McCoy
+0068d000009MWLmAAO,0018d00000GgwvvAAB,Opportunity for Chandler1439,Needs Analysis,1648300,0058d000004QHalAAG,0058d000004B2qYAAS,Thomas208 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Eric Gutierrez
+0068d000009MW8GAAW,0018d00000Ggx95AAB,Opportunity for Collins378,Closed Won,446850,0058d000004QHadAAG,0058d000004B2qYAAS,Rodriguez768 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Nicolas Weaver
+0068d000009MW8KAAW,0018d00000Ggwx5AAB,Opportunity for May386,Closed Won,150240,0058d000004QHaZAAW,0058d000004B2qYAAS,Medina787 Inc,Partner,Lorna Brown,Laura Garza,Lorna Brown,Dennis Howard
+0068d000009MW8LAAW,0018d00000Ggx79AAB,Opportunity for Hart387,Needs Analysis,822800,0058d000004QHaZAAW,0058d000004B2qYAAS,Phillips722 Inc,Partner,Lorna Brown,Laura Garza,Lorna Brown,Catherine Brown
+0068d000009MW8MAAW,0018d00000Ggx0uAAB,Opportunity for Perry395,Closed Won,237840,0058d000004QHaiAAG,0058d000004B2qYAAS,Green672 Inc,Partner,Lorna Brown,Dennis Howard,Lorna Brown,Laura Garza
+0068d000009MW8OAAW,0018d00000GgwypAAB,Opportunity for Nunez399,Prospecting,844100,0058d000004QHaoAAG,0058d000004B2qYAAS,Thornton799 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Laura Palmer
+0068d000009MW8PAAW,0018d00000Ggx3AAAR,Opportunity for Goodwin400,Closed Won,175770,0058d000004QHabAAG,0058d000004B2qYAAS,Todd690 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Irene Kelley
+0068d000009MW8QAAW,0018d00000Ggx6FAAR,Opportunity for Diaz177,Closed Won,130515,0058d000004QHaZAAW,0058d000004B2qYAAS,Webster118 Inc,Partner,Lorna Brown,Laura Garza,Lorna Brown,Eric Gutierrez
+0068d000009MW8RAAW,0018d00000GgwtoAAB,Opportunity for Shaw178,Closed Lost,283440,0058d000004QHabAAG,0058d000004B2qYAAS,Newman145 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Bruce Kennedy
+0068d000009MW8SAAW,0018d00000Ggx3sAAB,Opportunity for Lambert182,Value Proposition,1750200,0058d000004QHahAAG,0058d000004B2qYAAS,Brock75 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Doroth Gardner
+0068d000009MW8TAAW,0018d00000Ggx5rAAB,Opportunity for Blair183,Needs Analysis,2598300,0058d000004QHaYAAW,0058d000004B2qYAAS,Christensen892 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Kelly Frazier
+0068d000009MW8UAAW,0018d00000GgwyQAAR,Opportunity for Barber186,Qualification,2340210,0058d000004QHaoAAG,0058d000004B2qYAAS,Thomas631 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Laura Garza
+0068d000009MW8VAAW,0018d00000GgwucAAB,Opportunity for Owens189,Closed Lost,1755885,0058d000004QHamAAG,0058d000004B2qYAAS,Crawford184 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Laura Garza
+0068d000009MW8ZAAW,0018d00000GgwwfAAB,Opportunity for Frazier196,Perception Analysis,164700,0058d000004QHamAAG,0058d000004B2qYAAS,Marsh614 Inc,Partner,Lorna Brown,Catherine Brown,Lorna Brown,Nicolas Weaver
+0068d000009MWAnAAO,0018d00000Ggx5AAAR,Opportunity for Joseph722,Value Proposition,327145,0058d000004QHagAAG,0058d000004B2qYAAS,Warner699 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Laura Garza
+0068d000009MWAoAAO,0018d00000Ggx9NAAR,Opportunity for Silva728,Perception Analysis,1641600,0058d000004QHabAAG,0058d000004B2qYAAS,Mendoza936 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Laura Garza
+0068d000009MWApAAO,0018d00000Ggww9AAB,Opportunity for Simpson729,Prospecting,1666850,0058d000004QHamAAG,0058d000004B2qYAAS,West416 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Laura Garza
+0068d000009MWAqAAO,0018d00000Ggx7dAAB,Opportunity for Moss732,Closed Won,461458,0058d000004QHamAAG,0058d000004B2qYAAS,Dean902 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Dennis Howard
+0068d000009MWArAAO,0018d00000Ggx5mAAB,Opportunity for Pope1093,Closed Won,1134385,0058d000004QHaaAAG,0058d000004B2qYAAS,McKenzie887 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Chris Riley
+0068d000009MWAjAAO,0018d00000Ggx3uAAB,Opportunity for Freeman717,Value Proposition,1023320,0058d000004QHaoAAG,0058d000004B2qYAAS,Norris77 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Irene Kelley
+0068d000009MWAkAAO,0018d00000Ggx8BAAR,Opportunity for Ross718,Closed Won,776540,0058d000004QHahAAG,0058d000004B2qYAAS,Lowe352 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,John Williams
+0068d000009MWAmAAO,0018d00000Ggx2OAAR,Opportunity for Reeves721,Closed Won,2367210,0058d000004QHaoAAG,0058d000004B2qYAAS,Evans281 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Dennis Howard
+0068d000009MWCkAAO,0018d00000Ggx1KAAR,Opportunity for Medina1531,Closed Lost,1722250,0058d000004QHaoAAG,0058d000004B2qYAAS,Schneider841 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Kelly Frazier
+0068d000009MWClAAO,0018d00000GgwumAAB,Opportunity for Hill1534,Closed Won,3298750,0058d000004QHaYAAW,0058d000004B2qYAAS,Coleman170 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,John Williams
+0068d000009MWEkAAO,0018d00000Ggx0lAAB,Opportunity for Malone1973,Value Proposition,108630,0058d000004QHabAAG,0058d000004B2qYAAS,Simmons663 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Catherine Brown
+0068d000009MWElAAO,0018d00000GgwxtAAB,Opportunity for Glover1974,Closed Won,48440,0058d000004QHaYAAW,0058d000004B2qYAAS,Taylor238 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Nicolas Weaver
+0068d000009MWEmAAO,0018d00000GgwzFAAR,Opportunity for Santiago1975,Prospecting,122200,0058d000004QHadAAG,0058d000004B2qYAAS,Rodgers956 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Dennis Howard
+0068d000009MWEpAAO,0018d00000Ggx3FAAR,Opportunity for Tucker470,Negotiation/Review,2254450,0058d000004QHaeAAG,0058d000004B2qYAAS,Lloyd845 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Laura Garza
+0068d000009MWEqAAO,0018d00000GgwyJAAR,Opportunity for Norman472,Closed Won,2807700,0058d000004QHaZAAW,0058d000004B2qYAAS,Rodgers461 Inc,Partner,Lorna Brown,Laura Garza,Lorna Brown,Irene McCoy
+0068d000009MWErAAO,0018d00000Ggx19AAB,Opportunity for Hammond475,Closed Won,3469300,0058d000004QHaYAAW,0058d000004B2qYAAS,Rios830 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Laura Garza
+0068d000009MWEsAAO,0018d00000Ggx7kAAB,Opportunity for Harrison476,Closed Won,2276590,0058d000004QHahAAG,0058d000004B2qYAAS,Carson909 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Johnny Green
+0068d000009MWEtAAO,0018d00000Ggx4kAAB,Opportunity for Stokes477,Closed Won,328949,0058d000004QHabAAG,0058d000004B2qYAAS,Tran514 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Irene Kelley
+0068d000009MWHWAA4,0018d00000GgwwCAAR,Opportunity for Henry1658,Closed Lost,327600,0058d000004QHalAAG,0058d000004B2qYAAS,Joseph419 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Bruce Kennedy
+0068d000009MWHXAA4,0018d00000GgwtvAAB,Opportunity for Jackson1662,Closed Won,2302000,0058d000004QHabAAG,0058d000004B2qYAAS,Butler152 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Johnny Green
+0068d000009MWHYAA4,0018d00000Ggx90AAB,Opportunity for Henry1665,Closed Won,49760,0058d000004QHaiAAG,0058d000004B2qYAAS,Brewer763 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Dennis Howard
+0068d000009MWHZAA4,0018d00000Ggx0sAAB,Opportunity for Barton1670,Prospecting,364760,0058d000004QHagAAG,0058d000004B2qYAAS,Maxwell670 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Bruce Kennedy
+0068d000009MWHaAAO,0018d00000Ggx50AAB,Opportunity for Ramsey1673,Needs Analysis,3351780,0058d000004QHalAAG,0058d000004B2qYAAS,Williamson530 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Doroth Gardner
+0068d000009MWHbAAO,0018d00000Ggx33AAB,Opportunity for Taylor1674,Closed Won,1542350,0058d000004QHapAAG,0058d000004B2qYAAS,Hanson683 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Catherine Brown
+0068d000009MWHcAAO,0018d00000GgwxWAAR,Opportunity for Johnston1675,Closed Won,804275,0058d000004QHaiAAG,0058d000004B2qYAAS,Lopez215 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Irene McCoy
+0068d000009MWLtAAO,0018d00000GgwyRAAR,Opportunity for Carlson1808,Closed Won,965700,0058d000004QHanAAG,0058d000004B2qYAAS,Hodges632 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Johnny Green
+0068d000009MWLuAAO,0018d00000GgwwPAAR,Opportunity for Fleming1809,Closed Won,3077200,0058d000004QHaaAAG,0058d000004B2qYAAS,Newman432 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Doroth Gardner
+0068d000009MWLwAAO,0018d00000Ggx3eAAB,Opportunity for Daniel1811,Closed Won,207240,0058d000004QHalAAG,0058d000004B2qYAAS,Hogan989 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Chris Riley
+0068d000009MWLxAAO,0018d00000Ggx5tAAB,Opportunity for Chandler1816,Perception Analysis,470865,0058d000004QHafAAG,0058d000004B2qYAAS,Beck894 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Laura Garza
+0068d000009MWLyAAO,0018d00000Ggx73AAB,Opportunity for Fox1817,Closed Won,807800,0058d000004QHaeAAG,0058d000004B2qYAAS,Pittman556 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Dennis Howard
+0068d000009MWLzAAO,0018d00000GgwxLAAR,Opportunity for Hicks1818,Closed Won,1417400,0058d000004QHaqAAG,0058d000004B2qYAAS,Crawford14 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Eric Gutierrez
+0068d000009MWM0AAO,0018d00000Ggx81AAB,Opportunity for Moss1820,Perception Analysis,1489210,0058d000004QHabAAG,0058d000004B2qYAAS,Simpson342 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Johnny Green
+0068d000009MWM1AAO,0018d00000GgwtlAAB,Opportunity for Miles1826,Closed Won,5335150,0058d000004QHafAAG,0058d000004B2qYAAS,Underwood142 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Nicolas Weaver
+0068d000009MW8cAAG,0018d00000GgwwnAAB,Opportunity for Phelps203,Closed Won,22520,0058d000004QHabAAG,0058d000004B2qYAAS,Thompson622 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Julie Chavez
+0068d000009MW8dAAG,0018d00000Ggx9DAAR,Opportunity for Phelps205,Needs Analysis,53325,0058d000004QHamAAG,0058d000004B2qYAAS,Bryan926 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Harold Campbell
+0068d000009MW8fAAG,0018d00000Ggx2KAAR,Opportunity for White404,Closed Won,537880,0058d000004QHanAAG,0058d000004B2qYAAS,Dawson277 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Dennis Howard
+0068d000009MW8gAAG,0018d00000Ggx6jAAB,Opportunity for Morton406,Qualification,356880,0058d000004QHamAAG,0058d000004B2qYAAS,Crawford536 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Irene Kelley
+0068d000009MW8iAAG,0018d00000GgwxFAAR,Opportunity for McKenzie412,Closed Lost,3626550,0058d000004QHaZAAW,0058d000004B2qYAAS,Roberson8 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Chris Riley
+0068d000009MW8kAAG,0018d00000Ggwz3AAB,Opportunity for Abbott414,Closed Won,206587,0058d000004QHaYAAW,0058d000004B2qYAAS,Arnold813 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Laura Palmer
+0068d000009MW8lAAG,0018d00000Ggx4RAAR,Opportunity for West206,Closed Lost,2103270,0058d000004QHamAAG,0058d000004B2qYAAS,Moran300 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Irene McCoy
+0068d000009MW8mAAG,0018d00000GgwzRAAR,Opportunity for Horton207,Closed Won,2166890,0058d000004QHaZAAW,0058d000004B2qYAAS,Long31 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Doroth Gardner
+0068d000009MW8oAAG,0018d00000Ggx0kAAB,Opportunity for Johnston49,Closed Won,316040,0058d000004QHalAAG,0058d000004B2qYAAS,Nichols662 Inc,Partner,Lorna Brown,Johnny Green,Lorna Brown,Irene McCoy
+0068d000009MW8pAAG,0018d00000Ggx0EAAR,Opportunity for Potter50,Closed Won,333830,0058d000004QHajAAG,0058d000004B2qYAAS,Porter466 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Chris Riley
+0068d000009MW8qAAG,0018d00000Ggwx8AAB,Opportunity for Logan51,Closed Won,2093000,0058d000004QHaaAAG,0058d000004B2qYAAS,Keller1 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Eric Gutierrez
+0068d000009MW8sAAG,0018d00000GgwxyAAB,Opportunity for Jordan57,Closed Won,1455310,0058d000004QHajAAG,0058d000004B2qYAAS,Mann440 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Julie Chavez
+0068d000009MW8tAAG,0018d00000GgwtuAAB,Opportunity for Moss58,Closed Lost,2623525,0058d000004QHaZAAW,0058d000004B2qYAAS,McGuire151 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Laura Garza
+0068d000009MWEuAAO,0018d00000GgwwaAAB,Opportunity for Henry479,Closed Won,3168250,0058d000004QHaaAAG,0058d000004B2qYAAS,Buchanan609 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Kelly Frazier
+0068d000009MWEvAAO,0018d00000GgwtzAAB,Opportunity for Shaw480,Perception Analysis,605000,0058d000004QHafAAG,0058d000004B2qYAAS,Nguyen156 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Eric Sanchez
+0068d000009MWEwAAO,0018d00000Ggww3AAB,Opportunity for Silva482,Closed Won,115290,0058d000004QHaYAAW,0058d000004B2qYAAS,Foster410 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Laura Garza
+0068d000009MW8uAAG,0018d00000GgwvzAAB,Opportunity for Bowen59,Perception Analysis,278337,0058d000004QHahAAG,0058d000004B2qYAAS,Cannon212 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Johnny Green
+0068d000009MW8wAAG,0018d00000GgwyqAAB,Opportunity for Bennett62,Value Proposition,208375,0058d000004QHahAAG,0058d000004B2qYAAS,Kim800 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Evelyn Williamson
+0068d000009MW8yAAG,0018d00000GgwvYAAR,Opportunity for Black67,Closed Won,1683760,0058d000004QHaZAAW,0058d000004B2qYAAS,Black598 Inc,Partner,Lorna Brown,Laura Garza,Lorna Brown,Evelyn Williamson
+0068d000009MW90AAG,0018d00000GgwyvAAB,Opportunity for Lowe69,Closed Won,476918,0058d000004QHacAAG,0058d000004B2qYAAS,Ellis805 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Johnny Green
+0068d000009MW92AAG,0018d00000Ggx6QAAR,Opportunity for Schwartz75,Qualification,499450,0058d000004QHamAAG,0058d000004B2qYAAS,Myers320 Inc,Partner,Lorna Brown,Catherine Brown,Lorna Brown,Irene Kelley
+0068d000009MW93AAG,0018d00000GgwyhAAB,Opportunity for Morales81,Closed Lost,1630580,0058d000004QHamAAG,0058d000004B2qYAAS,Bradley791 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Laura Garza
+0068d000009MW94AAG,0018d00000Ggx0CAAR,Opportunity for Willis82,Closed Lost,308240,0058d000004QHaoAAG,0058d000004B2qYAAS,Maldonado464 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Kelly Frazier
+0068d000009MW95AAG,0018d00000GgwxSAAR,Opportunity for Thompson83,Closed Lost,51920,0058d000004QHafAAG,0058d000004B2qYAAS,Goodman21 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Irene Kelley
+0068d000009MW96AAG,0018d00000GgwwlAAB,Opportunity for Saunders86,Closed Won,87409,0058d000004QHadAAG,0058d000004B2qYAAS,Castillo620 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,John Williams
+0068d000009MW97AAG,0018d00000Ggx1BAAR,Opportunity for Adams87,Value Proposition,1093390,0058d000004QHagAAG,0058d000004B2qYAAS,Floyd832 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Irene Kelley
+0068d000009MW98AAG,0018d00000GgwyCAAR,Opportunity for Peters89,Closed Won,492390,0058d000004QHagAAG,0058d000004B2qYAAS,Bush454 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Julie Chavez
+0068d000009MW9AAAW,0018d00000GgwvdAAB,Opportunity for Becker94,Closed Lost,493255,0058d000004QHabAAG,0058d000004B2qYAAS,Diaz190 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,John Williams
+0068d000009MW9CAAW,0018d00000GgwwRAAR,Opportunity for Hughes209,Closed Lost,19640,0058d000004QHagAAG,0058d000004B2qYAAS,Edwards434 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Eric Gutierrez
+0068d000009MW9DAAW,0018d00000GgwwTAAR,Opportunity for Aguilar210,Closed Won,202174,0058d000004QHaeAAG,0058d000004B2qYAAS,McCarthy602 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Gutierrez
+0068d000009MW9EAAW,0018d00000GgwyVAAR,Opportunity for Lopez212,Closed Won,2177800,0058d000004QHaeAAG,0058d000004B2qYAAS,Walton636 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Harold Campbell
+0068d000009MWCqAAO,0018d00000GgwzdAAB,Opportunity for Edwards1901,Closed Won,994680,0058d000004QHanAAG,0058d000004B2qYAAS,Carr43 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Dennis Howard
+0068d000009MWCrAAO,0018d00000Ggx7HAAR,Opportunity for Stevenson1907,Value Proposition,28440,0058d000004QHaaAAG,0058d000004B2qYAAS,Joseph730 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Evelyn Williamson
+0068d000009MWExAAO,0018d00000Ggx2bAAB,Opportunity for Pittman483,Closed Lost,458680,0058d000004QHadAAG,0058d000004B2qYAAS,Reese490 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Irene McCoy
+0068d000009MWEyAAO,0018d00000Ggx5KAAR,Opportunity for Sanchez828,Negotiation/Review,397710,0058d000004QHabAAG,0058d000004B2qYAAS,Sutton709 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Kelly Frazier
+0068d000009MWF0AAO,0018d00000Ggx4NAAR,Opportunity for Medina832,Closed Won,789160,0058d000004QHahAAG,0058d000004B2qYAAS,Gill296 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Evelyn Williamson
+0068d000009MWF1AAO,0018d00000Ggwz8AAB,Opportunity for Nash833,Closed Won,51480,0058d000004QHajAAG,0058d000004B2qYAAS,Martin949 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Nicolas Weaver
+0068d000009MWF3AAO,0018d00000Ggx3kAAB,Opportunity for Watkins842,Closed Lost,382900,0058d000004QHaqAAG,0058d000004B2qYAAS,McKinney995 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Johnny Green
+0068d000009MWF4AAO,0018d00000Ggx24AAB,Opportunity for Thomas843,Closed Won,2124300,0058d000004QHacAAG,0058d000004B2qYAAS,Harper70 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Laura Garza
+0068d000009MWF6AAO,0018d00000Ggx3jAAB,Opportunity for Hughes845,Needs Analysis,1405500,0058d000004QHaeAAG,0058d000004B2qYAAS,Obrien994 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Chris Riley
+0068d000009MWHdAAO,0018d00000Ggx5WAAR,Opportunity for Clayton1676,Needs Analysis,41500,0058d000004QHaZAAW,0058d000004B2qYAAS,Gomez871 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Irene McCoy
+0068d000009MWHhAAO,0018d00000Ggx04AAB,Opportunity for Stokes556,Closed Won,40900,0058d000004QHaiAAG,0058d000004B2qYAAS,Salazar257 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Harold Campbell
+0068d000009MWHiAAO,0018d00000Ggx2cAAB,Opportunity for Franklin560,Prospecting,1420100,0058d000004QHaiAAG,0058d000004B2qYAAS,Lawrence491 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Nicolas Weaver
+0068d000009MWHjAAO,0018d00000Ggx84AAB,Opportunity for Lane561,Closed Won,316726,0058d000004QHaiAAG,0058d000004B2qYAAS,Armstrong345 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Laura Garza
+0068d000009MWHkAAO,0018d00000Ggx3dAAB,Opportunity for Floyd923,Closed Won,2202900,0058d000004QHamAAG,0058d000004B2qYAAS,Joseph988 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Laura Garza
+0068d000009MWHlAAO,0018d00000GgwydAAB,Opportunity for Rowe925,Closed Won,424836,0058d000004QHanAAG,0058d000004B2qYAAS,Ingram644 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Garza
+0068d000009MWHnAAO,0018d00000Ggx0hAAB,Opportunity for Page927,Closed Won,219500,0058d000004QHadAAG,0058d000004B2qYAAS,Long659 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,Nicolas Weaver
+0068d000009MWHoAAO,0018d00000Ggx2VAAR,Opportunity for Hicks930,Closed Lost,398311,0058d000004QHalAAG,0058d000004B2qYAAS,Norman484 Inc,Partner,Lorna Brown,Johnny Green,Lorna Brown,Julie Chavez
+0068d000009MW9FAAW,0018d00000Ggx0jAAB,Opportunity for Guzman213,Closed Won,640000,0058d000004QHanAAG,0058d000004B2qYAAS,Bass661 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Eric Gutierrez
+0068d000009MW9IAAW,0018d00000GgwuMAAR,Opportunity for Johnson217,Closed Won,1935980,0058d000004QHanAAG,0058d000004B2qYAAS,Banks379 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Eric Sanchez
+0068d000009MW9JAAW,0018d00000GgwvuAAB,Opportunity for Santos218,Closed Won,435960,0058d000004QHabAAG,0058d000004B2qYAAS,Stone207 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Laura Garza
+0068d000009MW9KAAW,0018d00000GgwvfAAB,Opportunity for Becker221,Closed Won,374505,0058d000004QHacAAG,0058d000004B2qYAAS,Lee192 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Johnny Green
+0068d000009MW9LAAW,0018d00000Ggwy8AAB,Opportunity for McCoy227,Closed Won,917500,0058d000004QHalAAG,0058d000004B2qYAAS,Cox450 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Irene McCoy
+0068d000009MW9MAAW,0018d00000Ggwy9AAB,Opportunity for Lee231,Closed Lost,5423800,0058d000004QHalAAG,0058d000004B2qYAAS,Collins451 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Dennis Howard
+0068d000009MW9NAAW,0018d00000GgwvDAAR,Opportunity for Burns308,Needs Analysis,1188240,0058d000004QHacAAG,0058d000004B2qYAAS,Gordon406 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Laura Palmer
+0068d000009MW9OAAW,0018d00000Ggx0vAAB,Opportunity for Smith309,Closed Won,3709600,0058d000004QHajAAG,0058d000004B2qYAAS,Fleming816 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Eric Sanchez
+0068d000009MW9PAAW,0018d00000GgwtgAAB,Opportunity for Pope310,Needs Analysis,3207480,0058d000004QHaqAAG,0058d000004B2qYAAS,Ramirez137 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Dennis Howard
+0068d000009MWAsAAO,0018d00000Ggx6QAAR,Opportunity for Miles1094,Closed Won,79480,0058d000004QHafAAG,0058d000004B2qYAAS,Myers320 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Irene Kelley
+0068d000009MWAtAAO,0018d00000Ggx2ZAAR,Opportunity for Morton1098,Closed Won,761000,0058d000004QHalAAG,0058d000004B2qYAAS,Becker488 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Laura Garza
+0068d000009MWAuAAO,0018d00000GgwvRAAR,Opportunity for Mills1099,Closed Lost,254500,0058d000004QHadAAG,0058d000004B2qYAAS,Klein591 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Irene Kelley
+0068d000009MWAvAAO,0018d00000GgwuMAAR,Opportunity for Keller1100,Closed Won,1229730,0058d000004QHanAAG,0058d000004B2qYAAS,Banks379 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Eric Sanchez
+0068d000009MWAwAAO,0018d00000Ggx4YAAR,Opportunity for Todd1101,Closed Won,173566,0058d000004QHapAAG,0058d000004B2qYAAS,Fowler307 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Bruce Kennedy
+0068d000009MWAxAAO,0018d00000GgwuLAAR,Opportunity for Montgomery1103,Closed Won,1058980,0058d000004QHaYAAW,0058d000004B2qYAAS,Armstrong378 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Johnny Green
+0068d000009MWAyAAO,0018d00000Ggx91AAB,Opportunity for Luna1104,Closed Won,228220,0058d000004QHapAAG,0058d000004B2qYAAS,Sharp764 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Eric Sanchez
+0068d000009MWAzAAO,0018d00000Ggx2IAAR,Opportunity for Myers1105,Closed Won,792270,0058d000004QHagAAG,0058d000004B2qYAAS,Lopez275 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,John Williams
+0068d000009MWB0AAO,0018d00000Ggx27AAB,Opportunity for Jacobs1106,Closed Lost,78400,0058d000004QHahAAG,0058d000004B2qYAAS,Hansen264 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Irene McCoy
+0068d000009MWB1AAO,0018d00000Ggwv6AAB,Opportunity for Parsons1107,Closed Won,206000,0058d000004QHaYAAW,0058d000004B2qYAAS,Pittman399 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,John Williams
+0068d000009MWCsAAO,0018d00000Ggx0wAAB,Opportunity for Aguilar1908,Closed Won,3314900,0058d000004QHacAAG,0058d000004B2qYAAS,Colon817 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Evelyn Williamson
+0068d000009MWCtAAO,0018d00000Ggx1EAAR,Opportunity for Anderson1911,Closed Lost,1684910,0058d000004QHahAAG,0058d000004B2qYAAS,Ford835 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Laura Palmer
+0068d000009MWCuAAO,0018d00000Ggx7nAAB,Opportunity for Chandler1913,Closed Won,482760,0058d000004QHadAAG,0058d000004B2qYAAS,Robinson912 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,John Williams
+0068d000009MWCvAAO,0018d00000GgwxMAAR,Opportunity for Holt1914,Closed Won,125325,0058d000004QHagAAG,0058d000004B2qYAAS,Hampton15 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,John Williams
+0068d000009MWCxAAO,0018d00000Ggx4DAAR,Opportunity for Walsh1918,Proposal/Price Quote,179700,0058d000004QHacAAG,0058d000004B2qYAAS,Webb96 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Harold Campbell
+0068d000009MWCyAAO,0018d00000Ggx4LAAR,Opportunity for Gordon1919,Closed Won,975175,0058d000004QHaYAAW,0058d000004B2qYAAS,Gordon294 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Evelyn Williamson
+0068d000009MWCzAAO,0018d00000Ggx3tAAB,Opportunity for White1920,Closed Lost,1535500,0058d000004QHalAAG,0058d000004B2qYAAS,Watts76 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Julie Chavez
+0068d000009MWD0AAO,0018d00000Ggx3kAAB,Opportunity for Powers1925,Closed Lost,213440,0058d000004QHacAAG,0058d000004B2qYAAS,McKinney995 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Johnny Green
+0068d000009MWD2AAO,0018d00000GgwxfAAB,Opportunity for Lloyd424,Closed Won,389648,0058d000004QHanAAG,0058d000004B2qYAAS,Silva224 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Bruce Kennedy
+0068d000009MWD3AAO,0018d00000Ggx8CAAR,Opportunity for Reyes426,Qualification,830400,0058d000004QHanAAG,0058d000004B2qYAAS,Jensen353 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Johnny Green
+0068d000009MWD4AAO,0018d00000Ggx86AAB,Opportunity for Mendoza431,Closed Lost,3615050,0058d000004QHaqAAG,0058d000004B2qYAAS,Bowman347 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Irene McCoy
+0068d000009MWD6AAO,0018d00000Ggx96AAB,Opportunity for Guerrero433,Closed Won,274656,0058d000004QHamAAG,0058d000004B2qYAAS,Wilkerson769 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Dennis Howard
+0068d000009MWD7AAO,0018d00000GgwuoAAB,Opportunity for Dawson434,Closed Won,2111880,0058d000004QHafAAG,0058d000004B2qYAAS,Carter172 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Johnny Green
+0068d000009MWD8AAO,0018d00000Ggx5CAAR,Opportunity for Ramos435,Closed Won,2942705,0058d000004QHaeAAG,0058d000004B2qYAAS,Crawford701 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Doroth Gardner
+0068d000009MWD9AAO,0018d00000GgwyAAAR,Opportunity for Welch436,Closed Won,520500,0058d000004QHagAAG,0058d000004B2qYAAS,Lambert452 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Harold Campbell
+0068d000009MWDAAA4,0018d00000Ggx4WAAR,Opportunity for Estrada781,Closed Won,2182350,0058d000004QHafAAG,0058d000004B2qYAAS,Gutierrez305 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Irene McCoy
+0068d000009MWF8AAO,0018d00000Ggx64AAB,Opportunity for Patton847,Closed Lost,3836040,0058d000004QHaeAAG,0058d000004B2qYAAS,Hines107 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Laura Garza
+0068d000009MWF9AAO,0018d00000Ggwx4AAB,Opportunity for Weber1216,Closed Won,329425,0058d000004QHapAAG,0058d000004B2qYAAS,Hunt786 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Evelyn Williamson
+0068d000009MWFAAA4,0018d00000GgwzxAAB,Opportunity for Bishop1217,Closed Won,409240,0058d000004QHanAAG,0058d000004B2qYAAS,Bryant250 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Dennis Howard
+0068d000009MWFBAA4,0018d00000Ggx2dAAB,Opportunity for Byrd1219,Closed Won,2601440,0058d000004QHajAAG,0058d000004B2qYAAS,Schwartz492 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Evelyn Williamson
+0068d000009MWFDAA4,0018d00000Ggx3VAAR,Opportunity for Carpenter1221,Proposal/Price Quote,2887700,0058d000004QHaoAAG,0058d000004B2qYAAS,Murphy861 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Julie Chavez
+0068d000009MWFEAA4,0018d00000Ggx5vAAB,Opportunity for Spencer1223,Perception Analysis,32480,0058d000004QHagAAG,0058d000004B2qYAAS,Chandler98 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Julie Chavez
+0068d000009MWFFAA4,0018d00000Ggx19AAB,Opportunity for Romero1224,Perception Analysis,4561,0058d000004QHanAAG,0058d000004B2qYAAS,Rios830 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Garza
+0068d000009MWFGAA4,0018d00000Ggx3aAAB,Opportunity for Young1227,Closed Won,1207960,0058d000004QHaqAAG,0058d000004B2qYAAS,Tran866 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Irene Kelley
+0068d000009MWFHAA4,0018d00000Ggx59AAB,Opportunity for Paul1228,Closed Won,368530,0058d000004QHaaAAG,0058d000004B2qYAAS,Morton698 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,John Williams
+0068d000009MWFIAA4,0018d00000Ggwy7AAB,Opportunity for Higgins1229,Closed Won,720875,0058d000004QHapAAG,0058d000004B2qYAAS,Robbins449 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Nicolas Weaver
+0068d000009MWFJAA4,0018d00000GgwxMAAR,Opportunity for Brown1230,Qualification,2454990,0058d000004QHaoAAG,0058d000004B2qYAAS,Hampton15 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,John Williams
+0068d000009MWFLAA4,0018d00000Ggx2yAAB,Opportunity for Bass1237,Qualification,2855840,0058d000004QHacAAG,0058d000004B2qYAAS,Curtis678 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Evelyn Williamson
+0068d000009MWFNAA4,0018d00000Ggwu2AAB,Opportunity for Barton1587,Closed Lost,65070,0058d000004QHaZAAW,0058d000004B2qYAAS,Flores159 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Kelly Frazier
+0068d000009MWFOAA4,0018d00000Ggx03AAB,Opportunity for Howard1588,Closed Won,65920,0058d000004QHanAAG,0058d000004B2qYAAS,Love256 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Evelyn Williamson
+0068d000009MWFPAA4,0018d00000GgwvxAAB,Opportunity for Norman1589,Closed Won,1390500,0058d000004QHanAAG,0058d000004B2qYAAS,Romero210 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Eric Sanchez
+0068d000009MWHqAAO,0018d00000Ggx5UAAR,Opportunity for Farmer932,Closed Won,2339200,0058d000004QHaaAAG,0058d000004B2qYAAS,Chambers869 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Bruce Kennedy
+0068d000009MWHrAAO,0018d00000GgwvNAAR,Opportunity for Burton933,Closed Lost,388760,0058d000004QHaqAAG,0058d000004B2qYAAS,Griffin587 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Dennis Howard
+0068d000009MWHsAAO,0018d00000Ggx3EAAR,Opportunity for Mack935,Closed Won,76800,0058d000004QHanAAG,0058d000004B2qYAAS,Reeves844 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Garza
+0068d000009MWHtAAO,0018d00000Ggx88AAB,Opportunity for Jefferson936,Closed Won,95400,0058d000004QHaYAAW,0058d000004B2qYAAS,Webster349 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Laura Garza
+0068d000009MWHuAAO,0018d00000GgwysAAB,Opportunity for Fowler938,Closed Lost,720520,0058d000004QHaYAAW,0058d000004B2qYAAS,Munoz802 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Bruce Kennedy
+0068d000009MWHvAAO,0018d00000GgwxfAAB,Opportunity for Wong939,Closed Won,390400,0058d000004QHaYAAW,0058d000004B2qYAAS,Silva224 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Bruce Kennedy
+0068d000009MWHwAAO,0018d00000GgwyXAAR,Opportunity for Cruz1306,Perception Analysis,578880,0058d000004QHalAAG,0058d000004B2qYAAS,Anderson638 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Julie Chavez
+0068d000009MWHxAAO,0018d00000GgwyIAAR,Opportunity for Johnson1307,Closed Lost,2165900,0058d000004QHaZAAW,0058d000004B2qYAAS,Bowers460 Inc,Partner,Lorna Brown,Laura Garza,Lorna Brown,Johnny Green
+0068d000009MWHyAAO,0018d00000GgwzfAAB,Opportunity for Pittman1309,Closed Won,200400,0058d000004QHanAAG,0058d000004B2qYAAS,Alvarez45 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Palmer
+0068d000009MWI1AAO,0018d00000Ggx8XAAR,Opportunity for Singleton1321,Closed Lost,1202450,0058d000004QHajAAG,0058d000004B2qYAAS,Mitchell570 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Chris Riley
+0068d000009MWI2AAO,0018d00000Ggx9FAAR,Opportunity for Gutierrez1322,Closed Won,89320,0058d000004QHaZAAW,0058d000004B2qYAAS,Collins928 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Laura Palmer
+0068d000009MWB3AAO,0018d00000Ggx2gAAB,Opportunity for Gardner1110,Needs Analysis,645700,0058d000004QHacAAG,0058d000004B2qYAAS,Brown495 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Laura Garza
+0068d000009MWB4AAO,0018d00000Ggx6dAAB,Opportunity for Harrington1112,Qualification,905000,0058d000004QHadAAG,0058d000004B2qYAAS,Rowe333 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Laura Garza
+0068d000009MWB5AAO,0018d00000Ggx4gAAB,Opportunity for Rodriquez1114,Closed Won,1598060,0058d000004QHaYAAW,0058d000004B2qYAAS,Medina510 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Johnny Green
+0068d000009MWB6AAO,0018d00000Ggwz9AAB,Opportunity for Tyler1115,Value Proposition,114000,0058d000004QHaeAAG,0058d000004B2qYAAS,Cohen950 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Dennis Howard
+0068d000009MWB7AAO,0018d00000GgwtvAAB,Opportunity for West1117,Closed Won,3609320,0058d000004QHahAAG,0058d000004B2qYAAS,Butler152 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Johnny Green
+0068d000009MWB8AAO,0018d00000Ggx0xAAB,Opportunity for Rodriquez1469,Closed Won,491550,0058d000004QHacAAG,0058d000004B2qYAAS,King818 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Eric Sanchez
+0068d000009MWB9AAO,0018d00000Ggx5sAAB,Opportunity for Martin1471,Closed Won,24536,0058d000004QHanAAG,0058d000004B2qYAAS,Bailey893 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Eric Gutierrez
+0068d000009MWBAAA4,0018d00000GgwxyAAB,Opportunity for Simpson1472,Closed Won,283466,0058d000004QHaiAAG,0058d000004B2qYAAS,Mann440 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Julie Chavez
+0068d000009MWBBAA4,0018d00000GgwuDAAR,Opportunity for Santos1475,Closed Won,345554,0058d000004QHafAAG,0058d000004B2qYAAS,Beck370 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Laura Palmer
+0068d000009MWBCAA4,0018d00000GgwxcAAB,Opportunity for Simon1477,Closed Lost,325680,0058d000004QHamAAG,0058d000004B2qYAAS,Harmon221 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Johnny Green
+0068d000009MWBEAA4,0018d00000GgwvHAAR,Opportunity for Harmon1481,Closed Won,1738370,0058d000004QHaeAAG,0058d000004B2qYAAS,Myers581 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Sanchez
+0068d000009MWBFAA4,0018d00000GgwxpAAB,Opportunity for Reed1483,Closed Won,1755000,0058d000004QHapAAG,0058d000004B2qYAAS,Fletcher234 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Harold Campbell
+0068d000009MWDBAA4,0018d00000GgwvQAAR,Opportunity for Moody784,Closed Won,82925,0058d000004QHanAAG,0058d000004B2qYAAS,Perez590 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Eric Gutierrez
+0068d000009MWDCAA4,0018d00000Ggx4VAAR,Opportunity for Harrison791,Closed Won,193500,0058d000004QHaqAAG,0058d000004B2qYAAS,Phelps304 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Laura Garza
+0068d000009MWDEAA4,0018d00000GgwwtAAB,Opportunity for Phillips797,Closed Won,1313950,0058d000004QHahAAG,0058d000004B2qYAAS,Joseph775 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Doroth Gardner
+0068d000009MWDFAA4,0018d00000Ggwx9AAB,Opportunity for Blair798,Qualification,23642,0058d000004QHamAAG,0058d000004B2qYAAS,Herrera2 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Doroth Gardner
+0068d000009MWDGAA4,0018d00000Ggx0jAAB,Opportunity for Beck799,Closed Won,363453,0058d000004QHaqAAG,0058d000004B2qYAAS,Bass661 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Eric Gutierrez
+0068d000009MWDHAA4,0018d00000Ggx2uAAB,Opportunity for Sullivan800,Negotiation/Review,577250,0058d000004QHaeAAG,0058d000004B2qYAAS,Evans674 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Bruce Kennedy
+0068d000009MWDIAA4,0018d00000GgwxQAAR,Opportunity for George802,Closed Won,214100,0058d000004QHamAAG,0058d000004B2qYAAS,Bailey19 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Evelyn Williamson
+0068d000009MWDJAA4,0018d00000Ggx6kAAB,Opportunity for Gill1168,Closed Won,786875,0058d000004QHaeAAG,0058d000004B2qYAAS,Morton537 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Kelly Frazier
+0068d000009MWDLAA4,0018d00000Ggx3YAAR,Opportunity for Osborne1170,Closed Won,71880,0058d000004QHafAAG,0058d000004B2qYAAS,Estrada864 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Dennis Howard
+0068d000009MWDNAA4,0018d00000GgwxlAAB,Opportunity for Knight1172,Closed Won,2113750,0058d000004QHaiAAG,0058d000004B2qYAAS,Hall230 Inc,Partner,Lorna Brown,Dennis Howard,Lorna Brown,Dennis Howard
+0068d000009MWDOAA4,0018d00000GgwxRAAR,Opportunity for Carson1177,Closed Lost,93733,0058d000004QHafAAG,0058d000004B2qYAAS,Vega20 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Johnny Green
+0068d000009MWDQAA4,0018d00000GgwunAAB,Opportunity for Padilla1183,Closed Won,66246,0058d000004QHabAAG,0058d000004B2qYAAS,Olson171 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Nicolas Weaver
+0068d000009MWDRAA4,0018d00000Ggx3wAAB,Opportunity for Abbott1184,Closed Won,2016250,0058d000004QHacAAG,0058d000004B2qYAAS,Rodgers79 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Nicolas Weaver
+0068d000009MWDSAA4,0018d00000GgwtmAAB,Opportunity for Porter1185,Closed Won,3960350,0058d000004QHaiAAG,0058d000004B2qYAAS,McKenzie143 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Chris Riley
+0068d000009MWDTAA4,0018d00000GgwvCAAR,Opportunity for Rice1187,Proposal/Price Quote,261400,0058d000004QHagAAG,0058d000004B2qYAAS,Henry405 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Dennis Howard
+0068d000009MWDUAA4,0018d00000GgwyeAAB,Opportunity for Waters1188,Closed Won,1163610,0058d000004QHaiAAG,0058d000004B2qYAAS,Tran645 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Dennis Howard
+0068d000009MWI3AAO,0018d00000GgwvGAAR,Opportunity for Patterson1324,Closed Lost,1292300,0058d000004QHaZAAW,0058d000004B2qYAAS,Gonzales409 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Doroth Gardner
+0068d000009MWI4AAO,0018d00000Ggx2aAAB,Opportunity for Blair1326,Closed Won,72720,0058d000004QHacAAG,0058d000004B2qYAAS,Moss489 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Bruce Kennedy
+0068d000009MWI5AAO,0018d00000Ggx9PAAR,Opportunity for Flores1679,Closed Lost,2641175,0058d000004QHadAAG,0058d000004B2qYAAS,Bowen938 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,John Williams
+0068d000009MWI6AAO,0018d00000GgwywAAB,Opportunity for Steele1680,Closed Won,2207200,0058d000004QHaoAAG,0058d000004B2qYAAS,Patrick806 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Doroth Gardner
+0068d000009MWIBAA4,0018d00000GgwuyAAB,Opportunity for Barnett1692,Needs Analysis,4708010,0058d000004QHaeAAG,0058d000004B2qYAAS,Stephens391 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Gutierrez
+0068d000009MWICAA4,0018d00000Ggx4mAAB,Opportunity for Figueroa1695,Closed Won,2604140,0058d000004QHapAAG,0058d000004B2qYAAS,Morales516 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Irene McCoy
+0068d000009MWIEAA4,0018d00000GgwwTAAR,Opportunity for Watkins1701,Closed Lost,831100,0058d000004QHalAAG,0058d000004B2qYAAS,McCarthy602 Inc,Partner,Lorna Brown,Johnny Green,Lorna Brown,Eric Gutierrez
+0068d000009MWIFAA4,0018d00000Ggx2CAAR,Opportunity for Long562,Closed Won,249600,0058d000004QHaiAAG,0058d000004B2qYAAS,Anderson269 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Catherine Brown
+0068d000009MWIGAA4,0018d00000Ggx0lAAB,Opportunity for Schneider564,Closed Won,146771,0058d000004QHabAAG,0058d000004B2qYAAS,Simmons663 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Catherine Brown
+0068d000009MWIIAA4,0018d00000GgwvVAAR,Opportunity for Webb567,Closed Lost,65040,0058d000004QHaeAAG,0058d000004B2qYAAS,Mendez595 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Catherine Brown
+0068d000009MWIJAA4,0018d00000Ggx78AAB,Opportunity for Reese570,Prospecting,2217555,0058d000004QHaYAAW,0058d000004B2qYAAS,Robertson721 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Evelyn Williamson
+0068d000009MWIKAA4,0018d00000GgwyAAAR,Opportunity for Hunt578,Closed Won,1012640,0058d000004QHamAAG,0058d000004B2qYAAS,Lambert452 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Harold Campbell
+0068d000009MWILAA4,0018d00000Ggx6vAAB,Opportunity for Watson580,Closed Won,4090880,0058d000004QHanAAG,0058d000004B2qYAAS,Torres548 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Chris Riley
+0068d000009MWIMAA4,0018d00000GgwweAAB,Opportunity for Carr581,Closed Won,61500,0058d000004QHaqAAG,0058d000004B2qYAAS,Moody613 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Dennis Howard
+0068d000009MW9QAAW,0018d00000Ggx95AAB,Opportunity for Tyler313,Closed Lost,55530,0058d000004QHajAAG,0058d000004B2qYAAS,Rodriguez768 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Nicolas Weaver
+0068d000009MW9SAAW,0018d00000Ggx5FAAR,Opportunity for McGee320,Closed Lost,637600,0058d000004QHacAAG,0058d000004B2qYAAS,Alexander704 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Harold Campbell
+0068d000009MW9TAAW,0018d00000Ggx5SAAR,Opportunity for Olson321,Qualification,3729975,0058d000004QHafAAG,0058d000004B2qYAAS,Hart717 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Laura Garza
+0068d000009MW9UAAW,0018d00000Ggx2tAAB,Opportunity for Holland322,Closed Lost,384840,0058d000004QHaaAAG,0058d000004B2qYAAS,Rose673 Inc,Partner,Lorna Brown,Bruce Kennedy,Lorna Brown,Dennis Howard
+0068d000009MW9VAAW,0018d00000Ggww8AAB,Opportunity for Martin324,Closed Won,7747190,0058d000004QHacAAG,0058d000004B2qYAAS,Daniel415 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Irene McCoy
+0068d000009MW9WAAW,0018d00000GgwtoAAB,Opportunity for Castillo325,Closed Won,131750,0058d000004QHahAAG,0058d000004B2qYAAS,Newman145 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Bruce Kennedy
+0068d000009MW9XAAW,0018d00000Ggx18AAB,Opportunity for Klein103,Closed Won,84329,0058d000004QHaYAAW,0058d000004B2qYAAS,Nelson829 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Kelly Frazier
+0068d000009MW9ZAAW,0018d00000GgwwOAAR,Opportunity for Ramirez108,Closed Won,87240,0058d000004QHaZAAW,0058d000004B2qYAAS,James431 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Evelyn Williamson
+0068d000009MW9aAAG,0018d00000Ggx9OAAR,Opportunity for Jones110,Closed Won,1193160,0058d000004QHacAAG,0058d000004B2qYAAS,Glover937 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Eric Gutierrez
+0068d000009MW9cAAG,0018d00000GgwtgAAB,Opportunity for Lynch113,Closed Won,1817900,0058d000004QHaeAAG,0058d000004B2qYAAS,Ramirez137 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Dennis Howard
+0068d000009MW9eAAG,0018d00000Ggx8oAAB,Opportunity for Carroll233,Closed Won,1578500,0058d000004QHaoAAG,0058d000004B2qYAAS,Freeman751 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Eric Gutierrez
+0068d000009MW9fAAG,0018d00000Ggx2wAAB,Opportunity for Murphy234,Closed Won,2734080,0058d000004QHaoAAG,0058d000004B2qYAAS,Gray676 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,John Williams
+0068d000009MWBHAA4,0018d00000GgwtdAAB,Opportunity for Klein1486,Prospecting,431073,0058d000004QHahAAG,0058d000004B2qYAAS,Nichols134 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Laura Palmer
+0068d000009MWBIAA4,0018d00000Ggx5LAAR,Opportunity for Stone1492,Closed Lost,3163400,0058d000004QHadAAG,0058d000004B2qYAAS,Fleming710 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Irene Kelley
+0068d000009MWBJAA4,0018d00000Ggx0ZAAR,Opportunity for Barnes1852,Closed Lost,1635400,0058d000004QHaYAAW,0058d000004B2qYAAS,Hines651 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Doroth Gardner
+0068d000009MWBKAA4,0018d00000GgwxbAAB,Opportunity for Johnston1857,Closed Won,163800,0058d000004QHacAAG,0058d000004B2qYAAS,Cummings220 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Bruce Kennedy
+0068d000009MWBMAA4,0018d00000GgwzbAAB,Opportunity for Smith1859,Negotiation/Review,1261290,0058d000004QHafAAG,0058d000004B2qYAAS,Morales41 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Laura Garza
+0068d000009MWBNAA4,0018d00000Ggx6oAAB,Opportunity for Thornton1860,Closed Won,193757,0058d000004QHacAAG,0058d000004B2qYAAS,Morris541 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Laura Palmer
+0068d000009MWBOAA4,0018d00000GgwxkAAB,Opportunity for Ramsey1863,Closed Won,1885475,0058d000004QHabAAG,0058d000004B2qYAAS,Vaughn229 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Dennis Howard
+0068d000009MWBPAA4,0018d00000Ggx67AAB,Opportunity for Mathis1864,Needs Analysis,2628850,0058d000004QHacAAG,0058d000004B2qYAAS,Medina110 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Irene Kelley
+0068d000009MWBRAA4,0018d00000Ggwu3AAB,Opportunity for Price1866,Closed Won,466000,0058d000004QHagAAG,0058d000004B2qYAAS,Shaw160 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Bruce Kennedy
+0068d000009MWBTAA4,0018d00000Ggx8MAAR,Opportunity for Moore1870,Closed Won,165920,0058d000004QHagAAG,0058d000004B2qYAAS,Ross559 Inc,Partner,Lorna Brown,Chris Riley,Lorna Brown,Harold Campbell
+0068d000009MWDVAA4,0018d00000GgwwMAAR,Opportunity for Vasquez1191,Closed Won,2101255,0058d000004QHagAAG,0058d000004B2qYAAS,Fletcher429 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Irene McCoy
+0068d000009MWDWAA4,0018d00000GgwxYAAR,Opportunity for Tate1543,Closed Won,460956,0058d000004QHapAAG,0058d000004B2qYAAS,Ingram217 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Catherine Brown
+0068d000009MWDXAA4,0018d00000GgwxUAAR,Opportunity for Bates1547,Closed Won,3426450,0058d000004QHanAAG,0058d000004B2qYAAS,Byrd23 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Harold Campbell
+0068d000009MWDYAA4,0018d00000Ggx8sAAB,Opportunity for McKinney1548,Qualification,3526355,0058d000004QHalAAG,0058d000004B2qYAAS,Becker755 Inc,Partner,Lorna Brown,Johnny Green,Lorna Brown,Chris Riley
+0068d000009MWDZAA4,0018d00000Ggx7PAAR,Opportunity for Banks1549,Closed Won,363901,0058d000004QHahAAG,0058d000004B2qYAAS,Ferguson738 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Kelly Frazier
+0068d000009MWDaAAO,0018d00000GgwuyAAB,Opportunity for Burgess1551,Closed Won,68600,0058d000004QHajAAG,0058d000004B2qYAAS,Stephens391 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Eric Gutierrez
+0068d000009MWDbAAO,0018d00000GgwtgAAB,Opportunity for Reynolds1553,Value Proposition,3464115,0058d000004QHabAAG,0058d000004B2qYAAS,Ramirez137 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Dennis Howard
+0068d000009MWDcAAO,0018d00000GgwvaAAB,Opportunity for Mitchell1555,Closed Won,123280,0058d000004QHafAAG,0058d000004B2qYAAS,Hopkins600 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Evelyn Williamson
+0068d000009MWDfAAO,0018d00000Ggx2DAAR,Opportunity for Chapman1566,Closed Won,2294400,0058d000004QHapAAG,0058d000004B2qYAAS,Elliott270 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Harold Campbell
+0068d000009MWDhAAO,0018d00000GgwuDAAR,Opportunity for Munoz1931,Closed Won,1113000,0058d000004QHalAAG,0058d000004B2qYAAS,Beck370 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Laura Palmer
+0068d000009MWINAA4,0018d00000Ggx88AAB,Opportunity for Butler582,Prospecting,224800,0058d000004QHaaAAG,0058d000004B2qYAAS,Webster349 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Laura Garza
+0068d000009MWIOAA4,0018d00000Ggx7eAAB,Opportunity for Johnston583,Closed Won,399300,0058d000004QHahAAG,0058d000004B2qYAAS,Elliott903 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Evelyn Williamson
+0068d000009MWIPAA4,0018d00000Ggx32AAB,Opportunity for Dunn946,Closed Won,2389600,0058d000004QHabAAG,0058d000004B2qYAAS,Ortega682 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Doroth Gardner
+0068d000009MWIQAA4,0018d00000Ggx6qAAB,Opportunity for Davis947,Closed Won,1574960,0058d000004QHacAAG,0058d000004B2qYAAS,Barnett543 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Irene Kelley
+0068d000009MWIRAA4,0018d00000GgwtoAAB,Opportunity for Stokes949,Needs Analysis,3915950,0058d000004QHanAAG,0058d000004B2qYAAS,Newman145 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Bruce Kennedy
+0068d000009MWISAA4,0018d00000Ggx4yAAB,Opportunity for Bryant952,Value Proposition,1379300,0058d000004QHaoAAG,0058d000004B2qYAAS,Pittman528 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Julie Chavez
+0068d000009MWITAA4,0018d00000Ggx8OAAR,Opportunity for Salazar953,Perception Analysis,100267,0058d000004QHanAAG,0058d000004B2qYAAS,Watkins561 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Garza
+0068d000009MWIUAA4,0018d00000Ggx2BAAR,Opportunity for Alexander954,Value Proposition,895135,0058d000004QHaiAAG,0058d000004B2qYAAS,Clarke268 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Bruce Kennedy
+0068d000009MWIVAA4,0018d00000Ggx4nAAB,Opportunity for Dennis956,Qualification,2285700,0058d000004QHacAAG,0058d000004B2qYAAS,Fox517 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Eric Gutierrez
+0068d000009MWIWAA4,0018d00000GgwuUAAR,Opportunity for Estrada957,Negotiation/Review,488860,0058d000004QHabAAG,0058d000004B2qYAAS,Banks163 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Eric Gutierrez
+0068d000009MWIXAA4,0018d00000Ggx4kAAB,Opportunity for Rodriquez958,Qualification,413100,0058d000004QHaoAAG,0058d000004B2qYAAS,Tran514 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Irene Kelley
+0068d000009MWIYAA4,0018d00000Ggx98AAB,Opportunity for Jackson959,Closed Won,2632925,0058d000004QHabAAG,0058d000004B2qYAAS,Lawson921 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Catherine Brown
+0068d000009MWIZAA4,0018d00000Ggx99AAB,Opportunity for McBride960,Closed Won,412385,0058d000004QHagAAG,0058d000004B2qYAAS,Bennett922 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Nicolas Weaver
+0068d000009MWIaAAO,0018d00000Ggx7AAAR,Opportunity for Jimenez961,Needs Analysis,449700,0058d000004QHaYAAW,0058d000004B2qYAAS,Wade723 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Laura Garza
+0068d000009MWIbAAO,0018d00000GgwwmAAB,Opportunity for Moore962,Negotiation/Review,39960,0058d000004QHapAAG,0058d000004B2qYAAS,Lopez621 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,John Williams
+0068d000009MWIcAAO,0018d00000GgwzjAAB,Opportunity for Wade966,Needs Analysis,552000,0058d000004QHajAAG,0058d000004B2qYAAS,West49 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Catherine Brown
+0068d000009MW9iAAG,0018d00000GgwyCAAR,Opportunity for Willis238,Closed Won,2250950,0058d000004QHacAAG,0058d000004B2qYAAS,Bush454 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Julie Chavez
+0068d000009MW9mAAG,0018d00000GgwyAAAR,Opportunity for Padilla247,Closed Lost,1214160,0058d000004QHacAAG,0058d000004B2qYAAS,Lambert452 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Harold Campbell
+0068d000009MW9nAAG,0018d00000GgwvHAAR,Opportunity for Barnett252,Closed Won,431194,0058d000004QHaeAAG,0058d000004B2qYAAS,Myers581 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Sanchez
+0068d000009MW9oAAG,0018d00000Ggx8JAAR,Opportunity for Ford255,Closed Won,377690,0058d000004QHalAAG,0058d000004B2qYAAS,Roy360 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Nicolas Weaver
+0068d000009MW9pAAG,0018d00000GgwwXAAR,Opportunity for Cooper256,Closed Lost,2218900,0058d000004QHacAAG,0058d000004B2qYAAS,Davidson606 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Julie Chavez
+0068d000009MWBUAA4,0018d00000GgwzdAAB,Opportunity for Foster1871,Closed Won,1628800,0058d000004QHadAAG,0058d000004B2qYAAS,Carr43 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Dennis Howard
+0068d000009MWBVAA4,0018d00000GgwvVAAR,Opportunity for McDaniel1873,Closed Won,3694000,0058d000004QHahAAG,0058d000004B2qYAAS,Mendez595 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Catherine Brown
+0068d000009MWBWAA4,0018d00000Ggx9UAAR,Opportunity for Gibbs1874,Proposal/Price Quote,2058100,0058d000004QHamAAG,0058d000004B2qYAAS,Lynch943 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Johnny Green
+0068d000009MWBXAA4,0018d00000Ggx4RAAR,Opportunity for Medina1876,Needs Analysis,2859100,0058d000004QHacAAG,0058d000004B2qYAAS,Moran300 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Irene McCoy
+0068d000009MWBYAA4,0018d00000GgwxIAAR,Opportunity for Kim733,Closed Won,238018,0058d000004QHaZAAW,0058d000004B2qYAAS,Graham11 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Eric Sanchez
+0068d000009MWBZAA4,0018d00000Ggx1tAAB,Opportunity for Curry734,Qualification,40380,0058d000004QHaZAAW,0058d000004B2qYAAS,Doyle59 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Kelly Frazier
+0068d000009MWBaAAO,0018d00000Ggx85AAB,Opportunity for Schultz736,Closed Lost,324200,0058d000004QHahAAG,0058d000004B2qYAAS,Benson346 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Julie Chavez
+0068d000009MWBbAAO,0018d00000Ggx1lAAB,Opportunity for Garner740,Perception Analysis,155600,0058d000004QHaqAAG,0058d000004B2qYAAS,Summers987 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Irene Kelley
+0068d000009MWBeAAO,0018d00000GgwzwAAB,Opportunity for Watts745,Closed Won,676500,0058d000004QHaqAAG,0058d000004B2qYAAS,Butler249 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Eric Gutierrez
+0068d000009MWBfAAO,0018d00000GgwtbAAB,Opportunity for Freeman746,Closed Won,1411200,0058d000004QHanAAG,0058d000004B2qYAAS,Cobb132 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Dennis Howard
+0068d000009MWBgAAO,0018d00000Ggx5ZAAR,Opportunity for Hopkins747,Closed Won,218798,0058d000004QHaqAAG,0058d000004B2qYAAS,Erickson874 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Doroth Gardner
+0068d000009MWBhAAO,0018d00000Ggx8hAAB,Opportunity for Clayton750,Closed Won,411166,0058d000004QHaoAAG,0058d000004B2qYAAS,Griffith580 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Doroth Gardner
+0068d000009MWDiAAO,0018d00000Ggx43AAB,Opportunity for Griffin1933,Closed Won,150043,0058d000004QHaeAAG,0058d000004B2qYAAS,Patton86 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Sanchez
+0068d000009MWDjAAO,0018d00000Ggx4dAAB,Opportunity for Daniel1935,Closed Won,1454500,0058d000004QHaYAAW,0058d000004B2qYAAS,Wade312 Inc,Partner,Lorna Brown,Julie Chavez,Lorna Brown,Catherine Brown
+0068d000009MWDkAAO,0018d00000Ggx3TAAR,Opportunity for Joseph1936,Closed Won,2920800,0058d000004QHajAAG,0058d000004B2qYAAS,Jefferson859 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Eric Sanchez
+0068d000009MWDlAAO,0018d00000Ggx2PAAR,Opportunity for Todd1938,Qualification,466200,0058d000004QHamAAG,0058d000004B2qYAAS,Munoz282 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Irene Kelley
+0068d000009MWDmAAO,0018d00000Ggx88AAB,Opportunity for Warner1943,Closed Won,1844200,0058d000004QHanAAG,0058d000004B2qYAAS,Webster349 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Garza
+0068d000009MWDoAAO,0018d00000Ggx4AAAR,Opportunity for Waters1946,Closed Lost,17000,0058d000004QHalAAG,0058d000004B2qYAAS,Lawrence93 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Johnny Green
+0068d000009MWDpAAO,0018d00000Ggx48AAB,Opportunity for Baldwin443,Closed Lost,852720,0058d000004QHahAAG,0058d000004B2qYAAS,Leonard91 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Doroth Gardner
+0068d000009MWDqAAO,0018d00000Ggx1JAAR,Opportunity for Gross444,Closed Lost,683100,0058d000004QHadAAG,0058d000004B2qYAAS,Christensen840 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Irene Kelley
+0068d000009MWDrAAO,0018d00000GgwyXAAR,Opportunity for Barker446,Closed Lost,1794340,0058d000004QHaoAAG,0058d000004B2qYAAS,Anderson638 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Julie Chavez
+0068d000009MWDsAAO,0018d00000GgwuhAAB,Opportunity for Harrington447,Closed Won,287850,0058d000004QHaeAAG,0058d000004B2qYAAS,Webb165 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Doroth Gardner
+0068d000009MWDtAAO,0018d00000Ggx5cAAB,Opportunity for Barnes448,Closed Won,182000,0058d000004QHafAAG,0058d000004B2qYAAS,Norton877 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Eric Sanchez
+0068d000009MWDvAAO,0018d00000Ggx4qAAB,Opportunity for Beck451,Closed Won,1518400,0058d000004QHanAAG,0058d000004B2qYAAS,Ortiz520 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Laura Garza
+0068d000009MWDwAAO,0018d00000GgwxEAAR,Opportunity for Bryan454,Closed Lost,380500,0058d000004QHapAAG,0058d000004B2qYAAS,Holmes7 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Dennis Howard
+0068d000009MWFRAA4,0018d00000GgwuFAAR,Opportunity for Kelley1593,Closed Lost,1498260,0058d000004QHaqAAG,0058d000004B2qYAAS,Abbott372 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Bruce Kennedy
+0068d000009MWFSAA4,0018d00000Ggx5qAAB,Opportunity for Wood1594,Closed Lost,140105,0058d000004QHaqAAG,0058d000004B2qYAAS,Henderson891 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Eric Gutierrez
+0068d000009MWFTAA4,0018d00000Ggx0kAAB,Opportunity for Alvarado1597,Closed Won,4824325,0058d000004QHamAAG,0058d000004B2qYAAS,Nichols662 Inc,Partner,Lorna Brown,Catherine Brown,Lorna Brown,Irene McCoy
+0068d000009MWFUAA4,0018d00000Ggx6EAAR,Opportunity for Simpson1598,Closed Won,204600,0058d000004QHaZAAW,0058d000004B2qYAAS,Cook117 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Chris Riley
+0068d000009MWFWAA4,0018d00000Ggwv9AAB,Opportunity for Barker1602,Needs Analysis,951000,0058d000004QHaaAAG,0058d000004B2qYAAS,Briggs402 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Irene McCoy
+0068d000009MWFXAA4,0018d00000GgwuhAAB,Opportunity for Cunningham1976,Closed Won,503975,0058d000004QHanAAG,0058d000004B2qYAAS,Webb165 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Doroth Gardner
+0068d000009MWFZAA4,0018d00000Ggx7GAAR,Opportunity for Ellis1978,Closed Won,2745600,0058d000004QHabAAG,0058d000004B2qYAAS,Jensen729 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Irene Kelley
+0068d000009MWFaAAO,0018d00000Ggx8HAAR,Opportunity for McLaughlin1979,Closed Won,98850,0058d000004QHaaAAG,0058d000004B2qYAAS,Abbott358 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Eric Sanchez
+0068d000009MWFbAAO,0018d00000Ggx6WAAR,Opportunity for Park1980,Value Proposition,532950,0058d000004QHagAAG,0058d000004B2qYAAS,Haynes326 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Eric Gutierrez
+0068d000009MWFcAAO,0018d00000Ggx7QAAR,Opportunity for Mitchell1983,Closed Won,1667600,0058d000004QHaZAAW,0058d000004B2qYAAS,Hopkins739 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Bruce Kennedy
+0068d000009MWFeAAO,0018d00000Ggwz5AAB,Opportunity for Paul1992,Closed Lost,650350,0058d000004QHabAAG,0058d000004B2qYAAS,Sims815 Inc,Partner,Lorna Brown,Doroth Gardner,Lorna Brown,Harold Campbell
+0068d000009MWFfAAO,0018d00000GgwzTAAR,Opportunity for Burton1994,Needs Analysis,987930,0058d000004QHafAAG,0058d000004B2qYAAS,Graves33 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Irene McCoy
+0068d000009MWFgAAO,0018d00000Ggx4pAAB,Opportunity for Santiago1997,Closed Won,1394000,0058d000004QHajAAG,0058d000004B2qYAAS,Bennett519 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Chris Riley
+0068d000009MWFiAAO,0018d00000Ggx6SAAR,Opportunity for Spencer490,Closed Lost,281412,0058d000004QHapAAG,0058d000004B2qYAAS,Fowler322 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Irene Kelley
+0068d000009MWFjAAO,0018d00000Ggx3aAAB,Opportunity for Wilkerson493,Closed Won,597750,0058d000004QHanAAG,0058d000004B2qYAAS,Tran866 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Irene Kelley
+0068d000009MWIdAAO,0018d00000Ggx2UAAR,Opportunity for Luna1331,Closed Won,1010900,0058d000004QHabAAG,0058d000004B2qYAAS,Vasquez483 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Laura Garza
+0068d000009MWIfAAO,0018d00000GgwySAAR,Opportunity for Malone1334,Needs Analysis,3847700,0058d000004QHacAAG,0058d000004B2qYAAS,Lindsey633 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Eric Gutierrez
+0068d000009MWIgAAO,0018d00000GgwzOAAR,Opportunity for Sharp1336,Closed Won,257198,0058d000004QHagAAG,0058d000004B2qYAAS,Cohen28 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Eric Gutierrez
+0068d000009MWIhAAO,0018d00000Ggwv4AAB,Opportunity for Shaw1337,Closed Lost,620200,0058d000004QHaZAAW,0058d000004B2qYAAS,Warren397 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Nicolas Weaver
+0068d000009MWIjAAO,0018d00000GgwutAAB,Opportunity for Gibbs1339,Closed Won,2983800,0058d000004QHaoAAG,0058d000004B2qYAAS,Flores188 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Chris Riley
+0068d000009MWIkAAO,0018d00000Ggx6SAAR,Opportunity for Chavez1340,Closed Won,289140,0058d000004QHaqAAG,0058d000004B2qYAAS,Fowler322 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Irene Kelley
+0068d000009MWImAAO,0018d00000GgwzcAAB,Opportunity for Sanders1345,Closed Won,773640,0058d000004QHaiAAG,0058d000004B2qYAAS,Adkins42 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Doroth Gardner
+0068d000009MWInAAO,0018d00000Ggx3oAAB,Opportunity for Sparks1346,Closed Won,1567780,0058d000004QHajAAG,0058d000004B2qYAAS,Riley999 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Dennis Howard
+0068d000009MWIqAAO,0018d00000Ggx00AAB,Opportunity for Johnson1707,Needs Analysis,3612800,0058d000004QHaiAAG,0058d000004B2qYAAS,Phillips253 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Harold Campbell
+0068d000009MWIrAAO,0018d00000Ggx5VAAR,Opportunity for Parker1715,Negotiation/Review,886570,0058d000004QHadAAG,0058d000004B2qYAAS,Aguilar870 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Laura Palmer
+0068d000009MWIsAAO,0018d00000Ggx6SAAR,Opportunity for Erickson1716,Value Proposition,1771150,0058d000004QHahAAG,0058d000004B2qYAAS,Fowler322 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Irene Kelley
+0068d000009MWItAAO,0018d00000GgwtXAAR,Opportunity for Lewis1718,Closed Won,1415700,0058d000004QHaoAAG,0058d000004B2qYAAS,Morton128 Inc,Customer,Lorna Brown,Irene McCoy,Lorna Brown,Laura Garza
+0068d000009MWIuAAO,0018d00000Ggx2rAAB,Opportunity for French1719,Closed Won,1840000,0058d000004QHacAAG,0058d000004B2qYAAS,Hudson506 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Laura Garza
+0068d000009MWDyAAO,0018d00000Ggx3jAAB,Opportunity for Mendez460,Closed Won,23245,0058d000004QHapAAG,0058d000004B2qYAAS,Obrien994 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Chris Riley
+0068d000009MWDzAAO,0018d00000Ggx47AAB,Opportunity for Christensen462,Closed Won,133800,0058d000004QHaiAAG,0058d000004B2qYAAS,Steele90 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,John Williams
+0068d000009MWE0AAO,0018d00000Ggx4zAAB,Opportunity for Stevenson463,Closed Lost,103690,0058d000004QHacAAG,0058d000004B2qYAAS,Flowers529 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Evelyn Williamson
+0068d000009MWE1AAO,0018d00000Ggx6BAAR,Opportunity for Arnold464,Closed Won,805000,0058d000004QHaqAAG,0058d000004B2qYAAS,Ramsey114 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Catherine Brown
+0068d000009MWE2AAO,0018d00000GgwtxAAB,Opportunity for Wolfe807,Closed Won,3198400,0058d000004QHapAAG,0058d000004B2qYAAS,Mann154 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Julie Chavez
+0068d000009MWE3AAO,0018d00000Ggx3dAAB,Opportunity for Hamilton810,Needs Analysis,895290,0058d000004QHadAAG,0058d000004B2qYAAS,Joseph988 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Laura Garza
+0068d000009MWE6AAO,0018d00000Ggx7bAAB,Opportunity for Stokes814,Needs Analysis,1750,0058d000004QHafAAG,0058d000004B2qYAAS,Luna900 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Bruce Kennedy
+0068d000009MWE7AAO,0018d00000GgwvDAAR,Opportunity for Goodman815,Closed Won,323550,0058d000004QHacAAG,0058d000004B2qYAAS,Gordon406 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Laura Palmer
+0068d000009MWE8AAO,0018d00000GgwzYAAR,Opportunity for Carter816,Closed Won,14720,0058d000004QHanAAG,0058d000004B2qYAAS,Gutierrez38 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Chris Riley
+0068d000009MWE9AAO,0018d00000Ggx1oAAB,Opportunity for Banks821,Perception Analysis,133017,0058d000004QHaeAAG,0058d000004B2qYAAS,Walsh54 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Catherine Brown
+0068d000009MWEAAA4,0018d00000GgwyWAAR,Opportunity for Johnston824,Value Proposition,913860,0058d000004QHacAAG,0058d000004B2qYAAS,Herrera637 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Harold Campbell
+0068d000009MWFkAAO,0018d00000GgwzoAAB,Opportunity for Lyons494,Qualification,2371900,0058d000004QHahAAG,0058d000004B2qYAAS,Johnston241 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,John Williams
+0068d000009MWFnAAO,0018d00000GgwywAAB,Opportunity for Reeves502,Closed Lost,439140,0058d000004QHalAAG,0058d000004B2qYAAS,Patrick806 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Doroth Gardner
+0068d000009MWFoAAO,0018d00000Ggx8yAAB,Opportunity for Pope508,Closed Lost,499523,0058d000004QHabAAG,0058d000004B2qYAAS,Hoffman761 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Harold Campbell
+0068d000009MWFpAAO,0018d00000Ggww1AAB,Opportunity for Fernandez851,Closed Won,352350,0058d000004QHahAAG,0058d000004B2qYAAS,Vega214 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,John Williams
+0068d000009MWFqAAO,0018d00000GgwxCAAR,Opportunity for Gordon852,Qualification,762410,0058d000004QHafAAG,0058d000004B2qYAAS,Robertson5 Inc,Partner,Lorna Brown,Harold Campbell,Lorna Brown,Dennis Howard
+0068d000009MWFwAAO,0018d00000Ggwy6AAB,Opportunity for Gordon872,Closed Won,339815,0058d000004QHafAAG,0058d000004B2qYAAS,Myers448 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,John Williams
+0068d000009MWFxAAO,0018d00000Ggx35AAB,Opportunity for Rogers1242,Closed Won,3907275,0058d000004QHaqAAG,0058d000004B2qYAAS,Watts685 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Laura Palmer
+0068d000009MWFyAAO,0018d00000GgwuNAAR,Opportunity for Newton1243,Closed Won,288925,0058d000004QHajAAG,0058d000004B2qYAAS,Nash380 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Dennis Howard
+0068d000009MWFzAAO,0018d00000GgwxnAAB,Opportunity for Parks1244,Closed Won,436500,0058d000004QHanAAG,0058d000004B2qYAAS,Webb232 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Bruce Kennedy
+0068d000009MWG0AAO,0018d00000Ggwy8AAB,Opportunity for Hall1246,Value Proposition,937550,0058d000004QHahAAG,0058d000004B2qYAAS,Cox450 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Irene McCoy
+0068d000009MWG1AAO,0018d00000Ggx17AAB,Opportunity for Cole1249,Perception Analysis,50890,0058d000004QHaaAAG,0058d000004B2qYAAS,Hart828 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Kelly Frazier
+0068d000009MWG2AAO,0018d00000Ggx4nAAB,Opportunity for Morton1251,Closed Won,25095,0058d000004QHapAAG,0058d000004B2qYAAS,Fox517 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Eric Gutierrez
+0068d000009MWIvAAO,0018d00000GgwtfAAB,Opportunity for Duncan1725,Prospecting,847450,0058d000004QHapAAG,0058d000004B2qYAAS,Thompson136 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Eric Sanchez
+0068d000009MWIwAAO,0018d00000GgwufAAB,Opportunity for Leonard584,Qualification,318600,0058d000004QHahAAG,0058d000004B2qYAAS,Duncan187 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Laura Palmer
+0068d000009MWIyAAO,0018d00000GgwwoAAB,Opportunity for Santiago590,Closed Lost,57510,0058d000004QHalAAG,0058d000004B2qYAAS,Haynes623 Inc,Partner,Lorna Brown,Johnny Green,Lorna Brown,Dennis Howard
+0068d000009MWIzAAO,0018d00000Ggx7iAAB,Opportunity for Morton591,Proposal/Price Quote,1741100,0058d000004QHapAAG,0058d000004B2qYAAS,Adkins907 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Dennis Howard
+0068d000009MWJ0AAO,0018d00000Ggwx3AAB,Opportunity for Reynolds593,Qualification,3503360,0058d000004QHaoAAG,0058d000004B2qYAAS,Peters785 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Harold Campbell
+0068d000009MWJ1AAO,0018d00000Ggx6EAAR,Opportunity for Bowers595,Closed Won,681410,0058d000004QHaiAAG,0058d000004B2qYAAS,Cook117 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Chris Riley
+0068d000009MWJ2AAO,0018d00000GgwwFAAR,Opportunity for Armstrong600,Prospecting,2102240,0058d000004QHacAAG,0058d000004B2qYAAS,Rodriguez422 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Doroth Gardner
+0068d000009MWJ3AAO,0018d00000Ggx6JAAR,Opportunity for Johnston601,Closed Lost,377520,0058d000004QHacAAG,0058d000004B2qYAAS,Hansen313 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Laura Garza
+0068d000009MWJ4AAO,0018d00000GgwxyAAB,Opportunity for Nash605,Closed Won,1840600,0058d000004QHaaAAG,0058d000004B2qYAAS,Mann440 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Julie Chavez
+0068d000009MWJ5AAO,0018d00000Ggx3oAAB,Opportunity for Evans607,Closed Lost,341390,0058d000004QHafAAG,0058d000004B2qYAAS,Riley999 Inc,Customer,Lorna Brown,Harold Campbell,Lorna Brown,Dennis Howard
+0068d000009MWJ6AAO,0018d00000Ggx3fAAB,Opportunity for Norman968,Closed Won,728525,0058d000004QHaqAAG,0058d000004B2qYAAS,West990 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Doroth Gardner
+0068d000009MWJ7AAO,0018d00000GgwwfAAB,Opportunity for Keller977,Closed Lost,54900,0058d000004QHajAAG,0058d000004B2qYAAS,Marsh614 Inc,Partner,Lorna Brown,Laura Palmer,Lorna Brown,Nicolas Weaver
+0068d000009MWEEAA4,0018d00000Ggx8OAAR,Opportunity for Hayes1197,Perception Analysis,1593200,0058d000004QHaqAAG,0058d000004B2qYAAS,Watkins561 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Laura Garza
+0068d000009MWEFAA4,0018d00000Ggx8TAAR,Opportunity for Logan1198,Closed Lost,40480,0058d000004QHadAAG,0058d000004B2qYAAS,Todd566 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,Eric Gutierrez
+0068d000009MWEIAA4,0018d00000GgwujAAB,Opportunity for Nichols1204,Closed Won,2169600,0058d000004QHaqAAG,0058d000004B2qYAAS,Stone167 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Johnny Green
+0068d000009MWEKAA4,0018d00000Ggx1FAAR,Opportunity for Howard1207,Value Proposition,449438,0058d000004QHajAAG,0058d000004B2qYAAS,Marsh836 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Laura Garza
+0068d000009MWELAA4,0018d00000Ggx1OAAR,Opportunity for Murray1210,Closed Won,1639550,0058d000004QHalAAG,0058d000004B2qYAAS,Pena964 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Laura Garza
+0068d000009MWEMAA4,0018d00000Ggx0bAAB,Opportunity for Wagner1214,Closed Lost,580000,0058d000004QHanAAG,0058d000004B2qYAAS,Warren653 Inc,Partner,Lorna Brown,Evelyn Williamson,Lorna Brown,Julie Chavez
+0068d000009MWENAA4,0018d00000GgwzYAAR,Opportunity for Thomas1215,Closed Won,342886,0058d000004QHabAAG,0058d000004B2qYAAS,Gutierrez38 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Chris Riley
+0068d000009MWEOAA4,0018d00000GgwtjAAB,Opportunity for Yates1567,Closed Lost,7425,0058d000004QHapAAG,0058d000004B2qYAAS,Lopez140 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Kelly Frazier
+0068d000009MWEQAA4,0018d00000Ggx0NAAR,Opportunity for Curtis1571,Closed Won,198000,0058d000004QHahAAG,0058d000004B2qYAAS,Chapman475 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Chris Riley
+0068d000009MWERAA4,0018d00000Ggx2pAAB,Opportunity for Clark1572,Closed Lost,480891,0058d000004QHaoAAG,0058d000004B2qYAAS,Stone504 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Harold Campbell
+0068d000009MWESAA4,0018d00000GgwzRAAR,Opportunity for Williamson1573,Closed Lost,3990000,0058d000004QHaiAAG,0058d000004B2qYAAS,Long31 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Doroth Gardner
+0068d000009MWETAA4,0018d00000GgwtqAAB,Opportunity for Goodwin1575,Closed Won,122651,0058d000004QHaYAAW,0058d000004B2qYAAS,Graves147 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Evelyn Williamson
+0068d000009MWEVAA4,0018d00000Ggx3TAAR,Opportunity for Sims1582,Closed Won,119967,0058d000004QHahAAG,0058d000004B2qYAAS,Jefferson859 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Eric Sanchez
+0068d000009MWEBAA4,0018d00000Ggx3xAAB,Opportunity for Powell825,Closed Won,230520,0058d000004QHaYAAW,0058d000004B2qYAAS,Stokes80 Inc,Customer,Lorna Brown,Julie Chavez,Lorna Brown,Dennis Howard
+0068d000009MWECAA4,0018d00000GgwyDAAR,Opportunity for Parks826,Closed Won,411185,0058d000004QHagAAG,0058d000004B2qYAAS,Holloway455 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Eric Gutierrez
+0068d000009MWEDAA4,0018d00000Ggx6pAAB,Opportunity for Stone1195,Closed Lost,1817815,0058d000004QHaeAAG,0058d000004B2qYAAS,McKinney542 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Irene Kelley
+0068d000009MWG7AAO,0018d00000Ggx4ZAAR,Opportunity for Delgado1258,Closed Lost,2129900,0058d000004QHajAAG,0058d000004B2qYAAS,Hughes308 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Laura Garza
+0068d000009MWG8AAO,0018d00000Ggx3SAAR,Opportunity for Terry1604,Closed Won,259500,0058d000004QHamAAG,0058d000004B2qYAAS,Cross858 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Julie Chavez
+0068d000009MWGBAA4,0018d00000Ggx1RAAR,Opportunity for Cook1618,Closed Lost,835870,0058d000004QHagAAG,0058d000004B2qYAAS,May967 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,John Williams
+0068d000009MWGCAA4,0018d00000Ggx7AAAR,Opportunity for Singleton1620,Closed Won,3057500,0058d000004QHalAAG,0058d000004B2qYAAS,Wade723 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Laura Garza
+0068d000009MWGDAA4,0018d00000GgwyIAAR,Opportunity for Stanley1623,Closed Won,15637,0058d000004QHacAAG,0058d000004B2qYAAS,Bowers460 Inc,Partner,Lorna Brown,Irene Kelley,Lorna Brown,Johnny Green
+0068d000009MWGEAA4,0018d00000GgwzdAAB,Opportunity for Morrison510,Closed Won,75289,0058d000004QHabAAG,0058d000004B2qYAAS,Carr43 Inc,Customer,Lorna Brown,Doroth Gardner,Lorna Brown,Dennis Howard
+0068d000009MWGFAA4,0018d00000GgwuiAAB,Opportunity for Elliott511,Needs Analysis,679555,0058d000004QHamAAG,0058d000004B2qYAAS,Figueroa166 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Catherine Brown
+0068d000009MWGGAA4,0018d00000Ggx8pAAB,Opportunity for Wilkerson513,Closed Won,138690,0058d000004QHaqAAG,0058d000004B2qYAAS,Rivera752 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Evelyn Williamson
+0068d000009MWGIAA4,0018d00000Ggwv8AAB,Opportunity for Collier517,Qualification,211050,0058d000004QHaeAAG,0058d000004B2qYAAS,Tucker401 Inc,Customer,Lorna Brown,Nicolas Weaver,Lorna Brown,Harold Campbell
+0068d000009MWGKAA4,0018d00000Ggx5YAAR,Opportunity for Hansen520,Value Proposition,104940,0058d000004QHamAAG,0058d000004B2qYAAS,Shelton873 Inc,Partner,Lorna Brown,Catherine Brown,Lorna Brown,Irene Kelley
+0068d000009MWGLAA4,0018d00000GgwzhAAB,Opportunity for Clarke523,Closed Lost,4805100,0058d000004QHadAAG,0058d000004B2qYAAS,Casey47 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Laura Garza
+0068d000009MWGMAA4,0018d00000Ggx3wAAB,Opportunity for Dennis524,Closed Won,3390620,0058d000004QHadAAG,0058d000004B2qYAAS,Rodgers79 Inc,Partner,Lorna Brown,Eric Gutierrez,Lorna Brown,Nicolas Weaver
+0068d000009MWJAAA4,0018d00000Ggx4PAAR,Opportunity for Jennings981,Qualification,141300,0058d000004QHadAAG,0058d000004B2qYAAS,Reynolds298 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Catherine Brown
+0068d000009MWJBAA4,0018d00000GgwziAAB,Opportunity for Weber983,Closed Lost,279405,0058d000004QHacAAG,0058d000004B2qYAAS,Gutierrez48 Inc,Customer,Lorna Brown,Irene Kelley,Lorna Brown,Johnny Green
+0068d000009MWJDAA4,0018d00000Ggx7HAAR,Opportunity for Lane987,Closed Won,316254,0058d000004QHanAAG,0058d000004B2qYAAS,Joseph730 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Evelyn Williamson
+0068d000009MWJEAA4,0018d00000GgwurAAB,Opportunity for Lloyd988,Proposal/Price Quote,2243150,0058d000004QHapAAG,0058d000004B2qYAAS,Wise175 Inc,Partner,Lorna Brown,Eric Sanchez,Lorna Brown,Dennis Howard
+0068d000009MWJFAA4,0018d00000Ggx2oAAB,Opportunity for Porter991,Perception Analysis,2158750,0058d000004QHapAAG,0058d000004B2qYAAS,Fitzgerald503 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Bruce Kennedy
+0068d000009MWJHAA4,0018d00000GgwwGAAR,Opportunity for Gomez1357,Closed Lost,3618750,0058d000004QHagAAG,0058d000004B2qYAAS,Wells423 Inc,Customer,Lorna Brown,Chris Riley,Lorna Brown,Julie Chavez
+0068d000009MWJIAA4,0018d00000Ggx1KAAR,Opportunity for Sullivan1358,Closed Won,163530,0058d000004QHaZAAW,0058d000004B2qYAAS,Schneider841 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Kelly Frazier
+0068d000009MWJJAA4,0018d00000GgwyLAAR,Opportunity for Harrison1359,Qualification,475597,0058d000004QHamAAG,0058d000004B2qYAAS,Rodriquez626 Inc,Customer,Lorna Brown,Catherine Brown,Lorna Brown,Eric Gutierrez
+0068d000009MWJKAA4,0018d00000Ggx6BAAR,Opportunity for Austin1360,Value Proposition,347730,0058d000004QHajAAG,0058d000004B2qYAAS,Ramsey114 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Catherine Brown
+0068d000009MWJMAA4,0018d00000Ggx3DAAR,Opportunity for Dean1363,Closed Won,156655,0058d000004QHaeAAG,0058d000004B2qYAAS,Schneider843 Inc,Partner,Lorna Brown,Nicolas Weaver,Lorna Brown,Eric Gutierrez
+0068d000009MWJNAA4,0018d00000GgwyWAAR,Opportunity for Ferguson1365,Needs Analysis,3541100,0058d000004QHalAAG,0058d000004B2qYAAS,Herrera637 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Harold Campbell
+0068d000009MWJOAA4,0018d00000Ggx58AAB,Opportunity for Harvey1369,Closed Won,802240,0058d000004QHaZAAW,0058d000004B2qYAAS,Hoffman697 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Kelly Frazier
+0068d000009MWJPAA4,0018d00000Ggx9LAAR,Opportunity for Wilkins1370,Needs Analysis,2649500,0058d000004QHaaAAG,0058d000004B2qYAAS,Brewer934 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Bruce Kennedy
+0068d000009MWJQAA4,0018d00000GgwvfAAB,Opportunity for Wilkins1372,Closed Won,932900,0058d000004QHapAAG,0058d000004B2qYAAS,Lee192 Inc,Customer,Lorna Brown,Eric Sanchez,Lorna Brown,Johnny Green
+0068d000009MWJRAA4,0018d00000Ggx4XAAR,Opportunity for Olson1373,Closed Won,25739,0058d000004QHahAAG,0058d000004B2qYAAS,Woods306 Inc,Customer,Lorna Brown,Kelly Frazier,Lorna Brown,Laura Palmer
+0068d000009MWJSAA4,0018d00000Ggwu4AAB,Opportunity for Dennis1374,Closed Won,3463920,0058d000004QHanAAG,0058d000004B2qYAAS,Dawson161 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Eric Gutierrez
+0068d000009MWJTAA4,0018d00000GgwwkAAB,Opportunity for Buchanan1727,Closed Lost,112000,0058d000004QHaqAAG,0058d000004B2qYAAS,Maxwell619 Inc,Customer,Lorna Brown,John Williams,Lorna Brown,Bruce Kennedy
+0068d000009MW6zAAG,0018d00000Ggx6zAAB,Opportunity for Conner5,Qualification,32400,0058d000004QHajAAG,0058d000004B2qYAAS,Phillips552 Inc,Customer,Lorna Brown,Laura Palmer,Lorna Brown,Eric Gutierrez
+0068d000009MW73AAG,0018d00000Ggx5wAAB,Opportunity for McDonald13,Closed Won,240747,0058d000004QHaiAAG,0058d000004B2qYAAS,Parks99 Inc,Partner,Lorna Brown,Dennis Howard,Lorna Brown,Eric Gutierrez
+0068d000009MW74AAG,0018d00000Ggx6UAAR,Opportunity for Jefferson17,Closed Won,21640,0058d000004QHaoAAG,0058d000004B2qYAAS,Cortez324 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Doroth Gardner
+0068d000009MW75AAG,0018d00000GgwxzAAB,Opportunity for McLaughlin130,Negotiation/Review,1249000,0058d000004QHadAAG,0058d000004B2qYAAS,Owens441 Inc,Customer,Lorna Brown,Eric Gutierrez,Lorna Brown,Bruce Kennedy
+0068d000009MW76AAG,0018d00000Ggx1wAAB,Opportunity for Chandler133,Perception Analysis,754640,0058d000004QHaiAAG,0058d000004B2qYAAS,Gibson62 Inc,Customer,Lorna Brown,Dennis Howard,Lorna Brown,Dennis Howard
+0068d000009MW77AAG,0018d00000Ggx0bAAB,Opportunity for Rice134,Closed Won,243450,0058d000004QHahAAG,0058d000004B2qYAAS,Warren653 Inc,Partner,Lorna Brown,Kelly Frazier,Lorna Brown,Julie Chavez
+0068d000009MW79AAG,0018d00000Ggx4jAAB,Opportunity for Barnes141,Qualification,363400,0058d000004QHaqAAG,0058d000004B2qYAAS,Conner513 Inc,Partner,Lorna Brown,John Williams,Lorna Brown,Catherine Brown
+0068d000009MW7CAAW,0018d00000Ggx0XAAR,Opportunity for Norman145,Closed Won,800000,0058d000004QHaoAAG,0058d000004B2qYAAS,Martinez649 Inc,Partner,Lorna Brown,Irene McCoy,Lorna Brown,Evelyn Williamson
+0068d000009MW7DAAW,0018d00000GgwxKAAR,Opportunity for Edwards146,Perception Analysis,4212140,0058d000004QHalAAG,0058d000004B2qYAAS,Harris13 Inc,Customer,Lorna Brown,Johnny Green,Lorna Brown,Laura Garza
+0068d000009MW7EAAW,0018d00000Ggx7dAAB,Opportunity for Williams149,Needs Analysis,2305550,0058d000004QHanAAG,0058d000004B2qYAAS,Dean902 Inc,Customer,Lorna Brown,Evelyn Williamson,Lorna Brown,Dennis Howard
+0068d000009MW7FAAW,0018d00000GgwvXAAR,Opportunity for Wagner150,Closed Lost,2660660,0058d000004QHaaAAG,0058d000004B2qYAAS,Bishop597 Inc,Customer,Lorna Brown,Bruce Kennedy,Lorna Brown,Chris Riley
+0068d000009MW7GAAW,0018d00000Ggx7iAAB,Opportunity for Lewis258,Closed Won,309938,0058d000004QHaZAAW,0058d000004B2qYAAS,Adkins907 Inc,Customer,Lorna Brown,Laura Garza,Lorna Brown,Dennis Howard
