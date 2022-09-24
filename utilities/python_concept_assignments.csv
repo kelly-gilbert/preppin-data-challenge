@@ -101,8 +101,6 @@ Pandas - Other,```astype```,2020.0,7.0
 String Functions,```replace```,2020.0,7.0
 Other,list/dict comprehension,2020.0,8.0
 Other,list/dict comprehension,2020.0,8.0
-Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2020.0,8.0
-Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2020.0,8.0
 Pandas - Dates,```dt.strftime```,2020.0,8.0
 Pandas - Dates,```dt.strftime```,2020.0,8.0
 Pandas - File I/O,Read Excel files,2020.0,8.0
@@ -483,7 +481,6 @@ Pandas - Selection/slicing,```drop_duplicates```,2021.0,25.0
 Pandas - Selection/slicing,```drop```,2021.0,25.0
 Pandas - Selection/slicing,slicing a DataFrame,2021.0,25.0
 Other,list/dict comprehension,2021.0,26.0
-Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2021.0,26.0
 Pandas - Aggregation,Named Aggregation,2021.0,26.0
 Pandas - Dates,```read_csv``` or ```read_excel``` with parse_dates,2021.0,26.0
 Pandas - Dates,"```timedelta```, ```to_timedelta```, ```relativedelta```",2021.0,26.0
@@ -717,7 +714,6 @@ numpy,"```ceil```, ```floor```",2021.0,47.0
 numpy,```where```,2021.0,47.0
 Other,Mapping values with dictionary,2021.0,48.0
 Other,list/dict comprehension,2021.0,48.0
-Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2021.0,48.0
 Pandas - File I/O,Read Excel files,2021.0,48.0
 Pandas - Other,```astype```,2021.0,48.0
 Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2021.0,48.0
@@ -1185,3 +1181,44 @@ Pandas - Other,```assign```,2022.0,36.0
 Pandas - Other,"```fillna```, ```ffill```, ```bfill```",2022.0,36.0
 Pandas - Selection/slicing,```drop_duplicates```,2022.0,36.0
 Pandas - Selection/slicing,```drop```,2022.0,36.0
+Other,Mapping values with dictionary,2022.0,37.0
+Pandas - Aggregation,```rank```,2022.0,37.0
+Pandas - Other,```assign```,2022.0,37.0
+Pandas - Other,```astype```,2022.0,37.0
+Pandas - Reshaping,```extract```,2022.0,37.0
+Pandas - Reshaping,```melt```,2022.0,37.0
+Pandas - Reshaping,"```pivot```, ```pivot_table```",2022.0,37.0
+Pandas - Selection/slicing,slicing a DataFrame,2022.0,37.0
+String Functions,```replace```,2022.0,37.0
+numpy,```where```,2022.0,37.0
+Other,Mapping values with dictionary,2022.0,38.0
+Other,```zip```,2022.0,38.0
+Other,f strings / format,2022.0,38.0
+Pandas - Aggregation,Named Aggregation,2022.0,38.0
+Pandas - Joining,```merge```,2022.0,38.0
+Pandas - Other,```sort_values```,2022.0,38.0
+Pandas - Selection/slicing,```drop```,2022.0,38.0
+String Functions,```replace```,2022.0,38.0
+Pandas - Dates,Date Calculations,2019.0,4.0
+String Functions,```replace```,2019.0,4.0
+Pandas - Dates,Date Calculations,2020.0,4.0
+Pandas - Selection/slicing,slicing a DataFrame,2020.0,7.0
+Other,Mapping values with dictionary,2020.0,8.0
+Pandas - Dates,Date Calculations,2021.0,2.0
+Pandas - Dates,Date Calculations,2021.0,8.0
+Pandas - Dates,Date Calculations,2021.0,10.0
+Other,```zip```,2021.0,12.0
+Other,Mapping values with dictionary,2021.0,14.0
+String Functions,```strip```,2021.0,16.0
+Pandas - Dates,Date Calculations,2021.0,18.0
+Pandas - Dates,Date Calculations,2021.0,21.0
+Other,Mapping values with dictionary,2021.0,32.0
+Pandas - Dates,Date Calculations,2021.0,33.0
+String Functions,String slicing,2021.0,36.0
+Other,unpacking a sequence *,2021.0,41.0
+Other,Mapping values with dictionary,2021.0,47.0
+Pandas - Dates,Date Calculations,2022.0,1.0
+Pandas - Dates,Date Calculations,2022.0,2.0
+Pandas - Dates,Date Calculations,2022.0,15.0
+Other,Loops,2022.0,22.0
+Other,Mapping values with dictionary,2022.0,23.0

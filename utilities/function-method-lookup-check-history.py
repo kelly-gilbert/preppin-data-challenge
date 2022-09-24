@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Build a regex lookup file to match Python concepts in code.
-
-1 - Get a list of all existing Preppin' Data .py files
-2 - Compare them to the regex lookups to get a list of concepts by week
-3 - Parse the manually-built reference tables from github
-4 - Compare the concept/weeks identified by regex to the manually-updated concept/weeks 
+Build a regex lookup file to match Python concepts in code. Creates an output .csv containing all of the  
 
 
 Author: Kelly Gilbert
@@ -16,10 +11,6 @@ Requirements:
 - Regex lookup file (utilities\regex_lookup_python.csv)
 
 """
-
-
-from os import chdir
-chdir(r'C:\Users\gilbe\projects\preppin-data-challenge')
 
 
 import glob
@@ -130,22 +121,23 @@ df_compare['_merge'] = df_compare['_merge'].replace({'right_only' : 'in actual',
                                                      'left_only' : 'in regex match'})
 
 
-
-# check for weeks in manually-built table that were not matched by regex
-print_mismatches(df_compare[(df_compare['_merge']=='in actual')], 20)
-
-
-# check for weeks in regex matches that are labeled as possible overcounts
-print_mismatches(df_compare[(df_compare['_merge']=='in regex match')
-                            & (df_compare['May Overcount']==1)], 50)
-
-
 # --------------------------------------------------------------------------------------------------
 # output matches to file
 # --------------------------------------------------------------------------------------------------
 
-( df_compare[df_compare['_merge'] != 'in actual']
+( df_compare
       .sort_values(by=['year', 'week', 'Category', 'Function/Method/Concept'])
       [['Category', 'Function/Method/Concept', 'year', 'week']]
       .to_csv(r'.\utilities\python_concept_assignments.csv', index=False)
 )
+
+
+# check for weeks in manually-built table that were not matched by regex
+# if they are incorrect, delete them from the output file
+print_mismatches(df_compare[(df_compare['_merge']=='in actual')], 20)
+
+
+# check for weeks in regex matches that are labeled as possible overcounts
+# if they are incorrect, delete them from the output file (and possibly refine the regex)
+print_mismatches(df_compare[(df_compare['_merge']=='in regex match')
+                            & (df_compare['May Overcount']==1)], 50)

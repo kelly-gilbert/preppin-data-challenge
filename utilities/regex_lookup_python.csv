@@ -13,7 +13,7 @@ Other,Mapping values with dictionary,2020:  W04  W08  W09  2021:  W01  W14  W29 
 Other,sets,2022:  W28,\bset\(,,,
 Other,unpacking a sequence *,2021:  W41,xxx[manual]xxx,1,1,"May count multiplication without spaces, would not count unpacking an object w/i parentheses"
 Other,user input,2022:  W13,\sinput\(,1,,
-Other,```zip```,2020:  W02  2021:  W07  W10  W11  W12  W24  W37  W43  2022:  W10  W15  W19  W20  W22,\bzip\(,,,
+Other,```zip```,2020:  W02  2021:  W07  W10  W11  W24  W37  W43  2022:  W10  W15  W19  W20  W22,\bzip\(,,,
 Pandas - Aggregation,"Boolean aggregation(```any```, ```all```)",2022:  W14,(?:\s|')(?:any|all)(?:\(|'),1,,Will count any boolean agg function in quotation marks
 Pandas - Aggregation,"Cumulative aggregation(```cumcount```, ```cumsum```, etc.)",2020:  W03  2021:  W49  W50  2022:  W13  W15,cummax|cummin|cumprod|cumsum|cumcount,,,
 Pandas - Aggregation,Named Aggregation,2020:  W03  W05  W06  W07  2021:  W02  W06  W07  W17  W18  W20  W22  W25  W26  W28  W32  W34  W36  W38  W46  W47  W49  W51  2022:  W03  W04  W06  W09  W19  W27,\bagg\(,,,
@@ -74,7 +74,7 @@ String Functions,```match```,2019:  W04  2021:  W12  2022:  W16,\.match\(,,,
 String Functions,```replace```,2019:  W04  2020:  W02  W04  W07  W08  2021:  W01  W02  W06  W12  W14  W19  W27  W28  W29  W34  W36  W38  W48  2022:  W04  W10  W12  W13  W19  W21  W22  W24,"\.replace(?:.(?![\{\)]))*\,(?:.(?!\)))*",1,,
 String Functions,```split```,2021:  W01  W03  W04  W07  W09  W11  W14  W15  W16  W19  W21  W29  W45  2022:  W06  W22,\.split\(,,,
 String Functions,String slicing,2019:  W04  2020:  W08  2021:  W09  W10  W28  W33  W36  2022:  W14  W21,\.str(?:\.slice\b|\[),,1,Won't count [:] slicing
-String Functions,```strip```,2021:  W09  W13  W15  W16  W19  W21  W22  W28  W29  W43  W46  W52  2022:  W22,\.strip\b,,,
+String Functions,```strip```,2021:  W09  W13  W15  W19  W21  W22  W28  W29  W43  W46  W52  2022:  W22,\.strip\b,,,
 numpy,"aggregate functions (e.g. ```sum```, ```max```)",2020:  W08,"(?:from numpy import.{,20} (?:median|average|mean|std|var|nanmedian|nanmean|nanstd|nanvar|count_nonzero|prod|sum|nanprod|nansum|cumprod|cumsum|nancumprod|nancumsum|count|cumcount|nancumcount|nancount|maximum|fmax|amax|minimum|fmin|nanmin))|(?:np\.(?:median|average|mean|std|var|nanmedian|nanmean|nanstd|nanvar|count_nonzero|prod|sum|nanprod|nansum|cumprod|cumsum|nancumprod|nancumsum|count|cumcount|nancumcount|nancount|maximum|fmax|amax|minimum|fmin|nanmin)\()",,,
 numpy,"```ceil```, ```floor```",2021:  W23  W47,"((?:from numpy import)(?:\,? ceil|\,? floor))|(np\.(?:ceil|floor)\()",,,
 numpy,```where```,2019:  W04  2020:  W03  W04  W09  2021:  W12  W14  W15  W16  W20  W28  W32  W33  W34  W35  W36  W39  W40  W41  W42  W43  W44  W47  W48  W50  2022:  W01  W04  W07  W08  W09  W12  W15  W16  W17  W20  W21  W22  W27,"(?:from numpy import.{,20} where)|(?:(?:np\.)?where\()",,,
