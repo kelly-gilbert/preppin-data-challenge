@@ -1,0 +1,18 @@
+Record ID,Employee,Work Level,Stage,Date
+1,Andrea,3,Application Received,11/10/2019
+2,Andrea,3,Interview,31/10/2019
+3,Andrea,3,Start Date,06/01/2020
+4,Andrea,3,Work Anniverary,06/01/2021
+5,Andrea,4,Promotion,01/03/2021
+6,Andrea,4,Parental Leave Start Date,20/12/2021
+7,Andrea,4,Work Anniverary,06/01/2022
+8,Andrea,4,Parental Leave End Date,05/09/2022
+9,Bobby,1,Application Received,20/01/2020
+10,Bobby,1,Interview,14/02/2020
+11,Bobby,1,Start Date,13/03/2020
+12,Bobby,1,Work Anniverary,13/03/2021
+13,Bobby,2,Promotion,12/09/2021
+14,Bobby,2,Work Anniverary,13/03/2022
+15,Chloe,2,Application Received,01/06/2022
+16,Chloe,2,Interview,30/06/2022
+17,Chloe,2,Start Date,26/09/2022
