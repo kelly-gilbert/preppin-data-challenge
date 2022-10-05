@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Build a regex lookup file to match Python concepts in code. Creates an output .csv containing all of the  
+Checks previous Preppin' Data python files vs. a regex lookup to match Python concepts in code. 
+Outputs .csv containing the year/week/concept matches.
 
 
 Author: Kelly Gilbert
@@ -24,13 +25,13 @@ import re
 # --------------------------------------------------------------------------------------------------
 
 def make_snippet(string, start, end, margin=20):
-    """returns a snippet of string starting at start-margin and ending at end_margin"""
+    """returns a snippet of a string starting at (start - margin) and ending at (end + margin)"""
     
     return string[max(0, start-margin) : min(len(string), end+margin)]
 
 
 def print_mismatches(df, top_n=None):
-    """prints mismatched year/week combinations for each concept"""
+    """prints mismatched year/week combinations for each concept, sorted by count of occurrence"""
     
     counts = df['Function/Method/Concept'].value_counts()
        
@@ -50,12 +51,13 @@ def print_mismatches(df, top_n=None):
 # import the regex lookup file
 df_regex = pd.read_csv(r'.\utilities\regex_lookup_python.csv')
 
+
 # import the .py files
 py_files = glob.glob(r'**/preppin-data-????-??/**/*.py', recursive=True)
 py_contents = [open(f, encoding='utf-8').read() for f in py_files]
 
 
-# read into a dataframe and parse tye year/week
+# read into a dataframe and parse the year/week
 df = pd.DataFrame({'filepath' : py_files, 'contents' : py_contents})
 df[['year', 'week']] = df['filepath'].str.extract(r'.*preppin-data-(\d{4})-(\d{2}).*').astype(float)
 
@@ -65,17 +67,17 @@ df['contents'] = df['contents'].str.extract('.*?((?:from|import).*?)(?:[\s#-]*ch
                                             flags=re.DOTALL)
 
 
+# files where year/week couldn't be parsed
 if len(df_missing := df[df['contents'].isna()][['year', 'week']]) > 0:
     print(f'The following year/weeks did not parse properly:\n{df_missing}')
 
 
 # --------------------------------------------------------------------------------------------------
-# compare regex
+# compare files against regex
 # --------------------------------------------------------------------------------------------------
 
 # cross join weekly py file contents with the regex lookup
 df_all = df.merge(df_regex, how='cross')
-
 
 
 # if the code string matches the regex, return a code snippet; otherwise nan
@@ -99,7 +101,7 @@ if len(df_missing := df_regex.loc[(~df_regex['Function/Method/Concept']
 # compare regex matches to manual matches
 # --------------------------------------------------------------------------------------------------
 
-# parse actual weeks
+# parse actual weeks from the existing github readme
 df_weeks = ( df_regex.assign(week=lambda df_x: df_x['Weeks Used'].str.split('\:?\s+W?0?'))
                  .explode('week')
                  .reset_index()
