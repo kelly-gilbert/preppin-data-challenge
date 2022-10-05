@@ -3,6 +3,7 @@
 # Preppin' Data 2022 Week 40 - Times Tables
 
 [Challenge description](https://preppindata.blogspot.com/2022/10/2022-week-40-times-tables.html)
+
 What I learned/practiced this week:
 * Product (itertools)
 * Reshaping (pivot_table)
