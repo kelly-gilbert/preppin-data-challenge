@@ -56,6 +56,7 @@
 |37|Elden Ring Adventure|[📋](https://preppindata.blogspot.com/2022/09/2022-week-37-elden-ring-adventure.html)|[✅](2022/preppin-data-2022-37/README.md)||
 |38|Salesforce Standard Connections for Dreamforce22|[📋](https://preppindata.blogspot.com/2022/09/2022-week-38-salesforce-standard.html)|[✅](2022/preppin-data-2022-38/README.md)||
 |39|Filling in for HR|[📋](https://preppindata.blogspot.com/2022/09/2022-week-39-filling-in-for-hr.html)|[✅](2022/preppin-data-2022-39/README.md)||
+|40|Times Tables|[📋](https://preppindata.blogspot.com/2022/10/2022-week-40-times-tables.html)|[✅](2022/preppin-data-2022-40/README.md)||
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
