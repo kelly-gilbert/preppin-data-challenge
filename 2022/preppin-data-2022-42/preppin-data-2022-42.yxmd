@@ -1,0 +1,1073 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="55" width="528" height="215" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Preppin' Data 2022: Week 42 - Missing Training Data
+https://preppindata.blogspot.com/2022/10/2022-week-42-missing-training-data.html
+
+- Input the data
+- For each player and each session, we want to know what the date is of the next session
+  - E.g. for Player 1 who had an Agility session on 4th Jan, their next Agility session 
+    was 6th Jan - so we have missing data on 5th Jan
+- For the most recent training session in the dataset, assign the next session as the maximum date 
+  in the dataset
+- Scaffold the data so we have a row for each player and each session
+  - Careful of duplicates!
+- Create a flag to indicate whether the score comes from an actual session, or is carried over 
+  from the previous session
+- Exclude all weekends (Saturdays &amp; Sundays) from the dataset
+  - Players need time off too!
+- Output the data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="516">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\inputs\Player Training.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Player Training.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Group" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+            <Field name="Player" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+            <Field name="Session" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="521">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Date to date type</AnnotationText>
+          <DefaultAnnotationText>Date to date type</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="522">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="845" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="iif([Date] = [Session Date], &#xA;    'Actual', &#xA;    'Carried over')" field="Flag" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Add flag</AnnotationText>
+          <DefaultAnnotationText><![CDATA[Flag = iif([Date] = [Session Date], 
+    'Actual', 
+    'Carried over')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="523">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="1174" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>DateTime</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Session Date" />
+            <Field name="Date" selected="False" />
+            <Field name="Max_Date" selected="False" />
+            <Field name="Next Date" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>DateTimeFormat(
+  [_CurrentField_],
+  '%d/%m/%Y'
+)</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_WString" size="10" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Convert Session Date to d/m/Y</AnnotationText>
+          <DefaultAnnotationText>DateTimeFormat(
+  [_CurrentField_],
+  '%d/%m/%Y'
+)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="524">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1055" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>DateTimeFormat( 
+  [Session Date],
+  '%u'
+) &lt;= '5'</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Keep weekdays</AnnotationText>
+          <DefaultAnnotationText>DateTimeFormat( 
+  [Session Date],
+  '%u'
+) &lt;= '5'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="532">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="474" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="533">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="605" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Player</UpdateField_Name>
+          <CreateField_Name>Next Date</CreateField_Name>
+          <CreateField_Type>Date</CreateField_Type>
+          <CreateField_Size>10</CreateField_Size>
+          <OtherRows>NULL</OtherRows>
+          <NumRows value="1" />
+          <Expression>if isnull([Row+1:Date])
+then DateTimeAdd([Max_Date], 1, 'day')
+else [Row+1:Date]
+endif</Expression>
+          <GroupByFields>
+            <Field field="Player" />
+            <Field field="Session" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Get the next date for each player/session</AnnotationText>
+          <DefaultAnnotationText>if isnull([Row+1:Date])
+then DateTimeAdd([Max_Date], 1, 'day'...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="534">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="737" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>Session Date</CreateField_Name>
+          <CreateField_Type>Date</CreateField_Type>
+          <CreateField_Size>10</CreateField_Size>
+          <Expression_Init>[Date]</Expression_Init>
+          <Expression_Cond>[Session Date] &lt; [Next Date]</Expression_Cond>
+          <Expression_Loop>DateTimeAdd([Session Date], 1, 'day')</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Fill in missing dates</AnnotationText>
+          <DefaultAnnotationText>Fill in missing dates</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="535">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="280" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Date" action="Max" rename="Max_Date" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Overall max date</AnnotationText>
+          <DefaultAnnotationText>Overall max date</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="536">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="378" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="537">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="941" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Player" selected="True" />
+            <SelectField field="Session" selected="True" />
+            <SelectField field="Session Date" selected="True" />
+            <SelectField field="Date" selected="False" />
+            <SelectField field="Score" selected="True" />
+            <SelectField field="Max_Date" selected="False" />
+            <SelectField field="Next Date" selected="False" />
+            <SelectField field="Flag" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Clean up fields</AnnotationText>
+          <DefaultAnnotationText>Clean up fields</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="538">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1302" y="389" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">.\outputs\output-2022-42.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>output-2022-42.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="515">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="306" width="191" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Version 1 - SLOWER</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="497">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="77" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\inputs\Player Training.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Player Training.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Group" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+                <Field name="Player" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+                <Field name="Session" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+                <Field name="Score" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\inputs\Player Training.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="502">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="894" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Player" />
+                <Field field="Session" />
+                <Field field="Session Date" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Player" />
+                <Field field="Session" />
+                <Field field="Date" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Player" selected="False" rename="Right_Player" input="Right_" />
+                    <SelectField field="Right_Session" selected="False" rename="Right_Session" input="Right_" />
+                    <SelectField field="Right_Date" selected="False" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Join actual data to date scaffold</AnnotationText>
+              <DefaultAnnotationText>Join actual data to date scaffold</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="506">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="990" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="507">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1086" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Session Date" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Session Date - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="509">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="1290" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="True" />
+              <UpdateField_Name>Score</UpdateField_Name>
+              <CreateField_Name>New Field</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>if isnull([Score])
+then [Row-1:Score]
+else [Score]
+endif</Expression>
+              <GroupByFields>
+                <Field field="Player" />
+                <Field field="Session" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Copy down the score</AnnotationText>
+              <DefaultAnnotationText>if isnull([Score])
+then [Row-1:Score]
+else [Score]
+endif</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="510">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="174" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Date" selected="True" type="Date" size="10" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Date to date type</AnnotationText>
+              <DefaultAnnotationText>Date to date type</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="511">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1194" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="iif(isnull([Score]), 'Carried over', 'Actual')" field="Flag" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Add flag</AnnotationText>
+              <DefaultAnnotationText><![CDATA[Flag = iif(isnull([Score]), 'Carried over', 'Actual')
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="513">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1518" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>DateTime</FieldType>
+              <Fields orderChanged="False">
+                <Field name="Session Date" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression>DateTimeFormat(
+  [_CurrentField_],
+  '%d/%m/%Y'
+)</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_WString" size="10" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Convert Session Date to d/m/Y</AnnotationText>
+              <DefaultAnnotationText>DateTimeFormat(
+  [_CurrentField_],
+  '%d/%m/%Y'
+)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="514">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1398" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>DateTimeFormat( 
+  [Session Date],
+  '%u'
+) &lt;= '5'</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Keep weekdays</AnnotationText>
+              <DefaultAnnotationText>DateTimeFormat( 
+  [Session Date],
+  '%u'
+) &lt;= '5'</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="505">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="306" y="354" width="318" height="50" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Create a list of days for each player/session</Caption>
+              <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="499">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="426" y="462" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Max_Date" action="Max" rename="Overall_Max_Date" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Overall max date</AnnotationText>
+                  <DefaultAnnotationText>Overall max date</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="500">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="330" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Player" action="GroupBy" rename="Player" />
+                    <SummarizeField field="Session" action="GroupBy" rename="Session" />
+                    <SummarizeField field="Date" action="Min" rename="Min_Date" />
+                    <SummarizeField field="Date" action="Max" rename="Max_Date" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Min/max date by player and session</AnnotationText>
+                  <DefaultAnnotationText>Min/max date by player and session</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="501">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+                <Position x="522" y="414" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <CartesianMode>Error</CartesianMode>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Output">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+            </Node>
+            <Node ToolID="503">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+                <Position x="618" y="414" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name />
+                  <CreateField_Name>Session Date</CreateField_Name>
+                  <CreateField_Type>Date</CreateField_Type>
+                  <CreateField_Size>10</CreateField_Size>
+                  <Expression_Init>[Min_Date]</Expression_Init>
+                  <Expression_Cond>[Session Date] &lt;= [Overall_Max_Date]</Expression_Cond>
+                  <Expression_Loop>DateTimeAdd([Session Date], 1, 'day')</Expression_Loop>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Create rows for each date between min and overall max</AnnotationText>
+                  <DefaultAnnotationText>Create rows for each date between min and overall max</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+            </Node>
+            <Node ToolID="508">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="726" y="414" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Min_Date" selected="False" />
+                    <SelectField field="Max_Date" selected="False" />
+                    <SelectField field="Overall_Max_Date" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Clean up fields</AnnotationText>
+                  <DefaultAnnotationText>Clean up fields</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="367">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="617" y="53" width="153" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Check results</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="495">
+          <GuiSettings>
+            <Position x="738" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="List Box (65)">&lt;Field field="Player_solution" /&gt;&lt;Field field="Session_solution" /&gt;&lt;Field field="Session Date_solution" /&gt;</Value>
+              <Value name="dec_precision">8</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Macro - Challenge Results Check.yxmc" />
+        </Node>
+        <Node ToolID="496">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
+            <Position x="834" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Tests>
+                <Test>
+                  <Name>Duplicate keys</Name>
+                  <Connection>#1</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>In solution, not in mine</Name>
+                  <Connection>#2</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>In mine, not in solution</Name>
+                  <Connection>#3</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+                <Test>
+                  <Name>Values don't match</Name>
+                  <Connection>#4</Connection>
+                  <Type>RecCountValue</Type>
+                  <Value>0</Value>
+                </Test>
+              </Tests>
+              <DontReportSubsequent value="True" />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Duplicate keys
+In solution, not in mine
+In mine, not in solution
+Values don't match</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTest" />
+        </Node>
+        <Node ToolID="512">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="642" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">.\outputs\2022W42.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>2022W42.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Flag" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\outputs\2022W42.csv" type="V_WString" />
+                <Field name="Player" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\outputs\2022W42.csv" type="V_WString" />
+                <Field name="Session" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\outputs\2022W42.csv" type="V_WString" />
+                <Field name="Score" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\outputs\2022W42.csv" type="V_WString" />
+                <Field name="Session Date" size="254" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-42\outputs\2022W42.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="516" Connection="Output" />
+      <Destination ToolID="521" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="521" Connection="Output" />
+      <Destination ToolID="535" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="521" Connection="Output" />
+      <Destination ToolID="536" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="535" Connection="Output" />
+      <Destination ToolID="536" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="522" Connection="Output" />
+      <Destination ToolID="537" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="523" Connection="Output" />
+      <Destination ToolID="495" Connection="Test Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="512" Connection="Output" />
+      <Destination ToolID="495" Connection="Solution Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="523" Connection="Output" />
+      <Destination ToolID="538" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="524" Connection="True" />
+      <Destination ToolID="523" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="532" Connection="Output" />
+      <Destination ToolID="533" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="533" Connection="Output" />
+      <Destination ToolID="534" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="534" Connection="Output" />
+      <Destination ToolID="522" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="536" Connection="Output" />
+      <Destination ToolID="532" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="537" Connection="Output" />
+      <Destination ToolID="524" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="497" Connection="Output" />
+      <Destination ToolID="510" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="502" Connection="Join" />
+      <Destination ToolID="506" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="502" Connection="Left" />
+      <Destination ToolID="506" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="506" Connection="Output" />
+      <Destination ToolID="507" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="507" Connection="Output" />
+      <Destination ToolID="511" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="509" Connection="Output" />
+      <Destination ToolID="514" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="510" Connection="Output" />
+      <Destination ToolID="502" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="508" Connection="Output" />
+      <Destination ToolID="502" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="510" Connection="Output" />
+      <Destination ToolID="500" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="511" Connection="Output" />
+      <Destination ToolID="509" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="514" Connection="True" />
+      <Destination ToolID="513" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="499" Connection="Output" />
+      <Destination ToolID="501" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="500" Connection="Output" />
+      <Destination ToolID="501" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="500" Connection="Output" />
+      <Destination ToolID="499" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="501" Connection="Output" />
+      <Destination ToolID="503" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="503" Connection="Output" />
+      <Destination ToolID="508" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="495" Connection="Duplicate output" />
+      <Destination ToolID="496" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="495" Connection="Records in solution, not in mine" />
+      <Destination ToolID="496" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="495" Connection="Records in mine, not in solution" />
+      <Destination ToolID="496" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="495" Connection="Field values don't match" />
+      <Destination ToolID="496" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="True" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>start_date</Name>
+        <Value>2021-04-01</Value>
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>end_date</Name>
+        <Value>2021-05-31</Value>
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>preppin-data-2022-42</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
