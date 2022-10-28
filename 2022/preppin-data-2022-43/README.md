@@ -16,6 +16,11 @@ What I learned/practiced this week:
 <a href="preppin-data-2022-43.py">
 <img src="img-python-code-2022-43.png?raw=true" alt="Python code">
 </a>
+<br>
+<br>
+### Python diff vs. week 42
+<img src="img-python-code-2022-43-diff-vs-wk-42.png?raw=true" alt="Python code">
+<br>
 
 ## Alteryx
 <i>click the image to download the workflow</i><br>
