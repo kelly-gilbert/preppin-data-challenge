@@ -61,6 +61,7 @@
 |42|Missing Training Data|[📋](https://preppindata.blogspot.com/2022/10/2022-week-42-missing-training-data.html)|[✅](2022/preppin-data-2022-42/README.md)||
 |43|Missing Training Data 2.0|[📋](https://preppindata.blogspot.com/2022/10/2022-week-43-missing-training-data-20.html)|[✅](2022/preppin-data-2022-43/README.md)||
 |44|Creating Order IDs|[📋](https://preppindata.blogspot.com/2022/11/2022-week-44-creating-order-ids.html)|[✅](2022/preppin-data-2022-44/README.md)||
+|45|Strange Table Structure|[📋](https://preppindata.blogspot.com/2022/11/2022-week-45-strange-table-structure.html)|[✅](2022/preppin-data-2022-45/README.md)||
 <br>
 
 ### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
