@@ -1,0 +1,226 @@
+candidate_id,position_id,current_status
+1,18,Application Reviewed
+2,3,On-Site Interview Terminated
+2,13,Candidate Withdrew
+3,9,Offer Accepted
+4,9,Application Terminated
+5,2,Application Terminated
+6,11,Application Terminated
+7,15,Application Terminated
+8,14,Candidate Withdrew
+9,14,Phone Interview Terminated
+9,16,Offer Accepted
+10,17,Phone Interview Terminated
+11,15,Phone Interview Terminated
+12,15,On-Site Interview Terminated
+13,9,Phone Interview Terminated
+13,19,Application Terminated
+14,18,Offer Accepted
+15,8,On-Site Interview Terminated
+16,15,Application Terminated
+17,20,Phone Interview Terminated
+18,20,On-Site Interview Terminated
+19,19,Application Terminated
+20,11,Application Terminated
+21,19,On-Site Interview Terminated
+22,11,On-Site Interview Terminated
+23,14,Phone Interview Terminated
+24,1,Phone Interview Terminated
+25,15,On-Site Interview Terminated
+26,9,Phone Interview Completed
+27,5,Offer Accepted
+28,7,Phone Interview Terminated
+29,1,Offer Accepted
+30,14,Phone Interview Terminated
+31,9,Phone Interview Terminated
+32,4,Application Terminated
+33,13,Application Terminated
+34,16,Application Terminated
+35,2,On-Site Interview Terminated
+36,1,Phone Interview Terminated
+37,15,Candidate Withdrew
+38,12,Application Terminated
+39,1,Application Terminated
+40,8,Application Terminated
+41,17,Application Terminated
+42,12,Application Terminated
+43,5,On-Site Interview Terminated
+44,15,On-Site Interview Terminated
+45,1,Phone Interview Terminated
+45,16,Application Terminated
+46,14,Application Terminated
+47,20,Application Terminated
+48,12,On-Site Interview Terminated
+49,4,Phone Interview Terminated
+50,16,Phone Interview Terminated
+51,4,On-Site Interview Terminated
+52,6,On-Site Interview Terminated
+53,8,Candidate Withdrew
+54,1,On-Site Interview Terminated
+55,20,Application Terminated
+56,18,Phone Interview Terminated
+57,19,Phone Interview Terminated
+58,7,Application Terminated
+59,2,Application Terminated
+59,19,Phone Interview Terminated
+60,12,On-Site Interview Terminated
+61,8,Candidate Withdrew
+62,17,Offer Accepted
+63,7,Phone Interview Completed
+64,12,Candidate Withdrew
+65,19,Application Terminated
+66,13,Application Terminated
+67,11,Application Terminated
+68,20,Application Terminated
+69,13,Application Terminated
+70,8,Candidate Withdrew
+71,19,Phone Interview Terminated
+72,13,Application Terminated
+73,11,Candidate Withdrew
+74,1,Phone Interview Terminated
+75,1,Phone Interview Terminated
+76,8,On-Site Interview Terminated
+77,10,Offer Accepted
+78,9,Application Reviewed
+79,1,On-Site Interview Terminated
+80,18,Phone Interview Terminated
+81,19,Offer Accepted
+82,11,Application Terminated
+83,13,On-Site Interview Terminated
+84,3,Phone Interview Terminated
+85,18,Application Terminated
+86,1,Phone Interview Terminated
+87,16,Phone Interview Terminated
+88,17,Candidate Withdrew
+89,16,On-Site Interview Terminated
+90,1,Phone Interview Terminated
+90,2,On-Site Interview Terminated
+90,5,Application Terminated
+91,11,Offer Extended
+92,12,On-Site Interview Terminated
+93,3,On-Site Interview Terminated
+94,11,Phone Interview Terminated
+94,15,On-Site Interview Terminated
+94,20,Candidate Withdrew
+95,19,Phone Interview Terminated
+96,10,Phone Interview Completed
+97,16,Phone Interview Terminated
+98,13,Application Terminated
+99,7,Application Terminated
+100,3,Application Terminated
+101,14,Application Terminated
+102,17,Application Terminated
+103,19,On-Site Interview Terminated
+104,3,Candidate Withdrew
+105,9,Application Terminated
+106,15,Candidate Withdrew
+107,8,Phone Interview Terminated
+108,5,Phone Interview Terminated
+109,17,Phone Interview Terminated
+110,4,Phone Interview Completed
+111,6,Offer Accepted
+112,15,Application Terminated
+113,20,Offer Accepted
+114,9,Application Terminated
+115,3,Phone Interview Terminated
+116,11,Application Terminated
+117,11,Application Terminated
+118,20,Candidate Withdrew
+119,2,Offer Accepted
+119,6,On-Site Interview Terminated
+119,7,Application Terminated
+120,4,Phone Interview Terminated
+121,6,Application Terminated
+122,13,Application Terminated
+123,15,Offer Accepted
+124,20,Phone Interview Terminated
+125,3,On-Site Interview Terminated
+126,4,Application Terminated
+127,8,On-Site Interview Terminated
+128,2,On-Site Interview Terminated
+128,12,Phone Interview Terminated
+129,16,Application Terminated
+130,4,Phone Interview Terminated
+131,6,Phone Interview Terminated
+131,20,Candidate Withdrew
+132,10,Application Terminated
+133,11,Application Terminated
+133,14,Offer Accepted
+133,18,On-Site Interview Completed
+134,3,Application Terminated
+135,11,Phone Interview Terminated
+136,20,Application Terminated
+137,10,On-Site Interview Terminated
+138,1,On-Site Interview Terminated
+139,5,Offer Rejected
+140,2,Candidate Withdrew
+141,13,Candidate Withdrew
+142,17,Application Terminated
+143,7,Phone Interview Completed
+144,7,Offer Accepted
+145,20,Phone Interview Terminated
+146,4,Offer Accepted
+146,13,Application Terminated
+147,7,Phone Interview Terminated
+148,12,Phone Interview Terminated
+149,11,Application Terminated
+150,9,Application Terminated
+151,3,Application Terminated
+152,6,On-Site Interview Terminated
+153,2,On-Site Interview Terminated
+154,8,Application Terminated
+155,8,Phone Interview Terminated
+156,15,Application Terminated
+157,15,Application Terminated
+158,11,Candidate Withdrew
+159,13,Phone Interview Terminated
+160,18,Application Terminated
+161,6,Application Reviewed
+162,2,Application Terminated
+162,15,Application Terminated
+163,4,Application Terminated
+164,5,Application Terminated
+165,5,Application Terminated
+166,17,Phone Interview Terminated
+167,12,On-Site Interview Terminated
+168,5,Phone Interview Terminated
+169,3,On-Site Interview Terminated
+170,3,Offer Accepted
+171,11,Application Terminated
+172,15,Application Terminated
+172,19,Phone Interview Terminated
+173,2,Application Terminated
+173,5,Phone Interview Terminated
+173,15,Phone Interview Terminated
+174,7,Application Terminated
+174,17,Application Terminated
+175,18,On-Site Interview Terminated
+176,20,On-Site Interview Terminated
+177,2,On-Site Interview Terminated
+178,12,Offer Accepted
+179,5,Application Terminated
+180,7,Candidate Withdrew
+181,8,Candidate Withdrew
+182,7,Phone Interview Terminated
+183,8,Offer Accepted
+184,5,Application Terminated
+185,1,Phone Interview Terminated
+185,15,Application Terminated
+186,7,Application Terminated
+186,17,Phone Interview Terminated
+187,19,Phone Interview Terminated
+188,6,Application Terminated
+189,15,Phone Interview Terminated
+190,9,Candidate Withdrew
+191,14,Application Terminated
+192,15,Phone Interview Terminated
+193,2,Application Terminated
+194,9,Application Terminated
+195,2,Phone Interview Terminated
+195,13,Offer Accepted
+195,14,Candidate Withdrew
+196,20,Phone Interview Terminated
+197,12,Candidate Withdrew
+198,6,On-Site Interview Terminated
+199,3,On-Site Interview Terminated
+200,20,Phone Interview Terminated
