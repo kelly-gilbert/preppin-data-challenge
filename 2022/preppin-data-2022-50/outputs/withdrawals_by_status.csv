@@ -1,0 +1,17 @@
+status_before_withdrawal,withdrawals,total_in_status,pct_withdrawn
+Application Completed,6,225,2.7
+Application Reviewed,3,219,1.4
+Application Terminated,0,80,0.0
+Candidate Withdrew,0,22,0.0
+Offer Accepted,0,20,0.0
+Offer Extended,0,21,0.0
+Offer Rejected,0,1,0.0
+On-Site Interview Completed,0,61,0.0
+On-Site Interview Requested,0,68,0.0
+On-Site Interview Scheduled,7,68,10.3
+On-Site Interview Terminated,0,40,0.0
+Phone Interview Completed,1,131,0.8
+Phone Interview Requested,4,138,2.9
+Phone Interview Scheduled,1,132,0.8
+Phone Interview Terminated,0,62,0.0
+Profile Created,0,225,0.0
