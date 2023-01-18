@@ -67,7 +67,7 @@
 |48||[]()|[](2022/preppin-data-2022-48/README.md)||
 |49|Cleaning Status History (HR month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-49-cleaning-status-history-hr.html)|[✅](2022/preppin-data-2022-49/README.md)||
 |50|Withdrawals (HR month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-50-withdrawals-hr-month.html)|[✅](2022/preppin-data-2022-50/README.md)||
-|51||[]()|[](2022/preppin-data-2022-51/README.md)||
+|51|Parsing an Unfortunate Report Format (HR Month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-51-parsing-unfortunate-report.html)|[✅](2022/preppin-data-2022-51/README.md)||
 |52||[]()|[](2022/preppin-data-2022-52/README.md)||
 
 
