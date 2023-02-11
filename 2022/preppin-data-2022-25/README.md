@@ -1,8 +1,8 @@
 <h6><a href="..\preppin-data-2022-24\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2022-26\README.md">Next Week  ▶</a></h6>
 
-# Preppin' Data 2022 Week 25
+# Preppin' Data 2022 Week 25 - Housing Happy Hotel Guests
 
-[Challenge description](https://preppindata.blogspot.com/)
+[Challenge description](https://preppindata.blogspot.com/2022/06/2022-week-25-housing-happy-hotel-guests.html)
 
 What I learned/practiced this week:
 * Practiced: comparing lists
