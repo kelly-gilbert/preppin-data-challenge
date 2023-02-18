@@ -15,8 +15,8 @@
 ## Challenges
 
 ### <a id="2022"></a>2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
-|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My<br>Solutions|Video<br>Walk-<br>throughs|My<br>Difficulty<br>Rating|
-|-:|:---------------------------------------------|:-:|:-:|:-:|:-|
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
+|-:|:-----------------------------------------|:-:|:-:|:-:|:-|
 |1|The Prep School - Parental Contact Details|[📋](https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html)|[✅](2022/preppin-data-2022-01/README.md)|| 2&nbsp;&nbsp;❄|
 |2|The Prep School - Birthday Cakes|[📋](https://preppindata.blogspot.com/2022/01/2022-week-2-prep-school-birthday-cakes.html)|[✅](2022/preppin-data-2022-02/README.md)|| 2&nbsp;&nbsp;❄|
 |3|The Prep School - Passing Grades|[📋](https://preppindata.blogspot.com/2022/01/2022-week-3-prep-school-passing-grades.html)|[✅](2022/preppin-data-2022-03/README.md)|| 2&nbsp;&nbsp;❄|
@@ -73,7 +73,7 @@
 <details>
   <summary><h2><a id="2021"></a>📅&nbsp;2021</h2></summary>
 
-|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My<br>Solutions|My<br>Difficulty<br>Rating|
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|My<br>Difficulty<br>Rating|
 |-:|:--------------------------------------------|:-:|:-:|:-|
 |1|New Year, New Challenge|[📋](https://preppindata.blogspot.com/2021/01/2021-week-1.html)|[✅](2021/preppin-data-2021-01/README.md)| 2&nbsp;&nbsp;❄|
 |2|Bike Store Sales|[📋](https://preppindata.blogspot.com/2021/01/2021-week-2.html)|[✅](2021/preppin-data-2021-02/README.md)| 3&nbsp;&nbsp;❄|
@@ -131,7 +131,7 @@
 <details>
   <summary><h2><a id="2020"></a>📅&nbsp;2020</h2></summary>
 
-|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My<br>Solutions|My<br>Difficulty<br>Rating|
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|My<br>Difficulty<br>Rating|
 |-:|:---------------------------------------------|:-:|:-:|:-|
 |1|Accounting Formatting|[📋](https://preppindata.blogspot.com/2020/01/2020-week-1.html)|[✅](2020/preppin-data-2020-01/README.md)| 3&nbsp;&nbsp;❄|
 |2|Cleaning Time|[📋](https://preppindata.blogspot.com/2020/01/2020-week-2.html)|[✅](2020/preppin-data-2020-02/README.md)| 2&nbsp;&nbsp;❄|
@@ -190,7 +190,7 @@
 <details>
   <summary><h2><a id="2019"></a>📅&nbsp;2019</h2></summary>
 
-|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My<br>Solutions|My<br>Difficulty<br>Rating|
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|My<br>Difficulty<br>Rating|
 |-:|:---------------------------------------------|:-:|:-:|:-|
 |1|What colour cars are selling?|[📋](https://preppindata.blogspot.com/2019/02/2019-week-1.html)|||
 |2|Windy, wet or both?|[📋](https://preppindata.blogspot.com/2019/02/2019-week-2.html)|||
