@@ -70,10 +70,11 @@
 |51|Parsing an Unfortunate Report Format (HR Month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-51-parsing-unfortunate-report.html)|[✅](2022/preppin-data-2022-51/README.md)||
 |52|Find Sub-Departments from an employee hierarchy (HR Month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-52-find-sub-departments-fr)|[✅](2022/preppin-data-2022-52/README.md)||
 
+<details>
+  <summary><h2><a id="2021"></a>📅&nbsp;2021</h2></summary>
 
-<br>
+<h6><i>back to top&nbsp;&nbsp;</i><span title="Return to table of contents"><a href="#contents">⬆️</a></span></h6>
 
-### <a id="2021"></a>2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My Solutions|
 |-:|:--------------------------------------------------|:-:|:-:|
 |1|New Year, New Challenge|[📋](https://preppindata.blogspot.com/2021/01/2021-week-1.html)|[✅](2021/preppin-data-2021-01/README.md)|
@@ -128,9 +129,13 @@
 |50|Departmental December - Sales|[📋](https://preppindata.blogspot.com/2021/12/2021-week-50-departmental-december-sales.html)|[✅](2021/preppin-data-2021-50/README.md)|
 |51|Departmental December - IT|[📋](https://preppindata.blogspot.com/2021/12/2021-week-51-departmental-december-it.html)|[✅](2021/preppin-data-2021-51/README.md)|
 |52|Departmental December - Operations|[📋](https://preppindata.blogspot.com/2021/12/2021-week-52-departmental-december.html)|[✅](2021/preppin-data-2021-52/README.md)|
-<br>
+</details>
 
-### <a id="2020"></a>2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+<details>
+  <summary><h2><a id="2020"></a>📅&nbsp;2020</h2></summary>
+  
+<h6><i>back to top</i></h6>&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My Solutions|
 |-:|:--------------------------------------------------|:-:|:-:|
 |1|Accounting Formatting|[📋](https://preppindata.blogspot.com/2020/01/2020-week-1.html)|[✅](2020/preppin-data-2020-01/README.md)|
@@ -186,9 +191,13 @@
 |51|NBA Travel Times|[📋](https://preppindata.blogspot.com/2020/12/2020-week-51.html)||
 |52|US Women's Championship Golf|[📋](https://preppindata.blogspot.com/2020/12/2020-week-52.html)||
 |53|Changing Star Signs|[📋](https://preppindata.blogspot.com/2020/12/2020-week-53.html)||
-<br>
+</details>
 
-### <a id="2019"></a>2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+<details>
+  <summary><h2><a id="2019"></a>📅&nbsp;2019</h2></summary>
+  
+<h6><i>back to top</i>&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span></h6>
+
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Challenge<br>Description|My Solutions|
 |-:|:--------------------------------------------------|:-:|:-:|
 |1|What colour cars are selling?|[📋](https://preppindata.blogspot.com/2019/02/2019-week-1.html)||
@@ -237,9 +246,9 @@
 |44|C&BS Co: End of Year Team Member Performance|[📋](https://preppindata.blogspot.com/2019/12/2019-week-44.html)||
 |45|C&BS Co: Duplication and So, So Many Files|[📋](https://preppindata.blogspot.com/2019/12/2019-week-45.html)||
 |46|Naughty & Nice List|[📋](https://preppindata.blogspot.com/2019/12/2019-week-46.html)||
-<br>
-<br>
+</details>
 
+<br>
 
 
 
