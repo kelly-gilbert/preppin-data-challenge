@@ -1,0 +1,1105 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="636" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Workflow for week 2022-45, converted to a batch macro.
+
+- Input the data
+- Split off the Year from the first row of data
+- Pivot the remaining rows 
+- Remove the 'F' from all of the F1, F2 etc field names so we have row numbers
+- Reshape the data so each row has a Month associated with it
+- Reshape the data so the values fall under either Sales or Profit
+- Create a Date field using the Month and Year fields
+- Output the data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="497">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="96" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="True" FileFormat="25">.\inputs\Strange table structure updated.xlsx|||`London$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>True</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Strange table structure updated.xlsx
+Query=`London$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="F1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F2" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F3" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F4" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F5" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F6" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F7" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F8" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F9" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F10" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F11" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F12" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F13" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F14" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F15" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F16" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F17" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F18" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F19" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F20" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="F21" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="512">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="225" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="F1" />
+            <Field name="F2" />
+            <Field name="F3" />
+            <Field name="F4" />
+            <Field name="F5" />
+            <Field name="F6" />
+            <Field name="F7" />
+            <Field name="F8" />
+            <Field name="F9" />
+            <Field name="F10" />
+            <Field name="F11" />
+            <Field name="F12" />
+            <Field name="F13" />
+            <Field name="F14" />
+            <Field name="F15" />
+            <Field name="F16" />
+            <Field name="F17" />
+            <Field name="F18" />
+            <Field name="F19" />
+            <Field name="F20" />
+            <Field name="F21" />
+            <Field name="*Unknown" />
+            <Field name="RecordID" selected="False" />
+          </Fields>
+          <Expression>tonumber( 
+  replace([_CurrentField_], 'F', '') 
+)</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rename cols to numbers (remove F)</AnnotationText>
+          <DefaultAnnotationText>Rename cols to numbers (remove F)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="2" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="3" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="4" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="5" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="6" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="7" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="8" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="9" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="10" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="11" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="12" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="13" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="14" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="15" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="16" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="17" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="18" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="19" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="20" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="21" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="515">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1260" y="636" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_1" selected="True" rename="Store" input="Left_" />
+                <SelectField field="Left_Value" selected="True" input="Left_" type="Int32" size="4" />
+                <SelectField field="Right_Name" selected="False" rename="Right_Name" input="Right_" />
+                <SelectField field="Right_year" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join on col #</AnnotationText>
+          <DefaultAnnotationText>Join on col #</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="Name" size="2" source="Transpose:" type="String" />
+            <Field name="Value" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Name" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Store" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+            <Field name="Name" size="2" source="Transpose:" type="String" />
+            <Field name="Value" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="Int32" />
+            <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Date" size="255" source="Formula: if Length(Trim([Date])) = 0 then NULL()&#xA;else&#xA;  datetimeformat( &#xA;    datetimeparse( &#xA;      [Date] + ' ' + [year],&#xA;      '%B %Y'),&#xA;    '%d/%m/%Y'&#xA;  )&#xA;endif &#xA;  " type="V_String" />
+            <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Metric" size="255" source="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Name" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Name" size="2" source="CrossTab:Group:First:" type="String" />
+            <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Date" size="255" source="Formula: if Length(Trim([Date])) = 0 then NULL()&#xA;else&#xA;  datetimeformat( &#xA;    datetimeparse( &#xA;      [Date] + ' ' + [year],&#xA;      '%B %Y'),&#xA;    '%d/%m/%Y'&#xA;  )&#xA;endif &#xA;  " type="V_String" />
+            <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Metric" size="255" source="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Name" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="516">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1362" y="636" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Store" />
+            <Field field="Date" />
+          </GroupFields>
+          <HeaderField field="Metric" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Metric to cols</AnnotationText>
+          <DefaultAnnotationText>Metric to cols</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="255" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Date" size="255" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field name="Profit" source="CrossTab:Header:Metric:Profit:Sum:" type="Int64" />
+            <Field name="Sales" source="CrossTab:Header:Metric:Sales:Sum:" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Store" order="Asc" />
+            <Field field="Date" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="524">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="525">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1602" y="636" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output525</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="526">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="96" y="228" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>full_path</Name>
+          <DefaultAnnotationText>full_path</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="527">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="96" y="336" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="528">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1469" y="636" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="regex_replace( &#xA;  '%Question.ControlParam.full_path%',&#xA;  '.*\|\|\|(.*)',&#xA;  '$1'&#xA;)" field="Region" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Parse the sheet (region) name from the path</AnnotationText>
+          <DefaultAnnotationText>Region = regex_replace( 
+  '%Question.ControlParam.full_path%',
+  '.*\|\|\|(.*)'...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="255" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Date" size="255" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field name="Profit" source="CrossTab:Header:Metric:Profit:Sum:" type="Int64" />
+            <Field name="Sales" source="CrossTab:Header:Metric:Sales:Sum:" type="Int64" />
+            <Field name="Region" size="1073741823" source="Formula: regex_replace( &#xA;  '',&#xA;  '.*\|\|\|(.*)',&#xA;  '$1'&#xA;)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Store" order="Asc" />
+            <Field field="Date" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="506">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="412" y="581" width="762" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Get the month/metric for each column</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="499">
+          <GuiSettings>
+            <Position x="437" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">3-4</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>3-4</AnnotationText>
+              <DefaultAnnotationText>3-4</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="2" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="3" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="4" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="5" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="6" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="7" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="8" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="9" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="10" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="11" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="12" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="13" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="14" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="15" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="16" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="17" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="18" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="19" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="20" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="21" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="503">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="630" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="RecordID" />
+              </KeyFields>
+              <DataFields>
+                <Field field="RecordID" selected="False" />
+                <Field field="1" selected="True" />
+                <Field field="2" selected="True" />
+                <Field field="3" selected="True" />
+                <Field field="4" selected="True" />
+                <Field field="5" selected="True" />
+                <Field field="6" selected="True" />
+                <Field field="7" selected="True" />
+                <Field field="8" selected="True" />
+                <Field field="9" selected="True" />
+                <Field field="10" selected="True" />
+                <Field field="11" selected="True" />
+                <Field field="12" selected="True" />
+                <Field field="13" selected="True" />
+                <Field field="14" selected="True" />
+                <Field field="15" selected="True" />
+                <Field field="16" selected="True" />
+                <Field field="17" selected="True" />
+                <Field field="18" selected="True" />
+                <Field field="19" selected="True" />
+                <Field field="20" selected="True" />
+                <Field field="21" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Transpose cols into rows</AnnotationText>
+              <DefaultAnnotationText>Transpose cols into rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Name" size="2" source="Transpose:" type="String" />
+                <Field name="Value" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="504">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="534" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="2" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="3" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="4" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="5" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="6" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="7" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="8" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="9" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="10" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="11" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="12" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="13" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="14" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="15" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="16" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="17" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="18" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="19" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="20" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="21" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="513">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="738" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="True" />
+              <UpdateField_Name>Value</UpdateField_Name>
+              <CreateField_Name>New Field</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>if isnull([Value])
+then [Row-1:Value]
+else [Value]
+endif</Expression>
+              <GroupByFields>
+                <Field field="RecordID" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Copy down the month</AnnotationText>
+              <DefaultAnnotationText>if isnull([Value])
+then [Row-1:Value]
+else [Value]
+endif</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Name" size="2" source="Transpose:" type="String" />
+                <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Value" size="255" source="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="505">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="846" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Name" />
+              </GroupFields>
+              <HeaderField field="RecordID" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="First" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Month/metric to cols</AnnotationText>
+              <DefaultAnnotationText>Month/metric to cols</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="2" source="CrossTab:Group:First:" type="String" />
+                <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="1" size="255" source="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" type="V_String" />
+                <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="2" size="255" source="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Name" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="522">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="978" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_1" selected="True" rename="Date" input="Target_" />
+                    <SelectField field="Target_2" selected="True" rename="Metric" input="Target_" />
+                    <SelectField field="Source_1" selected="False" input="Source_" />
+                    <SelectField field="Source_2" selected="False" input="Source_" />
+                    <SelectField field="Source_3" selected="False" input="Source_" />
+                    <SelectField field="Source_4" selected="False" input="Source_" />
+                    <SelectField field="Source_5" selected="False" input="Source_" />
+                    <SelectField field="Source_6" selected="False" input="Source_" />
+                    <SelectField field="Source_7" selected="False" input="Source_" />
+                    <SelectField field="Source_8" selected="False" input="Source_" />
+                    <SelectField field="Source_9" selected="False" input="Source_" />
+                    <SelectField field="Source_10" selected="False" input="Source_" />
+                    <SelectField field="Source_11" selected="False" input="Source_" />
+                    <SelectField field="Source_12" selected="False" input="Source_" />
+                    <SelectField field="Source_13" selected="False" input="Source_" />
+                    <SelectField field="Source_14" selected="False" input="Source_" />
+                    <SelectField field="Source_15" selected="False" input="Source_" />
+                    <SelectField field="Source_16" selected="False" input="Source_" />
+                    <SelectField field="Source_17" selected="False" input="Source_" />
+                    <SelectField field="Source_18" selected="False" input="Source_" />
+                    <SelectField field="Source_19" selected="False" input="Source_" />
+                    <SelectField field="Source_20" selected="False" input="Source_" />
+                    <SelectField field="Source_21" selected="False" input="Source_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Append year</AnnotationText>
+              <DefaultAnnotationText>Append year</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="2" source="CrossTab:Group:First:" type="String" />
+                <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Date" size="255" source="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" type="V_String" />
+                <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Metric" size="255" source="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" type="V_String" />
+                <Field name="year" size="1073741823" source="Formula: RIGHT([1], 4)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="521">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1074" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="if Length(Trim([Date])) = 0 then NULL()&#xA;else&#xA;  datetimeformat( &#xA;    datetimeparse( &#xA;      [Date] + ' ' + [year],&#xA;      '%B %Y'),&#xA;    '%d/%m/%Y'&#xA;  )&#xA;endif &#xA;  " field="Date" size="255" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Convert month/yr to d/m/Y</AnnotationText>
+              <DefaultAnnotationText>Date = if Length(Trim([Date])) = 0 then NULL()
+else
+  datetimeformat( 
+    datet...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="2" source="CrossTab:Group:First:" type="String" />
+                <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Date" size="255" source="Formula: if Length(Trim([Date])) = 0 then NULL()&#xA;else&#xA;  datetimeformat( &#xA;    datetimeparse( &#xA;      [Date] + ' ' + [year],&#xA;      '%B %Y'),&#xA;    '%d/%m/%Y'&#xA;  )&#xA;endif &#xA;  " type="V_String" />
+                <Field description="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" name="Metric" size="255" source="Formula: if isnull([Value])&#xA;then [Row-1:Value]&#xA;else [Value]&#xA;endif" type="V_String" />
+                <Field name="year" size="1073741823" source="Formula: RIGHT([1], 4)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="502">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="413" y="389" width="250" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Extract the year</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="498">
+          <GuiSettings>
+            <Position x="438" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>1</AnnotationText>
+              <DefaultAnnotationText>1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="2" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="3" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="4" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="5" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="6" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="7" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="8" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="9" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="10" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="11" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="12" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="13" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="14" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="15" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="16" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="17" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="18" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="19" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="20" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="21" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="501">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="534" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="RIGHT([1], 4)" field="year" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[year = RIGHT([1], 4)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="2" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="3" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="4" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="5" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="6" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="7" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="8" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="9" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="10" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="11" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="12" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="13" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="14" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="15" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="16" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="17" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="18" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="19" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="20" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="21" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="year" size="1073741823" source="Formula: RIGHT([1], 4)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="509">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="413" y="797" width="225" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Get the values</Caption>
+          <Style TextColor="#314c4a" FillColor="#f3f4f5" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="500">
+          <GuiSettings>
+            <Position x="438" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">5+</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>5+</AnnotationText>
+              <DefaultAnnotationText>5+</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="2" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="3" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="4" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="5" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="6" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="7" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="8" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="9" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="10" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="11" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="12" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="13" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="14" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="15" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="16" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="17" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="18" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="19" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="20" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="21" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="508">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="534" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="1" />
+              </KeyFields>
+              <DataFields>
+                <Field field="1" selected="False" />
+                <Field field="2" selected="True" />
+                <Field field="3" selected="True" />
+                <Field field="4" selected="True" />
+                <Field field="5" selected="True" />
+                <Field field="6" selected="True" />
+                <Field field="7" selected="True" />
+                <Field field="8" selected="True" />
+                <Field field="9" selected="True" />
+                <Field field="10" selected="True" />
+                <Field field="11" selected="True" />
+                <Field field="12" selected="True" />
+                <Field field="13" selected="True" />
+                <Field field="14" selected="True" />
+                <Field field="15" selected="True" />
+                <Field field="16" selected="True" />
+                <Field field="17" selected="True" />
+                <Field field="18" selected="True" />
+                <Field field="19" selected="True" />
+                <Field field="20" selected="True" />
+                <Field field="21" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Transpose columns into rows</AnnotationText>
+              <DefaultAnnotationText>Transpose values into rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="1" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+                <Field name="Name" size="2" source="Transpose:" type="String" />
+                <Field name="Value" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2022\preppin-data-2022-46\inputs\Strange table structure updated.xlsx|||`London$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="497" Connection="Output" />
+      <Destination ToolID="512" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="512" Connection="Output" />
+      <Destination ToolID="498" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="512" Connection="Output" />
+      <Destination ToolID="499" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="512" Connection="Output" />
+      <Destination ToolID="500" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="515" Connection="Join" />
+      <Destination ToolID="516" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="516" Connection="Output" />
+      <Destination ToolID="528" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="526" Connection="Question" />
+      <Destination ToolID="527" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="527" Connection="Action" />
+      <Destination ToolID="497" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="528" Connection="Output" />
+      <Destination ToolID="525" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="499" Connection="Output" />
+      <Destination ToolID="504" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="503" Connection="Output" />
+      <Destination ToolID="513" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="504" Connection="Output" />
+      <Destination ToolID="503" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="513" Connection="Output" />
+      <Destination ToolID="505" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="505" Connection="Output" />
+      <Destination ToolID="522" Connection="Targets" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="501" Connection="Output" />
+      <Destination ToolID="522" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="522" Connection="Output" />
+      <Destination ToolID="521" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="521" Connection="Output" />
+      <Destination ToolID="515" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="508" Connection="Output" />
+      <Destination ToolID="515" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="498" Connection="Output" />
+      <Destination ToolID="501" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="500" Connection="Output" />
+      <Destination ToolID="508" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.full_path</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>start_date</Name>
+        <Value>2021-04-01</Value>
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>end_date</Name>
+        <Value>2021-05-31</Value>
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>preppin-data-2022-46-macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="527" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>497/File</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (524)</Name>
+          <ToolId value="524" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (525)</Description>
+              <Name>Macro Output (525)</Name>
+              <ToolId value="525" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>full_path</Description>
+              <Name>full_path</Name>
+              <ToolId value="526" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>full_path</Name>
+            <Description>full_path</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="525" Selected="True" />
+        <Tool ToolId="499" Selected="True" />
+        <Tool ToolId="498" Selected="True" />
+        <Tool ToolId="500" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

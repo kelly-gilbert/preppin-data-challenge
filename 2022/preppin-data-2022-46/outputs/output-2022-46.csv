@@ -1,0 +1,101 @@
+Store,Profit,Sales,Region,Date
+Dulwich,-301,5386,London,01/04/2022
+Dulwich,-795,9042,London,01/08/2022
+Dulwich,299,4859,London,01/02/2022
+Dulwich,762,9822,London,01/01/2022
+Dulwich,574,7273,London,01/07/2022
+Dulwich,-330,4952,London,01/06/2022
+Dulwich,760,3230,London,01/03/2022
+Dulwich,-125,9073,London,01/05/2022
+Dulwich,539,6418,London,01/10/2022
+Dulwich,474,1257,London,01/09/2022
+Lewisham,-17,7443,London,01/04/2022
+Lewisham,775,7549,London,01/08/2022
+Lewisham,960,5393,London,01/02/2022
+Lewisham,-129,2909,London,01/01/2022
+Lewisham,-340,4814,London,01/07/2022
+Lewisham,877,6893,London,01/06/2022
+Lewisham,-446,6262,London,01/03/2022
+Lewisham,-658,6130,London,01/05/2022
+Lewisham,-172,2672,London,01/10/2022
+Lewisham,197,2888,London,01/09/2022
+Notting Hill,86,5151,London,01/04/2022
+Notting Hill,854,5904,London,01/08/2022
+Notting Hill,202,5203,London,01/02/2022
+Notting Hill,874,6100,London,01/01/2022
+Notting Hill,552,8945,London,01/07/2022
+Notting Hill,-918,1768,London,01/06/2022
+Notting Hill,563,1048,London,01/03/2022
+Notting Hill,630,1896,London,01/05/2022
+Notting Hill,656,9385,London,01/10/2022
+Notting Hill,-851,2621,London,01/09/2022
+Wimbledon,-87,5505,London,01/04/2022
+Wimbledon,284,8556,London,01/08/2022
+Wimbledon,27,8531,London,01/02/2022
+Wimbledon,444,2263,London,01/01/2022
+Wimbledon,-680,4519,London,01/07/2022
+Wimbledon,-394,4659,London,01/06/2022
+Wimbledon,492,4855,London,01/03/2022
+Wimbledon,-251,7592,London,01/05/2022
+Wimbledon,-706,9679,London,01/10/2022
+Wimbledon,924,8782,London,01/09/2022
+Manchester,-172,7752,Northern,01/04/2022
+Manchester,-3,5066,Northern,01/08/2022
+Manchester,-144,1606,Northern,01/02/2022
+Manchester,-107,4689,Northern,01/01/2022
+Manchester,14,9890,Northern,01/07/2022
+Manchester,-17,4504,Northern,01/06/2022
+Manchester,-75,2969,Northern,01/03/2022
+Manchester,20,7336,Northern,01/05/2022
+Manchester,-81,8385,Northern,01/10/2022
+Manchester,-110,2230,Northern,01/09/2022
+Nottingham,67,8638,Northern,01/04/2022
+Nottingham,-52,6840,Northern,01/08/2022
+Nottingham,136,4547,Northern,01/02/2022
+Nottingham,-196,1055,Northern,01/01/2022
+Nottingham,-173,5156,Northern,01/07/2022
+Nottingham,128,2357,Northern,01/06/2022
+Nottingham,-47,4433,Northern,01/03/2022
+Nottingham,-121,6548,Northern,01/05/2022
+Nottingham,-166,7815,Northern,01/10/2022
+Nottingham,-5,4737,Northern,01/09/2022
+York,17,6714,Northern,01/04/2022
+York,-172,2243,Northern,01/08/2022
+York,-169,3862,Northern,01/02/2022
+York,-166,2917,Northern,01/01/2022
+York,87,9816,Northern,01/07/2022
+York,-39,1397,Northern,01/06/2022
+York,-129,7664,Northern,01/03/2022
+York,-191,3841,Northern,01/05/2022
+York,56,7258,Northern,01/10/2022
+York,-40,4712,Northern,01/09/2022
+Edinburgh,-43,8011,Scotland,01/04/2022
+Edinburgh,-84,3119,Scotland,01/08/2022
+Edinburgh,-98,9535,Scotland,01/02/2022
+Edinburgh,92,9221,Scotland,01/01/2022
+Edinburgh,-51,6386,Scotland,01/07/2022
+Edinburgh,86,1445,Scotland,01/06/2022
+Edinburgh,-4,2379,Scotland,01/03/2022
+Edinburgh,138,8799,Scotland,01/05/2022
+Edinburgh,74,9578,Scotland,01/10/2022
+Edinburgh,32,2315,Scotland,01/09/2022
+Glasgow,-116,6415,Scotland,01/04/2022
+Glasgow,-6,1243,Scotland,01/08/2022
+Glasgow,125,3995,Scotland,01/02/2022
+Glasgow,-65,5378,Scotland,01/01/2022
+Glasgow,-6,4349,Scotland,01/07/2022
+Glasgow,112,2406,Scotland,01/06/2022
+Glasgow,92,8726,Scotland,01/03/2022
+Glasgow,-117,3159,Scotland,01/05/2022
+Glasgow,-132,1811,Scotland,01/10/2022
+Glasgow,-20,4463,Scotland,01/09/2022
+Cardiff,16,2431,Wales,01/04/2022
+Cardiff,67,8581,Wales,01/08/2022
+Cardiff,79,2249,Wales,01/02/2022
+Cardiff,-62,2752,Wales,01/01/2022
+Cardiff,-37,1123,Wales,01/07/2022
+Cardiff,-1,8981,Wales,01/06/2022
+Cardiff,91,1416,Wales,01/03/2022
+Cardiff,-47,7494,Wales,01/05/2022
+Cardiff,66,2426,Wales,01/10/2022
+Cardiff,68,9720,Wales,01/09/2022
