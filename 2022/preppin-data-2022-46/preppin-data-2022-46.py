@@ -28,7 +28,7 @@ from output_check import output_check    # custom function for checking my outpu
 def parse_file(xl, sheet_name):
 
     # read in the sheet data
-    df = pd.read_excel(in_path, sheet_name=sheet_name, header=None)
+    df = pd.read_excel(xl, sheet_name=sheet_name, header=None)
         
     
     # month/value associated with each column #
