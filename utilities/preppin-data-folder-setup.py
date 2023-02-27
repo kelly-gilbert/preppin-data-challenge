@@ -35,7 +35,7 @@ from shutil import copy2
 # --------------------------------------------------------------------------------------------------
 
 MAIN_DIR = r'C:\Users\gilbe\projects\preppin-data-challenge'    # main directory path
-NEW_YR_WK = '2022-26'    # new week to add
+NEW_YR_WK = '2022-46'    # new week to add
 
 
 # --------------------------------------------------------------------------------------------------

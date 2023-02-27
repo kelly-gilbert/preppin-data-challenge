@@ -25,133 +25,50 @@ from output_check import output_check    # custom function for checking my outpu
 # functions
 #---------------------------------------------------------------------------------------------------
 
-def parse_file(path, sheet_name):
-    with pd.ExcelFile(path) as xl:
-        year = pd.read_excel(xl, 
-                             sheet_name=sheet_name, 
-                             header=None, 
-                             nrows=1, 
-                             usecols=[0]).iloc[0, 0][-4:]
-        df = ( pd.read_excel(xl, 
-                             sheet_name=sheet_name, 
-                             skiprows=1,
-                             header=[1,2])
-                 .assign(Region=sheet_name) )
+def parse_file(xl, sheet_name):
+
+    # read in the sheet data
+    df = pd.read_excel(in_path, sheet_name=sheet_name, header=None)
         
-    # melt the columns into rows, then pivot metrics into cols
-    df_p = ( df.melt(id_vars=[df.columns[0]])
-               .set_axis(['Store', 'Month', 'Metric', 'value'], axis=1)
-               .pivot_table(values='value', 
-                            index=['Store', 'Month'], 
-                            columns='Metric', 
-                            aggfunc='sum')
-                          .reset_index() )
     
-    df_p['Date'] = pd.to_datetime(df_p['Month'] + ' ' + str(year))
+    # month/value associated with each column #
+    year = df.iloc[0,0][-4:]
+    df_cols = ( df.iloc[2:4]
+                  .T
+                  .ffill()
+                  .rename(columns={ 2 : 'month', 3 : 'metric' }) )
+    df_cols['Date'] = pd.to_datetime(df_cols['month'] + ' ' + str(year))
     
-    return df_p.drop(columns='Month')
+    
+    # reshape the data
+    df_data = ( df.iloc[4:]
+                  .rename(columns={ 0 : 'Store' })
+                  .melt(id_vars='Store')
+                  .merge(df_cols, left_on='variable', right_index=True)
+                  .pivot_table(index=['Store', 'Date'], 
+                               columns='metric', 
+                               values='value', 
+                               aggfunc='sum')
+                  .reset_index() )
+
+    return df_data.assign(Region=sheet_name)
 
 
 #---------------------------------------------------------------------------------------------------
 # input the data
 #---------------------------------------------------------------------------------------------------
 
-path = r'.\inputs\Strange table structure updated.xlsx'
-
-with pd.ExcelFile(path) as xl:
-    df = None
-    for s in xl.sheet_names:
-        df = pd.concat([df, parse_file(path, s)])
-         
-     
-#---------------------------------------------------------------------------------------------------
-# process the data
-#---------------------------------------------------------------------------------------------------
- 
-
-
-
-# option 1: process each file separately (do week 45, but iterate for each file)
-%%timeit 
 in_path = r'.\inputs\Strange table structure updated.xlsx'
 
-
-def readsheet(in_path, s):
-    with pd.ExcelFile(in_path) as xl:
-        year = pd.read_excel(xl, sheet_name=s, header=None, nrows=1, usecols=[0]).iloc[0, 0][-4:]
-        df = pd.read_excel(xl, sheet_name=s, skiprows=1, header=[1,2])
-    
-    # melt the columns into rows, then pivot metrics into cols
-    df_p = ( df.melt(id_vars=[df.columns[0]])
-               .set_axis(['Store', 'Month', 'Metric', 'value'], axis=1)
-               .pivot_table(values='value', 
-                            index=['Store', 'Month'], 
-                            columns='Metric', 
-                            aggfunc='sum')
-                          .reset_index() 
-               .assign(Region=s))
-
-    df_p['Date'] = pd.to_datetime(df_p['Month'] + ' ' + str(year))
-    
-    return df_p
-    
-
-df = pd.concat([readsheet(in_path, s) for s in pd.ExcelFile(in_path).sheet_names])
-
-
-# output
-( df.drop(columns='Month')
-      .to_csv(r'.\outputs\output-2022-46.csv', index=False, date_format='%d/%m/%Y') )
-
-
-
-
-
-
-
-
-
-# option 2: bring in all records, with no col names. Melt data and then join back to get the col month/metric
-%%timeit
-with pd.ExcelFile(r'.\inputs\Strange table structure updated.xlsx') as xl:
-    df = ( pd.concat([pd.read_excel(xl, sheet_name=s, header=None)\
-                        .assign(Region=s)
-                      for s in xl.sheet_names])
-             .reset_index(drop=True) )
-
-
-# fill in the year
-df['year'] = pd.Series(where(df[0].str[:5] == 'Table', df[0].str[-4:], nan)).ffill()
-
-
-# extract the column names
-cols = df.iloc[2:4].T.ffill()
-dict(cols[2])
-
-
-# melt the columns into rows, then pivot metrics into cols
-df_p = ( df.loc[~df[1].isna() & ~df[2].isna() & (df[0] != 'Store')]
-           .melt(id_vars=['Region', 'year', df.columns[0]], var_name='col_name'))
-           
-df_p['Month'] = pd.to_datetime(df_p['col_name'].replace(dict(cols[2])) + ' ' + df_p['year'])           
-           
-           
-           .set_axis(['Region', 'year', 'Store', 'col_num', 'value'], axis=1)
-           .pivot_table(values='value', 
-                        index=['Store', 'col_num'], 
-                        columns='Metric', 
-                        aggfunc='sum')
-                      .reset_index() )
-
-df_p['Date'] = pd.to_datetime(df_p['Month'] + ' ' + str(year))
-
+with pd.ExcelFile(in_path) as xl:
+    df = pd.concat([parse_file(xl, s) for s in xl.sheet_names])
+         
 
 #---------------------------------------------------------------------------------------------------
 # output the file
 #---------------------------------------------------------------------------------------------------
 
-( df.drop(columns='Month')
-      .to_csv(r'.\outputs\output-2022-46.csv', index=False, date_format='%d/%m/%Y') )
+df.to_csv(r'.\outputs\output-2022-46.csv', index=False, date_format='%d/%m/%Y')
 
 
 #---------------------------------------------------------------------------------------------------
