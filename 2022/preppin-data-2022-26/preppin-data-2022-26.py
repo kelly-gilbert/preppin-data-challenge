@@ -28,17 +28,17 @@ import pandas as pd
 from output_check import output_check    # custom function for checking my output vs. the solution
 
 
-
-
+#---------------------------------------------------------------------------------------------------
+# functions
+#---------------------------------------------------------------------------------------------------
 
 def round_half_up(n, decimals=0):
     """ 
     use round half up method vs. Python default rounding
     """
     multiplier = 10 ** decimals
-    # Replace math.floor with np.floor
-    return floor(n*multiplier + 0.5) / multiplier
 
+    return floor(n * multiplier + 0.5) / multiplier
 
 
 #---------------------------------------------------------------------------------------------------
@@ -53,7 +53,7 @@ df = pd.read_csv(r'.\inputs\Spotify Data Unclean.csv', parse_dates=['ts'])
 #---------------------------------------------------------------------------------------------------
 
 # convert milliseconds to minutes and extract the year
-df['min'] = round_half_up(df['ms_played'] / 1000 / 60 * 100, 0)
+df['min'] = round_half_up(df['ms_played'] / 1000 / 60, 2)
 df['year'] = df['ts'].dt.year
 
 
@@ -88,30 +88,3 @@ col_order_matters = False
 round_dec = 8
 
 output_check(solution_files, my_files, unique_cols, col_order_matters = False)
-
-
-
-
-
-
-
-df_sum[(df_sum['Artist Name']=='Nobuo Uematsu')]
-
-df[(df['Artist Name']=='Nobuo Uematsu') & (df['year']==2015)]['min'].sum()
-
-df[(df['Artist Name']=='Robert Schumann') & (df['year']==2015)]['min'].sum()
-
-
-df_sol[df_sol['Artist Name'].eq('Rise Against')]
-df_sol[df_sol['Artist Name'].eq('Rise Against')]
-
-
-df_sol.sort_values('2015').iloc[40:60]
-df_out.sort_values('2015').iloc[120:140]
-
-df_out[df_out['Overall Rank'].gt(85) & df_out['Overall Rank'].lt(100)].sort_values('Overall Rank')
-
-df_sol = pd.read_csv(solution_files[0])
-
-
-df[df['Artist Name'].isin(['Rise Against', 'Nobuo Uematsu', 'Puddle of Mudd'])].groupby('Artist Name')['min'].sum()

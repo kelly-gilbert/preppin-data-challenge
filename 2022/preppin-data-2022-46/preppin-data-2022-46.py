@@ -8,7 +8,7 @@ https://preppindata.blogspot.com/2022/11/2022-week-46-dynamically-fixing-table.h
 - Output the data
 
 Author: Kelly Gilbert
-Created: 2022-11-30
+Created: 2023-02-26
 Requirements:
   - input dataset:
       - Strange table structure updated.xlsx
@@ -17,17 +17,53 @@ Requirements:
 """
 
 
-from numpy import nan, where
 import pandas as pd
 from output_check import output_check    # custom function for checking my output vs. the solution
+
+
+#---------------------------------------------------------------------------------------------------
+# functions
+#---------------------------------------------------------------------------------------------------
+
+def parse_file(path, sheet_name):
+    with pd.ExcelFile(path) as xl:
+        year = pd.read_excel(xl, 
+                             sheet_name=sheet_name, 
+                             header=None, 
+                             nrows=1, 
+                             usecols=[0]).iloc[0, 0][-4:]
+        df = ( pd.read_excel(xl, 
+                             sheet_name=sheet_name, 
+                             skiprows=1,
+                             header=[1,2])
+                 .assign(Region=sheet_name) )
+        
+    # melt the columns into rows, then pivot metrics into cols
+    df_p = ( df.melt(id_vars=[df.columns[0]])
+               .set_axis(['Store', 'Month', 'Metric', 'value'], axis=1)
+               .pivot_table(values='value', 
+                            index=['Store', 'Month'], 
+                            columns='Metric', 
+                            aggfunc='sum')
+                          .reset_index() )
+    
+    df_p['Date'] = pd.to_datetime(df_p['Month'] + ' ' + str(year))
+    
+    return df_p.drop(columns='Month')
 
 
 #---------------------------------------------------------------------------------------------------
 # input the data
 #---------------------------------------------------------------------------------------------------
 
+path = r'.\inputs\Strange table structure updated.xlsx'
 
-
+with pd.ExcelFile(path) as xl:
+    df = None
+    for s in xl.sheet_names:
+        df = pd.concat([df, parse_file(path, s)])
+         
+     
 #---------------------------------------------------------------------------------------------------
 # process the data
 #---------------------------------------------------------------------------------------------------
@@ -110,62 +146,12 @@ df_p['Month'] = pd.to_datetime(df_p['col_name'].replace(dict(cols[2])) + ' ' + d
 df_p['Date'] = pd.to_datetime(df_p['Month'] + ' ' + str(year))
 
 
-
-
-
-
-# option 3: 
-    
-    
-# cases to handle:
-# store name starts with "Table"
-# sheets have different numbers of months
-# sheets have different years
-
-
-# fill in the year
-df['year'] = pd.Series(where(df[0].str[:5] == 'Table', df[0].str[-4:], nan)).ffill()
-
-
-# extract the column names
-cols = df.iloc[2:4].T.ffill()
-cols
-dict(cols[2])
-
-
-# melt the columns into rows, then pivot metrics into cols
-df_p = ( df.loc[~df[1].isna() & ~df[2].isna() & (df[0] != 'Store')]
-           .melt(id_vars=['Region', 'year', df.columns[0]], var_name='col_name'))
-           
-df_p['Month'] = pd.to_datetime(df_p['col_name'].replace(dict(cols[2])) + ' ' + df_p['year'])           
-           
-           
-           .set_axis(['Region', 'year', 'Store', 'col_num', 'value'], axis=1)
-           .pivot_table(values='value', 
-                        index=['Store', 'col_num'], 
-                        columns='Metric', 
-                        aggfunc='sum')
-                      .reset_index() )
-
-df_p['Date'] = pd.to_datetime(df_p['Month'] + ' ' + str(year))
-
-
-
 #---------------------------------------------------------------------------------------------------
 # output the file
 #---------------------------------------------------------------------------------------------------
 
 ( df.drop(columns='Month')
       .to_csv(r'.\outputs\output-2022-46.csv', index=False, date_format='%d/%m/%Y') )
-
-
-
-
-
-
-
-
-
 
 
 #---------------------------------------------------------------------------------------------------

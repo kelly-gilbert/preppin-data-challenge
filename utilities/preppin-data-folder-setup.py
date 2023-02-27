@@ -34,7 +34,7 @@ from shutil import copy2
 # update variables here
 # --------------------------------------------------------------------------------------------------
 
-MAIN_DIR = r'C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge'    # main directory path
+MAIN_DIR = r'C:\Users\gilbe\projects\preppin-data-challenge'    # main directory path
 NEW_YR_WK = '2022-26'    # new week to add
 
 
@@ -91,4 +91,4 @@ chdir(new_dir)
 
 
 import sys
-sys.path.append(r'C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\utilities')
+sys.path.append(MAIN_DIR + r'\utilities')
