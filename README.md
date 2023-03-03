@@ -64,7 +64,7 @@
 |45|Strange Table Structure|[📋](https://preppindata.blogspot.com/2022/11/2022-week-45-strange-table-structure.html)|[✅](2022/preppin-data-2022-45/README.md)|| 6&nbsp;&nbsp;|
 |46|Dynamically Fixing Table Structures|[📋](https://preppindata.blogspot.com/2022/11/2022-week-46-dynamically-fixing-table.html)|[✅](2022/preppin-data-2022-46/README.md)|| 5&nbsp;&nbsp;|
 |47|Chelsea Managers per Prime Minister|[📋](https://preppindata.blogspot.com/2022/11/2022-week-47-chelsea-managers-per-prime.html)|[✅](2022/preppin-data-2022-47/README.md)|| 6&nbsp;&nbsp;|
-|48||[]()|[](2022/preppin-data-2022-48/README.md)|| &nbsp;&nbsp;|
+|48|Tiddlywinks Tidy|[📋](https://preppindata.blogspot.com/2022/11/2022-week-48-tiddlywinks-tidy.html)|[✅](2022/preppin-data-2022-48/README.md)|| 5&nbsp;&nbsp;|
 |49|Cleaning Status History (HR month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-49-cleaning-status-history-hr.html)|[✅](2022/preppin-data-2022-49/README.md)|| 4&nbsp;&nbsp;|
 |50|Withdrawals (HR month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-50-withdrawals-hr-month.html)|[✅](2022/preppin-data-2022-50/README.md)|| 4&nbsp;&nbsp;|
 |51|Parsing an Unfortunate Report Format (HR Month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-51-parsing-unfortunate-report.html)|[✅](2022/preppin-data-2022-51/README.md)|| 5&nbsp;&nbsp;|
