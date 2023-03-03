@@ -41,7 +41,7 @@
 |22|Dungeons & Dragons: Critical Role|[📋](https://preppindata.blogspot.com/2022/06/2022-week-22-dungeons-dragons-critical.html)|[✅](2022/preppin-data-2022-22/README.md)|| 5&nbsp;&nbsp;|
 |23|PD x WOW Salesforce Opportunities|[📋](https://preppindata.blogspot.com/2022/06/2022-week-23-pd-x-wow-salesforce.html)|[✅](2022/preppin-data-2022-23/README.md)|| 5&nbsp;&nbsp;|
 |24|Longest Flights|[📋](https://preppindata.blogspot.com/2022/06/2022-week-24-longest-flights.html)|[✅](2022/preppin-data-2022-24/README.md)|| 4&nbsp;&nbsp;|
-|25|Housing Happy Hotel Guests|[📋](https://preppindata.blogspot.com/2022/06/2022-week-25-housing-happy-hotel-guests.html)|[✅](2022/preppin-data-2022-25/README.md)|| &nbsp;&nbsp;|
+|25|Housing Happy Hotel Guests|[📋](https://preppindata.blogspot.com/2022/06/2022-week-25-housing-happy-hotel-guests.html)|[✅](2022/preppin-data-2022-25/README.md)|| 7&nbsp;&nbsp;🔥|
 |26|Making Spotify Data Spotless|[📋](https://preppindata.blogspot.com/2022/07/2022-week-26-solution.html)|[✅](2022/preppin-data-2022-26/README.md)|| 6&nbsp;&nbsp;|
 |27|C&BSCo Clean and Aggregate|[📋](https://preppindata.blogspot.com/2022/07/2022-week-27-c-clean-and-aggregate.html)|[✅](2022/preppin-data-2022-27/README.md)|[📺](https://youtu.be/OZ0wM-3ZA7Q)| 3&nbsp;&nbsp;❄|
 |28|No sales today|[📋](https://preppindata.blogspot.com/2022/07/2022-week-28-c-no-sales-today.html)|[✅](2022/preppin-data-2022-28/README.md)|[📺](https://youtu.be/lUmgU5JZGtw)| 2&nbsp;&nbsp;❄|
