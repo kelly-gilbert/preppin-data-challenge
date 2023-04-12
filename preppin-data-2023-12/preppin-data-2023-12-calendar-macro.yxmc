@@ -1,0 +1,995 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="48" width="636" height="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Preppin' Data 2023: Week 12 - reporting calendar macro
+
+Generates a reporting calendar with all dates within the range of the provided files
+
+INPUTS:
+* [Macro input] date field from actual data
+* Holiday list file
+
+OUTPUT:
+* Calendar table containing reporting date/month/day for each calendar date</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="60" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input Dates</Name>
+          <Abbrev>D</Abbrev>
+          <ShowFieldMap value="True" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="Date" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2021-01-01</c>
+                </r>
+                <r>
+                  <c>2022-02-02</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>D Input</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" source="TextInput:" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1998" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Calendar Output</Name>
+          <Abbrev>C</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>C Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="172" y="244" width="1748" height="385" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Create a reporting calendar of all days, with associated reporting day/month</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="438" y="389" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Date" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Date" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Min_Date" selected="False" input="Left_" />
+                    <SelectField field="Left_Max_Date" selected="False" input="Left_" />
+                    <SelectField field="Right_Year" selected="False" input="Right_" />
+                    <SelectField field="Right_Date" selected="False" rename="Right_Date" input="Right_" />
+                    <SelectField field="Right_Bank holiday" selected="False" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Join to holiday list</AnnotationText>
+              <DefaultAnnotationText>Join to holiday list</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="Min_Date" source="TextInput:" type="Date" />
+                <Field name="Max_Date" source="TextInput:" type="Date" />
+                <Field name="Date" type="Date" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="Date" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="Date" type="Date" />
+                <Field name="is_holiday" source="Formula: 1" type="Byte" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Date" order="" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="Date" source="Formula: datetimeadd([Date], &#xA;            [Year] - datetimeyear([Date]),&#xA;            'year')" type="Date" />
+                <Field name="is_holiday" source="Formula: 1" type="Byte" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="Date" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="534" y="389" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Min_Date" source="TextInput:" type="Date" />
+                <Field name="Max_Date" source="TextInput:" type="Date" />
+                <Field name="Date" type="Date" />
+                <Field name="is_holiday" source="Formula: 1" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+            <Position x="306" y="293" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name />
+              <CreateField_Name>Date</CreateField_Name>
+              <CreateField_Type>Date</CreateField_Type>
+              <CreateField_Size>10</CreateField_Size>
+              <Expression_Init>datetimeadd([Min_Date], -31, 'day')</Expression_Init>
+              <Expression_Cond>[Date] &lt;= datetimeadd([Max_Date], 31, 'day')</Expression_Cond>
+              <Expression_Loop>datetimeadd([Date], 1, 'day')</Expression_Loop>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Generate the list of all dates in the range + 1 month</AnnotationText>
+              <DefaultAnnotationText>Generate the list of all dates in the range + 1 month</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Min_Date" source="TextInput:" type="Date" />
+                <Field name="Max_Date" source="TextInput:" type="Date" />
+                <Field name="Date" type="Date" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="197" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Date" action="Min" rename="Min_Date" />
+                <SummarizeField field="Date" action="Max" rename="Max_Date" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Min and max date in data</AnnotationText>
+              <DefaultAnnotationText>Min and max date in data</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Min_Date" source="TextInput:" type="Date" />
+                <Field name="Max_Date" source="TextInput:" type="Date" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="630" y="389" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Min_Date" selected="False" />
+                <SelectField field="Max_Date" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Remove min/max</AnnotationText>
+              <DefaultAnnotationText>Remove min/max</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Date" type="Date" />
+                <Field name="is_holiday" source="Formula: 1" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="881" y="353" width="594" height="252" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Find the reporting date for each date</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="6">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                <Position x="1350" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name>Date</UpdateField_Name>
+                  <CreateField_Name>Reporting Date</CreateField_Name>
+                  <CreateField_Type>Date</CreateField_Type>
+                  <CreateField_Size>10</CreateField_Size>
+                  <OtherRows>Empty</OtherRows>
+                  <NumRows value="1" />
+                  <Expression>if [is_reportable] != 1
+then [Row-1:Reporting Date]
+else [Date]
+endif</Expression>
+                  <GroupByFields />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>If a date is not reportable, fill in the next reportable date</AnnotationText>
+                  <DefaultAnnotationText>if [is_reportable] != 1
+then [Row-1:Reporting Date]
+else [Dat...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                    <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+                    <Field name="Max Reporting Date in Date Month" type="Date" />
+                    <Field name="Reporting Days in Month" source="Summarize: Sum - is_reportable" type="Int64" />
+                    <Field description="Formula: if [is_reportable] != 1&#xA;then [Row-1:Reporting Date]&#xA;else [Date]&#xA;endif" name="Reporting Date" source="Formula: if [is_reportable] != 1&#xA;then [Row-1:Reporting Date]&#xA;else [Date]&#xA;endif" type="Date" />
+                  </RecordInfo>
+                  <SortInfo locale="0">
+                    <Field field="Date" order="Descending" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+            </Node>
+            <Node ToolID="7">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="1254" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="0">
+                    <Field field="Date" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Date - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                    <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+                    <Field name="Max Reporting Date in Date Month" type="Date" />
+                    <Field name="Reporting Days in Month" source="Summarize: Sum - is_reportable" type="Int64" />
+                  </RecordInfo>
+                  <SortInfo locale="0">
+                    <Field field="Date" order="Descending" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="8">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="1146" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="date_month" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="date_month" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Left_is_holiday" selected="False" input="Left_" />
+                        <SelectField field="Right_date_month" selected="False" rename="Right_date_month" input="Right_" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Join on date  month</AnnotationText>
+                  <DefaultAnnotationText>Join on month</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Left">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                    <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+                  </RecordInfo>
+                  <SortInfo noProgress="True">
+                    <Field field="date_month" />
+                  </SortInfo>
+                </MetaInfo>
+                <MetaInfo connection="Join">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                    <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+                    <Field name="Max Reporting Date in Date Month" type="Date" />
+                    <Field name="Reporting Days in Month" source="Summarize: Sum - is_reportable" type="Int64" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="date_month" order="" />
+                  </SortInfo>
+                </MetaInfo>
+                <MetaInfo connection="Right">
+                  <RecordInfo>
+                    <Field name="date_month" source="Summarize: GroupBy - date_month" type="Date" />
+                    <Field name="Max Reporting Date in Date Month" type="Date" />
+                    <Field name="Reporting Days in Month" source="Summarize: Sum - is_reportable" type="Int64" />
+                  </RecordInfo>
+                  <SortInfo noProgress="True">
+                    <Field field="date_month" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="9">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="1026" y="474" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="date_month" action="GroupBy" rename="date_month" />
+                    <SummarizeField field="Date" action="Max" rename="Max Reporting Date in Date Month" />
+                    <SummarizeField field="is_reportable" action="Sum" rename="Reporting Days in Month" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Find the last reportable date for each month</AnnotationText>
+                  <DefaultAnnotationText>Find the last reportable date for each month</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="date_month" source="Summarize: GroupBy - date_month" type="Date" />
+                    <Field name="Max Reporting Date in Date Month" type="Date" />
+                    <Field name="Reporting Days in Month" source="Summarize: Sum - is_reportable" type="Int64" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="date_month" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="10">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="906" y="474" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>=</Operator>
+                    <Field>is_reportable</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2023-04-11 12:07:59</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>1</Operand>
+                      <StartDate>2023-04-11 12:07:59</StartDate>
+                      <EndDate>2023-04-11 12:07:59</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[is_reportable] = 1</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="True">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field name="is_holiday" source="Formula: 1" type="Byte" />
+                    <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                    <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="False">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field name="is_holiday" source="Formula: 1" type="Byte" />
+                    <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                    <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1517" y="353" width="379" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Find the report month for each date</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="12">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1782" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="is_reportable" selected="False" />
+                    <SelectField field="date_month" selected="False" />
+                    <SelectField field="Max Reporting Date in Date Month" selected="False" />
+                    <SelectField field="Reporting Days in Month" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Clean up fields</AnnotationText>
+                  <DefaultAnnotationText>Clean up fields</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field description="Formula: if [is_reportable] != 1&#xA;then [Row-1:Reporting Date]&#xA;else [Date]&#xA;endif" name="Reporting Date" source="Formula: if [is_reportable] != 1&#xA;then [Row-1:Reporting Date]&#xA;else [Date]&#xA;endif" type="Date" />
+                    <Field description="Formula: // if the previous row was the first reporting day of the month,&#xA;// restart the count&#xA;if [Row-1:Reporting Date] = [Max Reporting Date in Date Month]&#xA;   and [is_reportable]&#xA;then [Reporting Days in Month]&#xA;&#xA;// otherwise, continue decrementing&#xA;else [Row-1:Reporting Day] - [is_reportable]&#xA;endif" name="Reporting Day" source="Formula: // if the previous row was the first reporting day of the month,&#xA;// restart the count&#xA;if [Row-1:Reporting Date] = [Max Reporting Date in Date Month]&#xA;   and [is_reportable]&#xA;then [Reporting Days in Month]&#xA;&#xA;// otherwise, continue decrementing&#xA;else [Row-1:Reporting Day] - [is_reportable]&#xA;endif" type="Byte" />
+                    <Field name="Reporting Month" source="Formula: // if it is the last reporting day of the month,&#xA;// move it to the next month&#xA;datetimeadd( &#xA;  datetimetrim([Reporting Date], 'month'),&#xA;  iif([Reporting Date] = [Max Reporting Date in Date Month], 1, 0),&#xA;  'month')" type="Date" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="Date" order="Descending" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="13">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="1662" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="// if it is the last reporting day of the month,&#xA;// move it to the next month&#xA;datetimeadd( &#xA;  datetimetrim([Reporting Date], 'month'),&#xA;  iif([Reporting Date] = [Max Reporting Date in Date Month], 1, 0),&#xA;  'month')" field="Reporting Month" size="10" type="Date" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Calculate the reporting month</AnnotationText>
+                  <DefaultAnnotationText>Reporting Month = // if it is the last reporting day of the month,
+// move it to...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                    <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+                    <Field name="Max Reporting Date in Date Month" type="Date" />
+                    <Field name="Reporting Days in Month" source="Summarize: Sum - is_reportable" type="Int64" />
+                    <Field description="Formula: if [is_reportable] != 1&#xA;then [Row-1:Reporting Date]&#xA;else [Date]&#xA;endif" name="Reporting Date" source="Formula: if [is_reportable] != 1&#xA;then [Row-1:Reporting Date]&#xA;else [Date]&#xA;endif" type="Date" />
+                    <Field description="Formula: // if the previous row was the first reporting day of the month,&#xA;// restart the count&#xA;if [Row-1:Reporting Date] = [Max Reporting Date in Date Month]&#xA;   and [is_reportable]&#xA;then [Reporting Days in Month]&#xA;&#xA;// otherwise, continue decrementing&#xA;else [Row-1:Reporting Day] - [is_reportable]&#xA;endif" name="Reporting Day" source="Formula: // if the previous row was the first reporting day of the month,&#xA;// restart the count&#xA;if [Row-1:Reporting Date] = [Max Reporting Date in Date Month]&#xA;   and [is_reportable]&#xA;then [Reporting Days in Month]&#xA;&#xA;// otherwise, continue decrementing&#xA;else [Row-1:Reporting Day] - [is_reportable]&#xA;endif" type="Byte" />
+                    <Field name="Reporting Month" source="Formula: // if it is the last reporting day of the month,&#xA;// move it to the next month&#xA;datetimeadd( &#xA;  datetimetrim([Reporting Date], 'month'),&#xA;  iif([Reporting Date] = [Max Reporting Date in Date Month], 1, 0),&#xA;  'month')" type="Date" />
+                  </RecordInfo>
+                  <SortInfo locale="0">
+                    <Field field="Date" order="Descending" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="14">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                <Position x="1542" y="402" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name>Date</UpdateField_Name>
+                  <CreateField_Name>Reporting Day</CreateField_Name>
+                  <CreateField_Type>Byte</CreateField_Type>
+                  <CreateField_Size>1</CreateField_Size>
+                  <OtherRows>NULL</OtherRows>
+                  <NumRows value="1" />
+                  <Expression>// if the previous row was the first reporting day of the month,
+// restart the count
+if [Row-1:Reporting Date] = [Max Reporting Date in Date Month]
+   and [is_reportable]
+then [Reporting Days in Month]
+
+// otherwise, continue decrementing
+else [Row-1:Reporting Day] - [is_reportable]
+endif</Expression>
+                  <GroupByFields />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>// if the previous row was the first reporting day of the mon...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Date" type="Date" />
+                    <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                    <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+                    <Field name="Max Reporting Date in Date Month" type="Date" />
+                    <Field name="Reporting Days in Month" source="Summarize: Sum - is_reportable" type="Int64" />
+                    <Field description="Formula: if [is_reportable] != 1&#xA;then [Row-1:Reporting Date]&#xA;else [Date]&#xA;endif" name="Reporting Date" source="Formula: if [is_reportable] != 1&#xA;then [Row-1:Reporting Date]&#xA;else [Date]&#xA;endif" type="Date" />
+                    <Field description="Formula: // if the previous row was the first reporting day of the month,&#xA;// restart the count&#xA;if [Row-1:Reporting Date] = [Max Reporting Date in Date Month]&#xA;   and [is_reportable]&#xA;then [Reporting Days in Month]&#xA;&#xA;// otherwise, continue decrementing&#xA;else [Row-1:Reporting Day] - [is_reportable]&#xA;endif" name="Reporting Day" source="Formula: // if the previous row was the first reporting day of the month,&#xA;// restart the count&#xA;if [Row-1:Reporting Date] = [Max Reporting Date in Date Month]&#xA;   and [is_reportable]&#xA;then [Reporting Days in Month]&#xA;&#xA;// otherwise, continue decrementing&#xA;else [Row-1:Reporting Day] - [is_reportable]&#xA;endif" type="Byte" />
+                  </RecordInfo>
+                  <SortInfo locale="0">
+                    <Field field="Date" order="Descending" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="750" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" field="is_reportable" size="1" type="Byte" />
+                <FormulaField expression="datetimetrim([Date], 'month')" field="date_month" size="10" type="Date" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Flag reporting days</AnnotationText>
+              <DefaultAnnotationText>is_reportable = if [is_holiday] = 1
+   or datetimeformat([Date], '%u') IN('6','7...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Date" type="Date" />
+                <Field name="is_holiday" source="Formula: 1" type="Byte" />
+                <Field name="is_reportable" source="Formula: if [is_holiday] = 1&#xA;   or datetimeformat([Date], '%u') IN('6','7')&#xA;then 0&#xA;else 1&#xA;endif" type="Byte" />
+                <Field name="date_month" source="Formula: datetimetrim([Date], 'month')" type="Date" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="173" y="689" width="413" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Prep the UK holiday data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="198" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\inputs\New Customer Reporting.xlsx|||`UK Bank Holidays$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>New Customer Reporting.xlsx
+Query=`UK Bank Holidays$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Year" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2023\preppin-data-2023-12\inputs\New Customer Reporting.xlsx|||`UK Bank Holidays$`" type="Double" />
+                <Field name="Date" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2023\preppin-data-2023-12\inputs\New Customer Reporting.xlsx|||`UK Bank Holidays$`" type="Date" />
+                <Field name="Bank holiday" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2023\preppin-data-2023-12\inputs\New Customer Reporting.xlsx|||`UK Bank Holidays$`" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="330" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="True" />
+              <UpdateField_Name>Year</UpdateField_Name>
+              <CreateField_Name>New Field</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>NULL</OtherRows>
+              <NumRows value="1" />
+              <Expression>if isnull([Year])
+then [Row-1:Year]
+else [Year]
+endif</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Fill down the year</AnnotationText>
+              <DefaultAnnotationText>if isnull([Year])
+then [Row-1:Year]
+else [Year]
+endif</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="Formula: if isnull([Year])&#xA;then [Row-1:Year]&#xA;else [Year]&#xA;endif" name="Year" source="Formula: if isnull([Year])&#xA;then [Row-1:Year]&#xA;else [Year]&#xA;endif" type="Double" />
+                <Field name="Date" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2023\preppin-data-2023-12\inputs\New Customer Reporting.xlsx|||`UK Bank Holidays$`" type="Date" />
+                <Field name="Bank holiday" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2023\preppin-data-2023-12\inputs\New Customer Reporting.xlsx|||`UK Bank Holidays$`" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="462" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="datetimeadd([Date], &#xA;            [Year] - datetimeyear([Date]),&#xA;            'year')" field="Date" size="10" type="Date" />
+                <FormulaField expression="1" field="is_holiday" size="1" type="Byte" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Update the holiday year and add holiday flag</AnnotationText>
+              <DefaultAnnotationText>Date = datetimeadd([Date], 
+            [Year] - datetimeyear([Date]),
+         ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="Formula: if isnull([Year])&#xA;then [Row-1:Year]&#xA;else [Year]&#xA;endif" name="Year" source="Formula: if isnull([Year])&#xA;then [Row-1:Year]&#xA;else [Year]&#xA;endif" type="Double" />
+                <Field name="Date" source="Formula: datetimeadd([Date], &#xA;            [Year] - datetimeyear([Date]),&#xA;            'year')" type="Date" />
+                <Field name="Bank holiday" size="255" source="File: C:\Users\kelly.gilbert\OneDrive - Chick-fil-A, Inc\Preppin Data Challenge\2023\preppin-data-2023-12\inputs\New Customer Reporting.xlsx|||`UK Bank Holidays$`" type="V_WString" />
+                <Field name="is_holiday" source="Formula: 1" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Left" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="1" Connection="Join" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="1" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="1" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (20)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (26)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>preppin-data-2023-12-calendar-macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (19)</Name>
+          <ToolId value="19" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (20)</Description>
+              <Name>Macro Input (20)</Name>
+              <ToolId value="20" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (26)</Description>
+              <Name>Macro Output (26)</Name>
+              <ToolId value="26" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="20" Selected="True" />
+        <Tool ToolId="26" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
