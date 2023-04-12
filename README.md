@@ -5,7 +5,7 @@
 <br>
 
 ## <a id="contents"></a>Contents
-* 📋 &nbsp;Challenge lists:&nbsp;&nbsp;   [2022](#2022)  &nbsp;|&nbsp;  [2021](#2021)  &nbsp;|&nbsp;  [2020](#2020)  &nbsp;|&nbsp;  [2019](#2019)
+* 📋 &nbsp;Challenge lists:&nbsp;&nbsp;   [2023](#2023)  &nbsp;|&nbsp;  [2022](#2022)  &nbsp;|&nbsp;  [2021](#2021)  &nbsp;|&nbsp;  [2020](#2020)  &nbsp;|&nbsp;  [2019](#2019)
 * 🟦 &nbsp;[Alteryx tool usage](#alteryx_index)
 * 🐍 &nbsp;[Python function/method usage](#python_index)
 * 👥 &nbsp;[Preppin' Data with Python community](#community)
@@ -14,6 +14,28 @@
 
 ## Challenges
 
+### <a id="2023"></a>2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
+|-:|:-----------------------------------------|:-:|:-:|:-:|:-|
+|1|The Data Source Bank|[📋](https://preppindata.blogspot.com/2023/01/2023-week-1-data-source-bank.html)|[](2023/preppin-data-2023-01/README.md)|| &nbsp;&nbsp;|
+|2|International Bank Account Numbers|[📋](https://preppindata.blogspot.com/2023/01/2023-week-2-international-bank-account.html)|[](2023/preppin-data-2023-02/README.md)|| &nbsp;&nbsp;|
+|3|Targets for DSB|[📋](https://preppindata.blogspot.com/2023/01/2023-week-3-targets-for-dsb.html)|[](2023/preppin-data-2023-03/README.md)|| &nbsp;&nbsp;|
+|4|New Customers|[📋](https://preppindata.blogspot.com/2023/01/2023-week-4-new-customers.html)|[](2023/preppin-data-2023-04/README.md)|| &nbsp;&nbsp;|
+|5|DSB Ranking|[📋](https://preppindata.blogspot.com/2023/02/2023-week-5-dsb-ranking.html)|[](2023/preppin-data-2023-05/README.md)|| &nbsp;&nbsp;|
+|6|DSB Customer Ratings|[📋](https://preppindata.blogspot.com/2023/02/2023-week-6-dsb-customer-ratings.html)|[](2023/preppin-data-2023-06/README.md)|| &nbsp;&nbsp;|
+|7|Flagging Fraudulent Suspicions|[📋](https://preppindata.blogspot.com/2023/02/2023-week-7-flagging-fraudulent.html)|[](2023/preppin-data-2023-07/README.md)|| &nbsp;&nbsp;|
+|8|Taking Stock|[📋](https://preppindata.blogspot.com/2023/02/2023-week-8-taking-stock.html)|[](2023/preppin-data-2023-08/README.md)|| &nbsp;&nbsp;|
+|9|Customer Bank Statements|[📋](https://preppindata.blogspot.com/2023/03/2023-week-9-customer-bank-statements.html)|[](2023/preppin-data-2023-09/README.md)|| &nbsp;&nbsp;|
+|10|TWhat's my balance on this day?|[📋](https://preppindata.blogspot.com/2023/03/2023-week-10-whats-my-balance-on-this.html)|[](2023/preppin-data-2023-10/README.md)|| &nbsp;&nbsp;|
+|11|Which customers Are closest?|[📋](https://preppindata.blogspot.com/2023/03/2023-week-11-which-customers-are-closest.html)|[](2023/preppin-data-2023-11/README.md)|| &nbsp;&nbsp;|
+|12|Regulatory Reporting Alignment|[📋](https://preppindata.blogspot.com/2023/03/2023-week-12-regulatory-reporting.html)|[✅](2023/preppin-data-2023-12/README.md)|| 9&nbsp;&nbsp;🔥|
+
+
+
+
+<details>
+  <summary><h2><a id="2022"></a>📅&nbsp;2022</h2></summary>
+  
 ### <a id="2022"></a>2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
 |-:|:-----------------------------------------|:-:|:-:|:-:|:-|
@@ -69,7 +91,7 @@
 |50|Withdrawals (HR month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-50-withdrawals-hr-month.html)|[✅](2022/preppin-data-2022-50/README.md)|| 4&nbsp;&nbsp;|
 |51|Parsing an Unfortunate Report Format (HR Month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-51-parsing-unfortunate-report.html)|[✅](2022/preppin-data-2022-51/README.md)|| 5&nbsp;&nbsp;|
 |52|Find Sub-Departments from an employee hierarchy (HR Month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-52-find-sub-departments-fr)|[✅](2022/preppin-data-2022-52/README.md)|| 7&nbsp;&nbsp;🔥|
-
+</details>
 <details>
   <summary><h2><a id="2021"></a>📅&nbsp;2021</h2></summary>
 
