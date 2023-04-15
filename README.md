@@ -17,7 +17,7 @@
 ### <a id="2023"></a>2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
 |-:|:-----------------------------------------|:-:|:-:|:-:|:-|
-|1|The Data Source Bank|[📋](https://preppindata.blogspot.com/2023/01/2023-week-1-data-source-bank.html)|[](2023/preppin-data-2023-01/README.md)|| &nbsp;&nbsp;|
+|1|The Data Source Bank|[📋](https://preppindata.blogspot.com/2023/01/2023-week-1-data-source-bank.html)|[✅](2023/preppin-data-2023-01/README.md)|| &nbsp;&nbsp;|
 |2|International Bank Account Numbers|[📋](https://preppindata.blogspot.com/2023/01/2023-week-2-international-bank-account.html)|[](2023/preppin-data-2023-02/README.md)|| &nbsp;&nbsp;|
 |3|Targets for DSB|[📋](https://preppindata.blogspot.com/2023/01/2023-week-3-targets-for-dsb.html)|[](2023/preppin-data-2023-03/README.md)|| &nbsp;&nbsp;|
 |4|New Customers|[📋](https://preppindata.blogspot.com/2023/01/2023-week-4-new-customers.html)|[](2023/preppin-data-2023-04/README.md)|| &nbsp;&nbsp;|
