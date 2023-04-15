@@ -1,4 +1,4 @@
-<h6><a href="..\preppin-data-2022-52\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2023-02\README.md">Next Week  ▶</a></h6>
+<h6><a href="..\..\2022\preppin-data-2022-52\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2023-02\README.md">Next Week  ▶</a></h6>
 
 # Preppin' Data 2023 Week 01 - The Data Source Bank
 
