@@ -9,11 +9,18 @@ What I learned/practiced this week:
 * Practiced: string parsing (partition)
 * Practiced: grouping and aggregation
 
-## Python
+## Python (pandas)
 <i>click the image to view the code</i><br>
 <br>
 <a href="preppin-data-2023-01.py">
-<img src="img-python-code-2023-01.png?raw=true" alt="Python code">
+<img src="img-python-code-2023-01.png?raw=true" alt="Python code (pandas)">
+</a>
+
+## Python (polars)
+<i>click the image to view the code</i><br>
+<br>
+<a href="preppin-data-2023-01-polars.py">
+<img src="img-python-code-2023-01-polars.png?raw=true" alt="Python code (polars)">
 </a>
 
 ## Alteryx
