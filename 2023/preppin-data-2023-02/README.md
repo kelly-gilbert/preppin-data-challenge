@@ -9,11 +9,18 @@ What I learned/practiced this week:
 * Practiced: string replace
 * Practiced: concatenating strings
 
-## Python
+## Python (pandas)
 <i>click the image to view the code</i><br>
 <br>
 <a href="preppin-data-2023-02.py">
-<img src="img-python-code-2023-02.png?raw=true" alt="Python code">
+<img src="img-python-code-2023-02.png?raw=true" alt="Python code (pandas)">
+</a>
+
+## Python (polars)
+<i>click the image to view the code</i><br>
+<br>
+<a href="preppin-data-2023-02-polars.py">
+<img src="img-python-code-2023-02-polars.png?raw=true" alt="Python code (polars)">
 </a>
 
 ## Alteryx
