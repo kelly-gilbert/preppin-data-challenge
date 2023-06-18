@@ -9,11 +9,18 @@ What I learned/practiced this week:
 * Practiced: reshaping (melt)
 * Practiced: date parts (quarter)
 
-## Python
+## Python (pandas)
 <i>click the image to view the code</i><br>
 <br>
 <a href="preppin-data-2023-03.py">
 <img src="img-python-code-2023-03.png?raw=true" alt="Python code">
+</a>
+
+## Python (polars)
+<i>click the image to view the code</i><br>
+<br>
+<a href="preppin-data-2023-03-polars.py">
+<img src="img-python-code-2023-03-polars.png?raw=true" alt="Python code (polars)">
 </a>
 
 ## Alteryx
