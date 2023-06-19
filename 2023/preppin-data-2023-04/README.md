@@ -9,11 +9,18 @@ What I learned/practiced this week:
 * Practiced: handling misspelled fieldnames
 * Practiced: reshaping (pivot_table)
 
-## Python
+## Python (pandas)
 <i>click the image to view the code</i><br>
 <br>
 <a href="preppin-data-2023-04.py">
-<img src="img-python-code-2023-04.png?raw=true" alt="Python code">
+<img src="img-python-code-2023-04.png?raw=true" alt="Python code (pandas)">
+</a>
+
+## Python (polars)
+<i>click the image to view the code</i><br>
+<br>
+<a href="preppin-data-2023-04-polars.py">
+<img src="img-python-code-2023-04-polars.png?raw=true" alt="Python code (polars)">
 </a>
 
 ## Alteryx
