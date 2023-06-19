@@ -9,11 +9,18 @@ What I learned/practiced this week:
 *
 *
 
-## Python
+## Python (pandas)
 <i>click the image to view the code</i><br>
 <br>
 <a href="preppin-data-YYYY-WW.py">
-<img src="img-python-code-YYYY-WW.png?raw=true" alt="Python code">
+<img src="img-python-code-YYYY-WW.png?raw=true" alt="Python code (pandas)">
+</a>
+
+## Python (polars)
+<i>click the image to view the code</i><br>
+<br>
+<a href="preppin-data-YYYY-WW-polars.py">
+<img src="img-python-code-YYYY-WW.png-polars?raw=true" alt="Python code (polars)">
 </a>
 
 ## Alteryx
