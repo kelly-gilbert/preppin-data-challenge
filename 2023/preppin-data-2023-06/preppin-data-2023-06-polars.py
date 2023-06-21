@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Preppin' Data 2023: Week 06 - DSB Customer (polars)
-https://preppindata.blogspot.com/ - challenge url goes here
+https://preppindata.blogspot.com/2023/02/2023-week-6-dsb-customer-ratings.html
 
 - Input the data
 - Reshape the data so we have 5 rows for each customer, with responses for the Mobile App and Online 
