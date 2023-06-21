@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Preppin' Data 2023: Week 06 - DSB Customer Ratings
+Preppin' Data 2023: Week 06 - DSB Customer (polars)
 https://preppindata.blogspot.com/2023/02/2023-week-6-dsb-customer-ratings.html
 
 - Input the data
@@ -30,61 +30,58 @@ Requirements:
 """
 
 
-from numpy import where
-import pandas as pd
+import polars as pl
 
 
 #---------------------------------------------------------------------------------------------------
-# input the data
+# input and process the data
 #---------------------------------------------------------------------------------------------------
 
-df = ( pd.read_csv(r'.\inputs\DSB Customer Survery.csv')
+df = ( pl.read_csv(r'.\inputs\DSB Customer Survery.csv')
          .melt(id_vars='Customer ID',
                value_name = 'Rating')
-         .query("not variable.str.contains('Overall Rating')", engine='python')
-     )
+         
+         # remove overall ratings
+         .filter(~pl.col('variable').str.contains('Overall Rating'))
+         
+         # split platform type
+         .with_columns(pl.col('variable').str.split(' - ').list.first().alias('Platform'))
+         
+         # average rating by customer and platform
+         .pivot(index='Customer ID',
+                columns='Platform',
+                values='Rating',
+                aggregate_function='mean')
+         
+         # diff between platforms
+         .with_columns((pl.col('Mobile App') - pl.col('Online Interface')).alias('Diff'))
+         
+         # categories
+         .with_columns( 
+             pl.when(pl.col('Diff') <= -2).then('Online Interface Superfan')
+               .when(pl.col('Diff') <= -1).then('Online Interface Fan')
+               .when(pl.col('Diff') < 1).then('Neutral')
+               .when(pl.col('Diff') < 2).then('Mobile App Fan')
+               .otherwise('Mobile App Superfan') 
+               .alias('Preference')
+         )
+         
+         # output the counts
+         .groupby('Preference')
+         .agg(pl.col('Customer ID').count().alias('Cust Count'))
+         .select([pl.col('Preference'),
+                  (pl.col('Cust Count') / pl.sum('Cust Count') * 100)
+                     .round(1)
+                     .alias('% of Total')]
+         )
+      )
      
-
-#---------------------------------------------------------------------------------------------------
-# process the data
-#---------------------------------------------------------------------------------------------------
-
-# split the platform and question
-df[['Platform', 'Question']] = df['variable'].str.split(' - ', expand=True)
-
-
-# calculate the average for each customer/platform
-df_cust = ( df.groupby(['Customer ID', 'Platform'], as_index=False)['Rating'].mean()
-              .pivot_table(index='Customer ID',
-                           columns='Platform',
-                           values='Rating',
-                           aggfunc='mean')
-          )
-
-
-# calculate the platform difference and category
-df_cust['Diff'] = df_cust['Mobile App'] - df_cust['Online Interface']
-
-df_cust['Preference'] = where(df_cust['Diff'] <= -2, 'Online Interface Superfan',
-                        where(df_cust['Diff'] <= -1, 'Online Interface Fan',
-                        where(df_cust['Diff'] < 1, 'Neutral',
-                        where(df_cust['Diff'] < 2, 'Mobile App Fan',
-                              'Mobile App Superfan'))))
-
-
-# % by category
-s_out = ( df_cust['Preference'].value_counts(normalize=True)
-              .rename_axis('Preference')
-              .rename('% of Total')
-              .apply(lambda s: round(s*100, 1))
-        )
-
 
 #---------------------------------------------------------------------------------------------------
 # output the file
 #---------------------------------------------------------------------------------------------------
 
-s_out.to_csv(r'.\outputs\output-2023-06.csv')
+df.write_csv(r'.\outputs\output-2023-06.csv')
 
 
 #---------------------------------------------------------------------------------------------------
@@ -92,4 +89,4 @@ s_out.to_csv(r'.\outputs\output-2023-06.csv')
 #---------------------------------------------------------------------------------------------------
 
 # checked by visual inspection this week
-print(pd.read_csv(r'.\outputs\output-2023-06.csv'))
+print(pl.read_csv(r'.\outputs\output-2023-06.csv'))
