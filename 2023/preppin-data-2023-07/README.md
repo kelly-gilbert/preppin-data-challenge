@@ -2,12 +2,12 @@
 
 # Preppin' Data 2023 Week 07
 
-[Challenge description](https://preppindata.blogspot.com/)
+[Challenge description](https://preppindata.blogspot.com/2023/02/2023-week-7-flagging-fraudulent.html)
 
 What I learned/practiced this week:
-*
-*
-*
+* Practiced: reshaping (explode)
+* Practiced: joins
+* Practiced: string parsing
 
 ## Python (pandas)
 <i>click the image to view the code</i><br>
