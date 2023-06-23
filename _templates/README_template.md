@@ -20,7 +20,7 @@ What I learned/practiced this week:
 <i>click the image to view the code</i><br>
 <br>
 <a href="preppin-data-YYYY-WW-polars.py">
-<img src="img-python-code-YYYY-WW.png-polars?raw=true" alt="Python code (polars)">
+<img src="img-python-code-YYYY-WW-polars.png?raw=true" alt="Python code (polars)">
 </a>
 
 ## Alteryx
