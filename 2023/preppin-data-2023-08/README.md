@@ -24,6 +24,11 @@ What I learned/practiced this week:
 <img src="img-python-code-2023-08-polars.png?raw=true" alt="Python code (polars)">
 </a>
 
+## Timing comparison
+<br>
+<img src="img-timing-comparison-2023-08.png?raw=true" alt="Timing comparison of python methods">
+
+
 ## Alteryx
 <i>click the image to download the workflow</i><br>
 <br>
