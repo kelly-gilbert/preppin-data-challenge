@@ -1,0 +1,1001 @@
+id,first_name,last_name,Ticker,Sector,Market,Stock Name,Market Cap,Purchase Price
+1,Mozes,Chape,XGTIW,Consumer Durables,NASDAQ,"XG Technology, Inc",n/a,$61242.80
+2,Nicoline,Kilalea,FCEL,Miscellaneous,NASDAQ,"FuelCell Energy, Inc.",$65.53M,$20581.67
+3,Andriette,Whitlam,FCH^A,Consumer Services,NYSE,FelCor Lodging Trust Incorporated,n/a,$88251.56
+4,Moreen,Say,SPXX,n/a,NYSE,Nuveen S&P 500 Dynamic Overwrite Fund,$250.2M,$76984.21
+5,Haskell,Filchakov,TFX,Health Care,NYSE,Teleflex Incorporated,$9.03B,$69405.40
+6,Vladamir,Frew,FITB,Finance,NASDAQ,Fifth Third Bancorp,$19.11B,$9543.43
+7,Debora,Jehaes,PGTI,Capital Goods,NASDAQ,"PGT Innovations, Inc.",$610.36M,$99504.15
+8,Madelyn,Oakes,MSLI,Health Care,NASDAQ,Merus Labs International Inc.,$143.17M,$72879.08
+9,Jarrid,Younglove,HST,Consumer Services,NYSE,"Host Hotels & Resorts, Inc.",$13.86B,$71104.77
+10,Lynn,Kowalski,SBNB,Transportation,NYSE,Scorpio Tankers Inc.,n/a,$22850.98
+11,Elaine,Doge,XL,Finance,NYSE,XL Group Ltd.,$11.51B,$22507.24
+12,Henrik,Maffulli,CBF,Finance,NASDAQ,Capital Bank Financial Corp.,$1.99B,$94461.75
+13,Reece,Grishenkov,WMK,Consumer Services,NYSE,"Weis Markets, Inc.",$1.3B,$60786.52
+14,Ingemar,Curwood,CUBS,Finance,NYSE,"Customers Bancorp, Inc",n/a,$94413.39
+15,Bary,Chiverton,TCF,Finance,NYSE,TCF Financial Corporation,$2.72B,$77624.20
+16,Hettie,Merrell,MFA,Consumer Services,NYSE,"MFA Financial, Inc.",$3.2B,$66484.11
+17,Sawyere,MacCleay,BLMT,Finance,NASDAQ,"BSB Bancorp, Inc.",$292.59M,$53124.31
+18,Osbourn,Arpur,ZBRA,Technology,NASDAQ,Zebra Technologies Corporation,$5.5B,$24991.86
+19,Leon,Dioniso,TCRD,n/a,NASDAQ,"THL Credit, Inc.",$324.65M,$45611.58
+20,Rafaello,Swiffen,GGB,Capital Goods,NYSE,Gerdau S.A.,$4.61B,$13702.12
+21,Willette,Kehir,ASB^D,n/a,NYSE,Associated Banc-Corp,n/a,$64539.18
+22,Duky,Cordero,REGN,Health Care,NASDAQ,"Regeneron Pharmaceuticals, Inc.",$48.88B,$54101.96
+23,Glenda,Alldis,XENT,Health Care,NASDAQ,"Intersect ENT, Inc.",$749.53M,$71745.43
+24,Emilio,Draysay,IIPR,Finance,NYSE,"Innovative Industrial Properties, Inc.",$61.03M,$15714.31
+25,Hewitt,Ferrone,TACOW,Consumer Services,NASDAQ,"Del Taco Restaurants, Inc.",n/a,$68943.76
+26,Cassandre,Duerden,NW^C,Finance,NYSE,Natl Westminster Pfd,n/a,$31113.99
+27,Benny,Trout,LLY,Health Care,NYSE,Eli Lilly and Company,$90.35B,$21841.38
+28,Aloysia,Roseborough,NNDM,Technology,NASDAQ,Nano Dimension Ltd.,$60.98M,$61440.61
+29,Novelia,Ruggs,MGM,Consumer Services,NYSE,MGM Resorts International,$18.74B,$38860.77
+30,Pernell,Goslin,MYE,Consumer Non-Durables,NYSE,"Myers Industries, Inc.",$551.95M,$77188.25
+31,Angus,Twigger,EEX,Miscellaneous,NYSE,"Emerald Expositions Events, Inc.",$1.6B,$62524.23
+32,Hildegarde,Godridge,OLN,Basic Industries,NYSE,Olin Corporation,$4.89B,$8039.20
+33,Efren,Bennough,AERI,Health Care,NASDAQ,"Aerie Pharmaceuticals, Inc.",$1.8B,$25298.85
+34,Julius,Dewes,TBBK,Finance,NASDAQ,"The Bancorp, Inc.",$400.41M,$35501.85
+35,Jessika,Meneer,PSTG,Technology,NYSE,"Pure Storage, Inc. ",$2.77B,$32444.69
+36,Cyrus,Spry,LABL,Miscellaneous,NASDAQ,Multi-Color Corporation,$1.46B,$45727.58
+37,Pooh,Villaron,TG,Capital Goods,NYSE,Tredegar Corporation,$518.61M,$59163.85
+38,Eldredge,Polglaze,UNT,Energy,NYSE,Unit Corporation,$967.2M,$94423.25
+39,Akim,Leighton,MYCC,Consumer Services,NYSE,"ClubCorp Holdings, Inc.",$871.53M,$61576.36
+40,Shanan,McShane,STI^A,n/a,NYSE,"SunTrust Banks, Inc.",n/a,$92424.10
+41,Jone,Arnald,DTY,Public Utilities,NYSE,DTE Energy Company,n/a,$33984.35
+42,Bernie,Naris,WMAR,Consumer Durables,NASDAQ,"West Marine, Inc.",$245.88M,$81874.44
+43,Vilhelmina,Braisher,ASRV,Finance,NASDAQ,AmeriServ Financial Inc.,$76.54M,$52328.51
+44,Brander,Carlsen,HTLD,Transportation,NASDAQ,"Heartland Express, Inc.",$1.73B,$38431.85
+45,Francyne,Girardey,PRE^I,n/a,NYSE,PartnerRe Ltd.,n/a,$60980.55
+46,Yolande,Petrovsky,MTSI,Technology,NASDAQ,"MACOM Technology Solutions Holdings, Inc.",$3.57B,$80695.19
+47,Jennifer,Lots,HBMD,Finance,NASDAQ,"Howard Bancorp, Inc.",$184.1M,$22422.92
+48,Adore,Copley,NRE,Consumer Services,NYSE,NorthStar Realty Europe Corp.,$703.42M,$98206.94
+49,Cecilla,Duffil,HRS,Capital Goods,NYSE,Harris Corporation,$13.26B,$41980.44
+50,Benedikta,Osbourne,MTB^,n/a,NYSE,M&T Bank Corporation,n/a,$80959.58
+51,Sena,Haldene,DTLA^,n/a,NYSE,Brookfield DTLA Inc.,n/a,$88388.10
+52,Daryl,Kinnie,RNET,Consumer Services,NASDAQ,"RigNet, Inc.",$303.87M,$98010.01
+53,Isadora,Terron,NTEC,Health Care,NASDAQ,Intec Pharma Ltd.,$74.19M,$52935.47
+54,Anabal,Hares,BBG,Energy,NYSE,Bill Barrett Corporation,$252.54M,$51139.17
+55,Kittie,Blaby,CLIRW,Capital Goods,NASDAQ,ClearSign Combustion Corporation,n/a,$11067.37
+56,Donia,Ostick,AGR,Public Utilities,NYSE,"Avangrid, Inc.",$14.16B,$69220.88
+57,Sax,Benneyworth,BBK,n/a,NYSE,Blackrock Municipal Bond Trust,$162.03M,$15511.31
+58,Rodd,O'Codihie,AMTX,Basic Industries,NASDAQ,"Aemetis, Inc",$29.54M,$76324.03
+59,Clim,Ludwig,ELOS,Health Care,NASDAQ,Syneron Medical Ltd.,$385.8M,$11915.55
+60,Gilligan,Geikie,KEY^I,n/a,NYSE,KeyCorp,n/a,$33744.67
+61,Micky,Laurant,FLXN,Health Care,NASDAQ,"Flexion Therapeutics, Inc.",$546.87M,$76819.23
+62,Zonda,cornhill,XBIT,Health Care,NASDAQ,XBiotech Inc.,$151.04M,$89474.58
+63,Concordia,Brosoli,RNWK,Technology,NASDAQ,"RealNetworks, Inc.",$165.47M,$13890.47
+64,Latrina,Billyard,TCF^C,n/a,NYSE,TCF Financial Corporation,n/a,$8574.56
+65,Cammie,Iglesias,CETV,Consumer Services,NASDAQ,Central European Media Enterprises Ltd.,$613.79M,$3304.75
+66,Evan,Fleming,FCBC,Finance,NASDAQ,"First Community Bancshares, Inc.",$473.38M,$41402.11
+67,Avigdor,Deighton,JEC,Basic Industries,NYSE,Jacobs Engineering Group Inc.,$6.48B,$27748.88
+68,Lizzy,Stronghill,GMRE,Consumer Services,NYSE,Global Medical REIT Inc.,$164.26M,$59562.60
+69,Quinta,Hilley,TEP,Public Utilities,NYSE,"Tallgrass Energy Partners, LP",$3.4B,$40229.96
+70,Morly,Giraldon,CVO,Consumer Durables,NYSE,Cenveo Inc,$52.17M,$88679.37
+71,Isidora,Sudworth,FARM,Consumer Non-Durables,NASDAQ,Farmer Brothers Company,$517.13M,$10490.48
+72,Cathe,O'Cahill,JOF,n/a,NYSE,Japan Smaller Capitalization Fund Inc,$327.82M,$24483.34
+73,Antonella,Hens,COF^P,n/a,NYSE,Capital One Financial Corporation,n/a,$98025.96
+74,Ardelle,Lovstrom,MS^E,n/a,NYSE,Morgan Stanley,n/a,$95987.26
+75,Erin,Briztman,PRXL,Health Care,NASDAQ,PAREXEL International Corporation,$4.24B,$29047.14
+76,Leodora,Clemence,PCLN,Miscellaneous,NASDAQ,The Priceline Group Inc. ,$88.58B,$65282.80
+77,Alison,Tidswell,ESND,Consumer Services,NASDAQ,Essendant Inc.,$560.24M,$94073.47
+78,Walliw,Burnett,TERP,Public Utilities,NASDAQ,"TerraForm Power, Inc.",$1.71B,$7220.47
+79,Hali,Chuck,GRIF,Finance,NASDAQ,"Griffin Industrial Realty, Inc.",$157.67M,$8453.17
+80,Ashbey,Sor,PWOD,Finance,NASDAQ,"Penns Woods Bancorp, Inc.",$195.66M,$358.64
+81,Krissy,Mothersdale,ENH^C,n/a,NYSE,Endurance Specialty Holdings Ltd,n/a,$95370.42
+82,Edd,Barltrop,NOW,Technology,NYSE,"ServiceNow, Inc.",$17.19B,$54153.69
+83,Dilan,Laurisch,WALA,Finance,NYSE,Western Alliance Bancorporation,n/a,$27803.49
+84,Donal,Greber,MIIIU,Finance,NASDAQ,M III Acquisition Corp.,n/a,$47231.65
+85,Stanley,Edwin,BML^G,n/a,NYSE,Bank of America Corporation,n/a,$39967.35
+86,Jonis,Norcliff,AVAV,Capital Goods,NASDAQ,"AeroVironment, Inc.",$727.12M,$67737.27
+87,Tilly,Waymont,DXGE,n/a,NASDAQ,WisdomTree Germany Hedged Equity Fund,$129.61M,$35811.04
+88,Hugues,Sweetnam,VIPS,Consumer Services,NYSE,Vipshop Holdings Limited,$6.96B,$55243.12
+89,Joell,Wandless,LILA,Consumer Services,NASDAQ,Liberty Global plc,$3.5B,$22404.23
+90,Berthe,Lampe,AFGH,Finance,NYSE,"American Financial Group, Inc.",n/a,$35543.94
+91,Lay,Maymond,CSWC,n/a,NASDAQ,Capital Southwest Corporation,$258.42M,$70985.00
+92,Ernestine,Habershaw,CGIX,Health Care,NASDAQ,"Cancer Genetics, Inc.",$72.13M,$59430.54
+93,Cacilie,Ratlee,FTFT,Consumer Non-Durables,NASDAQ,Future FinTech Group Inc.,$13.09M,$62789.52
+94,Franzen,Stovell,PCYG,Technology,NASDAQ,"Park City Group, Inc.",$233.93M,$2065.83
+95,Jordan,Ephson,ECCZ,n/a,NYSE,Eagle Point Credit Company Inc.,n/a,$77253.43
+96,Vladamir,Sterling,LNC.WS,n/a,NYSE,Lincoln National Corporation,n/a,$62044.55
+97,Rick,Pepperd,OPHT,Health Care,NASDAQ,Ophthotech Corporation,$93.93M,$51431.09
+98,Zollie,Simper,GPT^A,n/a,NYSE,Gramercy Property Trust Inc.,n/a,$59825.75
+99,Gustavo,Luxmoore,IHC,Finance,NYSE,Independence Holding Company,$330.01M,$14029.59
+100,Clemens,Pringley,WLB,Energy,NASDAQ,Westmoreland Coal Company,$94.06M,$57114.30
+101,Hilarius,Lilie,DNR,Energy,NYSE,Denbury Resources Inc.,$569.62M,$31917.98
+102,Elke,Ginger,MYC,n/a,NYSE,"Blackrock MuniYield California Fund, Inc.",$326.9M,$83189.72
+103,Tiffy,Rojel,GLADO,n/a,NASDAQ,Gladstone Capital Corporation,$56.32M,$56845.96
+104,Mufi,Crabb,BKEPP,Energy,NASDAQ,"Blueknight Energy Partners L.P., L.L.C.",$237.43M,$1107.77
+105,Oliy,Bingley,CMCSA,Consumer Services,NASDAQ,Comcast Corporation,$195.79B,$51843.86
+106,Carmelle,Pinck,PGR,Finance,NYSE,Progressive Corporation (The),$26.04B,$80605.40
+107,Ingaborg,Westnage,TARO,Health Care,NYSE,Taro Pharmaceutical Industries Ltd.,$4.57B,$71592.70
+108,Hannah,Chappell,INGR,Consumer Non-Durables,NYSE,Ingredion Incorporated,$8.52B,$38306.33
+109,Uri,Baron,SLCA,Basic Industries,NYSE,"U.S. Silica Holdings, Inc.",$2.75B,$24610.74
+110,Arney,Asquith,LTBR,Consumer Services,NASDAQ,Lightbridge Corporation,$15.36M,$51373.72
+111,Cassy,Bourtoumieux,CPST,Energy,NASDAQ,Capstone Turbine Corporation,$28.65M,$28390.35
+112,Abbye,Siddle,JSYN,Finance,NASDAQ,Jensyn Acquistion Corp.,$52.88M,$97741.45
+113,Dorthy,Curthoys,AHPAW,Finance,NASDAQ,Avista Healthcare Public Acquisition Corp.,n/a,$59057.62
+114,Lion,Chalder,GBLIL,Finance,NASDAQ,Global Indemnity Limited,n/a,$156.96
+115,Phyllys,Grafham,GDV,n/a,NYSE,Gabelli Dividend,$1.81B,$31348.54
+116,Alfi,Massei,CORI,Health Care,NASDAQ,"Corium International, Inc.",$267.54M,$4930.94
+117,Jemie,Jantzen,SN,Energy,NYSE,Sanchez Energy Corporation,$618.24M,$58266.54
+118,Zorah,Ivanchov,GTT,Public Utilities,NYSE,"GTT Communications, Inc.",$1.35B,$43170.19
+119,Clo,Beeswing,BERY,Consumer Non-Durables,NYSE,"Berry Global Group, Inc.",$7.48B,$66673.26
+120,Jorie,Mucillo,GDL,n/a,NYSE,The GDL Fund,$186.14M,$68359.22
+121,Reagan,Boyde,LDL,Capital Goods,NYSE,"Lydall, Inc.",$907.09M,$89158.38
+122,Kendell,Borleace,GLT,Basic Industries,NYSE,Glatfelter,$845.9M,$45590.80
+123,Wenonah,Turfs,SPG^J,n/a,NYSE,"Simon Property Group, Inc.",n/a,$73665.50
+124,Ernestus,Dilks,NSA,Consumer Services,NYSE,National Storage Affiliates Trust,$990.02M,$26140.59
+125,Meridel,Mannering,ETY,n/a,NYSE,Eaton Vance Tax-Managed Diversified Equity Income Fund,$1.73B,$4575.87
+126,Celinda,Dafydd,MBFIP,Finance,NASDAQ,MB Financial Inc.,$104.92M,$72881.21
+127,Vince,O'Toole,BABY,Health Care,NASDAQ,Natus Medical Incorporated,$1.16B,$12872.93
+128,Selestina,Panyer,AGR,Public Utilities,NYSE,"Avangrid, Inc.",$14.16B,$71642.46
+129,Julissa,Blease,ECCZ,n/a,NYSE,Eagle Point Credit Company Inc.,n/a,$17230.67
+130,Trula,Sailer,DTUS,Finance,NASDAQ,iPath US Treasury 2-year Bear ETN,$8M,$981.92
+131,Marcile,Blooman,GOL,Transportation,NYSE,Gol Linhas Aereas Inteligentes S.A.,$6.06B,$8054.38
+132,Boyce,Glazzard,CHRW,Transportation,NASDAQ,"C.H. Robinson Worldwide, Inc.",$9.87B,$25555.43
+133,Rivalee,Rudwell,BOKFL,Finance,NASDAQ,BOK Financial Corporation,n/a,$73865.77
+134,Raye,Cabrera,ELVT,Finance,NYSE,"Elevate Credit, Inc.",$349.39M,$96396.50
+135,Leia,Louis,SC,Finance,NYSE,Santander Consumer USA Holdings Inc.,$4.15B,$58897.77
+136,Adel,Threadgould,COVS,Technology,NASDAQ,Covisint Corporation,$99.1M,$56937.66
+137,Doyle,Dowyer,CHU,Public Utilities,NYSE,China Unicom (Hong Kong) Ltd,$34.75B,$62249.85
+138,Kerwin,Circuit,FCN,Consumer Services,NYSE,"FTI Consulting, Inc.",$1.34B,$73375.47
+139,Ashleigh,Skelhorn,NVTR,Health Care,NASDAQ,Nuvectra Corporation,$132.49M,$24963.74
+140,Johannah,Dickerline,WMK,Consumer Services,NYSE,"Weis Markets, Inc.",$1.3B,$60797.82
+141,Torin,Ivatt,SAMG,Finance,NASDAQ,Silvercrest Asset Management Group Inc.,$172.77M,$2366.71
+142,Raven,Galle,VRNT,Technology,NASDAQ,Verint Systems Inc.,$2.54B,$2245.07
+143,Brett,Cato,CGI,Transportation,NYSE,"Celadon Group, Inc.",$86.31M,$67797.57
+144,Albie,Addams,TCF^C,n/a,NYSE,TCF Financial Corporation,n/a,$99940.00
+145,Brant,Crowter,DRA,n/a,NYSE,Diversified Real Asset Income Fund,$311.58M,$25860.79
+146,Brit,Bliss,FIVE,Consumer Services,NASDAQ,"Five Below, Inc.",$2.65B,$71096.01
+147,Feliza,Morratt,GBLIL,Finance,NASDAQ,Global Indemnity Limited,n/a,$60703.08
+148,Sylvester,Chapleo,OCRX,Health Care,NASDAQ,"Ocera Therapeutics, Inc.",$25.45M,$48633.57
+149,Gorden,Rasell,SPLS,Consumer Services,NASDAQ,"Staples, Inc.",$5.75B,$60947.79
+150,Pauly,Hardway,MS^A,n/a,NYSE,Morgan Stanley,n/a,$3718.36
+151,Tiffany,Breckon,EVRI,Finance,NYSE,Everi Holdings Inc.,$467.31M,$59068.11
+152,Biddie,Vedyasov,COR,Consumer Services,NYSE,CoreSite Realty Corporation,$3.73B,$15218.85
+153,Alex,Hooban,TATT,Capital Goods,NASDAQ,TAT Technologies Ltd.,$95.35M,$2861.39
+154,Annetta,Hrishchenko,MOXC,Technology,NASDAQ,"Moxian, Inc.",$221.12M,$3298.36
+155,Bordy,Beetles,GPT,Consumer Services,NYSE,Gramercy Property Trust,$4.59B,$60647.60
+156,Bone,Rigolle,CBL^D,n/a,NYSE,"CBL & Associates Properties, Inc.",n/a,$3027.22
+157,Essy,Deverille,BBDO,Finance,NYSE,Banco Bradesco Sa,$49.29B,$13028.91
+158,Gillie,Kenion,EYESW,Health Care,NASDAQ,"Second Sight Medical Products, Inc.",n/a,$42881.62
+159,Osborne,Bigadike,MSDI,Technology,NASDAQ,"Monster Digital, Inc.",$4.11M,$20964.05
+160,Dennis,Tremelling,DCUC,Public Utilities,NYSE,"Dominion Energy, Inc.",$32.02B,$65069.38
+161,Dela,Brockington,PVBC,Finance,NASDAQ,"Provident Bancorp, Inc.",$231.87M,$38131.84
+162,Lynnea,Gringley,DTV,Public Utilities,NYSE,DTE Energy Company,n/a,$72537.14
+163,Gerhardine,Kirdsch,SF,Finance,NYSE,Stifel Financial Corporation,$3.11B,$57439.62
+164,Nicolai,Gioan,CUZ,Consumer Services,NYSE,Cousins Properties Incorporated,$3.77B,$67364.11
+165,Kirstin,Smullin,FTC,n/a,NASDAQ,First Trust Large Cap Growth AlphaDEX Fund,$646.76M,$44126.43
+166,Mair,Biggen,ERII,Technology,NASDAQ,"Energy Recovery, Inc.",$417.85M,$89645.32
+167,Dona,De Dantesie,SXT,Basic Industries,NYSE,Sensient Technologies Corporation,$3.62B,$18495.77
+168,Trace,Olivello,ESND,Consumer Services,NASDAQ,Essendant Inc.,$560.24M,$79520.43
+169,Korney,Labba,DHF,n/a,NYSE,Dreyfus High Yield Strategies Fund,$255.93M,$64946.64
+170,Alanah,Ivakhnov,GJR,n/a,NYSE,"Synthetic Fixed-Income Securities, Inc.",n/a,$8143.66
+171,Lurlene,Gorrie,AMBC,Finance,NASDAQ,"Ambac Financial Group, Inc.",$721.4M,$14136.87
+172,Brooke,Ormond,CUDA,Technology,NYSE,"Barracuda Networks, Inc.",$1.17B,$71053.94
+173,Carleen,Goodred,BNTCW,Health Care,NASDAQ,Benitec Biopharma Limited,n/a,$71606.67
+174,Rhodia,Delagnes,BDE,Consumer Non-Durables,NASDAQ,"Black Diamond, Inc.",$195.09M,$90910.03
+175,Sylvester,Birdis,CBD,Consumer Services,NYSE,Companhia Brasileira de Distribuicao,$5.41B,$80977.02
+176,Rolf,Orring,EPC,Consumer Non-Durables,NYSE,"Energizer Holdings, Inc.",$4.34B,$16111.18
+177,Margy,Scholey,SAFT,Finance,NASDAQ,"Safety Insurance Group, Inc.",$1.06B,$61390.08
+178,Nataniel,Buttery,CFBK,Finance,NASDAQ,Central Federal Corporation,$35.67M,$30789.79
+179,Boy,Yeabsley,LTC,Consumer Services,NYSE,"LTC Properties, Inc.",$1.98B,$4041.33
+180,Adela,Preshaw,EFOI,Consumer Durables,NASDAQ,"Energy Focus, Inc.",$33.57M,$57355.67
+181,Greg,Sigg,CX,Capital Goods,NYSE,Cemex S.A.B. de C.V.,$4.5B,$61677.73
+182,Wayne,La Batie,VRSK,Technology,NASDAQ,"Verisk Analytics, Inc.",$13.75B,$91606.38
+183,Lief,Ferri,CHSCN,Consumer Services,NASDAQ,CHS Inc,$497.62M,$65559.76
+184,Pryce,Blythe,Y,Finance,NYSE,Alleghany Corporation,$9.37B,$39620.58
+185,Nestor,Tarbett,TMHC,Capital Goods,NYSE,Taylor Morrison Home Corporation,$2.88B,$55931.22
+186,Ely,Bafford,ACTG,Miscellaneous,NASDAQ,Acacia Research Corporation,$192.23M,$33538.50
+187,Luciana,Shillaker,DVA,Health Care,NYSE,DaVita Inc.,$12.88B,$83895.37
+188,Henrieta,Stennard,ETM,Consumer Services,NYSE,Entercom Communications Corporation,$415.27M,$95751.45
+189,Marjie,Buffin,DNB,Finance,NYSE,Dun & Bradstreet Corporation (The),$3.91B,$68277.50
+190,Bethanne,Fowle,YRD,Finance,NYSE,Yirendai Ltd.,$1.41B,$9054.49
+191,Jard,Barford,VSDA,n/a,NASDAQ,VictoryShares Dividend Accelerator ETF,n/a,$25557.08
+192,Fania,Ahern,GILT,Technology,NASDAQ,Gilat Satellite Networks Ltd.,$228.44M,$77400.96
+193,Lev,Gallienne,FSTR,Basic Industries,NASDAQ,L.B. Foster Company,$202.5M,$50422.43
+194,Gabie,Asple,ABIL,Finance,NASDAQ,Ability Inc.,$31.94M,$50818.24
+195,Ripley,Ruddiman,CDR,Consumer Services,NYSE,"Cedar Realty Trust, Inc.",$440.65M,$34075.02
+196,Derwin,Williams,CYRN,Technology,NASDAQ,CYREN Ltd.,$80.33M,$7927.81
+197,Tera,Applebee,KEY,Finance,NYSE,KeyCorp,$20.32B,$52914.77
+198,Arabele,Galliver,EVHC,Health Care,NYSE,Envision Healthcare Corporation,$6.89B,$40397.04
+199,Fina,Glavis,PLW,n/a,NASDAQ,PowerShares 1-30 Laddered Treasury Portfolio,$183.15M,$59478.40
+200,Kelly,Byrd,SLIM,n/a,NASDAQ,The Obesity ETF,$2.61M,$1902.76
+201,Terrell,Claffey,QBAK,Technology,NASDAQ,Qualstar Corporation,$11.21M,$32744.50
+202,Lisle,Ping,DS^C,n/a,NYSE,Drive Shack Inc.,n/a,$76898.15
+203,Gennie,Heineken,ITRN,Consumer Non-Durables,NASDAQ,Ituran Location and Control Ltd.,$731.26M,$52525.37
+204,Ginnifer,Swindells,ABMD,Health Care,NASDAQ,"ABIOMED, Inc.",$6.28B,$64541.43
+205,Wynn,Acors,TPC,Basic Industries,NYSE,Tutor Perini Corporation,$1.32B,$82780.44
+206,Jo,Bellringer,FMK,n/a,NASDAQ,First Trust Mega Cap AlphaDEX Fund,$14.95M,$88646.95
+207,Fey,Rubartelli,TRIP,Technology,NASDAQ,"TripAdvisor, Inc.",$5.35B,$76014.45
+208,Warren,Aven,MINDP,Technology,NASDAQ,"Mitcham Industries, Inc.",n/a,$72033.40
+209,Goddart,Canner,ICFI,Consumer Services,NASDAQ,"ICF International, Inc.",$882.65M,$48226.04
+210,Mar,Alchin,WU,Miscellaneous,NYSE,Western Union Company (The),$8.99B,$69885.14
+211,Jordain,Markussen,CAAS,Capital Goods,NASDAQ,"China Automotive Systems, Inc.",$152.21M,$35198.67
+212,Brita,Doring,NOV,Energy,NYSE,"National Oilwell Varco, Inc.",$12.79B,$45657.10
+213,Evangelin,Bruford,LB,Consumer Services,NYSE,"L Brands, Inc.",$14.79B,$71998.88
+214,Leigh,Razzell,IDRA,Health Care,NASDAQ,"Idera Pharmaceuticals, Inc.",$237.15M,$49278.33
+215,Elwira,Dellar,MYOK,Health Care,NASDAQ,"MyoKardia, Inc.",$445.1M,$66137.52
+216,Vittoria,Krauze,DRIOW,Health Care,NASDAQ,DarioHealth Corp.,n/a,$47958.24
+217,Ariana,Sulman,PN,Finance,NYSE,"Patriot National, Inc.",$64.46M,$49231.68
+218,Stanleigh,Le Batteur,MCHP,Technology,NASDAQ,Microchip Technology Incorporated,$18.63B,$3495.86
+219,Jacquenette,Osinin,KEYW,Technology,NASDAQ,The KEYW Holding Corporation,$447.05M,$68970.31
+220,Crichton,Scrowston,CVBF,Finance,NASDAQ,CVB Financial Corporation,$2.45B,$87978.23
+221,Eryn,Purkis,FIX,Capital Goods,NYSE,"Comfort Systems USA, Inc.",$1.33B,$1372.46
+222,Jacinda,Gramer,RICE,Energy,NYSE,Rice Energy Inc.,$4.04B,$97984.82
+223,Nanine,Dudgeon,BHACU,Finance,NASDAQ,Barington/Hilco Acquisition Corp.,n/a,$70341.50
+224,Betta,Lago,CPRX,Health Care,NASDAQ,"Catalyst Pharmaceuticals, Inc.",$193.55M,$38981.73
+225,Crin,McIlvenny,PVH,Consumer Non-Durables,NYSE,PVH Corp.,$8.18B,$51881.11
+226,Florencia,Brahm,CETX,Capital Goods,NASDAQ,Cemtrex Inc.,$32.63M,$82765.11
+227,Keriann,Wittey,ETJ,n/a,NYSE,Eaton Vance Risk-Managed Diversified Equity Income Fund,$601.02M,$65563.21
+228,Thelma,Cowdry,KIO,n/a,NYSE,KKR Income Opportunities Fund,$271.7M,$97757.18
+229,Chandal,Kimbrey,SID,Capital Goods,NYSE,National Steel Company,$2.51B,$33271.41
+230,Gleda,Priddie,THFF,Finance,NASDAQ,First Financial Corporation Indiana,$587.96M,$78488.12
+231,Erin,Fortman,RDUS,Health Care,NASDAQ,"Radius Health, Inc.",$1.77B,$39427.51
+232,Raffaello,Verring,GRIF,Finance,NASDAQ,"Griffin Industrial Realty, Inc.",$157.67M,$79465.66
+233,Maribelle,Carvil,BHE,Technology,NYSE,"Benchmark Electronics, Inc.",$1.65B,$64752.53
+234,Karil,Hacker,DSPG,Technology,NASDAQ,"DSP Group, Inc.",$258.27M,$52655.44
+235,Frederik,Hellings,HTBX,Health Care,NASDAQ,"Heat Biologics, Inc.",$21.55M,$43215.08
+236,Geoffrey,Haining,JAZZ,Health Care,NASDAQ,Jazz Pharmaceuticals plc,$9B,$57718.22
+237,Haven,Pridie,WES,Public Utilities,NYSE,"Western Gas Partners, LP",$8.39B,$61478.84
+238,Jan,Bretton,MUI,n/a,NYSE,Blackrock Muni Intermediate Duration Fund Inc,$539.98M,$4507.54
+239,Nessi,Hugnet,APOP,n/a,NASDAQ,Cellect Biotechnology Ltd.,$43.5M,$30442.19
+240,Lionel,Carreyette,MRTN,Transportation,NASDAQ,"Marten Transport, Ltd.",$905.46M,$73840.42
+241,Korella,Danels,RDVY,n/a,NASDAQ,First Trust Rising Dividend Achievers ETF,$200.93M,$95647.27
+242,Gearard,Kinzel,TPIC,Energy,NASDAQ,"TPI Composites, Inc.",$590.4M,$32679.21
+243,Roxine,D'Elias,PG,Basic Industries,NYSE,Procter & Gamble Company (The),$229.32B,$68764.33
+244,Verene,Matterdace,ZYNE,Health Care,NASDAQ,"Zynerba Pharmaceuticals, Inc.",$225.51M,$98806.49
+245,Padraic,Doerling,RELY,Consumer Non-Durables,NASDAQ,"Real Industry, Inc. ",$90.88M,$99981.80
+246,Eartha,Jennings,GLBL,Public Utilities,NASDAQ,"TerraForm Global, Inc.",$871.78M,$21885.44
+247,Farris,Rizon,ADBE,Technology,NASDAQ,Adobe Systems Incorporated,$68.19B,$85647.93
+248,Cele,Cripin,RAIL,Capital Goods,NASDAQ,"Freightcar America, Inc.",$212.14M,$15719.41
+249,Tomlin,Skull,AHT^D,n/a,NYSE,Ashford Hospitality Trust Inc,n/a,$8148.10
+250,Florry,Caisley,SUI,Consumer Services,NYSE,"Sun Communities, Inc.",$7.17B,$77692.48
+251,Zea,Passo,DFS,Finance,NYSE,Discover Financial Services,$23.23B,$84688.40
+252,Cassaundra,McLarens,VBIV,Health Care,NASDAQ,"VBI Vaccines, Inc.",$180.27M,$21714.70
+253,Nicolai,Axelbey,SSW,Transportation,NYSE,Seaspan Corporation,$649.92M,$61303.41
+254,Tore,Artindale,HAL,Energy,NYSE,Halliburton Company,$38.42B,$2448.01
+255,Sibyl,Upston,CHKR,Energy,NYSE,Chesapeake Granite Wash Trust,$112.2M,$53742.49
+256,Debor,Gooke,CFCO,Finance,NASDAQ,CF Corporation,$966M,$75049.38
+257,Curr,Cossam,RYAAY,Transportation,NASDAQ,Ryanair Holdings plc,$26.42B,$86215.18
+258,Berti,Le Batteur,AVEO,Health Care,NASDAQ,"AVEO Pharmaceuticals, Inc.",$84.3M,$89182.45
+259,Dorena,Peppard,ABT,Health Care,NYSE,Abbott Laboratories,$83.66B,$71371.62
+260,Simone,Gravey,EDUC,Consumer Durables,NASDAQ,Educational Development Corporation,$42.15M,$95258.35
+261,Selestina,Boughey,NEE^I,n/a,NYSE,"NextEra Energy, Inc.",n/a,$71372.74
+262,Jessamine,Gillis,JCS,Public Utilities,NASDAQ,"Communications Systems, Inc.",$42.39M,$87736.63
+263,Gale,Benardette,AKAM,Miscellaneous,NASDAQ,"Akamai Technologies, Inc.",$8.56B,$18976.94
+264,Yalonda,Dowty,VDSI,Technology,NASDAQ,"VASCO Data Security International, Inc.",$526.59M,$15368.00
+265,Ddene,Faich,INF,n/a,NYSE,Brookfield Global Listed Infrastructure Income Fund,$188.64M,$62765.58
+266,Charmain,Arntzen,CYH,Health Care,NYSE,"Community Health Systems, Inc.",$1.03B,$19770.87
+267,Consolata,Porteous,NUS,Health Care,NYSE,"Nu Skin Enterprises, Inc.",$3.09B,$96740.89
+268,Daisi,Osborn,SMP,Capital Goods,NYSE,"Standard Motor Products, Inc.",$1.15B,$76585.29
+269,Zerk,Nucci,ACTG,Miscellaneous,NASDAQ,Acacia Research Corporation,$192.23M,$15873.31
+270,Saxon,Williment,GTXI,Health Care,NASDAQ,"GTx, Inc.",$73.95M,$45848.05
+271,Quillan,Artus,CALI,Consumer Services,NASDAQ,China Auto Logistics Inc.,$8.19M,$21765.54
+272,Robby,Corneljes,CBZ,Miscellaneous,NYSE,"CBIZ, Inc.",$824M,$66788.87
+273,Tildie,Eccleston,INFO,Technology,NASDAQ,IHS Markit Ltd.,$19.34B,$61770.91
+274,Dennison,Spitell,COG,Energy,NYSE,Cabot Oil & Gas Corporation,$10.76B,$17575.24
+275,Caria,Cockburn,INTC,Technology,NASDAQ,Intel Corporation,$165.8B,$39922.37
+276,Roderich,Gellert,PFN,n/a,NYSE,PIMCO Income Strategy Fund II,$620.13M,$93486.99
+277,Nancy,Fust,RGEN,Health Care,NASDAQ,Repligen Corporation,$1.3B,$45622.59
+278,Adamo,Shilladay,VTHR,n/a,NASDAQ,Vanguard Russell 3000 ETF,$333.23M,$92481.25
+279,Elle,Smalles,FEMS,n/a,NASDAQ,First Trust Emerging Markets Small Cap AlphaDEX Fund,$200.51M,$75405.85
+280,Tadeo,Tzar,CBT,Basic Industries,NYSE,Cabot Corporation,$3.38B,$22616.42
+281,Rodrick,Thow,CLA.CL,n/a,NYSE,Capitala Finance Corp.,n/a,$82081.17
+282,Nikolaus,Ivanenkov,EARN,Consumer Services,NYSE,Ellington Residential Mortgage REIT,$140.16M,$64968.98
+283,Jedidiah,Shotter,DO,Energy,NYSE,"Diamond Offshore Drilling, Inc.",$1.61B,$28410.89
+284,Elita,Diego,SQM,Basic Industries,NYSE,Sociedad Quimica y Minera S.A.,$9.06B,$23658.39
+285,Barbe,Swaton,AMD,Technology,NASDAQ,"Advanced Micro Devices, Inc.",$10.81B,$57079.20
+286,Jenny,Kempston,BBDO,Finance,NYSE,Banco Bradesco Sa,$49.29B,$12717.18
+287,Angelo,Yarr,ASNA,Consumer Services,NASDAQ,"Ascena Retail Group, Inc.",$425.18M,$65131.20
+288,Rozalin,Monsey,WILC,Consumer Non-Durables,NASDAQ,"G. Willi-Food International,  Ltd.",$92.42M,$21023.50
+289,Starla,Blenkharn,DDF,n/a,NYSE,"Delaware Investments Dividend & Income Fund, Inc.",$85.38M,$27452.93
+290,Ancell,Filson,EVLV,Consumer Services,NASDAQ,EVINE Live Inc.,$67.58M,$93707.55
+291,Carolann,Greser,WTR,Public Utilities,NYSE,"Aqua America, Inc.",$6.1B,$18830.38
+292,Francine,Nowakowski,JSYNR,Finance,NASDAQ,Jensyn Acquistion Corp.,n/a,$61011.69
+293,Winny,Gooble,BSET,Consumer Durables,NASDAQ,"Bassett Furniture Industries, Incorporated",$342.51M,$60473.65
+294,Giles,Fellos,WSM,Consumer Services,NYSE,"Williams-Sonoma, Inc.",$4.16B,$10741.70
+295,Clare,Compfort,ROYT,Energy,NYSE,Pacific Coast Oil Trust,$61.73M,$25297.89
+296,Dru,Ravel,SYY,Consumer Non-Durables,NYSE,Sysco Corporation,$29.1B,$32654.95
+297,Timothee,Plumridge,EHT,n/a,NYSE,Eaton Vance High Income 2021 Target Term Trust,$216.11M,$89482.66
+298,Blondy,Duggon,FMY,n/a,NYSE,First Trust,$59.41M,$73973.29
+299,Romona,Yakobowitz,FTD,Consumer Services,NASDAQ,"FTD Companies, Inc.",$505.61M,$79454.65
+300,Dorie,Kubasiewicz,SNDE,Energy,NASDAQ,Sundance Energy Australia Limited,$68.96M,$38712.79
+301,Berky,Backen,ADRO,Health Care,NASDAQ,"Aduro Biotech, Inc.",$737.59M,$8837.52
+302,Pamella,Conrart,CHL,Public Utilities,NYSE,China Mobile (Hong Kong) Ltd.,$220.68B,$29071.16
+303,Clarita,Suggett,SRUNW,Finance,NASDAQ,Silver Run Acquisition Corporation II,n/a,$82996.37
+304,Elsa,Newens,SCD,n/a,NYSE,LMP Capital and Income Fund Inc.,$258.6M,$78849.53
+305,Cami,Gauson,HOG,Consumer Non-Durables,NYSE,"Harley-Davidson, Inc.",$9.71B,$12130.90
+306,Rory,Sinden,LMBS,n/a,NASDAQ,First Trust Low Duration Opportunities ETF,$582.59M,$88909.72
+307,Finlay,Warlton,DJCO,Consumer Services,NASDAQ,Daily Journal Corp. (S.C.),$295.19M,$9464.45
+308,Amanda,Dury,VKQ,n/a,NYSE,Invesco Municipal Trust,$710.31M,$10012.79
+309,June,Load,MPWR,Technology,NASDAQ,"Monolithic Power Systems, Inc.",$4.01B,$76791.78
+310,Kurtis,Chason,AGTC,Health Care,NASDAQ,Applied Genetic Technologies Corporation,$91.32M,$81751.24
+311,Eberto,Divill,BMLA,n/a,NASDAQ,BullMark LatAm Select Leaders ETF,n/a,$17179.97
+312,Luke,Echelle,ARRY,Health Care,NASDAQ,Array BioPharma Inc.,$1.28B,$14148.13
+313,Goldy,Rolfini,PFIE,Energy,NASDAQ,"Profire Energy, Inc.",$63.6M,$38526.29
+314,Brig,Oliveti,RIG,Energy,NYSE,Transocean Ltd.,$3.37B,$96634.53
+315,Sunshine,Hobble,KBR,Basic Industries,NYSE,"KBR, Inc.",$2.13B,$79642.37
+316,Micheline,O'Grady,ATHM,Technology,NYSE,Autohome Inc.,$5.07B,$50292.86
+317,Marnie,Conklin,HMSY,Miscellaneous,NASDAQ,HMS Holdings Corp,$1.59B,$75500.51
+318,Tirrell,Humblestone,BBBY,Consumer Services,NASDAQ,Bed Bath & Beyond Inc.,$5.09B,$4848.47
+319,Teirtza,McArd,LPT,Consumer Services,NYSE,Liberty Property Trust,$6.25B,$2858.06
+320,Jodi,Forkan,BCR,Health Care,NYSE,"C.R. Bard, Inc.",$22.71B,$8395.32
+321,Fayre,Cattow,CRR,Capital Goods,NYSE,"Carbo Ceramics, Inc.",$178.04M,$55108.31
+322,Carlota,Ewins,EMCG,n/a,NASDAQ,WisdomTree Emerging Markets Consumer Growth Fund,$25.85M,$2226.12
+323,Ibbie,Ramard,MSBI,Finance,NASDAQ,"Midland States Bancorp, Inc.",$655.78M,$71856.33
+324,Emery,Dockerty,NPK,Capital Goods,NYSE,"National Presto Industries, Inc.",$776.78M,$85249.33
+325,Elvin,Spilsburie,UNP,Transportation,NYSE,Union Pacific Corporation,$89.93B,$80910.59
+326,Jerry,Aherne,AHL^D,n/a,NYSE,Aspen Insurance Holdings Limited,n/a,$8056.80
+327,Sullivan,Ahrenius,MOD,Capital Goods,NYSE,Modine Manufacturing Company,$833.83M,$75381.45
+328,Denys,Jowitt,AGZD,n/a,NASDAQ,WisdomTree Barclays Interest Rate Hedged U.S. Aggregate Bond F,$23.97M,$60566.83
+329,Mona,Fills,HMN,Finance,NYSE,Horace Mann Educators Corporation,$1.59B,$906.91
+330,Danica,Ortler,LCAHU,Finance,NASDAQ,"Landcadia Holdings, Inc.",n/a,$11429.23
+331,Adrian,Ead,SFNC,Finance,NASDAQ,Simmons First National Corporation,$1.7B,$90352.15
+332,Libbi,Blethyn,MIIIW,Finance,NASDAQ,M III Acquisition Corp.,n/a,$22334.31
+333,Darrel,Nolot,REXR^A,n/a,NYSE,"Rexford Industrial Realty, Inc.",n/a,$76821.47
+334,Darleen,Le Floch,GENE,Health Care,NASDAQ,Genetic Technologies Ltd,$12.31M,$55320.60
+335,Colman,Lewens,SNDX,Health Care,NASDAQ,"Syndax Pharmaceuticals, Inc.",$204.47M,$99626.29
+336,Harald,Grushin,MHO^A,n/a,NYSE,"M/I Homes, Inc.",n/a,$34736.74
+337,Devy,Ladewig,TESO,Energy,NASDAQ,Tesco Corporation,$186.89M,$30635.19
+338,Brigitta,Rivalant,APTO,Health Care,NASDAQ,"Aptose Biosciences, Inc.",$22.73M,$46902.28
+339,Stephanie,Stapells,IRIX,Health Care,NASDAQ,IRIDEX Corporation,$104.02M,$20559.58
+340,Winston,De Hooch,ZAGG,Consumer Services,NASDAQ,ZAGG Inc,$233.48M,$36594.68
+341,Hermie,Szymanowski,DNKN,Consumer Services,NASDAQ,"Dunkin' Brands Group, Inc.",$5.17B,$4115.42
+342,Allen,Scrogges,MCA,n/a,NYSE,"Blackrock MuniYield California Insured Fund, Inc.",$517.81M,$15285.77
+343,Augustus,Schust,ETB,n/a,NYSE,Eaton Vance Tax-Managed Buy-Write Income Fund,$404.02M,$42428.71
+344,Udall,Antosch,GS^B,n/a,NYSE,"Goldman Sachs Group, Inc. (The)",n/a,$10936.83
+345,Wendell,Davidow,CCV,Consumer Services,NYSE,Comcast Corporation,n/a,$69536.57
+346,Dinny,Sam,GRFS,Health Care,NASDAQ,"Grifols, S.A.",$14.64B,$69190.87
+347,Verina,Curtois,ARE^D,n/a,NYSE,"Alexandria Real Estate Equities, Inc.",n/a,$8344.89
+348,Gretta,Greeveson,LMFA,Finance,NASDAQ,"LM Funding America, Inc.",$13.56M,$50213.60
+349,Markus,MacCartney,ACTX,n/a,NASDAQ,Global X Guru Activist ETF,n/a,$91917.84
+350,Barb,Ibel,FINL,Consumer Services,NASDAQ,"The Finish Line, Inc.",$551.94M,$67740.50
+351,Virgilio,Sindall,AKR,Consumer Services,NYSE,Acadia Realty Trust,$2.35B,$9521.54
+352,Georg,Cathenod,KMI^A,n/a,NYSE,"Kinder Morgan, Inc.",n/a,$91140.73
+353,Genevra,Burnyate,RHP,Consumer Services,NYSE,"Ryman Hospitality Properties, Inc.",$3.39B,$2780.34
+354,Bo,Morais,NXTM,Health Care,NASDAQ,"NxStage Medical, Inc.",$1.54B,$92715.09
+355,Marcus,Iacoviello,AWR,Public Utilities,NYSE,American States Water Company,$1.83B,$68248.61
+356,Alicea,Allam,ALL^A,n/a,NYSE,Allstate Corporation (The),n/a,$19201.15
+357,Nanon,Gadeaux,HT^C,n/a,NYSE,Hersha Hospitality Trust,n/a,$73071.49
+358,Jamey,Whitmell,EHTH,Finance,NASDAQ,"eHealth, Inc.",$347.43M,$20794.15
+359,Lamar,Mawditt,NVLN,Health Care,NASDAQ,Novelion Therapeutics Inc. ,$171.11M,$96576.26
+360,Lida,Keenlyside,EBMT,Finance,NASDAQ,"Eagle Bancorp Montana, Inc.",$68.03M,$56584.44
+361,Goldia,Ison,OGE,Public Utilities,NYSE,OGE Energy Corporation,$7.28B,$16057.29
+362,West,Belham,LAUR,Consumer Services,NASDAQ,"Laureate Education, Inc.",$3.06B,$91833.77
+363,Dorene,Boutcher,BYFC,Finance,NASDAQ,Broadway Financial Corporation,$54.9M,$12585.10
+364,Franzen,Sharpe,AIRT,Transportation,NASDAQ,"Air T, Inc.",$38.81M,$14404.24
+365,Inge,Leisk,ROYT,Energy,NYSE,Pacific Coast Oil Trust,$61.73M,$95908.55
+366,Giuseppe,Nealon,COR^A,n/a,NYSE,CoreSite Realty Corporation,n/a,$3333.84
+367,Chaim,McCool,LIFE,Health Care,NASDAQ,"aTyr Pharma, Inc.",$84.51M,$78158.38
+368,Sallyanne,Barbary,SELF,Consumer Services,NASDAQ,"Global Self Storage, Inc.",$38.25M,$44097.94
+369,Gearard,Eliet,BAS,Energy,NYSE,"Basic Energy Services, Inc.",$595.41M,$15596.50
+370,Benny,Hoovart,EVGBC,n/a,NASDAQ,Eaton Vance NextShares Trust,n/a,$95150.79
+371,Mylo,Cyples,WRLD,Finance,NASDAQ,World Acceptance Corporation,$648.9M,$69451.98
+372,Skipp,Strowlger,KAAC,Finance,NASDAQ,Kayne Anderson Acquisition Corp.,$459.39M,$13420.99
+373,Saundra,Mersey,CHEKW,Health Care,NASDAQ,Check-Cap Ltd.,n/a,$35674.83
+374,Baily,Tidball,MCN,n/a,NYSE,Madison Covered Call & Equity Strategy Fund,$152.41M,$76888.99
+375,Ashton,Cardall,HT^D,n/a,NYSE,Hersha Hospitality Trust,n/a,$76445.20
+376,Llywellyn,Bortolotti,RWLK,Health Care,NASDAQ,ReWalk Robotics Ltd,$20.84M,$21107.40
+377,Franzen,Hanburry,PNR,Technology,NYSE,Pentair plc.,$12.15B,$36471.10
+378,Hamil,Queree,CHS,Consumer Services,NYSE,"Chico's FAS, Inc.",$1.2B,$96328.84
+379,Stoddard,Stirley,DHIL,Finance,NASDAQ,"Diamond Hill Investment Group, Inc.",$701.48M,$58470.48
+380,Gus,Chilles,OPXA,Health Care,NASDAQ,"Opexa Therapeutics, Inc.",$4.58M,$3255.72
+381,Thurstan,Nollet,ODC,Consumer Durables,NYSE,Oil-Dri Corporation Of America,$290.7M,$91320.97
+382,Germaine,Hullins,IRCP,Consumer Services,NASDAQ,IRSA Propiedades Comerciales S.A.,$1.61B,$77657.90
+383,Jody,Sharville,RAIL,Capital Goods,NASDAQ,"Freightcar America, Inc.",$212.14M,$32408.01
+384,Mal,Ardron,ARTX,Miscellaneous,NASDAQ,Arotech Corporation,$92.5M,$31888.97
+385,Teodoor,Segebrecht,HMHC,Consumer Services,NASDAQ,Houghton Mifflin Harcourt Company,$1.63B,$27891.16
+386,Jeffry,Lindblom,MGM,Consumer Services,NYSE,MGM Resorts International,$18.74B,$56318.47
+387,Fern,Eastbury,CSPI,Technology,NASDAQ,CSP Inc.,$42.78M,$70900.93
+388,Elysee,Jeff,CENT,Consumer Durables,NASDAQ,Central Garden & Pet Company,$1.59B,$62722.73
+389,Marlo,Insall,OCFC,Finance,NASDAQ,OceanFirst Financial Corp.,$912.14M,$22813.50
+390,Iosep,Dipple,ZX,Capital Goods,NYSE,China Zenix Auto International Limited,$93.96M,$78632.09
+391,Danila,Wabersich,APTO,Health Care,NASDAQ,"Aptose Biosciences, Inc.",$22.73M,$97190.62
+392,Leonora,Darell,WHLM,Consumer Services,NASDAQ,"Wilhelmina International, Inc.",$38.75M,$969.42
+393,Zak,Boise,FHY,n/a,NYSE,First Trust Strategic High Income Fund II,$112.34M,$44377.90
+394,Henriette,Ferrone,MSCA,n/a,NYSE,Main Street Capital Corporation,n/a,$68554.24
+395,Howie,Mesnard,EURN,Transportation,NYSE,Euronav NV,$1.15B,$11156.64
+396,Obidiah,Cristofaro,BBRY,Public Utilities,NASDAQ,BlackBerry Limited,$5.6B,$32274.07
+397,Kylynn,Woodfine,LIVN,Health Care,NASDAQ,LivaNova PLC,$2.97B,$5879.57
+398,Lonee,Bediss,SABR,Technology,NASDAQ,Sabre Corporation,$6.27B,$38806.29
+399,Amelie,Gotfrey,NR,Energy,NYSE,"Newpark Resources, Inc.",$648.58M,$85447.85
+400,Regen,Irce,CLVS,Health Care,NASDAQ,"Clovis Oncology, Inc.",$2.69B,$21726.22
+401,Giralda,Lemon,EDIT,Health Care,NASDAQ,"Editas Medicine, Inc.",$673.15M,$5595.25
+402,Allyce,Carde,SO,Public Utilities,NYSE,Southern Company (The),$51.25B,$64980.74
+403,Sammy,Levee,STRA,Consumer Services,NASDAQ,"Strayer Education, Inc.",$1.04B,$95859.88
+404,Pietrek,Hubbucke,AIMC,Capital Goods,NASDAQ,Altra Industrial Motion Corp.,$1.25B,$56522.97
+405,Abbe,Ferrandez,MMDMR,Finance,NASDAQ,Modern Media Acquisition Corp.,n/a,$47822.41
+406,Alfie,Jakes,COBZ,Finance,NASDAQ,CoBiz Financial Inc.,$691.58M,$86749.83
+407,Briny,Pollen,TLND,Technology,NASDAQ,Talend S.A.,$1.05B,$70668.51
+408,Alta,Yurlov,MXE,n/a,NYSE,"Mexico Equity and Income Fund, Inc. (The)",$83.2M,$87977.36
+409,Colver,Baccus,VYMI,n/a,NASDAQ,Vanguard International High Dividend Yield ETF,$371.88M,$34814.63
+410,Gaby,Lambkin,KAP,n/a,NYSE,"KCAP Financial, Inc.",n/a,$64392.04
+411,Joyce,Hunston,RACE,Capital Goods,NYSE,Ferrari N.V.,$21.61B,$51079.33
+412,Lib,Spencook,OSTK,Consumer Services,NASDAQ,"Overstock.com, Inc.",$393.68M,$60314.14
+413,Selma,Sawell,JRVR,Finance,NASDAQ,"James River Group Holdings, Ltd.",$1.18B,$17607.53
+414,Erhard,Codling,R,Consumer Services,NYSE,"Ryder System, Inc.",$3.6B,$49457.52
+415,Kassia,Bayman,RBS^S,n/a,NYSE,Royal Bank Scotland plc (The),n/a,$31322.68
+416,Guenna,Reeday,UBIO,n/a,NASDAQ,Proshares UltraPro Nasdaq Biotechnology,$35.1M,$75736.09
+417,Codee,Anglish,ONB,Finance,NASDAQ,Old National Bancorp,$2.34B,$35332.08
+418,Querida,Benka,NDLS,Consumer Services,NASDAQ,Noodles & Company,$154.07M,$9206.00
+419,Roxana,Espinay,CWT,Public Utilities,NYSE,California Water  Service Group Holding,$1.8B,$97743.73
+420,Ansley,Bengtsen,BAP,Finance,NYSE,Credicorp Ltd.,$16.85B,$94854.20
+421,Marge,Hamper,AGND,n/a,NASDAQ,WisdomTree Barclays Negative Duration U.S. Aggregate Bond Fund,$12.99M,$74862.48
+422,Gallard,McGebenay,WIW,n/a,NYSE,Western Asset/Claymore U.S Treasury Inflation Prot Secs Fd 2,$675.47M,$25391.93
+423,Isabeau,Dagwell,LLY,Health Care,NYSE,Eli Lilly and Company,$90.35B,$70395.93
+424,Angil,Welfair,GS^J,n/a,NYSE,"Goldman Sachs Group, Inc. (The)",n/a,$83219.05
+425,Kenon,Piell,DHX,Miscellaneous,NYSE,"DHI Group, Inc.",$128.99M,$72988.63
+426,Lothaire,Wyd,DIN,Consumer Services,NYSE,"DineEquity, Inc",$775.3M,$55532.69
+427,Natassia,Fancott,WMC,Consumer Services,NYSE,Western Asset Mortgage Capital Corporation,$442.25M,$24390.99
+428,Bealle,Reiners,PYZ,n/a,NASDAQ,PowerShares DWA Basic Materials Momentum Portfolio,$95.77M,$59124.91
+429,Marthe,Mewton,OLLI,Consumer Services,NASDAQ,"Ollie's Bargain Outlet Holdings, Inc.",$2.5B,$23577.20
+430,Leigh,Impleton,TEVA,Health Care,NYSE,Teva Pharmaceutical Industries Limited,$31.41B,$83892.36
+431,Amber,Caustic,ITGR,Miscellaneous,NYSE,Integer Holdings Corporation,$1.31B,$23283.24
+432,Cyrille,Warmington,USLM,Basic Industries,NASDAQ,"United States Lime & Minerals, Inc.",$432.95M,$66100.93
+433,Celestina,Tyt,FRC^D,n/a,NYSE,FIRST REPUBLIC BANK,n/a,$92250.95
+434,Stafford,Butchard,FFIC,Finance,NASDAQ,Flushing Financial Corporation,$826.02M,$15978.36
+435,Pammi,Polglase,WIX,Technology,NASDAQ,Wix.com Ltd.,$3.11B,$71350.19
+436,Maura,Aasaf,IMKTA,Consumer Services,NASDAQ,"Ingles Markets, Incorporated",$687.82M,$29456.88
+437,Courtney,Condliffe,TRTN,Technology,NYSE,Triton International Limited,$1.08B,$60572.89
+438,Aili,Pech,STRM,Technology,NASDAQ,"Streamline Health Solutions, Inc.",$21.44M,$76110.06
+439,Ofilia,Cecil,MC,Finance,NYSE,Moelis & Company,$1.01B,$97422.69
+440,Katey,Tousey,MO,Consumer Non-Durables,NYSE,Altria Group,$149.28B,$64346.84
+441,Jenifer,Wayon,SIFI,Finance,NASDAQ,"SI Financial Group, Inc.",$189.23M,$32472.56
+442,Michaelina,Hawkes,HCI,Finance,NYSE,"HCI Group, Inc.",$462.86M,$30413.35
+443,Cal,Pala,FFIC,Finance,NASDAQ,Flushing Financial Corporation,$826.02M,$14928.03
+444,Gonzalo,Penning,CIG.C,n/a,NYSE,Comp En De Mn Cemig ADS,n/a,$75709.02
+445,Dory,Rumgay,XNET,Technology,NASDAQ,Xunlei Limited,$219.73M,$51676.90
+446,Vidovik,Auty,DB,Finance,NYSE,Deutsche Bank AG,$34.76B,$88787.78
+447,Gracia,Ives,RMAX,Finance,NYSE,"RE/MAX Holdings, Inc.",$968.03M,$86416.38
+448,Morry,Daysh,VRS,Basic Industries,NYSE,Verso Corporation,$130.34M,$81130.48
+449,Nola,Littrick,ALIM,Health Care,NASDAQ,"Alimera Sciences, Inc.",$86.97M,$27762.05
+450,Lynnea,O'Hear,IFEU,n/a,NASDAQ,iShares FTSE EPRA/NAREIT Europe Index Fund,$42.37M,$47671.06
+451,Schuyler,Ollerenshaw,DSE,n/a,NYSE,Duff & Phelps Select Energy MLP Fund Inc.,$171.84M,$78528.46
+452,Lorna,Cluely,PANL,Transportation,NASDAQ,Pangaea Logistics Solutions Ltd.,$99.12M,$79254.05
+453,Filberte,Bartoleyn,SJR,Consumer Services,NYSE,Shaw Communications Inc.,$10.72B,$81161.94
+454,Erie,Patifield,HRI,n/a,NYSE,Herc Holdings Inc.,$1.06B,$5053.52
+455,Glynn,Titlow,IRWD,Health Care,NASDAQ,"Ironwood Pharmaceuticals, Inc.",$2.61B,$61614.34
+456,Kassi,Freckingham,PKW,n/a,NASDAQ,PowerShares BuyBack Achievers Portfolio,$1.33B,$76469.46
+457,Linzy,Enser,RAD,Health Care,NYSE,Rite Aid Corporation,$3.16B,$77022.94
+458,Jarret,Bertrand,NNN^E,n/a,NYSE,National Retail Properties,n/a,$62498.86
+459,Lucila,Midgley,CGNT,Health Care,NASDAQ,"Cogentix Medical, Inc.",$104.55M,$42800.87
+460,Olympe,Cookney,VJET,Capital Goods,NYSE,voxeljet AG,$98.77M,$5767.69
+461,Rosabel,Maltman,RYAM^A,n/a,NYSE,Rayonier Advanced Materials Inc.,n/a,$9185.39
+462,Clayton,Santacrole,FSBW,Finance,NASDAQ,"FS Bancorp, Inc.",$139.32M,$9344.39
+463,Stephanie,Dalliwatr,CYS^B,n/a,NYSE,"CYS Investments, Inc.",n/a,$56977.42
+464,Bernardina,Stapleford,VMC,Basic Industries,NYSE,Vulcan Materials Company,$17.1B,$61944.40
+465,Marylou,Veelers,FTNT,Technology,NASDAQ,"Fortinet, Inc.",$6.65B,$65210.58
+466,Sharla,Francey,IQI,n/a,NYSE,Invesco Quality Municipal Income Trust,$672.68M,$85096.67
+467,Shandie,Luigi,RIC,Basic Industries,NYSE,"Richmont Mines, Inc.",$458.83M,$97136.60
+468,Brenna,McKnish,WK,Technology,NYSE,Workiva Inc.,$788.23M,$62974.43
+469,Anthe,Karlsen,FIS,Miscellaneous,NYSE,"Fidelity National Information Services, Inc.",$28.16B,$31399.21
+470,Brigit,Faudrie,IGT,Consumer Services,NYSE,International Game Technology,$3.68B,$96846.47
+471,Jemie,Guerrero,PKBK,Finance,NASDAQ,"Parke Bancorp, Inc.",$161.78M,$32125.72
+472,Katha,Powelee,SGLBW,Consumer Durables,NASDAQ,"Sigma Labs, Inc.",n/a,$97289.79
+473,Marna,Llewellin,NMK^B,Public Utilities,NYSE,"Niagara Mohawk Holdings, Inc.",n/a,$90315.51
+474,Sidnee,Haet,PLUS,Technology,NASDAQ,ePlus inc.,$1.05B,$22718.00
+475,Leonardo,Realff,SHIPW,Transportation,NASDAQ,Seanergy Maritime Holdings Corp,n/a,$44588.03
+476,Ramsay,Francillo,AXARW,Finance,NASDAQ,Axar Acquisition Corp.,n/a,$76460.12
+477,Skelly,Bellison,NRE,Consumer Services,NYSE,NorthStar Realty Europe Corp.,$703.42M,$44561.93
+478,Dani,Neem,KANG,Health Care,NASDAQ,"iKang Healthcare Group, Inc.",$980.68M,$99531.82
+479,Faber,Brezlaw,EEP,Energy,NYSE,"Enbridge Energy, L.P.",$6.76B,$85557.13
+480,Averil,Cloke,IGOV,n/a,NASDAQ,iShares S&P/Citigroup International Treasury Bond Fund,$657.36M,$41502.83
+481,Flo,Reay,EDAP,Health Care,NASDAQ,EDAP TMS S.A.,$105.14M,$37546.02
+482,Kacie,Dahlman,WCC,Consumer Non-Durables,NYSE,"WESCO International, Inc.",$2.79B,$21908.14
+483,Elena,Grelka,NESRW,Finance,NASDAQ,National Energy Services Reunited Corp.,n/a,$91104.83
+484,Kerry,Chaudret,MIRN,Health Care,NASDAQ,"Mirna Therapeutics, Inc.",$31.07M,$1575.07
+485,Frazer,Rymill,TESS,Consumer Non-Durables,NASDAQ,TESSCO Technologies Incorporated,$110.38M,$39836.70
+486,Koo,Cassel,GPN,Miscellaneous,NYSE,Global Payments Inc.,$13.65B,$65119.70
+487,Bruis,Petkov,RIBTW,Consumer Non-Durables,NASDAQ,RiceBran Technologies,n/a,$78817.30
+488,Claus,Danzig,CETV,Consumer Services,NASDAQ,Central European Media Enterprises Ltd.,$613.79M,$58122.05
+489,Kenna,Cristou,APU,Consumer Services,NYSE,"AmeriGas Partners, L.P.",$4.27B,$110.13
+490,Kristien,Stout,FNK,n/a,NASDAQ,First Trust Mid Cap Value AlphaDEX Fund,$54.66M,$55566.35
+491,Kris,MacKowle,LDOS,Technology,NYSE,"Leidos Holdings, Inc.",$8.15B,$20903.27
+492,Franklyn,Dahle,CRH,Capital Goods,NYSE,CRH PLC,$30.09B,$57498.12
+493,Maddalena,Menaul,EVOK,Health Care,NASDAQ,"Evoke Pharma, Inc.",$38.16M,$14562.19
+494,Waneta,Stanning,BTA,n/a,NYSE,BlackRock Long-Term Municipal Advantage Trust,$159.86M,$79463.72
+495,Jannelle,Bowring,ETRM,Health Care,NASDAQ,EnteroMedics Inc.,$33.43M,$79427.36
+496,Nathan,Gimber,USA,n/a,NYSE,Liberty All-Star Equity Fund,$1.06B,$82633.26
+497,Collette,Gillum,MMT,n/a,NYSE,MFS Multimarket Income Trust,$463.67M,$87096.85
+498,Eadie,Piller,FFNW,Finance,NASDAQ,"First Financial Northwest, Inc.",$185.4M,$43389.87
+499,Saundra,Arnau,NXR,n/a,NYSE,Nuveen Select Tax Free Income Portfolio III,$193.2M,$65335.95
+500,Daron,Dudbridge,AFSI^A,n/a,NYSE,"AmTrust Financial Services, Inc.",n/a,$81375.50
+501,Harwilll,Escreet,CHFS,Health Care,NASDAQ,"CHF Solutions, Inc.",$5.22M,$97660.22
+502,Marcy,Pennycuick,PLYAW,Consumer Services,NASDAQ,Playa Hotels & Resorts N.V.,n/a,$36937.63
+503,Bobby,Drysdall,CEO,Energy,NYSE,CNOOC Limited,$1.11B,$57561.28
+504,Thorpe,Bedingfield,LMNR,Consumer Non-Durables,NASDAQ,Limoneira Co,$310.86M,$95019.84
+505,Gardiner,Gallienne,TDG,Capital Goods,NYSE,Transdigm Group Incorporated,$14.06B,$10969.49
+506,Elnora,Overall,MBRX,Health Care,NASDAQ,"Moleculin Biotech, Inc.",$14.38M,$15015.41
+507,Lauretta,Toop,HZN,Capital Goods,NYSE,Horizon Global Corporation,$370.68M,$40007.57
+508,Davina,Gecke,VIA,Consumer Services,NASDAQ,Viacom Inc.,$15.55B,$47566.34
+509,Rolf,Degoe,PSDV,Capital Goods,NASDAQ,pSivida Corp.,$72.81M,$5485.29
+510,Sutherland,Roblett,VGSH,n/a,NASDAQ,Vanguard Short-Term Government ETF,$1.46B,$73877.62
+511,Karel,Stedall,CEMP,Health Care,NASDAQ,"Cempra, Inc.",$204.76M,$95071.25
+512,Loydie,Dickson,SHI,Basic Industries,NYSE,"SINOPEC Shangai Petrochemical Company, Ltd.",$5.65B,$83730.40
+513,Evelyn,Truwert,ARTW,Capital Goods,NASDAQ,"Art's-Way Manufacturing Co., Inc.",$12.26M,$71198.27
+514,Hulda,Tellwright,OFG,Finance,NYSE,OFG Bancorp,$443.87M,$33323.19
+515,Raviv,Duddle,OTIC,Health Care,NASDAQ,"Otonomy, Inc.",$441.75M,$16262.69
+516,Leonerd,Waggatt,IBP,Basic Industries,NYSE,"Installed Building Products, Inc.",$1.7B,$58823.49
+517,Zita,Perrycost,TTM,Capital Goods,NYSE,Tata Motors Ltd,$23.69B,$46928.52
+518,Farand,Caro,HAYN,Capital Goods,NASDAQ,"Haynes International, Inc.",$443.65M,$42478.57
+519,Vittorio,Brooke,CVLT,Technology,NASDAQ,"Commvault Systems, Inc.",$2.54B,$79238.87
+520,Quinton,Rush,JBSS,Consumer Non-Durables,NASDAQ,"John B. Sanfilippo & Son, Inc.",$696.39M,$52540.94
+521,Marcile,Tomasian,JHB,n/a,NYSE,Nuveen High Income November 2021 Target Term Fund,$568.21M,$71149.73
+522,Jarrad,Stallibrass,VXUS,n/a,NASDAQ,Vanguard Total International Stock ETF,$8.57B,$73332.32
+523,Darnall,Parkhouse,HOG,Consumer Non-Durables,NYSE,"Harley-Davidson, Inc.",$9.71B,$86972.18
+524,Steffie,Harfleet,SMCI,Technology,NASDAQ,"Super Micro Computer, Inc.",$1.21B,$65253.10
+525,Micah,Abelov,FORTY,Technology,NASDAQ,Formula Systems (1985) Ltd.,$575.9M,$40811.34
+526,Weylin,Pember,TDS,Public Utilities,NYSE,"Telephone and Data Systems, Inc.",$3.1B,$45462.58
+527,Helli,Taggert,ZPIN,Technology,NYSE,Zhaopin Limited,$1.02B,$72657.65
+528,Noell,Fredson,LMRKP,Consumer Services,NASDAQ,Landmark Infrastructure Partners LP,n/a,$2910.64
+529,Valerie,Scottrell,ADMP,Health Care,NASDAQ,Adamis Pharmaceuticals Corporation,$143.33M,$62355.88
+530,Louie,Hargrove,NPV,n/a,NYSE,Nuveen Virginia Quality Municipal Income Fund,$238.33M,$40553.19
+531,Leontine,Brittle,OMED,Health Care,NASDAQ,"OncoMed Pharmaceuticals, Inc.",$135.82M,$1137.37
+532,Del,Dusting,CNCE,Health Care,NASDAQ,"Concert Pharmaceuticals, Inc.",$299.64M,$67384.43
+533,Wallie,Darycott,COMT,n/a,NASDAQ,iShares Commodities Select Strategy ETF,$195.63M,$15704.39
+534,Peggie,Yurin,STWD,Consumer Services,NYSE,"STARWOOD PROPERTY TRUST, INC.",$5.87B,$25604.19
+535,Christie,Jochens,EXTN,Technology,NYSE,Exterran Corporation,$983.39M,$39118.96
+536,Edlin,Rief,GLP,Energy,NYSE,Global Partners LP,$637.42M,$76822.51
+537,Alain,Skittle,CPSI,Technology,NASDAQ,"Computer Programs and Systems, Inc.",$442.63M,$21786.20
+538,Jemima,Bridgwater,FEMS,n/a,NASDAQ,First Trust Emerging Markets Small Cap AlphaDEX Fund,$200.51M,$68155.27
+539,Gracie,Twittey,ADP,Technology,NASDAQ,"Automatic Data Processing, Inc.",$46.3B,$71130.75
+540,Ulrich,Rawls,HWKN,Consumer Durables,NASDAQ,"Hawkins, Inc.",$512.92M,$92559.31
+541,Suzie,Maddrah,EPC,Consumer Non-Durables,NYSE,"Energizer Holdings, Inc.",$4.34B,$3975.39
+542,Andriana,Casewell,ACGLP,Finance,NASDAQ,Arch Capital Group Ltd.,n/a,$19152.72
+543,Dione,Callis,ASRVP,Finance,NASDAQ,AmeriServ Financial Inc.,n/a,$84565.54
+544,Bevin,Boyington,SYKE,Technology,NASDAQ,"Sykes Enterprises, Incorporated",$1.43B,$12785.00
+545,Sandra,Prall,PAYC,Technology,NYSE,"Paycom Software, Inc.",$4.12B,$26414.80
+546,Catriona,Kersting,CENT,Consumer Durables,NASDAQ,Central Garden & Pet Company,$1.59B,$95132.17
+547,Stacie,Purnell,SPRT,Technology,NASDAQ,"support.com, Inc.",$45.41M,$25857.05
+548,Andrei,Lakenton,FOSL,Consumer Non-Durables,NASDAQ,"Fossil Group, Inc.",$445.87M,$43313.09
+549,Dreddy,Newband,THO,Consumer Non-Durables,NYSE,"Thor Industries, Inc.",$5.53B,$98151.21
+550,Elset,Soldner,STBA,Finance,NASDAQ,"S&T Bancorp, Inc.",$1.24B,$27393.17
+551,Curry,Bottjer,WEA,n/a,NYSE,Western Asset Bond Fund,$164.15M,$382.11
+552,Bobby,Windress,PLPM,Miscellaneous,NASDAQ,"Planet Payment, Inc.",$164.19M,$70820.95
+553,Coretta,Peyto,ANW,Energy,NYSE,Aegean Marine Petroleum Network Inc.,$224.84M,$68300.83
+554,Glennis,Rymill,TEP,Public Utilities,NYSE,"Tallgrass Energy Partners, LP",$3.4B,$88663.98
+555,Giulio,Kerridge,PEGI,Public Utilities,NASDAQ,Pattern Energy Group Inc.,$2.08B,$96787.96
+556,Natalee,Tander,FCEF,n/a,NASDAQ,First Trust CEF Income Opportunity ETF,$28.08M,$88234.41
+557,Beltran,Kempster,HTGC,n/a,NYSE,"Hercules Capital, Inc.",$1.1B,$40052.16
+558,Christoffer,O'Henehan,PIR,Consumer Services,NYSE,"Pier 1 Imports, Inc.",$468.42M,$89708.43
+559,Jeri,Trimming,SGMA,Technology,NASDAQ,"SigmaTron International, Inc.",$27.63M,$11814.67
+560,Clint,Lathee,PRH,Finance,NYSE,"Prudential Financial, Inc.",n/a,$73781.22
+561,Jessy,Cumming,ODC,Consumer Durables,NYSE,Oil-Dri Corporation Of America,$290.7M,$59785.60
+562,Tammy,Wadham,NCZ,n/a,NYSE,AllianzGI Convertible & Income Fund II,$463.93M,$18364.97
+563,Cross,Kornes,AIR,Capital Goods,NYSE,AAR Corp.,$1.21B,$70991.46
+564,Honoria,Hulmes,WFBI,Finance,NASDAQ,WashingtonFirst Bankshares Inc,$445.08M,$776.25
+565,Jennilee,Zavattiero,HIG,Finance,NYSE,"Hartford Financial Services Group, Inc. (The)",$19.25B,$63910.15
+566,Phillis,Cossor,PRKR,Technology,NASDAQ,"ParkerVision, Inc.",$41.59M,$69631.34
+567,Sybilla,Tolfrey,RF^B,n/a,NYSE,Regions Financial Corporation,n/a,$3707.51
+568,Nate,MacGaughy,NCV,n/a,NYSE,AllianzGI Convertible & Income Fund,$618.69M,$23671.20
+569,Adelheid,Stopper,AMN,Technology,NYSE,AMN Healthcare Services Inc,$1.73B,$85372.45
+570,Nerti,Norris,ENG,Consumer Services,NASDAQ,ENGlobal Corporation,$31.21M,$47126.67
+571,Crawford,McGillacoell,MFNC,Finance,NASDAQ,Mackinac Financial Corporation,$85.86M,$45225.42
+572,Riannon,Rewan,TNP^E,n/a,NYSE,Tsakos Energy Navigation Ltd,n/a,$93238.81
+573,Davida,Tokell,TRC,Finance,NYSE,Tejon Ranch Co,$451.07M,$17826.72
+574,Parry,Berthome,DGRW,n/a,NASDAQ,WisdomTree U.S. Quality Dividend Growth Fund,$1.45B,$88155.28
+575,Mar,Shildrake,RVEN,Consumer Services,NASDAQ,"Reven Housing REIT, Inc.",$61.72M,$20624.10
+576,Glen,Bresland,STAR          ,Consumer Services,NYSE,iStar Financial Inc.,$891.94M,$39298.91
+577,Stormy,Ethelstone,PB,Finance,NYSE,"Prosperity Bancshares, Inc.",$4.59B,$69670.35
+578,Milli,Nan Carrow,DSU,n/a,NYSE,"Blackrock Debt Strategies Fund, Inc.",$717.08M,$84110.12
+579,Alyce,Maggi,OMCL,Technology,NASDAQ,"Omnicell, Inc.",$1.61B,$7210.07
+580,Ninette,Finnemore,RUTH,Consumer Services,NASDAQ,"Ruth's Hospitality Group, Inc.",$708.87M,$48069.14
+581,Lyndy,Jenton,CAI,Technology,NYSE,"CAI International, Inc.",$403.94M,$72561.10
+582,Natal,Pidgin,KRC,Consumer Services,NYSE,Kilroy Realty Corporation,$7.55B,$77226.13
+583,Fraze,Cello,FR,Consumer Services,NYSE,"First Industrial Realty Trust, Inc.",$3.47B,$34741.24
+584,Dionisio,Boddis,BXC,Capital Goods,NYSE,BlueLinx Holdings Inc.,$99.14M,$13518.24
+585,Maggy,Blazynski,RPT,Consumer Services,NYSE,Ramco-Gershenson Properties Trust,$1.01B,$7769.09
+586,Farra,Riba,IP,Basic Industries,NYSE,International Paper Company,$23.33B,$66753.55
+587,Almeda,Kirley,GLYC,Health Care,NASDAQ,"GlycoMimetics, Inc.",$396.21M,$30648.47
+588,Job,Burchett,TOPS,Transportation,NASDAQ,TOP Ships Inc.,$392729.7,$18062.27
+589,Kordula,Whife,ALXN,Health Care,NASDAQ,"Alexion Pharmaceuticals, Inc.",$25.59B,$79851.11
+590,Lanie,Brum,STAG^C,n/a,NYSE,"Stag Industrial, Inc.",n/a,$85522.44
+591,Nichols,Grinaway,FDIV,n/a,NASDAQ,First Trust Strategic Income ETF,$101.86M,$94216.71
+592,Benedetto,Tomkys,C.WS.A,n/a,NYSE,Citigroup Inc.,n/a,$49912.83
+593,Orel,Raymen,SBUX,Consumer Services,NASDAQ,Starbucks Corporation,$87.09B,$84218.12
+594,Flory,Wase,LKOR,n/a,NASDAQ,FlexShares Credit-Scored US Long Corporate Bond Index Fund,$13.34M,$98672.32
+595,Toni,Bernocchi,MDRX,Technology,NASDAQ,"Allscripts Healthcare Solutions, Inc.",$2.26B,$66432.46
+596,Larine,Pluck,E,Energy,NYSE,ENI S.p.A.,$56.64B,$71863.86
+597,Kinsley,Fackrell,GLUU,Technology,NASDAQ,Glu Mobile Inc.,$332.81M,$71369.33
+598,Devora,Gjerde,CORI,Health Care,NASDAQ,"Corium International, Inc.",$267.54M,$13586.44
+599,Jojo,Gillespie,ASTC,Capital Goods,NASDAQ,Astrotech Corporation,$21.18M,$31594.05
+600,Gay,Galletly,PBNC,Finance,NASDAQ,Paragon Commercial Corporation,$293.53M,$86373.69
+601,Dyna,Comber,TIF,Consumer Services,NYSE,Tiffany & Co.,$11.48B,$73225.24
+602,Alejandrina,Looney,BOH,Finance,NYSE,Bank of Hawaii Corporation,$3.51B,$89938.46
+603,Gusta,Pearcey,SHOO,Consumer Non-Durables,NASDAQ,"Steven Madden, Ltd.",$2.29B,$26267.12
+604,Charmane,Moubray,STAR^I,n/a,NYSE,iStar Financial Inc.,n/a,$9367.42
+605,Marietta,Sawdy,PGTI,Capital Goods,NASDAQ,"PGT Innovations, Inc.",$610.36M,$78291.81
+606,Hortense,Henrionot,KMI,Public Utilities,NYSE,"Kinder Morgan, Inc.",$42.84B,$408.04
+607,Bess,Hillam,CSU,Health Care,NYSE,Capital Senior Living Corporation,$473.87M,$15354.36
+608,Trudie,Ivantyev,FTK,Basic Industries,NYSE,"Flotek Industries, Inc.",$513.58M,$87736.85
+609,Ajay,Napoleon,AWP,n/a,NYSE,Alpine Global Premier Properties Fund,$532.95M,$81145.31
+610,Jean,Lethcoe,PYN,n/a,NYSE,PIMCO New York Municipal Income Fund III,$56.31M,$79884.04
+611,Ardith,Lindberg,TESS,Consumer Non-Durables,NASDAQ,TESSCO Technologies Incorporated,$110.38M,$40094.72
+612,Adora,O'Daly,TSRO,Health Care,NASDAQ,"TESARO, Inc.",$7.77B,$82442.91
+613,Dana,Davet,VTIP,n/a,NASDAQ,Vanguard Short-Term Inflation-Protected Securities Index Fund,$3.56B,$58604.20
+614,Karim,Heskin,LULU,Consumer Non-Durables,NASDAQ,lululemon athletica inc.,$7.24B,$72121.47
+615,Wadsworth,Cluitt,KAAC,Finance,NASDAQ,Kayne Anderson Acquisition Corp.,$459.39M,$88246.08
+616,Niels,Balazs,ARD,Consumer Durables,NYSE,Ardagh Group S.A.,$5.2B,$78893.72
+617,Freeman,Maris,GRC,Capital Goods,NYSE,Gorman-Rupp Company (The),$708.43M,$7695.56
+618,Burch,Guihen,CFG,Finance,NYSE,"Citizens Financial Group, Inc.",$18.42B,$84329.24
+619,Asia,Mummery,TUP,Consumer Non-Durables,NYSE,Tupperware Brands Corporation,$3.6B,$31049.72
+620,Eden,Bartoleyn,ELSE,Capital Goods,NASDAQ,"Electro-Sensors, Inc.",$14.09M,$70628.86
+621,Rice,Alford,BFAM,Miscellaneous,NYSE,Bright Horizons Family Solutions Inc.,$4.61B,$72226.73
+622,Ermin,Crix,AXS^D,n/a,NYSE,Axis Capital Holdings Limited,n/a,$46800.86
+623,Irving,Vorley,BBT^D,n/a,NYSE,BB&T Corporation,n/a,$3489.44
+624,Justen,Nightingale,HSIC,Health Care,NASDAQ,"Henry Schein, Inc.",$14.5B,$71305.53
+625,Worden,Burkett,SSW^D,n/a,NYSE,Seaspan Corporation,n/a,$50215.20
+626,Hubert,Bellwood,GLAD,n/a,NASDAQ,Gladstone Capital Corporation,$253.65M,$67604.77
+627,Isac,Ley,DVN,Energy,NYSE,Devon Energy Corporation,$16.7B,$36146.65
+628,Thorvald,Cainey,CME,Finance,NASDAQ,CME Group Inc.,$42.87B,$40610.14
+629,Aurel,Compston,MSD,n/a,NYSE,"Morgan Stanley Emerging Markets Debt Fund, Inc.",$213.38M,$7175.71
+630,Dore,Devas,LIVE,Technology,NASDAQ,Live Ventures Incorporated,$19.84M,$61789.47
+631,Aurore,Westphalen,OMAA,Finance,NYSE,OM Asset Management plc,n/a,$19906.16
+632,Verge,Secret,PRMW,Consumer Non-Durables,NASDAQ,Primo Water Corporation,$399.01M,$15342.26
+633,Willem,Newcomb,FRO,Transportation,NYSE,Frontline Ltd.,$920.37M,$81953.46
+634,Blakeley,Copland,MTCH,Technology,NASDAQ,"Match Group, Inc.",$4.4B,$39422.58
+635,Zacharie,Aveson,SILC,Technology,NASDAQ,Silicom Ltd,$347.78M,$41859.53
+636,Eve,Abbotson,CJJD,Consumer Durables,NASDAQ,"China Jo-Jo Drugstores, Inc.",$44.38M,$43475.36
+637,Bing,Gaythorpe,PTH,n/a,NASDAQ,PowerShares DWA Healthcare Momentum Portfolio,$61.7M,$66692.07
+638,Harmon,Hugonnet,ORMP,Health Care,NASDAQ,Oramed Pharmaceuticals Inc.,$98.91M,$32992.86
+639,Dael,Butters,WYIG,Finance,NASDAQ,JM Global Holding Company,$65.43M,$51877.49
+640,Marcella,Neal,JCO,n/a,NYSE,Nuveen Credit Opportunities 2022 Target Term Fund,n/a,$49682.22
+641,Marcellus,Beagin,FHY,n/a,NYSE,First Trust Strategic High Income Fund II,$112.34M,$77158.83
+642,Krispin,Kareman,CHSCN,Consumer Services,NASDAQ,CHS Inc,$497.62M,$99252.74
+643,Jay,Schachter,MTOR,Capital Goods,NYSE,"Meritor, Inc.",$1.41B,$75357.02
+644,Kay,Labin,CHUY,Consumer Services,NASDAQ,"Chuy's Holdings, Inc.",$414.14M,$40327.59
+645,Pammy,Ferraron,MTL^,n/a,NYSE,Mechel PAO,n/a,$57608.12
+646,Darrel,Readitt,KAAC,Finance,NASDAQ,Kayne Anderson Acquisition Corp.,$459.39M,$61133.13
+647,Stan,McFadin,EME,Capital Goods,NYSE,"EMCOR Group, Inc.",$3.87B,$82889.76
+648,Julianne,Reeson,SBUX,Consumer Services,NASDAQ,Starbucks Corporation,$87.09B,$27702.20
+649,Evie,Abbe,MTGEP,Consumer Services,NASDAQ,MTGE Investment Corp.,$52M,$26829.28
+650,Thurstan,Gorgen,TUTI,n/a,NASDAQ,Tuttle Tactical Management Multi-Strategy Income ETF,$22.86M,$31721.75
+651,Bill,Reimer,JCS,Public Utilities,NASDAQ,"Communications Systems, Inc.",$42.39M,$61302.45
+652,Irwin,Brobak,ESND,Consumer Services,NASDAQ,Essendant Inc.,$560.24M,$2689.40
+653,Dorisa,Snasel,RESN,Technology,NASDAQ,Resonant Inc.,$57.73M,$8859.40
+654,Patton,Stanford,HIL,Consumer Services,NYSE,"Hill International, Inc.",$251.61M,$57655.05
+655,Rossy,Beggan,QTS,Consumer Services,NYSE,"QTS Realty Trust, Inc.",$2.5B,$30054.10
+656,Emelen,Newcome,ECYT,Health Care,NASDAQ,"Endocyte, Inc.",$64.56M,$69355.94
+657,Bank,Gwinnett,ALSK,Public Utilities,NASDAQ,"Alaska Communications Systems Group, Inc.",$112.53M,$2440.18
+658,Duffy,Sooley,TEP,Public Utilities,NYSE,"Tallgrass Energy Partners, LP",$3.4B,$74452.16
+659,Dolph,Benasik,HUM,Health Care,NYSE,Humana Inc.,$33.84B,$70498.20
+660,Ynez,Ary,IMAX,Miscellaneous,NYSE,Imax Corporation,$1.68B,$86343.56
+661,Idette,Gabbitas,NEWR,Technology,NYSE,"New Relic, Inc.",$2.2B,$28768.60
+662,Crin,McLice,KBWY,n/a,NASDAQ,PowerShares KBW Premium Yield Equity REIT Portfolio,$322.51M,$97907.34
+663,Channa,Kimbell,JCE,n/a,NYSE,Nuveen Core Equity Alpha Fund,$234.72M,$99835.42
+664,Betteanne,Formie,RRR,Consumer Services,NASDAQ,"Red Rock Resorts, Inc.",$2.78B,$23088.50
+665,Herminia,Rakes,LKOR,n/a,NASDAQ,FlexShares Credit-Scored US Long Corporate Bond Index Fund,$13.34M,$16633.81
+666,Tom,Slesser,ATVI,Technology,NASDAQ,"Activision Blizzard, Inc",$44.32B,$10953.91
+667,Zara,Sesons,SEP,Public Utilities,NYSE,"Spectra Energy Partners, LP",$13.13B,$68601.66
+668,Mariana,Blissett,DSPG,Technology,NASDAQ,"DSP Group, Inc.",$258.27M,$62621.14
+669,Kerwinn,Tarbet,VCYT,Health Care,NASDAQ,"Veracyte, Inc.",$259.78M,$59034.04
+670,Mandi,Westmacott,MVC,n/a,NYSE,"MVC Capital, Inc.",$219.02M,$1763.47
+671,Madlen,Dmitrovic,COTV,Miscellaneous,NYSE,"Cotiviti Holdings, Inc.",$3.5B,$10281.45
+672,Gizela,Whitecross,TPVZ,n/a,NYSE,TriplePoint Venture Growth BDC Corp.,n/a,$82299.78
+673,Reinold,Buttle,PSCF,n/a,NASDAQ,PowerShares S&P SmallCap Financials Portfolio,$243.51M,$73297.71
+674,Shanda,Soares,INTC,Technology,NASDAQ,Intel Corporation,$165.8B,$27192.54
+675,Suzie,Jaycocks,GCO,Consumer Services,NYSE,Genesco Inc.,$677.94M,$83793.31
+676,Orin,Gobbet,VPG,Capital Goods,NYSE,"Vishay Precision Group, Inc.",$229.33M,$72159.36
+677,Sheridan,Shemelt,HRS,Capital Goods,NYSE,Harris Corporation,$13.26B,$63294.83
+678,Cleo,Lingley,POR,Public Utilities,NYSE,Portland General Electric Company,$4.25B,$7468.95
+679,Cassandra,Goatman,EROS,Consumer Services,NYSE,Eros International PLC,$642.98M,$82373.05
+680,Noella,Rosgen,SAL,Finance,NASDAQ,"Salisbury Bancorp, Inc.",$110.06M,$30031.23
+681,Bronson,Peller,SCHL,Consumer Services,NASDAQ,Scholastic Corporation,$1.58B,$28624.90
+682,Sheila-kathryn,Ware,CRESY,Finance,NASDAQ,Cresud S.A.C.I.F. y A.,$951.53M,$36890.36
+683,Halli,Blest,LAUR,Consumer Services,NASDAQ,"Laureate Education, Inc.",$3.06B,$78362.84
+684,Emmi,Raikes,NYMX,Health Care,NASDAQ,Nymox Pharmaceutical Corporation,$192.72M,$54637.91
+685,Deny,Causon,GWR,Transportation,NYSE,"Genesee & Wyoming, Inc.",$4.18B,$37068.33
+686,Cordie,Challes,RDY,Health Care,NYSE,Dr. Reddy's Laboratories Ltd,$6.9B,$10271.41
+687,Xymenes,Whitwham,CRVL,Finance,NASDAQ,CorVel Corp.,$858.03M,$70872.25
+688,Dina,Aspital,STT^D,n/a,NYSE,State Street Corporation,n/a,$46308.18
+689,Pierson,Zorzenoni,OPOF,Finance,NASDAQ,Old Point Financial Corporation,$150.3M,$64315.99
+690,Buckie,Wastall,SUI,Consumer Services,NYSE,"Sun Communities, Inc.",$7.17B,$33090.81
+691,Fredericka,Boorn,PCTI,Technology,NASDAQ,"PC-Tel, Inc.",$120.74M,$813.07
+692,Rhianon,Delahunt,ROIC,Consumer Services,NASDAQ,Retail Opportunity Investments Corp.,$2.15B,$50332.18
+693,Valenka,Trimme,CYS^A,n/a,NYSE,"CYS Investments, Inc.",n/a,$18563.68
+694,Daryl,Greaser,HQL,n/a,NYSE,Tekla Life Sciences Investors,$425.52M,$15678.71
+695,Lusa,Grundy,CDR,Consumer Services,NYSE,"Cedar Realty Trust, Inc.",$440.65M,$75892.92
+696,Rona,Putson,ROSG,Health Care,NASDAQ,Rosetta Genomics Ltd.,$5.05M,$32599.34
+697,Lorry,Belsey,CNA,Finance,NYSE,CNA Financial Corporation,$13.17B,$52888.97
+698,Koenraad,Janovsky,AGD,n/a,NYSE,Alpine Global Dynamic Dividend Fund,$128.88M,$81030.90
+699,Marmaduke,Scheffel,EWBC,Finance,NASDAQ,"East West Bancorp, Inc.",$8.55B,$83589.87
+700,Albert,Sapir,ICL,Basic Industries,NYSE,Israel Chemicals Shs,$5.6B,$18755.28
+701,Noah,Paunsford,NVEC,Technology,NASDAQ,NVE Corporation,$377.89M,$86402.05
+702,Lucilia,Scamal,BLW,Finance,NYSE,Citigroup Inc.,$580.22M,$78951.03
+703,Loralie,Perel,CIB,Finance,NYSE,BanColombia S.A.,$11.02B,$93394.71
+704,Jodi,Dobbings,MSCI,Miscellaneous,NYSE,MSCI Inc,$9.55B,$85025.84
+705,Dari,Garritley,MTBC,Technology,NASDAQ,"Medical Transcription Billing, Corp.",$19.07M,$40632.19
+706,Melania,Billam,CLNS^E,n/a,NYSE,"Colony NorthStar, Inc.",n/a,$85451.31
+707,Rebe,Mott,GLA,Technology,NYSE,"GlassBridge Enterprises, Inc.",$15.97M,$75561.04
+708,Zach,Buxcey,CYS^A,n/a,NYSE,"CYS Investments, Inc.",n/a,$29775.83
+709,Rossie,Lewington,EQR,Consumer Services,NYSE,Equity Residential,$25.18B,$77155.85
+710,Quincey,Huff,FEYE,Technology,NASDAQ,"FireEye, Inc.",$2.7B,$94786.60
+711,Merrie,Ramirez,CPK,Public Utilities,NYSE,Chesapeake Utilities Corporation,$1.23B,$2327.70
+712,Burk,Lampl,DLNG^A,n/a,NYSE,Dynagas LNG Partners LP,n/a,$5195.41
+713,Kora,Dalligan,JSYNW,Finance,NASDAQ,Jensyn Acquistion Corp.,n/a,$6853.74
+714,Etta,Bener,TJX,Consumer Services,NYSE,"TJX Companies, Inc. (The)",$46.6B,$163.64
+715,Sandi,Bottelstone,ITG,Finance,NYSE,"Investment Technology Group, Inc.",$717.59M,$80119.28
+716,Dmitri,Crossland,VKTXW,Health Care,NASDAQ,"Viking Therapeutics, Inc.",n/a,$32956.33
+717,Vicky,Forber,VGI,n/a,NYSE,Virtus Global Multi-Sector Income Fund,$194.72M,$36344.48
+718,Hector,Nurny,SMFG,Finance,NYSE,Sumitomo Mitsui Financial Group Inc,$54.22B,$39337.52
+719,Vyky,Ebi,OPP,n/a,NYSE,"RiverNorth/DoubleLine Strategic Opportunity Fund, Inc.",$210.14M,$75070.64
+720,Reed,Roston,VIGI,n/a,NASDAQ,Vanguard International Dividend Appreciation ETF,$408.55M,$39486.66
+721,Maude,Serris,CMCSA,Consumer Services,NASDAQ,Comcast Corporation,$195.79B,$71159.65
+722,Joanne,Orkney,FTSM,n/a,NASDAQ,First Trust Enhanced Short Maturity ETF,$966.47M,$42145.68
+723,Perren,Eggleton,EMMS,Consumer Services,NASDAQ,Emmis Communications Corporation,$39.09M,$8806.29
+724,Fidelity,Heelis,SNLN,n/a,NASDAQ,Highland/iBoxx Senior Loan ETF,$481.23M,$76589.48
+725,Merry,Sawford,TNDM,Health Care,NASDAQ,"Tandem Diabetes Care, Inc.",$44.42M,$72231.68
+726,Court,Fison,GTXI,Health Care,NASDAQ,"GTx, Inc.",$73.95M,$89967.06
+727,Aurel,Gavin,CMD,Health Care,NYSE,Cantel Medical Corp.,$3.17B,$29406.93
+728,Horten,Domenichini,HSGX,Health Care,NASDAQ,Histogenics Corporation,$35.47M,$8711.39
+729,Harley,Kardos-Stowe,MBLY,Technology,NYSE,Mobileye N.V.,$13.92B,$69920.96
+730,Katey,Stott,FTCS,n/a,NASDAQ,First Trust Capital Strength ETF,$431.69M,$40982.94
+731,Leyla,Jorger,CBZ,Miscellaneous,NYSE,"CBIZ, Inc.",$824M,$69421.39
+732,Gordan,Hannah,FOGO,Consumer Services,NASDAQ,"Fogo de Chao, Inc.",$392.16M,$13363.01
+733,Doy,Erik,GNMA,n/a,NASDAQ,iShares GNMA Bond ETF,$174.89M,$58680.28
+734,Felicdad,Jowers,SCVL,Consumer Services,NASDAQ,"Shoe Carnival, Inc.",$345.67M,$96043.54
+735,Nanice,Oddboy,GLADO,n/a,NASDAQ,Gladstone Capital Corporation,$56.32M,$43861.24
+736,Vivienne,Curror,SLB,Energy,NYSE,Schlumberger N.V.,$95.29B,$79325.17
+737,Lorelle,Huyge,SUI^A,n/a,NYSE,"Sun Communities, Inc.",n/a,$66343.71
+738,Lenci,Spurge,AGN,Health Care,NYSE,Allergan plc.,$79.09B,$87124.92
+739,Cristin,Oseland,BIO.B,n/a,NYSE,"Bio-Rad Laboratories, Inc.",n/a,$81512.06
+740,Clementine,MacEnelly,NRK,n/a,NYSE,Nuveen New York AMT-Free Quality Municipal,$1.16B,$10605.98
+741,Tallie,MacKessock,NETE,Technology,NASDAQ,"Net Element, Inc.",$11.28M,$39823.98
+742,Ethelind,Foat,ELF,Consumer Non-Durables,NYSE,"e.l.f. Beauty, Inc.",$1.21B,$62595.72
+743,Matti,Moncaster,DTQ,Public Utilities,NYSE,DTE Energy Company,n/a,$42892.24
+744,Jillene,O'Skehan,INVE,Technology,NASDAQ,"Identiv, Inc.",$59.21M,$36864.29
+745,Brena,Astlatt,STAY,Consumer Services,NYSE,"Extended Stay America, Inc.",$3.65B,$91689.42
+746,Onida,Gerckens,ZEN,Technology,NYSE,"Zendesk, Inc.",$2.69B,$52119.20
+747,Angelika,Etchingham,LOPE,Consumer Services,NASDAQ,"Grand Canyon Education, Inc.",$3.9B,$98706.05
+748,Tristan,Runcieman,WPPGY,Technology,NASDAQ,WPP plc,$28.43B,$37165.79
+749,Miriam,Teasell,DATA,Technology,NYSE,"Tableau Software, Inc.",$4.84B,$44625.23
+750,Noni,Kibel,SMMF,Finance,NASDAQ,"Summit Financial Group, Inc.",$267.39M,$91186.27
+751,Sabra,Horribine,WWD,Energy,NASDAQ,"Woodward, Inc.",$4.24B,$19261.32
+752,Lexis,Rolance,MTEX,Consumer Durables,NASDAQ,"Mannatech, Incorporated",$36.87M,$94057.48
+753,Bobbie,Simionato,PTF,n/a,NASDAQ,PowerShares DWA Technology Momenum Portfolio,$122.88M,$66309.03
+754,Elia,Eaken,GLBZ,Finance,NASDAQ,Glen Burnie Bancorp,$30.69M,$87099.34
+755,Marys,Estick,LSTR,Transportation,NASDAQ,"Landstar System, Inc.",$3.68B,$75907.76
+756,Shaylynn,Skells,ESND,Consumer Services,NASDAQ,Essendant Inc.,$560.24M,$81009.21
+757,Gigi,Ballach,PBT,Energy,NYSE,Permian Basin Royalty Trust,$426.47M,$84555.64
+758,Hanny,Asplin,DGX,Health Care,NYSE,Quest Diagnostics Incorporated,$14.73B,$15597.78
+759,Roy,Gawthorp,DOOR,Basic Industries,NYSE,Masonite International Corporation,$2.24B,$89833.07
+760,Matelda,Searchwell,KKR^A,n/a,NYSE,KKR & Co. L.P.,n/a,$76996.46
+761,Henry,Wyvill,AFSI^B,n/a,NYSE,"AmTrust Financial Services, Inc.",n/a,$24105.14
+762,Korey,Eltun,ALR^B,n/a,NYSE,Alere Inc.,n/a,$57582.87
+763,Efren,Silverson,BDX,Health Care,NYSE,"Becton, Dickinson and Company",$43.49B,$81489.14
+764,Blondy,Allaker,PNW,Public Utilities,NYSE,Pinnacle West Capital Corporation,$9.92B,$10981.57
+765,Laurent,Shergill,FTS,Public Utilities,NYSE,Fortis Inc.,$14.4B,$85239.54
+766,Syd,Orans,AVT,Consumer Non-Durables,NYSE,"Avnet, Inc.",$4.82B,$72366.29
+767,Bernhard,Beddoes,INBK,Finance,NASDAQ,First Internet Bancorp,$177.71M,$81543.18
+768,Abigale,Panchin,QCP,Consumer Services,NYSE,"Quality Care Properties, Inc.",$1.65B,$99802.33
+769,Rhona,Broyd,MTSC,Capital Goods,NASDAQ,MTS Systems Corporation,$896.52M,$40205.85
+770,Rennie,Jiggins,ROST,Consumer Services,NASDAQ,"Ross Stores, Inc.",$23.38B,$70314.49
+771,Holden,Giovannoni,CAPL,Energy,NYSE,CrossAmerica Partners LP,$832.71M,$67700.28
+772,Marigold,Gilchrest,NYCB^A,n/a,NYSE,"New York Community Bancorp, Inc.",n/a,$47703.61
+773,Verile,Alfuso,JCS,Public Utilities,NASDAQ,"Communications Systems, Inc.",$42.39M,$7155.65
+774,Nickey,Saker,LPT,Consumer Services,NYSE,Liberty Property Trust,$6.25B,$5680.74
+775,Genevieve,Spellward,A,Capital Goods,NYSE,"Agilent Technologies, Inc.",$19.12B,$75041.97
+776,Sloane,Rosoni,KAMN,Consumer Durables,NYSE,Kaman Corporation,$1.38B,$59181.75
+777,Laetitia,Southey,AXAR,Finance,NASDAQ,Axar Acquisition Corp.,$83.79M,$18777.29
+778,Nalani,Dunbavin,BML^L,n/a,NYSE,Bank of America Corporation,n/a,$80907.21
+779,Jeramey,Hedden,NHTC,Consumer Durables,NASDAQ,Natural Health Trends Corp.,$322.34M,$16581.32
+780,Dell,Kunert,PACW,Finance,NASDAQ,PacWest Bancorp,$5.87B,$10828.55
+781,Latia,Duinbleton,VMI,Capital Goods,NYSE,"Valmont Industries, Inc.",$3.4B,$81956.36
+782,Lotti,Gallahar,WLFC,Consumer Durables,NASDAQ,Willis Lease Finance Corporation,$170.65M,$60781.76
+783,Benedikta,Stegel,ISSC,Technology,NASDAQ,"Innovative Solutions and Support, Inc.",$67.47M,$15190.32
+784,Kerr,Olivera,COKE,Consumer Non-Durables,NASDAQ,Coca-Cola Bottling Co. Consolidated,$2.19B,$19289.87
+785,Omero,Gadson,NVET,Health Care,NASDAQ,Nexvet Biopharma plc,$79.27M,$2121.27
+786,Field,Mellings,TTWO,Technology,NASDAQ,"Take-Two Interactive Software, Inc.",$7.7B,$21469.78
+787,Inge,Dumbleton,PNR,Technology,NYSE,Pentair plc.,$12.15B,$85505.50
+788,William,Losemann,WSTC,Miscellaneous,NASDAQ,West Corporation,$1.9B,$89962.02
+789,Margo,Huebner,GPIC,Consumer Non-Durables,NASDAQ,Gaming Partners International Corporation,$87.17M,$61295.95
+790,Rubie,Skydall,KINS,Finance,NASDAQ,"Kingstone Companies, Inc",$166.26M,$78170.59
+791,Evvie,Nayer,UBOH,Finance,NASDAQ,"United Bancshares, Inc.",$69.91M,$74385.30
+792,Tallie,Antoniottii,LDRI,n/a,NASDAQ,PowerShares LadderRite 0-5 Year Corporate Bond Portfolio,$22.51M,$81094.95
+793,Anatola,Rooson,CLA.CL,n/a,NYSE,Capitala Finance Corp.,n/a,$76865.78
+794,Kasper,Maestro,SGEN,Health Care,NASDAQ,"Seattle Genetics, Inc.",$9.21B,$64989.21
+795,Sibyl,Chess,ALL^C,n/a,NYSE,Allstate Corporation (The),n/a,$11241.93
+796,Dulcea,Huitson,TEAR,Health Care,NASDAQ,TearLab Corporation,$9.01M,$56010.88
+797,Bell,Thumnel,ALJJ,Miscellaneous,NASDAQ,"ALJ Regional Holdings, Inc.",$113.53M,$48353.48
+798,Clerc,Campa,ASBB,Finance,NASDAQ,"ASB Bancorp, Inc.",$167.24M,$31646.98
+799,Neel,Hampe,GEF.B,n/a,NYSE,Greif Bros. Corporation,n/a,$43980.84
+800,Ashlan,Giacomozzo,PRGO,Health Care,NYSE,Perrigo Company,$10.47B,$36135.77
+801,Ines,Glazer,UONEK,Consumer Services,NASDAQ,"Urban One, Inc. ",$103.88M,$19673.41
+802,Evvie,Bowmer,HEI.A,n/a,NYSE,Heico Corporation,n/a,$8867.56
+803,Brynna,L'Hommeau,HPP,Finance,NYSE,"Hudson Pacific Properties, Inc.",$5.56B,$71514.13
+804,Perl,Del Dello,AMT^B,n/a,NYSE,American Tower Corporation (REIT),n/a,$73174.91
+805,Irma,Vasin,STLRU,Finance,NASDAQ,Stellar Acquisition III Inc.,n/a,$79662.51
+806,Maxine,Scorer,PDCO,Health Care,NASDAQ,"Patterson Companies, Inc.",$4.55B,$86005.56
+807,Gannie,Martine,FN,Public Utilities,NYSE,Fabrinet,$1.4B,$10933.95
+808,Bradney,Braunthal,REIS,Miscellaneous,NASDAQ,"Reis, Inc",$237.79M,$92057.00
+809,Renaud,Hardeman,OLD,n/a,NASDAQ,The Long-Term Care ETF,$2.7M,$49686.71
+810,Mill,Swinburn,LWAY,Consumer Non-Durables,NASDAQ,"Lifeway Foods, Inc.",$157.5M,$16473.67
+811,Anselma,Terbrug,TGNA,Consumer Services,NYSE,TEGNA Inc.,$3.26B,$62487.98
+812,Marillin,Hansie,NANO,Capital Goods,NASDAQ,Nanometrics Incorporated,$687.35M,$47461.04
+813,Olivia,Emptage,KLXI,Capital Goods,NASDAQ,KLX Inc.,$2.58B,$5291.89
+814,Duffy,Drillot,RXDX,Health Care,NASDAQ,"Ignyta, Inc.",$553.69M,$40923.08
+815,Oby,Leathart,MSGN,Consumer Services,NYSE,MSG Networks Inc.,$1.66B,$42828.31
+816,Sherm,Mollen,full_name,Miscellaneous,NASDAQ,"Rightside Group, Ltd.",$208.04M,$19432.48
+817,Garvy,Kisbee,RLJE,Consumer Services,NASDAQ,"RLJ Entertainment, Inc.",$14.73M,$87337.67
+818,Gratiana,Marien,KW,Finance,NYSE,Kennedy-Wilson Holdings Inc.,$2.07B,$60233.44
+819,Tallie,Mahon,TZOO,Technology,NASDAQ,Travelzoo,$131.24M,$69980.75
+820,Lynn,Baise,SLRC,n/a,NASDAQ,Solar Capital Ltd.,$920.44M,$79390.97
+821,Blanca,Fisbey,STOR,Consumer Services,NYSE,STORE Capital Corporation,$3.62B,$93232.94
+822,Cara,Grzelczyk,PHT,n/a,NYSE,Pioneer High Income Trust,$289.1M,$11731.95
+823,Gwyneth,Connochie,GALE,Health Care,NASDAQ,"Galena Biopharma, Inc.",$20.66M,$99001.84
+824,Kiley,Tomlin,LABL,Miscellaneous,NASDAQ,Multi-Color Corporation,$1.46B,$19263.96
+825,Amalie,Jorge,PSMT,Consumer Services,NASDAQ,"PriceSmart, Inc.",$2.58B,$16518.88
+826,Janeta,Rippingall,SDT,Energy,NYSE,SandRidge Mississippian Trust I,$39.48M,$40174.58
+827,Lyndsie,Durston,MNGA,Technology,NASDAQ,MagneGas Corporation,$7.87M,$26734.97
+828,Kelila,Paylor,SNAK,Consumer Non-Durables,NASDAQ,"Inventure Foods, Inc.",$83.67M,$32005.64
+829,Florenza,Gennings,NMK^B,Public Utilities,NYSE,"Niagara Mohawk Holdings, Inc.",n/a,$21683.57
+830,Thedric,Jirus,EVT,n/a,NYSE,Eaton Vance Tax Advantaged Dividend Income Fund,$1.6B,$98601.19
+831,Barnaby,Cheesworth,CMPR,Miscellaneous,NASDAQ,Cimpress N.V,$2.85B,$6629.85
+832,Martynne,Adamo,GDV^G,n/a,NYSE,Gabelli Dividend,n/a,$48561.95
+833,Kaleb,Scoggins,SSD,Capital Goods,NYSE,"Simpson Manufacturing Company, Inc.",$2.08B,$78575.05
+834,Philly,Buggs,ROP,Capital Goods,NYSE,"Roper Technologies, Inc.",$23.69B,$91982.04
+835,Brendis,Littrik,VEEV,Technology,NYSE,Veeva Systems Inc.,$8.33B,$16815.52
+836,Ailina,Lyard,UVE,Finance,NYSE,UNIVERSAL INSURANCE HOLDINGS INC,$882.08M,$71457.33
+837,Patience,Seabrooke,AGEN,Health Care,NASDAQ,Agenus Inc.,$342.95M,$69314.75
+838,Charo,Elnough,HQCL,Technology,NASDAQ,"Hanwha Q CELLS Co., Ltd. ",$527.66M,$57770.46
+839,Kacie,Compton,HBP,Consumer Services,NASDAQ,"Huttig Building Products, Inc.",$177.28M,$59894.64
+840,Boonie,Hankins,KEY,Finance,NYSE,KeyCorp,$20.32B,$87042.56
+841,Francine,Teaze,DEST,Consumer Services,NASDAQ,Destination Maternity Corporation,$64.48M,$10167.66
+842,Philippine,Watkin,PVAC,Energy,NASDAQ,Penn Virginia Corporation,$582.59M,$18747.11
+843,Estelle,Ahern,SYRS,Health Care,NASDAQ,"Syros Pharmaceuticals, Inc.",$460.25M,$60053.87
+844,Leela,Shieber,ARKR,Consumer Services,NASDAQ,Ark Restaurants Corp.,$85.01M,$10084.98
+845,Temple,Gilliver,AGO,Finance,NYSE,Assured Guaranty Ltd.,$5.11B,$61029.00
+846,Lea,Hinzer,DGICB,Finance,NASDAQ,"Donegal Group, Inc.",$395.71M,$87574.77
+847,Lissie,Stoile,IPG,Technology,NYSE,"Interpublic Group of Companies, Inc. (The)",$9.64B,$48191.92
+848,Alf,Gonnet,EVLV,Consumer Services,NASDAQ,EVINE Live Inc.,$67.58M,$85749.24
+849,Ciel,Puzey,PLOW,Capital Goods,NYSE,"Douglas Dynamics, Inc.",$689.02M,$48873.06
+850,Willi,Bramley,MDCO,Health Care,NASDAQ,The Medicines Company,$2.68B,$33633.51
+851,Marty,Cockney,CBO,n/a,NYSE,CBO (Listing Market - NYSE - Networks A/E),n/a,$91796.36
+852,Gaspard,Worsham,CYTX,Health Care,NASDAQ,Cytori Therapeutics Inc,$31.83M,$84337.97
+853,Sherilyn,Braunds,EAGL,Finance,NASDAQ,Double Eagle Acquisition Corp.,$628.13M,$19063.41
+854,Talya,Showell,GPACU,Health Care,NASDAQ,Global Partner Acquisition Corp.,n/a,$94530.63
+855,Junette,Eskrick,TPVZ,n/a,NYSE,TriplePoint Venture Growth BDC Corp.,n/a,$39613.23
+856,Lurlene,Mahmood,PTH,n/a,NASDAQ,PowerShares DWA Healthcare Momentum Portfolio,$61.7M,$53104.89
+857,Jeralee,Gohier,BURL,Consumer Services,NYSE,"Burlington Stores, Inc.",$6.72B,$2867.17
+858,Marris,Toller,ONSIW,Health Care,NASDAQ,"Oncobiologics, Inc.",n/a,$20957.57
+859,Wayne,Baiyle,PBCTP,Finance,NASDAQ,"People's United Financial, Inc.",n/a,$35542.14
+860,Tudor,Seebert,PLXS,Technology,NASDAQ,Plexus Corp.,$1.74B,$8529.15
+861,Roxine,Riddington,CIA,Finance,NYSE,"Citizens, Inc.",$350.57M,$1811.62
+862,Jeffie,Cahalan,TSS,Miscellaneous,NYSE,"Total System Services, Inc.",$10.85B,$10603.73
+863,Flossi,Seton,ECOM          ,Technology,NYSE,ChannelAdvisor Corporation,$305.43M,$54997.77
+864,Albertine,Crutchfield,EGO,Basic Industries,NYSE,Eldorado Gold Corporation,$1.97B,$80788.30
+865,Lilias,Macrae,RXIIW,Health Care,NASDAQ,RXi Pharmaceuticals Corporation,n/a,$51896.06
+866,Ariana,Probetts,FIV,n/a,NYSE,First Trust Senior Floating Rate 2022 Target Term Fund,$324.21M,$43316.25
+867,Hortense,Heatlie,TPB,Consumer Non-Durables,NYSE,"Turning Point Brands, Inc.",$292.85M,$64518.47
+868,Ardene,Scutter,FULT,Finance,NASDAQ,Fulton Financial Corporation,$3.33B,$83701.06
+869,Gabriele,Collinwood,ATH,Finance,NYSE,Athene Holding Ltd.,$9.79B,$5405.37
+870,Mureil,Peirson,KMM,n/a,NYSE,Scudder Multi-Market Income Trust,$198.85M,$51176.89
+871,Kendrick,Cockhill,PAY,Miscellaneous,NYSE,"Verifone Systems, Inc.",$1.93B,$53794.03
+872,Corliss,Watman,AXS^D,n/a,NYSE,Axis Capital Holdings Limited,n/a,$99879.11
+873,Pepe,Hehnke,UBA,Consumer Services,NYSE,Urstadt Biddle Properties Inc.,$788.64M,$32173.13
+874,Suellen,Gravie,FIVE,Consumer Services,NASDAQ,"Five Below, Inc.",$2.65B,$23819.39
+875,Tally,Laity,SOHO,Consumer Services,NASDAQ,Sotherly Hotels Inc.,$91.07M,$47631.42
+876,Candace,Tokell,VZ,Public Utilities,NYSE,Verizon Communications Inc.,$190.22B,$61608.85
+877,Kory,Keeri,VIPS,Consumer Services,NYSE,Vipshop Holdings Limited,$6.96B,$62176.62
+878,Jeremy,Fremantle,ARD,Consumer Durables,NYSE,Ardagh Group S.A.,$5.2B,$36993.98
+879,Gizela,Turban,HUNTW,Transportation,NASDAQ,Hunter Maritime Acquisition Corp.,n/a,$57424.21
+880,Sibylle,Gotter,VGLT,n/a,NASDAQ,Vanguard Long-Term Government Bond ETF,$491.64M,$8155.33
+881,Bale,Andreazzi,TR,Consumer Non-Durables,NYSE,"Tootsie Roll Industries, Inc.",$1.38B,$86503.32
+882,Carleton,Dibdale,AIB,n/a,NYSE,Apollo Investment Corporation,n/a,$35762.09
+883,Leicester,Merryman,CAA,Capital Goods,NYSE,"CalAtlantic Group, Inc.",$3.96B,$97025.19
+884,Emelita,Stockton,IO,Energy,NYSE,Ion Geophysical Corporation,$50.45M,$15341.79
+885,Moina,McOwan,FNTEU,Finance,NASDAQ,FinTech Acquisition Corp. II,n/a,$51342.49
+886,Bren,Emanson,LVNTB,Consumer Services,NASDAQ,Liberty Interactive Corporation,$4.8B,$16571.80
+887,Quinta,Waltering,FCEL,Miscellaneous,NASDAQ,"FuelCell Energy, Inc.",$65.53M,$10195.05
+888,Cheri,Vitall,IPL^D,n/a,NYSE,Interstate Power and Light Company,n/a,$54301.04
+889,Zack,Onthank,AEH,Finance,NYSE,Aegon NV,n/a,$62288.14
+890,Adrianne,Botger,OCRX,Health Care,NASDAQ,"Ocera Therapeutics, Inc.",$25.45M,$92424.37
+891,Richardo,Alesio,MUI,n/a,NYSE,Blackrock Muni Intermediate Duration Fund Inc,$539.98M,$23254.14
+892,Conny,McKendry,BXC,Capital Goods,NYSE,BlueLinx Holdings Inc.,$99.14M,$51362.56
+893,Kenon,Durbann,ANCB,Finance,NASDAQ,Anchor Bancorp,$62.74M,$20663.96
+894,Griffin,Corker,TSI,n/a,NYSE,"TCW Strategic Income Fund, Inc.",$271.82M,$69673.55
+895,Spencer,Paunton,AZRX,n/a,NASDAQ,"AzurRx BioPharma, Inc.",$38.27M,$17049.07
+896,Edi,Geany,IXUS,n/a,NASDAQ,iShares Core MSCI Total International Stock ETF,$6.26B,$49060.11
+897,Elissa,Portal,ESND,Consumer Services,NASDAQ,Essendant Inc.,$560.24M,$88479.27
+898,Lisbeth,Dressell,MNKD,Health Care,NASDAQ,MannKind Corporation,$156.56M,$19711.66
+899,Julian,Siebart,BCRX,Health Care,NASDAQ,"BioCryst Pharmaceuticals, Inc.",$446.33M,$79672.47
+900,Walker,Horburgh,AJG,Finance,NYSE,Arthur J. Gallagher & Co.,$10.59B,$16157.90
+901,Mia,Deverock,HBP,Consumer Services,NASDAQ,"Huttig Building Products, Inc.",$177.28M,$10664.70
+902,Ludovika,Fielders,SXC,Basic Industries,NYSE,"SunCoke Energy, Inc.",$614.25M,$84138.88
+903,Mariele,Paramore,DLNG^A,n/a,NYSE,Dynagas LNG Partners LP,n/a,$6593.67
+904,Codie,Lavalde,OCIP,Basic Industries,NYSE,OCI Partners LP,$782.98M,$95378.74
+905,Trev,McLagan,HSTM,Technology,NASDAQ,"HealthStream, Inc.",$952.64M,$1334.17
+906,Brett,Whittenbury,BKMU,Finance,NASDAQ,Bank Mutual Corporation,$431.76M,$87682.33
+907,Cicely,Jackways,ANET,Technology,NYSE,"Arista Networks, Inc.",$10.91B,$86074.98
+908,Renato,West,POPE,Consumer Non-Durables,NASDAQ,Pope Resources,$320.19M,$28902.72
+909,Nan,Waiton,EMCF,Finance,NASDAQ,Emclaire Financial Corp,$59.2M,$58187.03
+910,Jerry,Silverton,SNDR,Transportation,NYSE,"Schneider National, Inc.",$3.74B,$92239.10
+911,Jakie,Treker,BDX,Health Care,NYSE,"Becton, Dickinson and Company",$43.49B,$86444.44
+912,Zed,Pinching,OSB,Basic Industries,NYSE,Norbord Inc.,$2.59B,$44109.68
+913,Kirbee,Carcass,L,Finance,NYSE,Loews Corporation,$16.21B,$98278.82
+914,Jordan,Harral,MNOV,Health Care,NASDAQ,"MediciNova, Inc.",$188.59M,$50182.55
+915,Pearla,Stot,ABAC,Consumer Non-Durables,NASDAQ,"Aoxin Tianli Group, Inc.",$16.29M,$63514.49
+916,Steward,Gabriel,CMFN,n/a,NASDAQ,CM Finance Inc,$139.62M,$44884.12
+917,Charlena,Waskett,SHLD,Consumer Services,NASDAQ,Sears Holdings Corporation,$715.46M,$45791.83
+918,Teddi,Parramore,ELLI,Technology,NYSE,"Ellie Mae, Inc.",$3.79B,$83031.97
+919,Loleta,Uridge,TRP,Public Utilities,NYSE,TransCanada Corporation,$41.81B,$9228.60
+920,Dore,Arghent,XTLY,Technology,NYSE,Xactly Corporation,$499.79M,$93905.04
+921,Edvard,Brownhall,HBHCL,Finance,NASDAQ,Hancock Holding Company,n/a,$26472.06
+922,Noemi,Glasspool,CSTM,Basic Industries,NYSE,Constellium N.V.,$702.12M,$26606.43
+923,Fidela,Chagg,PMC,Health Care,NYSE,Pharmerica Corporation,$778.92M,$85694.22
+924,Lane,Carreck,TCF,Finance,NYSE,TCF Financial Corporation,$2.72B,$76880.70
+925,Roy,Nesey,GDDY,Technology,NYSE,GoDaddy Inc.,$7.15B,$37482.68
+926,Parke,Kumaar,LAYN,Basic Industries,NASDAQ,Layne Christensen Company,$173.34M,$46315.96
+927,Zackariah,Burchill,AIB,n/a,NYSE,Apollo Investment Corporation,n/a,$64371.20
+928,Cynthia,Thulborn,HNP,Public Utilities,NYSE,"Huaneng Power International, Inc.",$11.05B,$67829.57
+929,Viva,Dobkin,FNCX,Technology,NASDAQ,Function(x) Inc.,$14.24M,$23591.52
+930,Margi,Bogies,PGEM,Basic Industries,NYSE,"Ply Gem Holdings, Inc.",$1.18B,$91388.15
+931,Kelby,Udale,BIOA,Basic Industries,NYSE,BioAmber Inc.,$89.35M,$11157.13
+932,Ginevra,Schaumann,FAST,Consumer Services,NASDAQ,Fastenal Company,$12.84B,$48670.86
+933,Calida,Arboine,JOUT,Consumer Non-Durables,NASDAQ,Johnson Outdoors Inc.,$440.37M,$7898.80
+934,Tommi,Jorio,FGBI,Finance,NASDAQ,"First Guaranty Bancshares, Inc.",$203.62M,$88130.92
+935,Galven,Cutcliffe,DXC,Technology,NYSE,DXC Technology Company,$21.19B,$19859.69
+936,Arlina,Wiersma,AFW.CL,n/a,NYSE,"American Financial Group, Inc.",n/a,$87172.16
+937,Cyb,Jambrozek,BCRX,Health Care,NASDAQ,"BioCryst Pharmaceuticals, Inc.",$446.33M,$29257.78
+938,Helaina,Burgoine,DDR^J,n/a,NYSE,DDR Corp.,n/a,$59919.47
+939,Thomas,Waleworke,SAFT,Finance,NASDAQ,"Safety Insurance Group, Inc.",$1.06B,$18666.54
+940,Karon,Straine,MANT,Consumer Services,NASDAQ,ManTech International Corporation,$1.51B,$7650.00
+941,Audy,Leel,FPXI,n/a,NASDAQ,First Trust International IPO ETF,$4.77M,$50544.52
+942,Christal,Easseby,ASB,Finance,NYSE,Associated Banc-Corp,$3.82B,$94225.04
+943,Gerry,Langstone,SSRI,Basic Industries,NASDAQ,Silver Standard Resources Inc.,$1.1B,$54429.95
+944,Aviva,Newlyn,NBHC,Finance,NYSE,National Bank Holdings Corporation,$878.18M,$66678.15
+945,Rodrigo,Bardill,GRA,Basic Industries,NYSE,W.R. Grace & Co.,$4.82B,$80270.90
+946,Idalina,Mingey,ABUS,Health Care,NASDAQ,Arbutus Biopharma Corporation,$198.09M,$23131.49
+947,Bernelle,Lamble,PEY,n/a,NASDAQ,PowerShares High Yield Equity Dividend Achievers Portfolio,$953.28M,$14762.22
+948,Ann-marie,Durdy,MTX,Basic Industries,NYSE,Minerals Technologies Inc.,$2.5B,$48162.34
+949,Hagen,Mitchenson,CHEKW,Health Care,NASDAQ,Check-Cap Ltd.,n/a,$32517.91
+950,Joleen,Snailham,TGI,Capital Goods,NYSE,"Triumph Group, Inc.",$1.58B,$32553.72
+951,Mariam,Pickthorne,HRMNW,Public Utilities,NASDAQ,Harmony Merger Corp.,n/a,$46373.02
+952,Ambrosio,Eads,BLMT,Finance,NASDAQ,"BSB Bancorp, Inc.",$292.59M,$91835.39
+953,Vanya,Maycock,OSN,Basic Industries,NASDAQ,"Ossen Innovation Co., Ltd.",$14.05M,$45957.24
+954,Kristan,Caudelier,TAC,Public Utilities,NYSE,TransAlta Corporation,$1.69B,$12008.04
+955,Ernestus,Guerrin,PENN,Consumer Services,NASDAQ,"Penn National Gaming, Inc.",$1.95B,$93592.73
+956,Hyatt,Gillow,WMAR,Consumer Durables,NASDAQ,"West Marine, Inc.",$245.88M,$72045.32
+957,Lynett,MacNucator,RGA,Finance,NYSE,"Reinsurance Group of America, Incorporated",$8.29B,$78909.80
+958,Fitzgerald,Dotterill,FNBG,Finance,NASDAQ,FNB Bancorp,$200.83M,$98592.34
+959,Rhianna,Henrichs,MRDNW,Basic Industries,NASDAQ,"Meridian Waste Solutions, Inc",n/a,$76900.20
+960,Rochella,MacElane,BFK,n/a,NYSE,BlackRock Municipal Income Trust,$638.92M,$73646.68
+961,Norene,Struther,FCE.A,n/a,NYSE,"Forest City Realty Trust, Inc.",n/a,$47493.87
+962,Veradis,Sibary,MSON,Capital Goods,NASDAQ,"MISONIX, Inc.",$89.33M,$44432.13
+963,Osbourn,Ring,DMLP,Energy,NASDAQ,"Dorchester Minerals, L.P.",$454M,$10346.14
+964,Aldous,Jeratt,AKO.A,n/a,NYSE,Embotelladora Andina S.A.,n/a,$19210.05
+965,Abbi,Schoolfield,OC,Capital Goods,NYSE,Owens Corning Inc,$7.18B,$96035.78
+966,Carlie,Cardow,PXS,Transportation,NASDAQ,Pyxis Tankers Inc.,$26.87M,$71717.35
+967,Brig,Simenet,VEACW,Finance,NASDAQ,Vantage Energy Acquisition Corp.,n/a,$44835.43
+968,Etheline,Danihelka,CENT,Consumer Durables,NASDAQ,Central Garden & Pet Company,$1.59B,$86476.49
+969,Jesse,Dudmesh,BABY,Health Care,NASDAQ,Natus Medical Incorporated,$1.16B,$39798.29
+970,Reed,Fearnehough,ARTNA,Public Utilities,NASDAQ,Artesian Resources Corporation,$380.1M,$41389.81
+971,Binny,Trythall,EEP,Energy,NYSE,"Enbridge Energy, L.P.",$6.76B,$89538.26
+972,Dael,Wilne,ODFL,Transportation,NASDAQ,"Old Dominion Freight Line, Inc.",$7.81B,$37010.06
+973,Em,Rohfsen,MACK,Health Care,NASDAQ,"Merrimack Pharmaceuticals, Inc.",$153.62M,$55565.07
+974,Marie-jeanne,Normansell,JKI,n/a,NASDAQ,iShares Morningstar Mid-Cap ETF,$380.3M,$90689.51
+975,Jocko,Gallahar,FAC,Finance,NYSE,First Acceptance Corporation,$49.8M,$35303.67
+976,Lilla,Zipsell,ICLN,n/a,NASDAQ,iShares S&P Global Clean Energy Index Fund,$85.5M,$53980.64
+977,Micheal,Barten,FBZ,n/a,NASDAQ,First Trust Brazil AlphaDEX Fund,$25.39M,$50268.18
+978,Mackenzie,Ambrodi,INO,Health Care,NASDAQ,"Inovio Pharmaceuticals, Inc.",$585.08M,$3.43
+979,Johan,Silberschatz,DS^C,n/a,NYSE,Drive Shack Inc.,n/a,$59302.58
+980,Zak,Auton,FGP,Consumer Services,NYSE,"Ferrellgas Partners, L.P.",$508.11M,$66196.45
+981,Reta,Barth,APO,Finance,NYSE,"Apollo Global Management, LLC",$11.18B,$75834.56
+982,Jarrod,Plaskitt,SBS,Public Utilities,NYSE,Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp,$6.55B,$98817.08
+983,Florence,Hadingham,DCUC,Public Utilities,NYSE,"Dominion Energy, Inc.",$32.02B,$21389.09
+984,Drucill,Van Zon,TGS,Public Utilities,NYSE,Transportadora De Gas Sa Ord B,$2.53B,$70949.54
+985,Ferd,Vuittet,PBIP,Finance,NASDAQ,"Prudential Bancorp, Inc.",$165.3M,$4072.42
+986,Tannie,Ford,AOD,n/a,NYSE,Alpine Total Dynamic Dividend Fund,$943.59M,$59360.07
+987,Fredric,Calfe,BFAM,Miscellaneous,NYSE,Bright Horizons Family Solutions Inc.,$4.61B,$34006.38
+988,Marnia,Whitney,RILYL,Miscellaneous,NASDAQ,"B. Riley Financial, Inc.",n/a,$32370.70
+989,Marmaduke,Silber,GS^K,n/a,NYSE,"Goldman Sachs Group, Inc. (The)",n/a,$32516.16
+990,Zacherie,Pollastrino,LAMR,Consumer Services,NASDAQ,Lamar Advertising Company,$7.22B,$49863.44
+991,Belvia,Callum,RXIIW,Health Care,NASDAQ,RXi Pharmaceuticals Corporation,n/a,$57783.14
+992,Albrecht,Fishbourne,FND,Consumer Services,NYSE,"Floor & Decor Holdings, Inc.",$3.79B,$14916.18
+993,Leeland,Cawthera,PNFP,Finance,NASDAQ,"Pinnacle Financial Partners, Inc.",$3.27B,$23102.14
+994,Leia,O'Feeny,CPLA,Consumer Services,NASDAQ,Capella Education Company,$1.04B,$90538.32
+995,Staci,Molyneaux,BP,Energy,NYSE,BP p.l.c.,$117.99B,$48834.11
+996,Taite,Holdey,EARN,Consumer Services,NYSE,Ellington Residential Mortgage REIT,$140.16M,$24999.72
+997,Benyamin,Fibbit,WCC,Consumer Non-Durables,NYSE,"WESCO International, Inc.",$2.79B,$93583.48
+998,Arri,Maytom,TCS,Consumer Services,NYSE,Container Store (The),$277.68M,$19550.46
+999,Catlin,Clifton,HAL,Energy,NYSE,Halliburton Company,$38.42B,$23474.77
+1000,Ardis,Pickworth,G,Consumer Services,NYSE,Genpact Limited,$5.21B,$54155.84
