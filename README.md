@@ -24,7 +24,7 @@
 |5|DSB Ranking|[📋](https://preppindata.blogspot.com/2023/02/2023-week-5-dsb-ranking.html)|[✅](2023/preppin-data-2023-05/README.md)|| 5&nbsp;&nbsp;|
 |6|DSB Customer Ratings|[📋](https://preppindata.blogspot.com/2023/02/2023-week-6-dsb-customer-ratings.html)|[✅](2023/preppin-data-2023-06/README.md)|| 5&nbsp;&nbsp;|
 |7|Flagging Fraudulent Suspicions|[📋](https://preppindata.blogspot.com/2023/02/2023-week-7-flagging-fraudulent.html)|[✅](2023/preppin-data-2023-07/README.md)|| 5&nbsp;&nbsp;|
-|8|Taking Stock|[📋](https://preppindata.blogspot.com/2023/02/2023-week-8-taking-stock.html)|[](2023/preppin-data-2023-08/README.md)|| &nbsp;&nbsp;|
+|8|Taking Stock|[📋](https://preppindata.blogspot.com/2023/02/2023-week-8-taking-stock.html)|[✅](2023/preppin-data-2023-08/README.md)|| 6&nbsp;&nbsp;|
 |9|Customer Bank Statements|[📋](https://preppindata.blogspot.com/2023/03/2023-week-9-customer-bank-statements.html)|[](2023/preppin-data-2023-09/README.md)|| &nbsp;&nbsp;|
 |10|TWhat's my balance on this day?|[📋](https://preppindata.blogspot.com/2023/03/2023-week-10-whats-my-balance-on-this.html)|[](2023/preppin-data-2023-10/README.md)|| &nbsp;&nbsp;|
 |11|Which customers Are closest?|[📋](https://preppindata.blogspot.com/2023/03/2023-week-11-which-customers-are-closest.html)|[](2023/preppin-data-2023-11/README.md)|| &nbsp;&nbsp;|
