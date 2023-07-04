@@ -3,6 +3,7 @@
 # Preppin' Data 2023 Week 10 - What's my balance on this day?
 
 [Challenge description](https://preppindata.blogspot.com/2023/03/2023-week-10-whats-my-balance-on-this.html)
+
 What I learned/practiced this week:
 * Practiced: aggregation
 * Practiced: joining (merge)
