@@ -6,6 +6,8 @@
 
 What I learned/practiced this week:
 * Practiced: defining a function
+* Learned: spatial calculations in geopandas
+* Practiced: Find Nearest tool in Alteryx
 * Practiced: joining (merge)
 * Practiced: deduplicating (drop_duplicates in pandas / unique in polars)
 * Practiced: ranking
