@@ -1,0 +1,1301 @@
+Trade Order,Sector,Rolling Avg. Purchase Price,Previous Trades
+434,Basic Industries,29314.67,1
+435,Basic Industries,59092.44,2
+436,Basic Industries,60355.36,3
+437,Basic Industries,66000.66,4
+438,Basic Industries,36549.08,5
+439,Basic Industries,46667.15,6
+440,Basic Industries,54526.34,7
+441,Basic Industries,54139.37,8
+442,Basic Industries,22416.9,9
+443,Basic Industries,34656.21,10
+444,Basic Industries,51673.02,11
+445,Basic Industries,61817.41,12
+446,Basic Industries,59464.25,13
+447,Basic Industries,58092.97,14
+448,Basic Industries,73092.09,15
+449,Basic Industries,58272.38,16
+450,Basic Industries,44148.21,17
+451,Basic Industries,19095.91,18
+452,Basic Industries,5756.17,19
+453,Basic Industries,29096.07,20
+454,Basic Industries,37370.7,21
+455,Basic Industries,42894.55,22
+456,Basic Industries,32650.14,23
+457,Basic Industries,29565.77,24
+458,Basic Industries,38169.67,25
+459,Basic Industries,50566.21,26
+460,Basic Industries,67322.4,27
+461,Basic Industries,58053.73,28
+462,Basic Industries,38346.38,29
+463,Basic Industries,41972.39,30
+464,Basic Industries,56467.23,31
+465,Basic Industries,75624.59,32
+466,Basic Industries,69725.27,33
+467,Basic Industries,80070.49,34
+468,Basic Industries,80937.13,35
+469,Basic Industries,79896.83,36
+470,Basic Industries,69769.15,37
+471,Basic Industries,71104.63,38
+472,Basic Industries,57748.56,39
+473,Basic Industries,65441.73,40
+474,Basic Industries,63125.55,41
+475,Basic Industries,84920.08,42
+476,Basic Industries,86768.64,43
+477,Basic Industries,74542.43,44
+478,Basic Industries,55364.95,45
+479,Basic Industries,39010.69,46
+480,Basic Industries,54770.18,47
+481,Basic Industries,49620.41,48
+482,Basic Industries,52325.08,49
+483,Basic Industries,48619.33,50
+484,Basic Industries,60954.4,51
+485,Basic Industries,58130.16,52
+486,Basic Industries,57006.59,53
+487,Basic Industries,68935.57,54
+488,Basic Industries,70775.66,55
+489,Basic Industries,50955.87,56
+490,Basic Industries,28598.01,57
+491,Basic Industries,25380.61,58
+492,Basic Industries,42303.29,59
+493,Basic Industries,54939.54,60
+494,Basic Industries,72246.68,61
+495,Basic Industries,59627.03,62
+496,Basic Industries,64118.31,63
+497,Basic Industries,39365.44,64
+498,Basic Industries,40558.4,65
+499,Basic Industries,43458.21,66
+500,Basic Industries,62590.62,67
+501,Basic Industries,70186.72,68
+502,Basic Industries,60807.91,69
+503,Basic Industries,40929.82,70
+504,Basic Industries,45942.37,71
+505,Basic Industries,59796.26,72
+506,Basic Industries,79344.24,73
+507,Basic Industries,73498.1,74
+508,Basic Industries,49316.84,75
+509,Basic Industries,36801.95,76
+510,Basic Industries,33800.8,77
+511,Basic Industries,52375.48,78
+512,Basic Industries,71913.07,79
+513,Basic Industries,78587.15,80
+514,Basic Industries,79564.62,81
+515,Basic Industries,77132.94,82
+516,Basic Industries,60356.85,83
+517,Basic Industries,41881.04,84
+518,Basic Industries,42054.12,85
+519,Basic Industries,68825.6,86
+520,Basic Industries,64686.12,87
+521,Basic Industries,58704.71,88
+522,Basic Industries,59833.73,89
+523,Basic Industries,59328.9,90
+524,Basic Industries,64163.37,91
+525,Basic Industries,59042.42,92
+526,Basic Industries,83675.52,93
+527,Basic Industries,85899.66,94
+528,Basic Industries,82633.51,95
+529,Basic Industries,63455.27,96
+530,Basic Industries,35758.9,97
+531,Basic Industries,29148.6,98
+532,Basic Industries,48074.92,99
+533,Basic Industries,49850.86,100
+593,Capital Goods,37403.89,1
+594,Capital Goods,40261.69,2
+595,Capital Goods,55987.67,3
+596,Capital Goods,53252.35,4
+597,Capital Goods,51232.5,5
+598,Capital Goods,40156.78,6
+599,Capital Goods,50935.87,7
+600,Capital Goods,30834.12,8
+601,Capital Goods,39778.75,9
+602,Capital Goods,39136.33,10
+603,Capital Goods,43918.64,11
+604,Capital Goods,41858.7,12
+605,Capital Goods,49137.67,13
+606,Capital Goods,72314.31,14
+607,Capital Goods,71913.03,15
+608,Capital Goods,64346.26,16
+609,Capital Goods,62140.52,17
+610,Capital Goods,55854.36,18
+611,Capital Goods,62078.13,19
+612,Capital Goods,37790.0,20
+613,Capital Goods,38115.05,21
+614,Capital Goods,24745.1,22
+615,Capital Goods,36158.39,23
+616,Capital Goods,18820.78,24
+617,Capital Goods,38897.04,25
+618,Capital Goods,41204.03,26
+619,Capital Goods,53535.12,27
+620,Capital Goods,53466.18,28
+621,Capital Goods,42329.42,29
+622,Capital Goods,38701.25,30
+623,Capital Goods,41134.7,31
+624,Capital Goods,39193.81,32
+625,Capital Goods,52205.41,33
+626,Capital Goods,51227.15,34
+627,Capital Goods,76291.88,35
+628,Capital Goods,76802.05,36
+629,Capital Goods,72781.32,37
+630,Capital Goods,58553.35,38
+631,Capital Goods,59514.22,39
+632,Capital Goods,65734.73,40
+633,Capital Goods,68153.12,41
+634,Capital Goods,44903.1,42
+635,Capital Goods,43775.99,43
+636,Capital Goods,58616.33,44
+637,Capital Goods,73143.38,45
+638,Capital Goods,79293.43,46
+639,Capital Goods,65753.6,47
+640,Capital Goods,60313.82,48
+641,Capital Goods,42782.8,49
+642,Capital Goods,57673.88,50
+643,Capital Goods,50524.45,51
+644,Capital Goods,54248.44,52
+645,Capital Goods,26025.67,53
+646,Capital Goods,33790.99,54
+647,Capital Goods,30816.77,55
+648,Capital Goods,55927.96,56
+649,Capital Goods,73045.51,57
+650,Capital Goods,61011.89,58
+651,Capital Goods,54050.45,59
+652,Capital Goods,33965.42,60
+653,Capital Goods,39344.66,61
+654,Capital Goods,47370.21,62
+655,Capital Goods,65956.75,63
+656,Capital Goods,69661.29,64
+657,Capital Goods,62717.27,65
+658,Capital Goods,51917.18,66
+659,Capital Goods,43678.76,67
+660,Capital Goods,24795.09,68
+661,Capital Goods,41380.85,69
+662,Capital Goods,38311.65,70
+663,Capital Goods,41204.93,71
+664,Capital Goods,17424.59,72
+665,Capital Goods,37110.23,73
+666,Capital Goods,61140.69,74
+667,Capital Goods,81384.56,75
+668,Capital Goods,91322.39,76
+669,Capital Goods,86123.65,77
+670,Capital Goods,72301.1,78
+671,Capital Goods,43558.35,79
+672,Capital Goods,18061.3,80
+673,Capital Goods,12133.05,81
+674,Capital Goods,24679.97,82
+675,Capital Goods,47521.41,83
+676,Capital Goods,59343.37,84
+677,Capital Goods,70738.02,85
+678,Capital Goods,77838.07,86
+679,Capital Goods,82311.16,87
+680,Capital Goods,76334.87,88
+681,Capital Goods,46498.66,89
+682,Capital Goods,23884.8,90
+683,Capital Goods,3828.28,91
+684,Capital Goods,26099.0,92
+685,Capital Goods,38787.49,93
+686,Capital Goods,72020.91,94
+687,Capital Goods,77612.97,95
+688,Capital Goods,65091.53,96
+689,Capital Goods,36139.76,97
+690,Capital Goods,24710.23,98
+691,Capital Goods,46523.99,99
+692,Capital Goods,42986.13,100
+174,Consumer Durables,37980.04,1
+175,Consumer Durables,31071.44,2
+176,Consumer Durables,30784.44,3
+177,Consumer Durables,52523.97,4
+178,Consumer Durables,55395.6,5
+179,Consumer Durables,44902.08,6
+180,Consumer Durables,39656.94,7
+181,Consumer Durables,40872.99,8
+182,Consumer Durables,46389.01,9
+183,Consumer Durables,52995.24,10
+184,Consumer Durables,48012.3,11
+185,Consumer Durables,53890.23,12
+186,Consumer Durables,51831.55,13
+187,Consumer Durables,82741.36,14
+188,Consumer Durables,72693.4,15
+189,Consumer Durables,44164.04,16
+190,Consumer Durables,26024.76,17
+191,Consumer Durables,45940.97,18
+192,Consumer Durables,60557.76,19
+193,Consumer Durables,60205.25,20
+194,Consumer Durables,58506.38,21
+195,Consumer Durables,68298.97,22
+196,Consumer Durables,57425.56,23
+197,Consumer Durables,40720.69,24
+198,Consumer Durables,29302.32,25
+199,Consumer Durables,41263.07,26
+200,Consumer Durables,40244.91,27
+201,Consumer Durables,52014.08,28
+202,Consumer Durables,60334.0,29
+203,Consumer Durables,76167.56,30
+204,Consumer Durables,70813.44,31
+205,Consumer Durables,74372.89,32
+206,Consumer Durables,72323.01,33
+207,Consumer Durables,57674.71,34
+208,Consumer Durables,54614.48,35
+209,Consumer Durables,48337.33,36
+210,Consumer Durables,58181.45,37
+211,Consumer Durables,40303.94,38
+212,Consumer Durables,35299.37,39
+213,Consumer Durables,39018.64,40
+214,Consumer Durables,47886.88,41
+215,Consumer Durables,54232.21,42
+216,Consumer Durables,55898.03,43
+217,Consumer Durables,73138.06,44
+218,Consumer Durables,53405.27,45
+219,Consumer Durables,59756.4,46
+220,Consumer Durables,52147.37,47
+221,Consumer Durables,61568.63,48
+222,Consumer Durables,41182.53,49
+223,Consumer Durables,37884.93,50
+224,Consumer Durables,53997.76,51
+225,Consumer Durables,77265.54,52
+226,Consumer Durables,75969.83,53
+227,Consumer Durables,80431.13,54
+228,Consumer Durables,71029.22,55
+229,Consumer Durables,82350.99,56
+230,Consumer Durables,71505.78,57
+231,Consumer Durables,83777.83,58
+232,Consumer Durables,84190.61,59
+233,Consumer Durables,94993.76,60
+234,Consumer Durables,82492.36,61
+235,Consumer Durables,77937.16,62
+236,Consumer Durables,60718.23,63
+237,Consumer Durables,72142.19,64
+238,Consumer Durables,65571.53,65
+239,Consumer Durables,56606.85,66
+240,Consumer Durables,45514.94,67
+241,Consumer Durables,38119.02,68
+242,Consumer Durables,56607.02,69
+243,Consumer Durables,65171.93,70
+244,Consumer Durables,55656.15,71
+245,Consumer Durables,35235.5,72
+246,Consumer Durables,37955.79,73
+247,Consumer Durables,53768.4,74
+248,Consumer Durables,74081.25,75
+249,Consumer Durables,56948.38,76
+250,Consumer Durables,49636.91,77
+251,Consumer Durables,39027.2,78
+252,Consumer Durables,38732.7,79
+253,Consumer Durables,59873.5,80
+254,Consumer Durables,50835.97,81
+255,Consumer Durables,48614.25,82
+256,Consumer Durables,45458.26,83
+257,Consumer Durables,46703.35,84
+258,Consumer Durables,67010.92,85
+259,Consumer Durables,55962.44,86
+260,Consumer Durables,77848.08,87
+261,Consumer Durables,58214.17,88
+262,Consumer Durables,61062.35,89
+263,Consumer Durables,38551.7,90
+264,Consumer Durables,41638.06,91
+265,Consumer Durables,40196.95,92
+266,Consumer Durables,35405.77,93
+267,Consumer Durables,50130.3,94
+268,Consumer Durables,34418.99,95
+269,Consumer Durables,66247.95,96
+270,Consumer Durables,44581.98,97
+271,Consumer Durables,59984.17,98
+272,Consumer Durables,31047.72,99
+273,Consumer Durables,43192.28,100
+318,Consumer Non-Durables,47014.52,1
+319,Consumer Non-Durables,69238.73,2
+320,Consumer Non-Durables,60806.94,3
+321,Consumer Non-Durables,86805.24,4
+322,Consumer Non-Durables,71126.95,5
+323,Consumer Non-Durables,57154.15,6
+324,Consumer Non-Durables,47664.96,7
+325,Consumer Non-Durables,39406.26,8
+326,Consumer Non-Durables,44445.8,9
+327,Consumer Non-Durables,23980.65,10
+328,Consumer Non-Durables,25160.77,11
+329,Consumer Non-Durables,23377.84,12
+330,Consumer Non-Durables,37581.29,13
+331,Consumer Non-Durables,42219.54,14
+332,Consumer Non-Durables,54012.79,15
+333,Consumer Non-Durables,64794.46,16
+334,Consumer Non-Durables,65245.09,17
+335,Consumer Non-Durables,55812.94,18
+336,Consumer Non-Durables,59141.35,19
+337,Consumer Non-Durables,65526.31,20
+338,Consumer Non-Durables,80888.03,21
+339,Consumer Non-Durables,68016.07,22
+340,Consumer Non-Durables,61576.1,23
+341,Consumer Non-Durables,49496.47,24
+342,Consumer Non-Durables,32169.92,25
+343,Consumer Non-Durables,19976.31,26
+344,Consumer Non-Durables,34720.58,27
+345,Consumer Non-Durables,54720.32,28
+346,Consumer Non-Durables,77982.54,29
+347,Consumer Non-Durables,50300.32,30
+348,Consumer Non-Durables,50156.08,31
+349,Consumer Non-Durables,37195.44,32
+350,Consumer Non-Durables,55923.04,33
+351,Consumer Non-Durables,65296.54,34
+352,Consumer Non-Durables,57898.16,35
+353,Consumer Non-Durables,53182.19,36
+354,Consumer Non-Durables,40172.55,37
+355,Consumer Non-Durables,68129.43,38
+356,Consumer Non-Durables,57628.8,39
+357,Consumer Non-Durables,51220.08,40
+358,Consumer Non-Durables,21936.45,41
+359,Consumer Non-Durables,36377.56,42
+360,Consumer Non-Durables,32795.29,43
+361,Consumer Non-Durables,42030.56,44
+362,Consumer Non-Durables,46854.05,45
+363,Consumer Non-Durables,71224.61,46
+364,Consumer Non-Durables,75459.36,47
+365,Consumer Non-Durables,78177.65,48
+366,Consumer Non-Durables,47829.5,49
+367,Consumer Non-Durables,44753.55,50
+368,Consumer Non-Durables,48479.9,51
+369,Consumer Non-Durables,55910.47,52
+370,Consumer Non-Durables,54837.68,53
+371,Consumer Non-Durables,46161.1,54
+372,Consumer Non-Durables,47755.3,55
+373,Consumer Non-Durables,39504.48,56
+374,Consumer Non-Durables,36329.23,57
+375,Consumer Non-Durables,50101.42,58
+376,Consumer Non-Durables,51417.29,59
+377,Consumer Non-Durables,50984.04,60
+378,Consumer Non-Durables,32353.16,61
+379,Consumer Non-Durables,36591.75,62
+380,Consumer Non-Durables,37665.93,63
+381,Consumer Non-Durables,61009.14,64
+382,Consumer Non-Durables,59974.84,65
+383,Consumer Non-Durables,59640.18,66
+384,Consumer Non-Durables,33438.67,67
+385,Consumer Non-Durables,54998.92,68
+386,Consumer Non-Durables,67158.96,69
+387,Consumer Non-Durables,78031.5,70
+388,Consumer Non-Durables,54778.94,71
+389,Consumer Non-Durables,38314.34,72
+390,Consumer Non-Durables,31985.51,73
+391,Consumer Non-Durables,55065.12,74
+392,Consumer Non-Durables,64235.97,75
+393,Consumer Non-Durables,83808.48,76
+394,Consumer Non-Durables,63403.91,77
+395,Consumer Non-Durables,46198.63,78
+396,Consumer Non-Durables,29530.08,79
+397,Consumer Non-Durables,29847.16,80
+398,Consumer Non-Durables,29104.46,81
+399,Consumer Non-Durables,40778.29,82
+400,Consumer Non-Durables,39192.41,83
+401,Consumer Non-Durables,43083.43,84
+402,Consumer Non-Durables,41432.73,85
+403,Consumer Non-Durables,39473.13,86
+404,Consumer Non-Durables,39419.56,87
+405,Consumer Non-Durables,37763.61,88
+406,Consumer Non-Durables,34025.55,89
+407,Consumer Non-Durables,24957.03,90
+408,Consumer Non-Durables,15630.39,91
+409,Consumer Non-Durables,14830.6,92
+410,Consumer Non-Durables,24657.18,93
+411,Consumer Non-Durables,27661.58,94
+412,Consumer Non-Durables,54419.33,95
+413,Consumer Non-Durables,48315.96,96
+414,Consumer Non-Durables,43778.96,97
+415,Consumer Non-Durables,14848.18,98
+416,Consumer Non-Durables,37668.53,99
+417,Consumer Non-Durables,56774.91,100
+1427,Consumer Services,29527.64,1
+1428,Consumer Services,29927.5,2
+1429,Consumer Services,29142.68,3
+1430,Consumer Services,47349.52,4
+1431,Consumer Services,70503.41,5
+1432,Consumer Services,73990.08,6
+1433,Consumer Services,61084.75,7
+1434,Consumer Services,40535.34,8
+1435,Consumer Services,22817.57,9
+1436,Consumer Services,23686.12,10
+1437,Consumer Services,26294.27,11
+1438,Consumer Services,41246.89,12
+1439,Consumer Services,40575.92,13
+1440,Consumer Services,49382.49,14
+1441,Consumer Services,64105.96,15
+1442,Consumer Services,59759.8,16
+1443,Consumer Services,57290.59,17
+1444,Consumer Services,32957.62,18
+1445,Consumer Services,43531.22,19
+1446,Consumer Services,39037.63,20
+1447,Consumer Services,50137.71,21
+1448,Consumer Services,42395.68,22
+1449,Consumer Services,44249.55,23
+1450,Consumer Services,58882.6,24
+1451,Consumer Services,76958.96,25
+1452,Consumer Services,94433.7,26
+1453,Consumer Services,81150.56,27
+1454,Consumer Services,72740.05,28
+1455,Consumer Services,50184.36,29
+1456,Consumer Services,62609.96,30
+1457,Consumer Services,62936.31,31
+1458,Consumer Services,77112.43,32
+1459,Consumer Services,57284.82,33
+1460,Consumer Services,60508.51,34
+1461,Consumer Services,41865.27,35
+1462,Consumer Services,42910.22,36
+1463,Consumer Services,31960.77,37
+1464,Consumer Services,38289.33,38
+1465,Consumer Services,35597.14,39
+1466,Consumer Services,50886.36,40
+1467,Consumer Services,64942.67,41
+1468,Consumer Services,78204.94,42
+1469,Consumer Services,78524.62,43
+1470,Consumer Services,57708.29,44
+1471,Consumer Services,36124.18,45
+1472,Consumer Services,18011.46,46
+1473,Consumer Services,27017.84,47
+1474,Consumer Services,34919.2,48
+1475,Consumer Services,26104.16,49
+1476,Consumer Services,24776.69,50
+1477,Consumer Services,32434.35,51
+1478,Consumer Services,29585.63,52
+1479,Consumer Services,31769.14,53
+1480,Consumer Services,34517.85,54
+1481,Consumer Services,41603.47,55
+1482,Consumer Services,49763.78,56
+1483,Consumer Services,61648.81,57
+1484,Consumer Services,72500.31,58
+1485,Consumer Services,67643.92,59
+1486,Consumer Services,48520.09,60
+1487,Consumer Services,45304.02,61
+1488,Consumer Services,54278.72,62
+1489,Consumer Services,62297.43,63
+1490,Consumer Services,75823.55,64
+1491,Consumer Services,59919.52,65
+1492,Consumer Services,43475.92,66
+1493,Consumer Services,33639.75,67
+1494,Consumer Services,41213.25,68
+1495,Consumer Services,70562.14,69
+1496,Consumer Services,78844.98,70
+1497,Consumer Services,80490.6,71
+1498,Consumer Services,54766.78,72
+1499,Consumer Services,58145.76,73
+1500,Consumer Services,47198.67,74
+1501,Consumer Services,60642.86,75
+1502,Consumer Services,33622.02,76
+1503,Consumer Services,45256.82,77
+1504,Consumer Services,32822.01,78
+1505,Consumer Services,40945.36,79
+1506,Consumer Services,37782.46,80
+1507,Consumer Services,49535.8,81
+1508,Consumer Services,46108.18,82
+1509,Consumer Services,32461.7,83
+1510,Consumer Services,15508.13,84
+1511,Consumer Services,37562.66,85
+1512,Consumer Services,47088.9,86
+1513,Consumer Services,59205.55,87
+1514,Consumer Services,40095.17,88
+1515,Consumer Services,59906.88,89
+1516,Consumer Services,67645.77,90
+1517,Consumer Services,72739.84,91
+1518,Consumer Services,73178.52,92
+1519,Consumer Services,69600.78,93
+1520,Consumer Services,51902.52,94
+1521,Consumer Services,25951.06,95
+1522,Consumer Services,17072.31,96
+1523,Consumer Services,41009.03,97
+1524,Consumer Services,59880.15,98
+1525,Consumer Services,58351.45,99
+1526,Consumer Services,33240.73,100
+437,Energy,43907.28,1
+438,Energy,52830.34,2
+439,Energy,61011.59,3
+440,Energy,70914.56,4
+441,Energy,62677.54,5
+442,Energy,74943.97,6
+443,Energy,70568.79,7
+444,Energy,61325.08,8
+445,Energy,38849.0,9
+446,Energy,16631.03,10
+447,Energy,20634.24,11
+448,Energy,40398.46,12
+449,Energy,63488.75,13
+450,Energy,50002.87,14
+451,Energy,41380.71,15
+452,Energy,18534.7,16
+453,Energy,41255.38,17
+454,Energy,41060.02,18
+455,Energy,70792.21,19
+456,Energy,62026.08,20
+457,Energy,67558.91,21
+458,Energy,46723.82,22
+459,Energy,30046.68,23
+460,Energy,20472.03,24
+461,Energy,29254.89,25
+462,Energy,44104.66,26
+463,Energy,67302.82,27
+464,Energy,58773.71,28
+465,Energy,44370.68,29
+466,Energy,29623.24,30
+467,Energy,24588.58,31
+468,Energy,33242.87,32
+469,Energy,23761.34,33
+470,Energy,30807.19,34
+471,Energy,34178.99,35
+472,Energy,57957.87,36
+473,Energy,55265.34,37
+474,Energy,74392.76,38
+475,Energy,47380.08,39
+476,Energy,65650.97,40
+477,Energy,62200.49,41
+478,Energy,76188.75,42
+479,Energy,73313.64,43
+480,Energy,67561.54,44
+481,Energy,72329.07,45
+482,Energy,58770.45,46
+483,Energy,62445.23,47
+484,Energy,44911.05,48
+485,Energy,61047.38,49
+486,Energy,57172.41,50
+487,Energy,64143.5,51
+488,Energy,42207.32,52
+489,Energy,24754.49,53
+490,Energy,14811.68,54
+491,Energy,38408.73,55
+492,Energy,49572.84,56
+493,Energy,53949.05,57
+494,Energy,46657.9,58
+495,Energy,39338.17,59
+496,Energy,59175.78,60
+497,Energy,37059.42,61
+498,Energy,40277.16,62
+499,Energy,32038.7,63
+500,Energy,38431.08,64
+501,Energy,48725.87,65
+502,Energy,41890.75,66
+503,Energy,62235.44,67
+504,Energy,72469.77,68
+505,Energy,80986.94,69
+506,Energy,54363.48,70
+507,Energy,27305.61,71
+508,Energy,13605.57,72
+509,Energy,43600.63,73
+510,Energy,58466.32,74
+511,Energy,76222.48,75
+512,Energy,78577.06,76
+513,Energy,77264.58,77
+514,Energy,72520.87,78
+515,Energy,52765.68,79
+516,Energy,39586.7,80
+517,Energy,37940.86,81
+518,Energy,55236.39,82
+519,Energy,66587.09,83
+520,Energy,55651.91,84
+521,Energy,29580.39,85
+522,Energy,29506.97,86
+523,Energy,33823.0,87
+524,Energy,31571.43,88
+525,Energy,21556.42,89
+526,Energy,18186.05,90
+527,Energy,29982.45,91
+528,Energy,50948.09,92
+529,Energy,43675.44,93
+530,Energy,32220.66,94
+531,Energy,30688.77,95
+532,Energy,48294.64,96
+533,Energy,48918.95,97
+534,Energy,39555.82,98
+535,Energy,21917.44,99
+536,Energy,35140.9,100
+1776,Finance,80867.81,1
+1777,Finance,66741.23,2
+1778,Finance,74371.82,3
+1779,Finance,50831.75,4
+1780,Finance,50976.35,5
+1781,Finance,28171.36,6
+1782,Finance,45499.5,7
+1783,Finance,41949.12,8
+1784,Finance,59719.53,9
+1785,Finance,61474.85,10
+1786,Finance,69866.87,11
+1787,Finance,51840.83,12
+1788,Finance,55012.55,13
+1789,Finance,45197.84,14
+1790,Finance,44266.37,15
+1791,Finance,42059.94,16
+1792,Finance,50077.14,17
+1793,Finance,47086.35,18
+1794,Finance,40416.25,19
+1795,Finance,40261.21,20
+1796,Finance,47026.1,21
+1797,Finance,39863.32,22
+1798,Finance,34281.83,23
+1799,Finance,39022.74,24
+1800,Finance,51264.33,25
+1801,Finance,61007.19,26
+1802,Finance,62665.17,27
+1803,Finance,65336.67,28
+1804,Finance,54171.97,29
+1805,Finance,64631.31,30
+1806,Finance,44527.62,31
+1807,Finance,59466.14,32
+1808,Finance,49393.13,33
+1809,Finance,75880.19,34
+1810,Finance,61462.88,35
+1811,Finance,59786.61,36
+1812,Finance,39017.96,37
+1813,Finance,40711.1,38
+1814,Finance,44831.49,39
+1815,Finance,51867.8,40
+1816,Finance,55758.56,41
+1817,Finance,65624.2,42
+1818,Finance,70496.57,43
+1819,Finance,72236.62,44
+1820,Finance,72076.24,45
+1821,Finance,58287.88,46
+1822,Finance,42046.53,47
+1823,Finance,15654.63,48
+1824,Finance,20356.32,49
+1825,Finance,51431.73,50
+1826,Finance,50737.71,51
+1827,Finance,38282.35,52
+1828,Finance,11619.66,53
+1829,Finance,20916.4,54
+1830,Finance,22068.5,55
+1831,Finance,26772.83,56
+1832,Finance,46153.28,57
+1833,Finance,47522.99,58
+1834,Finance,42427.5,59
+1835,Finance,13430.08,60
+1836,Finance,24583.36,61
+1837,Finance,40688.71,62
+1838,Finance,37794.81,63
+1839,Finance,39622.93,64
+1840,Finance,41729.23,65
+1841,Finance,62770.93,66
+1842,Finance,52234.68,67
+1843,Finance,49516.06,68
+1844,Finance,38305.98,69
+1845,Finance,42955.85,70
+1846,Finance,51395.95,71
+1847,Finance,62029.92,72
+1848,Finance,78235.81,73
+1849,Finance,75663.68,74
+1850,Finance,75556.66,75
+1851,Finance,49041.39,76
+1852,Finance,45328.8,77
+1853,Finance,26770.66,78
+1854,Finance,28655.99,79
+1855,Finance,8141.36,80
+1856,Finance,31063.74,81
+1857,Finance,34537.13,82
+1858,Finance,34701.64,83
+1859,Finance,31747.1,84
+1860,Finance,47339.58,85
+1861,Finance,72344.32,86
+1862,Finance,62708.35,87
+1863,Finance,69816.91,88
+1864,Finance,75179.85,89
+1865,Finance,83281.74,90
+1866,Finance,85451.13,91
+1867,Finance,81479.34,92
+1868,Finance,63419.98,93
+1869,Finance,46499.29,94
+1870,Finance,41634.21,95
+1871,Finance,51314.18,96
+1872,Finance,60257.22,97
+1873,Finance,51156.34,98
+1874,Finance,47475.56,99
+1875,Finance,44308.76,100
+1315,Health Care,54956.06,1
+1316,Health Care,35936.02,2
+1317,Health Care,27732.17,3
+1318,Health Care,49566.69,4
+1319,Health Care,47560.42,5
+1320,Health Care,76688.86,6
+1321,Health Care,58962.0,7
+1322,Health Care,55217.26,8
+1323,Health Care,35015.51,9
+1324,Health Care,38932.03,10
+1325,Health Care,32927.28,11
+1326,Health Care,30900.89,12
+1327,Health Care,25573.58,13
+1328,Health Care,42585.23,14
+1329,Health Care,47709.74,15
+1330,Health Care,52787.07,16
+1331,Health Care,51257.75,17
+1332,Health Care,51688.03,18
+1333,Health Care,50116.53,19
+1334,Health Care,56904.95,20
+1335,Health Care,43324.89,21
+1336,Health Care,30336.08,22
+1337,Health Care,38450.15,23
+1338,Health Care,51908.86,24
+1339,Health Care,52139.73,25
+1340,Health Care,47976.58,26
+1341,Health Care,58380.22,27
+1342,Health Care,86939.95,28
+1343,Health Care,60349.18,29
+1344,Health Care,36218.93,30
+1345,Health Care,15862.23,31
+1346,Health Care,38227.93,32
+1347,Health Care,55504.19,33
+1348,Health Care,56600.2,34
+1349,Health Care,40943.59,35
+1350,Health Care,28647.74,36
+1351,Health Care,48458.49,37
+1352,Health Care,71479.25,38
+1353,Health Care,83763.66,39
+1354,Health Care,79189.92,40
+1355,Health Care,64592.55,41
+1356,Health Care,49410.91,42
+1357,Health Care,21343.47,43
+1358,Health Care,28299.84,44
+1359,Health Care,33414.14,45
+1360,Health Care,63302.76,46
+1361,Health Care,58624.84,47
+1362,Health Care,64346.51,48
+1363,Health Care,57931.2,49
+1364,Health Care,69947.13,50
+1365,Health Care,66641.25,51
+1366,Health Care,51055.38,52
+1367,Health Care,41321.56,53
+1368,Health Care,36980.01,54
+1369,Health Care,34003.94,55
+1370,Health Care,13541.83,56
+1371,Health Care,37173.75,57
+1372,Health Care,54349.66,58
+1373,Health Care,53607.0,59
+1374,Health Care,44659.09,60
+1375,Health Care,40198.91,61
+1376,Health Care,67314.55,62
+1377,Health Care,45800.15,63
+1378,Health Care,38786.68,64
+1379,Health Care,26111.05,65
+1380,Health Care,38465.46,66
+1381,Health Care,47097.88,67
+1382,Health Care,65222.15,68
+1383,Health Care,57808.61,69
+1384,Health Care,52807.39,70
+1385,Health Care,25937.45,71
+1386,Health Care,48550.29,72
+1387,Health Care,46730.6,73
+1388,Health Care,68200.82,74
+1389,Health Care,43337.04,75
+1390,Health Care,58767.35,76
+1391,Health Care,52741.13,77
+1392,Health Care,80749.53,78
+1393,Health Care,55157.36,79
+1394,Health Care,54920.05,80
+1395,Health Care,27781.73,81
+1396,Health Care,54077.28,82
+1397,Health Care,53759.53,83
+1398,Health Care,57579.34,84
+1399,Health Care,30497.78,85
+1400,Health Care,11715.35,86
+1401,Health Care,10071.1,87
+1402,Health Care,18112.93,88
+1403,Health Care,45322.1,89
+1404,Health Care,70630.52,90
+1405,Health Care,90760.08,91
+1406,Health Care,80465.44,92
+1407,Health Care,71877.43,93
+1408,Health Care,61576.38,94
+1409,Health Care,42726.29,95
+1410,Health Care,53131.52,96
+1411,Health Care,47951.84,97
+1412,Health Care,65943.71,98
+1413,Health Care,58774.16,99
+1414,Health Care,57282.49,100
+195,Miscellaneous,50072.49,1
+196,Miscellaneous,38040.48,2
+197,Miscellaneous,38542.87,3
+198,Miscellaneous,38817.38,4
+199,Miscellaneous,54057.33,5
+200,Miscellaneous,76382.56,6
+201,Miscellaneous,70254.81,7
+202,Miscellaneous,49480.84,8
+203,Miscellaneous,43248.25,9
+204,Miscellaneous,61424.24,10
+205,Miscellaneous,75589.92,11
+206,Miscellaneous,82235.41,12
+207,Miscellaneous,51071.43,13
+208,Miscellaneous,39282.59,14
+209,Miscellaneous,41741.87,15
+210,Miscellaneous,70427.19,16
+211,Miscellaneous,79312.88,17
+212,Miscellaneous,78715.47,18
+213,Miscellaneous,57510.63,19
+214,Miscellaneous,62719.02,20
+215,Miscellaneous,32529.65,21
+216,Miscellaneous,55839.76,22
+217,Miscellaneous,57306.78,23
+218,Miscellaneous,82883.13,24
+219,Miscellaneous,65447.49,25
+220,Miscellaneous,46279.12,26
+221,Miscellaneous,45812.13,27
+222,Miscellaneous,43650.54,28
+223,Miscellaneous,64710.08,29
+224,Miscellaneous,50062.77,30
+225,Miscellaneous,49402.79,31
+226,Miscellaneous,35105.78,32
+227,Miscellaneous,33797.87,33
+228,Miscellaneous,25427.21,34
+229,Miscellaneous,39474.91,35
+230,Miscellaneous,60919.58,36
+231,Miscellaneous,68439.0,37
+232,Miscellaneous,66309.17,38
+233,Miscellaneous,47297.92,39
+234,Miscellaneous,45304.46,40
+235,Miscellaneous,28246.08,41
+236,Miscellaneous,36854.38,42
+237,Miscellaneous,42944.49,43
+238,Miscellaneous,57844.87,44
+239,Miscellaneous,48182.96,45
+240,Miscellaneous,56235.48,46
+241,Miscellaneous,40800.19,47
+242,Miscellaneous,34911.8,48
+243,Miscellaneous,33879.71,49
+244,Miscellaneous,52720.9,50
+245,Miscellaneous,58059.45,51
+246,Miscellaneous,60126.04,52
+247,Miscellaneous,42720.28,53
+248,Miscellaneous,42557.03,54
+249,Miscellaneous,39934.05,55
+250,Miscellaneous,55779.95,56
+251,Miscellaneous,69389.13,57
+252,Miscellaneous,76463.75,58
+253,Miscellaneous,56283.91,59
+254,Miscellaneous,60550.28,60
+255,Miscellaneous,54909.56,61
+256,Miscellaneous,81469.75,62
+257,Miscellaneous,69245.63,63
+258,Miscellaneous,76790.83,64
+259,Miscellaneous,53280.99,65
+260,Miscellaneous,43584.48,66
+261,Miscellaneous,15108.76,67
+262,Miscellaneous,12165.85,68
+263,Miscellaneous,23675.87,69
+264,Miscellaneous,24864.27,70
+265,Miscellaneous,32665.15,71
+266,Miscellaneous,25524.04,72
+267,Miscellaneous,26536.76,73
+268,Miscellaneous,43152.42,74
+269,Miscellaneous,38167.83,75
+270,Miscellaneous,41267.68,76
+271,Miscellaneous,21871.6,77
+272,Miscellaneous,17241.2,78
+273,Miscellaneous,16907.68,79
+274,Miscellaneous,10362.02,80
+275,Miscellaneous,33700.13,81
+276,Miscellaneous,46505.7,82
+277,Miscellaneous,48388.43,83
+278,Miscellaneous,46065.8,84
+279,Miscellaneous,26717.15,85
+280,Miscellaneous,40000.32,86
+281,Miscellaneous,28980.54,87
+282,Miscellaneous,58908.76,88
+283,Miscellaneous,68281.83,89
+284,Miscellaneous,59570.92,90
+285,Miscellaneous,47113.44,91
+286,Miscellaneous,44845.9,92
+287,Miscellaneous,59275.38,93
+288,Miscellaneous,53792.42,94
+289,Miscellaneous,37166.67,95
+290,Miscellaneous,31434.76,96
+291,Miscellaneous,44584.21,97
+292,Miscellaneous,46951.99,98
+293,Miscellaneous,59261.23,99
+294,Miscellaneous,39433.67,100
+372,Public Utilities,30934.99,1
+373,Public Utilities,19531.51,2
+374,Public Utilities,6433.53,3
+375,Public Utilities,35726.84,4
+376,Public Utilities,41957.75,5
+377,Public Utilities,48608.46,6
+378,Public Utilities,22509.06,7
+379,Public Utilities,44278.38,8
+380,Public Utilities,50747.85,9
+381,Public Utilities,53867.19,10
+382,Public Utilities,57130.37,11
+383,Public Utilities,45213.22,12
+384,Public Utilities,41358.9,13
+385,Public Utilities,36892.48,14
+386,Public Utilities,35911.64,15
+387,Public Utilities,33934.6,16
+388,Public Utilities,18297.56,17
+389,Public Utilities,28759.7,18
+390,Public Utilities,35054.67,19
+391,Public Utilities,34077.95,20
+392,Public Utilities,42135.64,21
+393,Public Utilities,47811.73,22
+394,Public Utilities,38890.44,23
+395,Public Utilities,30206.87,24
+396,Public Utilities,40677.71,25
+397,Public Utilities,59020.83,26
+398,Public Utilities,66320.56,27
+399,Public Utilities,66618.79,28
+400,Public Utilities,66361.79,29
+401,Public Utilities,51967.14,30
+402,Public Utilities,57033.64,31
+403,Public Utilities,42817.48,32
+404,Public Utilities,45212.72,33
+405,Public Utilities,38716.72,34
+406,Public Utilities,37792.35,35
+407,Public Utilities,38859.99,36
+408,Public Utilities,37770.7,37
+409,Public Utilities,64999.51,38
+410,Public Utilities,84346.66,39
+411,Public Utilities,77840.61,40
+412,Public Utilities,74814.02,41
+413,Public Utilities,76971.51,42
+414,Public Utilities,61953.33,43
+415,Public Utilities,52832.82,44
+416,Public Utilities,21383.56,45
+417,Public Utilities,46064.93,46
+418,Public Utilities,48498.0,47
+419,Public Utilities,50174.26,48
+420,Public Utilities,26132.77,49
+421,Public Utilities,17562.96,50
+422,Public Utilities,18733.84,51
+423,Public Utilities,46371.12,52
+424,Public Utilities,34458.92,53
+425,Public Utilities,34443.05,54
+426,Public Utilities,13257.72,55
+427,Public Utilities,31408.79,56
+428,Public Utilities,30840.34,57
+429,Public Utilities,46222.34,58
+430,Public Utilities,41143.73,59
+431,Public Utilities,42070.21,60
+432,Public Utilities,33256.96,61
+433,Public Utilities,50738.31,62
+434,Public Utilities,53865.33,63
+435,Public Utilities,63718.57,64
+436,Public Utilities,44473.94,65
+437,Public Utilities,68045.77,66
+438,Public Utilities,70164.13,67
+439,Public Utilities,83588.0,68
+440,Public Utilities,84583.13,69
+441,Public Utilities,76646.38,70
+442,Public Utilities,77993.48,71
+443,Public Utilities,59656.07,72
+444,Public Utilities,58321.14,73
+445,Public Utilities,55335.49,74
+446,Public Utilities,51336.75,75
+447,Public Utilities,49200.08,76
+448,Public Utilities,54651.68,77
+449,Public Utilities,51854.57,78
+450,Public Utilities,65236.04,79
+451,Public Utilities,61427.23,80
+452,Public Utilities,59196.8,81
+453,Public Utilities,56461.49,82
+454,Public Utilities,54298.24,83
+455,Public Utilities,74727.37,84
+456,Public Utilities,63336.04,85
+457,Public Utilities,71390.45,86
+458,Public Utilities,62546.41,87
+459,Public Utilities,59109.59,88
+460,Public Utilities,29792.96,89
+461,Public Utilities,45458.37,90
+462,Public Utilities,36515.5,91
+463,Public Utilities,41674.26,92
+464,Public Utilities,24169.32,93
+465,Public Utilities,33000.03,94
+466,Public Utilities,29661.23,95
+467,Public Utilities,27517.84,96
+468,Public Utilities,36630.89,97
+469,Public Utilities,49330.42,98
+470,Public Utilities,48532.55,99
+471,Public Utilities,47676.35,100
+1022,Technology,37239.61,1
+1023,Technology,21620.36,2
+1024,Technology,47468.97,3
+1025,Technology,56813.71,4
+1026,Technology,87670.66,5
+1027,Technology,71473.23,6
+1028,Technology,51659.75,7
+1029,Technology,26977.96,8
+1030,Technology,30902.23,9
+1031,Technology,52627.6,10
+1032,Technology,74453.51,11
+1033,Technology,61393.61,12
+1034,Technology,51476.0,13
+1035,Technology,23901.08,14
+1036,Technology,45740.22,15
+1037,Technology,40236.15,16
+1038,Technology,61384.21,17
+1039,Technology,66677.7,18
+1040,Technology,64067.17,19
+1041,Technology,47369.81,20
+1042,Technology,17538.39,21
+1043,Technology,24071.63,22
+1044,Technology,18871.01,23
+1045,Technology,26377.42,24
+1046,Technology,34147.96,25
+1047,Technology,49165.08,26
+1048,Technology,64434.01,27
+1049,Technology,58800.1,28
+1050,Technology,59938.1,29
+1051,Technology,44857.91,30
+1052,Technology,47649.93,31
+1053,Technology,54734.97,32
+1054,Technology,66336.29,33
+1055,Technology,70270.18,34
+1056,Technology,69417.0,35
+1057,Technology,82624.83,36
+1058,Technology,63243.54,37
+1059,Technology,68882.57,38
+1060,Technology,49127.79,39
+1061,Technology,60692.16,40
+1062,Technology,62206.94,41
+1063,Technology,73117.88,42
+1064,Technology,64792.77,43
+1065,Technology,47762.6,44
+1066,Technology,32694.12,45
+1067,Technology,41255.92,46
+1068,Technology,46020.5,47
+1069,Technology,69143.82,48
+1070,Technology,56939.39,49
+1071,Technology,49721.4,50
+1072,Technology,21148.7,51
+1073,Technology,22607.88,52
+1074,Technology,43591.28,53
+1075,Technology,41060.06,54
+1076,Technology,63861.74,55
+1077,Technology,36408.02,56
+1078,Technology,68035.24,57
+1079,Technology,61514.43,58
+1080,Technology,90348.81,59
+1081,Technology,90531.67,60
+1082,Technology,80165.1,61
+1083,Technology,65622.65,62
+1084,Technology,58298.15,63
+1085,Technology,65503.76,64
+1086,Technology,68356.58,65
+1087,Technology,54794.38,66
+1088,Technology,62755.55,67
+1089,Technology,60571.4,68
+1090,Technology,76101.24,69
+1091,Technology,58291.61,70
+1092,Technology,60089.31,71
+1093,Technology,54479.73,72
+1094,Technology,69101.05,73
+1095,Technology,71996.86,74
+1096,Technology,78743.8,75
+1097,Technology,81124.92,76
+1098,Technology,80906.91,77
+1099,Technology,52825.75,78
+1100,Technology,45801.63,79
+1101,Technology,34497.13,80
+1102,Technology,45238.46,81
+1103,Technology,25974.69,82
+1104,Technology,17697.92,83
+1105,Technology,17937.41,84
+1106,Technology,38856.37,85
+1107,Technology,67708.78,86
+1108,Technology,71457.33,87
+1109,Technology,67108.38,88
+1110,Technology,57353.73,89
+1111,Technology,53083.25,90
+1112,Technology,44292.65,91
+1113,Technology,31164.77,92
+1114,Technology,29145.06,93
+1115,Technology,19956.12,94
+1116,Technology,36713.46,95
+1117,Technology,42740.63,96
+1118,Technology,69494.59,97
+1119,Technology,52200.23,98
+1120,Technology,50571.47,99
+1121,Technology,29259.73,100
+127,Transportation,56458.2,1
+128,Transportation,69086.8,2
+129,Transportation,65634.22,3
+130,Transportation,65570.42,4
+131,Transportation,41736.72,5
+132,Transportation,24952.61,6
+133,Transportation,31160.11,7
+134,Transportation,53867.56,8
+135,Transportation,66931.76,9
+136,Transportation,74570.87,10
+137,Transportation,73932.6,11
+138,Transportation,86008.51,12
+139,Transportation,71084.59,13
+140,Transportation,46481.4,14
+141,Transportation,31096.09,15
+142,Transportation,33558.62,16
+143,Transportation,45868.1,17
+144,Transportation,45390.08,18
+145,Transportation,33364.43,19
+146,Transportation,37359.02,20
+147,Transportation,50251.8,21
+148,Transportation,57305.82,22
+149,Transportation,51543.25,23
+150,Transportation,27801.57,24
+151,Transportation,43742.44,25
+152,Transportation,32631.49,26
+153,Transportation,30957.95,27
+154,Transportation,23304.35,28
+155,Transportation,38881.3,29
+156,Transportation,57850.19,30
+157,Transportation,68637.45,31
+158,Transportation,55024.71,32
+159,Transportation,60896.19,33
+160,Transportation,36681.12,34
+161,Transportation,31571.89,35
+162,Transportation,26273.84,36
+163,Transportation,39001.99,37
+164,Transportation,69750.69,38
+165,Transportation,66965.54,39
+166,Transportation,69115.15,40
+167,Transportation,47097.83,41
+168,Transportation,58087.82,42
+169,Transportation,47244.29,43
+170,Transportation,57575.11,44
+171,Transportation,30569.62,45
+172,Transportation,54478.43,46
+173,Transportation,44741.85,47
+174,Transportation,42925.0,48
+175,Transportation,34178.93,49
+176,Transportation,22936.56,50
+177,Transportation,33162.1,51
+178,Transportation,23493.35,52
+179,Transportation,29840.73,53
+180,Transportation,41711.0,54
+181,Transportation,38325.07,55
+182,Transportation,56623.77,56
+183,Transportation,40120.1,57
+184,Transportation,39923.98,58
+185,Transportation,15211.92,59
+186,Transportation,37565.56,60
+187,Transportation,62600.21,61
+188,Transportation,70144.4,62
+189,Transportation,53541.1,63
+190,Transportation,23112.4,64
+191,Transportation,24013.89,65
+192,Transportation,33802.46,66
+193,Transportation,55731.14,67
+194,Transportation,67647.13,68
+195,Transportation,73786.34,69
+196,Transportation,76143.06,70
+197,Transportation,60510.0,71
+198,Transportation,35490.49,72
+199,Transportation,34938.31,73
+200,Transportation,44999.57,74
+201,Transportation,47301.45,75
+202,Transportation,48201.25,76
+203,Transportation,45694.69,77
+204,Transportation,64976.52,78
+205,Transportation,56800.1,79
+206,Transportation,75190.36,80
+207,Transportation,73793.55,81
+208,Transportation,66988.84,82
+209,Transportation,59905.83,83
+210,Transportation,68250.38,84
+211,Transportation,87344.65,85
+212,Transportation,73642.98,86
+213,Transportation,66075.9,87
+214,Transportation,66838.56,88
+215,Transportation,78470.4,89
+216,Transportation,82826.87,90
+217,Transportation,75915.98,91
+218,Transportation,66863.45,92
+219,Transportation,57461.1,93
+220,Transportation,37754.46,94
+221,Transportation,47916.96,95
+222,Transportation,44523.95,96
+223,Transportation,71285.06,97
+224,Transportation,49130.9,98
+225,Transportation,64168.27,99
+226,Transportation,34855.54,100
+2523,,47159.93,1
+2524,,66477.8,2
+2525,,84260.8,3
+2526,,77265.0,4
+2527,,75346.47,5
+2528,,73811.98,6
+2529,,64192.39,7
+2530,,58306.88,8
+2531,,56016.45,9
+2532,,60237.08,10
+2533,,43568.02,11
+2534,,39240.12,12
+2535,,30924.28,13
+2536,,55743.05,14
+2537,,53363.26,15
+2538,,64458.94,16
+2539,,43545.49,17
+2540,,37304.84,18
+2541,,23822.19,19
+2542,,25926.37,20
+2543,,33004.45,21
+2544,,33819.41,22
+2545,,34676.29,23
+2546,,30939.93,24
+2547,,50489.38,25
+2548,,65440.85,26
+2549,,89554.3,27
+2550,,81264.63,28
+2551,,65327.74,29
+2552,,39034.96,30
+2553,,18919.42,31
+2554,,17070.67,32
+2555,,26930.76,33
+2556,,34878.92,34
+2557,,33997.26,35
+2558,,51174.44,36
+2559,,51196.48,37
+2560,,40316.29,38
+2561,,25643.93,39
+2562,,21364.36,40
+2563,,44975.91,41
+2564,,37167.33,42
+2565,,62430.02,43
+2566,,47032.5,44
+2567,,41133.54,45
+2568,,41255.56,46
+2569,,51044.46,47
+2570,,61708.77,48
+2571,,60159.96,49
+2572,,66363.76,50
+2573,,76116.88,51
+2574,,52877.03,52
+2575,,52581.12,53
+2576,,63004.38,54
+2577,,81471.43,55
+2578,,73464.5,56
+2579,,45385.02,57
+2580,,29564.74,58
+2581,,18430.17,59
+2582,,26838.56,60
+2583,,34328.69,61
+2584,,50636.84,62
+2585,,39977.63,63
+2586,,27706.36,64
+2587,,14458.17,65
+2588,,43821.06,66
+2589,,63042.8,67
+2590,,55513.4,68
+2591,,33188.5,69
+2592,,11637.27,70
+2593,,31312.94,71
+2594,,39265.31,72
+2595,,46554.49,73
+2596,,36930.94,74
+2597,,21151.39,75
+2598,,37686.95,76
+2599,,49096.1,77
+2600,,72072.08,78
+2601,,67959.0,79
+2602,,75953.3,80
+2603,,79730.88,81
+2604,,82375.62,82
+2605,,70296.13,83
+2606,,44233.17,84
+2607,,38458.43,85
+2608,,35174.0,86
+2609,,56034.01,87
+2610,,71244.05,88
+2611,,64725.07,89
+2612,,53852.21,90
+2613,,42133.96,91
+2614,,40618.94,92
+2615,,58238.85,93
+2616,,38472.59,94
+2617,,57622.89,95
+2618,,45277.87,96
+2619,,67330.93,97
+2620,,50968.88,98
+2621,,61880.08,99
+2622,,53702.8,100
