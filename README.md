@@ -29,7 +29,7 @@
 |10|TWhat's my balance on this day?|[📋](https://preppindata.blogspot.com/2023/03/2023-week-10-whats-my-balance-on-this.html)|[✅](2023/preppin-data-2023-10/README.md)|| 6&nbsp;&nbsp;|
 |11|Which customers Are closest?|[📋](https://preppindata.blogspot.com/2023/03/2023-week-11-which-customers-are-closest.html)|[✅](2023/preppin-data-2023-11/README.md)|| 5&nbsp;&nbsp;|
 |12|Regulatory Reporting Alignment|[📋](https://preppindata.blogspot.com/2023/03/2023-week-12-regulatory-reporting.html)|[✅](2023/preppin-data-2023-12/README.md)|| 9&nbsp;&nbsp;🔥|
-|13|Rolling stock price trends|[📋](https://preppindata.blogspot.com/2023/03/2023-week-13-rolling-stock-price-trends.html)|[](2023/preppin-data-2023-13/README.md)|| &nbsp;&nbsp;|
+|13|Rolling stock price trends|[📋](https://preppindata.blogspot.com/2023/03/2023-week-13-rolling-stock-price-trends.html)|[✅](2023/preppin-data-2023-13/README.md)|| 9&nbsp;&nbsp;🔥|
 |14|World Trade Data|[📋](https://preppindata.blogspot.com/2023/04/2023-week-14-world-trade-data.html)|[](2023/preppin-data-2023-14/README.md)|| &nbsp;&nbsp;|
 |15|Easter Dates|[📋](https://preppindata.blogspot.com/2023/04/2023-week-15-easter-dates.html)|[✅](2023/preppin-data-2023-15/README.md)|| 5&nbsp;&nbsp;|
 
