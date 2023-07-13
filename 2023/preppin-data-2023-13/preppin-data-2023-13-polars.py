@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Preppin' Data 2023: Week 13 - Rolling stock price trends
+Preppin' Data 2023: Week 13 - Rolling stock price trends (polars)
 https://preppindata.blogspot.com/2023/03/2023-week-13-rolling-stock-price-trends.html
 
 - Input all the months of data available
@@ -126,3 +126,4 @@ round_dec = 4
 
 output_check(solution_files=solution_files, my_files=my_files, unique_cols=unique_cols, 
              col_order_matters=col_order_matters, round_dec=round_dec)
+             
