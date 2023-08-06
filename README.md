@@ -32,8 +32,22 @@
 |13|Rolling stock price trends|[📋](https://preppindata.blogspot.com/2023/03/2023-week-13-rolling-stock-price-trends.html)|[✅](2023/preppin-data-2023-13/README.md)|| 9&nbsp;&nbsp;🔥|
 |14|World Trade Data|[📋](https://preppindata.blogspot.com/2023/04/2023-week-14-world-trade-data.html)|[](2023/preppin-data-2023-14/README.md)|| &nbsp;&nbsp;|
 |15|Easter Dates|[📋](https://preppindata.blogspot.com/2023/04/2023-week-15-easter-dates.html)|[✅](2023/preppin-data-2023-15/README.md)|| 5&nbsp;&nbsp;|
-
-
+|16|Easter and Full Moons|[📋](https://preppindata.blogspot.com/2023/04/2023-week-16-easter-and-full-moons.html)|[](2023/preppin-data-2023-16/README.md)|| &nbsp;&nbsp;|
+|17|Population Growth vs Country Size|[📋](https://preppindata.blogspot.com/2023/04/2023-week-17-population-growth-vs.html)|[](2023/preppin-data-2023-17/README.md)|| &nbsp;&nbsp;|
+|18|The Nut House Revenue Analysis|[📋](https://preppindata.blogspot.com/2023/05/2023-week-18-nut-house-revenue-analysis.html)|[](2023/preppin-data-2023-18/README.md)|| &nbsp;&nbsp;|
+|19|Tableau Conference Special|[📋](https://preppindata.blogspot.com/2023/05/2023-week-19-tc-special.html)|[](2023/preppin-data-2023-19/README.md)|| &nbsp;&nbsp;|
+|20|Dining Hall Debacle|[📋](https://preppindata.blogspot.com/2023/05/2023-week-20-dining-hall-debacle.html)|[](2023/preppin-data-2023-20/README.md)|| &nbsp;&nbsp;|
+|21|Prep School Grades|[📋](https://preppindata.blogspot.com/2023/05/2023-week-21-prep-school-grades.html)|[](2023/preppin-data-2023-21/README.md)|| &nbsp;&nbsp;|
+|22|Student Attendance vs Test Scores|[📋](https://preppindata.blogspot.com/2023/05/2023-week-22-student-attendance-vs-test.html)|[](2023/preppin-data-2023-22/README.md)|| &nbsp;&nbsp;|
+|23|Is it the teacher or the student? Part 1|[📋](https://preppindata.blogspot.com/2023/06/2023-week-23-is-it-teacher-or-student.html)|[](2023/preppin-data-2023-23/README.md)|| &nbsp;&nbsp;|
+|24|Is it the teacher or the student? Part 2|[📋](https://preppindata.blogspot.com/2023/06/2023-week-24-is-it-teacher-or-student.html)|[](2023/preppin-data-2023-24/README.md)|| &nbsp;&nbsp;|
+|25|Prep School 2023 Admissions - Part 1|[📋](https://preppindata.blogspot.com/2023/06/2023-week-25-prep-school-2023.html)|[](2023/preppin-data-2023-25/README.md)|| &nbsp;&nbsp;|
+|26|Prep School 2023 Admissions - Part 2|[📋](https://preppindata.blogspot.com/2023/06/2023-week-26-prep-school-2023.html)|[](2023/preppin-data-2023-26/README.md)|| &nbsp;&nbsp;|
+|27|The Cost of Running the Prep School|[📋](https://preppindata.blogspot.com/2023/07/2023-week-27-cost-of-running-prep-school.html)|[](2023/preppin-data-2023-27/README.md)|| &nbsp;&nbsp;|
+|28|Prep School Track Team|[📋](https://preppindata.blogspot.com/2023/07/2023-week-28-prep-school-track-team.html)|[](2023/preppin-data-2023-28/README.md)|| &nbsp;&nbsp;|
+|29|Moving Averages|[📋](https://preppindata.blogspot.com/2023/07/2023-week-29-moving-averages.html)|[](2023/preppin-data-2023-29/README.md)|| &nbsp;&nbsp;|
+|30|% Difference From|[📋](https://preppindata.blogspot.com/2023/07/2023-week-30-difference-from.html)|[](2023/preppin-data-2023-30/README.md)|| &nbsp;&nbsp;|
+|31|HR Month - Filling in Missing IDs|[📋](https://preppindata.blogspot.com/2023/08/2023-week-31-hr-month-filling-in.html)|[](2023/preppin-data-2023-31/README.md)|| &nbsp;&nbsp;|
 
 
 <details>
