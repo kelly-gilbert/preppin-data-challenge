@@ -60,6 +60,14 @@ def output_check(solution_files, my_files, unique_cols, col_order_matters = Fals
         # are the values the same? (only check if the columns matched)
         if col_match:
             errors = 0
+            
+            
+            # round decimal fields before join
+            for c in df_sol.select_dtypes(include='float').columns:
+                df_sol[c] = df_sol[c].round(round_dec)
+                df_mine[c] = df_mine[c].astype(float).round(round_dec)
+            
+            
             df_compare = df_sol.merge(df_mine, how='outer', on=unique_cols[i],
                                       suffixes=['_sol', '_mine'], indicator=True)
             
