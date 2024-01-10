@@ -5,7 +5,7 @@
 <br>
 
 ## <a id="contents"></a>Contents
-* 📋 &nbsp;Challenge lists:&nbsp;&nbsp;   [2023](#2023)  &nbsp;|&nbsp;  [2022](#2022)  &nbsp;|&nbsp;  [2021](#2021)  &nbsp;|&nbsp;  [2020](#2020)  &nbsp;|&nbsp;  [2019](#2019)
+* 📋 &nbsp;Challenge lists:&nbsp;&nbsp;   [2024](#2024)  &nbsp;|&nbsp;  [2023](#2023)  &nbsp;|&nbsp;  [2022](#2022)  &nbsp;|&nbsp;  [2021](#2021)  &nbsp;|&nbsp;  [2020](#2020)  &nbsp;|&nbsp;  [2019](#2019)
 * 🟦 &nbsp;[Alteryx tool usage](#alteryx_index)
 * 🐍 &nbsp;[Python function/method usage](#python_index)
 * 👥 &nbsp;[Preppin' Data with Python community](#community)
@@ -14,7 +14,16 @@
 
 ## Challenges
 
-### <a id="2023"></a>2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+### <a id="2024"></a>2024 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
+|-:|:-----------------------------------------|:-:|:-:|:-:|:-|
+|1|Prep Air's Flow Card|[📋](https://preppindata.blogspot.com/2024/01/2024-week-1-prep-airs-flow-card.html)|[✅](2024/preppin-data-2024-01/README.md)|| 3&nbsp;&nbsp;❄️|
+
+
+<a id="2023"></a><details>
+  <summary><h2>📅&nbsp;2023</h2></summary>
+
+### 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
 |-:|:-----------------------------------------|:-:|:-:|:-:|:-|
 |1|The Data Source Bank|[📋](https://preppindata.blogspot.com/2023/01/2023-week-1-data-source-bank.html)|[✅](2023/preppin-data-2023-01/README.md)|| 2&nbsp;&nbsp;❄️|
@@ -65,13 +74,17 @@
 |46||[]()|[](2023/preppin-data-2023-46/README.md)|| &nbsp;&nbsp;|
 |47||[]()|[](2023/preppin-data-2023-47/README.md)|| &nbsp;&nbsp;|
 |48|Reporting Week Calendars|[📋](https://preppindata.blogspot.com/2023/11/2023-week-48-reporting-week-calendars.html)|[✅](2023/preppin-data-2023-48/README.md)|| 3&nbsp;&nbsp;❄️|
+|49||[]()|[](2023/preppin-data-2023-47/README.md)|| &nbsp;&nbsp;|
+|50||[]()|[](2023/preppin-data-2023-47/README.md)|| &nbsp;&nbsp;|
+|51||[]()|[](2023/preppin-data-2023-47/README.md)|| &nbsp;&nbsp;|
+|52||[]()|[](2023/preppin-data-2023-47/README.md)|| &nbsp;&nbsp;|
+</details>
 
-
-
+<a id="2022"> </a>
 <details>
-  <summary><h2><a id="2022"></a>📅&nbsp;2022</h2></summary>
+  <summary><h2>📅&nbsp;2022</h2></summary>
   
-### <a id="2022"></a>2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+### 2022 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
 |-:|:-----------------------------------------|:-:|:-:|:-:|:-|
 |1|The Prep School - Parental Contact Details|[📋](https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html)|[✅](2022/preppin-data-2022-01/README.md)|| 2&nbsp;&nbsp;❄|
@@ -127,10 +140,13 @@
 |51|Parsing an Unfortunate Report Format (HR Month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-51-parsing-unfortunate-report.html)|[✅](2022/preppin-data-2022-51/README.md)|| 5&nbsp;&nbsp;|
 |52|Find Sub-Departments from an employee hierarchy (HR Month)|[📋](https://preppindata.blogspot.com/2022/12/2022-week-52-find-sub-departments-fr)|[✅](2022/preppin-data-2022-52/README.md)|| 7&nbsp;&nbsp;🔥|
 </details>
-<details>
-  <summary><h2><a id="2021"></a>📅&nbsp;2021</h2></summary>
 
-|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|My<br>Difficulty<br>Rating|
+<a id="2021"> </a>
+<details>
+  <summary><h2>📅&nbsp;2021</h2></summary>
+
+### 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
 |-:|:--------------------------------------------|:-:|:-:|:-|
 |1|New Year, New Challenge|[📋](https://preppindata.blogspot.com/2021/01/2021-week-1.html)|[✅](2021/preppin-data-2021-01/README.md)| 2&nbsp;&nbsp;❄|
 |2|Bike Store Sales|[📋](https://preppindata.blogspot.com/2021/01/2021-week-2.html)|[✅](2021/preppin-data-2021-02/README.md)| 3&nbsp;&nbsp;❄|
@@ -185,9 +201,13 @@
 |51|Departmental December - IT|[📋](https://preppindata.blogspot.com/2021/12/2021-week-51-departmental-december-it.html)|[✅](2021/preppin-data-2021-51/README.md)| 2&nbsp;&nbsp;❄|
 |52|Departmental December - Operations|[📋](https://preppindata.blogspot.com/2021/12/2021-week-52-departmental-december.html)|[✅](2021/preppin-data-2021-52/README.md)| 4&nbsp;&nbsp;|
 </details>
-<details>
-  <summary><h2><a id="2020"></a>📅&nbsp;2020</h2></summary>
 
+<a id="2020"> </a>
+<details>
+  <summary><h2>📅&nbsp;2020</h2></summary>
+
+### 2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|My<br>Difficulty<br>Rating|
 |-:|:---------------------------------------------|:-:|:-:|:-|
 |1|Accounting Formatting|[📋](https://preppindata.blogspot.com/2020/01/2020-week-1.html)|[✅](2020/preppin-data-2020-01/README.md)| 3&nbsp;&nbsp;❄|
@@ -244,9 +264,13 @@
 |52|US Women's Championship Golf|[📋](https://preppindata.blogspot.com/2020/12/2020-week-52.html)|||
 |53|Changing Star Signs|[📋](https://preppindata.blogspot.com/2020/12/2020-week-53.html)|||
 </details>
-<details>
-  <summary><h2><a id="2019"></a>📅&nbsp;2019</h2></summary>
 
+<a id="2019"></a>
+<details>
+  <summary><h2>📅&nbsp;2019</h2></summary>
+
+### 2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span title="Return to table of contents"><a href="#contents">⬆️</a></span>
+|Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|My<br>Difficulty<br>Rating|
 |-:|:---------------------------------------------|:-:|:-:|:-|
 |1|What colour cars are selling?|[📋](https://preppindata.blogspot.com/2019/02/2019-week-1.html)|||
