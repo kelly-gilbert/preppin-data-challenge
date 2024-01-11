@@ -18,6 +18,7 @@
 |Week|Challenge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrip-<br>tion|My<br>Solution|Video<br>Walk-<br>through|My<br>Difficulty<br>Rating|
 |-:|:-----------------------------------------|:-:|:-:|:-:|:-|
 |1|Prep Air's Flow Card|[📋](https://preppindata.blogspot.com/2024/01/2024-week-1-prep-airs-flow-card.html)|[✅](2024/preppin-data-2024-01/README.md)|| 3&nbsp;&nbsp;❄️|
+|2|Average Price Analysis|[📋](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[✅](2024/preppin-data-2024-02/README.md)|| 5&nbsp;&nbsp; |
 
 
 <a id="2023"></a><details>
