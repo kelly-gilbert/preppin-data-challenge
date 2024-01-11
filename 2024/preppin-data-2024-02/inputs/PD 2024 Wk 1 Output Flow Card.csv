@@ -1,0 +1,1884 @@
+﻿Date,Flight Number,From,To,Class,Price,Flow Card?,Bags Checked,Meal Type
+22/07/2024,PA010,Tokyo,New York,Economy,2380,Yes,0,Egg Free
+20/04/2024,PA002,New York,London,Economy,3490,Yes,1,Vegan
+23/01/2024,PA010,Tokyo,New York,Premium Economy,825,Yes,1,Vegetarian
+05/06/2024,PA006,Tokyo,London,First Class,618,Yes,3,Vegan
+30/03/2024,PA004,Perth,London,First Class,446,Yes,1,Nut Free
+14/06/2024,PA006,Tokyo,London,Premium Economy,1062.5,Yes,3,Egg Free
+15/07/2024,PA006,Tokyo,London,First Class,499,Yes,1,Egg Free
+25/02/2024,PA004,Perth,London,Premium Economy,827.5,Yes,0,Vegetarian
+26/07/2024,PA004,Perth,London,Economy,2245,Yes,1,Vegan
+10/12/2024,PA004,Perth,London,Business Class,391.2,Yes,2,Vegetarian
+23/09/2024,PA005,London,Tokyo,First Class,626,Yes,2,Vegetarian
+04/06/2024,PA006,Tokyo,London,First Class,537,Yes,2,Dairy Free
+16/04/2024,PA008,Perth,New York,First Class,216,Yes,0,Vegan
+21/06/2024,PA004,Perth,London,Business Class,646.8,Yes,3,None
+20/10/2024,PA003,London,Perth,Economy,2215,Yes,3,Nut Free
+17/02/2024,PA003,London,Perth,Business Class,784.8,Yes,3,Vegan
+28/05/2024,PA005,London,Tokyo,Economy,1505,Yes,2,Dairy Free
+19/06/2024,PA003,London,Perth,First Class,454,Yes,1,Dairy Free
+11/02/2024,PA012,Tokyo,Perth,Premium Economy,1142.5,Yes,3,Vegan
+17/01/2024,PA006,Tokyo,London,Business Class,712.8,Yes,3,Vegetarian
+08/04/2024,PA003,London,Perth,First Class,525,Yes,2,Dairy Free
+12/04/2024,PA007,New York,Perth,First Class,696,Yes,1,Vegetarian
+03/09/2024,PA004,Perth,London,Economy,3445,Yes,0,Vegetarian
+02/11/2024,PA008,Perth,New York,First Class,242,Yes,2,Egg Free
+11/01/2024,PA002,New York,London,First Class,406,Yes,3,Vegan
+07/08/2024,PA005,London,Tokyo,Business Class,739.2,Yes,0,Nut Free
+25/02/2024,PA010,Tokyo,New York,Economy,1495,Yes,3,Egg Free
+04/12/2024,PA003,London,Perth,Economy,2820,Yes,0,Vegetarian
+13/02/2024,PA005,London,Tokyo,First Class,693,Yes,2,None
+23/03/2024,PA005,London,Tokyo,Economy,3375,Yes,2,None
+09/10/2024,PA012,Tokyo,Perth,Economy,1340,Yes,2,Nut Free
+05/07/2024,PA005,London,Tokyo,Premium Economy,1677.5,Yes,3,Dairy Free
+09/06/2024,PA003,London,Perth,Business Class,432,Yes,1,Vegan
+16/04/2024,PA010,Tokyo,New York,Economy,3105,Yes,1,Dairy Free
+19/08/2024,PA001,London,New York,Economy,2550,Yes,3,Dairy Free
+16/07/2024,PA003,London,Perth,First Class,284,Yes,3,Nut Free
+31/05/2024,PA009,New York,Tokyo,Economy,2450,Yes,3,None
+25/07/2024,PA007,New York,Perth,Business Class,573.6,Yes,1,Vegan
+21/11/2024,PA006,Tokyo,London,Economy,2270,Yes,2,Dairy Free
+28/07/2024,PA010,Tokyo,New York,Premium Economy,1020,Yes,0,Nut Free
+16/08/2024,PA007,New York,Perth,Premium Economy,1665,Yes,3,Egg Free
+18/03/2024,PA003,London,Perth,Business Class,615.6,Yes,3,Nut Free
+21/09/2024,PA002,New York,London,Premium Economy,1175,Yes,0,Vegan
+05/07/2024,PA001,London,New York,Premium Economy,850,Yes,0,Egg Free
+20/08/2024,PA010,Tokyo,New York,Premium Economy,1365,Yes,0,Egg Free
+15/10/2024,PA008,Perth,New York,Business Class,386.4,Yes,3,Egg Free
+12/12/2024,PA010,Tokyo,New York,Business Class,793.2,Yes,1,None
+14/02/2024,PA006,Tokyo,London,Business Class,270,Yes,0,Dairy Free
+23/11/2024,PA003,London,Perth,Business Class,538.8,Yes,1,Vegetarian
+14/02/2024,PA002,New York,London,First Class,296,Yes,0,Vegetarian
+17/05/2024,PA003,London,Perth,Business Class,379.2,Yes,3,Nut Free
+02/06/2024,PA007,New York,Perth,First Class,612,Yes,0,Nut Free
+23/07/2024,PA005,London,Tokyo,Premium Economy,1015,Yes,3,Nut Free
+21/08/2024,PA012,Tokyo,Perth,Business Class,572.4,Yes,0,None
+17/03/2024,PA005,London,Tokyo,Economy,2380,Yes,1,Egg Free
+27/11/2024,PA007,New York,Perth,Premium Economy,692.5,Yes,0,Nut Free
+25/07/2024,PA009,New York,Tokyo,Business Class,734.4,Yes,2,Vegetarian
+13/05/2024,PA006,Tokyo,London,Premium Economy,1520,Yes,3,Vegetarian
+28/09/2024,PA011,Perth,Tokyo,Premium Economy,1397.5,Yes,2,Dairy Free
+14/06/2024,PA009,New York,Tokyo,First Class,383,Yes,0,Dairy Free
+08/06/2024,PA007,New York,Perth,Economy,2825,Yes,2,Vegetarian
+09/01/2024,PA002,New York,London,First Class,342,Yes,2,Dairy Free
+22/11/2024,PA003,London,Perth,Economy,2245,Yes,1,None
+04/09/2024,PA002,New York,London,Premium Economy,1387.5,Yes,2,Vegetarian
+19/09/2024,PA009,New York,Tokyo,Premium Economy,675,Yes,2,Egg Free
+27/02/2024,PA004,Perth,London,First Class,535,Yes,3,Dairy Free
+19/10/2024,PA001,London,New York,Premium Economy,545,Yes,0,Nut Free
+26/03/2024,PA012,Tokyo,Perth,First Class,566,Yes,0,Dairy Free
+27/09/2024,PA002,New York,London,Premium Economy,625,Yes,2,Dairy Free
+11/05/2024,PA006,Tokyo,London,First Class,208,Yes,0,None
+25/06/2024,PA012,Tokyo,Perth,Economy,2080,Yes,0,Vegetarian
+03/08/2024,PA002,New York,London,First Class,284,Yes,0,None
+27/04/2024,PA011,Perth,Tokyo,Economy,3245,Yes,3,Vegetarian
+09/04/2024,PA006,Tokyo,London,Premium Economy,710,Yes,2,Egg Free
+19/11/2024,PA003,London,Perth,Premium Economy,1357.5,Yes,3,Vegan
+24/06/2024,PA006,Tokyo,London,First Class,245,Yes,1,Nut Free
+12/02/2024,PA011,Perth,Tokyo,Business Class,505.2,Yes,1,Vegetarian
+04/03/2024,PA008,Perth,New York,Business Class,538.8,Yes,0,Egg Free
+15/12/2024,PA009,New York,Tokyo,Economy,1310,Yes,0,Egg Free
+25/09/2024,PA008,Perth,New York,First Class,642,Yes,3,Vegan
+23/02/2024,PA002,New York,London,Premium Economy,547.5,Yes,2,Nut Free
+27/01/2024,PA004,Perth,London,Premium Economy,1147.5,Yes,2,Nut Free
+20/06/2024,PA008,Perth,New York,First Class,217,Yes,2,Egg Free
+14/10/2024,PA011,Perth,Tokyo,Economy,2180,Yes,1,Nut Free
+01/04/2024,PA004,Perth,London,Business Class,261.6,Yes,0,Dairy Free
+04/08/2024,PA011,Perth,Tokyo,Economy,1005,Yes,1,Dairy Free
+09/04/2024,PA007,New York,Perth,Premium Economy,842.5,Yes,3,Egg Free
+18/08/2024,PA002,New York,London,Premium Economy,1360,Yes,0,None
+17/04/2024,PA002,New York,London,Economy,1630,Yes,1,Vegan
+15/01/2024,PA004,Perth,London,Premium Economy,1472.5,Yes,0,Nut Free
+10/02/2024,PA009,New York,Tokyo,First Class,368,Yes,3,Vegan
+02/06/2024,PA006,Tokyo,London,Premium Economy,1735,Yes,3,Vegan
+06/10/2024,PA010,Tokyo,New York,Premium Economy,992.5,Yes,3,Vegan
+03/06/2024,PA011,Perth,Tokyo,First Class,201,Yes,1,Vegetarian
+10/12/2024,PA002,New York,London,Economy,3030,Yes,2,Dairy Free
+21/12/2024,PA001,London,New York,Business Class,655.2,Yes,2,None
+10/09/2024,PA011,Perth,Tokyo,Business Class,306,Yes,0,Dairy Free
+12/03/2024,PA006,Tokyo,London,Economy,3010,Yes,3,Egg Free
+17/10/2024,PA005,London,Tokyo,First Class,228,Yes,1,None
+24/08/2024,PA003,London,Perth,Economy,1780,Yes,3,Dairy Free
+11/12/2024,PA004,Perth,London,First Class,595,Yes,2,Vegan
+01/08/2024,PA003,London,Perth,Economy,2170,Yes,3,Nut Free
+31/07/2024,PA010,Tokyo,New York,Premium Economy,1412.5,Yes,0,Vegan
+08/10/2024,PA008,Perth,New York,Business Class,249.6,Yes,2,Nut Free
+12/12/2024,PA010,Tokyo,New York,Premium Economy,1437.5,Yes,1,Egg Free
+14/10/2024,PA009,New York,Tokyo,Economy,1360,Yes,1,Dairy Free
+25/10/2024,PA008,Perth,New York,First Class,575,Yes,0,Nut Free
+07/08/2024,PA002,New York,London,Premium Economy,832.5,Yes,0,None
+04/12/2024,PA004,Perth,London,Economy,2540,Yes,3,Vegan
+28/07/2024,PA005,London,Tokyo,First Class,263,Yes,2,None
+12/03/2024,PA007,New York,Perth,Economy,2640,Yes,0,Vegan
+11/05/2024,PA003,London,Perth,Economy,2885,Yes,3,Vegetarian
+05/12/2024,PA008,Perth,New York,Economy,2200,Yes,1,Nut Free
+13/03/2024,PA001,London,New York,Premium Economy,1422.5,Yes,0,Dairy Free
+05/12/2024,PA012,Tokyo,Perth,Economy,2230,Yes,3,None
+21/08/2024,PA008,Perth,New York,First Class,300,Yes,0,Vegan
+31/10/2024,PA010,Tokyo,New York,Premium Economy,780,Yes,2,None
+01/11/2024,PA009,New York,Tokyo,Premium Economy,1585,Yes,1,Dairy Free
+04/06/2024,PA010,Tokyo,New York,First Class,389,Yes,1,Egg Free
+12/06/2024,PA012,Tokyo,Perth,Business Class,318,Yes,1,Nut Free
+13/08/2024,PA011,Perth,Tokyo,Economy,1165,Yes,0,None
+03/02/2024,PA003,London,Perth,Premium Economy,1095,Yes,3,None
+20/08/2024,PA005,London,Tokyo,Premium Economy,1632.5,Yes,2,Vegan
+20/01/2024,PA004,Perth,London,First Class,440,Yes,3,Dairy Free
+04/05/2024,PA007,New York,Perth,Premium Economy,1680,Yes,1,Nut Free
+03/01/2024,PA006,Tokyo,London,Economy,1280,Yes,1,Dairy Free
+11/04/2024,PA008,Perth,New York,First Class,676,Yes,1,Egg Free
+21/03/2024,PA004,Perth,London,Business Class,836.4,Yes,1,Egg Free
+09/10/2024,PA011,Perth,Tokyo,Economy,3065,Yes,3,Dairy Free
+31/05/2024,PA007,New York,Perth,Premium Economy,725,Yes,3,Dairy Free
+19/05/2024,PA005,London,Tokyo,Business Class,424.8,Yes,2,Nut Free
+25/01/2024,PA012,Tokyo,Perth,Business Class,358.8,Yes,0,None
+02/01/2024,PA003,London,Perth,Premium Economy,1200,Yes,3,Dairy Free
+15/05/2024,PA008,Perth,New York,Business Class,427.2,Yes,0,Vegan
+24/04/2024,PA010,Tokyo,New York,Economy,2130,Yes,0,Dairy Free
+28/04/2024,PA002,New York,London,Business Class,241.2,Yes,2,Vegetarian
+13/12/2024,PA003,London,Perth,Premium Economy,505,Yes,2,None
+20/10/2024,PA011,Perth,Tokyo,First Class,385,Yes,2,Dairy Free
+27/08/2024,PA002,New York,London,First Class,573,Yes,1,Vegan
+12/11/2024,PA003,London,Perth,Economy,2190,Yes,3,Vegetarian
+23/07/2024,PA009,New York,Tokyo,Business Class,339.6,Yes,1,Vegetarian
+22/02/2024,PA005,London,Tokyo,Business Class,468,Yes,1,None
+18/09/2024,PA001,London,New York,Economy,1020,Yes,0,Vegetarian
+06/12/2024,PA011,Perth,Tokyo,Business Class,601.2,Yes,3,Dairy Free
+10/10/2024,PA001,London,New York,Economy,3035,Yes,3,Vegetarian
+14/12/2024,PA007,New York,Perth,Premium Economy,1305,Yes,2,Nut Free
+07/11/2024,PA006,Tokyo,London,First Class,252,Yes,0,None
+21/03/2024,PA003,London,Perth,Business Class,272.4,Yes,2,Nut Free
+26/02/2024,PA009,New York,Tokyo,Premium Economy,1085,Yes,2,Vegan
+31/07/2024,PA012,Tokyo,Perth,Premium Economy,817.5,Yes,1,Egg Free
+20/01/2024,PA008,Perth,New York,Economy,2330,Yes,1,Egg Free
+26/08/2024,PA007,New York,Perth,Economy,2235,Yes,1,None
+05/04/2024,PA005,London,Tokyo,Economy,3005,Yes,0,None
+05/01/2024,PA010,Tokyo,New York,First Class,681,Yes,0,None
+02/03/2024,PA006,Tokyo,London,Business Class,558,Yes,2,Vegetarian
+06/03/2024,PA009,New York,Tokyo,Economy,1840,Yes,3,Vegetarian
+16/04/2024,PA012,Tokyo,Perth,First Class,506,Yes,2,Nut Free
+29/05/2024,PA007,New York,Perth,Business Class,240,Yes,1,Vegetarian
+04/01/2024,PA002,New York,London,Premium Economy,1635,Yes,2,Egg Free
+07/07/2024,PA011,Perth,Tokyo,Economy,2590,Yes,1,Vegetarian
+06/10/2024,PA003,London,Perth,Business Class,783.6,Yes,2,Vegan
+03/05/2024,PA001,London,New York,Economy,3160,Yes,2,None
+09/08/2024,PA011,Perth,Tokyo,First Class,512,Yes,0,Egg Free
+27/10/2024,PA010,Tokyo,New York,Economy,1715,Yes,0,Nut Free
+10/06/2024,PA009,New York,Tokyo,First Class,517,Yes,2,Vegan
+20/12/2024,PA006,Tokyo,London,Economy,2725,Yes,0,Vegetarian
+27/11/2024,PA012,Tokyo,Perth,Economy,2500,Yes,1,Dairy Free
+23/03/2024,PA009,New York,Tokyo,Economy,2300,Yes,1,Dairy Free
+06/07/2024,PA003,London,Perth,First Class,305,Yes,1,Egg Free
+05/12/2024,PA002,New York,London,Business Class,499.2,Yes,0,Vegetarian
+09/07/2024,PA012,Tokyo,Perth,Economy,1420,Yes,0,Nut Free
+31/03/2024,PA006,Tokyo,London,First Class,300,Yes,0,None
+06/05/2024,PA004,Perth,London,First Class,591,Yes,3,None
+10/04/2024,PA001,London,New York,Premium Economy,1042.5,Yes,0,None
+16/05/2024,PA003,London,Perth,Economy,2925,Yes,1,Vegan
+01/12/2024,PA008,Perth,New York,First Class,340,Yes,1,Egg Free
+26/06/2024,PA003,London,Perth,Business Class,463.2,Yes,1,Vegan
+21/12/2024,PA001,London,New York,Business Class,325.2,Yes,3,Vegetarian
+10/07/2024,PA007,New York,Perth,Economy,1600,Yes,1,Vegetarian
+16/12/2024,PA006,Tokyo,London,Premium Economy,1582.5,Yes,0,Nut Free
+23/05/2024,PA003,London,Perth,Economy,2045,Yes,2,None
+14/08/2024,PA004,Perth,London,Premium Economy,742.5,Yes,2,Vegan
+19/09/2024,PA011,Perth,Tokyo,Business Class,332.4,Yes,2,Dairy Free
+06/07/2024,PA004,Perth,London,Premium Economy,595,Yes,2,Vegan
+23/01/2024,PA001,London,New York,Premium Economy,1290,Yes,3,Vegan
+07/07/2024,PA008,Perth,New York,First Class,348,Yes,2,Vegetarian
+06/11/2024,PA001,London,New York,Economy,1245,Yes,2,None
+19/08/2024,PA005,London,Tokyo,Business Class,421.2,Yes,0,Nut Free
+06/05/2024,PA002,New York,London,Premium Economy,912.5,Yes,0,Dairy Free
+17/12/2024,PA011,Perth,Tokyo,First Class,511,Yes,1,Dairy Free
+29/07/2024,PA011,Perth,Tokyo,Business Class,337.2,Yes,1,Vegan
+08/01/2024,PA008,Perth,New York,Economy,3065,Yes,1,Vegan
+29/12/2024,PA003,London,Perth,Premium Economy,1107.5,Yes,1,None
+29/08/2024,PA006,Tokyo,London,First Class,476,Yes,2,Vegan
+04/04/2024,PA012,Tokyo,Perth,Business Class,818.4,Yes,1,Egg Free
+09/08/2024,PA010,Tokyo,New York,First Class,665,Yes,3,Dairy Free
+03/04/2024,PA004,Perth,London,First Class,427,Yes,1,None
+06/10/2024,PA009,New York,Tokyo,Economy,3165,Yes,1,None
+14/07/2024,PA006,Tokyo,London,First Class,630,Yes,1,Egg Free
+05/01/2024,PA012,Tokyo,Perth,First Class,436,Yes,3,Nut Free
+22/03/2024,PA007,New York,Perth,Economy,2240,Yes,0,Dairy Free
+25/05/2024,PA010,Tokyo,New York,Business Class,674.4,Yes,3,None
+20/03/2024,PA007,New York,Perth,Economy,1170,Yes,0,None
+22/10/2024,PA001,London,New York,Premium Economy,952.5,Yes,1,None
+24/12/2024,PA005,London,Tokyo,First Class,244,Yes,0,Vegetarian
+01/02/2024,PA005,London,Tokyo,First Class,586,Yes,0,Dairy Free
+20/02/2024,PA002,New York,London,Premium Economy,1737.5,Yes,3,Vegan
+15/07/2024,PA006,Tokyo,London,Premium Economy,1342.5,Yes,2,Dairy Free
+07/01/2024,PA003,London,Perth,Business Class,462,Yes,2,None
+11/07/2024,PA002,New York,London,First Class,494,Yes,3,Vegan
+08/01/2024,PA007,New York,Perth,Economy,2300,Yes,1,Vegetarian
+19/08/2024,PA002,New York,London,First Class,213,Yes,0,Vegetarian
+28/06/2024,PA009,New York,Tokyo,Economy,2850,Yes,1,Vegetarian
+23/11/2024,PA003,London,Perth,First Class,646,Yes,1,Vegan
+11/08/2024,PA012,Tokyo,Perth,Premium Economy,1140,Yes,2,Egg Free
+02/05/2024,PA009,New York,Tokyo,Business Class,706.8,Yes,0,Egg Free
+18/07/2024,PA007,New York,Perth,Business Class,709.2,Yes,2,Nut Free
+25/11/2024,PA003,London,Perth,Economy,2155,Yes,2,Nut Free
+10/06/2024,PA001,London,New York,Premium Economy,665,Yes,0,None
+20/10/2024,PA001,London,New York,Business Class,451.2,Yes,2,Dairy Free
+16/04/2024,PA009,New York,Tokyo,Business Class,282,Yes,2,Vegan
+26/12/2024,PA006,Tokyo,London,Economy,2395,Yes,0,Dairy Free
+26/03/2024,PA011,Perth,Tokyo,First Class,645,Yes,3,Egg Free
+23/06/2024,PA007,New York,Perth,First Class,666,Yes,1,Egg Free
+09/09/2024,PA012,Tokyo,Perth,Business Class,265.2,Yes,1,None
+15/08/2024,PA006,Tokyo,London,Economy,1515,Yes,0,Egg Free
+09/09/2024,PA009,New York,Tokyo,Premium Economy,1557.5,Yes,1,Dairy Free
+07/04/2024,PA003,London,Perth,Premium Economy,1727.5,Yes,1,None
+30/04/2024,PA009,New York,Tokyo,Economy,1220,Yes,3,Vegetarian
+28/10/2024,PA010,Tokyo,New York,Business Class,796.8,Yes,2,Dairy Free
+16/04/2024,PA008,Perth,New York,Economy,2235,Yes,1,Egg Free
+27/08/2024,PA003,London,Perth,First Class,694,Yes,0,Dairy Free
+06/02/2024,PA012,Tokyo,Perth,Premium Economy,570,Yes,2,Dairy Free
+03/09/2024,PA009,New York,Tokyo,Premium Economy,840,Yes,0,Nut Free
+31/12/2024,PA002,New York,London,Premium Economy,677.5,Yes,3,Nut Free
+28/08/2024,PA003,London,Perth,Premium Economy,505,Yes,3,None
+23/10/2024,PA001,London,New York,Economy,1155,Yes,1,Egg Free
+02/10/2024,PA011,Perth,Tokyo,Business Class,679.2,Yes,3,Nut Free
+01/04/2024,PA008,Perth,New York,Premium Economy,1530,Yes,1,Vegetarian
+09/05/2024,PA002,New York,London,Economy,2585,Yes,1,Egg Free
+25/04/2024,PA006,Tokyo,London,Economy,1650,Yes,3,Egg Free
+03/05/2024,PA011,Perth,Tokyo,Business Class,627.6,Yes,2,Egg Free
+20/06/2024,PA001,London,New York,First Class,456,Yes,3,Vegetarian
+09/10/2024,PA012,Tokyo,Perth,Premium Economy,980,Yes,1,Egg Free
+06/05/2024,PA006,Tokyo,London,Premium Economy,832.5,Yes,3,Egg Free
+05/08/2024,PA007,New York,Perth,Economy,1765,Yes,1,Vegetarian
+19/10/2024,PA002,New York,London,Premium Economy,650,Yes,1,Vegan
+03/10/2024,PA007,New York,Perth,First Class,694,Yes,3,Nut Free
+24/08/2024,PA006,Tokyo,London,Premium Economy,1447.5,Yes,3,None
+19/11/2024,PA005,London,Tokyo,First Class,238,Yes,0,Vegetarian
+19/06/2024,PA006,Tokyo,London,Economy,1705,Yes,2,Dairy Free
+11/09/2024,PA004,Perth,London,Premium Economy,922.5,Yes,2,Vegetarian
+18/07/2024,PA008,Perth,New York,First Class,395,Yes,2,Dairy Free
+03/05/2024,PA001,London,New York,First Class,567,Yes,2,Vegan
+07/02/2024,PA009,New York,Tokyo,Business Class,421.2,Yes,0,Vegetarian
+06/08/2024,PA002,New York,London,Business Class,586.8,Yes,1,Vegetarian
+13/12/2024,PA009,New York,Tokyo,Business Class,604.8,Yes,1,Vegan
+04/07/2024,PA007,New York,Perth,Premium Economy,1080,Yes,3,Vegan
+01/07/2024,PA004,Perth,London,Economy,1235,Yes,1,Vegan
+13/08/2024,PA011,Perth,Tokyo,Business Class,768,Yes,3,Nut Free
+16/12/2024,PA002,New York,London,Premium Economy,620,Yes,2,Egg Free
+28/02/2024,PA006,Tokyo,London,Economy,1695,Yes,0,Dairy Free
+19/11/2024,PA002,New York,London,Business Class,375.6,Yes,0,Nut Free
+27/02/2024,PA009,New York,Tokyo,Business Class,369.6,Yes,1,Dairy Free
+08/02/2024,PA006,Tokyo,London,Economy,1310,Yes,1,Dairy Free
+14/02/2024,PA010,Tokyo,New York,Premium Economy,1107.5,Yes,1,Vegetarian
+15/08/2024,PA012,Tokyo,Perth,Business Class,507.6,Yes,1,Vegan
+07/03/2024,PA001,London,New York,Economy,2960,Yes,1,Egg Free
+30/10/2024,PA010,Tokyo,New York,Business Class,402,Yes,2,Nut Free
+01/05/2024,PA002,New York,London,First Class,277,Yes,3,Dairy Free
+26/12/2024,PA008,Perth,New York,Business Class,475.2,Yes,1,Vegan
+25/07/2024,PA012,Tokyo,Perth,Economy,3115,Yes,2,None
+07/09/2024,PA009,New York,Tokyo,Economy,3310,Yes,0,Vegetarian
+22/07/2024,PA006,Tokyo,London,Premium Economy,602.5,Yes,2,None
+14/03/2024,PA005,London,Tokyo,Premium Economy,1457.5,Yes,3,Dairy Free
+27/08/2024,PA007,New York,Perth,Business Class,726,Yes,3,Dairy Free
+23/09/2024,PA009,New York,Tokyo,Premium Economy,1275,Yes,2,Nut Free
+10/10/2024,PA002,New York,London,Economy,3000,Yes,1,Vegan
+12/06/2024,PA009,New York,Tokyo,Premium Economy,1715,Yes,0,Vegan
+31/08/2024,PA004,Perth,London,First Class,599,Yes,0,Egg Free
+28/01/2024,PA001,London,New York,Premium Economy,1395,Yes,0,Vegetarian
+26/05/2024,PA003,London,Perth,Economy,2455,Yes,3,Dairy Free
+28/08/2024,PA004,Perth,London,Economy,3050,Yes,3,Egg Free
+03/01/2024,PA011,Perth,Tokyo,Economy,3500,Yes,2,Nut Free
+23/12/2024,PA006,Tokyo,London,Business Class,480,Yes,2,Dairy Free
+10/11/2024,PA007,New York,Perth,Premium Economy,1070,Yes,3,Vegetarian
+26/03/2024,PA003,London,Perth,Business Class,508.8,Yes,1,Dairy Free
+14/12/2024,PA011,Perth,Tokyo,Premium Economy,1310,Yes,3,Vegetarian
+10/07/2024,PA005,London,Tokyo,Business Class,787.2,Yes,3,Dairy Free
+31/10/2024,PA002,New York,London,First Class,275,Yes,1,Nut Free
+14/05/2024,PA008,Perth,New York,Premium Economy,1477.5,Yes,1,Nut Free
+04/04/2024,PA009,New York,Tokyo,Economy,3175,Yes,0,Vegetarian
+20/06/2024,PA006,Tokyo,London,First Class,200,Yes,2,Dairy Free
+13/02/2024,PA004,Perth,London,Premium Economy,752.5,Yes,0,None
+14/05/2024,PA006,Tokyo,London,Premium Economy,990,Yes,2,Egg Free
+29/10/2024,PA001,London,New York,First Class,216,Yes,0,Nut Free
+10/02/2024,PA005,London,Tokyo,First Class,681,Yes,1,Vegetarian
+13/08/2024,PA008,Perth,New York,First Class,506,Yes,2,Nut Free
+03/04/2024,PA001,London,New York,Business Class,298.8,Yes,0,Vegan
+19/06/2024,PA009,New York,Tokyo,Premium Economy,1275,Yes,1,None
+07/03/2024,PA009,New York,Tokyo,Business Class,332.4,Yes,3,Egg Free
+30/08/2024,PA005,London,Tokyo,Economy,3315,Yes,3,Nut Free
+03/06/2024,PA002,New York,London,Economy,1230,Yes,0,Vegetarian
+01/10/2024,PA002,New York,London,Economy,2415,Yes,0,Vegan
+24/04/2024,PA012,Tokyo,Perth,Premium Economy,535,Yes,2,Vegan
+20/06/2024,PA001,London,New York,Premium Economy,930,Yes,0,Vegan
+09/10/2024,PA003,London,Perth,Economy,3415,Yes,3,Vegetarian
+20/10/2024,PA005,London,Tokyo,First Class,514,Yes,1,Nut Free
+15/02/2024,PA009,New York,Tokyo,Economy,2980,Yes,0,None
+15/01/2024,PA008,Perth,New York,Business Class,502.8,Yes,3,Vegan
+16/08/2024,PA010,Tokyo,New York,Economy,3265,Yes,2,Vegetarian
+02/08/2024,PA008,Perth,New York,Premium Economy,1550,Yes,1,Dairy Free
+13/07/2024,PA005,London,Tokyo,Economy,1480,Yes,1,Vegetarian
+27/01/2024,PA002,New York,London,Business Class,489.6,Yes,1,None
+19/09/2024,PA002,New York,London,Premium Economy,635,Yes,1,Vegetarian
+16/08/2024,PA007,New York,Perth,Premium Economy,757.5,Yes,3,Egg Free
+15/10/2024,PA009,New York,Tokyo,Premium Economy,870,Yes,0,Dairy Free
+12/03/2024,PA007,New York,Perth,Business Class,434.4,Yes,1,Nut Free
+15/04/2024,PA003,London,Perth,Business Class,249.6,Yes,3,Egg Free
+13/05/2024,PA004,Perth,London,Economy,2785,Yes,3,Vegan
+30/08/2024,PA005,London,Tokyo,Business Class,811.2,Yes,3,Vegan
+01/10/2024,PA004,Perth,London,First Class,510,Yes,1,Vegetarian
+19/05/2024,PA010,Tokyo,New York,Premium Economy,1555,Yes,2,Egg Free
+01/06/2024,PA009,New York,Tokyo,First Class,274,Yes,3,Vegetarian
+11/05/2024,PA005,London,Tokyo,Business Class,706.8,Yes,1,Egg Free
+12/09/2024,PA008,Perth,New York,Economy,1315,Yes,0,Dairy Free
+23/08/2024,PA011,Perth,Tokyo,Economy,1160,Yes,1,Dairy Free
+23/09/2024,PA012,Tokyo,Perth,Economy,3495,Yes,0,Egg Free
+27/07/2024,PA003,London,Perth,Premium Economy,1232.5,Yes,1,None
+22/11/2024,PA001,London,New York,Economy,1030,Yes,1,None
+29/05/2024,PA010,Tokyo,New York,Economy,2765,Yes,3,Dairy Free
+04/02/2024,PA008,Perth,New York,Economy,1295,Yes,2,Egg Free
+10/09/2024,PA012,Tokyo,Perth,Business Class,420,Yes,2,Nut Free
+21/12/2024,PA002,New York,London,Business Class,379.2,Yes,0,Dairy Free
+25/12/2024,PA003,London,Perth,First Class,473,Yes,0,None
+15/07/2024,PA011,Perth,Tokyo,Premium Economy,1670,Yes,1,Vegan
+09/12/2024,PA003,London,Perth,First Class,602,Yes,2,Egg Free
+20/09/2024,PA010,Tokyo,New York,First Class,214,Yes,3,Dairy Free
+23/12/2024,PA009,New York,Tokyo,Premium Economy,952.5,Yes,2,Egg Free
+28/11/2024,PA005,London,Tokyo,Economy,2830,Yes,3,Vegan
+03/12/2024,PA002,New York,London,Business Class,710.4,Yes,1,Dairy Free
+05/03/2024,PA004,Perth,London,Economy,2655,Yes,2,Egg Free
+08/12/2024,PA009,New York,Tokyo,First Class,644,Yes,0,Egg Free
+23/07/2024,PA004,Perth,London,Economy,1360,Yes,3,Nut Free
+23/03/2024,PA011,Perth,Tokyo,Premium Economy,572.5,Yes,2,Vegetarian
+25/03/2024,PA004,Perth,London,Premium Economy,885,Yes,3,Egg Free
+18/05/2024,PA008,Perth,New York,First Class,625,Yes,2,Egg Free
+29/03/2024,PA002,New York,London,Economy,1515,Yes,2,None
+29/05/2024,PA008,Perth,New York,Economy,3435,Yes,2,Egg Free
+16/03/2024,PA011,Perth,Tokyo,Economy,2305,Yes,2,Vegetarian
+07/08/2024,PA006,Tokyo,London,Business Class,460.8,Yes,1,Dairy Free
+16/09/2024,PA001,London,New York,Premium Economy,507.5,Yes,0,Nut Free
+22/09/2024,PA012,Tokyo,Perth,Economy,1550,Yes,1,Nut Free
+04/04/2024,PA012,Tokyo,Perth,Business Class,583.2,Yes,1,Vegetarian
+28/08/2024,PA011,Perth,Tokyo,Premium Economy,780,Yes,2,Vegan
+14/06/2024,PA005,London,Tokyo,Business Class,421.2,Yes,0,None
+27/06/2024,PA007,New York,Perth,Economy,2060,Yes,1,Nut Free
+08/11/2024,PA002,New York,London,Premium Economy,865,Yes,3,Vegetarian
+27/10/2024,PA002,New York,London,Economy,2780,Yes,2,Egg Free
+24/11/2024,PA011,Perth,Tokyo,Business Class,415.2,Yes,3,Vegan
+27/03/2024,PA003,London,Perth,Business Class,426,Yes,0,Egg Free
+11/09/2024,PA010,Tokyo,New York,First Class,692,Yes,2,Vegetarian
+23/12/2024,PA006,Tokyo,London,Premium Economy,1380,Yes,1,Egg Free
+14/05/2024,PA008,Perth,New York,Economy,2435,Yes,0,Vegetarian
+03/07/2024,PA012,Tokyo,Perth,Premium Economy,1582.5,Yes,1,Egg Free
+14/03/2024,PA008,Perth,New York,Premium Economy,1127.5,Yes,1,None
+03/07/2024,PA008,Perth,New York,Premium Economy,1457.5,Yes,1,Egg Free
+04/02/2024,PA001,London,New York,Business Class,793.2,Yes,0,None
+12/07/2024,PA007,New York,Perth,First Class,346,Yes,0,Dairy Free
+02/06/2024,PA010,Tokyo,New York,Business Class,649.2,Yes,1,None
+28/09/2024,PA003,London,Perth,Premium Economy,937.5,Yes,1,Egg Free
+09/08/2024,PA004,Perth,London,Business Class,547.2,Yes,3,Vegetarian
+28/05/2024,PA010,Tokyo,New York,Economy,3295,Yes,1,Egg Free
+11/03/2024,PA011,Perth,Tokyo,First Class,438,Yes,3,None
+26/07/2024,PA005,London,Tokyo,Premium Economy,510,Yes,1,Dairy Free
+01/06/2024,PA006,Tokyo,London,Business Class,782.4,Yes,0,Vegetarian
+28/03/2024,PA010,Tokyo,New York,Business Class,568.8,Yes,3,Egg Free
+16/12/2024,PA006,Tokyo,London,Economy,3150,Yes,2,Vegan
+09/11/2024,PA010,Tokyo,New York,First Class,613,Yes,1,Egg Free
+07/07/2024,PA009,New York,Tokyo,Economy,2700,Yes,2,Nut Free
+03/10/2024,PA005,London,Tokyo,Economy,1150,Yes,3,None
+12/01/2024,PA010,Tokyo,New York,Business Class,313.2,Yes,3,Vegan
+30/08/2024,PA009,New York,Tokyo,Economy,2875,Yes,1,Dairy Free
+23/01/2024,PA009,New York,Tokyo,First Class,603,Yes,1,Egg Free
+17/04/2024,PA011,Perth,Tokyo,First Class,362,Yes,2,Dairy Free
+24/11/2024,PA005,London,Tokyo,First Class,322,Yes,3,Vegetarian
+20/11/2024,PA011,Perth,Tokyo,First Class,678,Yes,1,Egg Free
+16/12/2024,PA004,Perth,London,Premium Economy,1410,Yes,1,Egg Free
+15/06/2024,PA005,London,Tokyo,Economy,1775,Yes,1,Egg Free
+23/06/2024,PA010,Tokyo,New York,Business Class,291.6,Yes,2,Dairy Free
+05/06/2024,PA008,Perth,New York,First Class,316,Yes,3,Egg Free
+24/10/2024,PA010,Tokyo,New York,Business Class,333.6,Yes,2,Egg Free
+28/02/2024,PA009,New York,Tokyo,First Class,403,Yes,3,None
+06/06/2024,PA001,London,New York,Business Class,570,Yes,2,None
+20/09/2024,PA010,Tokyo,New York,Premium Economy,1305,Yes,0,Egg Free
+19/02/2024,PA004,Perth,London,First Class,260,Yes,1,Dairy Free
+10/12/2024,PA011,Perth,Tokyo,Economy,2830,Yes,2,Vegan
+12/11/2024,PA009,New York,Tokyo,First Class,344,Yes,2,Vegan
+28/09/2024,PA009,New York,Tokyo,Economy,3390,Yes,2,Dairy Free
+02/10/2024,PA001,London,New York,First Class,517,Yes,2,Vegan
+12/08/2024,PA006,Tokyo,London,Premium Economy,615,Yes,3,Vegetarian
+07/10/2024,PA008,Perth,New York,First Class,642,Yes,3,Vegetarian
+04/04/2024,PA005,London,Tokyo,First Class,521,Yes,0,Nut Free
+30/07/2024,PA003,London,Perth,First Class,612,Yes,1,Vegetarian
+29/05/2024,PA009,New York,Tokyo,Business Class,294,Yes,0,Nut Free
+04/01/2024,PA002,New York,London,First Class,684,Yes,1,Dairy Free
+16/01/2024,PA007,New York,Perth,Business Class,406.8,Yes,3,None
+09/08/2024,PA003,London,Perth,Premium Economy,1572.5,Yes,3,Nut Free
+13/07/2024,PA010,Tokyo,New York,First Class,403,Yes,1,Nut Free
+13/10/2024,PA012,Tokyo,Perth,Premium Economy,1352.5,Yes,0,Dairy Free
+20/07/2024,PA011,Perth,Tokyo,First Class,606,Yes,1,Egg Free
+27/08/2024,PA005,London,Tokyo,Economy,3080,Yes,2,Vegetarian
+25/03/2024,PA002,New York,London,Premium Economy,1342.5,Yes,2,Dairy Free
+09/08/2024,PA006,Tokyo,London,Business Class,658.8,Yes,2,Vegan
+22/05/2024,PA006,Tokyo,London,Premium Economy,1660,Yes,3,Egg Free
+14/01/2024,PA012,Tokyo,Perth,First Class,379,Yes,0,Egg Free
+06/09/2024,PA006,Tokyo,London,Business Class,272.4,Yes,1,Vegan
+11/04/2024,PA011,Perth,Tokyo,Economy,1410,Yes,0,Nut Free
+01/09/2024,PA005,London,Tokyo,Business Class,243.6,Yes,1,None
+18/11/2024,PA008,Perth,New York,Premium Economy,1127.5,Yes,1,None
+31/12/2024,PA005,London,Tokyo,First Class,247,Yes,3,Nut Free
+03/08/2024,PA011,Perth,Tokyo,Economy,2695,Yes,0,Nut Free
+31/05/2024,PA009,New York,Tokyo,First Class,484,Yes,1,None
+19/12/2024,PA006,Tokyo,London,First Class,216,Yes,1,Egg Free
+07/02/2024,PA001,London,New York,Business Class,266.4,Yes,0,None
+24/01/2024,PA012,Tokyo,Perth,Economy,3370,Yes,0,Vegan
+21/01/2024,PA012,Tokyo,Perth,Business Class,422.4,Yes,0,Vegetarian
+18/04/2024,PA003,London,Perth,First Class,350,Yes,1,Egg Free
+11/07/2024,PA011,Perth,Tokyo,First Class,237,Yes,2,Vegetarian
+19/11/2024,PA006,Tokyo,London,Premium Economy,1295,Yes,3,None
+19/12/2024,PA001,London,New York,Business Class,571.2,Yes,1,Dairy Free
+03/02/2024,PA008,Perth,New York,Business Class,421.2,Yes,3,Dairy Free
+06/02/2024,PA004,Perth,London,First Class,306,Yes,2,Dairy Free
+10/04/2024,PA011,Perth,Tokyo,Economy,1695,Yes,0,Vegetarian
+21/11/2024,PA006,Tokyo,London,Business Class,367.2,Yes,0,None
+16/02/2024,PA003,London,Perth,First Class,618,Yes,3,Nut Free
+02/12/2024,PA001,London,New York,Premium Economy,1037.5,Yes,3,Vegetarian
+11/08/2024,PA008,Perth,New York,Business Class,294,Yes,3,Vegan
+11/12/2024,PA008,Perth,New York,Business Class,834,Yes,0,Egg Free
+09/04/2024,PA008,Perth,New York,Premium Economy,1307.5,Yes,0,None
+06/03/2024,PA006,Tokyo,London,Premium Economy,1220,Yes,2,Nut Free
+25/10/2024,PA007,New York,Perth,First Class,485,Yes,3,Dairy Free
+11/07/2024,PA002,New York,London,Economy,3080,Yes,2,Nut Free
+13/03/2024,PA005,London,Tokyo,First Class,518,Yes,1,Dairy Free
+24/01/2024,PA011,Perth,Tokyo,Economy,3060,Yes,3,Vegan
+17/09/2024,PA001,London,New York,Economy,2000,Yes,3,Vegan
+08/08/2024,PA001,London,New York,First Class,627,Yes,1,Nut Free
+23/12/2024,PA009,New York,Tokyo,Premium Economy,922.5,Yes,2,Egg Free
+14/05/2024,PA001,London,New York,Business Class,583.2,Yes,2,Vegan
+15/02/2024,PA008,Perth,New York,Premium Economy,1732.5,Yes,3,Nut Free
+02/10/2024,PA010,Tokyo,New York,Premium Economy,927.5,Yes,3,Vegetarian
+16/09/2024,PA001,London,New York,Economy,2415,Yes,2,None
+10/07/2024,PA009,New York,Tokyo,Premium Economy,1142.5,Yes,2,None
+12/08/2024,PA003,London,Perth,Economy,2750,Yes,1,Dairy Free
+06/03/2024,PA012,Tokyo,Perth,Economy,1380,Yes,0,Egg Free
+28/01/2024,PA004,Perth,London,Economy,2990,Yes,3,Nut Free
+24/07/2024,PA012,Tokyo,Perth,Premium Economy,1075,Yes,0,Vegetarian
+17/01/2024,PA010,Tokyo,New York,Premium Economy,1325,Yes,0,Nut Free
+01/03/2024,PA004,Perth,London,Premium Economy,1447.5,Yes,3,None
+02/09/2024,PA006,Tokyo,London,First Class,642,Yes,1,Vegetarian
+23/10/2024,PA009,New York,Tokyo,Premium Economy,740,Yes,0,Egg Free
+16/07/2024,PA012,Tokyo,Perth,Economy,1170,Yes,2,Dairy Free
+04/04/2024,PA009,New York,Tokyo,First Class,691,Yes,3,Egg Free
+31/07/2024,PA005,London,Tokyo,Business Class,577.2,Yes,3,Nut Free
+22/10/2024,PA006,Tokyo,London,Premium Economy,1020,Yes,1,Egg Free
+24/08/2024,PA004,Perth,London,Economy,2985,Yes,2,Vegan
+23/03/2024,PA003,London,Perth,Premium Economy,1302.5,Yes,3,Vegetarian
+20/07/2024,PA007,New York,Perth,Premium Economy,1677.5,Yes,0,Dairy Free
+11/05/2024,PA005,London,Tokyo,Business Class,747.6,Yes,1,Nut Free
+30/11/2024,PA004,Perth,London,Premium Economy,1357.5,Yes,2,Nut Free
+20/04/2024,PA006,Tokyo,London,Economy,3015,Yes,0,Nut Free
+19/02/2024,PA008,Perth,New York,Economy,2515,Yes,2,Egg Free
+27/04/2024,PA007,New York,Perth,First Class,689,Yes,0,Vegan
+10/11/2024,PA009,New York,Tokyo,Premium Economy,1225,Yes,3,Nut Free
+29/03/2024,PA009,New York,Tokyo,First Class,500,Yes,1,Egg Free
+17/01/2024,PA005,London,Tokyo,Premium Economy,942.5,Yes,3,Nut Free
+17/03/2024,PA001,London,New York,Economy,2880,Yes,0,None
+02/09/2024,PA007,New York,Perth,First Class,570,Yes,1,Vegan
+25/09/2024,PA003,London,Perth,Business Class,762,Yes,0,Vegan
+21/07/2024,PA002,New York,London,Economy,2340,Yes,0,Nut Free
+07/09/2024,PA005,London,Tokyo,First Class,388,Yes,0,Vegetarian
+07/11/2024,PA007,New York,Perth,First Class,345,Yes,3,Nut Free
+02/08/2024,PA002,New York,London,Premium Economy,1667.5,Yes,3,Vegetarian
+28/08/2024,PA001,London,New York,Economy,1925,Yes,2,Dairy Free
+24/02/2024,PA005,London,Tokyo,First Class,688,Yes,3,Egg Free
+14/04/2024,PA005,London,Tokyo,Premium Economy,665,Yes,1,Nut Free
+24/10/2024,PA009,New York,Tokyo,Economy,3235,Yes,0,Vegetarian
+31/03/2024,PA007,New York,Perth,Premium Economy,935,Yes,3,Vegan
+29/06/2024,PA002,New York,London,Business Class,452.4,Yes,1,Vegan
+19/01/2024,PA005,London,Tokyo,Economy,2525,Yes,3,Egg Free
+04/04/2024,PA003,London,Perth,Economy,1325,Yes,1,Nut Free
+10/08/2024,PA008,Perth,New York,First Class,251,Yes,1,None
+05/05/2024,PA006,Tokyo,London,Economy,1310,Yes,0,Vegan
+02/12/2024,PA001,London,New York,Premium Economy,1255,Yes,2,Dairy Free
+10/07/2024,PA011,Perth,Tokyo,Business Class,241.2,Yes,2,Egg Free
+21/09/2024,PA007,New York,Perth,Premium Economy,807.5,Yes,0,Nut Free
+08/10/2024,PA008,Perth,New York,Business Class,414,Yes,0,Vegetarian
+07/10/2024,PA008,Perth,New York,Economy,2685,Yes,3,Vegan
+04/10/2024,PA004,Perth,London,Premium Economy,945,Yes,1,Egg Free
+08/10/2024,PA003,London,Perth,Business Class,758.4,Yes,1,Egg Free
+15/09/2024,PA006,Tokyo,London,Premium Economy,1090,Yes,2,Vegan
+29/07/2024,PA001,London,New York,Premium Economy,1477.5,Yes,1,Dairy Free
+27/09/2024,PA012,Tokyo,Perth,Business Class,657.6,Yes,2,Vegetarian
+28/09/2024,PA011,Perth,Tokyo,Business Class,580.8,Yes,2,None
+23/09/2024,PA008,Perth,New York,Economy,1205,Yes,1,Dairy Free
+30/07/2024,PA007,New York,Perth,Premium Economy,1632.5,Yes,2,Dairy Free
+15/03/2024,PA004,Perth,London,First Class,449,Yes,2,Vegan
+24/04/2024,PA011,Perth,Tokyo,Economy,1870,Yes,1,Vegetarian
+14/11/2024,PA004,Perth,London,Economy,2290,Yes,2,Nut Free
+07/07/2024,PA002,New York,London,Business Class,530.4,Yes,3,Nut Free
+02/03/2024,PA001,London,New York,First Class,323,Yes,0,Vegan
+08/05/2024,PA006,Tokyo,London,First Class,440,Yes,2,None
+02/09/2024,PA012,Tokyo,Perth,Premium Economy,570,Yes,3,Nut Free
+19/05/2024,PA010,Tokyo,New York,First Class,362,Yes,2,None
+19/10/2024,PA002,New York,London,Premium Economy,1130,Yes,0,None
+03/10/2024,PA008,Perth,New York,Economy,1140,Yes,0,Vegan
+10/06/2024,PA004,Perth,London,First Class,478,Yes,3,Nut Free
+02/02/2024,PA002,New York,London,Economy,1530,Yes,0,Nut Free
+29/08/2024,PA007,New York,Perth,Economy,1265,Yes,3,Nut Free
+30/11/2024,PA001,London,New York,First Class,401,Yes,3,Nut Free
+05/12/2024,PA004,Perth,London,Business Class,609.6,Yes,0,None
+29/11/2024,PA009,New York,Tokyo,Economy,2375,Yes,0,Vegetarian
+25/10/2024,PA010,Tokyo,New York,First Class,466,Yes,1,Nut Free
+28/08/2024,PA005,London,Tokyo,Premium Economy,1122.5,Yes,2,Dairy Free
+15/06/2024,PA001,London,New York,Premium Economy,1005,Yes,3,Vegan
+26/12/2024,PA008,Perth,New York,First Class,297,Yes,3,None
+17/05/2024,PA002,New York,London,Premium Economy,1547.5,Yes,2,Dairy Free
+30/07/2024,PA004,Perth,London,First Class,552,Yes,0,None
+04/11/2024,PA008,Perth,New York,Business Class,432,Yes,0,Egg Free
+20/10/2024,PA006,Tokyo,London,Premium Economy,802.5,Yes,1,None
+29/03/2024,PA012,Tokyo,Perth,Business Class,508.8,Yes,2,Dairy Free
+26/07/2024,PA002,New York,London,Economy,2885,Yes,0,Vegetarian
+04/10/2024,PA003,London,Perth,Business Class,711.6,Yes,1,Egg Free
+01/12/2024,PA010,Tokyo,New York,Premium Economy,1677.5,Yes,0,Nut Free
+09/03/2024,PA012,Tokyo,Perth,Premium Economy,840,Yes,0,Nut Free
+23/08/2024,PA002,New York,London,Economy,2010,Yes,2,Dairy Free
+25/06/2024,PA005,London,Tokyo,Premium Economy,1152.5,Yes,2,None
+16/04/2024,PA003,London,Perth,Premium Economy,825,Yes,3,Dairy Free
+11/06/2024,PA005,London,Tokyo,First Class,468,Yes,1,Nut Free
+13/08/2024,PA007,New York,Perth,Business Class,302.4,Yes,2,None
+20/05/2024,PA001,London,New York,Business Class,799.2,Yes,0,Nut Free
+15/01/2024,PA009,New York,Tokyo,Business Class,397.2,Yes,3,Dairy Free
+21/05/2024,PA001,London,New York,First Class,493,Yes,0,Vegan
+07/06/2024,PA008,Perth,New York,Economy,2110,Yes,0,Egg Free
+23/01/2024,PA011,Perth,Tokyo,First Class,635,Yes,2,None
+31/07/2024,PA002,New York,London,First Class,392,Yes,0,None
+05/09/2024,PA006,Tokyo,London,Economy,3345,Yes,3,None
+21/01/2024,PA009,New York,Tokyo,Business Class,352.8,Yes,0,Egg Free
+15/04/2024,PA011,Perth,Tokyo,First Class,334,Yes,1,None
+01/10/2024,PA012,Tokyo,Perth,First Class,382,Yes,1,None
+17/01/2024,PA002,New York,London,Business Class,672,Yes,2,Vegan
+22/03/2024,PA011,Perth,Tokyo,First Class,563,Yes,0,Nut Free
+23/02/2024,PA012,Tokyo,Perth,Business Class,472.8,Yes,0,Dairy Free
+09/12/2024,PA011,Perth,Tokyo,Economy,3460,Yes,0,Vegan
+19/05/2024,PA009,New York,Tokyo,Business Class,685.2,Yes,3,Egg Free
+12/02/2024,PA005,London,Tokyo,Premium Economy,1157.5,Yes,0,Vegan
+25/04/2024,PA001,London,New York,First Class,295,Yes,3,None
+08/10/2024,PA003,London,Perth,Business Class,655.2,Yes,1,Egg Free
+12/02/2024,PA011,Perth,Tokyo,First Class,207,Yes,3,Vegetarian
+26/06/2024,PA008,Perth,New York,Premium Economy,1592.5,Yes,0,Vegan
+09/11/2024,PA012,Tokyo,Perth,First Class,275,Yes,2,Vegetarian
+22/05/2024,PA006,Tokyo,London,Business Class,660,Yes,1,Vegan
+05/08/2024,PA007,New York,Perth,Business Class,481.2,Yes,3,Egg Free
+10/05/2024,PA011,Perth,Tokyo,Premium Economy,1277.5,Yes,2,Egg Free
+11/02/2024,PA012,Tokyo,Perth,Business Class,595.2,Yes,1,None
+25/07/2024,PA004,Perth,London,Business Class,822,Yes,1,Nut Free
+25/12/2024,PA004,Perth,London,Business Class,303.6,Yes,2,Vegan
+27/06/2024,PA012,Tokyo,Perth,Business Class,835.2,Yes,2,Dairy Free
+09/08/2024,PA008,Perth,New York,First Class,665,Yes,3,None
+15/04/2024,PA006,Tokyo,London,First Class,678,Yes,1,Egg Free
+05/10/2024,PA012,Tokyo,Perth,Business Class,252,Yes,1,None
+12/06/2024,PA007,New York,Perth,Business Class,721.2,Yes,3,Vegetarian
+23/10/2024,PA002,New York,London,Business Class,276,Yes,2,Nut Free
+05/06/2024,PA005,London,Tokyo,First Class,539,Yes,0,Dairy Free
+01/05/2024,PA010,Tokyo,New York,Economy,1250,Yes,0,Vegan
+18/10/2024,PA001,London,New York,Business Class,331.2,Yes,1,None
+10/09/2024,PA012,Tokyo,Perth,Business Class,823.2,Yes,0,Vegan
+09/08/2024,PA007,New York,Perth,Business Class,241.2,Yes,3,Dairy Free
+27/08/2024,PA002,New York,London,Business Class,470.4,Yes,1,Nut Free
+15/02/2024,PA011,Perth,Tokyo,First Class,371,Yes,0,Nut Free
+21/11/2024,PA003,London,Perth,First Class,469,Yes,1,Vegetarian
+02/02/2024,PA001,London,New York,Business Class,358.8,Yes,0,Vegan
+13/12/2024,PA008,Perth,New York,First Class,208,Yes,2,Nut Free
+02/07/2024,PA003,London,Perth,First Class,357,Yes,0,Dairy Free
+02/11/2024,PA007,New York,Perth,Premium Economy,885,Yes,2,Nut Free
+29/09/2024,PA002,New York,London,Business Class,260.4,Yes,0,Vegetarian
+24/07/2024,PA009,New York,Tokyo,Economy,2040,Yes,2,Dairy Free
+16/08/2024,PA008,Perth,New York,Premium Economy,765,Yes,1,Nut Free
+21/08/2024,PA010,Tokyo,New York,Economy,1225,Yes,2,Nut Free
+18/03/2024,PA002,New York,London,Premium Economy,1617.5,Yes,3,Vegetarian
+20/12/2024,PA001,London,New York,First Class,473,Yes,1,None
+03/02/2024,PA005,London,Tokyo,Business Class,330,Yes,3,Vegan
+17/08/2024,PA001,London,New York,Premium Economy,522.5,Yes,1,Vegan
+25/08/2024,PA002,New York,London,First Class,370,Yes,1,None
+18/09/2024,PA011,Perth,Tokyo,Business Class,694.8,Yes,0,Dairy Free
+16/02/2024,PA010,Tokyo,New York,First Class,340,Yes,1,None
+01/05/2024,PA005,London,Tokyo,Economy,1810,Yes,0,Dairy Free
+08/09/2024,PA006,Tokyo,London,Economy,1865,Yes,1,Dairy Free
+10/07/2024,PA010,Tokyo,New York,Economy,2920,Yes,3,Vegan
+29/03/2024,PA007,New York,Perth,First Class,698,Yes,3,Vegan
+07/02/2024,PA004,Perth,London,Premium Economy,1045,Yes,0,Egg Free
+11/03/2024,PA010,Tokyo,New York,First Class,561,Yes,0,None
+28/11/2024,PA004,Perth,London,Economy,1220,Yes,3,Egg Free
+12/06/2024,PA001,London,New York,Business Class,328.8,Yes,1,Egg Free
+28/02/2024,PA003,London,Perth,First Class,660,Yes,1,Vegan
+12/11/2024,PA006,Tokyo,London,Business Class,546,Yes,1,Vegan
+28/05/2024,PA007,New York,Perth,First Class,622,Yes,0,Egg Free
+13/04/2024,PA010,Tokyo,New York,First Class,283,Yes,3,Dairy Free
+06/05/2024,PA004,Perth,London,Economy,1905,Yes,0,Nut Free
+11/11/2024,PA011,Perth,Tokyo,Premium Economy,1080,Yes,2,Vegetarian
+21/10/2024,PA008,Perth,New York,Premium Economy,1212.5,Yes,2,Nut Free
+02/12/2024,PA004,Perth,London,Economy,2870,Yes,2,Vegetarian
+15/11/2024,PA001,London,New York,Premium Economy,1590,Yes,3,Vegetarian
+25/10/2024,PA006,Tokyo,London,Business Class,726,Yes,1,Dairy Free
+17/01/2024,PA010,Tokyo,New York,Premium Economy,1417.5,Yes,1,Vegan
+14/04/2024,PA011,Perth,Tokyo,Business Class,249.6,Yes,1,Nut Free
+26/08/2024,PA007,New York,Perth,Business Class,342,Yes,3,Dairy Free
+05/11/2024,PA009,New York,Tokyo,Economy,2825,Yes,3,Vegetarian
+27/04/2024,PA001,London,New York,First Class,633,Yes,0,Egg Free
+10/03/2024,PA010,Tokyo,New York,Premium Economy,1480,Yes,2,None
+28/06/2024,PA002,New York,London,Economy,1890,Yes,1,Vegetarian
+01/05/2024,PA002,New York,London,Business Class,697.2,Yes,1,Dairy Free
+05/04/2024,PA003,London,Perth,First Class,315,Yes,3,Egg Free
+10/11/2024,PA008,Perth,New York,First Class,554,Yes,1,Egg Free
+02/12/2024,PA001,London,New York,First Class,543,Yes,2,Vegetarian
+09/05/2024,PA003,London,Perth,Business Class,796.8,Yes,0,None
+04/08/2024,PA008,Perth,New York,Economy,1740,Yes,1,Dairy Free
+02/07/2024,PA009,New York,Tokyo,Business Class,694.8,Yes,2,Dairy Free
+27/06/2024,PA007,New York,Perth,Premium Economy,720,Yes,2,Vegan
+21/03/2024,PA005,London,Tokyo,Economy,1370,Yes,0,Vegan
+14/04/2024,PA004,Perth,London,Business Class,362.4,Yes,0,Dairy Free
+13/02/2024,PA010,Tokyo,New York,Premium Economy,1647.5,Yes,0,Dairy Free
+28/06/2024,PA001,London,New York,Business Class,550.8,Yes,2,Vegetarian
+26/05/2024,PA006,Tokyo,London,First Class,349,Yes,1,Nut Free
+22/10/2024,PA007,New York,Perth,First Class,458,Yes,0,None
+01/10/2024,PA006,Tokyo,London,Business Class,343.2,Yes,2,Vegetarian
+06/11/2024,PA006,Tokyo,London,Premium Economy,1207.5,Yes,0,None
+22/02/2024,PA008,Perth,New York,First Class,254,Yes,3,Dairy Free
+24/05/2024,PA009,New York,Tokyo,Business Class,514.8,Yes,3,Egg Free
+30/04/2024,PA012,Tokyo,Perth,Premium Economy,1452.5,Yes,0,Vegetarian
+01/02/2024,PA011,Perth,Tokyo,Economy,2425,Yes,2,Nut Free
+25/07/2024,PA009,New York,Tokyo,Premium Economy,750,Yes,0,Vegetarian
+01/11/2024,PA012,Tokyo,Perth,First Class,608,Yes,1,None
+25/11/2024,PA010,Tokyo,New York,Economy,2930,Yes,2,Egg Free
+08/11/2024,PA009,New York,Tokyo,First Class,431,Yes,3,Vegan
+07/02/2024,PA001,London,New York,Business Class,249.6,Yes,0,None
+15/11/2024,PA005,London,Tokyo,First Class,424,Yes,1,Nut Free
+05/11/2024,PA003,London,Perth,First Class,660,Yes,0,Vegan
+29/12/2024,PA010,Tokyo,New York,Business Class,603.6,Yes,3,Egg Free
+11/02/2024,PA007,New York,Perth,Business Class,824.4,Yes,3,Dairy Free
+07/12/2024,PA009,New York,Tokyo,Economy,1615,Yes,1,Vegetarian
+29/10/2024,PA007,New York,Perth,First Class,477,Yes,1,Dairy Free
+22/08/2024,PA003,London,Perth,Economy,2360,Yes,2,Vegetarian
+31/01/2024,PA004,Perth,London,First Class,289,Yes,2,Nut Free
+11/06/2024,PA001,London,New York,Premium Economy,1340,Yes,2,Nut Free
+05/01/2024,PA012,Tokyo,Perth,Business Class,336,Yes,3,Vegetarian
+30/06/2024,PA006,Tokyo,London,Business Class,685.2,Yes,3,Dairy Free
+11/07/2024,PA002,New York,London,Premium Economy,777.5,Yes,3,Vegan
+29/07/2024,PA001,London,New York,First Class,384,Yes,0,Vegan
+13/08/2024,PA010,Tokyo,New York,Business Class,289.2,Yes,1,Vegetarian
+29/07/2024,PA012,Tokyo,Perth,First Class,554,Yes,2,Nut Free
+05/07/2024,PA010,Tokyo,New York,Premium Economy,670,Yes,0,Egg Free
+01/02/2024,PA011,Perth,Tokyo,First Class,623,Yes,2,None
+16/10/2024,PA006,Tokyo,London,Premium Economy,1255,Yes,3,Nut Free
+12/09/2024,PA002,New York,London,Premium Economy,1407.5,Yes,0,Vegetarian
+25/01/2024,PA001,London,New York,Business Class,565.2,Yes,1,Nut Free
+07/09/2024,PA008,Perth,New York,Business Class,698.4,Yes,3,Egg Free
+13/12/2024,PA012,Tokyo,Perth,Premium Economy,1092.5,Yes,2,None
+22/02/2024,PA002,New York,London,Premium Economy,1027.5,Yes,2,None
+15/02/2024,PA005,London,Tokyo,Economy,1800,Yes,0,None
+22/06/2024,PA011,Perth,Tokyo,Economy,2725,Yes,2,Nut Free
+17/03/2024,PA005,London,Tokyo,Economy,2350,Yes,2,Nut Free
+04/03/2024,PA008,Perth,New York,Premium Economy,1215,Yes,0,None
+15/12/2024,PA006,Tokyo,London,Premium Economy,1140,Yes,2,Dairy Free
+02/01/2024,PA010,Tokyo,New York,Business Class,507.6,Yes,2,Egg Free
+13/11/2024,PA011,Perth,Tokyo,First Class,353,Yes,2,Vegetarian
+13/07/2024,PA006,Tokyo,London,Economy,3375,Yes,2,Nut Free
+12/09/2024,PA004,Perth,London,Economy,1645,Yes,0,Vegetarian
+27/02/2024,PA002,New York,London,First Class,325,Yes,0,Vegan
+04/08/2024,PA007,New York,Perth,Economy,2390,Yes,0,None
+05/09/2024,PA001,London,New York,Premium Economy,1202.5,Yes,0,Egg Free
+13/08/2024,PA007,New York,Perth,Premium Economy,815,Yes,0,Nut Free
+04/06/2024,PA009,New York,Tokyo,Premium Economy,1525,Yes,2,None
+18/12/2024,PA012,Tokyo,Perth,Economy,2565,Yes,3,Nut Free
+14/05/2024,PA002,New York,London,Business Class,667.2,Yes,2,Vegan
+29/07/2024,PA003,London,Perth,Premium Economy,615,Yes,1,Nut Free
+03/06/2024,PA007,New York,Perth,First Class,636,Yes,1,Egg Free
+09/02/2024,PA005,London,Tokyo,First Class,519,Yes,2,Vegetarian
+10/03/2024,PA008,Perth,New York,Premium Economy,1737.5,Yes,1,Vegetarian
+27/11/2024,PA011,Perth,Tokyo,First Class,509,Yes,1,Vegetarian
+26/06/2024,PA002,New York,London,First Class,335,Yes,0,Vegan
+07/10/2024,PA002,New York,London,First Class,684,Yes,2,Nut Free
+29/10/2024,PA003,London,Perth,Economy,2720,Yes,3,None
+12/10/2024,PA009,New York,Tokyo,Business Class,478.8,Yes,1,Egg Free
+19/09/2024,PA007,New York,Perth,First Class,231,Yes,2,Nut Free
+20/07/2024,PA010,Tokyo,New York,Business Class,370.8,Yes,3,Egg Free
+21/09/2024,PA004,Perth,London,Business Class,733.2,Yes,3,Egg Free
+02/07/2024,PA002,New York,London,Premium Economy,1142.5,Yes,1,Dairy Free
+17/02/2024,PA007,New York,Perth,First Class,245,Yes,3,Vegetarian
+22/08/2024,PA009,New York,Tokyo,Premium Economy,1090,Yes,1,Nut Free
+03/12/2024,PA004,Perth,London,Premium Economy,1695,Yes,3,Nut Free
+12/12/2024,PA009,New York,Tokyo,Economy,1495,Yes,0,Nut Free
+13/03/2024,PA004,Perth,London,Business Class,835.2,Yes,0,Dairy Free
+05/09/2024,PA012,Tokyo,Perth,Business Class,675.6,Yes,0,Egg Free
+02/08/2024,PA002,New York,London,Premium Economy,1060,Yes,2,Vegan
+10/12/2024,PA010,Tokyo,New York,Economy,1235,Yes,0,Vegan
+20/10/2024,PA005,London,Tokyo,Economy,3175,Yes,0,Vegetarian
+21/06/2024,PA009,New York,Tokyo,Premium Economy,1000,Yes,0,None
+08/10/2024,PA002,New York,London,Business Class,619.2,Yes,3,Egg Free
+14/07/2024,PA007,New York,Perth,Premium Economy,590,Yes,1,Nut Free
+27/09/2024,PA007,New York,Perth,Business Class,459.6,Yes,3,Egg Free
+21/11/2024,PA010,Tokyo,New York,Business Class,518.4,Yes,2,None
+29/01/2024,PA008,Perth,New York,Business Class,831.6,Yes,3,Egg Free
+26/01/2024,PA003,London,Perth,Premium Economy,1485,Yes,0,Dairy Free
+03/04/2024,PA009,New York,Tokyo,Economy,2290,Yes,0,Dairy Free
+15/05/2024,PA011,Perth,Tokyo,First Class,382,Yes,3,Nut Free
+13/11/2024,PA003,London,Perth,Economy,1685,Yes,3,Egg Free
+04/11/2024,PA007,New York,Perth,Economy,2330,Yes,2,None
+25/06/2024,PA012,Tokyo,Perth,Business Class,697.2,Yes,0,Dairy Free
+14/10/2024,PA007,New York,Perth,Premium Economy,802.5,Yes,0,Vegan
+01/02/2024,PA012,Tokyo,Perth,Premium Economy,647.5,Yes,0,Vegetarian
+06/07/2024,PA001,London,New York,Economy,1280,Yes,0,Egg Free
+19/02/2024,PA012,Tokyo,Perth,First Class,340,Yes,0,Nut Free
+11/05/2024,PA011,Perth,Tokyo,Economy,1565,Yes,3,None
+12/04/2024,PA005,London,Tokyo,Economy,2390,Yes,3,Vegetarian
+06/04/2024,PA012,Tokyo,Perth,Business Class,302.4,Yes,3,Egg Free
+07/02/2024,PA009,New York,Tokyo,First Class,345,Yes,1,None
+07/07/2024,PA003,London,Perth,Premium Economy,762.5,Yes,2,Vegetarian
+08/05/2024,PA007,New York,Perth,Premium Economy,1030,Yes,2,Egg Free
+22/07/2024,PA010,Tokyo,New York,First Class,432,Yes,1,Dairy Free
+26/03/2024,PA011,Perth,Tokyo,First Class,348,Yes,3,Vegetarian
+25/03/2024,PA004,Perth,London,First Class,516,Yes,3,None
+05/12/2024,PA005,London,Tokyo,Premium Economy,1690,Yes,0,Vegetarian
+31/10/2024,PA011,Perth,Tokyo,Economy,1170,Yes,1,Nut Free
+25/04/2024,PA006,Tokyo,London,First Class,399,Yes,1,Nut Free
+26/02/2024,PA001,London,New York,Premium Economy,1262.5,Yes,2,Nut Free
+23/04/2024,PA001,London,New York,Premium Economy,552.5,Yes,3,Egg Free
+30/08/2024,PA009,New York,Tokyo,First Class,482,Yes,0,Vegetarian
+27/09/2024,PA001,London,New York,Business Class,831.6,Yes,1,Nut Free
+01/04/2024,PA005,London,Tokyo,First Class,270,Yes,2,Dairy Free
+11/09/2024,PA005,London,Tokyo,Business Class,724.8,Yes,3,Egg Free
+27/12/2024,PA005,London,Tokyo,First Class,602,Yes,1,None
+23/12/2024,PA009,New York,Tokyo,Premium Economy,1030,Yes,0,Vegetarian
+10/07/2024,PA012,Tokyo,Perth,Premium Economy,1592.5,Yes,2,None
+24/07/2024,PA011,Perth,Tokyo,First Class,413,Yes,0,Vegetarian
+29/01/2024,PA006,Tokyo,London,Economy,1095,Yes,2,Vegan
+27/08/2024,PA008,Perth,New York,Premium Economy,1637.5,Yes,0,Egg Free
+21/05/2024,PA010,Tokyo,New York,Premium Economy,667.5,Yes,2,Nut Free
+14/09/2024,PA009,New York,Tokyo,Economy,2875,Yes,1,None
+26/01/2024,PA011,Perth,Tokyo,First Class,216,Yes,2,Vegan
+15/08/2024,PA006,Tokyo,London,Economy,2395,Yes,1,Egg Free
+01/11/2024,PA009,New York,Tokyo,Business Class,373.2,Yes,2,Egg Free
+03/04/2024,PA006,Tokyo,London,Economy,1930,Yes,3,Vegetarian
+09/12/2024,PA002,New York,London,First Class,352,Yes,0,Egg Free
+21/05/2024,PA002,New York,London,Business Class,795.6,Yes,0,Vegan
+02/06/2024,PA011,Perth,Tokyo,Premium Economy,762.5,Yes,2,Vegetarian
+16/10/2024,PA011,Perth,Tokyo,First Class,572,Yes,1,Vegetarian
+04/11/2024,PA001,London,New York,Premium Economy,522.5,Yes,0,Vegan
+19/03/2024,PA009,New York,Tokyo,Premium Economy,1170,Yes,1,None
+02/05/2024,PA002,New York,London,Premium Economy,695,Yes,1,Vegan
+12/12/2024,PA003,London,Perth,Business Class,482.4,Yes,0,None
+28/12/2024,PA007,New York,Perth,Business Class,460.8,Yes,1,None
+21/09/2024,PA002,New York,London,First Class,533,Yes,2,Vegan
+28/10/2024,PA008,Perth,New York,Premium Economy,1342.5,Yes,2,Vegan
+21/12/2024,PA003,London,Perth,Economy,1495,Yes,0,Vegan
+07/04/2024,PA002,New York,London,Business Class,462,Yes,1,Egg Free
+10/01/2024,PA007,New York,Perth,Business Class,406.8,Yes,1,Egg Free
+11/09/2024,PA004,Perth,London,Premium Economy,1132.5,Yes,2,Egg Free
+07/05/2024,PA004,Perth,London,First Class,438,Yes,1,None
+01/05/2024,PA011,Perth,Tokyo,First Class,385,Yes,0,Egg Free
+27/09/2024,PA008,Perth,New York,Premium Economy,1037.5,Yes,3,Nut Free
+17/10/2024,PA007,New York,Perth,Premium Economy,1580,Yes,3,Dairy Free
+07/10/2024,PA012,Tokyo,Perth,Business Class,387.6,Yes,0,None
+21/03/2024,PA004,Perth,London,First Class,260,Yes,0,Vegetarian
+12/11/2024,PA010,Tokyo,New York,Economy,3295,Yes,3,Nut Free
+21/09/2024,PA001,London,New York,First Class,215,Yes,2,None
+29/12/2024,PA002,New York,London,First Class,616,Yes,1,Nut Free
+06/08/2024,PA007,New York,Perth,Business Class,664.8,Yes,0,Dairy Free
+19/09/2024,PA006,Tokyo,London,First Class,468,Yes,0,Vegan
+30/11/2024,PA004,Perth,London,Economy,1200,Yes,2,None
+29/10/2024,PA001,London,New York,Economy,1695,Yes,0,Egg Free
+15/12/2024,PA008,Perth,New York,Premium Economy,1690,Yes,2,Vegan
+18/12/2024,PA010,Tokyo,New York,Economy,1335,Yes,0,Vegan
+22/01/2024,PA012,Tokyo,Perth,Premium Economy,862.5,Yes,0,Dairy Free
+23/06/2024,PA004,Perth,London,Business Class,386.4,Yes,0,Vegan
+04/11/2024,PA007,New York,Perth,Economy,2455,Yes,0,None
+09/10/2024,PA006,Tokyo,London,Business Class,428.4,Yes,3,Egg Free
+24/09/2024,PA002,New York,London,Economy,2690,Yes,0,Egg Free
+01/10/2024,PA002,New York,London,Economy,1120,Yes,1,Dairy Free
+21/11/2024,PA011,Perth,Tokyo,First Class,420,Yes,0,Egg Free
+30/09/2024,PA008,Perth,New York,Premium Economy,1355,Yes,1,None
+09/08/2024,PA006,Tokyo,London,Economy,1515,Yes,3,Nut Free
+20/10/2024,PA005,London,Tokyo,Premium Economy,832.5,Yes,0,Vegetarian
+27/11/2024,PA001,London,New York,Economy,2350,Yes,2,Nut Free
+27/09/2024,PA004,Perth,London,Economy,2825,Yes,3,Vegetarian
+08/12/2024,PA003,London,Perth,Premium Economy,1330,Yes,2,Dairy Free
+07/02/2024,PA009,New York,Tokyo,Business Class,486,Yes,2,Dairy Free
+13/03/2024,PA011,Perth,Tokyo,First Class,610,Yes,1,Vegetarian
+19/01/2024,PA006,Tokyo,London,Premium Economy,1160,Yes,0,Vegan
+12/07/2024,PA012,Tokyo,Perth,Business Class,786,Yes,3,Vegan
+02/05/2024,PA002,New York,London,First Class,392,Yes,2,Vegan
+12/12/2024,PA010,Tokyo,New York,First Class,688,Yes,0,Egg Free
+27/03/2024,PA011,Perth,Tokyo,Premium Economy,1610,Yes,3,Nut Free
+24/06/2024,PA010,Tokyo,New York,Premium Economy,592.5,Yes,0,Dairy Free
+08/02/2024,PA006,Tokyo,London,First Class,272,Yes,2,Nut Free
+20/04/2024,PA011,Perth,Tokyo,Premium Economy,1517.5,Yes,2,Vegan
+27/09/2024,PA002,New York,London,First Class,683,Yes,1,Nut Free
+11/08/2024,PA011,Perth,Tokyo,Business Class,738,Yes,0,Vegan
+04/02/2024,PA011,Perth,Tokyo,Business Class,352.8,Yes,2,Vegetarian
+31/01/2024,PA005,London,Tokyo,Premium Economy,1692.5,Yes,3,None
+21/03/2024,PA010,Tokyo,New York,Business Class,447.6,Yes,1,None
+26/06/2024,PA010,Tokyo,New York,Premium Economy,1630,Yes,2,Dairy Free
+17/09/2024,PA010,Tokyo,New York,Business Class,324,Yes,1,Vegetarian
+26/02/2024,PA002,New York,London,Economy,2560,Yes,3,Dairy Free
+07/12/2024,PA004,Perth,London,Premium Economy,1582.5,Yes,1,Nut Free
+11/06/2024,PA011,Perth,Tokyo,Business Class,480,Yes,2,Egg Free
+05/01/2024,PA009,New York,Tokyo,Economy,1805,Yes,2,Nut Free
+06/08/2024,PA009,New York,Tokyo,Economy,1900,Yes,2,Nut Free
+13/04/2024,PA004,Perth,London,Premium Economy,1340,Yes,2,Nut Free
+20/09/2024,PA006,Tokyo,London,Business Class,463.2,Yes,0,Nut Free
+06/05/2024,PA006,Tokyo,London,Business Class,744,Yes,3,Egg Free
+18/01/2024,PA004,Perth,London,Economy,1410,Yes,0,Dairy Free
+27/01/2024,PA002,New York,London,Economy,3160,Yes,2,Dairy Free
+27/12/2024,PA009,New York,Tokyo,First Class,477,Yes,0,Nut Free
+13/08/2024,PA010,Tokyo,New York,First Class,660,Yes,1,Vegetarian
+12/06/2024,PA008,Perth,New York,Economy,1905,Yes,2,Vegetarian
+01/09/2024,PA012,Tokyo,Perth,Economy,2295,Yes,2,Vegan
+23/10/2024,PA007,New York,Perth,First Class,414,Yes,3,Egg Free
+20/05/2024,PA001,London,New York,Premium Economy,1185,Yes,1,Vegetarian
+17/02/2024,PA008,Perth,New York,Economy,2880,Yes,0,Vegetarian
+29/01/2024,PA002,New York,London,First Class,649,Yes,0,Vegan
+16/08/2024,PA004,Perth,London,Economy,3205,Yes,0,Dairy Free
+04/01/2024,PA002,New York,London,First Class,398,Yes,1,Vegetarian
+06/09/2024,PA002,New York,London,Economy,2940,Yes,0,Egg Free
+08/02/2024,PA002,New York,London,Economy,1315,Yes,0,Egg Free
+01/06/2024,PA001,London,New York,Business Class,751.2,Yes,2,Vegan
+14/05/2024,PA010,Tokyo,New York,First Class,502,Yes,1,Dairy Free
+01/10/2024,PA008,Perth,New York,Premium Economy,860,Yes,3,Egg Free
+20/11/2024,PA005,London,Tokyo,Premium Economy,1007.5,Yes,3,Vegetarian
+02/08/2024,PA001,London,New York,Premium Economy,1502.5,Yes,0,None
+09/06/2024,PA002,New York,London,First Class,530,Yes,3,Egg Free
+03/04/2024,PA003,London,Perth,Economy,1455,Yes,0,Egg Free
+10/05/2024,PA008,Perth,New York,Business Class,720,Yes,0,Egg Free
+23/10/2024,PA003,London,Perth,Business Class,295.2,Yes,0,Egg Free
+29/07/2024,PA012,Tokyo,Perth,Business Class,840,Yes,0,None
+05/07/2024,PA006,Tokyo,London,Business Class,733.2,Yes,2,Nut Free
+23/08/2024,PA009,New York,Tokyo,Premium Economy,945,Yes,1,Egg Free
+18/01/2024,PA004,Perth,London,First Class,476,Yes,0,Dairy Free
+17/08/2024,PA008,Perth,New York,Premium Economy,915,Yes,2,Dairy Free
+28/07/2024,PA012,Tokyo,Perth,First Class,481,Yes,1,Vegetarian
+24/06/2024,PA006,Tokyo,London,Business Class,338.4,Yes,3,Nut Free
+05/10/2024,PA008,Perth,New York,Economy,1345,Yes,3,Nut Free
+09/03/2024,PA010,Tokyo,New York,First Class,500,Yes,3,Vegan
+12/03/2024,PA008,Perth,New York,Economy,1505,Yes,3,Vegan
+22/09/2024,PA011,Perth,Tokyo,Premium Economy,962.5,Yes,0,Dairy Free
+29/05/2024,PA010,Tokyo,New York,First Class,209,Yes,3,Vegan
+27/06/2024,PA008,Perth,New York,Economy,2310,Yes,0,Dairy Free
+19/07/2024,PA001,London,New York,First Class,506,Yes,0,Dairy Free
+02/09/2024,PA007,New York,Perth,Economy,2935,Yes,2,Egg Free
+15/12/2024,PA009,New York,Tokyo,Business Class,721.2,Yes,3,None
+07/09/2024,PA002,New York,London,Business Class,638.4,Yes,2,Egg Free
+14/06/2024,PA012,Tokyo,Perth,First Class,415,Yes,3,Vegan
+30/08/2024,PA011,Perth,Tokyo,Premium Economy,1167.5,Yes,0,Vegetarian
+25/02/2024,PA009,New York,Tokyo,Premium Economy,772.5,Yes,0,None
+23/01/2024,PA007,New York,Perth,Business Class,679.2,Yes,3,Vegan
+25/02/2024,PA005,London,Tokyo,Business Class,523.2,Yes,1,Nut Free
+25/07/2024,PA012,Tokyo,Perth,Business Class,739.2,Yes,0,Vegetarian
+21/01/2024,PA003,London,Perth,First Class,544,Yes,1,Dairy Free
+07/01/2024,PA001,London,New York,Economy,2720,Yes,2,Vegetarian
+30/01/2024,PA010,Tokyo,New York,First Class,599,Yes,2,Nut Free
+15/08/2024,PA009,New York,Tokyo,First Class,618,Yes,3,Nut Free
+23/11/2024,PA005,London,Tokyo,Premium Economy,1220,Yes,1,None
+22/01/2024,PA008,Perth,New York,Business Class,297.6,Yes,0,Nut Free
+12/12/2024,PA009,New York,Tokyo,Economy,2040,Yes,3,None
+29/05/2024,PA003,London,Perth,First Class,388,Yes,2,Vegan
+23/04/2024,PA009,New York,Tokyo,First Class,649,Yes,3,Dairy Free
+10/09/2024,PA012,Tokyo,Perth,Economy,2400,Yes,1,Nut Free
+29/01/2024,PA012,Tokyo,Perth,Premium Economy,1287.5,Yes,0,Vegetarian
+04/06/2024,PA001,London,New York,Economy,1020,Yes,1,Nut Free
+20/06/2024,PA008,Perth,New York,Premium Economy,517.5,Yes,2,Dairy Free
+15/05/2024,PA001,London,New York,Premium Economy,720,Yes,2,Vegetarian
+09/01/2024,PA002,New York,London,Business Class,284.4,Yes,2,None
+26/09/2024,PA011,Perth,Tokyo,Economy,3495,Yes,1,Nut Free
+26/03/2024,PA012,Tokyo,Perth,Premium Economy,1577.5,Yes,0,Vegetarian
+07/01/2024,PA012,Tokyo,Perth,Premium Economy,707.5,Yes,3,Vegetarian
+01/04/2024,PA007,New York,Perth,First Class,307,Yes,1,Dairy Free
+07/09/2024,PA011,Perth,Tokyo,Premium Economy,1557.5,Yes,1,Vegan
+30/08/2024,PA008,Perth,New York,Premium Economy,502.5,Yes,1,Egg Free
+09/12/2024,PA008,Perth,New York,Premium Economy,1690,Yes,3,Nut Free
+24/05/2024,PA012,Tokyo,Perth,Economy,2370,Yes,0,None
+27/07/2024,PA011,Perth,Tokyo,Business Class,343.2,Yes,1,Dairy Free
+17/02/2024,PA002,New York,London,First Class,461,Yes,3,Vegetarian
+17/06/2024,PA004,Perth,London,Economy,1755,Yes,3,Vegetarian
+05/08/2024,PA007,New York,Perth,Economy,2915,Yes,2,Vegetarian
+09/11/2024,PA010,Tokyo,New York,Economy,1855,Yes,3,Dairy Free
+03/06/2024,PA007,New York,Perth,First Class,608,Yes,3,Egg Free
+17/11/2024,PA010,Tokyo,New York,First Class,540,Yes,3,Dairy Free
+25/12/2024,PA006,Tokyo,London,Premium Economy,1185,Yes,0,Vegetarian
+21/10/2024,PA003,London,Perth,First Class,493,Yes,1,Vegan
+24/09/2024,PA001,London,New York,First Class,655,Yes,0,Nut Free
+28/04/2024,PA010,Tokyo,New York,First Class,569,Yes,3,Vegan
+14/08/2024,PA005,London,Tokyo,Premium Economy,1050,Yes,0,Egg Free
+01/10/2024,PA008,Perth,New York,Premium Economy,1487.5,Yes,3,Dairy Free
+28/08/2024,PA008,Perth,New York,First Class,523,Yes,3,Dairy Free
+27/08/2024,PA010,Tokyo,New York,Premium Economy,1475,Yes,1,Vegan
+04/07/2024,PA011,Perth,Tokyo,First Class,433,Yes,2,Egg Free
+22/11/2024,PA011,Perth,Tokyo,Premium Economy,1155,Yes,1,Vegan
+11/10/2024,PA002,New York,London,First Class,344,Yes,2,Vegetarian
+26/07/2024,PA003,London,Perth,Premium Economy,1277.5,Yes,3,None
+27/10/2024,PA010,Tokyo,New York,Economy,3145,Yes,3,Nut Free
+18/09/2024,PA001,London,New York,Business Class,751.2,Yes,1,Nut Free
+06/08/2024,PA007,New York,Perth,First Class,659,Yes,2,Dairy Free
+21/03/2024,PA009,New York,Tokyo,Premium Economy,647.5,Yes,2,Vegetarian
+01/04/2024,PA009,New York,Tokyo,Premium Economy,830,Yes,3,Vegetarian
+30/03/2024,PA001,London,New York,Business Class,806.4,Yes,2,Nut Free
+27/05/2024,PA010,Tokyo,New York,Business Class,703.2,Yes,3,Nut Free
+21/12/2024,PA003,London,Perth,Economy,2585,Yes,1,None
+29/10/2024,PA010,Tokyo,New York,Business Class,410.4,Yes,1,Nut Free
+11/11/2024,PA001,London,New York,Business Class,337.2,Yes,2,Nut Free
+28/03/2024,PA010,Tokyo,New York,Business Class,523.2,Yes,1,Vegetarian
+20/07/2024,PA012,Tokyo,Perth,Business Class,822,Yes,3,Nut Free
+20/06/2024,PA006,Tokyo,London,First Class,300,Yes,0,Vegan
+22/12/2024,PA006,Tokyo,London,Premium Economy,627.5,Yes,1,Egg Free
+10/11/2024,PA006,Tokyo,London,Premium Economy,1390,Yes,3,Vegetarian
+08/08/2024,PA004,Perth,London,Business Class,357.6,Yes,3,Vegan
+09/02/2024,PA001,London,New York,Premium Economy,1167.5,Yes,2,Vegetarian
+14/05/2024,PA006,Tokyo,London,Premium Economy,1350,Yes,2,Egg Free
+10/02/2024,PA001,London,New York,Premium Economy,815,Yes,3,Dairy Free
+20/03/2024,PA006,Tokyo,London,Economy,1860,Yes,2,Dairy Free
+04/04/2024,PA009,New York,Tokyo,Premium Economy,1425,Yes,2,None
+17/12/2024,PA012,Tokyo,Perth,Premium Economy,1440,Yes,1,None
+27/10/2024,PA002,New York,London,Business Class,397.2,Yes,1,Vegetarian
+02/08/2024,PA005,London,Tokyo,Premium Economy,687.5,Yes,2,Egg Free
+06/12/2024,PA001,London,New York,Economy,2635,Yes,1,Nut Free
+05/04/2024,PA005,London,Tokyo,Premium Economy,1552.5,Yes,0,Egg Free
+19/10/2024,PA007,New York,Perth,Economy,2230,Yes,0,Dairy Free
+07/09/2024,PA003,London,Perth,Business Class,446.4,Yes,3,Vegan
+12/07/2024,PA008,Perth,New York,Economy,1165,Yes,3,None
+18/10/2024,PA007,New York,Perth,Business Class,501.6,Yes,0,Nut Free
+02/05/2024,PA003,London,Perth,First Class,668,Yes,2,Dairy Free
+05/07/2024,PA001,London,New York,Economy,2685,Yes,0,Dairy Free
+22/06/2024,PA003,London,Perth,Premium Economy,1162.5,Yes,2,Vegetarian
+28/11/2024,PA009,New York,Tokyo,Business Class,643.2,Yes,1,Vegetarian
+12/06/2024,PA010,Tokyo,New York,First Class,624,Yes,0,None
+20/05/2024,PA008,Perth,New York,First Class,629,Yes,1,Vegan
+21/12/2024,PA009,New York,Tokyo,First Class,381,Yes,1,Dairy Free
+25/01/2024,PA003,London,Perth,Business Class,711.6,Yes,0,Egg Free
+21/05/2024,PA006,Tokyo,London,First Class,617,Yes,2,Nut Free
+23/01/2024,PA001,London,New York,First Class,254,Yes,0,Egg Free
+13/10/2024,PA011,Perth,Tokyo,Business Class,337.2,Yes,3,Vegetarian
+20/12/2024,PA007,New York,Perth,Economy,3045,Yes,1,Dairy Free
+24/09/2024,PA004,Perth,London,Premium Economy,1075,Yes,3,Dairy Free
+06/11/2024,PA010,Tokyo,New York,Business Class,277.2,Yes,2,Egg Free
+29/06/2024,PA009,New York,Tokyo,Economy,2740,Yes,3,Vegan
+01/03/2024,PA007,New York,Perth,Business Class,685.2,Yes,1,Egg Free
+02/09/2024,PA008,Perth,New York,First Class,458,Yes,0,Dairy Free
+08/04/2024,PA010,Tokyo,New York,First Class,223,Yes,0,None
+25/02/2024,PA005,London,Tokyo,Premium Economy,1002.5,Yes,1,Vegan
+28/07/2024,PA007,New York,Perth,Economy,1360,Yes,3,Vegetarian
+27/12/2024,PA012,Tokyo,Perth,Business Class,637.2,Yes,2,Nut Free
+06/05/2024,PA004,Perth,London,Business Class,626.4,Yes,2,Dairy Free
+29/12/2024,PA007,New York,Perth,First Class,607,Yes,0,None
+27/06/2024,PA006,Tokyo,London,Premium Economy,617.5,Yes,0,None
+21/06/2024,PA005,London,Tokyo,Economy,2635,Yes,1,Vegan
+15/02/2024,PA006,Tokyo,London,Economy,3445,Yes,2,Nut Free
+03/10/2024,PA006,Tokyo,London,Economy,2805,Yes,3,Vegan
+04/04/2024,PA012,Tokyo,Perth,Economy,3190,Yes,2,Egg Free
+16/09/2024,PA002,New York,London,Premium Economy,720,Yes,3,Nut Free
+25/04/2024,PA003,London,Perth,Economy,2450,Yes,3,Egg Free
+09/06/2024,PA001,London,New York,Business Class,584.4,Yes,3,None
+14/06/2024,PA009,New York,Tokyo,Premium Economy,695,Yes,2,Nut Free
+14/03/2024,PA002,New York,London,Premium Economy,1360,Yes,3,Dairy Free
+23/06/2024,PA010,Tokyo,New York,Economy,2345,Yes,0,Dairy Free
+13/10/2024,PA010,Tokyo,New York,First Class,615,Yes,3,Egg Free
+24/01/2024,PA007,New York,Perth,Premium Economy,1462.5,Yes,1,Vegetarian
+09/09/2024,PA010,Tokyo,New York,Business Class,540,Yes,2,Vegan
+11/01/2024,PA008,Perth,New York,Business Class,516,Yes,2,Vegan
+10/11/2024,PA010,Tokyo,New York,First Class,595,Yes,3,Dairy Free
+01/12/2024,PA007,New York,Perth,Premium Economy,637.5,Yes,0,Vegetarian
+22/08/2024,PA012,Tokyo,Perth,First Class,605,Yes,3,Vegetarian
+26/11/2024,PA005,London,Tokyo,First Class,316,Yes,3,Dairy Free
+17/02/2024,PA003,London,Perth,First Class,561,Yes,1,Dairy Free
+07/05/2024,PA002,New York,London,Premium Economy,895,Yes,3,Dairy Free
+24/05/2024,PA009,New York,Tokyo,First Class,514,Yes,1,Vegetarian
+09/08/2024,PA008,Perth,New York,Business Class,366,Yes,3,Vegetarian
+28/12/2024,PA012,Tokyo,Perth,Premium Economy,1357.5,Yes,2,Dairy Free
+17/01/2024,PA004,Perth,London,Economy,2120,Yes,0,Nut Free
+02/12/2024,PA006,Tokyo,London,First Class,397,Yes,2,Egg Free
+18/12/2024,PA010,Tokyo,New York,First Class,697,Yes,1,Dairy Free
+21/02/2024,PA004,Perth,London,Business Class,606,Yes,2,Nut Free
+23/04/2024,PA008,Perth,New York,Premium Economy,750,Yes,1,Vegan
+18/04/2024,PA009,New York,Tokyo,Economy,2280,Yes,0,Egg Free
+03/02/2024,PA008,Perth,New York,First Class,682,Yes,2,Vegetarian
+30/06/2024,PA003,London,Perth,Premium Economy,1417.5,Yes,1,Egg Free
+13/04/2024,PA009,New York,Tokyo,Business Class,783.6,Yes,2,Vegan
+27/07/2024,PA009,New York,Tokyo,Economy,2625,Yes,2,None
+16/03/2024,PA011,Perth,Tokyo,First Class,404,Yes,0,Dairy Free
+20/06/2024,PA001,London,New York,Economy,2015,Yes,0,None
+02/03/2024,PA007,New York,Perth,Business Class,475.2,Yes,1,Vegan
+31/05/2024,PA001,London,New York,Business Class,438,Yes,0,Vegetarian
+28/04/2024,PA002,New York,London,Business Class,807.6,Yes,3,Vegetarian
+19/09/2024,PA007,New York,Perth,Economy,2005,Yes,2,Vegetarian
+05/12/2024,PA003,London,Perth,Business Class,360,Yes,0,Vegetarian
+22/09/2024,PA002,New York,London,Premium Economy,900,Yes,1,Egg Free
+25/05/2024,PA003,London,Perth,Business Class,440.4,Yes,1,Vegan
+18/10/2024,PA003,London,Perth,Business Class,446.4,Yes,3,Dairy Free
+14/11/2024,PA010,Tokyo,New York,First Class,415,Yes,3,Egg Free
+15/01/2024,PA008,Perth,New York,Business Class,716.4,Yes,3,Dairy Free
+19/02/2024,PA006,Tokyo,London,Economy,1920,Yes,3,None
+19/04/2024,PA004,Perth,London,Economy,2015,Yes,3,Vegan
+02/05/2024,PA009,New York,Tokyo,Premium Economy,1547.5,Yes,2,Egg Free
+27/10/2024,PA008,Perth,New York,Premium Economy,1015,Yes,2,Vegan
+26/07/2024,PA007,New York,Perth,Premium Economy,747.5,Yes,1,Vegetarian
+07/02/2024,PA003,London,Perth,First Class,378,Yes,2,None
+01/11/2024,PA010,Tokyo,New York,First Class,626,Yes,3,Egg Free
+19/11/2024,PA011,Perth,Tokyo,Economy,2370,Yes,1,None
+25/07/2024,PA002,New York,London,First Class,620,Yes,0,None
+30/10/2024,PA001,London,New York,Business Class,692.4,Yes,3,Vegan
+14/05/2024,PA007,New York,Perth,Business Class,586.8,Yes,3,Nut Free
+20/01/2024,PA002,New York,London,First Class,201,Yes,2,Egg Free
+16/01/2024,PA002,New York,London,First Class,421,Yes,1,Nut Free
+23/05/2024,PA012,Tokyo,Perth,Economy,1780,Yes,1,Vegan
+10/08/2024,PA008,Perth,New York,Premium Economy,1325,Yes,2,None
+09/08/2024,PA002,New York,London,First Class,323,Yes,1,Nut Free
+05/05/2024,PA004,Perth,London,Premium Economy,962.5,Yes,3,Vegan
+23/04/2024,PA003,London,Perth,Premium Economy,1575,Yes,1,None
+20/05/2024,PA002,New York,London,Premium Economy,1660,Yes,2,Nut Free
+14/06/2024,PA004,Perth,London,Premium Economy,1080,Yes,1,Egg Free
+29/01/2024,PA001,London,New York,First Class,251,Yes,3,Dairy Free
+09/10/2024,PA012,Tokyo,Perth,Economy,2285,Yes,1,Nut Free
+02/03/2024,PA012,Tokyo,Perth,Business Class,752.4,Yes,2,Nut Free
+03/08/2024,PA008,Perth,New York,Economy,2255,Yes,3,Dairy Free
+08/08/2024,PA004,Perth,London,Premium Economy,1452.5,Yes,0,Dairy Free
+04/12/2024,PA012,Tokyo,Perth,Premium Economy,1015,Yes,0,Vegan
+01/02/2024,PA004,Perth,London,Economy,2520,Yes,0,Egg Free
+29/05/2024,PA007,New York,Perth,Business Class,439.2,Yes,1,Nut Free
+21/08/2024,PA003,London,Perth,Economy,1220,Yes,3,Vegetarian
+03/03/2024,PA005,London,Tokyo,Economy,1225,Yes,0,None
+22/05/2024,PA003,London,Perth,Economy,3415,Yes,0,Nut Free
+08/08/2024,PA004,Perth,London,First Class,604,Yes,2,Nut Free
+20/12/2024,PA009,New York,Tokyo,Business Class,424.8,Yes,3,Egg Free
+14/06/2024,PA011,Perth,Tokyo,Economy,1545,Yes,1,Nut Free
+08/03/2024,PA009,New York,Tokyo,Economy,2355,Yes,3,Vegan
+19/05/2024,PA004,Perth,London,Premium Economy,1540,Yes,0,None
+21/04/2024,PA009,New York,Tokyo,Premium Economy,1315,Yes,2,Egg Free
+20/11/2024,PA004,Perth,London,Business Class,818.4,Yes,1,Vegan
+10/10/2024,PA007,New York,Perth,Premium Economy,1110,Yes,3,None
+26/09/2024,PA009,New York,Tokyo,Economy,1350,Yes,3,Vegetarian
+13/02/2024,PA005,London,Tokyo,Premium Economy,685,Yes,3,Nut Free
+27/01/2024,PA010,Tokyo,New York,First Class,348,Yes,2,Dairy Free
+17/02/2024,PA001,London,New York,Business Class,397.2,Yes,2,Vegan
+31/01/2024,PA005,London,Tokyo,Business Class,806.4,Yes,2,Nut Free
+13/11/2024,PA006,Tokyo,London,Premium Economy,1440,Yes,0,Vegan
+21/03/2024,PA011,Perth,Tokyo,Premium Economy,502.5,Yes,0,Vegetarian
+07/06/2024,PA008,Perth,New York,Premium Economy,1572.5,Yes,2,Egg Free
+18/07/2024,PA006,Tokyo,London,Economy,1450,Yes,1,Vegan
+06/01/2024,PA003,London,Perth,Business Class,324,Yes,2,Dairy Free
+02/02/2024,PA003,London,Perth,Business Class,578.4,Yes,2,Nut Free
+29/12/2024,PA011,Perth,Tokyo,Business Class,273.6,Yes,3,Egg Free
+23/09/2024,PA009,New York,Tokyo,Business Class,619.2,Yes,3,Vegetarian
+25/02/2024,PA002,New York,London,Premium Economy,725,Yes,1,Vegetarian
+04/04/2024,PA012,Tokyo,Perth,Economy,2420,Yes,2,Vegan
+27/04/2024,PA001,London,New York,Premium Economy,1045,Yes,0,Nut Free
+15/05/2024,PA007,New York,Perth,Premium Economy,850,Yes,2,Vegan
+28/09/2024,PA010,Tokyo,New York,Business Class,396,Yes,3,None
+22/01/2024,PA007,New York,Perth,Economy,1350,Yes,3,Vegan
+18/03/2024,PA004,Perth,London,Premium Economy,702.5,Yes,3,Vegan
+21/07/2024,PA008,Perth,New York,First Class,543,Yes,2,Vegan
+15/07/2024,PA012,Tokyo,Perth,Premium Economy,1422.5,Yes,2,Nut Free
+26/07/2024,PA005,London,Tokyo,First Class,578,Yes,1,Dairy Free
+24/02/2024,PA005,London,Tokyo,Premium Economy,1560,Yes,3,Dairy Free
+02/03/2024,PA012,Tokyo,Perth,Business Class,271.2,Yes,3,Egg Free
+26/12/2024,PA003,London,Perth,Premium Economy,787.5,Yes,2,Vegetarian
+07/04/2024,PA006,Tokyo,London,Economy,2885,Yes,1,Dairy Free
+19/01/2024,PA010,Tokyo,New York,Business Class,728.4,Yes,1,Dairy Free
+29/08/2024,PA008,Perth,New York,First Class,366,Yes,1,None
+12/11/2024,PA002,New York,London,First Class,553,Yes,0,None
+20/04/2024,PA003,London,Perth,Business Class,654,Yes,0,Vegetarian
+14/10/2024,PA007,New York,Perth,Economy,1170,Yes,3,Vegan
+14/09/2024,PA004,Perth,London,Economy,2565,Yes,1,Dairy Free
+19/02/2024,PA010,Tokyo,New York,Premium Economy,1297.5,Yes,2,None
+17/08/2024,PA009,New York,Tokyo,Economy,1125,Yes,0,Vegetarian
+08/10/2024,PA005,London,Tokyo,First Class,239,Yes,3,None
+04/04/2024,PA011,Perth,Tokyo,Premium Economy,1457.5,Yes,0,None
+20/05/2024,PA003,London,Perth,Economy,1935,Yes,0,Vegan
+24/08/2024,PA008,Perth,New York,Business Class,326.4,Yes,3,Dairy Free
+31/05/2024,PA008,Perth,New York,First Class,601,Yes,3,Vegan
+18/02/2024,PA011,Perth,Tokyo,Premium Economy,595,Yes,1,Nut Free
+17/08/2024,PA005,London,Tokyo,Economy,1895,Yes,0,Egg Free
+27/03/2024,PA001,London,New York,Economy,1630,Yes,1,Nut Free
+07/01/2024,PA002,New York,London,Premium Economy,1227.5,Yes,3,Vegan
+09/07/2024,PA001,London,New York,Business Class,351.6,Yes,3,Vegan
+16/01/2024,PA010,Tokyo,New York,Business Class,777.6,Yes,3,Nut Free
+05/09/2024,PA002,New York,London,First Class,267,Yes,3,Dairy Free
+02/01/2024,PA010,Tokyo,New York,Business Class,572.4,Yes,0,Vegan
+16/11/2024,PA011,Perth,Tokyo,Premium Economy,1180,Yes,0,None
+10/02/2024,PA012,Tokyo,Perth,Economy,1745,Yes,2,Vegan
+29/06/2024,PA005,London,Tokyo,First Class,617,Yes,3,Nut Free
+10/03/2024,PA002,New York,London,Premium Economy,725,Yes,1,Vegan
+19/08/2024,PA010,Tokyo,New York,Business Class,452.4,Yes,0,Dairy Free
+14/10/2024,PA010,Tokyo,New York,First Class,331,Yes,2,None
+14/08/2024,PA011,Perth,Tokyo,Economy,1355,Yes,0,Vegetarian
+29/09/2024,PA007,New York,Perth,Economy,3460,Yes,3,None
+21/06/2024,PA005,London,Tokyo,First Class,238,Yes,3,Vegan
+03/01/2024,PA004,Perth,London,First Class,620,Yes,2,None
+30/11/2024,PA004,Perth,London,Economy,3225,Yes,2,None
+30/04/2024,PA001,London,New York,Economy,2925,Yes,2,Vegetarian
+23/11/2024,PA001,London,New York,Business Class,772.8,Yes,3,Dairy Free
+03/07/2024,PA003,London,Perth,Premium Economy,555,Yes,2,Egg Free
+05/11/2024,PA002,New York,London,Premium Economy,1030,Yes,1,Egg Free
+26/06/2024,PA003,London,Perth,Business Class,241.2,Yes,2,Vegetarian
+16/03/2024,PA005,London,Tokyo,Business Class,734.4,Yes,2,Vegan
+06/01/2024,PA001,London,New York,Business Class,727.2,Yes,2,Nut Free
+26/01/2024,PA004,Perth,London,First Class,524,Yes,0,Egg Free
+25/08/2024,PA011,Perth,Tokyo,Economy,2985,Yes,1,Vegetarian
+11/10/2024,PA005,London,Tokyo,Economy,1675,Yes,3,Vegetarian
+30/03/2024,PA012,Tokyo,Perth,Business Class,272.4,Yes,3,None
+06/02/2024,PA002,New York,London,Business Class,589.2,Yes,1,Vegetarian
+01/08/2024,PA006,Tokyo,London,Business Class,789.6,Yes,0,None
+28/12/2024,PA009,New York,Tokyo,Economy,2705,Yes,3,Dairy Free
+06/08/2024,PA012,Tokyo,Perth,Business Class,442.8,Yes,3,Nut Free
+17/11/2024,PA012,Tokyo,Perth,Premium Economy,1585,Yes,1,Vegetarian
+17/08/2024,PA003,London,Perth,Business Class,532.8,Yes,2,Nut Free
+22/09/2024,PA011,Perth,Tokyo,Economy,2035,Yes,0,Vegetarian
+24/10/2024,PA003,London,Perth,Premium Economy,1037.5,Yes,1,Nut Free
+28/11/2024,PA012,Tokyo,Perth,Business Class,588,Yes,2,Nut Free
+20/03/2024,PA003,London,Perth,First Class,303,Yes,0,None
+13/08/2024,PA004,Perth,London,Business Class,606,Yes,2,Dairy Free
+01/03/2024,PA008,Perth,New York,First Class,471,Yes,2,Nut Free
+22/05/2024,PA004,Perth,London,First Class,670,Yes,0,Dairy Free
+29/02/2024,PA008,Perth,New York,Business Class,387.6,Yes,2,Egg Free
+28/05/2024,PA010,Tokyo,New York,Premium Economy,720,Yes,1,None
+16/10/2024,PA001,London,New York,Premium Economy,662.5,Yes,0,Egg Free
+17/12/2024,PA007,New York,Perth,Economy,1295,Yes,1,Vegan
+26/07/2024,PA009,New York,Tokyo,First Class,225,Yes,2,Vegan
+28/12/2024,PA008,Perth,New York,Premium Economy,542.5,Yes,2,None
+20/09/2024,PA005,London,Tokyo,Economy,2355,Yes,3,Egg Free
+02/10/2024,PA006,Tokyo,London,Business Class,706.8,Yes,1,Vegan
+02/04/2024,PA003,London,Perth,First Class,667,Yes,1,Vegan
+09/02/2024,PA010,Tokyo,New York,First Class,680,Yes,1,Egg Free
+03/09/2024,PA009,New York,Tokyo,Business Class,369.6,Yes,2,Nut Free
+31/08/2024,PA011,Perth,Tokyo,First Class,284,Yes,3,Egg Free
+21/01/2024,PA001,London,New York,Business Class,552,Yes,3,Dairy Free
+10/08/2024,PA006,Tokyo,London,First Class,234,Yes,3,Egg Free
+16/12/2024,PA012,Tokyo,Perth,Premium Economy,552.5,Yes,2,Dairy Free
+04/04/2024,PA002,New York,London,Business Class,304.8,Yes,0,Vegan
+13/10/2024,PA009,New York,Tokyo,First Class,410,Yes,0,Dairy Free
+21/11/2024,PA005,London,Tokyo,Economy,1665,Yes,0,Nut Free
+23/06/2024,PA001,London,New York,Premium Economy,582.5,Yes,3,Nut Free
+06/09/2024,PA011,Perth,Tokyo,Premium Economy,710,Yes,1,Vegetarian
+21/02/2024,PA003,London,Perth,Business Class,436.8,Yes,0,Egg Free
+08/10/2024,PA011,Perth,Tokyo,Premium Economy,1360,Yes,1,Dairy Free
+11/11/2024,PA008,Perth,New York,Premium Economy,1332.5,Yes,3,Nut Free
+21/11/2024,PA012,Tokyo,Perth,First Class,555,Yes,0,Nut Free
+08/06/2024,PA009,New York,Tokyo,First Class,589,Yes,0,Vegan
+26/11/2024,PA012,Tokyo,Perth,First Class,495,Yes,1,Dairy Free
+26/05/2024,PA002,New York,London,Economy,3405,Yes,3,Vegetarian
+17/04/2024,PA006,Tokyo,London,Business Class,550.8,Yes,2,Egg Free
+30/08/2024,PA008,Perth,New York,Business Class,602.4,Yes,0,Nut Free
+06/01/2024,PA007,New York,Perth,Premium Economy,1192.5,Yes,3,Egg Free
+04/08/2024,PA007,New York,Perth,Premium Economy,1235,Yes,1,Vegetarian
+28/05/2024,PA006,Tokyo,London,First Class,507,Yes,2,None
+02/04/2024,PA011,Perth,Tokyo,First Class,506,Yes,2,Dairy Free
+09/11/2024,PA001,London,New York,Economy,1370,Yes,2,Vegan
+09/10/2024,PA006,Tokyo,London,First Class,514,Yes,1,None
+18/12/2024,PA010,Tokyo,New York,Business Class,362.4,Yes,3,Egg Free
+31/12/2024,PA001,London,New York,Premium Economy,615,Yes,0,Egg Free
+21/08/2024,PA010,Tokyo,New York,First Class,421,Yes,1,None
+13/06/2024,PA008,Perth,New York,First Class,632,Yes,1,Vegan
+04/12/2024,PA005,London,Tokyo,First Class,256,Yes,0,Egg Free
+03/11/2024,PA012,Tokyo,Perth,Premium Economy,1087.5,Yes,0,Vegetarian
+26/07/2024,PA007,New York,Perth,Business Class,424.8,Yes,1,Egg Free
+29/11/2024,PA007,New York,Perth,Premium Economy,882.5,Yes,0,None
+15/04/2024,PA006,Tokyo,London,Premium Economy,1355,Yes,3,None
+13/12/2024,PA003,London,Perth,Business Class,364.8,Yes,0,Nut Free
+04/11/2024,PA009,New York,Tokyo,Economy,2045,Yes,0,Dairy Free
+20/08/2024,PA009,New York,Tokyo,First Class,505,Yes,3,Vegan
+17/08/2024,PA009,New York,Tokyo,Economy,2525,Yes,3,Nut Free
+23/05/2024,PA011,Perth,Tokyo,Business Class,697.2,Yes,2,Dairy Free
+25/08/2024,PA003,London,Perth,Premium Economy,1207.5,Yes,0,Dairy Free
+08/11/2024,PA009,New York,Tokyo,Premium Economy,670,Yes,2,Vegetarian
+27/01/2024,PA011,Perth,Tokyo,Business Class,289.2,Yes,2,Dairy Free
+07/02/2024,PA004,Perth,London,First Class,583,Yes,2,Egg Free
+29/12/2024,PA002,New York,London,Premium Economy,740,Yes,2,None
+25/09/2024,PA012,Tokyo,Perth,First Class,485,Yes,0,Vegan
+24/04/2024,PA007,New York,Perth,First Class,673,Yes,3,Vegan
+05/12/2024,PA008,Perth,New York,Business Class,734.4,Yes,2,Vegetarian
+11/11/2024,PA004,Perth,London,Economy,3405,Yes,2,Egg Free
+02/12/2024,PA008,Perth,New York,First Class,288,Yes,0,Vegetarian
+14/07/2024,PA005,London,Tokyo,Economy,2290,Yes,1,Egg Free
+10/01/2024,PA002,New York,London,Economy,3305,Yes,0,None
+23/08/2024,PA003,London,Perth,Economy,2455,Yes,1,Dairy Free
+22/02/2024,PA009,New York,Tokyo,Premium Economy,507.5,Yes,1,Nut Free
+28/05/2024,PA007,New York,Perth,First Class,584,Yes,1,Dairy Free
+04/01/2024,PA011,Perth,Tokyo,Business Class,692.4,Yes,1,Vegan
+02/04/2024,PA004,Perth,London,First Class,280,Yes,2,Vegan
+25/09/2024,PA004,Perth,London,Business Class,321.6,Yes,3,None
+30/07/2024,PA001,London,New York,Premium Economy,560,Yes,1,Vegan
+19/12/2024,PA006,Tokyo,London,Business Class,529.2,Yes,3,Vegan
+11/10/2024,PA005,London,Tokyo,First Class,633,Yes,0,None
+16/02/2024,PA010,Tokyo,New York,Business Class,594,Yes,3,Vegan
+15/06/2024,PA009,New York,Tokyo,Business Class,453.6,Yes,1,Egg Free
+20/10/2024,PA003,London,Perth,Business Class,656.4,Yes,1,None
+19/04/2024,PA001,London,New York,Premium Economy,1287.5,Yes,0,Vegan
+07/10/2024,PA010,Tokyo,New York,First Class,583,Yes,3,Dairy Free
+12/12/2024,PA011,Perth,Tokyo,Economy,1165,Yes,3,Vegetarian
+09/12/2024,PA007,New York,Perth,Premium Economy,1170,Yes,2,Egg Free
+13/04/2024,PA009,New York,Tokyo,Economy,2110,Yes,3,Dairy Free
+16/01/2024,PA003,London,Perth,Premium Economy,867.5,Yes,1,Egg Free
+11/03/2024,PA004,Perth,London,Business Class,804,Yes,2,Vegan
+13/06/2024,PA009,New York,Tokyo,First Class,519,Yes,2,Nut Free
+24/10/2024,PA012,Tokyo,Perth,Business Class,700.8,Yes,0,Vegetarian
+31/03/2024,PA001,London,New York,Business Class,553.2,Yes,2,Nut Free
+21/02/2024,PA008,Perth,New York,Premium Economy,1505,Yes,2,Egg Free
+11/10/2024,PA006,Tokyo,London,Business Class,704.4,Yes,2,Vegan
+18/09/2024,PA002,New York,London,First Class,630,Yes,2,None
+25/10/2024,PA004,Perth,London,First Class,313,Yes,3,Egg Free
+15/09/2024,PA005,London,Tokyo,First Class,655,Yes,0,Dairy Free
+19/04/2024,PA002,New York,London,Business Class,423.6,Yes,1,Nut Free
+03/04/2024,PA009,New York,Tokyo,Economy,3340,Yes,3,Egg Free
+02/06/2024,PA007,New York,Perth,Business Class,408,Yes,2,Vegetarian
+10/06/2024,PA010,Tokyo,New York,Premium Economy,1317.5,Yes,3,Nut Free
+08/01/2024,PA012,Tokyo,Perth,Economy,3120,Yes,2,Vegetarian
+25/09/2024,PA003,London,Perth,Premium Economy,572.5,Yes,0,Egg Free
+30/09/2024,PA006,Tokyo,London,Premium Economy,1435,Yes,1,Vegan
+16/09/2024,PA005,London,Tokyo,First Class,233,Yes,3,Nut Free
+29/07/2024,PA008,Perth,New York,Business Class,520.8,Yes,2,Vegetarian
+14/05/2024,PA005,London,Tokyo,First Class,239,Yes,2,Dairy Free
+18/11/2024,PA007,New York,Perth,Premium Economy,600,Yes,1,Vegetarian
+27/05/2024,PA009,New York,Tokyo,Economy,1520,Yes,2,Egg Free
+15/07/2024,PA008,Perth,New York,Business Class,316.8,Yes,0,Nut Free
+16/11/2024,PA009,New York,Tokyo,Economy,2290,Yes,2,Vegetarian
+11/01/2024,PA012,Tokyo,Perth,First Class,269,Yes,1,Nut Free
+12/02/2024,PA011,Perth,Tokyo,Business Class,504,Yes,2,None
+24/02/2024,PA008,Perth,New York,Economy,1500,Yes,1,Vegan
+28/01/2024,PA011,Perth,Tokyo,Business Class,512.4,Yes,1,Nut Free
+08/02/2024,PA009,New York,Tokyo,Premium Economy,585,Yes,2,Vegetarian
+19/07/2024,PA008,Perth,New York,Business Class,463.2,Yes,2,Nut Free
+20/08/2024,PA006,Tokyo,London,Premium Economy,1325,Yes,1,Dairy Free
+19/11/2024,PA007,New York,Perth,Premium Economy,1372.5,Yes,2,None
+22/03/2024,PA005,London,Tokyo,First Class,340,Yes,1,Nut Free
+14/02/2024,PA004,Perth,London,Business Class,678,Yes,0,Nut Free
+20/10/2024,PA004,Perth,London,First Class,616,Yes,3,Egg Free
+08/12/2024,PA002,New York,London,First Class,333,Yes,3,None
+17/04/2024,PA009,New York,Tokyo,Premium Economy,1000,Yes,0,None
+04/02/2024,PA001,London,New York,Premium Economy,537.5,Yes,2,None
+29/01/2024,PA010,Tokyo,New York,First Class,413,Yes,2,Nut Free
+27/04/2024,PA003,London,Perth,Premium Economy,965,Yes,3,Dairy Free
+09/05/2024,PA010,Tokyo,New York,Premium Economy,1725,Yes,0,Vegetarian
+23/12/2024,PA002,New York,London,Premium Economy,1475,Yes,0,None
+15/04/2024,PA004,Perth,London,Premium Economy,1582.5,Yes,0,Vegetarian
+23/12/2024,PA004,Perth,London,Business Class,399.6,Yes,2,Nut Free
+27/08/2024,PA012,Tokyo,Perth,Premium Economy,1312.5,Yes,2,Nut Free
+02/11/2024,PA005,London,Tokyo,Economy,1170,Yes,3,Dairy Free
+21/07/2024,PA007,New York,Perth,Business Class,746.4,Yes,3,Egg Free
+15/08/2024,PA009,New York,Tokyo,Business Class,608.4,Yes,2,Dairy Free
+11/11/2024,PA009,New York,Tokyo,First Class,456,Yes,3,Nut Free
+26/04/2024,PA012,Tokyo,Perth,Premium Economy,1735,Yes,1,Egg Free
+26/04/2024,PA002,New York,London,Business Class,338.4,Yes,3,Nut Free
+19/05/2024,PA005,London,Tokyo,First Class,341,Yes,3,Egg Free
+04/07/2024,PA008,Perth,New York,Business Class,622.8,Yes,2,None
+11/03/2024,PA005,London,Tokyo,Business Class,708,Yes,0,Egg Free
+15/02/2024,PA005,London,Tokyo,Business Class,309.6,Yes,2,Egg Free
+18/04/2024,PA007,New York,Perth,Premium Economy,1282.5,Yes,0,Vegetarian
+27/10/2024,PA010,Tokyo,New York,First Class,695,Yes,2,Egg Free
+24/03/2024,PA004,Perth,London,Economy,1810,Yes,2,None
+30/01/2024,PA007,New York,Perth,Economy,2815,Yes,2,Vegan
+04/11/2024,PA011,Perth,Tokyo,Premium Economy,1145,Yes,0,Nut Free
+03/08/2024,PA005,London,Tokyo,First Class,334,Yes,0,Egg Free
+21/11/2024,PA012,Tokyo,Perth,Economy,1265,Yes,0,Vegan
+12/11/2024,PA009,New York,Tokyo,Premium Economy,652.5,Yes,3,Nut Free
+28/02/2024,PA003,London,Perth,First Class,415,Yes,0,Egg Free
+02/06/2024,PA003,London,Perth,Business Class,711.6,Yes,1,Dairy Free
+09/08/2024,PA012,Tokyo,Perth,Economy,1270,Yes,2,Vegetarian
+16/03/2024,PA007,New York,Perth,Economy,3010,Yes,1,Nut Free
+04/06/2024,PA005,London,Tokyo,Business Class,799.2,Yes,0,Dairy Free
+28/10/2024,PA006,Tokyo,London,Economy,1055,Yes,2,Dairy Free
+09/12/2024,PA007,New York,Perth,Premium Economy,1650,Yes,3,Vegetarian
+18/10/2024,PA006,Tokyo,London,Premium Economy,1722.5,Yes,0,Vegetarian
+27/04/2024,PA006,Tokyo,London,Premium Economy,805,Yes,0,Vegan
+16/05/2024,PA006,Tokyo,London,First Class,307,Yes,1,Dairy Free
+24/04/2024,PA006,Tokyo,London,Premium Economy,855,Yes,3,Vegetarian
+29/01/2024,PA009,New York,Tokyo,Premium Economy,1227.5,Yes,3,Dairy Free
+06/08/2024,PA003,London,Perth,Economy,1715,Yes,0,Egg Free
+11/12/2024,PA012,Tokyo,Perth,Business Class,634.8,Yes,1,Vegetarian
+15/10/2024,PA004,Perth,London,Economy,1405,Yes,3,Vegetarian
+17/09/2024,PA003,London,Perth,Business Class,411.6,Yes,0,Nut Free
+18/11/2024,PA010,Tokyo,New York,Business Class,800.4,Yes,0,Vegetarian
+29/01/2024,PA009,New York,Tokyo,Economy,1995,Yes,0,Egg Free
+25/03/2024,PA011,Perth,Tokyo,First Class,201,Yes,1,Vegan
+22/12/2024,PA002,New York,London,First Class,525,Yes,1,Egg Free
+26/07/2024,PA009,New York,Tokyo,Economy,2685,Yes,2,Vegetarian
+24/08/2024,PA006,Tokyo,London,First Class,303,Yes,3,Dairy Free
+10/01/2024,PA010,Tokyo,New York,Premium Economy,927.5,Yes,1,Egg Free
+06/10/2024,PA003,London,Perth,Premium Economy,1047.5,Yes,3,Egg Free
+22/08/2024,PA012,Tokyo,Perth,Business Class,675.6,Yes,0,Vegetarian
+23/05/2024,PA003,London,Perth,Economy,2815,Yes,1,Dairy Free
+09/02/2024,PA001,London,New York,Economy,2700,Yes,0,None
+13/06/2024,PA006,Tokyo,London,Economy,1945,Yes,1,Vegetarian
+19/09/2024,PA010,Tokyo,New York,Economy,2720,Yes,0,None
+23/03/2024,PA012,Tokyo,Perth,Economy,2015,Yes,3,Dairy Free
+07/11/2024,PA006,Tokyo,London,First Class,215,Yes,3,Dairy Free
+16/05/2024,PA005,London,Tokyo,Business Class,487.2,Yes,1,Nut Free
+15/08/2024,PA003,London,Perth,Business Class,496.8,Yes,1,Egg Free
+12/07/2024,PA007,New York,Perth,First Class,411,Yes,3,None
+17/06/2024,PA001,London,New York,First Class,462,Yes,1,Vegetarian
+17/12/2024,PA010,Tokyo,New York,First Class,224,Yes,2,None
+23/08/2024,PA009,New York,Tokyo,First Class,530,Yes,3,Egg Free
+10/11/2024,PA006,Tokyo,London,Premium Economy,1702.5,Yes,0,Egg Free
+23/04/2024,PA008,Perth,New York,Economy,2630,Yes,3,Egg Free
+05/10/2024,PA006,Tokyo,London,First Class,659,Yes,1,None
+12/04/2024,PA012,Tokyo,Perth,Premium Economy,1222.5,Yes,0,Egg Free
+13/01/2024,PA007,New York,Perth,First Class,571,Yes,3,Dairy Free
+17/06/2024,PA004,Perth,London,Premium Economy,500,Yes,2,Egg Free
+15/05/2024,PA001,London,New York,Business Class,699.6,Yes,1,None
+19/02/2024,PA011,Perth,Tokyo,Economy,2810,Yes,2,Vegetarian
+25/03/2024,PA002,New York,London,Economy,2325,Yes,3,Vegetarian
+21/10/2024,PA001,London,New York,Economy,2000,Yes,0,Nut Free
+16/11/2024,PA004,Perth,London,Economy,1050,Yes,3,Vegetarian
+06/04/2024,PA012,Tokyo,Perth,First Class,235,Yes,2,Vegetarian
+07/06/2024,PA008,Perth,New York,Economy,2740,Yes,0,Vegan
+01/04/2024,PA005,London,Tokyo,Business Class,552,Yes,2,Vegan
+17/12/2024,PA011,Perth,Tokyo,First Class,208,Yes,3,Vegan
+10/06/2024,PA006,Tokyo,London,Premium Economy,1147.5,Yes,3,Vegan
+26/01/2024,PA008,Perth,New York,Economy,2610,Yes,0,None
+17/01/2024,PA012,Tokyo,Perth,Business Class,805.2,Yes,1,None
+04/03/2024,PA001,London,New York,Business Class,697.2,Yes,0,None
+08/08/2024,PA011,Perth,Tokyo,First Class,582,Yes,3,Vegan
+20/07/2024,PA001,London,New York,Economy,2885,Yes,3,Nut Free
+17/06/2024,PA008,Perth,New York,Premium Economy,1185,Yes,3,Nut Free
+21/01/2024,PA009,New York,Tokyo,Business Class,411.6,Yes,3,Dairy Free
+01/03/2024,PA004,Perth,London,First Class,493,Yes,1,Egg Free
+12/05/2024,PA005,London,Tokyo,Premium Economy,1030,Yes,0,Egg Free
+25/12/2024,PA007,New York,Perth,Business Class,386.4,Yes,1,None
+17/04/2024,PA007,New York,Perth,Business Class,355.2,Yes,3,Dairy Free
+17/01/2024,PA005,London,Tokyo,Business Class,537.6,Yes,1,Vegan
+05/04/2024,PA011,Perth,Tokyo,Business Class,763.2,Yes,3,None
+03/07/2024,PA004,Perth,London,Business Class,550.8,Yes,1,Dairy Free
+25/04/2024,PA007,New York,Perth,Business Class,482.4,Yes,1,Egg Free
+24/10/2024,PA011,Perth,Tokyo,Business Class,712.8,Yes,2,Vegan
+31/01/2024,PA012,Tokyo,Perth,First Class,397,Yes,1,Egg Free
+19/02/2024,PA009,New York,Tokyo,Economy,2385,Yes,2,Vegan
+30/10/2024,PA001,London,New York,First Class,287,Yes,2,Vegetarian
+14/01/2024,PA010,Tokyo,New York,Business Class,636,Yes,1,Nut Free
+24/02/2024,PA006,Tokyo,London,Premium Economy,1132.5,Yes,2,Nut Free
+14/08/2024,PA002,New York,London,First Class,429,Yes,3,Nut Free
+15/10/2024,PA012,Tokyo,Perth,Business Class,273.6,Yes,2,Vegan
+19/08/2024,PA008,Perth,New York,Economy,1985,Yes,3,Dairy Free
+04/10/2024,PA006,Tokyo,London,Business Class,357.6,Yes,0,Egg Free
+23/05/2024,PA010,Tokyo,New York,Business Class,492,Yes,3,None
+04/07/2024,PA007,New York,Perth,Premium Economy,1750,Yes,0,Nut Free
+31/01/2024,PA004,Perth,London,Economy,2845,Yes,0,Nut Free
+06/10/2024,PA001,London,New York,Business Class,776.4,Yes,2,Vegan
+15/11/2024,PA012,Tokyo,Perth,Business Class,456,Yes,2,Egg Free
+17/09/2024,PA005,London,Tokyo,Economy,2995,Yes,0,Vegan
+03/01/2024,PA008,Perth,New York,Business Class,558,Yes,2,Dairy Free
+23/10/2024,PA003,London,Perth,Business Class,406.8,Yes,3,Vegan
+30/10/2024,PA008,Perth,New York,Economy,2310,Yes,2,Egg Free
+05/07/2024,PA001,London,New York,Premium Economy,835,Yes,2,Vegetarian
+02/12/2024,PA004,Perth,London,Business Class,482.4,Yes,1,Vegan
+22/02/2024,PA012,Tokyo,Perth,First Class,231,Yes,1,None
+07/12/2024,PA010,Tokyo,New York,Business Class,548.4,Yes,0,Vegetarian
+29/10/2024,PA004,Perth,London,Premium Economy,905,Yes,3,Vegetarian
+20/11/2024,PA006,Tokyo,London,First Class,627,Yes,3,Vegetarian
+01/06/2024,PA011,Perth,Tokyo,Business Class,532.8,Yes,0,Vegetarian
+23/07/2024,PA001,London,New York,First Class,418,Yes,2,Vegan
+07/03/2024,PA002,New York,London,First Class,632,Yes,2,None
+25/07/2024,PA008,Perth,New York,Business Class,766.8,Yes,0,Vegetarian
+14/05/2024,PA011,Perth,Tokyo,First Class,503,Yes,3,Vegan
+08/04/2024,PA006,Tokyo,London,Premium Economy,782.5,Yes,3,None
+06/06/2024,PA007,New York,Perth,Premium Economy,1565,Yes,2,Egg Free
+25/12/2024,PA003,London,Perth,Premium Economy,1225,Yes,2,Vegan
+19/08/2024,PA007,New York,Perth,Economy,3105,Yes,1,None
+06/10/2024,PA008,Perth,New York,Premium Economy,1632.5,Yes,3,Vegan
+28/02/2024,PA011,Perth,Tokyo,Business Class,626.4,Yes,0,Nut Free
+28/09/2024,PA002,New York,London,First Class,521,Yes,3,Dairy Free
+16/02/2024,PA010,Tokyo,New York,Business Class,259.2,Yes,0,Vegetarian
+09/07/2024,PA006,Tokyo,London,First Class,365,Yes,2,Dairy Free
+14/12/2024,PA011,Perth,Tokyo,Premium Economy,1027.5,Yes,2,Dairy Free
+09/05/2024,PA012,Tokyo,Perth,Economy,2225,Yes,3,Nut Free
+12/11/2024,PA003,London,Perth,Premium Economy,1392.5,Yes,0,Nut Free
+12/02/2024,PA006,Tokyo,London,Premium Economy,1075,Yes,0,Egg Free
+11/05/2024,PA003,London,Perth,Economy,2000,Yes,1,Vegetarian
+21/03/2024,PA011,Perth,Tokyo,Economy,1465,Yes,3,Nut Free
+27/08/2024,PA003,London,Perth,First Class,422,Yes,1,Dairy Free
+18/03/2024,PA002,New York,London,Business Class,409.2,Yes,0,None
+01/12/2024,PA004,Perth,London,Premium Economy,1580,Yes,0,Dairy Free
+16/12/2024,PA004,Perth,London,Economy,2770,Yes,0,Dairy Free
+19/04/2024,PA011,Perth,Tokyo,First Class,484,Yes,1,Vegetarian
+25/12/2024,PA006,Tokyo,London,Economy,3350,Yes,0,Nut Free
+12/10/2024,PA008,Perth,New York,First Class,604,Yes,3,Vegetarian
+07/09/2024,PA010,Tokyo,New York,First Class,697,Yes,2,None
+02/10/2024,PA004,Perth,London,Economy,2420,Yes,0,Nut Free
+22/05/2024,PA009,New York,Tokyo,First Class,693,Yes,0,Dairy Free
+03/11/2024,PA008,Perth,New York,Economy,2000,Yes,2,Dairy Free
+08/08/2024,PA002,New York,London,First Class,548,Yes,1,Dairy Free
+17/10/2024,PA007,New York,Perth,Premium Economy,715,Yes,1,None
+04/12/2024,PA004,Perth,London,Business Class,442.8,Yes,2,Nut Free
+04/09/2024,PA009,New York,Tokyo,Business Class,642,Yes,3,None
+09/04/2024,PA005,London,Tokyo,Economy,1350,Yes,1,None
+29/04/2024,PA011,Perth,Tokyo,Economy,2785,Yes,1,Dairy Free
+12/08/2024,PA008,Perth,New York,First Class,310,Yes,3,Dairy Free
+23/05/2024,PA011,Perth,Tokyo,Business Class,302.4,Yes,1,Vegetarian
+04/08/2024,PA010,Tokyo,New York,Economy,3390,Yes,0,None
+21/08/2024,PA004,Perth,London,Premium Economy,1317.5,Yes,3,Dairy Free
+25/04/2024,PA011,Perth,Tokyo,Economy,2135,Yes,0,Dairy Free
+11/03/2024,PA007,New York,Perth,Premium Economy,722.5,Yes,2,Vegetarian
+14/10/2024,PA007,New York,Perth,First Class,219,Yes,0,Vegan
+23/01/2024,PA002,New York,London,Business Class,409.2,Yes,1,Nut Free
+25/05/2024,PA002,New York,London,Premium Economy,795,Yes,3,Egg Free
+15/07/2024,PA002,New York,London,Premium Economy,892.5,Yes,1,Dairy Free
+15/12/2024,PA002,New York,London,Business Class,626.4,Yes,3,Vegetarian
+28/11/2024,PA008,Perth,New York,Business Class,740.4,Yes,2,Vegan
+07/12/2024,PA006,Tokyo,London,First Class,214,Yes,2,None
+10/08/2024,PA005,London,Tokyo,Economy,2530,Yes,2,Egg Free
+01/12/2024,PA010,Tokyo,New York,Premium Economy,942.5,Yes,0,Dairy Free
+26/08/2024,PA009,New York,Tokyo,Economy,1150,Yes,2,None
+02/12/2024,PA005,London,Tokyo,First Class,651,Yes,3,Egg Free
+09/09/2024,PA011,Perth,Tokyo,Premium Economy,847.5,Yes,2,Dairy Free
+02/07/2024,PA001,London,New York,First Class,295,Yes,3,Egg Free
+22/03/2024,PA010,Tokyo,New York,Economy,1985,Yes,0,None
+26/08/2024,PA006,Tokyo,London,First Class,399,Yes,2,Dairy Free
+01/03/2024,PA005,London,Tokyo,Premium Economy,877.5,Yes,3,None
+08/01/2024,PA007,New York,Perth,Premium Economy,1110,Yes,2,Vegetarian
+15/04/2024,PA004,Perth,London,First Class,646,Yes,3,Egg Free
+10/08/2024,PA004,Perth,London,Business Class,435.6,Yes,1,Vegetarian
+25/05/2024,PA002,New York,London,First Class,543,Yes,0,Dairy Free
+05/03/2024,PA003,London,Perth,Premium Economy,1192.5,Yes,1,None
+29/01/2024,PA007,New York,Perth,Premium Economy,1122.5,Yes,3,Egg Free
+18/10/2024,PA009,New York,Tokyo,Economy,2295,Yes,2,Nut Free
+12/12/2024,PA010,Tokyo,New York,First Class,566,Yes,1,Nut Free
+26/06/2024,PA006,Tokyo,London,Business Class,315.6,Yes,3,Vegetarian
+15/08/2024,PA001,London,New York,Business Class,598.8,Yes,1,Nut Free
+21/08/2024,PA001,London,New York,Business Class,249.6,Yes,3,Vegan
+28/01/2024,PA009,New York,Tokyo,Business Class,613.2,Yes,1,Vegan
+20/09/2024,PA003,London,Perth,Premium Economy,920,Yes,1,None
+16/04/2024,PA010,Tokyo,New York,Business Class,280.8,Yes,2,Egg Free
+25/07/2024,PA002,New York,London,First Class,296,Yes,2,Vegan
+17/12/2024,PA010,Tokyo,New York,Premium Economy,1307.5,Yes,1,Egg Free
+02/09/2024,PA011,Perth,Tokyo,Business Class,427.2,Yes,2,Dairy Free
+28/12/2024,PA002,New York,London,First Class,295,Yes,2,None
+31/07/2024,PA002,New York,London,First Class,501,Yes,1,None
+18/08/2024,PA005,London,Tokyo,Business Class,338.4,Yes,0,None
+22/02/2024,PA007,New York,Perth,Economy,2835,Yes,1,Vegan
+19/11/2024,PA006,Tokyo,London,Business Class,330,Yes,2,Nut Free
+12/01/2024,PA007,New York,Perth,Economy,2125,Yes,0,Vegetarian
+29/12/2024,PA004,Perth,London,Business Class,550.8,Yes,0,Nut Free
+04/02/2024,PA001,London,New York,Business Class,828,Yes,0,None
+07/06/2024,PA010,Tokyo,New York,Business Class,674.4,Yes,3,Vegetarian
+19/05/2024,PA002,New York,London,First Class,239,Yes,0,Vegan
+09/01/2024,PA012,Tokyo,Perth,Business Class,507.6,Yes,0,Dairy Free
+23/03/2024,PA002,New York,London,Premium Economy,1625,Yes,0,Nut Free
+20/01/2024,PA002,New York,London,First Class,201,Yes,1,Nut Free
+23/02/2024,PA009,New York,Tokyo,Premium Economy,622.5,Yes,2,Vegetarian
+25/09/2024,PA011,Perth,Tokyo,First Class,457,Yes,3,Nut Free
+09/12/2024,PA010,Tokyo,New York,Premium Economy,1142.5,Yes,2,Vegan
+14/01/2024,PA004,Perth,London,Economy,1020,Yes,0,Nut Free
+08/09/2024,PA001,London,New York,First Class,427,Yes,1,Egg Free
+26/07/2024,PA008,Perth,New York,Premium Economy,1410,Yes,0,Vegetarian
+07/02/2024,PA009,New York,Tokyo,Premium Economy,1397.5,Yes,3,Vegan
+15/07/2024,PA006,Tokyo,London,First Class,531,Yes,3,Egg Free
+31/01/2024,PA010,Tokyo,New York,First Class,387,Yes,3,None
+12/06/2024,PA006,Tokyo,London,Business Class,525.6,Yes,3,Nut Free
+07/03/2024,PA009,New York,Tokyo,Business Class,612,Yes,3,Nut Free
+08/03/2024,PA004,Perth,London,First Class,524,Yes,3,Egg Free
+26/03/2024,PA011,Perth,Tokyo,First Class,529,Yes,0,None
+07/02/2024,PA002,New York,London,Business Class,638.4,Yes,0,Nut Free
+15/06/2024,PA004,Perth,London,First Class,453,Yes,3,Nut Free
+01/09/2024,PA009,New York,Tokyo,First Class,247,Yes,3,Egg Free
+03/04/2024,PA010,Tokyo,New York,Business Class,840,Yes,1,Vegan
+23/02/2024,PA002,New York,London,Business Class,826.8,Yes,1,None
+14/09/2024,PA011,Perth,Tokyo,Premium Economy,1662.5,Yes,0,Nut Free
+10/03/2024,PA008,Perth,New York,Business Class,398.4,Yes,1,Egg Free
+04/03/2024,PA010,Tokyo,New York,First Class,636,Yes,0,Dairy Free
+14/10/2024,PA006,Tokyo,London,Premium Economy,505,Yes,3,Vegetarian
+04/05/2024,PA012,Tokyo,Perth,First Class,440,Yes,3,Egg Free
+22/07/2024,PA005,London,Tokyo,Business Class,246,Yes,1,Dairy Free
+16/07/2024,PA011,Perth,Tokyo,Business Class,649.2,Yes,1,Nut Free
+21/08/2024,PA004,Perth,London,Economy,1675,Yes,0,Vegetarian
+31/08/2024,PA011,Perth,Tokyo,Economy,3465,Yes,3,Dairy Free
+03/01/2024,PA010,Tokyo,New York,Premium Economy,1490,Yes,3,Vegetarian
+25/07/2024,PA009,New York,Tokyo,First Class,272,Yes,3,Dairy Free
+08/09/2024,PA007,New York,Perth,Economy,1450,Yes,1,Dairy Free
+08/01/2024,PA012,Tokyo,Perth,Business Class,679.2,Yes,3,Vegan
+23/06/2024,PA010,Tokyo,New York,Economy,3490,Yes,2,None
+13/08/2024,PA004,Perth,London,Business Class,585.6,Yes,0,Nut Free
+02/01/2024,PA012,Tokyo,Perth,First Class,580,Yes,1,Vegetarian
+09/01/2024,PA008,Perth,New York,Premium Economy,527.5,Yes,1,Vegetarian
+28/03/2024,PA001,London,New York,Economy,1915,Yes,2,Dairy Free
+13/10/2024,PA006,Tokyo,London,Business Class,609.6,Yes,1,Nut Free
+07/01/2024,PA010,Tokyo,New York,First Class,467,Yes,2,Dairy Free
+25/03/2024,PA004,Perth,London,First Class,474,Yes,0,Vegan
+11/09/2024,PA003,London,Perth,Business Class,595.2,Yes,3,Egg Free
+26/05/2024,PA002,New York,London,Premium Economy,575,Yes,3,None
+19/04/2024,PA003,London,Perth,Premium Economy,682.5,Yes,1,None
+06/05/2024,PA005,London,Tokyo,Premium Economy,1207.5,Yes,2,Egg Free
+06/12/2024,PA006,Tokyo,London,First Class,292,Yes,1,Dairy Free
+08/07/2024,PA005,London,Tokyo,Premium Economy,887.5,Yes,3,Nut Free
+20/01/2024,PA008,Perth,New York,Business Class,724.8,Yes,2,Vegan
+12/04/2024,PA009,New York,Tokyo,Premium Economy,1705,Yes,0,Egg Free
+29/06/2024,PA006,Tokyo,London,First Class,593,Yes,1,None
+27/02/2024,PA007,New York,Perth,Economy,1665,Yes,0,Vegetarian
+13/03/2024,PA012,Tokyo,Perth,Premium Economy,1297.5,Yes,3,None
+03/12/2024,PA011,Perth,Tokyo,Economy,1540,Yes,1,Vegan
+15/10/2024,PA007,New York,Perth,Economy,2135,Yes,0,Vegan
+30/04/2024,PA009,New York,Tokyo,Premium Economy,660,Yes,3,Egg Free
+30/05/2024,PA001,London,New York,Economy,3425,Yes,2,Vegan
+04/08/2024,PA011,Perth,Tokyo,Premium Economy,1107.5,Yes,2,Nut Free
+10/09/2024,PA003,London,Perth,First Class,653,Yes,1,Nut Free
+16/06/2024,PA008,Perth,New York,Premium Economy,1525,Yes,1,Vegetarian
+26/01/2024,PA001,London,New York,Economy,1770,Yes,0,Egg Free
+12/09/2024,PA004,Perth,London,First Class,457,Yes,0,Nut Free
+24/07/2024,PA004,Perth,London,Economy,3350,Yes,0,None
+17/10/2024,PA003,London,Perth,First Class,351,Yes,2,Vegetarian
+18/09/2024,PA012,Tokyo,Perth,Business Class,588,Yes,1,None
+10/11/2024,PA008,Perth,New York,Premium Economy,515,Yes,1,Vegetarian
+16/07/2024,PA009,New York,Tokyo,Economy,2795,Yes,1,Dairy Free
+25/04/2024,PA009,New York,Tokyo,Business Class,658.8,Yes,2,Nut Free
+17/07/2024,PA006,Tokyo,London,Business Class,447.6,Yes,2,Egg Free
+27/06/2024,PA002,New York,London,Business Class,508.8,Yes,0,Dairy Free
+05/01/2024,PA007,New York,Perth,Premium Economy,1220,Yes,2,Dairy Free
+03/05/2024,PA006,Tokyo,London,First Class,414,Yes,1,Vegan
+09/05/2024,PA001,London,New York,First Class,355,Yes,1,Egg Free
+11/01/2024,PA003,London,Perth,Economy,3410,Yes,0,Egg Free
+22/04/2024,PA011,Perth,Tokyo,Premium Economy,1737.5,Yes,1,Vegetarian
+07/06/2024,PA007,New York,Perth,Business Class,319.2,Yes,3,Dairy Free
+28/02/2024,PA006,Tokyo,London,Business Class,687.6,Yes,1,Nut Free
+13/08/2024,PA007,New York,Perth,First Class,525,Yes,2,Egg Free
+16/09/2024,PA004,Perth,London,Business Class,807.6,Yes,3,Dairy Free
+24/10/2024,PA009,New York,Tokyo,Economy,1375,Yes,0,None
+10/06/2024,PA006,Tokyo,London,Economy,2095,Yes,2,Egg Free
+22/11/2024,PA008,Perth,New York,Business Class,577.2,Yes,1,Nut Free
+21/12/2024,PA007,New York,Perth,Business Class,446.4,Yes,2,Vegetarian
+15/06/2024,PA003,London,Perth,Premium Economy,935,Yes,3,Nut Free
+09/10/2024,PA011,Perth,Tokyo,First Class,451,Yes,3,Vegetarian
+21/05/2024,PA010,Tokyo,New York,Business Class,435.6,Yes,0,Egg Free
+19/06/2024,PA003,London,Perth,Premium Economy,692.5,Yes,1,None
+14/08/2024,PA009,New York,Tokyo,Premium Economy,1565,Yes,1,Vegan
+30/09/2024,PA004,Perth,London,Economy,2760,Yes,3,Nut Free
+16/04/2024,PA011,Perth,Tokyo,Economy,2995,Yes,3,Vegan
+01/09/2024,PA007,New York,Perth,First Class,206,Yes,0,Nut Free
+18/08/2024,PA004,Perth,London,Economy,2195,Yes,3,Egg Free
+10/11/2024,PA011,Perth,Tokyo,Premium Economy,1707.5,Yes,3,Nut Free
+24/11/2024,PA001,London,New York,First Class,534,Yes,2,Dairy Free
+23/01/2024,PA003,London,Perth,Economy,3225,Yes,0,Nut Free
+16/02/2024,PA002,New York,London,Economy,2075,Yes,3,Nut Free
+01/05/2024,PA006,Tokyo,London,Business Class,510,Yes,3,Nut Free
+03/04/2024,PA007,New York,Perth,Business Class,829.2,Yes,0,Egg Free
+21/04/2024,PA003,London,Perth,First Class,215,Yes,0,Egg Free
+04/04/2024,PA008,Perth,New York,Business Class,837.6,Yes,2,Vegetarian
+19/11/2024,PA005,London,Tokyo,Business Class,432,Yes,0,Dairy Free
+29/07/2024,PA004,Perth,London,Economy,2700,Yes,3,None
+18/01/2024,PA009,New York,Tokyo,First Class,301,Yes,0,Vegetarian
+12/11/2024,PA008,Perth,New York,Business Class,627.6,Yes,3,Egg Free
+11/11/2024,PA008,Perth,New York,Premium Economy,590,Yes,1,Vegan
+30/05/2024,PA008,Perth,New York,Premium Economy,547.5,Yes,0,Egg Free
+31/03/2024,PA008,Perth,New York,Premium Economy,1415,Yes,2,Vegetarian
+02/08/2024,PA002,New York,London,Premium Economy,510,Yes,1,Dairy Free
+18/07/2024,PA010,Tokyo,New York,Premium Economy,1672.5,Yes,0,None
+10/05/2024,PA002,New York,London,Premium Economy,832.5,Yes,0,Dairy Free
+13/10/2024,PA003,London,Perth,Business Class,300,Yes,0,Nut Free
+13/11/2024,PA006,Tokyo,London,Business Class,385.2,Yes,2,Vegan
+07/05/2024,PA007,New York,Perth,Business Class,520.8,Yes,3,Vegetarian
+11/05/2024,PA011,Perth,Tokyo,First Class,417,Yes,0,Dairy Free
+14/05/2024,PA006,Tokyo,London,Premium Economy,720,Yes,3,Egg Free
+31/10/2024,PA008,Perth,New York,First Class,215,Yes,1,Nut Free
+15/07/2024,PA004,Perth,London,First Class,344,Yes,3,Vegan
+10/09/2024,PA002,New York,London,Economy,2825,Yes,2,Nut Free
+10/07/2024,PA004,Perth,London,Premium Economy,1230,Yes,1,Nut Free
+22/12/2024,PA010,Tokyo,New York,Premium Economy,1710,Yes,3,Nut Free
+31/08/2024,PA008,Perth,New York,Economy,1975,Yes,2,Vegetarian
+07/06/2024,PA008,Perth,New York,Business Class,672,Yes,1,Nut Free
+05/09/2024,PA002,New York,London,Premium Economy,1507.5,Yes,3,Dairy Free
+06/11/2024,PA005,London,Tokyo,Premium Economy,1380,Yes,1,Egg Free
+06/12/2024,PA005,London,Tokyo,First Class,213,Yes,3,Vegan
+02/10/2024,PA001,London,New York,Premium Economy,1687.5,Yes,0,Vegetarian
+07/03/2024,PA006,Tokyo,London,Premium Economy,735,Yes,0,Nut Free
+24/03/2024,PA010,Tokyo,New York,Premium Economy,1385,Yes,1,Nut Free
+23/06/2024,PA008,Perth,New York,Premium Economy,1180,Yes,2,Dairy Free
+03/10/2024,PA004,Perth,London,First Class,320,Yes,3,Dairy Free
+23/02/2024,PA003,London,Perth,Business Class,270,Yes,1,None
+06/05/2024,PA011,Perth,Tokyo,First Class,425,Yes,3,Nut Free
+09/10/2024,PA007,New York,Perth,First Class,205,Yes,0,Vegan
+04/07/2024,PA001,London,New York,Premium Economy,1612.5,Yes,2,None
+14/11/2024,PA002,New York,London,Economy,3305,Yes,1,Dairy Free
+19/09/2024,PA010,Tokyo,New York,Business Class,531.6,Yes,2,Nut Free
+19/06/2024,PA012,Tokyo,Perth,Business Class,273.6,Yes,2,Egg Free
+28/05/2024,PA003,London,Perth,Business Class,469.2,Yes,2,Vegan
+14/03/2024,PA005,London,Tokyo,Business Class,332.4,Yes,3,Nut Free
+25/08/2024,PA006,Tokyo,London,Premium Economy,547.5,Yes,2,Egg Free
+08/01/2024,PA011,Perth,Tokyo,Business Class,840,Yes,2,Dairy Free
+11/08/2024,PA011,Perth,Tokyo,First Class,481,Yes,3,None
+23/01/2024,PA001,London,New York,First Class,520,Yes,0,Dairy Free
+08/04/2024,PA010,Tokyo,New York,Business Class,511.2,Yes,3,Dairy Free
+21/03/2024,PA004,Perth,London,First Class,332,Yes,3,None
+03/05/2024,PA005,London,Tokyo,Premium Economy,510,Yes,2,None
+20/06/2024,PA002,New York,London,First Class,420,Yes,0,Egg Free
+12/04/2024,PA002,New York,London,Economy,2060,Yes,2,Egg Free
+01/05/2024,PA008,Perth,New York,Premium Economy,727.5,Yes,3,Vegan
+22/01/2024,PA011,Perth,Tokyo,Economy,2105,Yes,3,Nut Free
+31/03/2024,PA008,Perth,New York,Premium Economy,570,Yes,1,Nut Free
+18/02/2024,PA012,Tokyo,Perth,Business Class,555.6,Yes,0,Egg Free
+12/07/2024,PA009,New York,Tokyo,Economy,1230,Yes,3,Vegan
+18/11/2024,PA011,Perth,Tokyo,First Class,372,Yes,3,Egg Free
+10/11/2024,PA006,Tokyo,London,First Class,640,Yes,0,None
+13/03/2024,PA011,Perth,Tokyo,Economy,3465,Yes,3,Vegan
+03/09/2024,PA003,London,Perth,Premium Economy,937.5,Yes,3,Vegan
+10/06/2024,PA002,New York,London,First Class,246,Yes,3,Nut Free
+26/06/2024,PA010,Tokyo,New York,Economy,2270,Yes,2,Dairy Free
+25/09/2024,PA005,London,Tokyo,First Class,561,Yes,0,Vegetarian
+22/12/2024,PA011,Perth,Tokyo,Premium Economy,1365,Yes,1,Dairy Free
+01/08/2024,PA012,Tokyo,Perth,Premium Economy,1122.5,Yes,3,Vegetarian
+05/11/2024,PA011,Perth,Tokyo,Economy,2210,Yes,2,None
+18/12/2024,PA008,Perth,New York,Economy,1075,Yes,1,Egg Free
+11/12/2024,PA002,New York,London,First Class,216,Yes,2,None
+09/04/2024,PA001,London,New York,Economy,3150,Yes,1,Vegan
+12/01/2024,PA006,Tokyo,London,Premium Economy,607.5,Yes,3,Vegetarian
+01/06/2024,PA009,New York,Tokyo,Business Class,374.4,Yes,1,Dairy Free
+08/04/2024,PA001,London,New York,Business Class,742.8,Yes,1,None
+02/05/2024,PA002,New York,London,First Class,694,Yes,2,None
+09/06/2024,PA007,New York,Perth,Business Class,498,Yes,3,Egg Free
+03/10/2024,PA005,London,Tokyo,First Class,435,Yes,0,None
+12/05/2024,PA005,London,Tokyo,Economy,2025,Yes,0,Nut Free
+23/07/2024,PA009,New York,Tokyo,Premium Economy,957.5,Yes,3,Egg Free
+30/07/2024,PA006,Tokyo,London,Economy,1235,Yes,1,Nut Free
+19/04/2024,PA007,New York,Perth,Economy,3385,Yes,3,Vegan
+04/02/2024,PA004,Perth,London,Business Class,440.4,Yes,1,Vegan
+04/11/2024,PA010,Tokyo,New York,Business Class,324,Yes,1,None
+31/12/2024,PA011,Perth,Tokyo,First Class,646,Yes,0,Dairy Free
+08/04/2024,PA007,New York,Perth,Business Class,366,Yes,0,Vegetarian
+31/01/2024,PA009,New York,Tokyo,First Class,536,Yes,3,Dairy Free
+24/12/2024,PA008,Perth,New York,First Class,407,Yes,2,Vegetarian
+12/11/2024,PA002,New York,London,Premium Economy,822.5,Yes,2,Nut Free
+18/12/2024,PA005,London,Tokyo,Economy,2165,Yes,3,None
+16/03/2024,PA007,New York,Perth,Business Class,426,Yes,1,Egg Free
+04/06/2024,PA005,London,Tokyo,Premium Economy,1517.5,Yes,3,Nut Free
+20/10/2024,PA004,Perth,London,Business Class,697.2,Yes,2,Vegan
+14/02/2024,PA007,New York,Perth,First Class,311,Yes,3,Vegetarian
+24/12/2024,PA004,Perth,London,Business Class,454.8,Yes,3,Vegan
+10/06/2024,PA009,New York,Tokyo,First Class,259,Yes,3,Vegetarian
+05/11/2024,PA011,Perth,Tokyo,Business Class,606,Yes,2,Egg Free
+03/11/2024,PA008,Perth,New York,Premium Economy,1257.5,Yes,1,Dairy Free
+15/07/2024,PA003,London,Perth,Premium Economy,527.5,Yes,0,None
+05/04/2024,PA003,London,Perth,Economy,3165,Yes,2,Nut Free
+29/07/2024,PA011,Perth,Tokyo,First Class,343,Yes,2,Vegan
+05/03/2024,PA005,London,Tokyo,Business Class,654,Yes,2,Egg Free
+26/03/2024,PA005,London,Tokyo,First Class,444,Yes,1,Vegan
+24/05/2024,PA012,Tokyo,Perth,Business Class,302.4,Yes,3,None
+02/12/2024,PA012,Tokyo,Perth,Business Class,664.8,Yes,0,Dairy Free
+13/01/2024,PA006,Tokyo,London,First Class,494,Yes,3,Nut Free
+31/03/2024,PA012,Tokyo,Perth,First Class,639,Yes,1,None
+11/01/2024,PA010,Tokyo,New York,Business Class,562.8,Yes,1,Egg Free
+13/09/2024,PA012,Tokyo,Perth,Economy,3345,Yes,2,Vegetarian
+03/04/2024,PA004,Perth,London,Premium Economy,895,Yes,1,Vegan
+29/04/2024,PA005,London,Tokyo,Economy,1105,Yes,2,Vegan
+13/01/2024,PA008,Perth,New York,Business Class,651.6,Yes,1,None
+06/03/2024,PA006,Tokyo,London,Premium Economy,822.5,Yes,1,Egg Free
+23/03/2024,PA001,London,New York,Premium Economy,1375,Yes,0,Egg Free
+28/04/2024,PA004,Perth,London,Business Class,667.2,Yes,2,None
+21/07/2024,PA009,New York,Tokyo,First Class,563,Yes,1,Vegan
+15/06/2024,PA012,Tokyo,Perth,Economy,1340,Yes,3,Vegetarian
+25/05/2024,PA004,Perth,London,First Class,684,Yes,0,Vegan
+02/03/2024,PA004,Perth,London,Business Class,715.2,Yes,2,None
+31/12/2024,PA011,Perth,Tokyo,Economy,1090,Yes,0,Vegan
+23/06/2024,PA006,Tokyo,London,Business Class,608.4,Yes,0,None
+17/05/2024,PA005,London,Tokyo,Business Class,307.2,Yes,2,Dairy Free
+12/08/2024,PA010,Tokyo,New York,Premium Economy,1312.5,Yes,2,Vegan
+18/04/2024,PA004,Perth,London,Economy,2520,Yes,3,Vegan
+03/10/2024,PA007,New York,Perth,Economy,3420,Yes,2,None
+25/02/2024,PA011,Perth,Tokyo,Premium Economy,1560,Yes,2,Vegetarian
+02/06/2024,PA001,London,New York,Premium Economy,1052.5,Yes,1,Egg Free
+04/12/2024,PA005,London,Tokyo,First Class,350,Yes,0,Vegan
+27/04/2024,PA005,London,Tokyo,Economy,2095,Yes,3,Dairy Free
+13/01/2024,PA007,New York,Perth,Economy,2450,Yes,0,Egg Free
+19/07/2024,PA002,New York,London,First Class,523,Yes,0,Egg Free
+03/10/2024,PA006,Tokyo,London,Business Class,361.2,Yes,3,Nut Free
+02/02/2024,PA008,Perth,New York,Premium Economy,1387.5,Yes,3,Egg Free
+16/12/2024,PA008,Perth,New York,First Class,441,Yes,1,Vegetarian
+22/12/2024,PA001,London,New York,Economy,2325,Yes,1,Egg Free
+08/04/2024,PA009,New York,Tokyo,Economy,2930,Yes,0,Vegetarian
+08/04/2024,PA004,Perth,London,Economy,2405,Yes,3,Nut Free
+25/05/2024,PA003,London,Perth,First Class,660,Yes,0,Nut Free
+29/09/2024,PA007,New York,Perth,Business Class,806.4,Yes,2,None
+20/02/2024,PA005,London,Tokyo,Economy,2645,Yes,0,Nut Free
+30/12/2024,PA003,London,Perth,First Class,488,Yes,0,Vegetarian
+15/09/2024,PA007,New York,Perth,Business Class,740.4,Yes,1,Vegetarian
+27/03/2024,PA008,Perth,New York,Business Class,699.6,Yes,2,Vegetarian
+13/09/2024,PA005,London,Tokyo,Business Class,454.8,Yes,2,Egg Free
+27/07/2024,PA006,Tokyo,London,First Class,389,Yes,2,Vegetarian
+25/10/2024,PA012,Tokyo,Perth,Business Class,633.6,Yes,3,Vegetarian
+14/08/2024,PA006,Tokyo,London,Business Class,818.4,Yes,3,Vegetarian
+22/05/2024,PA009,New York,Tokyo,Business Class,712.8,Yes,1,Dairy Free
+22/06/2024,PA002,New York,London,Economy,3160,Yes,2,Nut Free
+14/03/2024,PA009,New York,Tokyo,First Class,297,Yes,0,Vegan
+01/12/2024,PA002,New York,London,Business Class,621.6,Yes,1,Vegetarian
+29/11/2024,PA009,New York,Tokyo,Economy,1630,Yes,3,Dairy Free
+22/03/2024,PA004,Perth,London,Economy,3250,Yes,1,Nut Free
+27/06/2024,PA004,Perth,London,First Class,206,Yes,3,Nut Free
+13/10/2024,PA012,Tokyo,Perth,Business Class,820.8,Yes,1,None
+08/12/2024,PA011,Perth,Tokyo,Premium Economy,1335,Yes,1,Dairy Free
+11/02/2024,PA008,Perth,New York,First Class,681,Yes,3,Dairy Free
+03/12/2024,PA010,Tokyo,New York,Business Class,782.4,Yes,2,Dairy Free
+21/12/2024,PA012,Tokyo,Perth,First Class,475,Yes,1,Egg Free
+27/06/2024,PA010,Tokyo,New York,Business Class,270,Yes,0,Nut Free
+22/11/2024,PA010,Tokyo,New York,Premium Economy,1075,Yes,2,None
+03/05/2024,PA003,London,Perth,Premium Economy,1365,Yes,2,Nut Free
+06/05/2024,PA011,Perth,Tokyo,First Class,299,Yes,0,Dairy Free
+10/01/2024,PA003,London,Perth,Premium Economy,1692.5,Yes,0,Dairy Free
+05/04/2024,PA012,Tokyo,Perth,Premium Economy,832.5,Yes,1,None
+26/04/2024,PA010,Tokyo,New York,First Class,235,Yes,1,None
+25/01/2024,PA006,Tokyo,London,First Class,247,Yes,2,Dairy Free
+14/10/2024,PA009,New York,Tokyo,Premium Economy,905,Yes,0,None
+22/03/2024,PA010,Tokyo,New York,Economy,2545,Yes,0,Vegan
+16/12/2024,PA002,New York,London,First Class,205,Yes,2,Vegetarian
+18/10/2024,PA001,London,New York,Business Class,784.8,Yes,2,Nut Free
+15/07/2024,PA006,Tokyo,London,Business Class,588,Yes,2,Egg Free
+07/02/2024,PA009,New York,Tokyo,Economy,2460,Yes,0,Egg Free
+15/12/2024,PA006,Tokyo,London,Business Class,704.4,Yes,2,Nut Free
+30/03/2024,PA001,London,New York,Business Class,310.8,Yes,3,Vegan
+14/08/2024,PA008,Perth,New York,Economy,1085,Yes,2,Vegan
+30/01/2024,PA007,New York,Perth,Economy,2970,Yes,2,Vegetarian
+28/01/2024,PA009,New York,Tokyo,Premium Economy,1290,Yes,2,Vegetarian
+24/08/2024,PA008,Perth,New York,Premium Economy,707.5,Yes,3,Vegan
+18/03/2024,PA008,Perth,New York,Business Class,548.4,Yes,3,Egg Free
+05/04/2024,PA001,London,New York,Business Class,420,Yes,1,Vegetarian
+05/09/2024,PA001,London,New York,First Class,404,Yes,3,Vegan
+28/07/2024,PA004,Perth,London,Business Class,625.2,Yes,3,Dairy Free
+08/07/2024,PA009,New York,Tokyo,Business Class,462,Yes,2,Vegetarian
+07/08/2024,PA006,Tokyo,London,Business Class,405.6,Yes,0,Nut Free
+18/03/2024,PA001,London,New York,Business Class,505.2,Yes,0,Nut Free
+19/05/2024,PA006,Tokyo,London,Premium Economy,902.5,Yes,3,None
+15/01/2024,PA001,London,New York,Business Class,286.8,Yes,2,Vegetarian
+16/04/2024,PA001,London,New York,First Class,268,Yes,1,Dairy Free
+17/09/2024,PA007,New York,Perth,Premium Economy,835,Yes,0,None
+27/08/2024,PA007,New York,Perth,First Class,314,Yes,3,Egg Free
+26/10/2024,PA001,London,New York,Business Class,649.2,Yes,1,Vegan
+18/06/2024,PA006,Tokyo,London,Economy,3260,Yes,1,Vegan
+06/07/2024,PA003,London,Perth,First Class,546,Yes,2,Vegan
+25/05/2024,PA004,Perth,London,Premium Economy,1245,Yes,0,Nut Free
+24/10/2024,PA010,Tokyo,New York,First Class,410,Yes,0,Dairy Free
+14/08/2024,PA005,London,Tokyo,Economy,2985,Yes,0,Dairy Free
+07/08/2024,PA011,Perth,Tokyo,Premium Economy,910,Yes,2,Vegetarian
+25/05/2024,PA012,Tokyo,Perth,First Class,304,Yes,2,None
+31/01/2024,PA003,London,Perth,Premium Economy,1122.5,Yes,3,Vegan
+02/03/2024,PA003,London,Perth,Premium Economy,1457.5,Yes,2,Vegan
+29/05/2024,PA005,London,Tokyo,Economy,2290,Yes,0,Dairy Free
+19/10/2024,PA004,Perth,London,First Class,686,Yes,2,None
+31/08/2024,PA010,Tokyo,New York,Business Class,760.8,Yes,0,Vegetarian
+02/03/2024,PA004,Perth,London,Premium Economy,1735,Yes,0,Nut Free
+02/10/2024,PA010,Tokyo,New York,Business Class,669.6,Yes,0,Dairy Free
+01/05/2024,PA006,Tokyo,London,First Class,397,Yes,0,Dairy Free
+11/12/2024,PA005,London,Tokyo,Business Class,589.2,Yes,2,Vegetarian
+16/09/2024,PA004,Perth,London,First Class,221,Yes,3,Nut Free
+25/10/2024,PA007,New York,Perth,Economy,1190,Yes,3,Vegan
+16/02/2024,PA012,Tokyo,Perth,First Class,627,Yes,0,None
+10/09/2024,PA003,London,Perth,Business Class,316.8,Yes,1,Egg Free
+06/11/2024,PA005,London,Tokyo,Premium Economy,1705,Yes,3,Egg Free
+30/09/2024,PA004,Perth,London,Premium Economy,1590,Yes,2,Vegan
+24/03/2024,PA003,London,Perth,First Class,247,Yes,3,Dairy Free
+16/02/2024,PA001,London,New York,First Class,660,Yes,3,Dairy Free
+20/10/2024,PA009,New York,Tokyo,Economy,1630,Yes,1,None
+05/01/2024,PA011,Perth,Tokyo,Premium Economy,1595,Yes,0,Dairy Free
+27/12/2024,PA009,New York,Tokyo,First Class,413,Yes,2,Vegetarian
+28/01/2024,PA010,Tokyo,New York,Economy,1445,Yes,2,Egg Free
+29/03/2024,PA003,London,Perth,Premium Economy,572.5,Yes,3,Nut Free
+26/05/2024,PA005,London,Tokyo,First Class,570,Yes,3,Vegan
+12/04/2024,PA009,New York,Tokyo,Economy,3215,Yes,0,Vegetarian
+18/09/2024,PA007,New York,Perth,Economy,2045,Yes,2,Egg Free
+26/12/2024,PA001,London,New York,First Class,280,Yes,2,Vegetarian
+13/12/2024,PA003,London,Perth,Economy,1065,Yes,1,None
+18/05/2024,PA008,Perth,New York,Economy,2145,Yes,0,Egg Free
+27/06/2024,PA010,Tokyo,New York,Premium Economy,1445,Yes,3,Vegetarian
+17/10/2024,PA010,Tokyo,New York,Premium Economy,1012.5,Yes,2,Vegetarian
+02/05/2024,PA004,Perth,London,First Class,603,Yes,3,Nut Free
+10/02/2024,PA005,London,Tokyo,Economy,1220,Yes,3,Egg Free
+11/01/2024,PA004,Perth,London,Business Class,710.4,Yes,1,None
+28/04/2024,PA006,Tokyo,London,Premium Economy,660,Yes,3,Nut Free
+27/05/2024,PA005,London,Tokyo,First Class,677,Yes,0,Egg Free
+02/08/2024,PA011,Perth,Tokyo,Economy,1465,Yes,3,None
+23/02/2024,PA006,Tokyo,London,Business Class,518.4,Yes,1,None
+01/02/2024,PA010,Tokyo,New York,First Class,424,Yes,0,Dairy Free
+22/01/2024,PA008,Perth,New York,Business Class,676.8,Yes,1,None
+18/07/2024,PA009,New York,Tokyo,First Class,247,Yes,2,Vegetarian
+24/11/2024,PA008,Perth,New York,Business Class,484.8,Yes,3,Egg Free
+02/04/2024,PA010,Tokyo,New York,Economy,1695,Yes,2,Dairy Free
+27/11/2024,PA012,Tokyo,Perth,Business Class,561.6,Yes,1,Vegetarian
+14/10/2024,PA009,New York,Tokyo,Economy,1150,Yes,2,Vegan
+19/07/2024,PA001,London,New York,First Class,364,Yes,0,Nut Free
+07/06/2024,PA009,New York,Tokyo,Premium Economy,1580,Yes,2,Vegan
+22/03/2024,PA003,London,Perth,First Class,623,Yes,0,Vegetarian
+06/11/2024,PA005,London,Tokyo,First Class,677,Yes,3,Vegetarian
+20/12/2024,PA012,Tokyo,Perth,Economy,3200,Yes,1,Egg Free
+28/08/2024,PA001,London,New York,Premium Economy,1337.5,Yes,1,Egg Free
+25/12/2024,PA002,New York,London,Economy,2585,Yes,3,Vegan
+16/08/2024,PA007,New York,Perth,First Class,383,Yes,2,Dairy Free
+02/03/2024,PA008,Perth,New York,Business Class,747.6,Yes,3,Vegan
+13/09/2024,PA008,Perth,New York,Business Class,351.6,Yes,1,None
+25/09/2024,PA008,Perth,New York,First Class,534,Yes,1,Dairy Free
+27/10/2024,PA012,Tokyo,Perth,Economy,1130,Yes,1,Vegan
+11/09/2024,PA010,Tokyo,New York,Premium Economy,1382.5,Yes,3,Egg Free
+16/07/2024,PA002,New York,London,First Class,535,Yes,3,None
+09/02/2024,PA003,London,Perth,Business Class,355.2,Yes,3,Vegetarian
+20/01/2024,PA008,Perth,New York,Business Class,274.8,Yes,0,Vegan
+08/09/2024,PA001,London,New York,Business Class,727.2,Yes,3,Nut Free
+15/09/2024,PA011,Perth,Tokyo,First Class,333,Yes,3,Nut Free
+29/11/2024,PA003,London,Perth,Premium Economy,915,Yes,0,Dairy Free
+10/02/2024,PA007,New York,Perth,First Class,687,Yes,1,Dairy Free
+14/06/2024,PA012,Tokyo,Perth,Premium Economy,1547.5,Yes,3,Nut Free
+15/05/2024,PA010,Tokyo,New York,Premium Economy,945,Yes,1,Egg Free
+19/07/2024,PA006,Tokyo,London,First Class,654,Yes,1,Vegetarian
+06/11/2024,PA003,London,Perth,First Class,311,Yes,2,Vegan
+11/02/2024,PA005,London,Tokyo,Business Class,552,Yes,2,Nut Free
+14/04/2024,PA005,London,Tokyo,First Class,256,Yes,3,Nut Free
+08/11/2024,PA008,Perth,New York,Business Class,824.4,Yes,2,Nut Free
+05/02/2024,PA008,Perth,New York,Premium Economy,1367.5,Yes,2,None
+26/09/2024,PA004,Perth,London,Economy,1440,Yes,3,Vegan
+15/06/2024,PA012,Tokyo,Perth,Business Class,724.8,Yes,3,Nut Free
+25/02/2024,PA006,Tokyo,London,Economy,1555,Yes,1,Vegan
+13/11/2024,PA001,London,New York,Business Class,450,Yes,0,Dairy Free
+16/05/2024,PA004,Perth,London,First Class,609,Yes,1,None
+13/04/2024,PA008,Perth,New York,Business Class,481.2,Yes,3,Egg Free
+26/12/2024,PA006,Tokyo,London,Premium Economy,1060,Yes,1,Vegan
+06/01/2024,PA001,London,New York,Premium Economy,1515,Yes,1,Egg Free
+30/11/2024,PA006,Tokyo,London,First Class,264,Yes,0,Egg Free
+23/12/2024,PA012,Tokyo,Perth,First Class,315,Yes,1,Vegan
+11/04/2024,PA011,Perth,Tokyo,First Class,506,Yes,3,Nut Free
+19/01/2024,PA004,Perth,London,Economy,3495,Yes,3,Vegetarian
+17/10/2024,PA009,New York,Tokyo,Premium Economy,1172.5,Yes,1,Nut Free
+22/09/2024,PA008,Perth,New York,Business Class,686.4,Yes,2,Nut Free
+08/11/2024,PA005,London,Tokyo,Premium Economy,747.5,Yes,0,Dairy Free
+16/04/2024,PA006,Tokyo,London,Premium Economy,1080,Yes,0,Egg Free
+24/08/2024,PA012,Tokyo,Perth,Economy,3490,Yes,1,Egg Free
+21/05/2024,PA012,Tokyo,Perth,Premium Economy,1415,Yes,2,Dairy Free
+27/03/2024,PA010,Tokyo,New York,Premium Economy,755,Yes,1,Dairy Free
+11/11/2024,PA011,Perth,Tokyo,First Class,281,Yes,3,Nut Free
+10/10/2024,PA003,London,Perth,First Class,306,Yes,3,Vegetarian
+14/10/2024,PA005,London,Tokyo,Business Class,526.8,Yes,0,Dairy Free
+17/05/2024,PA001,London,New York,Premium Economy,1117.5,Yes,3,Nut Free
+28/09/2024,PA006,Tokyo,London,Economy,3430,Yes,1,Vegetarian
+28/06/2024,PA012,Tokyo,Perth,Economy,2535,Yes,3,Nut Free
+26/07/2024,PA012,Tokyo,Perth,Business Class,418.8,Yes,1,Egg Free
+27/07/2024,PA007,New York,Perth,First Class,215,Yes,1,Nut Free
+22/05/2024,PA001,London,New York,Economy,1300,Yes,2,Vegan
+04/12/2024,PA006,Tokyo,London,Premium Economy,637.5,Yes,1,Egg Free
+26/05/2024,PA008,Perth,New York,Premium Economy,522.5,Yes,1,Egg Free
+19/02/2024,PA003,London,Perth,Business Class,328.8,Yes,3,Nut Free
+13/10/2024,PA010,Tokyo,New York,First Class,385,Yes,0,Vegan
+21/03/2024,PA005,London,Tokyo,Premium Economy,1145,Yes,1,Vegan
+10/08/2024,PA011,Perth,Tokyo,Business Class,556.8,Yes,2,None
+31/12/2024,PA004,Perth,London,First Class,237,Yes,2,Nut Free
+24/03/2024,PA010,Tokyo,New York,Premium Economy,1122.5,Yes,0,Egg Free
+11/09/2024,PA012,Tokyo,Perth,Business Class,819.6,Yes,3,Egg Free
+11/06/2024,PA012,Tokyo,Perth,Premium Economy,1062.5,Yes,1,Nut Free
+22/09/2024,PA003,London,Perth,Economy,3195,Yes,1,Vegetarian
+18/07/2024,PA012,Tokyo,Perth,Premium Economy,892.5,Yes,0,Vegan
+14/08/2024,PA006,Tokyo,London,Economy,2325,Yes,0,Nut Free
+27/04/2024,PA012,Tokyo,Perth,Economy,1280,Yes,1,None
+18/10/2024,PA008,Perth,New York,First Class,292,Yes,3,Vegan
+13/07/2024,PA011,Perth,Tokyo,Economy,1605,Yes,1,Vegetarian
+17/11/2024,PA010,Tokyo,New York,Business Class,517.2,Yes,0,Dairy Free
+29/06/2024,PA007,New York,Perth,Business Class,801.6,Yes,2,Dairy Free
+02/02/2024,PA006,Tokyo,London,Economy,1240,Yes,2,Vegetarian
+11/11/2024,PA001,London,New York,Business Class,739.2,Yes,2,Dairy Free
+11/03/2024,PA002,New York,London,Business Class,750,Yes,1,Nut Free
+22/10/2024,PA005,London,Tokyo,First Class,533,Yes,0,Nut Free
+04/07/2024,PA006,Tokyo,London,First Class,366,Yes,0,Vegan
+26/09/2024,PA010,Tokyo,New York,Premium Economy,640,Yes,0,Vegetarian
+28/07/2024,PA003,London,Perth,Economy,3375,Yes,1,None
+27/02/2024,PA002,New York,London,Premium Economy,1565,Yes,2,Vegetarian
+29/02/2024,PA010,Tokyo,New York,Premium Economy,1135,Yes,3,Egg Free
+13/10/2024,PA007,New York,Perth,Business Class,686.4,Yes,3,Dairy Free
+21/06/2024,PA011,Perth,Tokyo,Business Class,829.2,Yes,1,Vegan
+19/04/2024,PA009,New York,Tokyo,Economy,1085,Yes,3,None
+08/09/2024,PA005,London,Tokyo,Economy,1115,Yes,3,Dairy Free
+13/04/2024,PA004,Perth,London,Business Class,410.4,Yes,3,None
+06/12/2024,PA005,London,Tokyo,Economy,1130,Yes,3,Nut Free
+25/07/2024,PA007,New York,Perth,Premium Economy,1482.5,Yes,3,Vegan
+26/10/2024,PA001,London,New York,Economy,1205,Yes,0,Dairy Free
+23/11/2024,PA005,London,Tokyo,Economy,2070,Yes,2,Egg Free
+04/11/2024,PA003,London,Perth,First Class,210,Yes,3,Nut Free
+29/04/2024,PA012,Tokyo,Perth,Economy,3490,Yes,0,Dairy Free
+26/09/2024,PA001,London,New York,First Class,207,Yes,2,Vegetarian
+06/01/2024,PA004,Perth,London,First Class,236,Yes,1,Nut Free

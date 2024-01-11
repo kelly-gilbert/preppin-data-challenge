@@ -1,0 +1,25 @@
+Flow Card?,Quarter,Metric Name,Economy,First,Premium,Business
+Yes,1,Minimum Price,201.0,1020.0,249.6,502.5
+No,1,Maximum Price,699.0,3455.0,834.0,1702.5
+No,3,Maximum Price,691.0,3475.0,838.8,1747.5
+No,2,Maximum Price,694.0,3480.0,828.0,1745.0
+Yes,1,Median Price,447.5,2325.0,523.2,1160.0
+No,1,Minimum Price,204.0,1030.0,241.2,515.0
+No,3,Minimum Price,201.0,1000.0,240.0,517.5
+No,2,Minimum Price,202.0,1000.0,240.0,507.5
+Yes,1,Maximum Price,698.0,3500.0,840.0,1737.5
+No,1,Median Price,438.0,2340.0,574.8,1075.0
+No,3,Median Price,487.0,2285.0,490.8,1125.0
+No,2,Median Price,445.0,2325.0,553.8,1205.0
+No,4,Minimum Price,200.0,1015.0,240.0,510.0
+Yes,2,Minimum Price,200.0,1020.0,240.0,500.0
+No,4,Median Price,428.0,2202.5,555.6,1062.5
+Yes,2,Median Price,459.0,2290.0,517.8,1071.25
+Yes,3,Minimum Price,206.0,1005.0,241.2,502.5
+Yes,4,Maximum Price,697.0,3460.0,834.0,1722.5
+Yes,3,Median Price,457.0,2347.5,553.8,1090.0
+No,4,Maximum Price,698.0,3465.0,835.2,1730.0
+Yes,2,Maximum Price,696.0,3490.0,840.0,1737.5
+Yes,4,Minimum Price,205.0,1030.0,249.6,505.0
+Yes,3,Maximum Price,697.0,3495.0,840.0,1750.0
+Yes,4,Median Price,424.0,2212.5,522.5999999999999,1108.75
