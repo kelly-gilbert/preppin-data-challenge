@@ -1,0 +1,256 @@
+Year,Week,Level,Themes,Watch out for...,Comes from Real Example
+2019,1,Beginner,"Date Conversion, Pivot Cols to Rows, Multiple Join Clause, Aggregate",,N
+2019,2,Beginner,"Group Values, Pivot Rows to Cols, Data Interpretor",,N
+2019,3,Intermediate,"Scaffolding, Date Calcs",,N
+2019,4,Beginner,"String Calculations, Date Calculations, Profile Pane",Doesn't need analysis in Desktop,N
+2019,5,Beginner,"Date Calculations, String Calculations, Join, Wildcard Union",,N
+2019,6,Beginner,"Date Conversion, Wildcard Union, Aggregation, Join, Union, Split",,N
+2019,7,Beginner,"String Calculations, Aggregation, Multiple Join Clause, Logical Calcs",,N
+2019,8,Beginner,"Profile Pane, Split, Pivot Rows to Cols, Aggregation, Join",,N
+2019,9,Intermediate,"Pivot Cols to Rows, Left only join, Split, String Calcs",,N
+2019,10,Beginner,"Split, Right Join, Date Calcs, String Calcs, Aggregate",,N
+2019,11,Intermediate,"Split, Pivot Rows to Cols, Date Calcs",JSON Parsing,N
+2019,12,Intermediate,"Date Calcs, Left only join, Non equal join clause, multiple join clause, Fixed LOD",,N
+2019,13,Beginner,"Date Calcs, Logical Calcs, Aggregate",,N
+2019,14,Intermediate,"Pivot Cols to Rows, Aggregate, Aggregate Calcs, Numeric Calcs",,N
+2019,15,Intermediate,"Wildcard Union, Split, Fixed LOD",,N
+2019,16,Intermediate,"Wildcard Union, Date Calculation, Rank, Aggregate",,N
+2019,17,Intermediate,"Pivot Cols to Rows, Aggregate, Union, Fixed LOD, String Calcs",,N
+2019,18,Intermediate,"Split, Pivot Cols to Rows, Fixed LOD",,N
+2019,19,Beginner,"String calcs, Split, Aggregate, Numeric Calc",,N
+2019,20,Intermediate,"Non-equal join clause, Date Calcs, Split, multiple join clause, Aggregate",,N
+2019,21,Intermediate,"Union, String Calcs, Date Calcs, Update a workflow",Follow on from previous week,N
+2019,22,Intermediate,Moving average,,N
+2019,23,Beginner,"String calcs, Wildcard Union, Split",Clean step only,N
+2019,24,Intermediate,"Regex, Date Conversion, String Calcs, Logical calc, Aggregate",,N
+2019,25,Beginner,"Split, Pivot Cols to Rows, Aggregate to deduplicate",WOW Collab,N
+2019,26,Intermediate,"Split, Pivot Cols to Rows, Fixed LOD",Click only challenge,N
+2019,27,Intermediate,Running Total,,N
+2019,28,Advanced,"Pivot Cols to Rows, Date Calcs, Running Total",,N
+2019,29,Intermediate,"Split, Pivot Cols to Rows, Right Join, Aggregate",,N
+2019,30,Intermediate,"Split, Pivot Cols to Rows, String Calcs, Left only join",,N
+2019,31,Intermediate,"Pivot Rows to Cols, Aggregate, Date Calcs",,N
+2019,32,Intermediate,"Mutliple Pivot, Split, String Calcs",,N
+2019,33,Intermediate,"Wildcard Union, Pivot Cols to Rows, Non-equal Join Clause, Aggregate, Date Calcs",,N
+2019,34,Advanced,"Split, Date Calcs, Rank, Scaffolding",,N
+2019,35,Advanced,"Running Total, Non-equal Join Clause",Follow on challenge,N
+2019,36,Beginner,"Conversions, String Calcs",,N
+2019,37,Intermediate,"Wildcard Union, Aggregate, Date Calcs, Group Values, Union",,N
+2019,38,Intermediate,"Fixed LOD, Rank",,Y
+2019,39,Intermediate,"Split, Full Outer Join, Fixed LOD",Percentage Points,N
+2019,40,Beginner,"Aggregate, IF statements, Split, Pivot Cols to Rows",NPS,N
+2019,41,Intermediate,"Split, Multiple Join Clause, Aggregate, IF statements, Pivot Cols to Rows",,N
+2019,42,Intermediate,"Data Roles, Split, Non-equal Join Clause",Click only Challenge,N
+2019,43,Intermediate,"Pivot Cols to Rows, Date Calcs, Aggregate, Mutliple Join Clause, Non-equal Join Clause",,N
+2019,44,Intermediate,"Fixed LOD, Pivot Cols to Rows, Multiple Join Clause, Rank",,N
+2019,45,Intermediate,"Aggregate, Wildcard Union, Date Calcs, Fixed LOD",,N
+2019,46,Beginner,"Union, Split, String Calcs, Multiple Join Clause, Aggregate",,N
+2020,1,Intermediate,"Space function, Fixed LOD",,N
+2020,2,Beginner,Date Functions,,N
+2020,3,Advanced,"Rank, % of Total, Non-equal join clause, Running Total",Jonathan's NBA monster,N
+2020,4,Intermediate,"Group Values, Pivot rows to cols, Date calcs, NPS",,N
+2020,5,Intermediate,"Rank, Aggregate, Non-equal join clause",,N
+2020,6,Intermediate,"Split, Aggregate, Date Conversion, Simple Join, Numeric Calcs",Stock logic,N
+2020,7,Intermediate,"Union, Simple Join, Date Calcs, Non-equal Join Clause/Scaffolding, Aggregate",,N
+2020,8,Intermediate,"Data Interpreter, Wildcard Union, Split, Merge, Aggregate, Non-equal Join Clause, Left only Join",Click Only,N
+2020,9,Intermediate,"Date Conversion, Rank, Pivot Cols to Rows, Fixed LOD",,N
+2020,10,Intermediate,"Appends, Complex Logical Filters",Logical Challenge,N
+2020,11,Advanced,"Append, Pivot Rows to Cols, Logical calcs, Scaffold, Rank",Logical Challenge,N
+2020,12,Intermediate,"Date Conversion, Clean functions, String Calcs, Multiple Join Clause",,N
+2020,13,Intermediate,"Wildcard Union, Split, Date Conversions, Fixed LOD, Date Calcs, Rank",,N
+2020,14,Intermediate,"Fixed LOD, Pivot Cols to Rows, String Calcs, Aggregate, Normalise",Spider Chart Template,N
+2020,15,Intermediate,"Split, Pivot Cols to Rows, Fixed LOD, Numeric Calcs",Market Basket Analysis,N
+2020,16,Beginner,"Pivot Rows to Cols, Pivot Cols to Rows, Split, Date Conversion, Simple Join",,N
+2020,17,Intermediate,"Filter Duplicates, Group Values, Split, Pivot Cols to Rows, Non inner join, Union, Aggregate, Rank",Survey data/click only challenge,N
+2020,18,Intermediate,"Data Interpreter, Pivot Cols to Rows, Pivot Rows to Cols, Right Join, Union, Aggregate",,N
+2020,19,Intermediate,"Aggregate, Fixed LOD",Follow on from Previous Week,N
+2020,20,Intermediate,"String calcs, Pivot Rows to cols, Scaffolding",Cipher,N
+2020,21,Intermediate,"Pivot Rows to Cols, Aggregate, Fixed LOD","CTG, business langauge",N
+2020,22,Advanced,"Rank, Fixed LOD, Append, Pivot Cols to Rows",Making fake data,N
+2020,23,Intermediate,"Pivot Rows to Cols, Union, Split, Rank",Good example for efficient workflows,N
+2020,24,Intermediate,"Split, Date Conversion, Cleaning calcs",Webscraped data,N
+2020,25,Advanced,"Scaffolding, String Calcs, Rank, Lookup, Aggregate",Roman Numeral,N
+2020,26,Advanced,"Non inner join, Fixed LOD, Union",ID Matching,Y
+2020,27,Intermediate,"Split, Data Interpreter, Pivot Cols to Rows, Append, String Calcs, Rank",,N
+2020,28,Advanced,"Scaffolding, Pivot Rows to Cols, Date Conversion",Roman Numeral,N
+2020,29,Intermediate,"Split, Numeric calcs, Rank",,N
+2020,30,Intermediate,"String Calcs, Split, Union",,N
+2020,31,Intermediate,"Group Values, Aggregate, Simple join, String Calcs",WOW Collab,N
+2020,32,Intermediate,Fill down,,N
+2020,33,Advanced,"Fiscal Date, Fixed LOD, Aggregate, Rank",,N
+2020,34,Intermediate,"Numeric Calcs, Aggregate",Follow on challenge,N
+2020,35,Intermediate,"Source Row Number, Data Interpreter, Pivot Cols to Rows, Fixed LOD, String Calcs, Pivot Rows to Cols, Date Conversion",,Y
+2020,36,Intermediate,"Split, Pivot Cols to Rows, Aggregate, Numeric Calcs",,N
+2020,37,Intermediate,"Scaffold, Date Calcs, Non inner join",Numer of working days calculator,N
+2020,38,Advanced,"Source Row Number, Pivot Cols to Rows, Scaffolding, String Calcs, Full outer join",Anagrams,N
+2020,39,Intermediate,"Multiple pivot, Split, Aggregate, Non inner join, Union",Prep-a-manger,N
+2020,40,Intermediate,"Scaffolding, Fixed LOD, Rank, Split, Pivot Cols to Rows",,N
+2020,41,Intermediate,"Date Conversion, Wildcard union, Rank, Split",,N
+2020,42,Intermediate,"Pivot Cols to Rows, Rank, Pivot Rows to Cols",YTD calcs,N
+2020,43,Intermediate,"Data Interpreter, Pivot Cols to Rows, Grouping steps, Union, Aggregate, Rank",,Y
+2020,44,Intermediate,"Group Values, Custom Fiscal Year, Data Roles, Pivot Cols to Rows, Pivot Rows to Cols, String Calcs",Click only challenge,N
+2020,45,Intermediate,"Pivot Cols to Rows, Multiple Join Clause, Aggregate, String Calcs, Numeric Calcs, Union",% change calcs might be tricky,N
+2020,46,Advanced,"String Calcs, Split, Pivot Cols to Rows, Group Values, Aggregate",String Parsing,N
+2020,47,Intermediate,"Fill down, Aggregate, Group Values, % of Total",Fill down,Y
+2020,48,Advanced,"Split, Pivot Cols to Rows, Rank, Date Calcs, Fixed LOD, Multiple Join Clause, Left Join, Left Only Join, Merge, Aggregate",Iterative logic,N
+2020,49,Advanced,"Wildcard Union, Pivot Cols to Rows, Rank, Running Total",,N
+2020,50,Intermediate,"Lookup (but circular), Group Values, Concatenate",Secret Santa,N
+2020,51,Advanced,"Pivot Cols to Rows, Non equal join clause, Multiple join clause, Split, Union, Aggregate",Complex logic,N
+2020,52,Advanced,"Data Densification, Rank, Mathematical Calculations",Chart type template,N
+2020,53,Intermediate,"Scaffolding, Multiple Pivot, Changing Separator in csv, Fixed LOD",,N
+2021,1,Beginner,"Split, Group Values, Convert Dates, Clean Step Only",,N
+2021,2,Beginner,"Aggregate, Date Calc",,N
+2021,3,Beginner,"Wildcard Union, Pivot Cols to Rows, Aggregate",,N
+2021,4,Beginner,"Targets, Pivot Cols to Rows, Aggregate, Wildcard Union, Split, Rank",,N
+2021,5,Intermediate,"Aggregate, Multiple Join Clause",,Y
+2021,6,Beginner,"Aggregate, Union, Rank, Pivot Rows to Cols, Pivot Cols to Rows",,N
+2021,7,Intermediate,"Pivot Cols to Rows, Split, Append, String Calcs, Aggregate, Pivot Rows to Cols",,N
+2021,8,Advanced,"Lookup, Date Calcs, Rank, Running Total, Non equal Join Clause, Multiple Join Clause, Left Join",,Y
+2021,9,Advanced,"String Calcs, Split, Pivot Cols to Rows, Regex, Fixed LOD, % of Total, Aggregate",,N
+2021,10,Advanced,"Left Join, Aggregate to Deduplicate",Complex Logic,N
+2021,11,Intermediate,"Split, Pivot Cols to Rows, Currency Conversion, Aggregate",,N
+2021,12,Intermediate,"Pivot Cols to Rows, String Calcs, Split, Group Values, Aggregate, Left Join, Multiple Join Clause, Union",,N
+2021,13,Beginner,"Wildcard Union, Aggregate, Rank",,N
+2021,14,Advanced,"Pivot Cols to Rows, Split, Non equal join clause, Multiple Join Clause, Data Roles, Rank",,N
+2021,15,Intermediate,"Split, Pivot Cols to Rows, IF statements, Aggregate, Fixed LOD",,N
+2021,16,Intermediate,"Split, IF statements, Aggregate, Rank",Reshaping Sports Match Data,N
+2021,17,Intermediate,"Pivot Cols to Rows, Split, Aggregate, % of Total",,N
+2021,18,Intermediate,"Date Calcs, Pivot Rows to Cols, Pivot Cols to Rows, ",Sepearate branches so added complexity,N
+2021,19,Intermediate,"String Calcs, Split, Pivot Cols to Rows, Group Values",,N
+2021,20,Intermediate,"Aggrgeate, IF statements",Control charts,N
+2021,21,Intermediate,"Wildcard Input, Date Calcs, Split, Fixed LOD, Rank",,N
+2021,22,Beginner,"Split, Join, String Calcs",,N
+2021,23,Intermediate,"Union, Fixed LOD, Aggrgegate, % of Total, Pivot Rows to Cols, ",Z Score,N
+2021,24,Intermediate,"Scaffolding, Aggregate",,N
+2021,25,Intermediate,"Right Join, Right Only Join, Union, Filtering, Rank",,N
+2021,26,Advanced,"Moving Calculation, Scaffolding, Multiple Join Clause ",,N
+2021,27,Advanced,"Scaffolding, Rank, Aggregate, Random, Left Only Join, Union",NBA Lottery - Long,N
+2021,28,Intermediate,"Union, Pivot Rows to Cols, Pivot Cols, Split, Date Calcs, Aggregate, Rank,",,N
+2021,29,Intermediate,"Split, Date Calc, Pivot Cols to Rows, Group Values, Mutliptle Join Clause, String Calcs",WOW Collab,N
+2021,30,Advanced,"Append, Rank, Aggregate, Lookup, Union, Fixed LOD",,N
+2021,31,Beginner,"Aggregate, Pivot Rows to Cols",Excelling in Prep - Can use to intro Fixed LOD,N
+2021,32,Beginner,"Date Calcs, IF Statments, Aggregate",Excelling in Prep,N
+2021,33,Intermediate,"Wildcard Union, Aggregate, ID statment, Fixed LOD",Excelling in Prep,N
+2021,34,Beginner,"Pivot Cols to Rows, Aggregate, Group Values, Targets, Multiple clause join, % of Total ",Excelling in Prep,N
+2021,35,Intermediate,"Conversions, IF statements, Split, Non equal Join Clause, Fixed LOD",,N
+2021,36,Intermediate,"Pivot Rows to Cols, Pivot Cols to Rows, Fixed LOD, Custom Fiscal Year, String Calcs",,N
+2021,37,Advanced,"Scaffolding, Date Calcs, Running Total","Same as 2019 week 3, but with Running Total",N
+2021,38,Intermediate,"Rank with multiple order bys, Fixed LOD",,N
+2021,39,Advanced,"Pivot Rows to Cols, Right Join, Parameter, Fixed LOD, Rank, Multiple Join Clause, Non equal join clause",,N
+2021,40,Beginner,"Aggregate, % of Total, Pivot Rows to Cols",,N
+2021,41,Intermediate,"IF Statement, Split, Lookup, Scaffolding, String Calcs",,N
+2021,42,Intermediate,"Scaffolding, Fixed LOD",,N
+2021,43,Intermediate,"Data Interpreter, Date Calcs, IF statements, Aggregate, Pivot Cols to Rows",Requires a little abstract thinking,Y
+2021,44,Intermediate,"Scaffolding, Pivot Rows to Cols, Aggregate, Right Join, Multi Clause Join",,N
+2021,45,Advanced,"Split, Pivot Cols to Rows, Wildcard union, Self Join, Non equal join clause, Multiple Join Clause, Aggregate",TC Special,N
+2021,46,Intermediate,"Wildcard Union, Join Practice, Aggregate, Left Join",Good granularity practice,Y
+2021,47,Intermediate,"Fixed LOD, Date Calcs, Aggregate, Pivot Cols to Rows, Rank",Games Night Viz Collab,N
+2021,48,Intermediate,"Data interpreter, Union, Pivot Cols to Rows, Multiple Join Clause, IF Statements",Departmental December,N
+2021,49,Advanced,"Wildcard Union, Fixed LOD, String calcs, Aggregate, Running Total",Departmental December,N
+2021,50,Advanced,"Fill down, Wildcard Union, Left Join, Fixed LOD, Pivot Cols to Rows",Departmental December,Y
+2021,51,Intermediate,"Aggregate, Rank with multiple order bys",Departmental December - Fact & Dimension Tables,Y
+2021,52,Intermediate,"String Calcs, Append, Pivot Rows to Cols, Right only Join, Multiple Join Clause, Union",Departmental December,N
+2022,1,Beginner,"Clean step only, String Calcs, IF statement",,N
+2022,2,Beginner,"Clean step only, Make Date, Convert Dates, Fixed LOD",Complex where dates cross over year,N
+2022,3,Beginner,"Simple Join, Pivot Cols to Rows, Aggregate",,N
+2022,4,Beginner,"Simple Join, Pivot Cols to Rows, Aggregate, Group Values, % of Total",,N
+2022,5,Beginner,"Pivot Cols to Rows, Tile, Group Values, Fixed LOD",,N
+2022,6,Advanced,"String Calcs, Pivot Cols to Rows, % of Total, Scaffold, Fixed LOD, Pivot Rows to Cols, Rank",,N
+2022,7,Intermediate,"Wildcard Union, Multiple Clause Join, Left Join, Pivot Rows to Cols",Many inputs,Y
+2022,8,Advanced,"Pivot Cols to Rows, Multiple Clause Join, Aggregate, Rank",Games Night Viz Collab,N
+2022,9,Advanced,"Fixed LOD, Scaffold, Multiple Join Clause, Lookup, Left Join",Cohort Analysis,Y
+2022,10,Advanced,"String Calcs, Pivot Cols to Rows, Left Joins, Aggregate, Rank, Fixed LOD, Multiple Join Clause",Cleaning webscraped data,N
+2022,11,Intermediate,"Filling in blanks, Aggregate, Multiple Join Clause",,N
+2022,12,Intermediate,"Wildcard Union, Split, Fixed LOD, String Calcs",,N
+2022,13,Advanced,"Parameters, String Calcs, Aggregate, % of Total, Running Total, Fixed LOD, Parameter to Name Output",,N
+2022,14,Intermediate,"Rank, Fixed LOD",Requires a little abstract thinking,N
+2022,15,Advanced,"Scaffolding, Date Calcs, Multiple Join Clause, Running Total",,Y
+2022,16,Advanced,"Union, Fill down, Rank, >= Join Clause, Fixed LOD",Requires abstract thinking,N
+2022,17,Intermediate,"Data Roles, Aggregate, Fixed LOD, Multiple Join Clause",Bring together datasets at different levels of detail ,Y
+2022,18,Intermediate,"Pivot Rows to Cols, Pivot Cols to Rows, Dynamic Rename, Split",,N
+2022,19,Intermediate,"Joins, Aggregate",,N
+2022,20,Intermediate,"Left only Join, Group Values, Split, Fixed LOD, Multiple Join Clause, % of Total",TC Special,N
+2022,21,Intermediate,"Data Interpreter, String Calcs, Pivot Cols to Rows, Pivot Rows to Cols, Aggregate, Append, Union",,Y
+2022,22,Intermediate,"Union, Pivot Cols to Rows, Aggregate to Deduplicate, Rank, Lookup, Split",Games Night Viz Collab,N
+2022,23,Intermediate,"Pivot Cols to Rows, Left Join, Aggregate to Deduplicate, Union, Aggregate",WOW Collab - Salesforce,Y
+2022,24,Intermediate,"String Calcs, Split, Rank",,N
+2022,25,Intermediate,"Split, Pivot Cols to Rows, Aggregate, Non equal join clause, Dynamic Rename, String Calcs, Fixed LOD",,N
+2022,26,Intermediate,"Aggregate, Rank, Pivot Rows to Cols",,N
+2022,27,Beginner,"Split, Aggregate, IF statement",,N
+2022,28,Beginner,"Scaffolding, Convert Dates, Aggregate",Simple intro to scaffolding,N
+2022,29,Beginner,"Targets, Aggregate, Pivot Cols to Rows, Split, Multiple Clause Join",,N
+2022,30,Beginner,"Union, Split, Multiple Clause Join, Aggregate",,N
+2022,31,Intermediate,"Parameters, Split, Aggregate, Rank, Parameter in Output Name",Round to nearest 10,N
+2022,32,Intermediate,"Scaffolding, Date Calculations, Rank",More Advanced Scaffolding required,N
+2022,33,Intermediate,"Union, Lookup, Aggregate",Possible good place to start with Lookup,N
+2022,34,Intermediate,"Multiple parameters, Title Case, Parameter in Output Name",,N
+2022,35,Intermediate,"Pivot Cols to Rows, Pivot Rows to Cols, Split, Aggregate, Multiple Clause Join, Parameter",,N
+2022,36,Advanced,"Scaffolding, Right Join, Aggregate, Date Calcs, Append, Multiple Clause Join",,Y
+2022,37,Intermediate,"Pivot Cols to Rows, Aggregate, Rank",Games Night Viz Collab,N
+2022,38,Intermediate,"Simple joins, Aggregate",Salesforce Standard Connection,Y
+2022,39,Advanced,"Fill down 2 fields, Rank",,N
+2022,40,Advanced,"Scaffolding, Append, Pivot Rows to Cols",Bug that requires 2 workflows in earlier versions,N
+2022,41,Advanced,"Parameter, Scaffolding",Continuation of previous week,N
+2022,42,Advanced,"Scaffolding, Lookup, Rank, Fixed LOD",Example of group by new rows workaround,Y
+2022,43,Advanced,"Scaffolding, Fixed LOD, Union",Continuation of previous week,Y
+2022,44,Intermediate,"Merge fields, String calculations",,N
+2022,45,Advanced,"Pivot Cols to Rows, Pivot Rows to Cols, Fixed LOD, Multiple Clause Join, Append",Requires Abstract thinking,N
+2022,46,Advanced,"Wildcard Union, Pivot Cols to Rows, Pivot Rows to Cols, Fixed LOD, Multiple Clause Join, Append",Continuation of previous week,N
+2022,47,Advanced,"Scaffolding, Right Join, Pivot Rows to Cols, Aggregate",Chelsea Managers vs Prime Ministers,N
+2022,48,Intermediate,"String Calcs, Pivot Cols to Rows, Split",Games Night Viz Collab,N
+2022,49,Intermediate,"Fixed LOD, String Calcs, Multiple Clause Join",HR Month,Y
+2022,50,Intermediate,"Rank, Multiple Clause Join, Right Join, % of total",HR Month,Y
+2022,51,Intermediate,"String calcs, Rank, Pivot Cols to Rows, Pivot Rows to Cols, % of total, Aggregate",HR Month,Y
+2022,52,Advanced,"String calcs, Rank, Split, Append, Left Join ",HR Month - Complex logic,Y
+2023,1,Beginner,"Aggregates, Split, Rename Values, Date Part",,N
+2023,2,Beginner,"Simple Join, Concatenate, Remove Punctuation",,N
+2023,3,Beginner,"Targets, Pivot Cols to Rows, Aggregate to correct LOD, Simple Join ",,N
+2023,4,Beginner,"Wildcard Union, Merge Fields, Create Date Field, Pivot Rows to Cols, Aggregate to Deduplicate",,N
+2023,5,Intermediate,"Rank, Fixed LOD",,N
+2023,6,Intermediate,"Multiple Pivot, % of Total",,N
+2023,7,Intermediate,"Simple Joins, Splits, Filters, Changing Data Type at input to avoid nulls","Longer workflow, 4 inputs",N
+2023,8,Intermediate,"Wildcard Union, IF statements, Rank",,N
+2023,9,Advanced,Running Total,,N
+2023,10,Advanced,"Scaffolding, Parameter, Using Parameter in Output name, Lookup, Rank, Fixed LOD",A bit complex as a scaffolding example,N
+2023,11,Advanced,"Append, Rank, Pivot Cols to Rows, Pivot Rows to Cols, Mutliple Join Clause, Rank",Distance calcs (mathematically),N
+2023,12,Advanced,"Fill Down, Fixed LOD, Rank",Align reporting months betwen countries,Y
+2023,13,Advanced,"Moving Average, Wildcard Union, Rank, Parameter",Allows user to select # trades included in Moving Average,N
+2023,14,Intermediate,"Wildcard Union, Pivot Cols to Rows, Pivot Rows to Cols, Split, Left Join",,N
+2023,15,Advanced,"Rank, Pivot Cols to Rows, Pivot Rows to Cols",Requires abstract thinking,N
+2023,16,Advanced,"<= Join clause, Fixed LOD, Aggregate, Rank",,N
+2023,17,Intermediate,"Pivot Cols to Rows, Aggregate, Country Roles, Split, Parameters, Rank",,N
+2023,18,Beginner,"Pivot Rows to Cols, Group Values, Aggregate",,N
+2023,19,3-in-1,"Split, String functions, Pivot Cols to Rows, Multiple clause Join",TC special,N
+2023,20,Intermediate,"Group Values, Simple Join, Aggregate, % of Total",,N
+2023,21,Beginner,"Pivot Cols to Rows, Split, Pivot Rows to Cols, Aggregate",Option for multiple pivot,N
+2023,22,Beginner,"Simple Join, Split, IF statement",,N
+2023,23,Beginner,"Simple Join, Aggregate, Pivot Cols to Rows, Rank",,N
+2023,24,Intermediate,"Pivot Rows to Cols, Pivot Cols to Rows, Tile, IF statement",Tile functionality,N
+2023,25,Intermediate,"Union, Split, CASE function, Pivot Rows to Cols, Simple Joins",,N
+2023,26,Intermediate,"Mutiple Clause Join, Rank with multiple order bys, Rank, % of Total, Fixed LOD",,N
+2023,27,Beginner,"Wildcard Union, Pivot Rows to Cols, Rank",,N
+2023,28,Beginner,"Multiple Clause Join, Rank",,N
+2023,29,Advanced,"Lookup, Moving Average, Adding datetime stamp to output, Scaffolding ",,N
+2023,30,Advanced,"Lookup, % Difference From, Wildcard Union, Fixed LOD, SIGN function",,N
+2023,31,Intermediate,"Aggregate to deduplicate, Create Lookup Table, Right Joins",HR Month,Y
+2023,32,Advanced,"<= Join Clause, Multiple Join Clause, Right Join, Date Calcs",HR Month,Y
+2023,33,Advanced,"Date Calcs, Scaffolding (through all dimension combinations) ",HR Month,Y
+2023,34,Advanced,"Scaffolding, Lookup, Moving Calc, Date Calcs",HR Month,Y
+2023,35,Advanced,Lookup,HR Month - Fairly complex logic,Y
+2023,36,Advanced,Running Total ,,Y
+2023,37,Intermediate,"Source Row Number, Rank, Difference From",,N
+2023,38,Intermediate,"Data Interpreter, Multiple Pivot",,N
+2023,39,Advanced,"Wildcard Union, Lookup, Non equal Join Clause",,N
+2023,40,Beginner,"Pivot Rows to Cols, Pivot Cols to Rows, Group Values",,N
+2023,41,Beginner,"Group Values, Aggregate, Rank",,N
+2023,42,Beginner,"Union, Join, Aggregate",,N
+2023,43,Intermediate,"Percentile Rank, Rank",,N
+2023,44,Beginner,"Scaffolding, Convert Dates, Join",Single field scaffold,N
+2023,45,Intermediate,"Source Row Number, Fill Down, Pivot Rows to Cols",,Y
+2023,46,Beginner,"Date Time Conversion, Date Calcs, Aggregate, Rank, Numeric Calcs",,N
+2023,47,Intermediate,"Moving Average, Percentile Rank, Wildcard Union, Rank",,N
+2023,48,Advanced,"Scaffolding, Parameter, Date Calcs, Mod function, Running Total",,Y
+2023,49,Advanced,"Scaffolding, Running Total, Ranks, Compound interest",,N
+2023,50,Intermediate,"Parameter, Updating a workflow",Follow on challenge,N
+2023,51,Advanced,"Data Interpreter, Source Row Number, Fill Down, Running Sum",,Y
+2023,52,Intermediate,"Split, Pivot Rows to Cols, Group Values, Pivot Cols to Rows, Aggregate, Rank",,N

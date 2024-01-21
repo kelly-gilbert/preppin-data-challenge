@@ -1,0 +1,74 @@
+﻿Priority,Technique,Beginner,Intermediate,Advanced,3-in-1,Total
+1,Mod function,,,1,,1
+1,NPS,,1,,,1
+1,Changing Separator in csv,,1,,,1
+1,Complex Logical Filters,,1,,,1
+1,Data Densification,,,1,,1
+1,Title Case,,1,,,1
+1,CASE function,,1,,,1
+1,Country Roles,,1,,,1
+1,Aggregate to correct LOD,1,,,,1
+1,Adding datetime stamp to output,,,1,,1
+1,Changing Data Type at input to avoid nulls,,1,,,1
+1,Self Join,,,1,,1
+1,SIGN function,,,1,,1
+1,Remove Punctuation,1,,,,1
+1,Currency Conversion,,1,,,1
+1,Aggregate Calcs,,1,,,1
+1,Grouping steps,,1,,,1
+1,Create Lookup Table,,1,,,1
+1,Random,,,1,,1
+1,Space function,,1,,,1
+1,Compound interest,,,1,,1
+1,Normalise,,1,,,1
+1,Fiscal Date,,,1,,1
+2,Cleaning calcs,,2,,,2
+2,Percentile Rank,,2,,,2
+2,Full outer join,,1,1,,2
+2,Conversions,1,1,,,2
+2,Regex,,1,1,,2
+2,Custom Fiscal Year,,2,,,2
+2,Difference From,,1,1,,2
+2,Concatenate,1,1,,,2
+2,Profile Pane,2,,,,2
+2,Tile,1,1,,,2
+2,Dynamic Rename,,2,,,2
+2,Update a workflow,,2,,,2
+3,Rank with multiple order bys,,3,,,3
+3,Filters,,3,,,3
+3,Clean step only,3,,,,3
+4,Targets,4,,,,4
+4,Logical Calcs,2,1,1,,4
+4,Data Roles,,3,1,,4
+4,Non inner join,,3,1,,4
+4,Merge fields,1,2,1,,4
+5,Multiple Pivot,,5,,,5
+5,Source Row Number,,3,2,,5
+6,Moving Calculation,,2,4,,6
+6,Aggregate to Deduplicate,2,3,1,,6
+7,Left only join,,7,2,,9
+7,Fill down,,4,5,,9
+8,Numeric Calcs,2,7,1,,10
+9,Data Interpreter,1,9,1,,11
+10,Append,,5,9,,14
+11,Running Total,,1,14,,15
+11,Lookup,,4,11,,15
+11,Parameter,,7,8,,15
+12,% of Total,3,9,4,,16
+12,IF statements,5,11,,,16
+13,Non Equal Join Clause,,10,11,,21
+14,Join,13,9,,,22
+15,Group Values,9,13,1,,23
+15,Left Join,1,11,11,,23
+16,Wildcard Union,8,16,8,,32
+17,Union,5,22,6,,33
+18,Scaffolding,2,10,23,,35
+19,Multiple Join Clause,7,21,16,1,45
+20,Pivot Rows to Cols,11,28,10,,49
+21,String Calcs,10,30,9,1,50
+22,Fixed LOD,2,36,22,,60
+23,Date Calcs,19,30,12,,61
+24,Rank,8,36,29,,73
+25,Split,18,52,8,1,79
+26,Pivot Cols to Rows,16,50,18,1,85
+27,Aggregate,31,61,16,,108
