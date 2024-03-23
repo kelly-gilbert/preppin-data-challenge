@@ -19,6 +19,16 @@
 |-:|:-----------------------------------------|:-:|:-:|:-:|:-|
 |1|Prep Air's Flow Card|[📋](https://preppindata.blogspot.com/2024/01/2024-week-1-prep-airs-flow-card.html)|[✅](2024/preppin-data-2024-01/README.md)|| 3&nbsp;&nbsp;❄️|
 |2|Average Price Analysis|[📋](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[✅](2024/preppin-data-2024-02/README.md)|| 5&nbsp;&nbsp; |
+|3||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-03/README.md)|| 5&nbsp;&nbsp; |
+|4||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-04/README.md)|| 5&nbsp;&nbsp; |
+|5||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-05/README.md)|| &nbsp;&nbsp; |
+|6||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-06/README.md)|| &nbsp;&nbsp; |
+|7||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-07/README.md)|| &nbsp;&nbsp; |
+|8||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-08/README.md)|| &nbsp;&nbsp; |
+|9||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-09/README.md)|| &nbsp;&nbsp; |
+|10||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-10/README.md)|| &nbsp;&nbsp; |
+|11|13 months in a year|[📋](https://preppindata.blogspot.com/2024/03/2024-week-11-13-months-in-year.html)|[✅](2024/preppin-data-2024-11/README.md)|| 4&nbsp;&nbsp; |
+
 
 
 <a id="2023"></a><details>
