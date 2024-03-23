@@ -8,11 +8,18 @@ What I learned/practiced this week:
 * Practiced: string to date conversion
 * Practiced: arithmetic operators (modulo and floor division)
 
-## Python
+## Python (pandas)
 <i>click the image to view the code</i><br>
 <br>
 <a href="preppin-data-2024-11.py">
-<img src="img-python-code-2024-11.png?raw=true" alt="Python code">
+<img src="img-python-code-2024-11.png?raw=true" alt="Python code (pandas)">
+</a>
+
+## Python (polars)
+<i>click the image to view the code</i><br>
+<br>
+<a href="preppin-data-2024-11-polars.py">
+<img src="img-python-code-2024-11-polars.png?raw=true" alt="Python code (polars)">
 </a>
 
 ## Alteryx
