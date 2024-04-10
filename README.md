@@ -28,6 +28,7 @@
 |9||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-09/README.md)|| &nbsp;&nbsp; |
 |10||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-10/README.md)|| &nbsp;&nbsp; |
 |11|13 months in a year|[📋](https://preppindata.blogspot.com/2024/03/2024-week-11-13-months-in-year.html)|[✅](2024/preppin-data-2024-11/README.md)|| 4&nbsp;&nbsp; |
+|12|Graduate Student Loan Repayments|[📋](https://preppindata.blogspot.com/2024/03/2024-week-12-graduate-student-loan.html)|[✅](2024/preppin-data-2024-12/README.md)|| 6&nbsp;&nbsp; |
 
 
 
