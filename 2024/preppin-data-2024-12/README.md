@@ -1,6 +1,6 @@
 <h6><a href="..\preppin-data-2024-11\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2024-13\README.md">Next Week  ▶</a></h6>
 
-# Preppin' Data 2024 Week 12 - Graduate Student Loan Repayments (polars)
+# Preppin' Data 2024 Week 12 - Graduate Student Loan Repayments
 
 [Challenge description](https://preppindata.blogspot.com/2024/03/2024-week-12-graduate-student-loan.html)
 
