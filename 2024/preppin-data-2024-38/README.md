@@ -10,6 +10,8 @@ What I learned/practiced this week:
 * Practiced: date calculations
 * Practiced: joins
 
+Note: my solution is one record off from the provided solution for the person with initials KY. It appears to be related to default sorting in Tableau Prep (provided solution) vs. other tools.
+
 ## Python (pandas)
 <i>click the image to view the code</i><br>
 <br>
