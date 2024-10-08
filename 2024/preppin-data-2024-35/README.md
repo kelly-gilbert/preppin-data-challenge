@@ -7,7 +7,7 @@
 What I learned/practiced this week:
 * Practiced: string parsing with regex
 * Practiced: reshaping (melt & unpivot)
-* Practiced: working with lists in Polars
+* Practiced: working with lists/structs in Polars
 
 ## Python (pandas)
 <i>click the image to view the code</i><br>
@@ -19,8 +19,8 @@ What I learned/practiced this week:
 ## Python (polars)
 <i>click the image to view the code</i><br>
 <br>
-<a href="preppin-data-2024-polars.py">
-<img src="img-python-code-2024-35.png?raw=true" alt="Python code (polars)">
+<a href="preppin-data-2024-35-polars.py">
+<img src="img-python-code-2024-35-polars.png?raw=true" alt="Python code (polars)">
 </a>
 
 
