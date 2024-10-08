@@ -29,31 +29,31 @@
 |10||[](https://preppindata.blogspot.com/2024/01/2024-week-2-average-price-analysis.html)|[](2024/preppin-data-2024-10/README.md)|| &nbsp;&nbsp; |
 |11|13 months in a year|[📋](https://preppindata.blogspot.com/2024/03/2024-week-11-13-months-in-year.html)|[✅](2024/preppin-data-2024-11/README.md)|| 4&nbsp;&nbsp; |
 |12|Graduate Student Loan Repayments|[📋](https://preppindata.blogspot.com/2024/03/2024-week-12-graduate-student-loan.html)|[✅](2024/preppin-data-2024-12/README.md)|| 6&nbsp;&nbsp; |
-|13||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|14||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|15||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|16||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|17||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|18||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|19||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|20||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|21||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|22||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|23||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|24||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|25||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|26||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|27||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|28||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|29||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|30||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|31||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|32||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|33||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|34||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|35||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|36||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
-|37||[]()|[](2024/preppin-data-2024-12/README.md)|| &nbsp;&nbsp; |
+|13||[]()|[](2024/preppin-data-2024-13/README.md)|| &nbsp;&nbsp; |
+|14||[]()|[](2024/preppin-data-2024-14/README.md)|| &nbsp;&nbsp; |
+|15||[]()|[](2024/preppin-data-2024-15/README.md)|| &nbsp;&nbsp; |
+|16||[]()|[](2024/preppin-data-2024-16/README.md)|| &nbsp;&nbsp; |
+|17||[]()|[](2024/preppin-data-2024-17/README.md)|| &nbsp;&nbsp; |
+|18||[]()|[](2024/preppin-data-2024-18/README.md)|| &nbsp;&nbsp; |
+|19||[]()|[](2024/preppin-data-2024-19/README.md)|| &nbsp;&nbsp; |
+|20||[]()|[](2024/preppin-data-2024-20/README.md)|| &nbsp;&nbsp; |
+|21||[]()|[](2024/preppin-data-2024-21/README.md)|| &nbsp;&nbsp; |
+|22||[]()|[](2024/preppin-data-2024-22/README.md)|| &nbsp;&nbsp; |
+|23||[]()|[](2024/preppin-data-2024-23/README.md)|| &nbsp;&nbsp; |
+|24||[]()|[](2024/preppin-data-2024-24/README.md)|| &nbsp;&nbsp; |
+|25||[]()|[](2024/preppin-data-2024-25/README.md)|| &nbsp;&nbsp; |
+|26||[]()|[](2024/preppin-data-2024-26/README.md)|| &nbsp;&nbsp; |
+|27||[]()|[](2024/preppin-data-2024-27/README.md)|| &nbsp;&nbsp; |
+|28||[]()|[](2024/preppin-data-2024-28/README.md)|| &nbsp;&nbsp; |
+|29||[]()|[](2024/preppin-data-2024-29/README.md)|| &nbsp;&nbsp; |
+|30||[]()|[](2024/preppin-data-2024-30/README.md)|| &nbsp;&nbsp; |
+|31||[]()|[](2024/preppin-data-2024-31/README.md)|| &nbsp;&nbsp; |
+|32||[]()|[](2024/preppin-data-2024-32/README.md)|| &nbsp;&nbsp; |
+|33||[]()|[](2024/preppin-data-2024-33/README.md)|| &nbsp;&nbsp; |
+|34||[]()|[](2024/preppin-data-2024-34/README.md)|| &nbsp;&nbsp; |
+|35|Premier League Results|[📋](https://preppindata.blogspot.com/2024/08/2024-week-35-premier-league-results.html)|[✅](2024/preppin-data-2024-35/README.md)||5 &nbsp;&nbsp; |
+|36||[]()|[](2024/preppin-data-2024-36/README.md)|| &nbsp;&nbsp; |
+|37||[]()|[](2024/preppin-data-2024-37/README.md)|| &nbsp;&nbsp; |
 |38|Preppin' Consultancy Days|[📋](https://preppindata.blogspot.com/2024/09/2024-week-38-preppin-consultancy-days.html)|[✅](2024/preppin-data-2024-38/README.md)||7 &nbsp;&nbsp;🔥|
 
 
