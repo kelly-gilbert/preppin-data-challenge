@@ -1,0 +1,381 @@
+﻿Away Score,Away Team,Home Score,Home Team,Matchday,Source Row Number,Date
+1,Nottm Forest,2,Arsenal,1,1,12/08/2023
+3,Man City,0,Burnley,1,1,11/08/2023
+1,West Ham,1,Bournemouth,1,2,12/08/2023
+1,Crystal Palace,0,Sheffield United,1,2,12/08/2023
+1,Fulham,0,Everton,1,3,12/08/2023
+1,Luton Town,4,Brighton,1,3,12/08/2023
+2,Tottenham,2,Brentford,1,4,13/08/2023
+1,Aston Villa,5,Newcastle,1,4,12/08/2023
+0,Wolves,1,Man United,1,5,14/08/2023
+1,Liverpool,1,Chelsea,1,5,13/08/2023
+1,Bournemouth,3,Liverpool,2,7,19/08/2023
+1,Sheffield United,2,Nottm Forest,2,7,18/08/2023
+3,Brentford,0,Fulham,2,8,19/08/2023
+4,Brighton,1,Wolves,2,8,19/08/2023
+0,Newcastle,1,Man City,2,9,19/08/2023
+0,Man United,2,Tottenham,2,9,19/08/2023
+1,Chelsea,3,West Ham,2,10,20/08/2023
+0,Everton,4,Aston Villa,2,10,20/08/2023
+1,Arsenal,0,Crystal Palace,2,11,21/08/2023
+2,Tottenham,0,Bournemouth,3,13,26/08/2023
+0,Luton Town,3,Chelsea,3,13,25/08/2023
+2,Fulham,2,Arsenal,3,14,26/08/2023
+1,Crystal Palace,1,Brentford,3,14,26/08/2023
+1,Wolves,0,Everton,3,15,26/08/2023
+2,Nottm Forest,3,Man United,3,15,26/08/2023
+2,Man City,1,Sheffield United,3,16,27/08/2023
+3,West Ham,1,Brighton,3,16,26/08/2023
+2,Liverpool,1,Newcastle,3,17,27/08/2023
+3,Aston Villa,1,Burnley,3,17,27/08/2023
+2,West Ham,1,Luton Town,4,19,01/09/2023
+1,Fulham,5,Man City,4,20,02/09/2023
+2,Everton,2,Sheffield United,4,20,02/09/2023
+5,Tottenham,2,Burnley,4,21,02/09/2023
+1,Nottm Forest,0,Chelsea,4,21,02/09/2023
+1,Newcastle,3,Brighton,4,22,02/09/2023
+2,Bournemouth,2,Brentford,4,22,02/09/2023
+0,Aston Villa,3,Liverpool,4,23,03/09/2023
+2,Wolves,3,Crystal Palace,4,23,03/09/2023
+1,Man United,3,Arsenal,4,24,03/09/2023
+0,Luton Town,1,Fulham,5,26,16/09/2023
+3,Liverpool,1,Wolves,5,26,16/09/2023
+3,Man City,1,West Ham,5,27,16/09/2023
+1,Sheffield United,2,Tottenham,5,27,16/09/2023
+1,Crystal Palace,3,Aston Villa,5,28,16/09/2023
+3,Brighton,1,Man United,5,28,16/09/2023
+0,Chelsea,0,Bournemouth,5,29,17/09/2023
+0,Brentford,1,Newcastle,5,29,16/09/2023
+1,Burnley,1,Nottm Forest,5,30,18/09/2023
+1,Arsenal,0,Everton,5,30,17/09/2023
+0,Fulham,0,Crystal Palace,6,32,23/09/2023
+0,Nottm Forest,2,Man City,6,32,23/09/2023
+3,Everton,1,Brentford,6,33,23/09/2023
+1,Wolves,1,Luton Town,6,33,23/09/2023
+1,Aston Villa,0,Chelsea,6,34,24/09/2023
+1,Man United,0,Burnley,6,34,23/09/2023
+1,West Ham,3,Liverpool,6,35,24/09/2023
+2,Tottenham,2,Arsenal,6,35,24/09/2023
+8,Newcastle,0,Sheffield United,6,36,24/09/2023
+1,Bournemouth,3,Brighton,6,36,24/09/2023
+1,Crystal Palace,0,Man United,7,38,30/09/2023
+1,Brighton,6,Aston Villa,7,38,30/09/2023
+1,Man City,2,Wolves,7,39,30/09/2023
+0,Burnley,2,Newcastle,7,39,30/09/2023
+0,Sheffield United,2,West Ham,7,40,30/09/2023
+4,Arsenal,0,Bournemouth,7,40,30/09/2023
+1,Liverpool,2,Tottenham,7,41,30/09/2023
+2,Luton Town,1,Everton,7,41,30/09/2023
+2,Chelsea,0,Fulham,7,42,02/10/2023
+1,Brentford,1,Nottm Forest,7,42,01/10/2023
+2,Burnley,1,Luton Town,2,44,03/10/2023
+1,Sheffield United,3,Fulham,8,46,07/10/2023
+1,Tottenham,0,Luton Town,8,46,07/10/2023
+1,Brentford,2,Man United,8,47,07/10/2023
+4,Chelsea,1,Burnley,8,47,07/10/2023
+0,Nottm Forest,0,Crystal Palace,8,48,07/10/2023
+0,Bournemouth,3,Everton,8,48,07/10/2023
+2,Newcastle,2,West Ham,8,49,08/10/2023
+2,Liverpool,2,Brighton,8,49,08/10/2023
+0,Man City,1,Arsenal,8,50,08/10/2023
+1,Aston Villa,1,Wolves,8,50,08/10/2023
+0,Burnley,3,Brentford,9,52,21/10/2023
+0,Everton,2,Liverpool,9,52,21/10/2023
+2,Luton Town,2,Nottm Forest,9,53,21/10/2023
+2,Wolves,1,Bournemouth,9,53,21/10/2023
+0,Crystal Palace,4,Newcastle,9,54,21/10/2023
+1,Brighton,2,Man City,9,54,21/10/2023
+2,Man United,1,Sheffield United,9,55,21/10/2023
+2,Arsenal,2,Chelsea,9,55,21/10/2023
+0,Fulham,2,Tottenham,9,56,23/10/2023
+1,West Ham,4,Aston Villa,9,56,22/10/2023
+2,Brentford,0,Chelsea,10,58,28/10/2023
+2,Tottenham,1,Crystal Palace,10,58,27/10/2023
+1,Burnley,2,Bournemouth,10,59,28/10/2023
+0,Sheffield United,5,Arsenal,10,59,28/10/2023
+1,Everton,0,West Ham,10,60,29/10/2023
+2,Newcastle,2,Wolves,10,60,28/10/2023
+1,Luton Town,3,Aston Villa,10,61,29/10/2023
+1,Fulham,1,Brighton,10,61,29/10/2023
+3,Man City,0,Man United,10,62,29/10/2023
+0,Nottm Forest,3,Liverpool,10,62,29/10/2023
+2,West Ham,3,Brentford,11,64,04/11/2023
+1,Man United,0,Fulham,11,64,04/11/2023
+1,Wolves,2,Sheffield United,11,65,04/11/2023
+1,Bournemouth,6,Man City,11,65,04/11/2023
+1,Brighton,1,Everton,11,66,04/11/2023
+2,Crystal Palace,0,Burnley,11,66,04/11/2023
+0,Aston Villa,2,Nottm Forest,11,67,05/11/2023
+0,Arsenal,1,Newcastle,11,67,04/11/2023
+4,Chelsea,1,Tottenham,11,68,06/11/2023
+1,Liverpool,1,Luton Town,11,68,05/11/2023
+0,Luton Town,1,Man United,12,70,11/11/2023
+1,Tottenham,2,Wolves,12,70,11/11/2023
+3,Everton,2,Crystal Palace,12,71,11/11/2023
+1,Burnley,3,Arsenal,12,71,11/11/2023
+1,Fulham,3,Aston Villa,12,72,12/11/2023
+0,Newcastle,2,Bournemouth,12,72,11/11/2023
+2,Nottm Forest,3,West Ham,12,73,12/11/2023
+1,Sheffield United,1,Brighton,12,73,12/11/2023
+4,Man City,4,Chelsea,12,74,12/11/2023
+0,Brentford,3,Liverpool,12,74,12/11/2023
+3,Bournemouth,1,Sheffield United,13,76,25/11/2023
+1,Liverpool,1,Man City,13,76,25/11/2023
+2,West Ham,1,Burnley,13,77,25/11/2023
+3,Brighton,2,Nottm Forest,13,77,25/11/2023
+1,Chelsea,4,Newcastle,13,78,25/11/2023
+1,Crystal Palace,2,Luton Town,13,78,25/11/2023
+2,Aston Villa,1,Tottenham,13,79,26/11/2023
+1,Arsenal,0,Brentford,13,79,25/11/2023
+2,Wolves,3,Fulham,13,80,27/11/2023
+3,Man United,0,Everton,13,80,26/11/2023
+1,Wolves,2,Arsenal,14,82,02/12/2023
+1,Luton Town,3,Brentford,14,82,02/12/2023
+1,Everton,0,Nottm Forest,14,83,02/12/2023
+0,Sheffield United,5,Burnley,14,83,02/12/2023
+2,Brighton,3,Chelsea,14,84,03/12/2023
+0,Man United,1,Newcastle,14,84,02/12/2023
+1,Crystal Palace,1,West Ham,14,85,03/12/2023
+3,Fulham,4,Liverpool,14,85,03/12/2023
+3,Tottenham,3,Man City,14,86,03/12/2023
+2,Aston Villa,2,Bournemouth,14,86,03/12/2023
+4,Arsenal,3,Luton Town,15,88,05/12/2023
+0,Burnley,1,Wolves,15,88,05/12/2023
+0,Nottm Forest,5,Fulham,15,89,06/12/2023
+2,Liverpool,0,Sheffield United,15,89,06/12/2023
+1,Brentford,2,Brighton,15,90,06/12/2023
+2,Bournemouth,0,Crystal Palace,15,90,06/12/2023
+0,Man City,1,Aston Villa,15,91,06/12/2023
+0,Newcastle,3,Everton,15,92,07/12/2023
+1,Chelsea,2,Man United,15,92,06/12/2023
+2,West Ham,1,Tottenham,15,93,07/12/2023
+1,Nottm Forest,1,Wolves,16,95,09/12/2023
+2,Liverpool,1,Crystal Palace,16,95,09/12/2023
+0,Brentford,1,Sheffield United,16,96,09/12/2023
+1,Burnley,1,Brighton,16,96,09/12/2023
+0,Arsenal,1,Aston Villa,16,97,09/12/2023
+3,Bournemouth,0,Man United,16,97,09/12/2023
+0,West Ham,5,Fulham,16,98,10/12/2023
+2,Man City,1,Luton Town,16,98,10/12/2023
+1,Newcastle,4,Tottenham,16,99,10/12/2023
+0,Chelsea,2,Everton,16,99,10/12/2023
+0,Sheffield United,2,Chelsea,17,101,16/12/2023
+2,Tottenham,0,Nottm Forest,17,101,15/12/2023
+0,Fulham,3,Newcastle,17,102,16/12/2023
+2,Crystal Palace,2,Man City,17,102,16/12/2023
+0,Wolves,3,West Ham,17,103,17/12/2023
+2,Everton,0,Burnley,17,103,16/12/2023
+0,Brighton,2,Arsenal,17,104,17/12/2023
+2,Aston Villa,1,Brentford,17,104,17/12/2023
+0,Man United,0,Liverpool,17,105,17/12/2023
+1,Sheffield United,1,Aston Villa,18,107,22/12/2023
+1,Brighton,1,Crystal Palace,18,107,21/12/2023
+1,Everton,2,Tottenham,18,108,23/12/2023
+0,Man United,2,West Ham,18,108,23/12/2023
+2,Burnley,0,Fulham,18,109,23/12/2023
+3,Bournemouth,2,Nottm Forest,18,109,23/12/2023
+1,Arsenal,1,Liverpool,18,110,23/12/2023
+0,Newcastle,1,Luton Town,18,110,23/12/2023
+1,Chelsea,2,Wolves,18,111,24/12/2023
+3,Luton Town,2,Sheffield United,19,113,26/12/2023
+3,Nottm Forest,1,Newcastle,19,113,26/12/2023
+2,Liverpool,0,Burnley,19,114,26/12/2023
+0,Fulham,3,Bournemouth,19,114,26/12/2023
+1,Crystal Palace,2,Chelsea,19,115,27/12/2023
+2,Aston Villa,3,Man United,19,115,26/12/2023
+3,Man City,1,Everton,19,116,27/12/2023
+4,Wolves,1,Brentford,19,116,27/12/2023
+2,West Ham,0,Arsenal,19,117,28/12/2023
+2,Tottenham,4,Brighton,19,117,28/12/2023
+1,Brentford,3,Crystal Palace,20,119,30/12/2023
+3,Chelsea,2,Luton Town,20,119,30/12/2023
+2,Burnley,3,Aston Villa,20,120,30/12/2023
+0,Sheffield United,2,Man City,20,120,30/12/2023
+1,Man United,2,Nottm Forest,20,121,30/12/2023
+0,Everton,3,Wolves,20,121,30/12/2023
+1,Bournemouth,3,Tottenham,20,122,31/12/2023
+1,Arsenal,2,Fulham,20,122,31/12/2023
+0,Brighton,0,West Ham,20,123,02/01/2024
+2,Newcastle,4,Liverpool,20,123,01/01/2024
+0,Fulham,1,Chelsea,21,125,13/01/2024
+1,Luton Town,1,Burnley,21,125,12/01/2024
+0,Aston Villa,0,Everton,21,126,14/01/2024
+3,Man City,2,Newcastle,21,126,13/01/2024
+0,Crystal Palace,5,Arsenal,21,127,20/01/2024
+2,Tottenham,2,Man United,21,127,14/01/2024
+2,West Ham,2,Sheffield United,21,128,21/01/2024
+2,Nottm Forest,3,Brentford,21,128,20/01/2024
+0,Wolves,0,Brighton,21,129,22/01/2024
+4,Liverpool,0,Bournemouth,21,129,21/01/2024
+0,Brighton,4,Luton Town,22,131,30/01/2024
+2,Arsenal,1,Nottm Forest,22,131,30/01/2024
+2,Sheffield United,3,Crystal Palace,22,132,30/01/2024
+0,Everton,0,Fulham,22,132,30/01/2024
+1,Burnley,3,Man City,22,133,31/01/2024
+3,Newcastle,1,Aston Villa,22,133,30/01/2024
+1,Chelsea,4,Liverpool,22,134,31/01/2024
+2,Brentford,3,Tottenham,22,134,31/01/2024
+4,Man United,3,Wolves,22,135,01/02/2024
+1,Bournemouth,1,West Ham,22,135,01/02/2024
+1,Crystal Palace,4,Brighton,23,137,03/02/2024
+2,Tottenham,2,Everton,23,137,03/02/2024
+2,Fulham,2,Burnley,23,138,03/02/2024
+4,Luton Town,4,Newcastle,23,138,03/02/2024
+1,Nottm Forest,1,Bournemouth,23,139,04/02/2024
+5,Aston Villa,0,Sheffield United,23,139,03/02/2024
+4,Wolves,2,Chelsea,23,140,04/02/2024
+0,West Ham,3,Man United,23,140,04/02/2024
+3,Man City,1,Brentford,23,141,05/02/2024
+1,Liverpool,3,Arsenal,23,141,04/02/2024
+2,Brentford,0,Wolves,24,143,10/02/2024
+0,Everton,2,Man City,24,143,10/02/2024
+1,Brighton,2,Tottenham,24,144,10/02/2024
+1,Bournemouth,3,Fulham,24,144,10/02/2024
+1,Burnley,3,Liverpool,24,145,10/02/2024
+3,Sheffield United,1,Luton Town,24,145,10/02/2024
+6,Arsenal,0,West Ham,24,146,11/02/2024
+3,Newcastle,2,Nottm Forest,24,146,10/02/2024
+3,Chelsea,1,Crystal Palace,24,147,12/02/2024
+2,Man United,1,Aston Villa,24,147,11/02/2024
+5,Arsenal,0,Burnley,25,149,17/02/2024
+4,Liverpool,1,Brentford,25,149,17/02/2024
+2,Aston Villa,1,Fulham,25,150,17/02/2024
+2,Bournemouth,2,Newcastle,25,150,17/02/2024
+2,Wolves,1,Tottenham,25,151,17/02/2024
+0,West Ham,2,Nottm Forest,25,151,17/02/2024
+5,Brighton,0,Sheffield United,25,152,18/02/2024
+1,Chelsea,1,Man City,25,152,17/02/2024
+1,Crystal Palace,1,Everton,25,153,19/02/2024
+2,Man United,1,Luton Town,25,153,18/02/2024
+0,Brentford,1,Man City,18,155,20/02/2024
+0,Burnley,3,Crystal Palace,26,157,24/02/2024
+1,Luton Town,4,Liverpool,26,157,21/02/2024
+2,Fulham,1,Man United,26,158,24/02/2024
+2,Nottm Forest,4,Aston Villa,26,158,24/02/2024
+1,Man City,0,Bournemouth,26,159,24/02/2024
+1,Everton,1,Brighton,26,159,24/02/2024
+0,Sheffield United,1,Wolves,26,160,25/02/2024
+1,Newcastle,4,Arsenal,26,160,24/02/2024
+2,Brentford,4,West Ham,26,161,26/02/2024
+2,Chelsea,2,Brentford,27,163,02/03/2024
+1,Liverpool,0,Nottm Forest,27,163,02/03/2024
+0,Brighton,3,Fulham,27,164,02/03/2024
+3,West Ham,1,Everton,27,164,02/03/2024
+1,Crystal Palace,3,Tottenham,27,165,02/03/2024
+0,Wolves,3,Newcastle,27,165,02/03/2024
+2,Bournemouth,0,Burnley,27,166,03/03/2024
+3,Aston Villa,2,Luton Town,27,166,02/03/2024
+6,Arsenal,0,Sheffield United,27,167,04/03/2024
+1,Man United,3,Man City,27,167,03/03/2024
+1,Luton Town,1,Crystal Palace,28,169,09/03/2024
+0,Everton,2,Man United,28,169,09/03/2024
+1,Fulham,2,Wolves,28,170,09/03/2024
+2,Sheffield United,2,Bournemouth,28,170,09/03/2024
+4,Tottenham,0,Aston Villa,28,171,10/03/2024
+1,Brentford,2,Arsenal,28,171,09/03/2024
+0,Nottm Forest,1,Brighton,28,172,10/03/2024
+2,Burnley,2,West Ham,28,172,10/03/2024
+2,Newcastle,3,Chelsea,28,173,11/03/2024
+1,Man City,1,Liverpool,28,173,10/03/2024
+3,Luton Town,4,Bournemouth,17,175,13/03/2024
+1,Nottm Forest,1,Luton Town,29,177,16/03/2024
+1,Brentford,2,Burnley,29,177,16/03/2024
+1,Aston Villa,1,West Ham,29,178,17/03/2024
+0,Tottenham,3,Fulham,29,178,16/03/2024
+2,Burnley,2,Chelsea,30,180,30/03/2024
+3,West Ham,4,Newcastle,30,180,30/03/2024
+1,Crystal Palace,1,Nottm Forest,30,181,30/03/2024
+3,Fulham,3,Sheffield United,30,181,30/03/2024
+1,Luton Town,2,Tottenham,30,182,30/03/2024
+1,Everton,2,Bournemouth,30,182,30/03/2024
+1,Man United,1,Brentford,30,183,30/03/2024
+0,Wolves,2,Aston Villa,30,183,30/03/2024
+0,Arsenal,0,Man City,30,184,31/03/2024
+1,Brighton,2,Liverpool,30,184,31/03/2024
+1,Fulham,3,Nottm Forest,31,186,02/04/2024
+1,Everton,1,Newcastle,31,186,02/04/2024
+0,Crystal Palace,1,Bournemouth,31,187,02/04/2024
+1,Wolves,1,Burnley,31,187,02/04/2024
+0,Brighton,0,Brentford,31,188,03/04/2024
+1,Tottenham,1,West Ham,31,188,02/04/2024
+1,Aston Villa,4,Man City,31,189,03/04/2024
+0,Luton Town,2,Arsenal,31,189,03/04/2024
+3,Man United,4,Chelsea,31,190,04/04/2024
+1,Sheffield United,3,Liverpool,31,190,04/04/2024
+2,West Ham,1,Wolves,32,192,06/04/2024
+4,Man City,2,Crystal Palace,32,192,06/04/2024
+3,Brentford,3,Aston Villa,32,193,06/04/2024
+0,Burnley,1,Everton,32,193,06/04/2024
+1,Bournemouth,2,Luton Town,32,194,06/04/2024
+1,Newcastle,0,Fulham,32,194,06/04/2024
+2,Liverpool,2,Man United,32,195,07/04/2024
+3,Arsenal,0,Brighton,32,195,06/04/2024
+1,Nottm Forest,3,Tottenham,32,196,07/04/2024
+2,Chelsea,2,Sheffield United,32,196,07/04/2024
+0,Sheffield United,2,Brentford,33,198,13/04/2024
+0,Tottenham,4,Newcastle,33,198,13/04/2024
+2,Wolves,2,Nottm Forest,33,199,13/04/2024
+1,Luton Town,5,Man City,33,199,13/04/2024
+2,Man United,2,Bournemouth,33,200,13/04/2024
+1,Brighton,1,Burnley,33,200,13/04/2024
+2,Fulham,0,West Ham,33,201,14/04/2024
+1,Crystal Palace,0,Liverpool,33,201,14/04/2024
+0,Everton,6,Chelsea,33,202,15/04/2024
+2,Aston Villa,0,Arsenal,33,202,14/04/2024
+4,Burnley,1,Sheffield United,34,204,20/04/2024
+5,Brentford,1,Luton Town,34,204,20/04/2024
+0,Nottm Forest,2,Everton,34,205,21/04/2024
+2,Arsenal,0,Wolves,34,205,20/04/2024
+1,Bournemouth,3,Aston Villa,34,206,21/04/2024
+2,West Ham,5,Crystal Palace,34,206,21/04/2024
+3,Liverpool,1,Fulham,34,207,21/04/2024
+1,Bournemouth,0,Wolves,29,209,24/04/2024
+0,Chelsea,5,Arsenal,29,209,23/04/2024
+2,Sheffield United,4,Man United,29,210,24/04/2024
+0,Newcastle,2,Crystal Palace,29,210,24/04/2024
+4,Man City,0,Brighton,29,211,25/04/2024
+0,Liverpool,2,Everton,29,211,24/04/2024
+1,Crystal Palace,1,Fulham,35,213,27/04/2024
+2,Liverpool,2,West Ham,35,213,27/04/2024
+1,Burnley,1,Man United,35,214,27/04/2024
+1,Sheffield United,5,Newcastle,35,214,27/04/2024
+0,Brentford,1,Everton,35,215,27/04/2024
+1,Luton Town,2,Wolves,35,215,27/04/2024
+0,Brighton,3,Bournemouth,35,216,28/04/2024
+2,Chelsea,2,Aston Villa,35,216,27/04/2024
+2,Man City,0,Nottm Forest,35,217,28/04/2024
+3,Arsenal,2,Tottenham,35,217,28/04/2024
+0,Tottenham,2,Chelsea,26,219,02/05/2024
+0,Bournemouth,3,Arsenal,36,221,04/05/2024
+1,Everton,1,Luton Town,36,221,03/05/2024
+4,Newcastle,1,Burnley,36,222,04/05/2024
+0,Fulham,0,Brentford,36,222,04/05/2024
+1,Wolves,5,Man City,36,223,04/05/2024
+3,Nottm Forest,1,Sheffield United,36,223,04/05/2024
+0,Aston Villa,1,Brighton,36,224,05/05/2024
+0,West Ham,5,Chelsea,36,224,05/05/2024
+0,Man United,4,Crystal Palace,36,225,06/05/2024
+2,Tottenham,4,Liverpool,36,225,05/05/2024
+0,Sheffield United,1,Everton,37,227,11/05/2024
+4,Man City,0,Fulham,37,227,11/05/2024
+2,Brentford,1,Bournemouth,37,228,11/05/2024
+1,Luton Town,3,West Ham,37,228,11/05/2024
+1,Burnley,2,Tottenham,37,229,11/05/2024
+3,Crystal Palace,1,Wolves,37,229,11/05/2024
+3,Chelsea,2,Nottm Forest,37,230,11/05/2024
+1,Brighton,1,Newcastle,37,230,11/05/2024
+3,Liverpool,3,Aston Villa,37,231,13/05/2024
+1,Arsenal,0,Man United,37,231,12/05/2024
+2,Chelsea,1,Brighton,34,233,15/05/2024
+2,Man City,0,Tottenham,34,233,14/05/2024
+2,Newcastle,3,Man United,34,234,15/05/2024
+3,Tottenham,0,Sheffield United,38,236,19/05/2024
+0,Wolves,2,Liverpool,38,236,19/05/2024
+2,Man United,0,Brighton,38,237,19/05/2024
+4,Fulham,2,Luton Town,38,237,19/05/2024
+1,Everton,2,Arsenal,38,238,19/05/2024
+1,West Ham,3,Man City,38,238,19/05/2024
+0,Aston Villa,5,Crystal Palace,38,239,19/05/2024
+4,Newcastle,2,Brentford,38,239,19/05/2024
+1,Bournemouth,2,Chelsea,38,240,19/05/2024
+2,Nottm Forest,1,Burnley,38,240,19/05/2024
