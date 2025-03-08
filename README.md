@@ -55,7 +55,20 @@
 |36||[]()|[](2024/preppin-data-2024-36/README.md)|| &nbsp;&nbsp; |
 |37||[]()|[](2024/preppin-data-2024-37/README.md)|| &nbsp;&nbsp; |
 |38|Preppin' Consultancy Days|[📋](https://preppindata.blogspot.com/2024/09/2024-week-38-preppin-consultancy-days.html)|[✅](2024/preppin-data-2024-38/README.md)||7 &nbsp;&nbsp;🔥|
-
+|39||[]()|[](2024/preppin-data-2024-39/README.md)|| &nbsp;&nbsp; |
+|40||[]()|[](2024/preppin-data-2024-40/README.md)|| &nbsp;&nbsp; |
+|41||[]()|[](2024/preppin-data-2024-41/README.md)|| &nbsp;&nbsp; |
+|42||[]()|[](2024/preppin-data-2024-42/README.md)|| &nbsp;&nbsp; |
+|43||[]()|[](2024/preppin-data-2024-43/README.md)|| &nbsp;&nbsp; |
+|44||[]()|[](2024/preppin-data-2024-44/README.md)|| &nbsp;&nbsp; |
+|45||[]()|[](2024/preppin-data-2024-45/README.md)|| &nbsp;&nbsp; |
+|46||[]()|[](2024/preppin-data-2024-46/README.md)|| &nbsp;&nbsp; |
+|47||[]()|[](2024/preppin-data-2024-47/README.md)|| &nbsp;&nbsp; |
+|48||[]()|[](2024/preppin-data-2024-48/README.md)|| &nbsp;&nbsp; |
+|49||[]()|[](2024/preppin-data-2024-49/README.md)|| &nbsp;&nbsp; |
+|50|Life Expectancy|[📋](https://preppindata.blogspot.com/2024/12/2024-week-50-life-expectancy.html)|[✅](2024/preppin-data-2024-50/README.md)||6 &nbsp;&nbsp; |
+|51|Strictly Positive Improvements?|[📋](https://preppindata.blogspot.com/2024/12/2024-week-51-strictly-positive.html)|[✅](2024/preppin-data-2024-51/README.md)||6 &nbsp;&nbsp; |
+|52|Naughty or Nice|[📋](https://preppindata.blogspot.com/2024/12/2024-week-52-naughty-or-nice.html)|[✅](2024/preppin-data-2024-52/README.md)||5 &nbsp;&nbsp; |
 
 
 <a id="2023"></a><details>
