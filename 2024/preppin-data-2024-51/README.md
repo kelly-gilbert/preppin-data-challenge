@@ -1,4 +1,4 @@
-<h6><a href="..\preppin-data-2024-50\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2024-52\README.md">Next Week  ▶</a></h6>
+<h6><a href="..\preppin-data-2024-50\README.md">◀️  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2024-52\README.md">Next Week  ▶️</a></h6>
 
 # Preppin' Data 2024 Week 51 - Strictly Positive Improvements?
 

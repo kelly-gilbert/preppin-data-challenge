@@ -1,4 +1,4 @@
-<h6><a href="..\preppin-data-2024-49\README.md">â—€  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2024-51\README.md">Next Week  â–¶</a></h6>
+<h6><a href="..\preppin-data-2024-49\README.md">◀️  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2024-51\README.md">Next Week  ▶️</a></h6>
 
 # Preppin' Data 2024 Week 50 - Life Expectancy
 

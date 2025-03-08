@@ -1,4 +1,4 @@
-<h6><a href="..\preppin-data-2024-51\README.md">◀  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2025-01\README.md">Next Week  ▶</a></h6>
+<h6><a href="..\preppin-data-2024-51\README.md">◀️  Prev Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="..\preppin-data-2025-01\README.md">Next Week  ▶️</a></h6>
 
 # Preppin' Data 2024 Week 52 - Naughty or Nice
 
